@@ -31,7 +31,7 @@ jobs:
 
       - name: Build documentation
         run: |
-          env/bin/bikeshed spec index.bs
+          bikeshed spec index.bs
           cp index.html spec.html
           pylode -p supermodel -o index.html owl.xml
 
