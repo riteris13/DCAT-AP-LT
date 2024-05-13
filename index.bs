@@ -1,0 +1,80 @@
+<pre class='metadata'>
+Title: DCAT-AP-LT
+Shortname: DCAT-AP-LT
+Level: 1
+Status: LD
+Repository: ivpk/DCAT-AP-LT
+URL: https://ivpk.github.io/DCAT-AP-LT/
+Editor: IVPK, https://ivpk.lrv.lt/lt/
+Abstract: A short description of your spec, one or two sentences.
+Complain About: accidental-2119 yes, missing-example-ids yes
+Markup Shorthands: markdown yes, css no
+</pre>
+
+# Introduction
+
+Introduction here.
+
+## Context
+
+Context here.
+
+## Scope
+
+Scope here.
+
+# Status
+
+Status.
+
+# Licence
+
+Licence.
+
+# Terminology
+
+<table>
+    <tr>
+        <th>Prefix</th>
+        <th>Namespace IRI</th>
+    </tr>
+    <tr>
+        <td>`dcat`</td>
+        <td>`http://www.w3.org/ns/dcat#`</td>
+    </tr>
+</table>
+
+
+# Overview
+
+<!--img src="diagram.png" /-->
+
+
+# Main Entities
+
+## Information system
+
+<dl>
+    <dt>Definition</dt>
+    <dd>Inform abould IS.</dd>
+    <dt>Properties</dt>
+    <dd>
+        <table class="data-table simple">
+            <tr>
+                <th>Property</th>
+                <th>Range</th>
+                <th>Card</th>
+                <th>Definition</th>
+                <th>Usage</th>
+            </tr>
+            <tr>
+                <td>[prop1](https://example.com/1)</td>
+                <td>[prop1](https://example.com/2)</td>
+                <td>0..*</td>
+                <td>Definition text.</td>
+                <td>Usage notes.</td>
+            </tr>
+        </table>
+    </dd>
+</dl>
+
