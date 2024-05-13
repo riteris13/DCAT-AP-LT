@@ -47,7 +47,7 @@ Licence.
 
 # Overview
 
-<!--img src="diagram.png" /-->
+<img src="uml.svg" width="800px" height="454px">
 
 
 # Main Entities
