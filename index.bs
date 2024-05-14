@@ -14,7 +14,7 @@ Markup Shorthands: markdown yes, css no
 # Įžanga
 
 DCAT-AP-LT yra metaduomenų specifikacija, skirta Lietuvos viešojo sektoriaus duomenų rinkiniams ir paslaugoms aprašyti. DCAT-AP-LT yra Europos metaduomenų specifikacijos DCAT-AP plėtinys, parengtas vadovaujantis DCAT-AP specifikacijos formavimui nustatytomis taisyklėmis ir rekomendacijomis, įtraukiant ontologijas ir tezaurus kaip pagalbines priemones aprašant duomenis.
-DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sistemos klase išplečiančia dcat:Catalog klasę bei dvejais kontroliuojamais žodynais Informacinės sistemos tipui ir svarbai pažymėti pagal Valstybės informacinių išteklių įsakyme pateiktą tvarką.
+DCAT-AP-LT apima BREG-DCAT-AP naudojamas klases ir papildo jas Informacinės Sistemos klase išplečiančia dcat:Catalog klasę bei dvejais kontroliuojamais žodynais Informacinės sistemos tipui ir svarbai pažymėti pagal Valstybės informacinių išteklių įsakyme pateiktą tvarką.
 
 ## Kontekstas
 
