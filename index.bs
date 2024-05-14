@@ -10,17 +10,29 @@ Abstract: A short description of your spec, one or two sentences.
 Complain About: accidental-2119 yes, missing-example-ids yes
 Markup Shorthands: markdown yes, css no
 </pre>
+
 # Įvadas
+
 Introduction here.
+
 ## Context
+
 Context here.
+
 ## Scope
+
 Scope here.
+
 # Status
+
 Status.
+
 # Licence
+
 Licence.
+
 # Terminology
+
 <table>
     <tr>
         <th>Prefix</th>
@@ -31,10 +43,18 @@ Licence.
         <td>`http://www.w3.org/ns/dcat#`</td>
     </tr>
 </table>
+
+
 # Overview
+
 <img src="uml.svg" width="800px" height="454px">
+
+
+
 # Main Entities
+
 ## Information system
+
 <dl>
     <dt>Definition</dt>
     <dd>Inform abould IS.</dd>
