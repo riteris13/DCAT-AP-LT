@@ -59,7 +59,7 @@ Licence.
     <dd>Inform abould IS.</dd>
     <dt>Properties</dt>
     <dd>
-        <table class="data-table simple">
+        <table class="data-table__header"">
             <tr>
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Property</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
