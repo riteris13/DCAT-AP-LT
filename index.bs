@@ -158,17 +158,17 @@ Licence.
             </tr>
             <tr class="data-table__header">
                 <td>[Registrų informacinė sistema](http://data.gov.lt/onto/DCATAPLT/Type/registerInformationSystem)</td>
-                <td>[ConceptScheme](http://www.w3.org/2004/02/skos/core#ConceptScheme)</td>
+                <td>[Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Registrų informacinės sistemos, kuriose registruojami objektai, tvarkomi objektų ir jų registravimo duomenys.</td>      
             </tr>
             <tr class="data-table__header">
                 <td>[Valstybės informacinė sistema](http://data.gov.lt/onto/DCATAPLT/Type/stateInformationSystem)</td>
-                <td>[ConceptScheme](http://www.w3.org/2004/02/skos/core#ConceptScheme)</td>
+                <td>[Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Valstybės informacinės sistemos, kuriose tvarkomi subjektų teisės aktuose nustatytoms funkcijoms atlikti reikalingi duomenys, įskaitant ir valstybės informacines sistemas, skirtas kelių ar daugelio subjektų jų veiklą reglamentuojančiuose teisės aktuose nustatytoms vienodo pobūdžio veiklos funkcijoms atlikti ir duomenims tvarkyti.</td>      
             </tr>
             <tr class="data-table__header">
                 <td>[Vidaus administravimo informacinė sistema](http://data.gov.lt/onto/DCATAPLT/Importance/moderatelyImportant)</td>
-                <td>[ConceptScheme](http://www.w3.org/2004/02/skos/core#ConceptScheme)</td>
+                <td>[Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Vidaus administravimo informacinės sistemos, kuriose tvarkomi subjektų valdomi duomenys, reikalingi vidaus administravimo funkcijoms ar kitoms pagalbinio pobūdžio funkcijoms, kurios padeda įgyvendinti subjektui teisės aktuose nustatytus uždavinius.</td>      
             </tr>
         </table>
