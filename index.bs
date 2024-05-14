@@ -41,7 +41,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
 
 DCAT-AP-LT 1.00 
 
-# Licence
+# Licencija
 
 Licence.
 
