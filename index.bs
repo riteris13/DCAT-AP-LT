@@ -119,7 +119,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Reikšmė</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Reikšmės aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Reikšmės aprašymas</th>
             </tr>
             <tr class="data-table__header">
                 <td>[Ypatingos svarbos - 1](http://data.gov.lt/controlled-vocabulary/importance/highlyImportant)</td>
@@ -156,7 +156,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Reikšmė</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Reikšmės aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Reikšmės aprašymas</th>
             </tr>
             <tr class="data-table__header">
                 <td>[Registrų informacinė sistema](http://data.gov.lt/onto/DCATAPLT/Type/registerInformationSystem)</td>
