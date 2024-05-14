@@ -147,7 +147,7 @@ Licence.
 
 <dl>
     <dt>Apibrėžimas</dt>
-    <dd style="color: #E10600">Papildyti IS sistemų tipų aprašą.</dd>
+    <dd>Informacinės sistemos tipas pagal Valstybės informacinių išeklių valdymo įstatymo reikalavimus.</dd>
     <dt>Galimų informacinių sistemų tipų sąrašas</dt>
     <dd>
         <table class="data-table simple">
