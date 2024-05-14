@@ -74,6 +74,20 @@ Licence.
                 <td>Informacinės sistemos svarba.</td>
                 <td>Informacinės sistemos svarba pagal Valstybės informacinių išeklių valdymo įstatymo reikalavimus.</td>
             </tr>
+            <tr>
+                <td>[type](http://data.gov.lt/onto/DCATAPLT#type)</td>
+                <td>[Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
+                <td>1..1</td>
+                <td>Informacinės sistemos tipas.</td>
+                <td>Informacinės sistemos tipas pagal Valstybės informacinių išeklių valdymo įstatymo reikalavimus.</td>
+            </tr>
+            <tr>
+                <td>[IS importance assessment](http://data.gov.lt/onto/DCATAPLT#importanceAssessmentURL)</td>
+                <td>[AccessURL](http://www.w3.org/ns/dcat#accessURL)</td>
+                <td>1..1</td>
+                <td>Informacinės sistemos svarbos vertinimas.</td>
+                <td>URL nuoroda į informacinės sistemos svarbos vertinimo dokumentą.</td>
+            </tr>
         </table>
     </dd>
 </dl>
