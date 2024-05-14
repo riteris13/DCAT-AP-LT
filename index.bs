@@ -176,3 +176,8 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
         </table>
     </dd>
 </dl>
+
+
+# Naudojamos BregDCAT-AP klasės ir savybės
+
+
