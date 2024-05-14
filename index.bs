@@ -68,11 +68,11 @@ Licence.
                 <th>Usage</th>
             </tr>
             <tr>
-                <td>[prop1](https://example.com/1)</td>
-                <td>[prop1](https://example.com/2)</td>
-                <td>0..*</td>
-                <td>Definition text.</td>
-                <td>Usage notes.</td>
+                <td>[importance](http://data.gov.lt/onto/DCATAPLT#importance)</td>
+                <td>[Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
+                <td>1..1</td>
+                <td>Informacinės sistemos svarba.</td>
+                <td>Informacinės sistemos svarba pagal Valstybės informacinių išeklių valdymo įstatymo reikalavimus.</td>
             </tr>
         </table>
     </dd>
