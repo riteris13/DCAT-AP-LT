@@ -44,7 +44,7 @@ DCAT-AP-LT 1.00
 
 Licence.
 
-# Terminology
+# Terminologija
 
 <table>
     <tr>
