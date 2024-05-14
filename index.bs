@@ -61,11 +61,11 @@ Licence.
     <dd>
         <table class="data-table simple">
             <tr>
-                <th>Property</th>
-                <th>Range</th>
-                <th>Card</th>
-                <th>Definition</th>
-                <th>Usage</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Property</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Range</th>
+                <th class="data-table__header-title--sortable" style="width:6%">Card</th>
+                <th class="data-table__header-title--sortable" style="width:30%">Definition</th>
+                <th class="data-table__header-title--sortable" style="width:30%">Usage</th>
             </tr>
             <tr>
                 <td>[importance](http://data.gov.lt/onto/DCATAPLT#importance)</td>
@@ -77,4 +77,3 @@ Licence.
         </table>
     </dd>
 </dl>
-
