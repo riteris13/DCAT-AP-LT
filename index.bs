@@ -6,7 +6,7 @@ Status: LD
 Repository: ivpk/DCAT-AP-LT
 URL: https://ivpk.github.io/DCAT-AP-LT/
 Editor: IVPK, https://ivpk.lrv.lt/lt/
-Abstract: A short description of your spec, one or two sentences.
+Abstract: DCAT-AP-LT metaduomenų modelis.
 Complain About: accidental-2119 yes, missing-example-ids yes
 Markup Shorthands: markdown yes, css no
 </pre>
@@ -28,17 +28,17 @@ DCAT-AP-LT yra metaduomenų specifikacija, skirta Lietuvos viešojo sektoriaus d
 Ši specifikacija turi palaikyti šias planuojamas duomenų erdves ir užtikrinti lengvesnį duomenų valdymą jose.  Realizavus šią specifikaciją informacinėje sistemoje, kur bus kataloguojami Lietuvos Respublikos registrų duomenys - bus sukuriamos priemonės, padedančios Lietuvos duomenų valdymo sričių įgaliotiniams kurti registrų duomenų valdymo strategijas, atpažinti netikslingą informacijos dubliavimą, taip pat suteiks galimybę dalintis Lietuvos Respublikos duomenimis su Europos Sąjunga pagal bendrą semantinį modelį.
 
 
-## Context
+## Kontekstas
 
 Context here.
 
-## Scope
+## Aprėptis
 
 Šis modelis yra orientuotas į viešųjų organizacijų atvirų ir uždarų duomenų valdymą, publikavimą ir susiejimą su duomenų tvarkymu, teikiant viešąsias administravimo paslaugas pagal teisinį reguliavimą Lietuvoje.
 
-# Status
+# Statusas
 
-Status.
+DCAT-AP-LT 1.00 
 
 # Licence
 
