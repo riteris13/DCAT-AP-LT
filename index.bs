@@ -59,7 +59,7 @@ Licence.
     <dd>Inform abould IS.</dd>
     <dt>Properties</dt>
     <dd>
-        <table class="data-table simple">
+        <table class="data-table simple"; border-collapse: separate;>
             <tr>
                 <th>Property</th>
                 <th>Range</th>
