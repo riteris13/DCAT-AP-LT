@@ -92,3 +92,25 @@ Licence.
         </table>
     </dd>
 </dl>
+
+## Svarba
+
+<dl>
+    <dt>Apibrėžimas</dt>
+    <dd>Informacinės sistemos svarba pagal Valstybės informacinių išeklių valdymo įstatymo reikalavimus.</dd>
+    <dt>Galimų svarbos lygmenų sąrašas</dt>
+    <dd>
+        <table class="data-table simple">
+            <tr>
+                <th>Reikšmė</th>
+                <th>Reikšmės aprašymas</th>
+            </tr>
+            <tr>
+                <td>Ypatingos svarbos - 1</td>
+                <td>Ypatingos svarbos valstybės informaciniai ištekliai – informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius visai valstybei (poveikis daugiau negu 5 apskrityse, daugiau negu 50 procentų gyventojų ar institucijų</td>
+                
+               
+            </tr>
+        </table>
+    </dd>
+</dl>
