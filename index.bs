@@ -76,10 +76,10 @@ Licence.
         <table class="data-table simple">
             <tr class="data-table__header">
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Property</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Range</th>
-                <th class="data-table__header-title--sortable" style="width:6%">Card</th>
-                <th class="data-table__header-title--sortable" style="width:30%">Definition</th>
-                <th class="data-table__header-title--sortable" style="width:30%">Usage</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:6%">Kardinalumas</th>
+                <th class="data-table__header-title--sortable" style="width:30%">Apibrėžimas</th>
+                <th class="data-table__header-title--sortable" style="width:30%">Aprašymas</th>
             </tr>
             <tr class="data-table__header">
                 <td>[importance](http://data.gov.lt/onto/DCATAPLT#importance)</td>
