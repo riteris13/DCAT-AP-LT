@@ -59,24 +59,24 @@ Licence.
 </table>
 
 
-# Overview
+# Modelio apžvalga
 
 <img src="uml.svg" width="800px" height="454px">
 
 
 
-# Main Entities
+# Pagrindinės esybės
 
-## Information system
+## Informacinė Sistema
 
 <dl>
-    <dt>Definition</dt>
+    <dt>Apibrėžimas</dt>
     <dd>Programinės įrangos visuma valstybės ar savivaldybės institucijos ar įstaigos, kito viešojo administravimo subjekto, viešosios įstaigos ar valstybės valdomos įmonės veiklos procesams skaitmenizuoti, duomenims tvarkyti ir (ar) administracinėms ar viešosioms paslaugoms teikti elektroniniu būdu.</dd>
-    <dt>Properties</dt>
+    <dt>Savybės</dt>
     <dd>
         <table class="data-table simple">
             <tr class="data-table__header">
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Property</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Intervalas</th>
                 <th class="data-table__header-title--sortable" style="width:6%">Kardinalumas</th>
                 <th class="data-table__header-title--sortable" style="width:30%">Apibrėžimas</th>
