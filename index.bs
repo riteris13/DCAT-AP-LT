@@ -208,7 +208,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
                 <th class="data-table__header-title--sortable" style="width:40%">Aprašymas</th>
             </tr>
             <tr class="data-table__header">
-                <td>aprašymas</td>
+                <td>Aprašymas</td>
                 <td>[dct:description](https://w3c.github.io/dxwg/dcat/#Property:resource_description)</td>
                 <td>[rdfs:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Literal)</td>
                 <td>1..n</td>
@@ -216,7 +216,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
                 <td>Šioje savybėje pateikiamas katalogo laisvo teksto aprašas laisvos formos tekstu. Šią savybę galima pateikti keliomis kalbomis.</td>
             </tr>
             <tr class="data-table__header">
-                <td>skelbėjas</td>
+                <td>Skelbėjas</td>
                 <td>[dct:publisher](https://w3c.github.io/dxwg/dcat/#Property:resource_publisher)</td>
                 <td>[foaf:Agent](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Agent)</td>
                 <td>1..1</td>
@@ -224,7 +224,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
                 <td>Ši savybė nurodo subjektą (organizaciją), atsakingą už katalogo prieinamumą.</td>
             </tr>
             <tr class="data-table__header">
-                <td>pavadinimas</td>
+                <td>Pavadinimas</td>
                 <td>[dct:title](https://w3c.github.io/dxwg/dcat/#Property:resource_title)</td>
                 <td>[rdfs:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Literal)</td>
                 <td>1..n</td>
@@ -256,7 +256,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
                 <td>Nuoroda į IS svarbos nustatymo įsivertinimo įrodymą.</td>
             </tr>
             <tr class="data-table__header">
-                <td>duomenų rinkinys</td>
+                <td>Duomenų rinkinys</td>
                 <td>[dcat:dataset](http://www.w3.org/ns/dcat#dataset)</td>
                 <td>[dcat:Dataset](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset)</td>
                 <td>0..n</td>
@@ -264,7 +264,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
                 <td>Ši savybė susieja katalogą su duomenų rinkiniu, kuris yra katalogo įrašas.</td>
             </tr>
             <tr class="data-table__header">
-                <td>paslauga</td>
+                <td>Paslauga</td>
                 <td>[dcat:service](http://www.w3.org/ns/dcat#service)</td>
                 <td>[dcat:DataService](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#DataService)</td>
                 <td>0..n</td>
@@ -272,7 +272,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
                 <td>Ši savybė nurodo svetainę arba galinį tašką (angl. end-point) (duomenų paslaugą), įtrauktą į katalogą.</td>
             </tr>
             <tr class="data-table__header">
-                <td>tinklalapis</td>
+                <td>Tinklalapis</td>
                 <td>[foaf:homepage](https://w3c.github.io/dxwg/dcat/#Property:catalog_homepage)</td>
                 <td>[foaf:Document](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Document)</td>
                 <td>0..1</td>
@@ -280,7 +280,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
                 <td>Ši savybė nurodo tinklalapį, kuris yra pagrindinis katalogo puslapis.</td>
             </tr>
             <tr class="data-table__header">
-                <td>kalba</td>
+                <td>Kalba</td>
                 <td>[dct:language](https://w3c.github.io/dxwg/dcat/#Property:resource_language)</td>
                 <td>[dct:LinguisticSystem](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Linguisticsystem)</td>
                 <td>0..n</td>
@@ -288,7 +288,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
                 <td>Ši savybė nurodo kalbą, naudojamą tekstiniuose metaduomenyse, apibūdinančiuose kataloge esančių duomenų rinkinių pavadinimus, aprašymus.</td>
             </tr>
             <tr class="data-table__header">
-                <td>licencija</td>
+                <td>Licencija</td>
                 <td>[dct:license](https://w3c.github.io/dxwg/dcat/#Property:resource_license)</td>
                 <td>[dct:LicenseDocument](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#LicenceDocument)</td>
                 <td>0..1</td>
@@ -296,7 +296,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
                 <td>Ši savybė nurodo licenciją, pagal kurią galima naudoti arba pakartotinai naudoti katalogą.</td>
             </tr>
             <tr class="data-table__header">
-                <td>išleidimo data</td>
+                <td>Išleidimo data</td>
                 <td>[dct:issued](https://w3c.github.io/dxwg/dcat/#Property:resource_release_date)</td>
                 <td>[rdfs:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#TemporalLiteral)</td>
                 <td>0..1</td>
@@ -304,7 +304,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
                 <td>Šioje savybėje nurodoma oficiali katalogo paskelbimo data.</td>
             </tr>
             <tr class="data-table__header">
-                <td>geografinė vieta</td>
+                <td>Geografinė vieta</td>
                 <td>[dct:spatial](https://w3c.github.io/dxwg/dcat/#Property:dataset_spatial)</td>
                 <td>[dct:Location](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Location)</td>
                 <td>0..1</td>
@@ -312,7 +312,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
                 <td>Šioje savybėje nurodoma naujausia katalogo pakeitimo data.</td>
             </tr>
             <tr class="data-table__header">
-                <td>tema</td>
+                <td>Tema</td>
                 <td>[dcat:themeTaxonomy](http://www.w3.org/ns/dcat#themeTaxonomy)</td>
                 <td>[skos:ConceptScheme](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Location)</td>
                 <td>0..n</td>
@@ -320,7 +320,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
                 <td>Ši savybė nurodo žinių organizavimo sistemą, naudojamą katalogo duomenų rinkiniams klasifikuoti.</td>
             </tr>
             <tr class="data-table__header">
-                <td>pakeitimo data</td>
+                <td>Pakeitimo data</td>
                 <td>[dct:modified](https://w3c.github.io/dxwg/dcat/#Property:distribution_update_date)</td>
                 <td>[rdfs:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#TemporalLiteral)</td>
                 <td>0..1</td>
@@ -328,7 +328,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
                 <td>Šioje savybėje nurodoma naujausia katalogo pakeitimo data.</td>
             </tr>
             <tr class="data-table__header">
-                <td>turi dalį</td>
+                <td>Turi dalį</td>
                 <td>[dct:hasPart](https://w3c.github.io/dxwg/dcat/#Property:resource_has_part)</td>
                 <td>[dcat:Catalog](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Catalogue)</td>
                 <td>0..n</td>
@@ -336,7 +336,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
                 <td>Ši savybė nurodo susijusį katalogą, kuris yra aprašyto katalogo dalis.</td>
             </tr>
             <tr class="data-table__header">
-                <td>yra dalis</td>
+                <td>Yra dalis</td>
                 <td>[dct:isPartPf](https://w3c.github.io/dxwg/dcat/#Property:dataset_in_series)</td>
                 <td>[dcat:Catalog](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Catalogue)</td>
                 <td>0..1</td>
@@ -344,7 +344,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
                 <td>Ši savybė nurodo susijusį katalogą, į kurį fiziškai arba logiškai įtrauktas aprašomas katalogas.</td>
             </tr>
             <tr class="data-table__header">
-                <td>įrašas</td>
+                <td>Įrašas</td>
                 <td>[dcat:record](http://www.w3.org/ns/dcat#record)</td>
                 <td>[dcat:CatalogRecord](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#CatalogueRecord)</td>
                 <td>0..n</td>
@@ -352,7 +352,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
                 <td>Ši savybė nurodo katalogo įrašą, kuris yra katalogo dalis.</td>
             </tr>
             <tr class="data-table__header">
-                <td>teisės</td>
+                <td>Teisės</td>
                 <td>[dct:rights](https://w3c.github.io/dxwg/dcat/#Property:resource_rights)</td>
                 <td>[dct:RightsStatement](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#CatalogueRecord)</td>
                 <td>0..1</td>
@@ -360,7 +360,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
                 <td>Ši savybė pateikia deklaraciją, kurioje nurodomos su katalogu susijusios teisės.</td>
             </tr>
             <tr class="data-table__header">
-                <td>katalogas</td>
+                <td>Katalogas</td>
                 <td>[dcat:catalog](http://www.w3.org/ns/dcat#catalog)</td>
                 <td>[dcat:Catalog](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Catalogue)</td>
                 <td>0..n</td>
@@ -368,7 +368,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
                 <td>Ši savybė nurodo katalogą, kurio turinys domina šio katalogo kontekste.</td>
             </tr>
             <tr class="data-table__header">
-                <td>kūrėjas</td>
+                <td>Kūrėjas</td>
                 <td>[dct:creator](https://w3c.github.io/dxwg/dcat/#Property:resource_creator)</td>
                 <td>[foaf:Agent](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Agent)</td>
                 <td>0..n</td>
@@ -376,7 +376,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
                 <td>Ši savybė nurodo subjektą, atsakingą už katalogo parengimą.</td>
             </tr>
             <tr class="data-table__header">
-                <td>teisinis pagrindas</td>
+                <td>Teisinis pagrindas</td>
                 <td>[dcatap:applicableLegislation](https://semiceu.github.io/uri.semic.eu-generated/r5r/release/3.0.0/#applicableLegislation)</td>
                 <td>[eli:LegalResource](http://data.europa.eu/eli/ontology#LegalResource)</td>
                 <td>0..n</td>
@@ -416,7 +416,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
                 <th class="data-table__header-title--sortable" style="width:40%">Aprašymas</th>
             </tr>
             <tr class="data-table__header">
-                <td>pavadinimas</td>
+                <td>Pavadinimas</td>
                 <td>[foaf:name](http://xmlns.com/foaf/0.1/name)</td>
                 <td>[rdfs:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Literal)</td>
                 <td>1..n</td>
@@ -424,7 +424,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
                 <td>Šioje savybėje pateikiamas agento pavadinimas. Ši savybė gali būti kartojama skirtingoms pavadinimo versijoms (pvz., pavadinimas skirtingomis kalbomis).</td>
             </tr>
             <tr class="data-table__header">
-                <td>tipas</td>
+                <td>Tipas</td>
                 <td>[dct:type](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset.type)</td>
                 <td>[skos:Concept](https://www.w3.org/2009/08/skos-reference/skos.html#Concept)</td>
                 <td>0..1</td>
@@ -432,7 +432,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
                 <td>Ši savybė nurodo agento, kuris padaro prieinamu katalogą arba duomenų rinkinį, tipą.</td>
             </tr>
             <tr class="data-table__header">
-                <td>identifikatorius</td>
+                <td>Identifikatorius</td>
                 <td>[dct:identifier](http://purl.org/dc/terms/identifier)</td>
                 <td>[adms:Identifier](https://w3c.github.io/dxwg/dcat/#Property:resource_identifier)</td>
                 <td>0..1</td>
