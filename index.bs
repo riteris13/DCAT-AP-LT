@@ -531,6 +531,73 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
            
         </table>
 
+ <table class="data-table simple">
+         
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kardinalumas</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+            </tr>
+              <tr>
+        <td>Versija</td>
+        <td>dcat:version<br>rdfs:Literal</td>
+        <td>1..1</td>
+        <td>1..1</td>
+        <td>-</td>
+        <td>Duomenų paslaugos versijos identifikavimas</td>
+    </tr>
+    <tr>
+        <td>Pavadinimas</td>
+        <td>dct:title<br>rdfs:Literal</td>
+        <td>1..n</td>
+        <td>1..n</td>
+        <td>-</td>
+        <td>Šioje savybėje pateikiamas duomenų paslaugai suteiktas pavadinimas. Galima pakartoti, jei pavadinimas pateikiamas keliomis kalbomis.</td>
+    </tr>
+    <tr>
+        <td>Didelės vertės duomenų rinkinio kategorija</td>
+        <td>dcatap:hvdCategory<br>skos:Concept</td>
+        <td>1..n</td>
+        <td>1..n</td>
+        <td>-</td>
+        <td>Didelės vertės duomenų rinkinio sritis, kuriuos platina ar su kuriais siejasi ši duomenų paslauga. Privaloma savybė, jei paslauga susijusi su didelės vertės duomenų rinkiniais.</td>
+    </tr>
+    <tr>
+        <td>Teisinis pagrindas</td>
+        <td>dcatap:applicableLegislation<br>eli:LegalResource</td>
+        <td>1..n</td>
+        <td>1..n</td>
+        <td>-</td>
+        <td>Teisės aktas, kurio pagrindu yra sukurta ir teikiama duomenų paslaugą. Privaloma savybė, jei paslauga susijusi su didelės vertės duomenų rinkiniais.</td>
+    </tr>
+    <tr>
+        <td>Paslaugos kokybė</td>
+        <td>foaf:page<br>foaf:Document</td>
+        <td>1..n</td>
+        <td>1..n</td>
+        <td>-</td>
+        <td>Ši savybė leidžia nurodyti tinklalapį, kuriame pateikiama išsami informacija apie teikiamos paslaugos kokybę bei kita aktuali informacija. Privaloma savybė, jei paslauga susijusi su didelės vertės duomenų rinkiniais.</td>
+    </tr>
+    <tr>
+        <td>Kontaktas</td>
+        <td>dcat:contactPoint<br>vcard:Kind</td>
+        <td>1..n</td>
+        <td>1..n</td>
+        <td>-</td>
+        <td>Šioje savybėje pateikiama kontaktinė informacija, kurią galima naudoti siunčiant pastabas apie duomenų paslaugą.</td>
+    </tr>
+    <tr>
+        <td>Tinklalapis</td>
+        <td>dcat:endpointURL<br>rdfs:Resource</td>
+        <td>1..n</td>
+        <td>1..n</td>
+        <td>-</td>
+        <td>Šioje savybėje galinio punkto URL turi būti nuolatinis. Tai reiškia, kad leidėjai turėtų daryti viską, kad išlaikytų stabilią ir esamą vertę.</td>
+    </tr>
+    </table>
 
 ## Kategorija, Teikėjo tipas, Statusas
 
