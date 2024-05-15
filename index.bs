@@ -518,12 +518,12 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
                 <th class="data-table__header-title--sortable" style="width:50%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
             </tr>
-            <tr class="data-table__header">
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>[dcat:Dataset](https://www.w3.org/TR/vocab-dcat-3/#Class:Dataset)</td>
-            </tr>
+             <tr class="data-table__header">
+        <td>Dažnis</td>
+        <td></td>
+        <td></td>
+        <td><a href="http://purl.org/dc/terms/Frequency">dct:Frequency</a></td>
+    </tr>
            
         </table>
 
