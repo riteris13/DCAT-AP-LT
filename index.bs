@@ -180,4 +180,147 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
 
 # Naudojamos BregDCAT-AP klasės ir savybės
 
+<h4 style='text-align:justify;text-indent:0in;mso-list:none;tab-stops:.5in'><a
+name="_Toc165289389"></a><a name="_Toc152954845"><span style='mso-bookmark:
+_Toc165289389'><span lang=LT>Klas&#279;: </span></span></a><span
+style='mso-bookmark:_Toc165289389'><span lang=LT>Duomen&#371; rinkinys</span></span></h4>
 
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='border-collapse:collapse;mso-table-layout-alt:fixed;border:none;
+ mso-border-alt:solid windowtext .5pt;mso-yfti-tbllook:1696;mso-padding-alt:
+ 0in 5.4pt 0in 5.4pt;mso-border-insideh:.5pt solid windowtext;mso-border-insidev:
+ .5pt solid windowtext'>
+ <thead>
+  <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;height:8.25pt'>
+   <td width="16%" valign=top style='width:16.62%;border:solid windowtext 1.0pt;
+   mso-border-alt:solid windowtext .5pt;background:black;mso-background-themecolor:
+   text1;padding:5.65pt 5.4pt 5.65pt 5.4pt;height:8.25pt'>
+   <p class=EYtext style='text-align:justify'><b style='mso-bidi-font-weight:
+   normal'><span lang=LT style='mso-bidi-font-size:10.0pt;mso-fareast-font-family:
+   SimSun;color:white;mso-color-alt:windowtext'>Klas&#279;</span></b><b><span
+   lang=LT style='mso-bidi-font-size:10.0pt'><o:p></o:p></span></b></p>
+   </td>
+   <td width="25%" valign=top style='width:25.64%;border:solid windowtext 1.0pt;
+   border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+   solid windowtext .5pt;background:black;mso-background-themecolor:text1;
+   padding:5.65pt 5.4pt 5.65pt 5.4pt;height:8.25pt'>
+   <p class=EYtext style='text-align:justify'><b style='mso-bidi-font-weight:
+   normal'><span lang=LT style='mso-bidi-font-size:10.0pt;mso-fareast-font-family:
+   SimSun;color:white;mso-color-alt:windowtext'>Aprašas</span></b><b><span
+   lang=LT style='mso-bidi-font-size:10.0pt'><o:p></o:p></span></b></p>
+   </td>
+   <td width="42%" valign=top style='width:42.92%;border:solid windowtext 1.0pt;
+   border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+   solid windowtext .5pt;background:black;mso-background-themecolor:text1;
+   padding:0in 5.4pt 0in 5.4pt;height:8.25pt'>
+   <p class=EYtext style='text-align:justify'><b style='mso-bidi-font-weight:
+   normal'><span lang=LT style='mso-bidi-font-size:10.0pt;mso-fareast-font-family:
+   SimSun;color:white;mso-color-alt:windowtext'>Kontekstas</span></b><b
+   style='mso-bidi-font-weight:normal'><span lang=LT style='mso-bidi-font-size:
+   10.0pt;mso-fareast-font-family:SimSun'><o:p></o:p></span></b></p>
+   </td>
+   <td width="14%" valign=top style='width:14.82%;border:solid windowtext 1.0pt;
+   border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+   solid windowtext .5pt;background:black;mso-background-themecolor:text1;
+   padding:5.65pt 5.4pt 5.65pt 5.4pt;height:8.25pt'>
+   <p class=EYtext style='text-align:justify'><b style='mso-bidi-font-weight:
+   normal'><span lang=LT style='mso-bidi-font-size:10.0pt;mso-fareast-font-family:
+   SimSun;color:white;mso-color-alt:windowtext'>Išteklius</span></b><b><span
+   lang=LT style='mso-bidi-font-size:10.0pt'><o:p></o:p></span></b></p>
+   </td>
+  </tr>
+  <tr style='mso-yfti-irow:1;height:8.25pt'>
+   <td width="16%" valign=top style='width:16.62%;border:solid windowtext 1.0pt;
+   border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:
+   solid windowtext .5pt;background:black;mso-background-themecolor:text1;
+   padding:5.65pt 5.4pt 5.65pt 5.4pt;height:8.25pt'>
+   <p class=EYtext style='text-align:justify'><b style='mso-bidi-font-weight:
+   normal'><span lang=LT style='mso-bidi-font-size:10.0pt;mso-fareast-font-family:
+   SimSun'><o:p>&nbsp;</o:p></span></b></p>
+   </td>
+   <td width="25%" valign=top style='width:25.64%;border-top:none;border-left:
+   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+   mso-border-alt:solid windowtext .5pt;background:black;mso-background-themecolor:
+   text1;padding:5.65pt 5.4pt 5.65pt 5.4pt;height:8.25pt'>
+   <p class=EYtext style='text-align:justify'><b style='mso-bidi-font-weight:
+   normal'><span lang=LT style='mso-bidi-font-size:10.0pt;mso-fareast-font-family:
+   SimSun'><o:p>&nbsp;</o:p></span></b></p>
+   </td>
+   <td width="42%" valign=top style='width:42.92%;border-top:none;border-left:
+   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+   mso-border-alt:solid windowtext .5pt;background:black;mso-background-themecolor:
+   text1;padding:0in 5.4pt 0in 5.4pt;height:8.25pt'>
+   <p class=EYtext style='text-align:justify'><b style='mso-bidi-font-weight:
+   normal'><span lang=LT style='mso-bidi-font-size:10.0pt;mso-fareast-font-family:
+   SimSun'><o:p>&nbsp;</o:p></span></b></p>
+   </td>
+   <td width="14%" valign=top style='width:14.82%;border-top:none;border-left:
+   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+   mso-border-alt:solid windowtext .5pt;background:black;mso-background-themecolor:
+   text1;padding:5.65pt 5.4pt 5.65pt 5.4pt;height:8.25pt'>
+   <p class=EYtext style='text-align:justify'><b style='mso-bidi-font-weight:
+   normal'><span lang=LT style='mso-bidi-font-size:10.0pt;mso-fareast-font-family:
+   SimSun'><o:p>&nbsp;</o:p></span></b></p>
+   </td>
+  </tr>
+ </thead>
+ <tr style='mso-yfti-irow:2;mso-yfti-lastrow:yes;height:28.65pt'>
+  <td width="16%" valign=top style='width:16.62%;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:5.65pt 5.4pt 5.65pt 5.4pt;height:28.65pt'>
+  <p class=EYtext style='text-align:justify'><span lang=LT style='mso-fareast-font-family:
+  SimSun'>Duomen&#371; rinkinys<br>
+  </span><i><span lang=LT style='font-size:8.0pt;mso-fareast-font-family:Arial'>(Dataset)</span></i></p>
+  </td>
+  <td width="25%" valign=top style='width:25.64%;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:5.65pt 5.4pt 5.65pt 5.4pt;
+  height:28.65pt'>
+  <p class=EYtext style='text-align:justify'><span lang=LT style='mso-bidi-font-size:
+  10.0pt;mso-fareast-font-family:SimSun'>Koncepcin&#279; klas&#279;, aprašanti
+  skelbiam&#261; informacij&#261;. Sujungia katalog&#261; su duomen&#371;
+  rinkiniu, kuris yra katalogo dalis.</span><span lang=LT style='mso-bidi-font-size:
+  10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width="42%" valign=top style='width:42.92%;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt;height:28.65pt'>
+  <p class=EYtext style='text-align:justify'><span lang=LT>Šios klas&#279;s
+  egzemplioriais apib&#363;dinami<span style='mso-spacerun:yes'> 
+  </span>duomen&#371; rinkiniai, tvarkomi IS apimtyje.</span></p>
+  <p class=EYtext style='text-align:justify'><span lang=LT>Kiekvienas
+  duomen&#371; rinkinys per katalogo &#303;rašo s&#261;ryš&#303; <i>CatalogRecord</i>,
+  priskiriamas vienam IS (Catalog) atvejui.</span></p>
+  <p class=EYtext style='text-align:justify'><span lang=LT>Tokiu b&#363;du
+  aprašomi konkret&#363;s duomen&#371; rinkiniai, valdomi ir tvarkomi
+  konkretaus IS apimtyje. </span></p>
+  <p class=EYtext style='text-align:justify'><span lang=LT>Konkretaus
+  duomen&#371; rinkinio (Dataset) registravimo pagrindas IS (Catalog) apimtyje
+  yra IS nuostat&#371; patvirtinimas (IS gyvavimo ciklo metodikoje
+  apibr&#279;žta tvarka). </span></p>
+  <p class=EYtext style='text-align:justify'><span lang=LT>Kiekvienas
+  duomen&#371; rinkinys &#303;prasmina tam tikr&#261; valstyb&#279;s
+  informacin&#279;s sistemos ar registro nuostatuose &#303;vardintin&#261;
+  informacin&#279;s strukt&#363;ros dal&#303;. </span></p>
+  <p class=EYtext style='text-align:justify'><span lang=LT>Duomen&#371;
+  rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokiama
+  prasminga ir reikšminga koncepcija, apib&#363;dinama reikšmingomis
+  savyb&#279;mis/ atributais.</span></p>
+  </td>
+  <td width="14%" valign=top style='width:14.82%;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:5.65pt 5.4pt 5.65pt 5.4pt;
+  height:28.65pt'>
+  <p class=EYtext style='text-align:justify'><span lang=LT><a
+  href="https://www.w3.org/TR/vocab-dcat-3/#Class:Dataset"><span
+  style='mso-bidi-font-size:10.0pt;mso-fareast-font-family:SimSun'>dcat:Dataset</span></a></span><span
+  lang=LT style='mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
