@@ -180,11 +180,6 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
 
 # Naudojamos BregDCAT-AP klasės ir savybės
 
-<h4 style='text-align:justify;text-indent:0in;mso-list:none;tab-stops:.5in'><a
-name="_Toc165289389"></a><a name="_Toc152954845"><span style='mso-bookmark:
-_Toc165289389'><span lang=LT>Klas&#279;: </span></span></a><span
-style='mso-bookmark:_Toc165289389'><span lang=LT>Duomen&#371; rinkinys</span></span></h4>
-
 <table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
  style='border-collapse:collapse;mso-table-layout-alt:fixed;border:none;
  mso-border-alt:solid windowtext .5pt;mso-yfti-tbllook:1696;mso-padding-alt:
