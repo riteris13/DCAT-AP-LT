@@ -190,6 +190,27 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
 
 ## Duomenų rinkinys
 
+  <table class="data-table simple">
+            <tr >
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Aprašas</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Išteklius</th>
+            </tr>
+            <tr class="data-table__header">
+                <td>Duomenų rinkinys</td>
+                <td>Koncepcinė klasė, aprašanti skelbiamą informaciją. Sujungia katalogą su duomenų rinkiniu, kuris yra katalogo dalis.</td>
+                <td>YŠios klasės egzemplioriais apibūdinami  duomenų rinkiniai, tvarkomi IS apimtyje.
+Kiekvienas duomenų rinkinys per katalogo įrašo sąryšį CatalogRecord, priskiriamas vienam IS (Catalog) atvejui.
+Tokiu būdu aprašomi konkretūs duomenų rinkiniai, valdomi ir tvarkomi konkretaus IS apimtyje. 
+Konkretaus duomenų rinkinio (Dataset) registravimo pagrindas IS (Catalog) apimtyje yra IS nuostatų patvirtinimas (IS gyvavimo ciklo metodikoje apibrėžta tvarka). 
+Kiekvienas duomenų rinkinys įprasmina tam tikrą valstybės informacinės sistemos ar registro nuostatuose įvardintiną informacinės struktūros dalį. 
+Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokiama prasminga ir reikšminga koncepcija, apibūdinama reikšmingomis savybėmis/ atributais.
+</td>
+                <td>[dcat:Dataset](https://www.w3.org/TR/vocab-dcat-3/#Class:Dataset)</td>
+            </tr>
+           
+        </table>
 ## Duomenų paslauga
 
 ## Kategorija, skelbėjo tipas, statusas
