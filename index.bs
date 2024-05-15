@@ -194,8 +194,8 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
             </tr>
             <tr class="data-table__header">
                 <td>Duomenų rinkinys</td>
