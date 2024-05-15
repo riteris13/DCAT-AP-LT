@@ -1182,7 +1182,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
 
 ## Viešoji institucija
 
- <table class="data-table simple">
+          <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
@@ -1191,12 +1191,80 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
             </tr>
             <tr class="data-table__header">
                 <td>Viešoji insitucija (PublicOrganisation)</td>
-                <td>Viešoji organizacija yra Agentas, kuris atsakinga už viešųjų paslaugų teikimą. Čia naudojama klasė iš Pagrindinio institucijų žodyno, taip pat pagrįsto W3C Organizacijų ontologija.</td>
+                <td>Viešoji institucija yra Agentas, kuris atsakingas už viešųjų paslaugų teikimą. Čia naudojama klasė iš Pagrindinio institucijų žodyno, taip pat pagrįsto W3C Organizacijų ontologija.</td>
                 <td> - </td>
-                <td>[cv:PublicOrganisation](https://joinup.ec.europa.eu/solution/core-public-servicevocabulary)</td>
+                <td>[cv:PublicOrganisation](http://data.europa.eu/m8g/PublicOrganisation)</td>
             </tr>
            
         </table>
+         <table class="data-table simple">
+         
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kardinalumas</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+            </tr>
+             <tr>
+        <td>Identifikatorius</td>
+        <td>dcterms:identifier<br>rdfs:Literal</td>
+        <td>1..1</td>
+        <td>1..1</td>
+        <td>-</td>
+        <td>Ši savybė nurodo Agento identifikatorių.</td>
+    </tr>
+    <tr>
+        <td>Pavadinimas</td>
+        <td>dct:title<br>rdfs:Literal</td>
+        <td>1..1</td>
+        <td>1..1</td>
+        <td>-</td>
+        <td>Ši savybė nurodo institucijos pavadinimą.</td>
+    </tr>
+    <tr>
+        <td>Pageidaujama antraštė</td>
+        <td>skos:prefLabel<br>rdfs:Literal</td>
+        <td>1..n</td>
+        <td>1..n</td>
+        <td>-</td>
+        <td>Ši savybė naudojama organizacijai pavadinti, jei naudojamas pageidaujamas pavadinimą. Šią savybę reikėtų pakartoti, jei pateikiama keliomis kalbomis.</td>
+    </tr>
+    <tr>
+        <td>Geografinė vietovė</td>
+        <td>dct:spatial<br>dct:Location</td>
+        <td>1..n</td>
+        <td>1..n</td>
+        <td>-</td>
+        <td>Ši savybė nurodo geografinį arba administracinį regioną, kurį apima institucija. Šios savybės reikšmė turėtų būti URI iš Administracinio teritorinių vienetų pavadintų institucijų sąrašo, kurį tvarko Leidinių biuro Metaduomenų registras.</td>
+    </tr>
+    <tr>
+        <td>Adresas</td>
+        <td>locn:address<br>locn:Address</td>
+        <td>0..n</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Ši savybė nurodo adresą, kaip konceptualiai apibrėžta INSPIRE adreso atvaizdavimo duomenų tipu.</td>
+    </tr>
+    <tr>
+        <td>Klasifikacija</td>
+        <td>org:classification<br>rdfs:Literal</td>
+        <td>0..n</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Ši savybė Nurodo institucijos klasifikaciją pagal tam tikrą klasifikavimo schemą.</td>
+    </tr>
+    <tr>
+        <td>Pagrindinis puslapis</td>
+        <td>foaf:homepage<br>foaf:Document</td>
+        <td>0..1</td>
+        <td>0..1</td>
+        <td>-</td>
+        <td>Ši savybė kreipia į institucijos pagrindinę interneto svetainę.</td>
+    </tr>
+
+          </table>
 
 
 ## Informacinės sistemos paslauga
@@ -1227,6 +1295,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
             </tr>
+            
 </table>
 
 
