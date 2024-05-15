@@ -1018,6 +1018,18 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
            
         </table>
 
+ <table class="data-table simple">
+         
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kardinalumas</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+            </tr>
+</table>
+
 
 ## Kategorijų schema
 
@@ -1036,6 +1048,26 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
             </tr>
            
         </table>
+
+ <table class="data-table simple">
+         
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kardinalumas</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+            </tr>
+            <tr>
+        <td>Pavadinimas</td>
+        <td>dct:title<br>rdfs:Literal</td>
+        <td>1..n</td>
+        <td>1..n</td>
+        <td>-</td>
+        <td>Kategorijos schemos pavadinimas.</td>
+    </tr>
+</table>
 
 
 ## Teisinis šaltinis
@@ -1056,6 +1088,17 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
            
         </table>
 
+ <table class="data-table simple">
+         
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kardinalumas</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+            </tr>
+</table>
 
 ## Taisyklė
 
@@ -1174,6 +1217,18 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
            
         </table>
 
+ <table class="data-table simple">
+         
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kardinalumas</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+            </tr>
+</table>
+
 
 ## Katalogo įrašas
 
@@ -1192,6 +1247,18 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
             </tr>
            
         </table>
+
+ <table class="data-table simple">
+         
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kardinalumas</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+            </tr>
+</table>
 
 
 ## Kontrolinė suma
@@ -1259,6 +1326,18 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
            
         </table>
 
+ <table class="data-table simple">
+         
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kardinalumas</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+            </tr>
+</table>
+
 
 ## Dažnis
 
@@ -1277,6 +1356,18 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
     </tr>
            
         </table>
+
+ <table class="data-table simple">
+         
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kardinalumas</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+            </tr>
+</table>
 
 
 ## Identifikatorius
@@ -1297,6 +1388,18 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
            
         </table>
 
+ <table class="data-table simple">
+         
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kardinalumas</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+            </tr>
+</table>
+
 
 ## Rūšis
 
@@ -1314,6 +1417,18 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
     </tr>
            
         </table>
+
+ <table class="data-table simple">
+         
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kardinalumas</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+            </tr>
+</table>
 
 
 ## Lingvistinė sistema
@@ -1334,6 +1449,18 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
            
         </table>
 
+ <table class="data-table simple">
+         
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kardinalumas</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+            </tr>
+</table>
+
 
 ## Vietovė
 
@@ -1352,6 +1479,18 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
             </tr>
            
         </table>
+
+ <table class="data-table simple">
+         
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kardinalumas</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+            </tr>
+</table>
 
 
 ## Laikmenos tipas
@@ -1372,6 +1511,18 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
            
         </table>
 
+ <table class="data-table simple">
+         
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kardinalumas</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+            </tr>
+</table>
+
 
 ## Laiko aprėptis
 
@@ -1391,6 +1542,17 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
            
         </table>
 
+ <table class="data-table simple">
+         
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kardinalumas</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+            </tr>
+</table>
 
 ## Teisių pareiškimas
 
@@ -1410,6 +1572,17 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
            
         </table>
 
+ <table class="data-table simple">
+         
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kardinalumas</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+            </tr>
+</table>
 
 ## Kilmės pareiškimas
 
@@ -1429,6 +1602,17 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
            
         </table>
 
+ <table class="data-table simple">
+         
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kardinalumas</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+            </tr>
+</table>
 
 ## Standartas
 
@@ -1447,7 +1631,17 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
             </tr>
            
         </table>
-
+ <table class="data-table simple">
+         
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kardinalumas</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+            </tr>
+</table>
 
 ## Kontaktas
 
@@ -1467,6 +1661,17 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
            
         </table>
 
+ <table class="data-table simple">
+         
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kardinalumas</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+            </tr>
+</table>
 
 ## Kokybės anotacija
 
@@ -1485,6 +1690,18 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
             </tr>
            
         </table>
+
+ <table class="data-table simple">
+         
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kardinalumas</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+            </tr>
+</table>
 
 
 ## Kokybės matavimas
@@ -1505,6 +1722,17 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
            
         </table>
 
+ <table class="data-table simple">
+         
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kardinalumas</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+            </tr>
+</table>
 
 ## Veikla
 
@@ -1524,6 +1752,17 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
            
         </table>
 
+ <table class="data-table simple">
+         
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kardinalumas</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+            </tr>
+</table>
 
 ## Adresas
 
@@ -1542,6 +1781,18 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
             </tr>
            
         </table>
+
+ <table class="data-table simple">
+         
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kardinalumas</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+            </tr>
+</table>
 
 
 <table border="1">
