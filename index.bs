@@ -288,10 +288,10 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
                 <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
             </tr>
             <tr class="data-table__header">
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>[dcat:Dataset](https://www.w3.org/TR/vocab-dcat-3/#Class:Dataset)</td>
+                <td>Duomenų paslauga</td>
+                <td>Operacijų rinkinys, suteikiantis prieigą prie vieno ar daugiau duomenų rinkinių arba duomenų apdorojimo funkcijų.</td>
+                <td>-</td>
+                <td>[dcat:DataService](https://www.w3.org/TR/vocab-dcat-3/#Class:Data_Service)</td>
             </tr>
            
         </table>
@@ -326,10 +326,13 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
                 <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
             </tr>
             <tr class="data-table__header">
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>[dcat:Dataset](https://www.w3.org/TR/vocab-dcat-3/#Class:Dataset)</td>
+                <td>Pateiktis</td>
+                <td>Fizinė duomenų rinkinio išraiškos forma tam tikru formatu arba duomenų rinkinio realizacija.</td>
+                <td>Ši klasė apibūdina konkretų ir aktyviai veikiantį duomenų rinkinio įgyvendinimą IS - valstybinės informacinės sistemos arba duomenų valdymo aplinkoje, tokioje kaip duomenų bazės lentelė, duomenų failai, saugomi duomenų saugykloje, struktūrizuoti ir pusiau struktūrizuoti failai uždarame intranete arba interneto erdvėje. 
+
+IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra IS aplinkoje tvarkomų duomenų rinkinių realizacijų aprašymui, ir toliau jų modelių detalizavimui klasėmis DataObjectTypeSpecification ir DataElement.
+</td>
+                <td>[dcat:Distribution](https://www.w3.org/TR/vocab-dcat-3/#Class:Distribution)</td>
             </tr>
            
         </table>
