@@ -1258,6 +1258,78 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
             </tr>
+             <tr>
+        <td>Pagrindinė tema</td>
+        <td>foaf:primaryTopic<br>dcat:Dataset<br>dcat:Dataservice<br>dcat:Catalog</td>
+        <td>1..1</td>
+        <td>1..1</td>
+        <td>-</td>
+        <td>Nuoroda į įraše aprašytą duomenų rinkinį, duomenų paslaugą arba katalogą. Katalogo įrašas bus nuoroda į vieną katalogo vienetą. Tai gali būti duomenų rinkinys arba duomenų paslauga.</td>
+    </tr>
+    <tr>
+        <td>Pakeitimo data</td>
+        <td>dct:modified<br>rdfs:Literal</td>
+        <td>1..1</td>
+        <td>1..1</td>
+        <td>-</td>
+        <td>Šioje savybėje nurodoma naujausia katalogo įrašo pakeitimo arba modifikavimo data.</td>
+    </tr>
+    <tr>
+        <td>Taikymo profilis</td>
+        <td>dcterms:conformsTo<br>dct:Standard</td>
+        <td>0..1</td>
+        <td>0..1</td>
+        <td>-</td>
+        <td>Taikymo profilis, kurį atitinka duomenų rinkinio metaduomenys.</td>
+    </tr>
+    <tr>
+        <td>Pokyčio tipas</td>
+        <td>adms:status<br>skos:Concept</td>
+        <td>0..1</td>
+        <td>0..1</td>
+        <td>-</td>
+        <td>Katalogo įrašo statusas duomenų rinkinio redakcinio srauto ir duomenų paslaugų aprašymų kontekste.</td>
+    </tr>
+    <tr>
+        <td>Įtraukimo į sąrašą data</td>
+        <td>dct:issued<br>rdfs:Literal</td>
+        <td>0..1</td>
+        <td>0..1</td>
+        <td>-</td>
+        <td>Duomenų rinkinio aprašymo įtraukimo į katalogą data.</td>
+    </tr>
+    <tr>
+        <td>Aprašymas</td>
+        <td>dct:description<br>rdfs:Literal</td>
+        <td>0..n</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Šioje savybėje laisvu tekstu pateikiamas aprašas. Galima pakartoti, jei aprašoma keliomis kalbomis.</td>
+    </tr>
+    <tr>
+        <td>Kalba</td>
+        <td>dct:language<br>dct:LinguisticSystem</td>
+        <td>0..n</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Kalba, vartojama tekstiniuose metaduomenyse, apibūdinančiuose duomenų rinkinio pavadinimus, aprašymus ir t. t. Galima pakartoti, jei metaduomenys pateikiami keliomis kalbomis.</td>
+    </tr>
+    <tr>
+        <td>Pirminiai metaduomenys</td>
+        <td>dct:source<br>dcat:CatalogRecord</td>
+        <td>0..1</td>
+        <td>0..1</td>
+        <td>-</td>
+        <td>Pirminiai (šaltinio) metaduomenys, kurie buvo naudojami kuriant duomenų rinkinio metaduomenis.</td>
+    </tr>
+    <tr>
+        <td>Pavadinimas</td>
+        <td>dct:title<br>rdfs:Literal</td>
+        <td>0..n</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Katalogo įrašui suteiktas pavadinimas.</td>
+    </tr>
 </table>
 
 
