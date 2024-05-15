@@ -194,7 +194,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
 
 ## Kategorija, skelbėjo tipas, statusas
 
-## Platinimas
+## Pateiktis
 
 ## Licencijos dokumentas
 
