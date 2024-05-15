@@ -517,61 +517,318 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
             </tr>
             <tr>
         <td>Aprašymas</td>
-        <td>dct:description<br>rdfs:Literal</td>
-        <td>1..n</td>
+        <td>[dct:description](http://purl.org/dc/terms/description)</td>
+        <td>[rdfs:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Literal)</td>
         <td>1..n</td>
         <td>Koncepcinio detalumo lygmens aprašymas, laikantis IS lygmenyje ar IS valdymo srityje nustatytos terminologijos ontologijos sąvokų ar duomenų rinkinių taikytinų informacinio modelio reikalavimų.</td>
         <td>Laisvu tekstu pateikiamas duomenų rinkinio aprašas. Galima pakartoti, jei aprašas yra keliomis kalbomis.</td>
     </tr>
     <tr>
         <td>Pavadinimas</td>
-        <td>dct:title<br>rdfs:Literal</td>
-        <td>1..n</td>
+        <td>[dct:title](https://w3c.github.io/dxwg/dcat/#Property:resource_title)</td>
+        <td>[rdfs:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Literal)</td>
         <td>1..n</td>
         <td>-</td>
         <td>Pateikiamas duomenų rinkiniui suteiktas pavadinimas. Galima pakartoti, jei pavadinimas pateikiamas keliomis kalbomis.</td>
     </tr>
     <tr>
         <td>Identifikatorius</td>
-        <td>dcterms:identifier<br>rdfs:Literal</td>
-        <td>1..1</td>
+        <td>[dct:identifier](https://w3c.github.io/dxwg/dcat/#Property:resource_identifier)</td>
+        <td>[rdfs:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Literal)</td>
         <td>1..1</td>
         <td>-</td>
         <td>Pagrindinis duomenų rinkinio identifikatorius, pvz., URI, arba kitas unikalus identifikatorius katalogo kontekste.</td>
     </tr>
     <tr>
         <td>Kitas identifikatorius</td>
-        <td>adms:identifier<br>adms:Identifier</td>
-        <td>1..n</td>
+        <td>[adms:identifier](http://www.w3.org/ns/adms#identifier)</td>
+        <td>[adms:Identifier](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Identifier)</td>
         <td>1..n</td>
         <td>-</td>
         <td>Antrinis duomenų rinkinio identifikatorius. Pavyzdžiai: MAST/ADS, DataCite, DOI, EZID, W3ID. Rekomendacija: įtraukti visus identifikatorius, kuriuos katalogas žino apie duomenų rinkinį.</td>
     </tr>
     <tr>
         <td>Versija</td>
-        <td>dcat:version<br>rdfs:Literal</td>
-        <td>1..1</td>
+        <td>[dcat:version](http://www.w3.org/ns/dcat#version)</td>
+        <td>[rdfs:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Literal)</td>
         <td>1..1</td>
         <td>-</td>
         <td>Duomenų rinkinio versijos identifikavimas (pavadinimas arba identifikatorius).</td>
     </tr>
     <tr>
         <td>Didelės vertės duomenų rinkinio kategorija</td>
-        <td>dcatap:hvdCategory<br>skos:Concept</td>
-        <td>1..n</td>
+        <td>[dcatap:hvdCategory](http://data.europa.eu/r5r/hvdCategory)</td>
+        <td>[rdfs:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Literal)</td>
         <td>1..n</td>
         <td>-</td>
         <td>Didelės vertės duomenų rinkinio sritis, kuriai šis duomenų rinkinys priklauso. Privaloma savybė didelės vertės duomenų rinkiniams.</td>
     </tr>
     <tr>
         <td>Duomenų erdvė</td>
-        <td>dcterms:conformsTo<br>dct:Standard</td>
-        <td>1..n</td>
+        <td>[dct:conformsTo](https://w3c.github.io/dxwg/dcat/#Property:resource_conforms_to)</td>
+        <td>[dct:Standard](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Standard)</td>
         <td>1..n</td>
         <td>Šaltinis: EUR-Lex - 52020DC0066 - EN - EUR-Lex (europa.eu)</td>
         <td>Nustatyta duomenų erdvė, kuriai atitinka aprašyta distribucija.</td>
     </tr>
+    <tr>
+        <td>Kontaktas</td>
+        <td>[dcat:contactPoint](http://www.w3.org/ns/dcat#contactPoint)</td>
+        <td>[vcard:Kind](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Kind)</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Šioje savybėje pateikiama kontaktinė informacija, kurią galima naudoti siunčiant pastabas apie duomenų rinkinį.</td>
+    </tr>
+    <tr>
+        <td>Duomenų rinkinio platinimas</td>
+        <td>[dcat:distribution](http://www.w3.org/ns/dcat#distribution)</td>
+        <td>[dcat:Distribution](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Distribution)</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Ši savybė susieja duomenų rinkinį su platinimu.</td>
+    </tr>
+    <tr>
+        <td>Raktažodis</td>
+        <td>[dcat:keyword](http://www.w3.org/ns/dcat#keyword)</td>
+        <td>[rdfs:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Literal)</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Šioje savybėje pateikiamas duomenų rinkinį apibūdinantis raktažodis arba žyma.</td>
+    </tr>
+    <tr>
+        <td>Duomenų skelbėjas</td>
+        <td>[dct:publisher](https://w3c.github.io/dxwg/dcat/#Property:resource_publisher)</td>
+        <td>[foaf:Agent](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Agent)</td>
+        <td>0..1</td>
+        <td>-</td>
+        <td>Ši savybė nurodo subjektą (organizaciją), atsakingą už duomenų rinkinio prieinamumą.</td>
+    </tr>
+    <tr>
+        <td>Geografinė vieta</td>
+        <td>[dct:spatial](https://w3c.github.io/dxwg/dcat/#Property:dataset_spatial)</td>
+        <td>[dct:Location](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Location)</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Ši savybė nurodo geografinę vietovę, kurią apima duomenų rinkinys.</td>
+    </tr>
+    <tr>
+        <td>Laikotarpis</td>
+        <td>[dct:temporal](https://w3c.github.io/dxwg/dcat/#Property:dataset_temporal)</td>
+        <td>[dct:PeriodOfTime](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Periodoftime)</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Ši savybė nurodo laikotarpį, kurį apima duomenų rinkinys.</td>
+    </tr>
+    <tr>
+        <td>Kategorija</td>
+        <td>[dcat:theme](http://www.w3.org/ns/dcat#theme)</td>
+        <td>[skos:Concept](https://www.w3.org/2009/08/skos-reference/skos.html#Concept)</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Ši savybė nurodo duomenų rinkinio kategoriją. Duomenų rinkinys gali būti susietas su keliomis temomis.</td>
+    </tr>
+    <tr>
+        <td>Prieigos teisės</td>
+        <td>[dct:accessRights](https://w3c.github.io/dxwg/dcat/#Property:resource_access_rights)</td>
+        <td>[dct:RightsStatement](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Rightsstatement)</td>
+        <td>0..1</td>
+        <td>-</td>
+        <td>Ši savybė susijusi su informacija, kuri nurodo, ar duomenų rinkinys yra atviri duomenys, ar jam taikomi prieigos apribojimai, ar jis nėra viešas.</td>
+    </tr>
+    <tr>
+        <td>Atitinka</td>
+        <td>[dct:conformsTo](https://w3c.github.io/dxwg/dcat/#Property:resource_conforms_to)</td>
+        <td>[dct:Standard](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Standard)</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Ši savybė nurodo įgyvendinimo taisyklę arba kitą specifikaciją.</td>
+    </tr>
+    <tr>
+        <td>Kūrėjas</td>
+        <td>[dct:creator](https://w3c.github.io/dxwg/dcat/#Property:resource_creator)</td>
+        <td>[foaf:Agent](http://xmlns.com/foaf/0.1/Agent)</td>
+        <td>0..1</td>
+        <td>-</td>
+        <td>Subjektas, atsakingas už duomenų rinkinio parengimą.</td>
+    </tr>
+    <tr>
+        <td>Dokumentacija</td>
+        <td>[foaf:page](http://xmlns.com/foaf/0.1/page)</td>
+        <td>[foaf:Document](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Document)</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Ši savybė nurodo puslapį arba dokumentą apie šį duomenų rinkinį.</td>
+    </tr>
+    <tr>
+        <td>Dažnumas</td>
+        <td>[dct:accrualPeriodicity](https://w3c.github.io/dxwg/dcat/#Property:dataset_frequency)</td>
+        <td>[dct:Frequency](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Frequency)</td>
+        <td>0..1</td>
+        <td>-</td>
+        <td>Ši savybė nurodo, kaip dažnai atnaujinamas duomenų rinkinys.</td>
+    </tr>
+    <tr>
+        <td>Turi versiją</td>
+        <td>[dcat:hasVersion](http://www.w3.org/ns/dcat#hasVersion)</td>
+        <td>[dcat:Dataset](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset)</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Ši savybė nurodo susijusį duomenų rinkinį, kuris yra aprašyto duomenų rinkinio versija, leidimas arba adaptacija.</td>
+    </tr>
+    <tr>
+        <td>Yra referuota iš</td>
+        <td>[dct:isReferencedBy](https://w3c.github.io/dxwg/dcat/#Property:resource_is_referenced_by)</td>
+        <td>[rdfs:Resource](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Resource)</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Susijęs šaltinis, pavyzdžiui, leidinys iš kurio pateikiamos nuorodos į duomenų rinkinį, kuriame jis cituojamas ir nukreipia į duomenų rinkinį.</td>
+    </tr>
+    <tr>
+        <td>Yra versija</td>
+        <td>[dcat:isVersionOf](http://www.w3.org/ns/dcat#isVersionOf)</td>
+        <td>[dcat:Dataset](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset)</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Susijęs duomenų rinkinys, kurio aprašytasis duomenų rinkinys yra versija arba adaptacija.</td>
+    </tr>
+    <tr>
+        <td>Nukreipimo puslapis</td>
+        <td>[dcat:landingPage](http://www.w3.org/ns/dcat#landingPage)</td>
+        <td>[foaf:Document](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Document)</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Ši savybė nurodo tinklalapį, kuriame galima susipažinti su duomenų rinkiniu, jo distribucija ir (arba) papildoma informacija. Ji skirta nukreipti į pradinio duomenų teikėjo, o ne į trečiosios šalies, pavyzdžiui, agregatoriaus, svetainės puslapį.</td>
+    </tr>
+    <tr>
+        <td>Kalba</td>
+        <td>[dct:language](https://w3c.github.io/dxwg/dcat/#Property:resource_language)</td>
+        <td>[dct:LinguisticSystem](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Linguisticsystem)</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Ši savybė nurodo duomenų rinkinio kalbą. Šią savybę galima pakartoti, jei duomenų rinkinys yra keliomis kalbomis.</td>
+    </tr>
+    <tr>
+        <td>Kilmė</td>
+        <td>[dct:provenance](https://w3c.github.io/dxwg/dcat/#examples-dataset-provenance)</td>
+        <td>[dct:ProvenanceStatement](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#ProvenanceStatement)</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Šioje savybėje pateikiama deklaracija apie duomenų rinkinio kilmę.</td>
+    </tr>
+    <tr>
+        <td>Kvalifikuotas priskyrimas</td>
+        <td>[prov:qualifiedAttribution](http://www.w3.org/ns/prov#qualifiedAttribution)</td>
+        <td>[prov:Attribution](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Attribution)</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Ši savybė pateikia nuorodą į agentą, turintį tam tikrą atsakomybę už išteklių.</td>
+    </tr>
+    <tr>
+        <td>Kvalifikuotas ryšis</td>
+        <td>[dcat:qualifiedRelation](http://www.w3.org/ns/dcat#qualifiedRelation)</td>
+        <td>[dcat:Relationship](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Relationship)</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Ši savybė pateikia nuorodą į ryšio su kitu ištekliumi aprašymą.</td>
+    </tr>
+    <tr>
+        <td>Susijęs išteklius</td>
+        <td>[dct:relation](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Relationship.relation)</td>
+        <td>[rdfs:Resource](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Resource)</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Ši savybė nurodo susijusį išteklių.</td>
+    </tr>
+    <tr>
+        <td>Išleidimo data</td>
+        <td>[dct:issued](https://w3c.github.io/dxwg/dcat/#Property:resource_release_date)</td>
+        <td>[rdfs:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#xsd%3Adecimal)</td>
+        <td>0..1</td>
+        <td>-</td>
+        <td>Duomenų rinkinio oficialaus išleidimo (pvz., paskelbimo) data.</td>
+    </tr>
+    <tr>
+        <td>Pavyzdys</td>
+        <td>[adms:sample](http://www.w3.org/ns/adms#sample)</td>
+        <td>[dcat:Distribution](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Distribution)</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Ši savybė nurodo duomenų rinkinio pavyzdį.</td>
+    </tr>
+    <tr>
+        <td>Šaltinis</td>
+        <td>[dct:source](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset.source)</td>
+        <td>[dcat:Dataset](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset)</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Susijęs duomenų rinkinys, iš kurio suformuotas aprašytas duomenų rinkinys.</td>
+    </tr>
+    <tr>
+        <td>Erdvinė raiška</td>
+        <td>[dcat:spatialResolutionInMeters](http://www.w3.org/ns/dcat#spatialResolutionInMeters)</td>
+        <td>[rdfs:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#xsd%3Adecimal)</td>
+        <td>0..1</td>
+        <td>-</td>
+        <td>Mažiausias erdvinis atskyrimas, kurį galima atskirti duomenų rinkinyje, matuojamas metrais.</td>
+    </tr>
+    <tr>
+        <td>Laikotarpis</td>
+        <td>[dcat:temporalResolution](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset.temporalresolution)</td>
+        <td>[rdfs:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Periodoftime)</td>
+        <td>0..1</td>
+        <td>-</td>
+        <td>Laikotarpis, kurį apima duomenų rinkinys.</td>
+    </tr>
+    <tr>
+        <td>Tipas</td>
+        <td>[dct:type](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset.type)</td>
+        <td>[skos:Concept](https://www.w3.org/2009/08/skos-reference/skos.html#Concept)</td>
+        <td>0..1</td>
+        <td>-</td>
+        <td>Ši savybė nurodo duomenų rinkinio tipą. Numatytas rekomenduojamas kontroliuojamo žodyno duomenų tipas.</td>
+    </tr>
+    <tr>
+        <td>Pakeitimo data</td>
+        <td>[dct:modified](https://w3c.github.io/dxwg/dcat/#Property:distribution_update_date)</td>
+        <td>[rdfs:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#TemporalLiteral)</td>
+        <td>0..1</td>
+        <td>-</td>
+        <td>Naujausia duomenų rinkinio pakeitimo arba modifikavimo data.</td>
+    </tr>
+    <tr>
+        <td>Versijos pastabos</td>
+        <td>[adms:versionNotes](http://www.w3.org/ns/adms#versionNotes)</td>
+        <td>[rdfs:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Literal)</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Šios versijos ir ankstesnės duomenų rinkinio versijos skirtumų aprašymas.</td>
+    </tr>
+    <tr>
+        <td>Buvo sukurtas dėl</td>
+        <td>[prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy)</td>
+        <td>[prov:Activity](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Activity)</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Veikla, dėl kurios buvo sukurtas duomenų rinkinys arba kuri suteikia verslo kontekstą duomenų rinkinio kūrimui.</td>
+    </tr>
+    <tr>
+        <td>Yra dalis</td>
+        <td>[dct:isPartOf](https://w3c.github.io/dxwg/dcat/#Property:dataset_in_series)</td>
+        <td>[dcat:Catalog](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Catalogue)</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Ši savybė nurodo susijusį duomenų rinkinį, į kurį fiziškai arba logiškai įtrauktas aprašomas katalogas.</td>
+    </tr>
+    <tr>
+        <td>Teisinis pagrindas</td>
+        <td>[dcatap:applicableLegislation](https://semiceu.github.io/uri.semic.eu-generated/r5r/release/3.0.0/#applicableLegislation)</td>
+        <td>[eli:LegalResource](http://data.europa.eu/eli/ontology#LegalResource)</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Teisės aktas, kurio pagrindu yra valdomas ir tvarkomas duomenų rinkinys.</td>
+    </tr>
  </table>
+
 
 ## Duomenų paslauga
 
