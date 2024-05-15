@@ -180,6 +180,39 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
 
 # Naudojamos BregDCAT-AP klasės ir savybės
 
+## Katalogas
+## Agentas
+## Tekstinis
+## Išteklius
+## Duomenų rinkinys
+## Duomenų paslauga
+## Kategorija, skelbėjo tipas, statusas
+## Platinimas
+## Licencijos dokumentas
+## Koncepcijos schema
+## Teisinis išteklius
+## Taisyklė
+## Viešoji organizacija
+## Viešoji paslauga
+## Katalogo įrašas
+## Kontrolinė suma
+## Dokumentas
+## Dažnis
+## Identifikatorius
+## Rūšis
+## Lingvistinė sistema
+## Vietovė
+## Laikmenos tipas
+## Laiko aprėptis
+## Teisių pareiškimas
+## Kilmės pareiškimas
+## Standartas
+## Kontaktas
+## Kokybės anotacija
+## Kokybės matavimas
+## Veikla
+## Adresas
+
 <table border="1">
   <tr>
     <th>Property</th>
