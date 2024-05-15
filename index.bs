@@ -1453,14 +1453,18 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
             </tr>
             <tr>
             <td>Identifikatorius</td>
-        <td></td>
-        <td></td>
+        <td>Identifikatorius tam tikrame kontekste, yra eilutė (angl. string), kuri ir yra identifikatorius;
+neprivalomas identifikatoriaus schemos identifikatorius;
+neprivalomas identifikatoriaus schemos versijos identifikatorius;
+neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
+</td>
+        <td> - </td>
         <td><a href="http://www.w3.org/ns/adms#Identifier">adms:Identifier</a></td>
     </tr>
            
         </table>
 
- <table class="data-table simple">
+        <table class="data-table simple">
          
             <tr class="data-table__header">
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
@@ -1470,7 +1474,16 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
             </tr>
-</table>
+
+            <tr>
+        <td>Žymėjimas</td>
+        <td>skos:notation<br>rdfs:Literal</td>
+        <td>1..1</td>
+        <td>1..1</td>
+        <td>-</td>
+        <td>Ši savybė yra eilutė, kuri yra identifikatorius pagal identifikatoriaus schemą, į kurią nurodo jos duomenų tipas.</td>
+        </tr>
+        </table>
 
 
 ## Rūšis
@@ -1596,7 +1609,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
 </table>
 
 
-## Laiko aprėptis
+## Laikotarpis
 
  <table class="data-table simple">
             <tr >
