@@ -191,7 +191,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Aprašas</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Intervalas</th>
             </tr>
             <tr class="data-table__header">
                 <td>[Katalogas](http://www.w3.org/ns/dcat#Catalog)</td>
@@ -228,7 +228,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
                 <td>Šioje savybėje pateikiamas katalogui suteiktas pavadinimas.</td>
             </tr>
             <tr class="data-table__header">
-                <td>[dcataplt:importance](http://data.gov.lt/DCAT-AP-LT/importanceAssessmentURL)</td>
+                <td>[svarba](http://data.gov.lt/DCAT-AP-LT/importanceAssessmentURL)</td>
                 <td>[Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Literal)</td>
                 <td>1..1</td>
                 <td>Informacinės sistemos svarba pagal Valstybės informacinių išeklių valdymo įstatymo reikalavimus.</td>
@@ -243,7 +243,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
             </tr>
             <tr class="data-table__header">
                 <td>[dcataplt:importanceAssessmentURL](http://data.gov.lt/DCAT-AP-LT/importanceAssessmentURL)</td>
-                <td>[accessURL](http://www.w3.org/ns/dcat#accessURL)</td>
+                <td>[Resource](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Resource)</td>
                 <td>1..1</td>
                 <td>URL nuoroda į IS svarbos vertinimo dokumentą.</td>
                 <td>Nuoroda į IS svarbos nustatymo įsivertinimo įrodymą.</td>
@@ -347,7 +347,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
                 <td>Ši savybė nurodo katalogą, kurio turinys domina šio katalogo kontekste.</td>
             </tr>
             <tr class="data-table__header">
-                <td>[kūrėjas](https://w3c.github.io/dxwg/dcat/#Property:resource_creator)</td>
+                <td>[skelbėjas](https://w3c.github.io/dxwg/dcat/#Property:resource_creator)</td>
                 <td>[Agent](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Agent)</td>
                 <td>0..n</td>
                 <td>IS Valdytojas</td>
