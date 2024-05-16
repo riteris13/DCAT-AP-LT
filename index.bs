@@ -372,7 +372,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
             <tr class="data-table__header">
                 <td>Teisės</td>
                 <td>[dct:rights](https://w3c.github.io/dxwg/dcat/#Property:resource_rights)</td>
-                <td>[dct:RightsStatement](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#CatalogueRecord)</td>
+                <td>[dct:RightsStatement](http://purl.org/dc/terms/RightsStatement)</td>
                 <td>0..1</td>
                 <td>-</td>
                 <td>Ši savybė pateikia deklaraciją, kurioje nurodomos su katalogu susijusios teisės.</td>
@@ -387,7 +387,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
             </tr>
             <tr class="data-table__header">
                 <td>Rengėjas</td>
-                <td>[dct:creator](https://w3c.github.io/dxwg/dcat/#Property:resource_creator)</td>
+                <td>[dct:creator](http://purl.org/dc/terms/creator)</td>
                 <td>[foaf:Agent](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Agent)</td>
                 <td>0..n</td>
                 <td>IS Valdytojas</td>
@@ -583,7 +583,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
     </tr>
     <tr>
         <td>Duomenų erdvė</td>
-        <td>[dct:conformsTo](https://w3c.github.io/dxwg/dcat/#Property:resource_conforms_to)</td>
+        <td>[dct:conformsTo](http://purl.org/dc/terms/conformsTo)</td>
         <td>[dct:Standard](http://purl.org/dc/terms/Standard)</td>
         <td>1..n</td>
         <td>Šaltinis: EUR-Lex - 52020DC0066 - EN - EUR-Lex (europa.eu)</td>
@@ -655,15 +655,15 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
     </tr>
     <tr>
         <td>Atitinka</td>
-        <td>[dct:conformsTo](https://w3c.github.io/dxwg/dcat/#Property:resource_conforms_to)</td>
+        <td>[dct:conformsTo](http://purl.org/dc/terms/conformsTo)</td>
         <td>[dct:Standard](http://purl.org/dc/terms/Standard)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo įgyvendinimo taisyklę arba kitą specifikaciją.</td>
     </tr>
     <tr>
-        <td>Kūrėjas</td>
-        <td>[dct:creator](https://w3c.github.io/dxwg/dcat/#Property:resource_creator)</td>
+        <td>Rengėjas</td>
+        <td>[dct:creator](http://purl.org/dc/terms/creator)</td>
         <td>[foaf:Agent](http://xmlns.com/foaf/0.1/Agent)</td>
         <td>0..1</td>
         <td>-</td>
@@ -678,7 +678,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
         <td>Ši savybė nurodo puslapį arba dokumentą apie šį duomenų rinkinį.</td>
     </tr>
     <tr>
-        <td>Dažnumas</td>
+        <td>Kaupimo periodiškumas</td>
         <td>[dct:accrualPeriodicity](https://w3c.github.io/dxwg/dcat/#Property:dataset_frequency)</td>
         <td>[dct:Frequency](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Frequency)</td>
         <td>0..1</td>
@@ -1403,7 +1403,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
     </tr>
     <tr>
         <td>Pakeitimo data</td>
-        <td>dct:modified<br>rdfs:Literal</td>
+        <td>[dct:modified]()</td>
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..1</td>
         <td>-</td>
@@ -1411,8 +1411,8 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
     </tr>
     <tr>
         <td>Taikymo profilis</td>
-        <td>dcterms:conformsTo<br>dct:Standard</td>
-        <td>0..1</td>
+        <td>[dcterms:conformsTo](http://purl.org/dc/terms/conformsTo)</td>
+        <td>[dct:Standard](http://purl.org/dc/terms/Standard)</td>
         <td>0..1</td>
         <td>-</td>
         <td>Taikymo profilis, kurį atitinka duomenų rinkinio metaduomenys.</td>
