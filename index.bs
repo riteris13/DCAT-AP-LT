@@ -289,8 +289,8 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
             </tr>
             <tr class="data-table__header">
                 <td>Licencija</td>
-                <td>[dct:license](https://w3c.github.io/dxwg/dcat/#Property:resource_license)</td>
-                <td>[dct:LicenseDocument](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#LicenceDocument)</td>
+                <td>[dct:license](http://purl.org/dc/terms/license)</td>
+                <td>[dct:LicenseDocument](http://purl.org/dc/terms/LicenseDocument)</td>
                 <td>0..1</td>
                 <td>-</td>
                 <td>Ši savybė nurodo licenciją, pagal kurią galima naudoti arba pakartotinai naudoti katalogą.</td>
@@ -425,7 +425,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
             </tr>
             <tr class="data-table__header">
                 <td>Tipas</td>
-                <td>[dct:type](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset.type)</td>
+                <td>[dct:type](http://purl.org/dc/terms/type)</td>
                 <td>[skos:Concept](https://www.w3.org/2009/08/skos-reference/skos.html#Concept)</td>
                 <td>0..1</td>
                 <td>-</td>
@@ -678,7 +678,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
     <tr>
         <td>Yra referuota iš</td>
         <td>[dct:isReferencedBy](https://w3c.github.io/dxwg/dcat/#Property:resource_is_referenced_by)</td>
-        <td>[rdfs:Resource](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Resource)</td>
+        <td>[rdfs:Resource](http://www.w3.org/2000/01/rdf-schema#Resource)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Susijęs šaltinis, pavyzdžiui, leidinys iš kurio pateikiamos nuorodos į duomenų rinkinį, kuriame jis cituojamas ir nukreipia į duomenų rinkinį.</td>
@@ -734,7 +734,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
     <tr>
         <td>Susijęs išteklius</td>
         <td>[dct:relation](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Relationship.relation)</td>
-        <td>[rdfs:Resource](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Resource)</td>
+        <td>[rdfs:Resource](http://www.w3.org/2000/01/rdf-schema#Resource)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo susijusį išteklių.</td>
@@ -781,7 +781,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
     </tr>
     <tr>
         <td>Tipas</td>
-        <td>[dct:type](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset.type)</td>
+        <td>[dct:type](http://purl.org/dc/terms/type)</td>
         <td>[skos:Concept](https://www.w3.org/2009/08/skos-reference/skos.html#Concept)</td>
         <td>0..1</td>
         <td>-</td>
@@ -908,8 +908,8 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
     </tr>
     <tr>
         <td>Tinklalapis</td>
-        <td>dcat:endpointURL<br>rdfs:Resource</td>
-        <td>1..n</td>
+        <td>[dcat:endpointURL]()></td>
+        <td>[rdfs:Resource](http://www.w3.org/2000/01/rdf-schema#Resource)</td>
         <td>1..n</td>
         <td>-</td>
         <td>Šioje savybėje galinio punkto URL turi būti nuolatinis. Tai reiškia, kad leidėjai turėtų daryti viską, kad išlaikytų stabilią ir esamą vertę.</td>
@@ -968,16 +968,16 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
             </tr>
             <tr>
         <td>Prieigos URL</td>
-        <td>dcat:accessURL<br>rdfs:Resource</td>
-        <td>1..n</td>
+        <td>[dcat:accessURL]()</td>
+        <td>[rdfs:Resource](http://www.w3.org/2000/01/rdf-schema#Resource)</td>
         <td>1..n</td>
         <td>-</td>
         <td>Šioje savybėje pateikiamas URL, kuris suteikia prieigą prie duomenų rinkinio platinimo.</td>
     </tr>
     <tr>
         <td>Licencija</td>
-        <td>dct:license<br>dct:LicenseDocument</td>
-        <td>1..1</td>
+        <td>[dct:license](http://purl.org/dc/terms/license)</td>
+        <td>[dct:LicenseDocument](http://purl.org/dc/terms/LicenseDocument)</td>
         <td>1..1</td>
         <td>-</td>
         <td>Ši savybė nurodo licenciją, pagal kurią platinama distribucija.</td>
@@ -1028,6 +1028,14 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
             </tr>
+              <tr>
+        <td>Tipas</td>
+        <td>[dct:type](http://purl.org/dc/terms/type)</td>
+        <td>[skos:Concept]</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Ši savybė nurodo licencijos dokumento tipą. Numatytas rekomenduojamas kontroliuojamo žodyno duomenų tipas.</td>
+    </tr>
 </table>
 
 
@@ -1170,8 +1178,8 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
     </tr>
     <tr>
         <td>Tipas</td>
-        <td>dct:type<br>skos:Concept</td>
-        <td>0..n</td>
+        <td>[dct:type](http://purl.org/dc/terms/type)</td>
+        <td>[skos:Concept] ()</td>
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo taisyklės tipą. Joje turi būti naudojamas kontroliuojama žodynas.</td>
