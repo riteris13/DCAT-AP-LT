@@ -1616,29 +1616,17 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:30%">Aprašas</th>
+                <th class="data-table__header-title--sortable" style="width:30%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
           <tr>
         <td>Rūšis</td>
-        <td></td>
-        <td></td>
+        <td>Pagal vCard specifikaciją, pvz., kontaktinio asmens telefono numeriui ir el. pašto adresui nurodyti.</td>
+        <td>Klasė Rūšis yra tėvinė klasė keturių vCard kortelių tipų (Individualus asmuo, Organizacija, Vieta, Grupė).</td>
         <td><a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a></td>
     </tr>
            
         </table>
-
- <table class="data-table simple">
-         
-            <tr class="data-table__header">
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Kardinalumas</th>
-                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
-            </tr>
-</table>
 
 
 ## Lingvistinė sistema
@@ -1646,30 +1634,20 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:30%">Aprašas</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
             </tr>
          <tr>
         <td>Lingvistinė sistema</td>
-        <td></td>
-        <td></td>
+        <td>Komunikacijoje naudojama ženklų, simbolių, garsų, gestų ar taisyklių sistema, pvz. kalba.</td>
+        <td> - </td>
         <td><a href="http://purl.org/dc/terms/LinguisticSystem">dct:LinguisticSystem</a></td>
     </tr>
            
         </table>
 
- <table class="data-table simple">
-         
-            <tr class="data-table__header">
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Kardinalumas</th>
-                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
-            </tr>
-</table>
+ 
 
 
 ## Vietovė
@@ -1682,10 +1660,10 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
                 <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
             </tr>
             <tr class="data-table__header">
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>[dcat:Dataset](https://www.w3.org/TR/vocab-dcat-3/#Class:Dataset)</td>
+                <td>Vietovė</td>
+                <td>Erdvinis regionas arba įvardyta vieta.</td>
+                <td>•	Naudojimo pastaba: gali būti vaizduojama naudojant kontroliuojamąjį žodyną arba geografines koordinates. Pastaruoju atveju rekomenduojama naudoti pagrindinį vietovės žodyną, laikantis GeoDCAT-AP specifikacijoje aprašyto metodo.</td>
+                <td>[dct:Location](http://purl.org/dc/terms/Location)</td>
             </tr>
            
         </table>
@@ -1703,7 +1681,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
 </table>
 
 
-## Laikmenos tipas
+## Medijos tipas
 
  <table class="data-table simple">
             <tr >
@@ -1713,25 +1691,14 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
                 <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
             </tr>
             <tr class="data-table__header">
+                <td>Medijos tipas</td>
+                <td>Medijos tipas, pvz. kompiuterio failo formatas.</td>
                 <td></td>
-                <td></td>
-                <td></td>
-                <td>[dcat:Dataset](https://www.w3.org/TR/vocab-dcat-3/#Class:Dataset)</td>
+                <td>[dct:MediaType](http://purl.org/dc/terms/MediaType)</td>
             </tr>
            
         </table>
 
- <table class="data-table simple">
-         
-            <tr class="data-table__header">
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Kardinalumas</th>
-                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
-            </tr>
-</table>
 
 
 ## Laikotarpis
