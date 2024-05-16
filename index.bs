@@ -2100,4 +2100,29 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
   </tbody>
 </table>
 
+## Katalogo įrašas
 
+<table>
+  <thead>
+    <tr>
+      <th>Savybė</th>
+      <th>Intervalas</th>
+      <th>Kardinalumas</th>
+      <th>Apibrėžimas</th>
+      <th>Naudojimas</th>
+      <th>DCAT</th>
+      <th>Perpanaudojimas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>primary topic</td>
+      <td>Catalogued Resource</td>
+      <td>1</td>
+      <td>Nuoroda į aprašytąjį duomenų rinkinį, duomenų paslaugą arba katalogą.</td>
+      <td>Katalogo įrašas nurodys vieną subjektą kataloge. Tai gali būti arba duomenų rinkinys, arba duomenų paslauga. Siekiant užtikrinti neambicingą kardinalumo skaitymą, diapazonas nustatomas kaip Kataloguojamas išteklius. Tačiau šio diapazono tikslas nėra reikalauti eksplicitiškai naudoti klasę Kataloguotas įrašas. Kaip abstrakti klasė, turėtų būti naudojama antrinė klasė.</td>
+      <td><a href="#">Link</a></td>
+      <td>A</td>
+    </tr>
+  </tbody>
+</table>
