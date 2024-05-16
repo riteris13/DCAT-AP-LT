@@ -227,7 +227,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
             <tr class="data-table__header">
                 <td>Skelbėjas</td>
                 <td>[dct:publisher](https://w3c.github.io/dxwg/dcat/#Property:resource_publisher)</td>
-                <td>[foaf:Agent](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Agent)</td>
+                <td>[foaf:Agent](http://xmlns.com/foaf/0.1/Agent)</td>
                 <td>1..1</td>
                 <td>Šia savybe pateikiamas valstybės valdymo ar savivaldos institucijos ar organizacijos, kuri yra IS valdytojas, pavadinimas.</td>
                 <td>Ši savybė nurodo subjektą (organizaciją), atsakingą už katalogo prieinamumą.</td>
@@ -300,7 +300,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
             <tr class="data-table__header">
                 <td>Kalba</td>
                 <td>[dct:language](https://w3c.github.io/dxwg/dcat/#Property:resource_language)</td>
-                <td>[dct:LinguisticSystem](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Linguisticsystem)</td>
+                <td>[dct:LinguisticSystem](http://purl.org/dc/terms/LinguisticSystem)</td>
                 <td>0..n</td>
                 <td>-</td>
                 <td>Ši savybė nurodo kalbą, naudojamą tekstiniuose metaduomenyse, apibūdinančiuose kataloge esančių duomenų rinkinių pavadinimus, aprašymus.</td>
@@ -324,7 +324,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
             <tr class="data-table__header">
                 <td>Geografinė aprėptis</td>
                 <td>[dct:spatial](https://w3c.github.io/dxwg/dcat/#Property:dataset_spatial)</td>
-                <td>[dct:Location](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Location)</td>
+                <td>[dct:Location](http://purl.org/dc/terms/Location)</td>
                 <td>0..1</td>
                 <td>-</td>
                 <td>Šioje savybėje nurodoma naujausia katalogo pakeitimo data.</td>
@@ -332,7 +332,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
             <tr class="data-table__header">
                 <td>Temos taksonomija</td>
                 <td>[dcat:themeTaxonomy](http://www.w3.org/ns/dcat#themeTaxonomy)</td>
-                <td>[skos:ConceptScheme](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Location)</td>
+                <td>[skos:ConceptScheme](http://www.w3.org/2004/02/skos/core#ConceptScheme)</td>
                 <td>0..n</td>
                 <td>-</td>
                 <td>Ši savybė nurodo žinių organizavimo sistemą, naudojamą katalogo duomenų rinkiniams klasifikuoti.</td>
@@ -388,7 +388,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
             <tr class="data-table__header">
                 <td>Rengėjas</td>
                 <td>[dct:creator](http://purl.org/dc/terms/creator)</td>
-                <td>[foaf:Agent](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Agent)</td>
+                <td>[foaf:Agent](http://xmlns.com/foaf/0.1/Agent)</td>
                 <td>0..n</td>
                 <td>IS Valdytojas</td>
                 <td>Ši savybė nurodo subjektą, atsakingą už katalogo parengimą.</td>
@@ -543,7 +543,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
     </tr>
     <tr>
         <td>Pavadinimas</td>
-        <td>[dct:title](https://w3c.github.io/dxwg/dcat/#Property:resource_title)</td>
+        <td>[dct:title](http://purl.org/dc/terms/title)</td>
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..n</td>
         <td>-</td>
@@ -616,7 +616,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
     <tr>
         <td>Duomenų skelbėjas</td>
         <td>[dct:publisher](https://w3c.github.io/dxwg/dcat/#Property:resource_publisher)</td>
-        <td>[foaf:Agent](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Agent)</td>
+        <td>[foaf:Agent](http://xmlns.com/foaf/0.1/Agent)</td>
         <td>0..1</td>
         <td>-</td>
         <td>Ši savybė nurodo subjektą (organizaciją), atsakingą už duomenų rinkinio prieinamumą.</td>
@@ -624,7 +624,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
     <tr>
         <td>Geografinė vieta</td>
         <td>[dct:spatial](https://w3c.github.io/dxwg/dcat/#Property:dataset_spatial)</td>
-        <td>[dct:Location](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Location)</td>
+        <td>[dct:Location](http://purl.org/dc/terms/Location)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo geografinę vietovę, kurią apima duomenų rinkinys.</td>
@@ -720,15 +720,15 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
     <tr>
         <td>Kalba</td>
         <td>[dct:language](https://w3c.github.io/dxwg/dcat/#Property:resource_language)</td>
-        <td>[dct:LinguisticSystem](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Linguisticsystem)</td>
+        <td>[dct:LinguisticSystem](http://purl.org/dc/terms/LinguisticSystem)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo duomenų rinkinio kalbą. Šią savybę galima pakartoti, jei duomenų rinkinys yra keliomis kalbomis.</td>
     </tr>
     <tr>
         <td>Kilmė</td>
-        <td>[dct:provenance](https://w3c.github.io/dxwg/dcat/#examples-dataset-provenance)</td>
-        <td>[dct:ProvenanceStatement](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#ProvenanceStatement)</td>
+        <td>[dct:provenance](http://purl.org/dc/terms/provenance)</td>
+        <td>[dct:ProvenanceStatement](http://purl.org/dc/terms/ProvenanceStatement)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Šioje savybėje pateikiama deklaracija apie duomenų rinkinio kilmę.</td>
@@ -886,7 +886,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
     </tr>
     <tr>
         <td>Pavadinimas</td>
-        <td>dct:title</td>
+        <td>[dct:title](http://purl.org/dc/terms/title)</td>
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..n</td>
         <td>-</td>
@@ -1002,8 +1002,8 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
     </tr>
     <tr>
         <td>Didelės vertės duomenų rinkinio kategorija</td>
-        <td>dcatap:hvdCategory<br>skos:Concept</td>
-        <td>1..n</td>
+        <td>dcatap:hvdCategory<br></td>
+        <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
         <td>1..n</td>
         <td>-</td>
         <td>Didelės vertės duomenų rinkinio sritis, kuriai šis pateiktis priklauso. Privaloma savybė didelės vertės duomenų rinkinių distribucijoms.</td>
@@ -1049,7 +1049,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
               <tr>
         <td>Tipas</td>
         <td>[dct:type](http://purl.org/dc/terms/type)</td>
-        <td>[skos:Concept]</td>
+        <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo licencijos dokumento tipą. Numatytas rekomenduojamas kontroliuojamo žodyno duomenų tipas.</td>
@@ -1087,7 +1087,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
             </tr>
             <tr>
         <td>Pavadinimas</td>
-        <td>dct:title</td>
+        <td>[dct:title](http://purl.org/dc/terms/title)</td>
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..n</td>
         <td>-</td>
@@ -1212,7 +1212,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
     </tr>
     <tr>
         <td>Pavadinimas</td>
-        <td>dct:title</td>
+        <td>[dct:title](http://purl.org/dc/terms/title)</td>
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..n</td>
         <td>-</td>
@@ -1228,8 +1228,8 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
     </tr>
     <tr>
         <td>Kalba</td>
-        <td>dct:language<br>dct:LinguisticSystem</td>
-        <td>0..n</td>
+        <td>dct:language<br></td>
+        <td>[dct:LinguisticSystem](http://purl.org/dc/terms/LinguisticSystem)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo kalbą (-as), kuria (-iomis) galima naudotis taisykle. Ji gali būti viena ar kelios kalbos, pvz., šalyse, kuriose yra daugiau kalbų, nei viena oficiali kalba.</td>
@@ -1237,7 +1237,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
     <tr>
         <td>Tipas</td>
         <td>[dct:type](http://purl.org/dc/terms/type)</td>
-        <td>[skos:Concept] ()</td>
+        <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo taisyklės tipą. Joje turi būti naudojamas kontroliuojama žodynas.</td>
@@ -1283,7 +1283,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
     </tr>
     <tr>
         <td>Pavadinimas</td>
-        <td>dct:title<br>rdfs:Literal</td>
+        <td>[dct:title](http://purl.org/dc/terms/title)</td>
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..1</td>
         <td>-</td>
@@ -1299,8 +1299,8 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
     </tr>
     <tr>
         <td>Geografinė vietovė</td>
-        <td>dct:spatial<br>dct:Location</td>
-        <td>1..n</td>
+        <td>dct:spatial<br></td>
+        <td>[dct:Location](http://purl.org/dc/terms/Location)</td>
         <td>1..n</td>
         <td>-</td>
         <td>Ši savybė nurodo geografinį arba administracinį regioną, kurį apima institucija. Šios savybės reikšmė turėtų būti URI iš Administracinio teritorinių vienetų pavadintų institucijų sąrašo, kurį tvarko Leidinių biuro Metaduomenų registras.</td>
@@ -1323,7 +1323,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
     </tr>
     <tr>
         <td>Pagrindinis puslapis</td>
-        <td>foaf:homepage<br></td>
+        <td>[foaf:homepage](http://xmlns.com/foaf/0.1/homepage)</td>
         <td>[foaf:Document](http://xmlns.com/foaf/0.1/Document)</td>
         <td>0..1</td>
         <td>-</td>
@@ -1395,7 +1395,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
             </tr>
              <tr>
         <td>Pagrindinė tema</td>
-        <td>foaf:primaryTopic<br></td>
+        <td>[foaf:primaryTopic]()</td>
         <td>[dcat:Dataset](http://www.w3.org/ns/dcat#Dataset)<br>[dcat:Dataservice](http://www.w3.org/ns/dcat#DataService)<br>[dcat:Catalog](http://www.w3.org/ns/dcat#Catalog)</td>
         <td>1..1</td>
         <td>-</td>
@@ -1419,8 +1419,8 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
     </tr>
     <tr>
         <td>Pokyčio tipas</td>
-        <td>adms:status<br>skos:Concept</td>
-        <td>0..1</td>
+        <td>adms:status<br></td>
+        <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
         <td>0..1</td>
         <td>-</td>
         <td>Katalogo įrašo statusas duomenų rinkinio redakcinio srauto ir duomenų paslaugų aprašymų kontekste.</td>
@@ -1443,8 +1443,8 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
     </tr>
     <tr>
         <td>Kalba</td>
-        <td>dct:language<br>dct:LinguisticSystem</td>
-        <td>0..n</td>
+        <td>dct:language<br></td>
+        <td>[dct:LinguisticSystem](http://purl.org/dc/terms/LinguisticSystem)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Kalba, vartojama tekstiniuose metaduomenyse, apibūdinančiuose duomenų rinkinio pavadinimus, aprašymus ir t. t. Galima pakartoti, jei metaduomenys pateikiami keliomis kalbomis.</td>
@@ -1459,7 +1459,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
     </tr>
     <tr>
         <td>Pavadinimas</td>
-        <td>dct:title<br>rdfs:Literal</td>
+        <td>[dct:title](http://purl.org/dc/terms/title)</td>
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>0..n</td>
         <td>-</td>
@@ -1525,7 +1525,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
                 <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
             </tr>
             <tr class="data-table__header">
-                <td></td>
+                <td>Dokumentas</td>
                 <td></td>
                 <td></td>
                 <td>[foaf:Document](http://xmlns.com/foaf/0.1/Document)</td>
