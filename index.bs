@@ -1678,6 +1678,30 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
             </tr>
+		  <tr>
+        <td>Geografinis ribinis stačiakampis</td>
+        <td>[dcat:bbox](http://www.w3.org/ns/dcat#bbox)</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
+        <td>0..1</td>
+        <td>-</td>
+        <td>Ši savybė nurodo išteklių geografines ribas.</td>
+    </tr>
+    <tr>
+        <td>Centroidas</td>
+        <td>[dcat:centroid](http://www.w3.org/ns/dcat#centroid)</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
+        <td>0..1</td>
+        <td>-</td>
+        <td>Ši savybė nurodo išteklių geografinį centrą (centroidą).</td>
+    </tr>
+    <tr>
+        <td>Geometrija</td>
+        <td>[locn:geometry](http://www.w3.org/ns/locn#geometry)</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
+        <td>0..1</td>
+        <td>-</td>
+        <td>Ši savybė susieja bet kurį išteklių su atitinkama geometrija.</td>
+    </tr>
 </table>
 
 
@@ -1731,7 +1755,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
             </tr>
              <tr>
         <td>Pabaigos data</td>
-        <td>dcat:endDate<br>rdfs:Literal</td>
+        <td>dcat:endDate</td>
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>0..1</td>
         <td>-</td>
@@ -1739,7 +1763,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
      </tr>
      <tr>
         <td>Pradžios data</td>
-        <td>dcat:startDate<br>rdfs:Literal</td>
+        <td>dcat:startDate</td>
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>0..1</td>
         <td>-</td>
