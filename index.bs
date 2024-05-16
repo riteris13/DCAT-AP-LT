@@ -580,7 +580,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
         <td>Šioje savybėje pateikiama kontaktinė informacija, kurią galima naudoti siunčiant pastabas apie duomenų rinkinį.</td>
     </tr>
     <tr>
-        <td>Duomenų rinkinio platinimas</td>
+        <td>Duomenų rinkinio pateiktis</td>
         <td>[dcat:distribution](http://www.w3.org/ns/dcat#distribution)</td>
         <td>[dcat:Distribution](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Distribution)</td>
         <td>0..n</td>
@@ -988,7 +988,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
         <td>1..n</td>
         <td>1..n</td>
         <td>-</td>
-        <td>Didelės vertės duomenų rinkinio sritis, kuriai šis platinimas priklauso. Privaloma savybė didelės vertės duomenų rinkinių distribucijoms.</td>
+        <td>Didelės vertės duomenų rinkinio sritis, kuriai šis pateiktis priklauso. Privaloma savybė didelės vertės duomenų rinkinių distribucijoms.</td>
     </tr>
     <tr>
         <td>Teisinis pagrindas</td>
@@ -996,7 +996,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
         <td>1..n</td>
         <td>1..n</td>
         <td>-</td>
-        <td>Teisės aktas, kurio pagrindu yra valdoma ir tvarkomas duomenų rinkinio platinimas. Ši savybė privaloma didelės vertės duomenų rinkinių distribucijoms/realizacijoms.</td>
+        <td>Teisės aktas, kurio pagrindu yra valdoma ir tvarkomas duomenų rinkinio pateiktis. Ši savybė privaloma didelės vertės duomenų rinkinių distribucijoms/realizacijoms.</td>
     </tr>
    </table>
 
@@ -1106,6 +1106,46 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
             </tr>
+             <tr>
+        <td>Tipas</td>
+        <td>dct:type<br>eli:ResourceType</td>
+        <td>1..n</td>
+        <td>1..n</td>
+        <td>-</td>
+        <td>Ši savybė nurodo teisinio ištekliaus tipą (pvz., "Direktyva", „Règlement grand ducal“, „įstatymas“, „Règlement ministériel“, „projektas pasiūlymas“, „Parlamento aktas“ ir t. t.). Valstybės narės raginamos sudaryti savo teisės aktų sąrašą atitinkamoje sąvokų schemoje.</td>
+    </tr>
+    <tr>
+        <td>Aprašymas</td>
+        <td>dct:description<br>rdfs:Literal</td>
+        <td>0..n</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Šioje savybėje pateikiama aprašomoji tekstinė informacija apie teisinį išteklių. Šią savybę reikėtų pakartoti, jei yra įvairių teksto versijų skirtingomis kalbomis.</td>
+    </tr>
+    <tr>
+        <td>Identifikatorius</td>
+        <td>dcterms:identifier<br>rdfs:Literal</td>
+        <td>0..n</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Šioje savybėje pateikiamas taisyklės identifikatorius.</td>
+    </tr>
+    <tr>
+        <td>Nuoroda</td>
+        <td>rdfs:seeAlso<br>rdfs:Resource</td>
+        <td>0..n</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Ši savybė aprašo išteklių, susijusį su konkrečiu aprašomu teisiniu ištekliu.</td>
+    </tr>
+    <tr>
+        <td>Susijęs</td>
+        <td>dcterms:relation<br>eli:LegalResource</td>
+        <td>0..n</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Ši savybė reiškia kitą teisinių išteklių klasės egzempliorių, susijusį su konkrečiu aprašomu teisiniu ištekliu.</td>
+    </tr>
 </table>
 
 ## Taisyklė
@@ -2013,7 +2053,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
     <td>Dataset - dataset distribution</td>
     <td>dcat:distribution</td>
     <td>Dataset - dataset distribution</td>
-    <td>Duomenų rinkinys - duomenų rinkinio platinimas</td>
+    <td>Duomenų rinkinys - duomenų rinkinio pateiktis</td>
   </tr>
   <tr>
     <td>Dataset - keyword/ tag</td>
