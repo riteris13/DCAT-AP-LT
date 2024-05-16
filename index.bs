@@ -284,7 +284,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
             <tr class="data-table__header">
                 <td>Paslauga</td>
                 <td>[dcat:service](http://www.w3.org/ns/dcat#service)</td>
-                <td>[dcat:DataService](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#DataService)</td>
+                <td>[dcat:DataService](http://www.w3.org/ns/dcat#DataService)</td>
                 <td>0..n</td>
                 <td>-</td>
                 <td>Ši savybė nurodo svetainę arba galinį tašką (angl. end-point) (duomenų paslaugą), įtrauktą į katalogą.</td>
@@ -861,7 +861,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
                 <td>Duomenų paslauga</td>
                 <td>Operacijų rinkinys, suteikiantis prieigą prie vieno ar daugiau duomenų rinkinių arba duomenų apdorojimo funkcijų.</td>
                 <td>-</td>
-                <td>[dcat:DataService](https://www.w3.org/TR/vocab-dcat-3/#Class:Data_Service)</td>
+                <td>[dcat:DataService](http://www.w3.org/ns/dcat#DataService)</td>
             </tr>
            
         </table>
@@ -1396,7 +1396,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
              <tr>
         <td>Pagrindinė tema</td>
         <td>foaf:primaryTopic<br></td>
-        <td>[dcat:Dataset]()<br>dcat:Dataservice<br>dcat:Catalog</td>
+        <td>[dcat:Dataset]()<br>[dcat:Dataservice](http://www.w3.org/ns/dcat#DataService)<br>dcat:Catalog</td>
         <td>1..1</td>
         <td>-</td>
         <td>Nuoroda į įraše aprašytą duomenų rinkinį, duomenų paslaugą arba katalogą. Katalogo įrašas bus nuoroda į vieną katalogo vienetą. Tai gali būti duomenų rinkinys arba duomenų paslauga.</td>
