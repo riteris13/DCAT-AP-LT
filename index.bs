@@ -2055,16 +2055,18 @@ Didelės vertės duomenų rinkiniai pasižymi specifiniais techniniais ir teisin
 </ul>
 Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikalavimus, DCAT-AP-LT modelyje atsiranda poreikis taikyti papildomas, modifikuotas ar sugriežtintas metaduomenų modelio taisykles didelės vertės duomenų rinkiniams. Šios taisyklės apima DCAT-AP klases papildančias savybes ar griežtesnį esamų savybių privalomumo taikymą.
 
- <table>
+## Katalogas
+
+<table>
   <thead>
     <tr>
-      <th>Property</th>
-      <th>Range</th>
-      <th>Card</th>
-      <th>Definition</th>
-      <th>Usage</th>
+      <th>Savybė</th>
+      <th>Intervalas</th>
+      <th>Kardinalumas</th>
+      <th>Apibrėžimas</th>
+      <th>Naudojimas</th>
       <th>DCAT</th>
-      <th>Reuse</th>
+      <th>Perpanaudojimas</th>
     </tr>
   </thead>
   <tbody>
@@ -2072,8 +2074,8 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <td>dataset</td>
       <td>Dataset</td>
       <td>0..*</td>
-      <td>A Dataset that is part of the Catalogue.</td>
-      <td>As empty Catalogues are usually indications of problems, this property should be combined with the next property service to implement an empty Catalogue check.</td>
+      <td>Duomenų rinkinys, kuris yra dalis katalogo.</td>
+      <td>Kadangi tuščių katalogų paprastai yra problemų požymis, šią savybę reikėtų derinti su kita savybe „service“, kad būtų įgyvendinta tuščio katalogo patikra.</td>
       <td><a href="#">Link</a></td>
       <td>A</td>
     </tr>
@@ -2081,7 +2083,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <td>record</td>
       <td>Catalogue Record</td>
       <td>0..*</td>
-      <td>A Catalogue Record that is part of the Catalogue</td>
+      <td>Katalogo įrašas, kuris yra dalis katalogo.</td>
       <td></td>
       <td><a href="#">Link</a></td>
       <td>A</td>
@@ -2090,11 +2092,12 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <td>service</td>
       <td>Data Service</td>
       <td>0..*</td>
-      <td>A site or end-point (Data Service) that is listed in the Catalogue.</td>
-      <td>As empty Catalogues are usually indications of problems, this property should be combined with the previous property dataset to implement an empty Catalogue check.</td>
+      <td>Svetainė arba galutinis taškas (duomenų paslauga), kuris yra išvardytas kataloge.</td>
+      <td>Kadangi tuščių katalogų paprastai yra problemų požymis, šią savybę reikėtų derinti su ankstesne savybe „dataset“, kad būtų įgyvendinta tuščio katalogo patikra.</td>
       <td><a href="#">Link</a></td>
       <td>A</td>
     </tr>
   </tbody>
 </table>
+
 
