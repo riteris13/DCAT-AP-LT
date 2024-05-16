@@ -2028,6 +2028,34 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
 </table>
 
 
+# Didelės vertės duomenų rinkiniai
+
+Didelės vertės duomenų rinkinių apibrėžimas atsirado iš poreikio identifikuoti svarbiausius duomenis pavyzdžiui:
+<ul>
+    <li>geografiniai duomenys</li>
+    <li>žemės stebėjimo ir aplinkos duomenys</li>
+    <li>meteorologiniai duomenys</li>
+    <li>statistiniai duomenys</li>
+    <li>įmonių ir jų savininkų duomenys</li>
+    <li>mobilumo duomenys</li>
+</ul>
+Šie duomenys turi didžiausią potencialą daryti įtaką svarbiausioms Europos Komisijos įvardintoms sritims. Tokių duomenų atvėrimas ir pakartotinis panaudojimas sukuria didelę pridėtinę vertę, bet tuo pačiu reikalauja papildomų taisyklių, reglamentuojančių jų prieinamumą, sąveikumą ir panaudojimą. Atsižvelgiant į tai, kad DCAT-AP plėtinys negali pilnai patenkinti didelės vertės duomenų rinkinių kokybės, patikimumo bei atvirumo reikalavimų, buvo pradėtas vystyti DCAT-AP HVD plėtinys, remiantis gairėmis, kurios pateiktos Didelės vertės duomenų rinkinio įgyvendinimo reglamente . Atitinkamai šis plėtinys yra adaptuojamas ir DCAT-AP-LT, pakeičiant LegalResource išteklių į atributą pagal ELI:LegalResource pavadinimu id_local.
+
+## Bendrosios didelės vertės duomenų rinkinių savybės
+
+Didelės vertės duomenų rinkiniai pasižymi specifiniais techniniais ir teisiniais reikalavimais. Šiems duomenų rinkiniams taikomi šie bendri reikalavimai:
+<ul>
+    <li>atvirosios duomenų licencijos;</li>
+    <li>viešai prieinamos dokumentacijos;</li>
+    <li>mašininio skaitomumo užtikrinimas;</li>
+    <li>galimybė (jei tai įmanoma) parsisiųsti visus pageidaujamus duomenis vienu kartu;</li>
+    <li>galimybė gauti duomenis naudojant API sąsajas;</li>
+    <li>nemokama prieiga ir gavimas;</li>
+    <li>išsamūs metaduomenų aprašai.</li>
+</ul>
+Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikalavimus, DCAT-AP-LT modelyje atsiranda poreikis taikyti papildomas, modifikuotas ar sugriežtintas metaduomenų modelio taisykles didelės vertės duomenų rinkiniams. Šios taisyklės apima DCAT-AP klases papildančias savybes ar griežtesnį esamų savybių privalomumo taikymą.
+
+
 <table border="1">
   <tr>
     <th>Property</th>
