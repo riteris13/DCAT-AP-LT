@@ -1906,10 +1906,10 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
                 <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
             </tr>
             <tr class="data-table__header">
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>[dcat:Dataset](https://www.w3.org/TR/vocab-dcat-3/#Class:Dataset)</td>
+                <td>Kokybės anotacija</td>
+                <td>Nurodo kokybės anotacijas, įskaitant įvertinimus, kokybės sertifikatus arba atsiliepimus, kurie gali būti susieti su duomenų rinkiniais arba pateiktimis. Kokybės anotacijose turi būti vienas teiginys oa:motivatedBy su oa:Motyvacija (ir skos:Concept) pavyzdžiu, kuris atspindi kokybės vertinimo tikslą. Šį atvejį apibrėžiame kaip dqv:qualityAssessment.</td>
+                <td> - </td>
+                <td>[dqv:QualityAnnotation](http://www.w3.org/ns/dqv#QualityAnnotation)</td>
             </tr>
            
         </table>
