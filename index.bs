@@ -210,7 +210,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
             <tr class="data-table__header">
                 <td>Aprašymas</td>
                 <td>[dct:description](https://w3c.github.io/dxwg/dcat/#Property:resource_description)</td>
-                <td>[rdfs:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Literal)</td>
+                <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
                 <td>1..n</td>
                 <td>Šia savybe rekomenduojama pateikti trumpą IS paskirties aprašymą, kaip pateikiama IS nuostatuose.</td>
                 <td>Šioje savybėje pateikiamas katalogo laisvo teksto aprašas laisvos formos tekstu. Šią savybę galima pateikti keliomis kalbomis.</td>
@@ -226,7 +226,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
             <tr class="data-table__header">
                 <td>Pavadinimas</td>
                 <td>[dct:title](https://w3c.github.io/dxwg/dcat/#Property:resource_title)</td>
-                <td>[rdfs:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Literal)</td>
+                <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
                 <td>1..n</td>
                 <td>IS tvarkomų duomenų katalogo pavadinimas turi nurodyti, kad tai konkretaus IS ar jo esminės dalies (posistemės) informacinė struktūra, kurios apimtyje yra tvarkomi duomenų rinkiniai.</td>
                 <td>Šioje savybėje pateikiamas katalogui suteiktas pavadinimas.</td>
@@ -234,7 +234,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
             <tr class="data-table__header">
                 <td>IS svarba</td>
                 <td>[dcataplt:importance](http://data.gov.lt/DCAT-AP-LT/importanceAssessmentURL)</td>
-                <td>[rdfs:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Literal)</td>
+                <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
                 <td>1..1</td>
                 <td>Informacinės sistemos svarba pagal Valstybės informacinių išeklių valdymo įstatymo reikalavimus.</td>
                 <td>Valstybės informacinių išteklių svarba, kaip apibrėžta Lietuvos Respublikos valstybės informacinių išteklių valdymo įstatymo 3 str.</td>
@@ -242,7 +242,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
             <tr class="data-table__header">
                 <td>IS tipas</td>
                 <td>[dcataplt:type](http://data.gov.lt/DCAT-AP-LT/type)</td>
-                <td>[rdfs:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Literal)</td>
+                <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
                 <td>1..1</td>
                 <td>Informacinės sistemos tipas pagal Valstybės informacinių išeklių valdymo įstatymo reikalavimus.</td>
                 <td>Informacinės sistemos pagal jose tvarkomus duomenis yra šių rūšių (Lietuvos Respublikos valstybės informacinių išteklių valdymo įstatymo 9 str.): 1) registrų informacinės sistemos, 2) valstybės informacinės sistemos, 3) vidaus administravimo informacinės sistemos </td>
@@ -418,7 +418,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
             <tr class="data-table__header">
                 <td>Pavadinimas</td>
                 <td>[foaf:name](http://xmlns.com/foaf/0.1/name)</td>
-                <td>[rdfs:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Literal)</td>
+                <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
                 <td>1..n</td>
                 <td>-</td>
                 <td>Šioje savybėje pateikiamas agento pavadinimas. Ši savybė gali būti kartojama skirtingoms pavadinimo versijoms (pvz., pavadinimas skirtingomis kalbomis).</td>
@@ -518,7 +518,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
             <tr>
         <td>Aprašymas</td>
         <td>[dct:description](http://purl.org/dc/terms/description)</td>
-        <td>[rdfs:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Literal)</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..n</td>
         <td>Koncepcinio detalumo lygmens aprašymas, laikantis IS lygmenyje ar IS valdymo srityje nustatytos terminologijos ontologijos sąvokų ar duomenų rinkinių taikytinų informacinio modelio reikalavimų.</td>
         <td>Laisvu tekstu pateikiamas duomenų rinkinio aprašas. Galima pakartoti, jei aprašas yra keliomis kalbomis.</td>
@@ -526,7 +526,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
     <tr>
         <td>Pavadinimas</td>
         <td>[dct:title](https://w3c.github.io/dxwg/dcat/#Property:resource_title)</td>
-        <td>[rdfs:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Literal)</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..n</td>
         <td>-</td>
         <td>Pateikiamas duomenų rinkiniui suteiktas pavadinimas. Galima pakartoti, jei pavadinimas pateikiamas keliomis kalbomis.</td>
@@ -534,7 +534,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
     <tr>
         <td>Identifikatorius</td>
         <td>[dct:identifier](https://w3c.github.io/dxwg/dcat/#Property:resource_identifier)</td>
-        <td>[rdfs:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Literal)</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..1</td>
         <td>-</td>
         <td>Pagrindinis duomenų rinkinio identifikatorius, pvz., URI, arba kitas unikalus identifikatorius katalogo kontekste.</td>
@@ -550,7 +550,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
     <tr>
         <td>Versija</td>
         <td>[dcat:version](http://www.w3.org/ns/dcat#version)</td>
-        <td>[rdfs:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Literal)</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..1</td>
         <td>-</td>
         <td>Duomenų rinkinio versijos identifikavimas (pavadinimas arba identifikatorius).</td>
@@ -558,7 +558,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
     <tr>
         <td>Didelės vertės duomenų rinkinio kategorija</td>
         <td>[dcatap:hvdCategory](http://data.europa.eu/r5r/hvdCategory)</td>
-        <td>[rdfs:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Literal)</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..n</td>
         <td>-</td>
         <td>Didelės vertės duomenų rinkinio sritis, kuriai šis duomenų rinkinys priklauso. Privaloma savybė didelės vertės duomenų rinkiniams.</td>
@@ -590,7 +590,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
     <tr>
         <td>Raktažodis</td>
         <td>[dcat:keyword](http://www.w3.org/ns/dcat#keyword)</td>
-        <td>[rdfs:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Literal)</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Šioje savybėje pateikiamas duomenų rinkinį apibūdinantis raktažodis arba žyma.</td>
@@ -798,7 +798,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
     <tr>
         <td>Versijos pastabos</td>
         <td>[adms:versionNotes](http://www.w3.org/ns/adms#versionNotes)</td>
-        <td>[rdfs:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Literal)</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Šios versijos ir ankstesnės duomenų rinkinio versijos skirtumų aprašymas.</td>
