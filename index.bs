@@ -364,7 +364,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
             <tr class="data-table__header">
                 <td>Įrašas</td>
                 <td>[dcat:record](http://www.w3.org/ns/dcat#record)</td>
-                <td>[dcat:CatalogRecord](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#CatalogueRecord)</td>
+                <td>[dcat:CatalogRecord](http://www.w3.org/ns/dcat#CatalogRecord)</td>
                 <td>0..n</td>
                 <td>-</td>
                 <td>Ši savybė nurodo katalogo įrašą, kuris yra katalogo dalis.</td>
@@ -775,7 +775,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
     </tr>
     <tr>
         <td>Šaltinis</td>
-        <td>[dct:source](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset.source)</td>
+        <td>[dct:source](http://purl.org/dc/terms/source)</td>
         <td>[dcat:Dataset](http://www.w3.org/ns/dcat#Dataset)</td>
         <td>0..n</td>
         <td>-</td>
@@ -1126,40 +1126,40 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
             </tr>
              <tr>
         <td>Tipas</td>
-        <td>dct:type<br>eli:ResourceType</td>
-        <td>1..n</td>
+        <td>[dct:type]()</td>
+        <td>[eli:ResourceType]()</td>
         <td>1..n</td>
         <td>-</td>
         <td>Ši savybė nurodo teisinio ištekliaus tipą (pvz., "Direktyva", „Règlement grand ducal“, „įstatymas“, „Règlement ministériel“, „projektas pasiūlymas“, „Parlamento aktas“ ir t. t.). Valstybės narės raginamos sudaryti savo teisės aktų sąrašą atitinkamoje sąvokų schemoje.</td>
     </tr>
     <tr>
         <td>Aprašymas</td>
-        <td>dct:description<br>rdfs:Literal</td>
-        <td>0..n</td>
+        <td>[dct:description]()</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Šioje savybėje pateikiama aprašomoji tekstinė informacija apie teisinį išteklių. Šią savybę reikėtų pakartoti, jei yra įvairių teksto versijų skirtingomis kalbomis.</td>
     </tr>
     <tr>
         <td>Identifikatorius</td>
-        <td>dcterms:identifier<br>rdfs:Literal</td>
-        <td>0..n</td>
+        <td>[dcterms:identifier]()</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Šioje savybėje pateikiamas taisyklės identifikatorius.</td>
     </tr>
     <tr>
         <td>Nuoroda</td>
-        <td>rdfs:seeAlso<br>rdfs:Resource</td>
-        <td>0..n</td>
+        <td>[rdfs:seeAlso](http://www.w3.org/2000/01/rdf-schema#seeAlso)</td>
+        <td>[rdfs:Resource](http://www.w3.org/2000/01/rdf-schema#Resource)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė aprašo išteklių, susijusį su konkrečiu aprašomu teisiniu ištekliu.</td>
     </tr>
     <tr>
         <td>Susijęs</td>
-        <td>dcterms:relation<br>eli:LegalResource</td>
-        <td>0..n</td>
+        <td>[dcterms:relation]()</td>
+        <td>[eli:LegalResource](http://data.europa.eu/eli/ontology#LegalResource)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė reiškia kitą teisinių išteklių klasės egzempliorių, susijusį su konkrečiu aprašomu teisiniu ištekliu.</td>
@@ -1196,7 +1196,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
             </tr>
              <tr>
         <td>Aprašymas</td>
-        <td>dct:description</td>
+        <td>[dct:description](http://purl.org/dc/terms/description)</td>
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..n</td>
         <td>-</td>
@@ -1220,15 +1220,15 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
     </tr>
       <tr>
         <td>Įgyvendina</td>
-        <td>cpsv:implements<br>eli:LegalResource</td>
-        <td>0..n</td>
+        <td>[cpsv:implements](http://purl.org/vocab/cpsv#implements)</td>
+        <td>[eli:LegalResource](http://data.europa.eu/eli/ontology#LegalResource)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė susieja taisyklę su atitinkamais teisės aktais ar politikos dokumentais, pvz. teisinį šaltinį, kuriame apibrėžtos taisyklės.</td>
     </tr>
     <tr>
         <td>Kalba</td>
-        <td>dct:language<br></td>
+        <td>[dct:language](http://purl.org/dc/terms/language)</td>
         <td>[dct:LinguisticSystem](http://purl.org/dc/terms/LinguisticSystem)</td>
         <td>0..n</td>
         <td>-</td>
@@ -1443,7 +1443,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
     </tr>
     <tr>
         <td>Kalba</td>
-        <td>dct:language<br></td>
+        <td>[dct:language](http://purl.org/dc/terms/language)</td>
         <td>[dct:LinguisticSystem](http://purl.org/dc/terms/LinguisticSystem)</td>
         <td>0..n</td>
         <td>-</td>
@@ -1451,8 +1451,8 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
     </tr>
     <tr>
         <td>Pirminiai metaduomenys</td>
-        <td>dct:source<br>dcat:CatalogRecord</td>
-        <td>0..1</td>
+        <td>[dct:source](http://purl.org/dc/terms/source)</td>
+        <td>[dcat:CatalogRecord](http://www.w3.org/ns/dcat#CatalogRecord)</td>
         <td>0..1</td>
         <td>-</td>
         <td>Pirminiai (šaltinio) metaduomenys, kurie buvo naudojami kuriant duomenų rinkinio metaduomenis.</td>
