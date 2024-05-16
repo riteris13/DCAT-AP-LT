@@ -209,7 +209,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
             </tr>
             <tr class="data-table__header">
                 <td>Aprašymas</td>
-                <td>[dct:description](https://w3c.github.io/dxwg/dcat/#Property:resource_description)</td>
+                <td>[dct:description](http://purl.org/dc/terms/description)</td>
                 <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
                 <td>1..n</td>
                 <td>Šia savybe rekomenduojama pateikti trumpą IS paskirties aprašymą, kaip pateikiama IS nuostatuose.</td>
