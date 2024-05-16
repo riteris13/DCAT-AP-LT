@@ -2055,246 +2055,46 @@ Didelės vertės duomenų rinkiniai pasižymi specifiniais techniniais ir teisin
 </ul>
 Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikalavimus, DCAT-AP-LT modelyje atsiranda poreikis taikyti papildomas, modifikuotas ar sugriežtintas metaduomenų modelio taisykles didelės vertės duomenų rinkiniams. Šios taisyklės apima DCAT-AP klases papildančias savybes ar griežtesnį esamų savybių privalomumo taikymą.
 
-  <section>
-            <h3 id="Catalogue">
-                <a href="http://www.w3.org/ns/dcat#Catalog"
-                   data-toggle="tooltip"
-                   data-content="http://www.w3.org/ns/dcat#Catalog"
-                   data-placement="right">Catalogue</a>
-
-            </h3>
-	        <!-- XXX an image in the h3 will break the rendering of the Table Of Contents of Respec -->
-		<!-- outcomment github feedback possibility
-                <a href="https://github.com/SEMICeu/DCAT-AP/issues/new?title=Issue%20for%20Catalogue&body=Explain%20your%20issue"}}>
-                   <img src="html/callout.png" loading="lazy" alt="(create issue)" width="20" height="20"/>
-		</a>
-		-->
-            <dl>
-                <dt>
-                    Definition
-                </dt>
-                <dd>
-                    A catalogue or repository that hosts the Datasets or Data Services being described.
-                </dd>
-                
-		<dt>
-		   Reference in DCAT
-		</dt>
-		    <dd>
-		    <a href="https://w3c.github.io/dxwg/dcat/#Class:Catalog">Link</a>
-		    </dd>
-		
-                
-                
-                    <dt>
-                        Properties
-                    </dt>
-                    
-                        <dd>
-                            For this entity the following properties are defined: <a href="#Catalogue.dataset">dataset</a>
-                            , <a href="#Catalogue.record">record</a>
-                            , <a href="#Catalogue.service">service</a>
-                            .
-                    </dd>
-                
-            </dl>
-        </div>
-        
-            <div class="u-table-overflow">
-                <table class="data-table simple" id="table-mandatory-classes">
-                    <thead>
-                        <tr class="data-table__header">
-<!--
-                            <th class="data-table__header-title--sortable" style="width:5%">
-                            </th>
---->
-                            <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">
-                                Property
-                            </th>
-                            <th class="data-table__header-title--sortable" style="width:12%">
-                                Range
-                            </th>
-                            <th class="data-table__header-title--sortable" style="width:6%">
-                                Card
-                            </th>
-                            <th class="data-table__header-title--sortable" style="width:30%">
-                                Definition 
-                            </th>
-                            <th class="data-table__header-title--sortable" style="width:30%">
-                                Usage
-                            </th>
-			    <!--
-                            <th class="data-table__header-title--sortable" style="width:3%">
-                                Codelist
-                            </th>
-			    -->
-                            <th class="data-table__header-title--sortable" style="width:3%">
-                                DCAT
-                            </th>
-                            <th class="data-table__header-title--sortable" style="width:3%">
-                                Reuse
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody class="supertype">
-                        
-                            <tr id="Catalogue.dataset"
-                                typeof="rdfs:Property"
-                                resource="http://www.w3.org/ns/dcat#dataset"
-                                class="class mandatory">
-<!--
-                                <td>
-				    <a href="https://github.com/SEMICeu/DCAT-AP/issues/new?title=Issue%20for%20dataset%20in%20Catalogue&body=Explain%20your%20issue%20for%20https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd%23Catalogue.dataset" target="_blank" rel="noopener noreferrer" >
-                                        <img src="html/callout.png" loading="lazy" alt="[o]" width="100" height="100"/>
-                                    </a>
-                                </td>
---->
-                                <td>
-                                        <a href="http://www.w3.org/ns/dcat#dataset"
-                                           data-toggle="tooltip"
-                                           data-content="http://www.w3.org/ns/dcat#dataset"
-                                           data-placement="right">
-                                        dataset</a>
-                                </td>
-                                <td>
-                                    
-                                        
-                                            <a href="#Dataset" data-placement="right">Dataset</a>
-                                        
-                                    
-                                </td>
-                                <td>
-                                    0..*
-                                </td>
-                                <td property="rdfs:comment">
-                                    A Dataset that is part of the Catalogue.
-                                </td>
-                                <td property="skos:scopeNote">
-                                    As empty Catalogues are usually indications of problems, this property should be combined with the next property service to implement an empty Catalogue check.
-                                </td>
-				<!--
-                                <td>
-                                    
-                                </td>
-				-->
-                                <td>
-                                    <a href="https://w3c.github.io/dxwg/dcat/#Property:catalog_dataset">Link</a>
-                                </td>
-                                <td>
-                                    
-				       
-				        <a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Catalogue.dataset">A</a>
-                                       
-                                    
-                                </td>
-                            </tr>
-                        
-                            <tr id="Catalogue.record"
-                                typeof="rdfs:Property"
-                                resource="http://www.w3.org/ns/dcat#record"
-                                class="class mandatory">
-<!--
-                                <td>
-				    <a href="https://github.com/SEMICeu/DCAT-AP/issues/new?title=Issue%20for%20record%20in%20Catalogue&body=Explain%20your%20issue%20for%20https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd%23Catalogue.record" target="_blank" rel="noopener noreferrer" >
-                                        <img src="html/callout.png" loading="lazy" alt="[o]" width="100" height="100"/>
-                                    </a>
-                                </td>
---->
-                                <td>
-                                        <a href="http://www.w3.org/ns/dcat#record"
-                                           data-toggle="tooltip"
-                                           data-content="http://www.w3.org/ns/dcat#record"
-                                           data-placement="right">
-                                        record</a>
-                                </td>
-                                <td>
-                                    
-                                        
-                                            <a href="#CatalogueRecord" data-placement="right">Catalogue Record</a>
-                                        
-                                    
-                                </td>
-                                <td>
-                                    0..*
-                                </td>
-                                <td property="rdfs:comment">
-                                    A Catalogue Record that is part of the Catalogue
-                                </td>
-                                <td property="skos:scopeNote">
-                                    
-                                </td>
-				<!--
-                                <td>
-                                    
-                                </td>
-				-->
-                                <td>
-                                    <a href="https://w3c.github.io/dxwg/dcat/#Property:catalog_catalog_record">Link</a>
-                                </td>
-                                <td>
-                                    
-				       
-				        <a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Catalogue.record">A</a>
-                                       
-                                    
-                                </td>
-                            </tr>
-                        
-                            <tr id="Catalogue.service"
-                                typeof="rdfs:Property"
-                                resource="http://www.w3.org/ns/dcat#service"
-                                class="class mandatory">
-<!--
-                                <td>
-				    <a href="https://github.com/SEMICeu/DCAT-AP/issues/new?title=Issue%20for%20service%20in%20Catalogue&body=Explain%20your%20issue%20for%20https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd%23Catalogue.service" target="_blank" rel="noopener noreferrer" >
-                                        <img src="html/callout.png" loading="lazy" alt="[o]" width="100" height="100"/>
-                                    </a>
-                                </td>
---->
-                                <td>
-                                        <a href="http://www.w3.org/ns/dcat#service"
-                                           data-toggle="tooltip"
-                                           data-content="http://www.w3.org/ns/dcat#service"
-                                           data-placement="right">
-                                        service</a>
-                                </td>
-                                <td>
-                                    
-                                        
-                                            <a href="#DataService" data-placement="right">Data Service</a>
-                                        
-                                    
-                                </td>
-                                <td>
-                                    0..*
-                                </td>
-                                <td property="rdfs:comment">
-                                    A site or end-point (Data Service) that is listed in the Catalogue.
-                                </td>
-                                <td property="skos:scopeNote">
-                                    As empty Catalogues are usually indications of problems, this property should be combined with the previous property dataset to implement an empty Catalogue check.
-                                </td>
-				<!--
-                                <td>
-                                    
-                                </td>
-				-->
-                                <td>
-                                    <a href="https://w3c.github.io/dxwg/dcat/#Property:catalog_service">Link</a>
-                                </td>
-                                <td>
-                                    
-				       
-				        <a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Catalogue.service">A</a>
-                                       
-                                    
-                                </td>
-                            </tr>
-                        
-                    </tbody>
-                </table>
-            </div>
-        
-    </div>
-</section>
+ <table>
+  <thead>
+    <tr>
+      <th>Property</th>
+      <th>Range</th>
+      <th>Card</th>
+      <th>Definition</th>
+      <th>Usage</th>
+      <th>DCAT</th>
+      <th>Reuse</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>dataset</td>
+      <td>Dataset</td>
+      <td>0..*</td>
+      <td>A Dataset that is part of the Catalogue.</td>
+      <td>As empty Catalogues are usually indications of problems, this property should be combined with the next property service to implement an empty Catalogue check.</td>
+      <td><a href="#">Link</a></td>
+      <td>A</td>
+    </tr>
+    <tr>
+      <td>record</td>
+      <td>Catalogue Record</td>
+      <td>0..*</td>
+      <td>A Catalogue Record that is part of the Catalogue</td>
+      <td></td>
+      <td><a href="#">Link</a></td>
+      <td>A</td>
+    </tr>
+    <tr>
+      <td>service</td>
+      <td>Data Service</td>
+      <td>0..*</td>
+      <td>A site or end-point (Data Service) that is listed in the Catalogue.</td>
+      <td>As empty Catalogues are usually indications of problems, this property should be combined with the previous property dataset to implement an empty Catalogue check.</td>
+      <td><a href="#">Link</a></td>
+      <td>A</td>
+    </tr>
+  </tbody>
+</table>
 
