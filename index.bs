@@ -2126,3 +2126,114 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
     </tr>
   </tbody>
 </table>
+
+
+## Katalogo resursas
+
+
+## Duomenų paslauga
+
+<table>
+  <thead>
+    <tr>
+      <th>Savybė</th>
+      <th>Intervalas</th>
+      <th>Kardinalumas</th>
+      <th>Apibrėžimas</th>
+      <th>Naudojimas</th>
+      <th>DCAT</th>
+      <th>Perpanaudojimas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>applicable legislation</td>
+      <td>Legal Resource</td>
+      <td>1..*</td>
+      <td>Teisės aktai, kurie įpareigoja kurti ar valdyti duomenų paslaugą.</td>
+      <td>HVD atveju reikšmė PRIVALO apimti ELI http://data.europa.eu/eli/reg_impl/2023/138/oj. Kadangi į išteklių gali būti taikomi keli teisės aktai, maksimalus kardinalumas nėra ribojamas.</td>
+      <td></td>
+      <td>P</td>
+    </tr>
+    <tr>
+      <td>contact point</td>
+      <td>Kind</td>
+      <td>1..*</td>
+      <td>Kontaktinė informacija, kurią galima naudoti siunčiant pastabas apie duomenų paslaugą.</td>
+      <td>3.4 straipsnis reikalauja paskirti kontaktinį tašką API.</td>
+      <td><a href="#">Link</a></td>
+      <td>P</td>
+    </tr>
+    <tr>
+      <td>documentation</td>
+      <td>Document</td>
+      <td>1..*</td>
+      <td>Puslapis, kuriame pateikiama papildoma informacija apie duomenų paslaugą.</td>
+      <td>Paslaugų kokybė apima plačią aspektų spektrą. HVD reglamentas nenustato jokių privalomų temų. Todėl paslaugų kokybės informacija laikoma bendrosios duomenų paslaugos dokumentacijos dalimi.</td>
+      <td></td>
+      <td>P</td>
+    </tr>
+    <tr>
+      <td>endpoint description</td>
+      <td>Resource</td>
+      <td>0..*</td>
+      <td>Aprašymas paslaugų, prieinamų per galutinius taškus, įskaitant jų operacijas, parametrus ir t.t.</td>
+      <td>Savybė pateikia konkrečias faktinių galutinių taškų detales, o dct:conformsTo naudojama nurodyti bendrąjį standartą ar specifikaciją, kurią įgyvendina galutiniai taškai. 3.3 straipsnis reikalauja pateikti API dokumentaciją Sąjungos arba tarptautiniu mastu pripažintu atviru, žmogui skaitomu ir mašinai skaitomu formatu.</td>
+      <td><a href="#">Link</a></td>
+      <td>E</td>
+    </tr>
+    <tr>
+      <td>endpoint URL</td>
+      <td>Resource</td>
+      <td>1..*</td>
+      <td>Pagrindinė paslaugos vieta arba pirminis galutinis taškas (IRI).</td>
+      <td>Galutinio taško URL TURĖTŲ būti pastovus. Tai reiškia, kad leidėjai turėtų daryti viską, kas įmanoma, kad išlaikytų reikšmę stabilia ir egzistuojančia.</td>
+      <td><a href="#">Link</a></td>
+      <td>E</td>
+    </tr>
+    <tr>
+      <td>HVD category</td>
+      <td>Concept</td>
+      <td>1..*</td>
+      <td>HVD kategorija, kuriai priklauso ši duomenų paslauga.</td>
+      <td></td>
+      <td></td>
+      <td>P</td>
+    </tr>
+    <tr>
+      <td>licence</td>
+      <td>Licence Document</td>
+      <td>0..1</td>
+      <td>Licencija, pagal kurią teikiama duomenų paslauga.</td>
+      <td>3.3 straipsnis nurodo, kad turi būti pateiktos naudojimo sąlygos. Pagal DCAT-AP HVD teisinės informacijos gaires tai įgyvendinama pirmenybė teikiant licenciją. Kaip alternatyvą gali būti naudojamos teisės.</td>
+      <td><a href="#">Link</a></td>
+      <td>E</td>
+    </tr>
+    <tr>
+      <td>rights</td>
+      <td>Rights statement</td>
+      <td>0..*</td>
+      <td>Pareiškimas, kuriame nurodomos su platinimu susijusios teisės.</td>
+      <td>3.3 straipsnis nurodo, kad turi būti pateiktos naudojimo sąlygos. Pagal DCAT-AP HVD teisinės informacijos gaires tai įgyvendinama pirmenybė teikiant licenciją. Kaip alternatyvą gali būti naudojamos teisės.</td>
+      <td></td>
+      <td>P</td>
+    </tr>
+    <tr>
+      <td>serves dataset</td>
+      <td>Dataset</td>
+      <td>1..*</td>
+      <td>Ši savybė nurodo duomenų rinkinį, kurį ši duomenų paslauga gali platinti.</td>
+      <td>API HVD kontekste nėra atskiras išteklius. Jis naudojamas atverti HVD duomenų rinkinius. Todėl kiekviena duomenų paslauga bent jau yra glaudžiai susijusi su duomenų rinkiniu.</td>
+      <td><a href="#">Link</a></td>
+      <td>E</td>
+    </tr>
+  </tbody>
+</table>
+
+## Duomenų rinkinys
+
+
+
+## Distribucija
+
+## Rūšis
