@@ -473,8 +473,8 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
             </tr>
             <tr class="data-table__header">
                 <td>Išteklius</td>
-                <td></td>
-                <td></td>
+                <td>Bet koks objektas, kurį galima aprašyti RDF</td>
+                <td>Ši klasė apibrėžia abstrakčią sąvoką ir neturi savybių</td>
                 <td>[rdfs:Resource](http://www.w3.org/2000/01/rdf-schema#Resource)</td>
             </tr>
            
@@ -566,7 +566,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
     <tr>
         <td>Duomenų erdvė</td>
         <td>[dct:conformsTo](https://w3c.github.io/dxwg/dcat/#Property:resource_conforms_to)</td>
-        <td>[dct:Standard](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Standard)</td>
+        <td>[dct:Standard](http://purl.org/dc/terms/Standard)</td>
         <td>1..n</td>
         <td>Šaltinis: EUR-Lex - 52020DC0066 - EN - EUR-Lex (europa.eu)</td>
         <td>Nustatyta duomenų erdvė, kuriai atitinka aprašyta distribucija.</td>
@@ -629,8 +629,8 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
     </tr>
     <tr>
         <td>Prieigos teisės</td>
-        <td>[dct:accessRights](https://w3c.github.io/dxwg/dcat/#Property:resource_access_rights)</td>
-        <td>[dct:RightsStatement](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Rightsstatement)</td>
+        <td>[dct:accessRights](http://purl.org/dc/terms/accessRights)</td>
+        <td>[dct:RightsStatement](http://purl.org/dc/terms/RightsStatement)</td>
         <td>0..1</td>
         <td>-</td>
         <td>Ši savybė susijusi su informacija, kuri nurodo, ar duomenų rinkinys yra atviri duomenys, ar jam taikomi prieigos apribojimai, ar jis nėra viešas.</td>
@@ -638,7 +638,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
     <tr>
         <td>Atitinka</td>
         <td>[dct:conformsTo](https://w3c.github.io/dxwg/dcat/#Property:resource_conforms_to)</td>
-        <td>[dct:Standard](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Standard)</td>
+        <td>[dct:Standard](http://purl.org/dc/terms/Standard)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo įgyvendinimo taisyklę arba kitą specifikaciją.</td>
