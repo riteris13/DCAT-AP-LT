@@ -276,7 +276,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
             <tr class="data-table__header">
                 <td>Duomenų rinkinys</td>
                 <td>[dcat:dataset](http://www.w3.org/ns/dcat#dataset)</td>
-                <td>[dcat:Dataset](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset)</td>
+                <td>[dcat:Dataset](http://www.w3.org/ns/dcat#Dataset)</td>
                 <td>0..n</td>
                 <td>Šia klase apibūdinamas konkretus IS – valstybės informacinės sistema ar registras, kurio apimtyje yra tvarkomi duomenų rinkiniai.</td>
                 <td>Ši savybė susieja katalogą su duomenų rinkiniu, kuris yra katalogo įrašas.</td>
@@ -348,7 +348,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
             <tr class="data-table__header">
                 <td>Turi sudedamąją dalį</td>
                 <td>[dct:hasPart](https://w3c.github.io/dxwg/dcat/#Property:resource_has_part)</td>
-                <td>[dcat:Catalog](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Catalogue)</td>
+                <td>[dcat:Catalog](http://www.w3.org/ns/dcat#Catalog)</td>
                 <td>0..n</td>
                 <td>IS kontekste, šiuo ryšiu gali būti įprasminamos valstybės informacinės sistemos ar registro reikšmingų veiklos sričių ar posistemių dalys.</td>
                 <td>Ši savybė nurodo susijusį katalogą, kuris yra aprašyto katalogo dalis.</td>
@@ -356,7 +356,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
             <tr class="data-table__header">
                 <td>Yra sudedamoji dalis</td>
                 <td>[dct:isPartPf](https://w3c.github.io/dxwg/dcat/#Property:dataset_in_series)</td>
-                <td>[dcat:Catalog](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Catalogue)</td>
+                <td>[dcat:Catalog](http://www.w3.org/ns/dcat#Catalog)</td>
                 <td>0..1</td>
                 <td>-</td>
                 <td>Ši savybė nurodo susijusį katalogą, į kurį fiziškai arba logiškai įtrauktas aprašomas katalogas.</td>
@@ -380,7 +380,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
             <tr class="data-table__header">
                 <td>Katalogas</td>
                 <td>[dcat:catalog](http://www.w3.org/ns/dcat#catalog)</td>
-                <td>[dcat:Catalog](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Catalogue)</td>
+                <td>[dcat:Catalog](http://www.w3.org/ns/dcat#Catalog)</td>
                 <td>0..n</td>
                 <td>-</td>
                 <td>Ši savybė nurodo katalogą, kurio turinys domina šio katalogo kontekste.</td>
@@ -517,7 +517,7 @@ Konkretaus duomenų rinkinio (Dataset) registravimo pagrindas IS (Catalog) apimt
 Kiekvienas duomenų rinkinys įprasmina tam tikrą valstybės informacinės sistemos ar registro nuostatuose įvardintiną informacinės struktūros dalį. 
 Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokiama prasminga ir reikšminga koncepcija, apibūdinama reikšmingomis savybėmis/ atributais.
 </td>
-                <td>[dcat:Dataset](https://www.w3.org/TR/vocab-dcat-3/#Class:Dataset)</td>
+                <td>[dcat:Dataset](http://www.w3.org/ns/dcat#Dataset)</td>
             </tr>
            
         </table>
@@ -688,7 +688,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
     <tr>
         <td>Turi versiją</td>
         <td>[dcat:hasVersion](http://www.w3.org/ns/dcat#hasVersion)</td>
-        <td>[dcat:Dataset](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset)</td>
+        <td>[dcat:Dataset](http://www.w3.org/ns/dcat#Dataset)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo susijusį duomenų rinkinį, kuris yra aprašyto duomenų rinkinio versija, leidimas arba adaptacija.</td>
@@ -704,7 +704,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
     <tr>
         <td>Yra versija</td>
         <td>[dcat:isVersionOf](http://www.w3.org/ns/dcat#isVersionOf)</td>
-        <td>[dcat:Dataset](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset)</td>
+        <td>[dcat:Dataset](http://www.w3.org/ns/dcat#Dataset)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Susijęs duomenų rinkinys, kurio aprašytasis duomenų rinkinys yra versija arba adaptacija.</td>
@@ -776,7 +776,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
     <tr>
         <td>Šaltinis</td>
         <td>[dct:source](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset.source)</td>
-        <td>[dcat:Dataset](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset)</td>
+        <td>[dcat:Dataset](http://www.w3.org/ns/dcat#Dataset)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Susijęs duomenų rinkinys, iš kurio suformuotas aprašytas duomenų rinkinys.</td>
@@ -832,7 +832,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
     <tr>
         <td>Yra dalis</td>
         <td>[dct:isPartOf](https://w3c.github.io/dxwg/dcat/#Property:dataset_in_series)</td>
-        <td>[dcat:Catalog](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Catalogue)</td>
+        <td>[dcat:Catalog](http://www.w3.org/ns/dcat#Catalog)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo susijusį duomenų rinkinį, į kurį fiziškai arba logiškai įtrauktas aprašomas katalogas.</td>
@@ -1396,7 +1396,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
              <tr>
         <td>Pagrindinė tema</td>
         <td>foaf:primaryTopic<br></td>
-        <td>[dcat:Dataset]()<br>[dcat:Dataservice](http://www.w3.org/ns/dcat#DataService)<br>dcat:Catalog</td>
+        <td>[dcat:Dataset](http://www.w3.org/ns/dcat#Dataset)<br>[dcat:Dataservice](http://www.w3.org/ns/dcat#DataService)<br>[dcat:Catalog](http://www.w3.org/ns/dcat#Catalog)</td>
         <td>1..1</td>
         <td>-</td>
         <td>Nuoroda į įraše aprašytą duomenų rinkinį, duomenų paslaugą arba katalogą. Katalogo įrašas bus nuoroda į vieną katalogo vienetą. Tai gali būti duomenų rinkinys arba duomenų paslauga.</td>
