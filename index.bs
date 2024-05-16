@@ -298,7 +298,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
             <tr class="data-table__header">
                 <td>Išleidimo data</td>
                 <td>[dct:issued](https://w3c.github.io/dxwg/dcat/#Property:resource_release_date)</td>
-                <td>[rdfs:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#TemporalLiteral)</td>
+                <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
                 <td>0..1</td>
                 <td>IS kontekste laikoma, kad katalogo paskelbimo data yra oficiali duomenų apie IS metaduomenis įsigaliojimo data.</td>
                 <td>Šioje savybėje nurodoma oficiali katalogo paskelbimo data.</td>
@@ -322,7 +322,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
             <tr class="data-table__header">
                 <td>Pakeitimo data</td>
                 <td>[dct:modified](https://w3c.github.io/dxwg/dcat/#Property:distribution_update_date)</td>
-                <td>[rdfs:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#TemporalLiteral)</td>
+                <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
                 <td>0..1</td>
                 <td>-</td>
                 <td>Šioje savybėje nurodoma naujausia katalogo pakeitimo data.</td>
@@ -742,7 +742,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
     <tr>
         <td>Išleidimo data</td>
         <td>[dct:issued](https://w3c.github.io/dxwg/dcat/#Property:resource_release_date)</td>
-        <td>[rdfs:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#xsd%3Adecimal)</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>0..1</td>
         <td>-</td>
         <td>Duomenų rinkinio oficialaus išleidimo (pvz., paskelbimo) data.</td>
@@ -766,7 +766,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
     <tr>
         <td>Erdvinė raiška</td>
         <td>[dcat:spatialResolutionInMeters](http://www.w3.org/ns/dcat#spatialResolutionInMeters)</td>
-        <td>[rdfs:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#xsd%3Adecimal)</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>0..1</td>
         <td>-</td>
         <td>Mažiausias erdvinis atskyrimas, kurį galima atskirti duomenų rinkinyje, matuojamas metrais.</td>
@@ -774,7 +774,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
     <tr>
         <td>Laikotarpis</td>
         <td>[dcat:temporalResolution](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset.temporalresolution)</td>
-        <td>[rdfs:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Periodoftime)</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>0..1</td>
         <td>-</td>
         <td>Laikotarpis, kurį apima duomenų rinkinys.</td>
@@ -790,7 +790,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
     <tr>
         <td>Pakeitimo data</td>
         <td>[dct:modified](https://w3c.github.io/dxwg/dcat/#Property:distribution_update_date)</td>
-        <td>[rdfs:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#TemporalLiteral)</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>0..1</td>
         <td>-</td>
         <td>Naujausia duomenų rinkinio pakeitimo arba modifikavimo data.</td>
@@ -860,16 +860,16 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
             </tr>
               <tr>
         <td>Versija</td>
-        <td>dcat:version<br>rdfs:Literal</td>
-        <td>1..1</td>
+        <td>dcat:version</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..1</td>
         <td>-</td>
         <td>Duomenų paslaugos versijos identifikavimas</td>
     </tr>
     <tr>
         <td>Pavadinimas</td>
-        <td>dct:title<br>rdfs:Literal</td>
-        <td>1..n</td>
+        <td>dct:title</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..n</td>
         <td>-</td>
         <td>Šioje savybėje pateikiamas duomenų paslaugai suteiktas pavadinimas. Galima pakartoti, jei pavadinimas pateikiamas keliomis kalbomis.</td>
@@ -1069,8 +1069,8 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
             </tr>
             <tr>
         <td>Pavadinimas</td>
-        <td>dct:title<br>rdfs:Literal</td>
-        <td>1..n</td>
+        <td>dct:title</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..n</td>
         <td>-</td>
         <td>Kategorijos schemos pavadinimas.</td>
@@ -1138,24 +1138,24 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
             </tr>
              <tr>
         <td>Aprašymas</td>
-        <td>dct:description<br>rdfs:Literal</td>
-        <td>1..n</td>
+        <td>dct:description</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..n</td>
         <td>-</td>
         <td>Šioje savybėje pateikiama aprašomoji tekstinė informacija apie taisyklę. Ši savybė turėtų būti kartojama, jei yra įvairių teksto versijų skirtingomis kalbomis.</td>
     </tr>
     <tr>
         <td>Identifikatorius</td>
-        <td>dcterms:identifier<br>rdfs:Literal</td>
-        <td>1..1</td>
+        <td>[dct:identifier](http://purl.org/dc/terms/identifier)</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..1</td>
         <td>-</td>
         <td>Šioje savybėje nurodomas taisyklės identifikatorius.</td>
     </tr>
     <tr>
         <td>Pavadinimas</td>
-        <td>dct:title<br>rdfs:Literal</td>
-        <td>1..n</td>
+        <td>dct:title</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..n</td>
         <td>-</td>
         <td>Ši savybė nurodo aprašomąjį ištekliaus pavadinimą arba vardą. Šis savybė turėtų būti kartojama, jei yra įvairių teksto versijų skirtingomis kalbomis.</td>
@@ -1217,8 +1217,8 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
             </tr>
              <tr>
         <td>Identifikatorius</td>
-        <td>dcterms:identifier<br>rdfs:Literal</td>
-        <td>1..1</td>
+        <td>[dct:identifier]</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..1</td>
         <td>-</td>
         <td>Ši savybė nurodo Agento identifikatorių.</td>
@@ -1226,7 +1226,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
     <tr>
         <td>Pavadinimas</td>
         <td>dct:title<br>rdfs:Literal</td>
-        <td>1..1</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..1</td>
         <td>-</td>
         <td>Ši savybė nurodo institucijos pavadinimą.</td>
@@ -1234,7 +1234,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
     <tr>
         <td>Pageidaujama antraštė</td>
         <td>skos:prefLabel<br>rdfs:Literal</td>
-        <td>1..n</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..n</td>
         <td>-</td>
         <td>Ši savybė naudojama organizacijai pavadinti, jei naudojamas pageidaujamas pavadinimą. Šią savybę reikėtų pakartoti, jei pateikiama keliomis kalbomis.</td>
@@ -1258,7 +1258,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
     <tr>
         <td>Klasifikacija</td>
         <td>org:classification<br>rdfs:Literal</td>
-        <td>0..n</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė Nurodo institucijos klasifikaciją pagal tam tikrą klasifikavimo schemą.</td>
@@ -1346,7 +1346,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
     <tr>
         <td>Pakeitimo data</td>
         <td>dct:modified<br>rdfs:Literal</td>
-        <td>1..1</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..1</td>
         <td>-</td>
         <td>Šioje savybėje nurodoma naujausia katalogo įrašo pakeitimo arba modifikavimo data.</td>
@@ -1370,7 +1370,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
     <tr>
         <td>Įtraukimo į sąrašą data</td>
         <td>dct:issued<br>rdfs:Literal</td>
-        <td>0..1</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>0..1</td>
         <td>-</td>
         <td>Duomenų rinkinio aprašymo įtraukimo į katalogą data.</td>
@@ -1378,7 +1378,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
     <tr>
         <td>Aprašymas</td>
         <td>dct:description<br>rdfs:Literal</td>
-        <td>0..n</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Šioje savybėje laisvu tekstu pateikiamas aprašas. Galima pakartoti, jei aprašoma keliomis kalbomis.</td>
@@ -1402,7 +1402,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
     <tr>
         <td>Pavadinimas</td>
         <td>dct:title<br>rdfs:Literal</td>
-        <td>0..n</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Katalogo įrašui suteiktas pavadinimas.</td>
@@ -1450,7 +1450,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
     <tr>
         <td>Kontrolinės sumos reikšmė</td>
         <td>spdx:checksumValue<br>rdfs:Literal</td>
-        <td>1..1</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..1</td>
         <td>-</td>
         <td>Mažosiomis raidėmis užkoduota šešioliktainė skaitmeninė vertė, sukurta naudojant tam tikrą algoritmą.</td>
@@ -1544,7 +1544,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
             <tr>
         <td>Žymėjimas</td>
         <td>skos:notation<br>rdfs:Literal</td>
-        <td>1..1</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..1</td>
         <td>-</td>
         <td>Ši savybė yra eilutė, kuri yra identifikatorius pagal identifikatoriaus schemą, į kurią nurodo jos duomenų tipas.</td>
@@ -1706,7 +1706,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
              <tr>
         <td>Pabaigos data</td>
         <td>dcat:endDate<br>rdfs:Literal</td>
-        <td>0..1</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>0..1</td>
         <td>-</td>
         <td>Laikotarpio pabaigos data.</td>
@@ -1714,7 +1714,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
      <tr>
         <td>Pradžios data</td>
         <td>dcat:startDate<br>rdfs:Literal</td>
-        <td>0..1</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>0..1</td>
         <td>-</td>
         <td>Laikotarpio pradžios data.</td>
