@@ -1260,7 +1260,7 @@ atsisiunčiamą failą.</td>
 		<td>išleista</td>
 		<td>[dct:issued](http://purl.org/dc/terms/issued)</td>
 		<td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-		<td>-</td>
+		<td>0..1</td>
 		<td>-</td>
 		<td>Ši savybė nurodo datą, kai pateiktis buvo pirmą kartą
 išleista.</td>
@@ -1276,7 +1276,7 @@ išleista.</td>
 	<tr>
 		<td>kalba</td>
 		<td>[dct:language](http://purl.org/dc/terms/language)</td>
-		<td>-</td>
+		<td>dct:LinguisticSystem</td>
 		<td>0..1</td>
 		<td>Ši savybė turėtų būti kartojama, jei yra įvairių pateikties versijų skirtingomis kalbomis</td>
 		<td>Ši savybė nurodo pateikties duomenų kalbą. </td>
@@ -1284,66 +1284,71 @@ išleista.</td>
 	<tr>
 		<td>susijusi schema</td>
 		<td>[dct:conformsTo](http://purl.org/dc/terms/conformsTo)</td>
+		<td>[dct:Standard]()</td>
+		<td>0..n</td>
 		<td>-</td>
-		<td>-</td>
-		<td>-</td>
-		<td>-</td>
+		<td>Ši savybė nurodo nustatytą schemą, kurią atitinka aprašoma pateiktis.</td>
 	</tr>
 	<tr>
 		<td>(failų) pakavimo formatas</td>
 		<td>[dcat:packageFormat](http://www.w3.org/ns/dcat#packageFormat)</td>
+		<td>[dct:MediaType]()</td>
+		<td>0..1</td>
 		<td>-</td>
-		<td>-</td>
-		<td>-</td>
-		<td>-</td>
+		<td>Ši savybė nurodo failo, kuriame yra vienas ar daugiau duomenų, formatą
+failai sugrupuoti, pvz. kad būtų įjungtas susijusių failų rinkinys
+atsisiųsta kartu. Jis TURĖTŲ būti išreikštas naudojant laikmenos tipą kaip
+apibrėžtas oficialiame IANA tvarkomame žiniasklaidos tipų registre.</td>
 	</tr>
 	<tr>
 		<td>puslapis (dokumentacija)</td>
 		<td>[foaf:page](http://xmlns.com/foaf/0.1/page)</td>
+		<td>foaf:Document</td>
+		<td>-0..n</td>
 		<td>-</td>
-		<td>-</td>
-		<td>-</td>
-		<td>-</td>
+		<td>Ši savybė nurodo į dokumentą su informacija apie platinimą.</td>
 	</tr>
 	<tr>
 		<td>teisės</td>
 		<td>[dct:rights](http://purl.org/dc/terms/rights)</td>
+		<td>dct:RightsStatement</td>
+		<td>0..1</td>
 		<td>-</td>
-		<td>-</td>
-		<td>-</td>
-		<td>-</td>
+		<td>Ši savybė nurodo informacinį pareiškimą, kuriame nurodytos prieigos
+ir pateikties valdymo teisės.</td>
 	</tr>
 	<tr>
 		<td>erdvinė skiriamoji geba (metrais)</td>
 		<td>[dcat:spatialResolutionInMeters](http://www.w3.org/ns/dcat#spatialResolutionInMeters)</td>
 		<td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
+		<td>0..n</td>
 		<td>-</td>
-		<td>-</td>
-		<td>-</td>
+		<td>Ši savybė nurodo minimalią erdvinę skiriamąją gebą, matuojamą metrais.</td>
 	</tr>
 	<tr>
 		<td>statusas</td>
 		<td>[adms:status](http://www.w3.org/ns/adms#status)</td>
+		<td>skos:Concept</td>
+		<td>0..1</td>
 		<td>-</td>
-		<td>-</td>
-		<td>-</td>
-		<td>-</td>
+		<td>Nurodomas pateikties brandos lygmuo</td>
 	</tr>
 	<tr>
 		<td>pavadinimas</td>
 		<td>[dct:title](http://purl.org/dc/terms/title)</td>
 		<td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
+		<td>0..n</td>
 		<td>-</td>
-		<td>-</td>
-		<td>-</td>
+		<td>Šioje nuosavybėje yra aprašomasis pateikties pavadinimas. 
+</td>
 	</tr>
 	<tr>
 		<td>laiko skiriamoji geba</td>
 		<td>[dcat:temporalResolution](http://www.w3.org/ns/dcat#temporalResolution)</td>
 		<td>[xsd:duration](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
+		<td>0..n</td>
 		<td>-</td>
-		<td>-</td>
-		<td>-</td>
+		<td>Ši savybė nurodo minimalią laiko skiriamąją gebą.</td>
 	</tr>	
 	<tr>
         <td>Licencija</td>
