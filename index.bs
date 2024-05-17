@@ -228,9 +228,9 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
                 <td>Identifikatorius</td>
                 <td>[dct:identifier](http://purl.org/dc/terms/identifier)</td>
                 <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-                <td>1..n</td>
+                <td>1..1</td>
                 <td>-</td>
-                <td>-</td>
+                <td>Šioje savybėje nurodomas katalogo identifikatorius.</td>
                 </tr>
             <tr class="data-table__header">
                 <td>Skelbėjas</td>
@@ -248,37 +248,15 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
                 <td>IS tvarkomų duomenų katalogo pavadinimas turi nurodyti, kad tai konkretaus IS ar jo esminės dalies (posistemės) informacinė struktūra, kurios apimtyje yra tvarkomi duomenų rinkiniai.</td>
                 <td>Šioje savybėje pateikiamas katalogui suteiktas pavadinimas.</td>
             </tr>
-            <tr class="data-table__header">
-                <td>IS svarba</td>
-                <td>[dcataplt:importance](http://data.gov.lt/DCAT-AP-LT/importanceAssessmentURL)</td>
-                <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-                <td>1..1</td>
-                <td>Informacinės sistemos svarba pagal Valstybės informacinių išeklių valdymo įstatymo reikalavimus.</td>
-                <td>Valstybės informacinių išteklių svarba, kaip apibrėžta Lietuvos Respublikos valstybės informacinių išteklių valdymo įstatymo 3 str.</td>
-            </tr>
-            <tr class="data-table__header">
-                <td>IS tipas</td>
-                <td>[dcataplt:type](http://data.gov.lt/DCAT-AP-LT/type)</td>
-                <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-                <td>1..1</td>
-                <td>Informacinės sistemos tipas pagal Valstybės informacinių išeklių valdymo įstatymo reikalavimus.</td>
-                <td>Informacinės sistemos pagal jose tvarkomus duomenis yra šių rūšių (Lietuvos Respublikos valstybės informacinių išteklių valdymo įstatymo 9 str.): 1) registrų informacinės sistemos, 2) valstybės informacinės sistemos, 3) vidaus administravimo informacinės sistemos </td>
-            </tr>
-            <tr class="data-table__header">
-                <td>IS svarbos įvertinimo URL</td>
-                <td>[dcataplt:importanceAssessmentURL](http://data.gov.lt/DCAT-AP-LT/importanceAssessmentURL)</td>
-                <td>[dcat:Resource](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Resource)</td>
-                <td>1..1</td>
-                <td>URL nuoroda į IS svarbos vertinimo dokumentą.</td>
-                <td>Nuoroda į IS svarbos nustatymo įsivertinimo įrodymą.</td>
-            </tr>
+          
             <tr class="data-table__header">
                 <td>Kaupimo periodiškumas</td>
                 <td>[dcat:accrualPeriodicity](http://purl.org/dc/terms/acrualPeriodicity)</td>
+                <td>[dct:Frequency]()</td>
+                <td>0..1</td>
                 <td>-</td>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
+                <td>Ši savybė nurodo registro katalogo dažnumą
+atnaujinama naujais / redaguotais duomenų rinkiniais.</td>
             </tr>
 
             <tr class="data-table__header">
