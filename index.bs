@@ -1000,21 +1000,195 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
         <td>-</td>
         <td>Ši savybė nurodo licenciją, pagal kurią platinama distribucija.</td>
     </tr>
-    <tr>
-        <td>Didelės vertės duomenų rinkinio kategorija</td>
-        <td>dcatap:hvdCategory<br></td>
-        <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
-        <td>1..n</td>
+   	<!-- trūko 'availability' -->
+	<tr>
+        <td>Prieinamumas</td>
+        <td>[dcatap:availability](http://data.europa.eu/r5r/availability)</td>
         <td>-</td>
-        <td>Didelės vertės duomenų rinkinio sritis, kuriai šis pateiktis priklauso. Privaloma savybė didelės vertės duomenų rinkinių distribucijoms.</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
     </tr>
-    <tr>
-        <td>Teisinis pagrindas</td>
-        <td>dcatap:applicableLegislation<br>eli:LegalResource</td>
-        <td>1..n</td>
-        <td>1..n</td>
+	<!-- trūko 'Description' -->
+	<tr>
+        <td>Aprašas</td>
+        <td>[dct:description](http://purl.org/dc/terms/description)</td>
         <td>-</td>
-        <td>Teisės aktas, kurio pagrindu yra valdoma ir tvarkomas duomenų rinkinio pateiktis. Ši savybė privaloma didelės vertės duomenų rinkinių distribucijoms/realizacijoms.</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+	<!-- trūko 'format' -->
+	<tr>
+        <td>Formatas</td>
+        <td>[dct:format](http://purl.org/dc/terms/format)</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+	<!-- trūko 'access service' -->
+	<tr>
+        <td>Prieigos paslauga</td>
+        <td>[dcat:accessService](http://www.w3.org/ns/dcat#accessService)</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+	<!-- trūko 'byte size' -->
+	<tr>
+        <td>Dydis baitais</td>
+        <td>[dcat:byteSize](http://www.w3.org/ns/dcat#byteSize)</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+	<!-- trūko 'downloadURL' -->
+	<tr>
+        <td>parsisiuntimo URL</td>
+        <td>[dcat:downloadURL](http://www.w3.org/ns/dcat#downloa)</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+	<tr>
+    <td>medijos tipas</td>
+		<td>[dcat:mediaType](http://purl.org/dc/terms/mediaType)</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+	</tr>
+	<tr>
+    <td>medijos tipas</td>
+    <td>[dcat:mediaType](http://purl.org/dc/terms/mediaType)</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>kontrolinė suma</td>
+		<td>[spdx:checksum](http://spdx.org/rdf/terms#checksum)</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>suspaudimo formatas</td>
+		<td>[dcat:compressFormat](http://www.w3.org/ns/dcat#compressFormat)</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>turi politiką</td>
+		<td>[odrl:hasPolicy](http://www.w3.org/ns/odrl/2/hasPolicy)</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>išleista</td>
+		<td>[dct:issued](http://purl.org/dc/terms/issued)</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>atnaujinimo / pakeitimo data</td>
+		<td>[dct:modified](http://purl.org/dc/terms/modified)</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>kalba</td>
+		<td>[dct:language](http://purl.org/dc/terms/language)</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>susijusi schema</td>
+		<td>[dct:conformsTo](http://purl.org/dc/terms/conformsTo)</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>(failų) pakavimo formatas</td>
+		<td>[dcat:packageFormat](http://www.w3.org/ns/dcat#packageFormat)</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>puslapis (dokumentacija)</td>
+		<td>[foaf:page](http://xmlns.com/foaf/0.1/page)</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>teisės</td>
+		<td>[dct:rights](http://purl.org/dc/terms/rights)</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>erdvinė skiriamoji geba (metrais)</td>
+		<td>[dcat:spatialResolutionInMeters](http://www.w3.org/ns/dcat#spatialResolutionInMeters)</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>statusas</td>
+		<td>[adms:status](http://www.w3.org/ns/adms#status)</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>pavadinimas</td>
+		<td>[dct:title](http://purl.org/dc/terms/title)</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>laiko skiriamoji geba</td>
+		<td>[dcat:temporalResolution](http://www.w3.org/ns/dcat#temporalResolution)</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+	</tr>	
+	<tr>
+        <td>Licencija</td>
+        <td>[dct:license](http://purl.org/dc/terms/license)</td>
+        <td>[dct:LicenseDocument](http://purl.org/dc/terms/LicenseDocument)</td>
+        <td>1..1</td>
+        <td>-</td>
+        <td>Ši savybė nurodo licenciją, pagal kurią platinama distribucija.</td>
     </tr>
    </table>
 
