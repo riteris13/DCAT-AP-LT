@@ -1991,7 +1991,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
             </tr>
 </table>
 
-## Kilmės pareiškimas
+## Duomenų tvarkytojo deklaracija
 
  <table class="data-table simple">
             <tr >
@@ -2001,25 +2001,14 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
                 <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
             </tr>
             <tr class="data-table__header">
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>[dcat:Dataset](https://www.w3.org/TR/vocab-dcat-3/#Class:Dataset)</td>
+                <td>Duomenų tvarkytojo deklaracija</td>
+                <td>Šioje klasėje pateikiami bet kokie ištekliaus nuosavybės ir saugojimo pokyčiai nuo jo sukūrimo, kurie yra reikšmingi jo autentiškumui, vientisumui ir aiškinimui. deklaracija apie duomenų rinkinio kilmę.</td>
+                <td> - </td>
+                <td>[dct:ProvenanceStatement](http://purl.org/dc/terms/ProvenanceStatement)</td>
             </tr>
            
         </table>
 
- <table class="data-table simple">
-         
-            <tr class="data-table__header">
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Kardinalumas</th>
-                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
-            </tr>
-</table>
 
 ## Standartas
 
@@ -2031,26 +2020,16 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
                 <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
             </tr>
             <tr class="data-table__header">
+                <td>Standartas</td>
                 <td></td>
                 <td></td>
-                <td></td>
-                <td>[dcat:Dataset](https://www.w3.org/TR/vocab-dcat-3/#Class:Dataset)</td>
+                <td>[dct:Standard](http://purl.org/dc/terms/Standard)</td>
             </tr>
            
         </table>
- <table class="data-table simple">
-         
-            <tr class="data-table__header">
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Kardinalumas</th>
-                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
-            </tr>
-</table>
 
-## Kontaktas
+
+## Kontaktinė informacija
 
  <table class="data-table simple">
             <tr >
@@ -2060,25 +2039,15 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
                 <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
             </tr>
             <tr class="data-table__header">
+                <td>Kontaktinė informacija</td>
                 <td></td>
                 <td></td>
-                <td></td>
-                <td>[dcat:Dataset](https://www.w3.org/TR/vocab-dcat-3/#Class:Dataset)</td>
+                <td>[schema:ContactPoint](http://schema.org/ContactPoint)</td>
             </tr>
            
         </table>
 
- <table class="data-table simple">
-         
-            <tr class="data-table__header">
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Kardinalumas</th>
-                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
-            </tr>
-</table>
+
 
 ## Kokybės anotacija
 
