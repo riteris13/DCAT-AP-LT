@@ -2189,7 +2189,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
             </tr>
             <tr class="data-table__header">
                 <td>Standartas</td>
-                <td></td>
+                <td>Standartas ar kitaspecifikacija, kurią atitinka duomenų rinkinys ar pateiktis</td>
                 <td></td>
                 <td>[dct:Standard](http://purl.org/dc/terms/Standard)</td>
             </tr>
@@ -2208,8 +2208,8 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
             </tr>
             <tr class="data-table__header">
                 <td>Kontaktinė informacija</td>
-                <td></td>
-                <td></td>
+                <td>Šia klase aprašoma kontaktinė informacija</td>
+                <td> - </td>
                 <td>[schema:ContactPoint](http://schema.org/ContactPoint)</td>
             </tr>
            
@@ -2262,60 +2262,39 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
             </tr>
             <tr class="data-table__header">
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>[dcat:Dataset](https://www.w3.org/TR/vocab-dcat-3/#Class:Dataset)</td>
+                <td>Veikla</td>
+                <td>Veikla yra veiksmai, kurie vyksta per tam tikrą laikotarpį ir daro įtaką ištekliams; tai gali apimti duomenų ar kitų išteklių naudojimą, apdorojimą, transformavimą, modifikavimą, perkėlimą, naudojimą ar generavimą</td>
+                <td> - </td>
+                <td>[prov:Activity](http://www.w3.org/ns/prov#Activity)</td>
             </tr>
            
         </table>
 
- <table class="data-table simple">
-         
-            <tr class="data-table__header">
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Kardinalumas</th>
-                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
-            </tr>
-</table>
+
 
 ## Adresas
 
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
             </tr>
             <tr class="data-table__header">
                 <td>Adresas</td>
-                <td></td>
+                <td>„Adreso atvaizdavimas“, kaip konceptualiai apibrėžiamas INSPIRE adreso atstovavimo duomenų tipas. </td>
                 <td></td>
                 <td>[locn:Address](http://www.w3.org/ns/locn#Address)</td>
             </tr>
            
         </table>
 
- <table class="data-table simple">
-         
-            <tr class="data-table__header">
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Kardinalumas</th>
-                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
-            </tr>
-</table>
 
 
 # Didelės vertės duomenų rinkiniai
