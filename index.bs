@@ -1701,19 +1701,6 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
            
         </table>
 
- <table class="data-table simple">
-         
-            <tr class="data-table__header">
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Kardinalumas</th>
-                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
-            </tr>
-            
-</table>
-
 
 ## Katalogo įrašas
 
@@ -1835,7 +1822,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
             </tr>
            
         </table>
-
+<br>
  <table class="data-table simple">
          
             <tr class="data-table__header">
