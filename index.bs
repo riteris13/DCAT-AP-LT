@@ -2107,7 +2107,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
 <br></br>
              <tr>
         <td>Pabaigos data</td>
-        <td>dcat:endDate</td>
+        <td>[dcat:endDate](https://www.w3.org/ns/dcat#endDate)</td>
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>0..1</td>
         <td>-</td>
@@ -2115,7 +2115,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
      </tr>
      <tr>
         <td>Pradžios data</td>
-        <td>dcat:startDate</td>
+        <td>[dcat:startDate](http://www.w3.org/ns/dcat#startDate)</td>
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>0..1</td>
         <td>-</td>
@@ -2123,16 +2123,16 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
      </tr>
      <tr>
         <td>Turi pradžią</td>
-        <td>time:hasBeginning<br>time:Instant</td>
-        <td>0..1</td>
+        <td>[time:hasBeginning](http://www.w3.org/2006/time#hasBeginning)</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>0..1</td>
         <td>-</td>
         <td>Periodo arba intervalo pradžios data.</td>
      </tr>
      <tr>
         <td>Turi pabaigą</td>
-        <td>time:hasEnd<br>time:Instant</td>
-        <td>0..1</td>
+        <td>[time:hasEnd](http://www.w3.org/2006/time#hasEnd)</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>0..1</td>
         <td>-</td>
         <td>Periodo arba intervalo pabaigos data.</td>
