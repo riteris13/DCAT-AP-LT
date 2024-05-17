@@ -18,18 +18,25 @@ DCAT-AP-LT apima BREG-DCAT-AP naudojamas klases ir papildo jas Informacinės Sis
 
 ## Kontekstas
 
-Šiuo metu numatoma, jog Europos Komisija teiks paramą šioms devynioms Europos bendroms duomenų erdvėms kurt:
+Šiuo metu numatoma, jog Europos Komisija teiks paramą šioms [Europos bendroms duomenų erdvėms](https://digital-strategy.ec.europa.eu/en/policies/data-spaces) kurti:
 <ul>
-<li> Pramonės (gamybos); </li>
-<li> Žaliojo kurso; </li>
- <li>Judumo; </li>
- <li>Sveikatos; </li>
- <li>Finansinių; </li>
+<li>Žemės ūkio;  </li>
+<li> Kultūrinio paveldo; </li>
  <li>Energetikos; </li>
- <li>Žemės ūkio;  </li>
+<li>Finansinių; </li>
+<li> Žaliojo kurso; </li>
+<li>Kalbos; </li>
+ <li>Sveikatos; </li>
+<li> Pramonės (gamybos); </li>
+<li>Žiniasklaidos </li>
+ <li>Judumo; </li>
  <li>Viešojo administravimo;  </li>
- <li>Su įgūdžiais susijusių.  </li>
+<li>Mokslinių tyrimų ir inovacijų; </li>
+ <li>Su įgūdžiais susijusių;  </li>
+<li>Turizmo.  </li>
 </ul>
+
+
 Ši specifikacija turi palaikyti šias planuojamas duomenų erdves ir užtikrinti lengvesnį duomenų valdymą jose.  Realizavus šią specifikaciją informacinėje sistemoje, kur bus kataloguojami Lietuvos Respublikos registrų duomenys - bus sukuriamos priemonės, padedančios Lietuvos duomenų valdymo sričių įgaliotiniams kurti registrų duomenų valdymo strategijas, atpažinti netikslingą informacijos dubliavimą, taip pat suteiks galimybę dalintis Lietuvos Respublikos duomenimis su Europos Sąjunga pagal bendrą semantinį modelį.
 
 
