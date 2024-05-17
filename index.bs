@@ -2410,6 +2410,76 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
 
 ## Distribucija
 
+<table>
+  <thead>
+    <tr>
+     <th>Savybė</th>
+      <th>Intervalas</th>
+      <th>Kardinalumas</th>
+      <th>Apibrėžimas</th>
+      <th>Naudojimas</th>
+      <th>DCAT</th>
+      <th>Perpanaudojimas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>access service</td>
+      <td>Data Service</td>
+      <td>0..*</td>
+      <td>Duomenų paslauga, suteikianti prieigą prie duomenų rinkinio platinimo.</td>
+      <td></td>
+      <td><a href="#">Link</a></td>
+      <td>A</td>
+    </tr>
+    <tr>
+      <td>access URL</td>
+      <td>Resource</td>
+      <td>1..*</td>
+      <td>URL, suteikiantis prieigą prie duomenų rinkinio pateikties.</td>
+      <td>Išteklius prieigos URL adrese turėtų apimti informaciją, kaip gauti duomenų rinkinį. Pagal DCAT gaires pageidautina taip pat nustatyti downloadURL savybę, jei URL yra nuoroda į atsisiunčiamą išteklių.</td>
+      <td><a href="#">Link</a></td>
+      <td>A</td>
+    </tr>
+    <tr>
+      <td>applicable legislation</td>
+      <td>Legal Resource</td>
+      <td>1..*</td>
+      <td>Teisės aktai, kurie įpareigoja kurti ar valdyti platinimą.</td>
+      <td>HVD atveju reikšmė privalo apimti ELI http://data.europa.eu/eli/reg_impl/2023/138/oj. Kadangi į išteklių gali būti taikomi keli teisės aktai, maksimalus kardinalumas nėra ribojamas.</td>
+      <td></td>
+      <td>P</td>
+    </tr>
+    <tr>
+      <td>licence</td>
+      <td>Licence Document</td>
+      <td>0..1</td>
+      <td>Licencija, pagal kurią platinimas yra prieinamas.</td>
+      <td>4.3 straipsnis nurodo, kad aukštos vertės duomenų rinkiniai turėtų būti prieinami naudojimui. Pagal DCAT-AP HVD teisinės informacijos gaires tai įgyvendinama pirmenybė teikiant licenciją. Kaip alternatyvą gali būti naudojamos teisės.</td>
+      <td><a href="#">Link</a></td>
+      <td>E</td>
+    </tr>
+    <tr>
+      <td>linked schemas</td>
+      <td>Standard</td>
+      <td>0..*</td>
+      <td>Nustatytas schema, kuriai atitinka aprašytas platinimas.</td>
+      <td>Pateikta informacija turėtų leisti patikrinti, ar yra tenkinami išsamūs HVD informacijos reikalavimai. Daugiau naudojimo pasiūlymų žr. skyriuje apie konkrečius duomenų reikalavimus.</td>
+      <td><a href="#">Link</a></td>
+      <td>A</td>
+    </tr>
+    <tr>
+      <td>rights</td>
+      <td>Rights statement</td>
+      <td>0..*</td>
+      <td>Pareiškimas, kuriame nurodomos su platinimu susijusios teisės.</td>
+      <td>4.3 straipsnis nurodo, kad aukštos vertės duomenų rinkiniai turėtų būti prieinami naudojimui. Pagal DCAT-AP HVD teisinės informacijos gaires tai įgyvendinama pirmenybė teikiant licenciją. Kaip alternatyvą gali būti naudojamos teisės.</td>
+      <td><a href="#">Link</a></td>
+      <td>E</td>
+    </tr>
+  </tbody>
+</table>
+
 ## Rūšis
 
 <table>
