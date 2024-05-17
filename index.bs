@@ -208,6 +208,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
                 <td>[dcat:Catalog](http://www.w3.org/ns/dcat#Catalog)</td>
             </tr>
  </table>
+<br>
 <table class="data-table simple">
             <tr class="data-table__header">
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
