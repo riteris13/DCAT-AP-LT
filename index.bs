@@ -2411,3 +2411,37 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
 ## Distribucija
 
 ## Rūšis
+
+<table>
+  <thead>
+    <tr>
+<th>Savybė</th>
+      <th>Intervalas</th>
+      <th>Kardinalumas</th>
+      <th>Apibrėžimas</th>
+      <th>Naudojimas</th>
+      <th>DCAT</th>
+      <th>Perpanaudojimas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>contact page</td>
+      <td>Resource</td>
+      <td>0..1</td>
+      <td>Tinklalapis, kuris leidžia užmegzti kontaktą (pvz., per internetinę formą) arba informacija, kaip susisiekti.</td>
+      <td></td>
+      <td></td>
+      <td>P</td>
+    </tr>
+    <tr>
+      <td>email</td>
+      <td>Resource</td>
+      <td>0..1</td>
+      <td>El. pašto adresas, per kurį galima užmegzti kontaktą.</td>
+      <td></td>
+      <td></td>
+      <td>P</td>
+    </tr>
+  </tbody>
+</table>
