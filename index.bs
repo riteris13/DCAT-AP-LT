@@ -2406,7 +2406,66 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
 
 ## Duomenų rinkinys
 
-
+<table>
+  <thead>
+    <tr>
+          <th>Savybė</th>
+      <th>Intervalas</th>
+      <th>Kardinalumas</th>
+      <th>Apibrėžimas</th>
+      <th>Naudojimas</th>
+      <th>DCAT</th>
+      <th>Perpanaudojimas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>applicable legislation</td>
+      <td>Legal Resource</td>
+      <td>1..*</td>
+      <td>Teisės aktai, kurie įpareigoja kurti ar valdyti duomenų rinkinį.</td>
+      <td>HVD atveju reikšmė privalo apimti ELI http://data.europa.eu/eli/reg_impl/2023/138/oj. Kadangi į išteklių gali būti taikomi keli teisės aktai, maksimalus kardinalumas nėra ribojamas.</td>
+      <td></td>
+      <td>P</td>
+    </tr>
+    <tr>
+      <td>conforms to</td>
+      <td>Standard</td>
+      <td>0..*</td>
+      <td>Įgyvendinimo taisyklė ar kita specifikacija.</td>
+      <td>Pateikta informacija turėtų leisti patikrinti, ar yra tenkinami išsamūs HVD informacijos reikalavimai. Daugiau naudojimo pasiūlymų žr. skyriuje apie konkrečius duomenų reikalavimus.</td>
+      <td><a href="#">Link</a></td>
+      <td>A</td>
+    </tr>
+    <tr>
+      <td>contact point</td>
+      <td>Kind</td>
+      <td>0..*</td>
+      <td>Kontaktinė informacija, kurią galima naudoti siunčiant pastabas apie duomenų rinkinį.</td>
+      <td></td>
+      <td><a href="#">Link</a></td>
+      <td>A</td>
+    </tr>
+    <tr>
+      <td>dataset distribution</td>
+      <td>Distribution</td>
+      <td>1..*</td>
+      <td>Prieinamas duomenų rinkinio platinimas.</td>
+      <td>HVD IR yra esamų duomenų rinkinių kokybės gerinimas. Tikimasi, kad HVD duomenų rinkiniai yra viešai ir atvirai prieinami. Todėl tikimasi, kad platinimas bus pateiktas. (3.1 straipsnis)</td>
+      <td><a href="#">Link</a></td>
+      <td>A</td>
+    </tr>
+    <tr>
+      <td>HVD Category</td>
+      <td>Concept</td>
+      <td>1..*</td>
+      <td>HVD kategorija, kuriai priklauso šis duomenų rinkinys.</td>
+      <td></td>
+      <td></td>
+      <td>P</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Distribucija
 
