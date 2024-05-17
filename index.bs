@@ -460,8 +460,8 @@ atnaujinama naujais / redaguotais duomenų rinkiniais.</td>
             </tr>
             <tr class="data-table__header">
                 <td>Tekstinis</td>
-                <td></td>
-                <td></td>
+                <td>tekstinė vertė</td>
+                <td> - </td>
                 <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
             </tr>
            
