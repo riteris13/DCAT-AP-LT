@@ -90,6 +90,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
                 <th class="data-table__header-title--sortable" style="width:30%">Apibrėžimas</th>
                 <th class="data-table__header-title--sortable" style="width:30%">Aprašymas</th>
             </tr>
+<br></br>
             <tr class="data-table__header">
                 <td>[importance](http://data.gov.lt/onto/DCATAPLT#importance)</td>
                 <td>[Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
@@ -128,6 +129,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Reikšmės aprašymas</th>
             </tr>
+<br></br>
             <tr class="data-table__header">
                 <td>[Ypatingos svarbos - 1](http://data.gov.lt/controlled-vocabulary/importance/highlyImportant)</td>
                 <td>[Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
@@ -165,6 +167,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Reikšmės aprašymas</th>
             </tr>
+<br></br>
             <tr class="data-table__header">
                 <td>[Registrų informacinė sistema](http://data.gov.lt/onto/DCATAPLT/Type/registerInformationSystem)</td>
                 <td>[Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
@@ -218,6 +221,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:40%">Aprašymas</th>
             </tr>
+<br></br>
             <tr class="data-table__header">
                 <td>Aprašymas</td>
                 <td>[dct:description](http://purl.org/dc/terms/description)</td>
@@ -425,6 +429,7 @@ atnaujinama naujais / redaguotais duomenų rinkiniais.</td>
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:40%">Aprašymas</th>
             </tr>
+<br></br>
             <tr class="data-table__header">
                 <td>Pavadinimas</td>
                 <td>[foaf:name](http://xmlns.com/foaf/0.1/name)</td>
@@ -526,6 +531,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
             </tr>
+<br></br>
             <tr>
         <td>Aprašymas</td>
         <td>[dct:description](http://purl.org/dc/terms/description)</td>
@@ -953,7 +959,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
             </tr>
-
+<br></br>
 <tr>
         <td>Identifikatorius</td>
         <td>[dct:identifier](http://purl.org/dc/terms/identifier)</td>
@@ -1155,6 +1161,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
             </tr>
+<br></br>
             <tr>
         <td>Prieigos URL</td>
         <td>[dcat:accessURL]()</td>
@@ -1394,6 +1401,7 @@ ir pateikties valdymo teisės.</td>
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
             </tr>
+<br></br>
               <tr>
         <td>Tipas</td>
         <td>[dct:type](http://purl.org/dc/terms/type)</td>
@@ -1433,6 +1441,7 @@ ir pateikties valdymo teisės.</td>
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
             </tr>
+<br></br>
             <tr>
         <td>Pavadinimas</td>
         <td>[dct:title](http://purl.org/dc/terms/title)</td>
@@ -1474,6 +1483,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
             </tr>
+<br></br>
              <tr>
         <td>Tipas</td>
         <td>[dct:type]()</td>
@@ -1544,6 +1554,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
             </tr>
+<br></br>
              <tr>
         <td>Aprašymas</td>
         <td>[dct:description](http://purl.org/dc/terms/description)</td>
@@ -1623,6 +1634,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
             </tr>
+<br></br>
              <tr>
         <td>Identifikatorius</td>
         <td>[dct:identifier]</td>
@@ -1730,6 +1742,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
                 <th class="data-table__header-title--sortable" style="width:5%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:65%">Aprašymas</th>
             </tr>
+<br></br>
              <tr>
         <td>Pagrindinė tema</td>
         <td>[foaf:primaryTopic]()</td>
@@ -1833,7 +1846,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
             </tr>
-
+<br></br>
             <tr>
         <td>Algoritmas</td>
         <td>[spdx:algorithm](http://spdx.org/rdf/terms#algorithm)</td>
@@ -1936,7 +1949,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
             </tr>
-
+<br></br>
             <tr>
         <td>Žymėjimas</td>
         <td>skos:notation<br>rdfs:Literal</td>
@@ -2015,6 +2028,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
             </tr>
+<br></br>
 		  <tr>
         <td>Geografinis ribinis stačiakampis</td>
         <td>[dcat:bbox](http://www.w3.org/ns/dcat#bbox)</td>
@@ -2090,6 +2104,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
             </tr>
+<br></br>
              <tr>
         <td>Pabaigos data</td>
         <td>dcat:endDate</td>
