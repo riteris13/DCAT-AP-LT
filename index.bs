@@ -169,7 +169,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
             </tr>
 <br></br>
             <tr class="data-table__header">
-                <td>[Registrų informacinė sistema](http://data.gov.lt/onto/DCATAPLT/Type/registerInformationSystem)</td>
+                <td>[Registro informacinė sistema](http://data.gov.lt/onto/DCATAPLT/Type/registerInformationSystem)</td>
                 <td>[Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Registrų informacinės sistemos, kuriose registruojami objektai, tvarkomi objektų ir jų registravimo duomenys.</td>      
             </tr>
