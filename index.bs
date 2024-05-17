@@ -2142,17 +2142,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
            
         </table>
 
- <table class="data-table simple">
-         
-            <tr class="data-table__header">
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Kardinalumas</th>
-                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
-            </tr>
-</table>
+
 
 ## Duomenų tvarkytojo deklaracija
 
@@ -2513,7 +2503,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <td>[teisės](http://purl.org/dc/terms/rights)</td>
       <td>[Rights statement](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Rightsstatement)</td>
       <td>0..*</td>
-      <td>Pareiškimas, kuriame nurodomos su platinimu susijusios teisės.</td>
+      <td>Deklaracija, kuriame nurodomos su platinimu susijusios teisės.</td>
       <td>3.3 straipsnis nurodo, kad turi būti pateiktos naudojimo sąlygos. Pagal DCAT-AP HVD teisinės informacijos gaires tai įgyvendinama pirmenybė teikiant licenciją. Kaip alternatyvą gali būti naudojamos teisės.</td>
       <td>P</td>
     </tr>
@@ -2584,11 +2574,11 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset.contactpoint">A</a></td>
     </tr>
     <tr>
-      <td>[duomenų rinkinio pateikimas](http://www.w3.org/ns/dcat#distribution)</td>
+      <td>[duomenų rinkinio pateiktis](http://www.w3.org/ns/dcat#distribution)</td>
       <td>[Distribution](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Distribution)</td>
       <td>1..*</td>
-      <td>Prieinamas duomenų rinkinio platinimas.</td>
-      <td>HVD IR yra esamų duomenų rinkinių kokybės gerinimas. Tikimasi, kad HVD duomenų rinkiniai yra viešai ir atvirai prieinami. Todėl tikimasi, kad platinimas bus pateiktas. (3.1 straipsnis)</td>
+      <td>Prieinama duomenų rinkinio pateiktis.</td>
+      <td>HVD IR yra esamų duomenų rinkinių kokybės gerinimas. Tikimasi, kad HVD duomenų rinkiniai yra viešai ir atvirai prieinami. Todėl tikimasi, kad pateiktis bus pateikta. (3.1 straipsnis)</td>
       <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset.datasetdistribution">A</a></td>
     </tr>
     <tr>
@@ -2604,7 +2594,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
   </dd>
 </dl>
 
-## Distribucija
+## Pateiktis
 <dl>
     <dt>Apibrėžimas</dt>
     <dd>Katalogas arba saugykla, kurioje yra aprašomi duomenų rinkiniai arba duomenų paslaugos.</dd>
@@ -2661,7 +2651,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <td>[licencija](http://purl.org/dc/terms/license)</td>
       <td>[Licence Document](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#LicenceDocument)</td>
       <td>0..1</td>
-      <td>Licencija, pagal kurią platinimas yra prieinamas.</td>
+      <td>Licencija, pagal kurią pateiktis yra prieinama.</td>
       <td>4.3 straipsnis nurodo, kad aukštos vertės duomenų rinkiniai turėtų būti prieinami naudojimui. Pagal DCAT-AP HVD teisinės informacijos gaires tai įgyvendinama pirmenybė teikiant licenciją. Kaip alternatyvą gali būti naudojamos teisės.</td>
       <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Distribution.licence">E</a></td>
     </tr>
@@ -2669,7 +2659,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <td>[susijusi schema](http://purl.org/dc/terms/conformsTo)</td>
       <td>[Standard](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Standard)</td>
       <td>0..*</td>
-      <td>Nustatytas schema, kuriai atitinka aprašytas platinimas.</td>
+      <td>Nustatyta schema, kurią atitinka aprašyta pateiktis.</td>
       <td>Pateikta informacija turėtų leisti patikrinti, ar yra tenkinami išsamūs HVD informacijos reikalavimai. Daugiau naudojimo pasiūlymų žr. skyriuje apie konkrečius duomenų reikalavimus.</td>
       <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Distribution.linkedschemas">A</a></td>
     </tr>
@@ -2677,7 +2667,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <td>[teisės](http://purl.org/dc/terms/rights)</td>
       <td>[Rights statement](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Rightsstatement)</td>
       <td>0..*</td>
-      <td>Pareiškimas, kuriame nurodomos su platinimu susijusios teisės.</td>
+      <td>Deklaracija, kurioje nurodomos su platinimu susijusios teisės.</td>
       <td>4.3 straipsnis nurodo, kad aukštos vertės duomenų rinkiniai turėtų būti prieinami naudojimui. Pagal DCAT-AP HVD teisinės informacijos gaires tai įgyvendinama pirmenybė teikiant licenciją. Kaip alternatyvą gali būti naudojamos teisės.</td>
       <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Distribution.rights">E</a></td>
     </tr>
