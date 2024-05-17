@@ -2129,7 +2129,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
       </tr>
      </table>
 
-## Teisių pareiškimas
+## Teisių deklaracija
 
  <table class="data-table simple">
             <tr >
@@ -2139,10 +2139,10 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
                 <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
             </tr>
             <tr class="data-table__header">
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>[dcat:Dataset](https://www.w3.org/TR/vocab-dcat-3/#Class:Dataset)</td>
+                <td>Teisių deklaracija</td>
+                <td>Deklaracija apie intelektinės nuosavybės teises (INT), turimas išteklyje esančiai informacijai arba ištekliui, teisinis dokumentas, suteikiantis oficialų leidimą ką nors daryti su ištekliu, arba deklaracija apie prieigos teises.</td>
+                <td> - </td>
+                 <td>[dct:RightsStatement](http://purl.org/dc/terms/RightsStatement)</td>
             </tr>
            
         </table>
