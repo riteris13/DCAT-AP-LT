@@ -412,6 +412,8 @@ atnaujinama naujais / redaguotais duomenų rinkiniais.</td>
                 <td>-</td>
                 <td>[foaf:Agent](http://xmlns.com/foaf/0.1/Agent)</td>
             </tr>
+  </table>
+ <table class="data-table simple">
             <tr class="data-table__header">
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
                 <th class="data-table__header-title--sortable" style="width:5%">Išteklius</th>
