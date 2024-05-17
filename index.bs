@@ -962,14 +962,69 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
             </tr>
-              <tr>
-        <td>Versija</td>
-        <td>dcat:version</td>
+
+<tr>
+        <td>Identifikatorius</td>
+        <td>[dct:identifier](http://purl.org/dc/terms/identifier)</td>
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..1</td>
         <td>-</td>
-        <td>Duomenų paslaugos versijos identifikavimas</td>
+        <td>Šioje savybėje nurodomas duomenų paslaugos identifikatorius.</td>
     </tr>
+	<tr>
+        <td>Prieigos taško aprašas</td>
+        <td>[dcat:endpointDescription](http://www.w3.org/ns/dcat#endpointDescription)</td>
+        <td>[rdfs:Resource]()</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Šioje savybėje pateikiamas paslaugų, prieinamų per galinius taškus, aprašymas, įskaitant jų operacijas, parametrus ir t. t. Pastaba. Šioje savybėje pateikiama konkreti informacija apie tikruosius galinių taškų egzempliorius, o dcterms:conformsTo naudojama bendram standartui ar specifikacijai, kurią galiniai taškai įgyvendina, nurodyti.</td>
+    </tr>
+<tr>
+        <td>Raktažodis / žyma</td>
+        <td>[dcat:keyword](http://www.w3.org/ns/dcat#keyword)</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Šioje savybėje pateikiamas duomenų paslaugą apibūdinantis raktažodis arba žyma.</td>
+    </tr>
+
+<tr>
+        <td>Aprašas</td>
+        <td>[dct:description](http://purl.org/dc/terms/description)</td>
+        <td>[rfds:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Literal)</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Šioje savybėje laisvu tekstu pateikiamas duomenų paslaugos aprašas. Šią savybę galima pakartoti, jei aprašas pateikiamas keliomis kalbomis.</td>
+    </tr>
+
+<tr>
+        <td>Tema / kategorija</td>
+        <td>[dcat:theme/category](http://www.w3.org/ns/dcat#theme)</td>
+        <td>[skos:Concept](https://www.w3.org/2009/08/skos-reference/skos.html#Concept)</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Ši savybė nurodo duomenų paslaugos kategoriją. Duomenų paslauga gali būti susieta su keliomis temomis.</td>
+    </tr>
+
+
+<tr>
+        <td>Duomenų teikėjas</td>
+        <td>[dct:publisher](http://purl.org/dc/terms/publisher)</td>
+        <td>[foaf:Agent]()</td>
+        <td>0..1</td>
+        <td>-</td>
+        <td>Ši savybė nurodo subjektą (organizaciją), atsakingą už duomenų paslaugos prieinamumą.</td>
+    </tr>
+
+<tr>
+        <td>Pateikia duomenų rinkinį</td>
+        <td>[dct:servesDataset](http://www.w3.org/ns/dcat#servesdataset)</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Ši savybė referuoja į duomenų rinkinį, kurį duomenų paslauga platina. Pastaba: privaloma savybė, jei paslauga susijusi su didelės vertės duomenų rinkiniais.</td>
+    </tr>
+
     <tr>
         <td>Pavadinimas</td>
         <td>[dct:title](http://purl.org/dc/terms/title)</td>
@@ -978,15 +1033,61 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
         <td>-</td>
         <td>Šioje savybėje pateikiamas duomenų paslaugai suteiktas pavadinimas. Galima pakartoti, jei pavadinimas pateikiamas keliomis kalbomis.</td>
     </tr>
-    <tr>
-        <td>Didelės vertės duomenų rinkinio kategorija</td>
-        <td>dcatap:hvdCategory</td>
-        <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
-        <td>1..n</td>
+  <!-- trūko 'licence' -->
+	<tr>
+        <td>Licencija</td>
+        <td>[dct:licence](http://purl.org/dc/terms/license)</td>
+        <td>[dct:LicenseDocument](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#LicenceDocument)</td>
+        <td>0..1</td>
         <td>-</td>
-        <td>Didelės vertės duomenų rinkinio sritis, kuriuos platina ar su kuriais siejasi ši duomenų paslauga. Privaloma savybė, jei paslauga susijusi su didelės vertės duomenų rinkiniais.</td>
+        <td>Ši savybė nurodo licenciją, pagal kurią platinama duomenų paslauga. Pastaba: privaloma savybė, jei paslauga susijusi su didelės vertės duomenų rinkiniais.</td>
     </tr>
-  
+	<!-- trūko 'access rights' -->
+	<tr>
+        <td>Prieigos teisės</td>
+        <td>[dct:accessRights](http://purl.org/dc/terms/accessRights)</td>
+        <td>[dct:RightsStatement]()</td>
+        <td>0..1</td>
+        <td>-</td>
+        <td>Ši savybė susijusi su informacija, kuri nurodo, ar duomenų paslauga yra atvira, ar jai taikomi prieigos apribojimai, ar ji nėra vieša.</td>
+    </tr>
+	<!-- trūko 'conforms to' -->
+	<tr>
+        <td>Atitinka</td>
+        <td>[dct:conformsTo](http://purl.org/dc/terms/conformsTo)</td>
+        <td>[dct:Standard]()</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Ši savybė nurodo įgyvendinimo taisyklę arba kitą specifikaciją.</td>
+    </tr>
+	<!-- trūko 'follows' -->
+	<tr>
+        <td>Laikosi</td>
+        <td>[cpsv:follows](http://purl.org/vocab/cpsv#follows)</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+	<!-- trūko 'landingPage' -->
+	<tr>
+        <td>Nukreipimo puslapis</td>
+        <td>[dcat:landingPage](http://www.w3.org/ns/dcat#landingPage)</td>
+        <td>[foaf:Document]()</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Ši savybė nurodo tinklalapį, kuriame galima susipažinti su duomenų paslauga, jos distribucija ir (arba) papildoma informacija. Ji skirta nukreipti į pradinio duomenų paslaugos teikėjo, o ne į trečiosios šalies, pavyzdžiui, agregatoriaus, svetainės puslapį.</td>
+    </tr>
+
+<tr>
+        <td>Tipas</td>
+        <td>[dct:type](http://purl.org/dc/terms/type)</td>
+        <td>[skos:Concept](https://www.w3.org/2009/08/skos-reference/skos.html#Concept)</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Ši savybė nurodo duomenų paslaugos tipą. Numatytas rekomenduojamas kontroliuojamo žodyno duomenų paslaugos tipas.</td>
+    </tr>
+
     <tr>
         <td>Paslaugos kokybė</td>
         <td>[foaf:page](http://xmlns.com/foaf/0.1/page)</td>
