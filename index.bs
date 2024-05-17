@@ -1836,8 +1836,8 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
 
             <tr>
         <td>Algoritmas</td>
-        <td>spdx:algorithm<br>spdx:ChecksumAlgorithm</td>
-        <td>1..1</td>
+        <td>[spdx:algorithm](http://spdx.org/rdf/terms#algorithm)</td>
+        <td>[spdx:ChecksumAlgorithm](http://spdx.org/rdf/terms#ChecksumAlgorithm)</td>
         <td>1..1</td>
         <td>-</td>
         <td>Algoritmas, naudojamas objekto kontrolinei sumai sukurti.</td>
