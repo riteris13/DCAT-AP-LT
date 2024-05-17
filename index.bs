@@ -180,6 +180,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
 
 # Naudojamos BregDCAT-AP klasės ir savybės
 
+
 ## Katalogas
 
 <dl>
@@ -900,14 +901,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
         <td>-</td>
         <td>Didelės vertės duomenų rinkinio sritis, kuriuos platina ar su kuriais siejasi ši duomenų paslauga. Privaloma savybė, jei paslauga susijusi su didelės vertės duomenų rinkiniais.</td>
     </tr>
-    <tr>
-        <td>Teisinis pagrindas</td>
-        <td>dcatap:applicableLegislation<br>eli:LegalResource</td>
-        <td>1..n</td>
-        <td>1..n</td>
-        <td>-</td>
-        <td>Teisės aktas, kurio pagrindu yra sukurta ir teikiama duomenų paslaugą. Privaloma savybė, jei paslauga susijusi su didelės vertės duomenų rinkiniais.</td>
-    </tr>
+  
     <tr>
         <td>Paslaugos kokybė</td>
         <td>[foaf:page](http://xmlns.com/foaf/0.1/page)</td>
@@ -917,9 +911,9 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
         <td>Ši savybė leidžia nurodyti tinklalapį, kuriame pateikiama išsami informacija apie teikiamos paslaugos kokybę bei kita aktuali informacija. Privaloma savybė, jei paslauga susijusi su didelės vertės duomenų rinkiniais.</td>
     </tr>
     <tr>
-        <td>Kontaktas</td>
-        <td>dcat:contactPoint<br>vcard:Kind</td>
-        <td>1..n</td>
+        <td>Kontaktinė informacija</td>
+        <td>[dcat:contactPoint](http://www.w3.org/ns/dcat#contactPoint)</td>
+        <td>[vcard:Kind](http://www.w3.org/2006/vcard/ns#Kind)</td>
         <td>1..n</td>
         <td>-</td>
         <td>Šioje savybėje pateikiama kontaktinė informacija, kurią galima naudoti siunčiant pastabas apie duomenų paslaugą.</td>
@@ -1000,32 +994,31 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
         <td>-</td>
         <td>Ši savybė nurodo licenciją, pagal kurią platinama distribucija.</td>
     </tr>
-   	<!-- trūko 'availability' -->
 	<tr>
         <td>Prieinamumas</td>
         <td>[dcatap:availability](http://data.europa.eu/r5r/availability)</td>
+        <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
+        <td>0..1</td>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>Nurodoma, kiek laiko planuojama išlaikyti duomenų rinkinio platinimą.</td>
     </tr>
 	<!-- trūko 'Description' -->
 	<tr>
         <td>Aprašas</td>
         <td>[dct:description](http://purl.org/dc/terms/description)</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
+        <td>0..n</td>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>Šioje savybėje laisvu tekstu pateikiamas pateikties aprašas. Šią savybę galima pakartoti, jei aprašoma keliomis (lygiagrečiomis) kalbomis.</td>
     </tr>
 	<!-- trūko 'format' -->
 	<tr>
         <td>Formatas</td>
         <td>[dct:format](http://purl.org/dc/terms/format)</td>
+        <td>[dct:MediaTypeOrExtent](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#MediaTypeorExtent)</td>
+        <td>0..1</td>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>Pateikties failų formatas.</td>
     </tr>
 	<!-- trūko 'access service' -->
 	<tr>
@@ -1040,7 +1033,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
 	<tr>
         <td>Dydis baitais</td>
         <td>[dcat:byteSize](http://www.w3.org/ns/dcat#byteSize)</td>
-        <td>-</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>-</td>
         <td>-</td>
         <td>-</td>
@@ -1097,7 +1090,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
 	<tr>
 		<td>išleista</td>
 		<td>[dct:issued](http://purl.org/dc/terms/issued)</td>
-		<td>-</td>
+		<td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
 		<td>-</td>
 		<td>-</td>
 		<td>-</td>
@@ -1105,7 +1098,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
 	<tr>
 		<td>atnaujinimo / pakeitimo data</td>
 		<td>[dct:modified](http://purl.org/dc/terms/modified)</td>
-		<td>-</td>
+		<td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
 		<td>-</td>
 		<td>-</td>
 		<td>-</td>
@@ -1153,7 +1146,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
 	<tr>
 		<td>erdvinė skiriamoji geba (metrais)</td>
 		<td>[dcat:spatialResolutionInMeters](http://www.w3.org/ns/dcat#spatialResolutionInMeters)</td>
-		<td>-</td>
+		<td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
 		<td>-</td>
 		<td>-</td>
 		<td>-</td>
@@ -1169,7 +1162,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
 	<tr>
 		<td>pavadinimas</td>
 		<td>[dct:title](http://purl.org/dc/terms/title)</td>
-		<td>-</td>
+		<td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
 		<td>-</td>
 		<td>-</td>
 		<td>-</td>
@@ -1177,7 +1170,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
 	<tr>
 		<td>laiko skiriamoji geba</td>
 		<td>[dcat:temporalResolution](http://www.w3.org/ns/dcat#temporalResolution)</td>
-		<td>-</td>
+		<td>[xsd:duration](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
 		<td>-</td>
 		<td>-</td>
 		<td>-</td>
@@ -1307,7 +1300,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
         <td>Ši savybė nurodo teisinio ištekliaus tipą (pvz., "Direktyva", „Règlement grand ducal“, „įstatymas“, „Règlement ministériel“, „projektas pasiūlymas“, „Parlamento aktas“ ir t. t.). Valstybės narės raginamos sudaryti savo teisės aktų sąrašą atitinkamoje sąvokų schemoje.</td>
     </tr>
     <tr>
-        <td>Aprašymas</td>
+        <td>Aprašas</td>
         <td>[dct:description]()</td>
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>0..n</td>
