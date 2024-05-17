@@ -2216,7 +2216,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
   </thead>
   <tbody>
     <tr>
-      <td>[dataset](http://www.w3.org/ns/dcat#dataset)</td>
+      <td>[duomenų rinkinys](http://www.w3.org/ns/dcat#dataset)</td>
       <td>[Dataset](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Dataset)</td>
       <td>0..*</td>
       <td>Duomenų rinkinys, kuris yra dalis katalogo.</td>
@@ -2224,7 +2224,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Catalogue.dataset">A</a></td>
     </tr>
     <tr>
-      <td>[record](http://www.w3.org/ns/dcat#record)</td>
+      <td>[įrašas](http://www.w3.org/ns/dcat#record)</td>
       <td>[Catalogue Record](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#CatalogueRecord)</td>
       <td>0..*</td>
       <td>Katalogo įrašas, kuris yra dalis katalogo.</td>
@@ -2232,7 +2232,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Catalogue.record">A</a></td>
     </tr>
     <tr>
-      <td>[service](http://www.w3.org/ns/dcat#service)</td>
+      <td>[paslauga](http://www.w3.org/ns/dcat#service)</td>
       <td>[Data Service](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService)</td>
       <td>0..*</td>
       <td>Svetainė arba galutinis taškas (duomenų paslauga), kuris yra išvardytas kataloge.</td>
@@ -2268,7 +2268,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
   </thead>
   <tbody>
     <tr>
-      <td>[primary topic](http://xmlns.com/foaf/0.1/primaryTopic)</td>
+      <td>[pagrindinė tema](http://xmlns.com/foaf/0.1/primaryTopic)</td>
       <td>[Catalogued Resource](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#CataloguedResource)</td>
       <td>1</td>
       <td>Nuoroda į aprašytąjį duomenų rinkinį, duomenų paslaugą arba katalogą.</td>
@@ -2326,7 +2326,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
   </thead>
   <tbody>
     <tr>
-      <td>[applicable legislation](http://data.europa.eu/r5r/applicableLegislation)</td>
+      <td>[teisinis pagrindas](http://data.europa.eu/r5r/applicableLegislation)</td>
       <td>[Legal Resource](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#LegalResource)</td>
       <td>1..*</td>
       <td>Teisės aktai, kurie įpareigoja kurti ar valdyti duomenų paslaugą.</td>
@@ -2334,7 +2334,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <td>P</td>
     </tr>
     <tr>
-      <td>[contact point](http://www.w3.org/ns/dcat#contactPoint)</td>
+      <td>[kontaktas](http://www.w3.org/ns/dcat#contactPoint)</td>
       <td>[Kind](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Kind)</td>
       <td>1..*</td>
       <td>Kontaktinė informacija, kurią galima naudoti siunčiant pastabas apie duomenų paslaugą.</td>
@@ -2342,7 +2342,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <td>P</td>
     </tr>
     <tr>
-      <td>[documentation](http://xmlns.com/foaf/0.1/Page)</td>
+      <td>[dokumentacija](http://xmlns.com/foaf/0.1/Page)</td>
       <td>[Document](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Document)</td>
       <td>1..*</td>
       <td>Puslapis, kuriame pateikiama papildoma informacija apie duomenų paslaugą.</td>
@@ -2350,7 +2350,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <td>P</td>
     </tr>
     <tr>
-      <td>[endpoint description](http://www.w3.org/ns/dcat#endpointDescription)</td>
+      <td>[prieigos taško aprašymas](http://www.w3.org/ns/dcat#endpointDescription)</td>
       <td>[Resource](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Resource)</td>
       <td>0..*</td>
       <td>Aprašymas paslaugų, prieinamų per galutinius taškus, įskaitant jų operacijas, parametrus ir t.t.</td>
@@ -2358,7 +2358,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#DataService.endpointdescription">E</a></td>
     </tr>
     <tr>
-      <td>[endpoint URL](http://www.w3.org/ns/dcat#endpointURL)</td>
+      <td>[prieigos taško URL](http://www.w3.org/ns/dcat#endpointURL)</td>
       <td>[Resource](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Resource)</td>
       <td>1..*</td>
       <td>Pagrindinė paslaugos vieta arba pirminis galutinis taškas (IRI).</td>
@@ -2366,7 +2366,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#DataService.endpointURL">E</a></td>
     </tr>
     <tr>
-      <td>[HVD category](http://data.europa.eu/r5r/hvdCategory)</td>
+      <td>[didelės vertės duomenų rinkinio kategorija](http://data.europa.eu/r5r/hvdCategory)</td>
       <td>[Concept](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Concept)</td>
       <td>1..*</td>
       <td>HVD kategorija, kuriai priklauso ši duomenų paslauga.</td>
@@ -2374,7 +2374,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <td>P</td>
     </tr>
     <tr>
-      <td>[licence](http://purl.org/dc/terms/license)</td>
+      <td>[licencija](http://purl.org/dc/terms/license)</td>
       <td>[Licence Document](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#LicenceDocument)</td>
       <td>0..1</td>
       <td>Licencija, pagal kurią teikiama duomenų paslauga.</td>
@@ -2382,7 +2382,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#DataService.licence">E</a></td>
     </tr>
     <tr>
-      <td>[rights](http://purl.org/dc/terms/rights)</td>
+      <td>[teisės](http://purl.org/dc/terms/rights)</td>
       <td>[Rights statement](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Rightsstatement)</td>
       <td>0..*</td>
       <td>Pareiškimas, kuriame nurodomos su platinimu susijusios teisės.</td>
@@ -2390,7 +2390,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <td>P</td>
     </tr>
     <tr>
-      <td>[serves dataset](http://www.w3.org/ns/dcat#servesDataset)</td>
+      <td>[pateikia duomenų rinkinį](http://www.w3.org/ns/dcat#servesDataset)</td>
       <td>[Dataset](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Dataset)</td>
       <td>1..*</td>
       <td>Ši savybė nurodo duomenų rinkinį, kurį ši duomenų paslauga gali platinti.</td>
@@ -2404,6 +2404,21 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
 
 ## Duomenų rinkinys
 
+<dl>
+    <dt>Apibrėžimas</dt>
+    <dd>Konceptualus objektas, atitinkantis paskelbtą informaciją.</dd>
+    <dt>DCAT nuoroda</dt>
+    <dd><a href="https://w3c.github.io/dxwg/dcat/#Class:Dataset">Nuoroda</a></dd>
+    <dt>Šios klasės poklasė</dt>
+    <dd><a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#CataloguedResource">Katalogo resursas</a></dd>
+    <dt>Savybės</dt>
+<dd>Apibrėžiamos šios šio objekto ypatybės: <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.applicablelegislation">teisinis pagrindas,</a> 
+	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Dataset.conformsto">taikymo profilis,</a>
+	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.contactpoint">kontaktas,</a>
+	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Dataset.datasetdistribution">duomenų rinkinio pateikimas,</a>
+	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.HVDcategory">didelės vertės duomenų rinkinio kategorija.</a>
+	</dd>
+    <dd>
 <table>
   <thead>
     <tr>
@@ -2412,61 +2427,72 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <th>Kardinalumas</th>
       <th>Apibrėžimas</th>
       <th>Naudojimas</th>
-      <th>DCAT</th>
       <th>Perpanaudojimas</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>applicable legislation</td>
-      <td>Legal Resource</td>
+      <td>[teisinis pagrindas](http://data.europa.eu/r5r/applicableLegislation)</td>
+      <td>[Legal Resource](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#LegalResource)</td>
       <td>1..*</td>
       <td>Teisės aktai, kurie įpareigoja kurti ar valdyti duomenų rinkinį.</td>
       <td>HVD atveju reikšmė privalo apimti ELI http://data.europa.eu/eli/reg_impl/2023/138/oj. Kadangi į išteklių gali būti taikomi keli teisės aktai, maksimalus kardinalumas nėra ribojamas.</td>
-      <td></td>
       <td>P</td>
     </tr>
     <tr>
-      <td>conforms to</td>
-      <td>Standard</td>
+      <td>[atitinka](http://purl.org/dc/terms/conformsTo)</td>
+      <td>[Standard](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Standard)</td>
       <td>0..*</td>
       <td>Įgyvendinimo taisyklė ar kita specifikacija.</td>
       <td>Pateikta informacija turėtų leisti patikrinti, ar yra tenkinami išsamūs HVD informacijos reikalavimai. Daugiau naudojimo pasiūlymų žr. skyriuje apie konkrečius duomenų reikalavimus.</td>
-      <td><a href="#">Link</a></td>
-      <td>A</td>
+      <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset.conformsto">A</a></td>
     </tr>
     <tr>
-      <td>contact point</td>
-      <td>Kind</td>
+      <td>[contact point](http://www.w3.org/ns/dcat#contactPoint)</td>
+      <td>[Kind](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Kind)</td>
       <td>0..*</td>
       <td>Kontaktinė informacija, kurią galima naudoti siunčiant pastabas apie duomenų rinkinį.</td>
-      <td></td>
-      <td><a href="#">Link</a></td>
-      <td>A</td>
+      <td>-</td>
+      <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset.contactpoint">A</a></td>
     </tr>
     <tr>
-      <td>dataset distribution</td>
-      <td>Distribution</td>
+      <td>[duomenų rinkinio pateikimas](http://www.w3.org/ns/dcat#distribution)</td>
+      <td>[Distribution](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Distribution)</td>
       <td>1..*</td>
       <td>Prieinamas duomenų rinkinio platinimas.</td>
       <td>HVD IR yra esamų duomenų rinkinių kokybės gerinimas. Tikimasi, kad HVD duomenų rinkiniai yra viešai ir atvirai prieinami. Todėl tikimasi, kad platinimas bus pateiktas. (3.1 straipsnis)</td>
-      <td><a href="#">Link</a></td>
-      <td>A</td>
+      <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset.datasetdistribution">A</a></td>
     </tr>
     <tr>
-      <td>HVD Category</td>
-      <td>Concept</td>
+      <td>[didelės vertės duomenų rinkinio kategorija](http://data.europa.eu/r5r/hvdCategory)</td>
+      <td>[Concept](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Concept)</td>
       <td>1..*</td>
       <td>HVD kategorija, kuriai priklauso šis duomenų rinkinys.</td>
-      <td></td>
-      <td></td>
+      <td>-</td>
       <td>P</td>
     </tr>
   </tbody>
 </table>
+  </dd>
+</dl>
 
 ## Distribucija
-
+<dl>
+    <dt>Apibrėžimas</dt>
+    <dd>Katalogas arba saugykla, kurioje yra aprašomi duomenų rinkiniai arba duomenų paslaugos.</dd>
+    <dt>DCAT nuoroda</dt>
+    <dd><a href="https://w3c.github.io/dxwg/dcat/#Class:Distribution">Nuoroda</a></dd>
+    <dt>Naudojimo pastaba</dt>
+    <dd>Masiniai atsisiuntimai turi būti koduojami kaip pateikimas.</dd>
+    <dt>Savybės</dt>
+    <dd>Apibrėžiamos šios šio objekto ypatybės: <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Distribution.accessservice">prieigos paslauga,</a> 
+	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Distribution.accessURL">prieigos URL,</a>
+	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Distribution.applicablelegislation">teisinis pagrindas,</a>
+	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Distribution.licence">licencija,</a>
+	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Distribution.linkedschemas">susijusi schema,</a>
+	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Distribution.rights">teisės.</a>
+	</dd>
+    <dd>
 <table>
   <thead>
     <tr>
@@ -2475,70 +2501,73 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <th>Kardinalumas</th>
       <th>Apibrėžimas</th>
       <th>Naudojimas</th>
-      <th>DCAT</th>
       <th>Perpanaudojimas</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>access service</td>
-      <td>Data Service</td>
+      <td>[prieigos paslauga](http://www.w3.org/ns/dcat#accessService)</td>
+      <td>[Data Service](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService)</td>
       <td>0..*</td>
       <td>Duomenų paslauga, suteikianti prieigą prie duomenų rinkinio platinimo.</td>
-      <td></td>
-      <td><a href="#">Link</a></td>
-      <td>A</td>
+      <td>-</td>
+      <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Distribution.accessservice">A</a></td>
     </tr>
     <tr>
-      <td>access URL</td>
-      <td>Resource</td>
+      <td>[prieigos URL](http://www.w3.org/ns/dcat#accessURL)</td>
+      <td>[Resource](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Resource)</td>
       <td>1..*</td>
       <td>URL, suteikiantis prieigą prie duomenų rinkinio pateikties.</td>
       <td>Išteklius prieigos URL adrese turėtų apimti informaciją, kaip gauti duomenų rinkinį. Pagal DCAT gaires pageidautina taip pat nustatyti downloadURL savybę, jei URL yra nuoroda į atsisiunčiamą išteklių.</td>
-      <td><a href="#">Link</a></td>
-      <td>A</td>
+      <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Distribution.accessURL">A</a></td>
     </tr>
     <tr>
-      <td>applicable legislation</td>
-      <td>Legal Resource</td>
+      <td>[teisinis pagrindas](http://data.europa.eu/r5r/applicableLegislation)</td>
+      <td>[Legal Resource](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#LegalResource)</td>
       <td>1..*</td>
       <td>Teisės aktai, kurie įpareigoja kurti ar valdyti platinimą.</td>
       <td>HVD atveju reikšmė privalo apimti ELI http://data.europa.eu/eli/reg_impl/2023/138/oj. Kadangi į išteklių gali būti taikomi keli teisės aktai, maksimalus kardinalumas nėra ribojamas.</td>
-      <td></td>
       <td>P</td>
     </tr>
     <tr>
-      <td>licence</td>
-      <td>Licence Document</td>
+      <td>[licencija](http://purl.org/dc/terms/license)</td>
+      <td>[Licence Document](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#LicenceDocument)</td>
       <td>0..1</td>
       <td>Licencija, pagal kurią platinimas yra prieinamas.</td>
       <td>4.3 straipsnis nurodo, kad aukštos vertės duomenų rinkiniai turėtų būti prieinami naudojimui. Pagal DCAT-AP HVD teisinės informacijos gaires tai įgyvendinama pirmenybė teikiant licenciją. Kaip alternatyvą gali būti naudojamos teisės.</td>
-      <td><a href="#">Link</a></td>
-      <td>E</td>
+      <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Distribution.licence">E</a></td>
     </tr>
     <tr>
-      <td>linked schemas</td>
-      <td>Standard</td>
+      <td>[susijusi schema](http://purl.org/dc/terms/conformsTo)</td>
+      <td>[Standard](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Standard)</td>
       <td>0..*</td>
       <td>Nustatytas schema, kuriai atitinka aprašytas platinimas.</td>
       <td>Pateikta informacija turėtų leisti patikrinti, ar yra tenkinami išsamūs HVD informacijos reikalavimai. Daugiau naudojimo pasiūlymų žr. skyriuje apie konkrečius duomenų reikalavimus.</td>
-      <td><a href="#">Link</a></td>
-      <td>A</td>
+      <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Distribution.linkedschemas">A</a></td>
     </tr>
     <tr>
-      <td>rights</td>
-      <td>Rights statement</td>
+      <td>[teisės](http://purl.org/dc/terms/rights)</td>
+      <td>[Rights statement](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Rightsstatement)</td>
       <td>0..*</td>
       <td>Pareiškimas, kuriame nurodomos su platinimu susijusios teisės.</td>
       <td>4.3 straipsnis nurodo, kad aukštos vertės duomenų rinkiniai turėtų būti prieinami naudojimui. Pagal DCAT-AP HVD teisinės informacijos gaires tai įgyvendinama pirmenybė teikiant licenciją. Kaip alternatyvą gali būti naudojamos teisės.</td>
-      <td><a href="#">Link</a></td>
-      <td>E</td>
+      <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Distribution.rights">E</a></td>
     </tr>
   </tbody>
 </table>
-
+  </dd>
+</dl>
 ## Rūšis
-
+<dl>
+    <dt>Apibrėžimas</dt>
+    <dd>Aprašymas pagal "vCard" specifikaciją, pvz., nurodant kontaktinio punkto telefono numerį ir el. pašto adresą.</dd>
+    <dt>Naudojimo pastaba</dt>
+    <dd>Rekomenduojama pateikti bent el. laišką arba kontaktinę formą iš, pvz., aptarnavimo centro.</dd>
+    <dt>Savybės</dt>
+    <dd>Apibrėžiamos šios šio objekto ypatybės: <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Kind.contactpage">kontaktas</a> 
+	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Kind.email">el. paštas.</a>
+	</dd>
+    <dd>
 <table>
   <thead>
     <tr>
@@ -2547,28 +2576,38 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <th>Kardinalumas</th>
       <th>Apibrėžimas</th>
       <th>Naudojimas</th>
-      <th>DCAT</th>
       <th>Perpanaudojimas</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>contact page</td>
-      <td>Resource</td>
+      <td>[kontaktas](http://www.w3.org/2006/vcard/ns#hasURL)</td>
+      <td>[Resource](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Resource)</td>
       <td>0..1</td>
       <td>Tinklalapis, kuris leidžia užmegzti kontaktą (pvz., per internetinę formą) arba informacija, kaip susisiekti.</td>
-      <td></td>
-      <td></td>
+      <td>-</td>
       <td>P</td>
     </tr>
     <tr>
-      <td>email</td>
-      <td>Resource</td>
+      <td>[el.paštas](http://www.w3.org/2006/vcard/ns#hasEmail)</td>
+      <td>[Resource](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Resource)</td>
       <td>0..1</td>
       <td>El. pašto adresas, per kurį galima užmegzti kontaktą.</td>
-      <td></td>
-      <td></td>
+      <td>-</td>
       <td>P</td>
     </tr>
   </tbody>
 </table>
+  </dd>
+</dl>
+## Licencijos dokumentas
+<dl>
+    <dt>Apibrėžimas</dt>
+    <dd>Teisinis dokumentas, suteikiantis oficialų leidimą ką nors daryti su ištekliais.</dd>
+    <dt>Naudojimo pastaba</dt>
+    <dd>Pagal HVD yra reikalaujama, kad licencija būtų pateikiama kompiuterio skaitomu būdu. Minimalių duomenų modelis licencijos dokumentui apibūdinti yra už šios specifikacijos ribų.</dd>
+    <dt>Savybės</dt>
+    <dd>Ši specifikacija nenustato jokių papildomų reikalavimų šio objekto ypatybėms.</dd>
+    <dd>
+  </dd>
+</dl>
