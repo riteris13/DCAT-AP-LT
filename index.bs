@@ -485,6 +485,7 @@ atnaujinama naujais / redaguotais duomenų rinkiniais.</td>
            
         </table>
 
+
 ## Duomenų rinkinys
 
   <table class="data-table simple">
@@ -830,16 +831,16 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
 	<tr>
         <td>Laikosi</td>
         <td>[cpsv:follows](http://purl.org/vocab/cpsv#follows)</td>
+        <td>[cpsv:Rule](https://joinup.ec.europa.eu/solution/core-public-servicevocabulary)</td>
+        <td>0..n</td>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>Ši ypatybė susieja duomenų rinkinį su taisykle, kuri apibrėžia jo teisinį pagrindą.</td>
     </tr>
 	<!-- trūko 'hasPart' -->
 	<tr>
 		<td>Turi dalį</td>
 		<td>[dct:hasPart](http://purl.org/dc/terms/hasPart)</td>
-        <td>-</td>
+        <td>[dcat:Dataset](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset)</td>
         <td>0..n</td>
         <td>IS kontekste, šiuo ryšiu gali būti įprasminamos valstybės informacinės sistemos ar registro reikšmingų veiklos sričių ar posistemių dalys.</td>
         <td>Ši savybė nurodo susijusį duomenų rinkinį, kuris yra aprašyto duomenų rinkinio dalis.</td>
@@ -866,55 +867,55 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
 	<tr>
 		<td>Yra pakeistas</td>
 		<td>[dct:isReplacedBy](http://purl.org/dc/terms/isReplacedBy)</td>
+        <td>[dcat:Dataset](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset)</td>
+        <td>0..n</td>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>Ši ypatybė nurodo susijusį duomenų rinkinį, kuris egiztuojantį duomenų rinkinį.</td>
 	</tr>
 	<!-- trūko 'isRequiredBy' -->
 	<tr>
 		<td>Yra reikalaujamas</td>
 		<td>[dct:isRequiredBy](http://purl.org/dc/terms/isRequiredBy)</td>
+        <td>[dcat:Dataset](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset)</td>
+        <td>0..n</td>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>Ši ypatybė nurodo susijusį duomenų rinkinį, kuriam reikalingas duomenų rinkinys.</td>
 	</tr>
 	<!-- trūko 'references' -->
 	<tr>
 		<td>Nurodo</td>
 		<td>[dct:references](http://purl.org/dc/terms/references)</td>
+        <td>[rdfs:Resource](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Resource)</td>
+        <td>0..n</td>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>Ši ypatybė pateikia tinklalapį su ryšio aprašu su kitu ištekliumi, kurį nurodo duomenų rinkinys. Ši ypatybė yra atvirkštinė dct:isReferencedBy. </td>
 	</tr>
 	<!-- trūko 'replaces' -->
 	<tr>
 		<td>Pakeičia</td>
 		<td>[dct:replaces](http://purl.org/dc/terms/replaces)</td>
+        <td>[dcat:Dataset](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset)</td>
+        <td>0..n</td>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>Ši ypatybė nurodo kitą duomenų rinkinį, kurį pakeičia duomenų rinkinys.</td>
 	</tr>
 	<!-- trūko 'requires' -->
 	<tr>
 		<td>Reikalauja</td>
 		<td>[dct:requires](http://purl.org/dc/terms/requires)</td>
+        <td>[dcat:Dataset](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset)</td>
+        <td>0..n</td>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>Ši ypatybė nurodo kitą duomenų rinkinį, kurio reikia duomenų rinkiniui.</td>
 	</tr>
 	<!-- trūko 'versionInfo' -->
 	<tr>
 		<td>Versijos informacija</td>
 		<td>[owl:versionInfo](http://www.w3.org/2002/07/owl#versionInfo)</td>
+        <td>[rdfs:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Literal)</td>
+        <td>0..1</td>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>Šioje ypatybėje yra versijos numeris arba kita informacija apie duomenų rinkinio versiją.</td>
 	</tr>
  </table>
 
