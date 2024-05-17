@@ -2347,6 +2347,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <th>Perpanaudojimas</th>
     </tr>
   </thead>
+<br></br>
   <tbody>
     <tr>
       <td>[duomenų rinkinys](http://www.w3.org/ns/dcat#dataset)</td>
@@ -2399,6 +2400,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <th>Perpanaudojimas</th>
     </tr>
   </thead>
+<br></br>
   <tbody>
     <tr>
       <td>[pagrindinė tema](http://xmlns.com/foaf/0.1/primaryTopic)</td>
@@ -2457,6 +2459,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <th>Perpanaudojimas</th>
     </tr>
   </thead>
+<br></br>
   <tbody>
     <tr>
       <td>[teisinis pagrindas](http://data.europa.eu/r5r/applicableLegislation)</td>
@@ -2563,6 +2566,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <th>Perpanaudojimas</th>
     </tr>
   </thead>
+<br></br>
   <tbody>
     <tr>
       <td>[teisinis pagrindas](http://data.europa.eu/r5r/applicableLegislation)</td>
@@ -2637,6 +2641,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <th>Perpanaudojimas</th>
     </tr>
   </thead>
+<br></br>
   <tbody>
     <tr>
       <td>[prieigos paslauga](http://www.w3.org/ns/dcat#accessService)</td>
@@ -2712,6 +2717,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <th>Perpanaudojimas</th>
     </tr>
   </thead>
+<br></br>
   <tbody>
     <tr>
       <td>[kontaktas](http://www.w3.org/2006/vcard/ns#hasURL)</td>
