@@ -207,6 +207,8 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
                 <td>Šia klase apibūdinamas konkretus IS – valstybės informacinė sistema ar registras, kurio apimtyje yra tvarkomi duomenų rinkiniai.</td>
                 <td>[dcat:Catalog](http://www.w3.org/ns/dcat#Catalog)</td>
             </tr>
+ </table>
+<table class="data-table simple">
             <tr class="data-table__header">
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
                 <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
@@ -517,8 +519,8 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
          
             <tr class="data-table__header">
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Intervalas</th>
                 <th class="data-table__header-title--sortable" style="width:5%">Kardinalumas</th>
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
