@@ -1195,36 +1195,38 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
 	<tr>
         <td>Prieigos paslauga</td>
         <td>[dcat:accessService](http://www.w3.org/ns/dcat#accessService)</td>
+        <td>[dcat:DataService](http://www.w3.org/ns/dcat#DataService)</td>
+        <td>0..n</td>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>Ši savybė nurodo duomenų paslaugą per kurią prieinama duomenų pateiktis</td>
     </tr>
 	<!-- trūko 'byte size' -->
 	<tr>
         <td>Dydis baitais</td>
         <td>[dcat:byteSize](http://www.w3.org/ns/dcat#byteSize)</td>
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
+        <td>0..1</td>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>Ši savybė nurodo pateikties dydį baitais. Tai turi būti
+įvesta kaip xsd:decimal.</td>
     </tr>
 	<!-- trūko 'downloadURL' -->
 	<tr>
         <td>parsisiuntimo URL</td>
         <td>[dcat:downloadURL](http://www.w3.org/ns/dcat#downloa)</td>
+        <td>[rdfs:Resource](http://www.w3.org/2000/01/rdf-schema#Resource)</td>
+        <td>0..n</td>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>Šioje nuosavybėje yra URL, kuris yra tiesioginė nuoroda į atsisiunčiamą failą.</td>
     </tr>
 	<tr>
     <td>medijos tipas</td>
 		<td>[dcat:mediaType](http://purl.org/dc/terms/mediaType)</td>
+		<td>[dct:MediaType]()</td>
+		<td>0..1</td>
 		<td>-</td>
-		<td>-</td>
-		<td>-</td>
-		<td>-</td>
+		<td>Ši savybė nurodo platinimo laikmenos tipą, kaip apibrėžta
+IANA valdomas žodynas</td>
 	</tr>
 	<tr>
     <td>medijos tipas</td>
