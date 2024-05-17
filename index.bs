@@ -1714,14 +1714,14 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
             </tr>
             <tr class="data-table__header">
                 <td>Katalogo įrašas</td>
-                <td></td>
-                <td></td>
+                <td>Duomenų rinkinio įrašo kataloge aprašas.</td>
+                <td> - </td>
                 <td>[dcat:CatalogRecord](http://www.w3.org/ns/dcat#CatalogRecord)</td>
             </tr>
            
@@ -1817,14 +1817,14 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
             </tr>
             <tr class="data-table__header">
                 <td>Kontrolinė suma</td>
-                <td></td>
-                <td></td>
+                <td>Reikšmė, leidžianti patvirtinti failo turinio autentiškumą.</td>
+                <td> - </td>
                 <td>[spdx:Checksum](http://spdx.org/rdf/terms#Checksum)</td>
             </tr>
            
@@ -1864,13 +1864,13 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
             </tr>
             <tr class="data-table__header">
                 <td>Dokumentas</td>
-                <td></td>
+                <td>Abstrakti klasė apibūdinanti įvairių tipų dokumentus</td>
                 <td></td>
                 <td>[foaf:Document](http://xmlns.com/foaf/0.1/Document)</td>
             </tr>
@@ -1895,8 +1895,8 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
             </tr>
              <tr class="data-table__header">
@@ -1915,8 +1915,8 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
             </tr>
             <tr>
@@ -1999,14 +1999,14 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:30%">Aprašas</th>
+                <th class="data-table__header-title--sortable" style="width:30%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
             </tr>
             <tr class="data-table__header">
                 <td>Vietovė</td>
                 <td>Erdvinis regionas arba įvardyta vieta.</td>
-                <td>•	Naudojimo pastaba: gali būti vaizduojama naudojant kontroliuojamąjį žodyną arba geografines koordinates. Pastaruoju atveju rekomenduojama naudoti pagrindinį vietovės žodyną, laikantis GeoDCAT-AP specifikacijoje aprašyto metodo.</td>
+                <td>Naudojimo pastaba: gali būti vaizduojama naudojant kontroliuojamąjį žodyną arba geografines koordinates. Pastaruoju atveju rekomenduojama naudoti pagrindinį vietovės žodyną, laikantis GeoDCAT-AP specifikacijoje aprašyto metodo.</td>
                 <td>[dct:Location](http://purl.org/dc/terms/Location)</td>
             </tr>
            
@@ -2054,8 +2054,8 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
             </tr>
             <tr class="data-table__header">
@@ -2074,8 +2074,8 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
             </tr>
             <tr class="data-table__header">
@@ -2136,8 +2136,8 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
             </tr>
             <tr class="data-table__header">
@@ -2166,8 +2166,8 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
             </tr>
             <tr class="data-table__header">
@@ -2185,8 +2185,8 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
             </tr>
             <tr class="data-table__header">
@@ -2204,8 +2204,8 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
             </tr>
             <tr class="data-table__header">
@@ -2224,8 +2224,8 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
             </tr>
             <tr class="data-table__header">
@@ -2245,8 +2245,8 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
             </tr>
             <tr class="data-table__header">
