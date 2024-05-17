@@ -1228,37 +1228,33 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
 		<td>Ši savybė nurodo platinimo laikmenos tipą, kaip apibrėžta
 IANA valdomas žodynas</td>
 	</tr>
-	<tr>
-    <td>medijos tipas</td>
-    <td>[dcat:mediaType](http://purl.org/dc/terms/mediaType)</td>
-		<td>-</td>
-		<td>-</td>
-		<td>-</td>
-		<td>-</td>
-	</tr>
+	
 	<tr>
 		<td>kontrolinė suma</td>
 		<td>[spdx:checksum](http://spdx.org/rdf/terms#checksum)</td>
+		<td>[spdx:Checksum](http://spdx.org/rdf/terms#Checksum)</td>
+		<td>0..1</td>
 		<td>-</td>
-		<td>-</td>
-		<td>-</td>
-		<td>-</td>
+		<td>Ši savybė suteikia mechanizmą, leidžiantį patikrinti 
+Pateikties turinio vientisumą.</td>
 	</tr>
 	<tr>
 		<td>suspaudimo formatas</td>
 		<td>[dcat:compressFormat](http://www.w3.org/ns/dcat#compressFormat)</td>
+		<td>[dct:MediaType]()</td>
+		<td>0..1</td>
 		<td>-</td>
-		<td>-</td>
-		<td>-</td>
-		<td>-</td>
+		<td>Ši savybė nurodo failo, kuriame yra duomenys, formatą
+esantys suspaustoje formoje, pvz. sumažinti dydį
+atsisiunčiamą failą.</td>
 	</tr>
 	<tr>
 		<td>turi politiką</td>
 		<td>[odrl:hasPolicy](http://www.w3.org/ns/odrl/2/hasPolicy)</td>
+		<td>[odrl:Policy]()</td>
+		<td>0..1</td>
 		<td>-</td>
-		<td>-</td>
-		<td>-</td>
-		<td>-</td>
+		<td>Ši nuosavybė reiškia politiką, išreiškiančią su pateiktimi susijusias teises, jei naudojamas ODRL žodynas.</td>
 	</tr>
 	<tr>
 		<td>išleista</td>
@@ -1266,23 +1262,24 @@ IANA valdomas žodynas</td>
 		<td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
 		<td>-</td>
 		<td>-</td>
-		<td>-</td>
+		<td>Ši savybė nurodo datą, kai pateiktis buvo pirmą kartą
+išleista.</td>
 	</tr>
 	<tr>
 		<td>atnaujinimo / pakeitimo data</td>
 		<td>[dct:modified](http://purl.org/dc/terms/modified)</td>
 		<td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
+		<td>0..1</td>
 		<td>-</td>
-		<td>-</td>
-		<td>-</td>
+		<td>Šioje savybėja nurodoma pateikties naujausio pakeitimo / atnaujinimo data</td>
 	</tr>
 	<tr>
 		<td>kalba</td>
 		<td>[dct:language](http://purl.org/dc/terms/language)</td>
 		<td>-</td>
-		<td>-</td>
-		<td>-</td>
-		<td>-</td>
+		<td>0..1</td>
+		<td>Ši savybė turėtų būti kartojama, jei yra įvairių pateikties versijų skirtingomis kalbomis</td>
+		<td>Ši savybė nurodo pateikties duomenų kalbą. </td>
 	</tr>
 	<tr>
 		<td>susijusi schema</td>
