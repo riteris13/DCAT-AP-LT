@@ -1521,8 +1521,8 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
             </tr>
             <tr class="data-table__header">
@@ -1533,7 +1533,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
             </tr>
            
         </table>
-
+<br>
        <table class="data-table simple">
          
             <tr class="data-table__header">
