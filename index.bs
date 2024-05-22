@@ -41,7 +41,7 @@ DCAT-AP-LT apima BREG-DCAT-AP(https://github.com/SEMICeu/BregDCAT-AP/tree/main/r
 </ul>
 
 
-Ši specifikacija turi palaikyti šias planuojamas duomenų erdves ir užtikrinti lengvesnį duomenų valdymą jose.  Realizavus šią specifikaciją informacinėje sistemoje, kur bus kataloguojami Lietuvos Respublikos registrų duomenys - bus sukuriamos priemonės, padedančios Lietuvos duomenų valdymo sričių įgaliotiniams kurti registrų duomenų valdymo strategijas, atpažinti netikslingą informacijos dubliavimą, taip pat suteiks galimybę dalintis Lietuvos Respublikos duomenimis su Europos Sąjunga pagal bendrą semantinį modelį.
+Ši specifikacija turi palaikyti šias planuojamas duomenų erdves ir užtikrinti lengvesnį duomenų valdymą jose.  Realizavus šią specifikaciją informacinėje sistemoje, kur bus kataloguojami Lietuvos Respublikos registrų ir kitų informacinių sistemų duomenys - bus sukuriamos priemonės, padedančios Lietuvos duomenų valdymo sričių įgaliotiniams kurti registrų ir kitų informacinių sistemų duomenų valdymo strategijas, atpažinti netikslingą informacijos dubliavimą, taip pat suteiks galimybę dalintis Lietuvos Respublikos duomenimis su Europos Sąjunga pagal bendrą semantinį modelį.
 
 
 
@@ -1468,7 +1468,7 @@ ir pateikties valdymo teisės.</td>
             </tr>
             <tr class="data-table__header">
                 <td>Teisinis šaltinis</td>
-                <td>Teisiniai šaltiniai - tai teisės aktai, politika ar politikos kryptys, kurie yra taisyklės, kuriomis apibrėžiamas bazinių registrų paslaugos. 
+                <td>Teisiniai šaltiniai - tai teisės aktai, politika ar politikos kryptys, kurie yra taisyklės, kuriomis apibrėžiamas bazinių registrų ir kitų informacinių sistemų paslaugos. 
 Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal ELI ontologiją.
 </td>
                 <td> - </td>
