@@ -14,7 +14,7 @@ Markup Shorthands: markdown yes, css no
 # Įžanga
 
 <dl>
-    <dd>DCAT-AP-LT yra metaduomenų specifikacija, skirta Lietuvos duomenų rinkiniams ir paslaugoms aprašyti. DCAT-AP-LT yra Europos metaduomenų specifikacijos DCAT-AP(https://semiceu.github.io/DCAT-AP/releases/3.0.0/) plėtinys, parengtas vadovaujantis DCAT-AP specifikacijos formavimui nustatytomis taisyklėmis ir rekomendacijomis, įtraukiant ontologijas ir tezaurus kaip pagalbines priemones aprašant duomenis.
+    <dd>DCAT-AP-LT yra metaduomenų specifikacija, skirta Lietuvos duomenų rinkiniams ir paslaugoms aprašyti. DCAT-AP-LT yra Europos metaduomenų specifikacijos DCAT-AP plėtinys, parengtas vadovaujantis DCAT-AP specifikacijos formavimui nustatytomis taisyklėmis ir rekomendacijomis, įtraukiant ontologijas ir tezaurus kaip pagalbines priemones aprašant duomenis.
 
 DCAT-AP-LT apima BREG-DCAT-AP(https://github.com/SEMICeu/BregDCAT-AP/tree/main/releases/2.1.0) naudojamas klases ir papildo jas Informacinės Sistemos klase išplečiančia dcat:Catalog klasę bei dvejais kontroliuojamais žodynais Informacinės sistemos tipui ir svarbai pažymėti pagal Valstybės informacinių išteklių valdymo įstatyme  nustatytą  tvarką.
 
@@ -61,8 +61,8 @@ Licence.
 
 <table>
     <tr>
-        <th>Prefix</th>
-        <th>Namespace IRI</th>
+        <th>Trumpinys(en. prefix)</th>
+        <th>Vardų erdvės IRI</th>
     </tr>
     <tr>
         <td>`dcat`</td>
@@ -137,22 +137,22 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
             <tr class="data-table__header">
                 <td>[Ypatingos svarbos - 1](http://data.gov.lt/controlled-vocabulary/importance/highlyImportant)</td>
                 <td>[Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
-                <td>Ypatingos svarbos valstybės informaciniai ištekliai – informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius visai valstybei (poveikis daugiau negu 5 apskrityse, daugiau negu 50 procentų gyventojų ar institucijų).</td>      
+                <td>Ypatingos svarbos valstybės informaciniai ištekliai – jiems priskiriamos informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius visai valstybei (poveikis daugiau negu 5 apskrityse, daugiau negu 50 procentų gyventojų ar institucijų).</td>      
             </tr>
             <tr class="data-table__header">
                 <td>[Svarbūs - 2](http://data.gov.lt/onto/DCATAPLT/Importance/important)</td>
                 <td>[Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
-                <td>Svarbūs valstybės informaciniai ištekliai – informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius didelei valstybės, institucijų ir gyventojų daliai (poveikis 2–5 apskrityse, 6–50 procentų gyventojų ar institucijų).</td>      
+                <td>Svarbūs valstybės informaciniai ištekliai – jiems priskiriamos informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius didelei valstybės, institucijų ir gyventojų daliai (poveikis 2–5 apskrityse, 6–50 procentų gyventojų ar institucijų).</td>      
             </tr>
             <tr class="data-table__header">
                 <td>[Vidutinės svarbos - 3](http://data.gov.lt/onto/DCATAPLT/Importance/moderatelyImportant)</td>
                 <td>[Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
-                <td>Vidutinės svarbos valstybės informaciniai ištekliai – informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius nedidelei valstybės, institucijų ir gyventojų daliai (poveikis keliose vienos apskrities savivaldybėse, 1–5 procentų gyventojų ar institucijų).</td>      
+                <td>Vidutinės svarbos valstybės informaciniai ištekliai – jiems priskiriamos informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius nedidelei valstybės, institucijų ir gyventojų daliai (poveikis keliose vienos apskrities savivaldybėse, 1–5 procentų gyventojų ar institucijų).</td>      
             </tr>
             <tr class="data-table__header">
                 <td>[Mažos svarbos - 4](http://data.gov.lt/onto/DCATAPLT/Importance/slightlyImportant)</td>
                 <td>[Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
-                <td>Mažos svarbos valstybės informaciniai ištekliai – informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius pavienėms institucijoms ar pavieniams fiziniams asmenims (poveikis ne daugiau kaip vienos apskrities savivaldybei, iki 1 procento gyventojų ar institucijų).</td>      
+                <td>Mažos svarbos valstybės informaciniai ištekliai – jiems priskiriamos informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius pavienėms institucijoms ar pavieniams fiziniams asmenims (poveikis ne daugiau kaip vienos apskrities savivaldybei, iki 1 procento gyventojų ar institucijų).</td>      
             </tr>
         </table>
     </dd>
