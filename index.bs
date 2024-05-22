@@ -14,7 +14,7 @@ Markup Shorthands: markdown yes, css no
 # Įžanga
 
 <dl>
-    <dd>DCAT-AP-LT yra metaduomenų specifikacija, skirta Lietuvos viešojo sektoriaus duomenų rinkiniams ir paslaugoms aprašyti. DCAT-AP-LT yra Europos metaduomenų specifikacijos DCAT-AP(https://semiceu.github.io/DCAT-AP/releases/3.0.0/) plėtinys, parengtas vadovaujantis DCAT-AP specifikacijos formavimui nustatytomis taisyklėmis ir rekomendacijomis, įtraukiant ontologijas ir tezaurus kaip pagalbines priemones aprašant duomenis.
+    <dd>DCAT-AP-LT yra metaduomenų specifikacija, skirta Lietuvos duomenų rinkiniams ir paslaugoms aprašyti. DCAT-AP-LT yra Europos metaduomenų specifikacijos DCAT-AP(https://semiceu.github.io/DCAT-AP/releases/3.0.0/) plėtinys, parengtas vadovaujantis DCAT-AP specifikacijos formavimui nustatytomis taisyklėmis ir rekomendacijomis, įtraukiant ontologijas ir tezaurus kaip pagalbines priemones aprašant duomenis.
 
 DCAT-AP-LT apima BREG-DCAT-AP(https://github.com/SEMICeu/BregDCAT-AP/tree/main/releases/2.1.0) naudojamas klases ir papildo jas Informacinės Sistemos klase išplečiančia dcat:Catalog klasę bei dvejais kontroliuojamais žodynais Informacinės sistemos tipui ir svarbai pažymėti pagal Valstybės informacinių išteklių valdymo įstatyme  nustatytą  tvarką.
 
@@ -47,7 +47,7 @@ DCAT-AP-LT apima BREG-DCAT-AP(https://github.com/SEMICeu/BregDCAT-AP/tree/main/r
 
 ## Aprėptis
 
-Šis specifikacija yra orientuota į Valstybės informacinių išteklių valdymo įstatymo nuostatų dėl IS tvarkomų duomenų metaduomenų tvarkymo įgyvendinimą.
+Šis specifikacija yra orientuota į Valstybės informacinių išteklių valdymo įstatymo nuostatų dėl informacinėse sistemose tvarkomų duomenų metaduomenų tvarkymo įgyvendinimą.
 
 # Statusas
 
@@ -211,7 +211,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
             <tr class="data-table__header">
                 <td>[Katalogas](http://www.w3.org/ns/dcat#Catalog)</td>
                 <td>Katalogas arba saugykla, kurioje saugomi aprašomi duomenų rinkiniai arba duomenų paslaugos.</td>
-                <td>Šia klase apibūdinamas konkretus IS – valstybės informacinė sistema ar registras, kurio apimtyje yra tvarkomi duomenų rinkiniai.</td>
+                <td>Šia klase apibūdinama konkreti informacinė sistema – valstybės informacinė sistema ar registras, kurio apimtyje yra tvarkomi duomenų rinkiniai.</td>
                 <td>[dcat:Catalog](http://www.w3.org/ns/dcat#Catalog)</td>
             </tr>
  </table>
@@ -231,7 +231,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
                 <td>[dct:description](http://purl.org/dc/terms/description)</td>
                 <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
                 <td>1..n</td>
-                <td>Šia savybe rekomenduojama pateikti trumpą IS paskirties aprašymą, kaip pateikiama IS nuostatuose.</td>
+                <td>Šia savybe rekomenduojama pateikti trumpą informacinės sistemos paskirties aprašymą, kaip pateikiama informacinės sistemos nuostatuose.</td>
                 <td>Šioje savybėje pateikiamas katalogo laisvo teksto aprašas laisvos formos tekstu. Šią savybę galima pateikti keliomis kalbomis.</td>
             </tr>
                 <!-- Trūko identifier -->	
@@ -248,7 +248,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
                 <td>[dct:publisher](https://w3c.github.io/dxwg/dcat/#Property:resource_publisher)</td>
                 <td>[foaf:Agent](http://xmlns.com/foaf/0.1/Agent)</td>
                 <td>1..1</td>
-                <td>Šia savybe pateikiamas valstybės valdymo ar savivaldos institucijos ar organizacijos, kuri yra IS valdytojas, pavadinimas.</td>
+                <td>Šia savybe pateikiamas valstybės valdymo ar savivaldos institucijos ar organizacijos, kuri yra informacinės sistemos valdytojas, pavadinimas.</td>
                 <td>Ši savybė nurodo subjektą (organizaciją), atsakingą už katalogo prieinamumą.</td>
             </tr>
             <tr class="data-table__header">
@@ -256,7 +256,7 @@ DCAT-AP-LT apima BREG-DCAT-AP nudojamas klases ir papildo jas Informacinės Sist
                 <td>[dct:title](https://w3c.github.io/dxwg/dcat/#Property:resource_title)</td>
                 <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
                 <td>1..n</td>
-                <td>IS tvarkomų duomenų katalogo pavadinimas turi nurodyti, kad tai konkretaus IS ar jo esminės dalies (posistemės) informacinė struktūra, kurios apimtyje yra tvarkomi duomenų rinkiniai.</td>
+                <td>IS tvarkomų duomenų katalogo pavadinimas turi nurodyti, kad tai konkrečios informacinės sistemos ar jos esminės dalies (posistemės) informacinė struktūra, kurios apimtyje yra tvarkomi duomenų rinkiniai.</td>
                 <td>Šioje savybėje pateikiamas katalogui suteiktas pavadinimas.</td>
             </tr>
           
@@ -275,7 +275,7 @@ atnaujinama naujais / redaguotais duomenų rinkiniais.</td>
                 <td>[dcat:dataset](http://www.w3.org/ns/dcat#dataset)</td>
                 <td>[dcat:Dataset](http://www.w3.org/ns/dcat#Dataset)</td>
                 <td>0..n</td>
-                <td>Šia klase apibūdinamas konkretus IS – valstybės informacinės sistema ar registras, kurio apimtyje yra tvarkomi duomenų rinkiniai.</td>
+                <td>Šia klase apibūdinama konkreti informacinė sistema – valstybės informacinės sistema ar registras, kurio apimtyje yra tvarkomi duomenų rinkiniai.</td>
                 <td>Ši savybė susieja katalogą su duomenų rinkiniu, kuris yra katalogo įrašas.</td>
             </tr>
             <tr class="data-table__header">
@@ -315,7 +315,7 @@ atnaujinama naujais / redaguotais duomenų rinkiniais.</td>
                 <td>[dct:issued](http://purl.org/dc/terms/issued)</td>
                 <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
                 <td>0..1</td>
-                <td>IS kontekste laikoma, kad katalogo paskelbimo data yra oficiali duomenų apie IS metaduomenis įsigaliojimo data.</td>
+                <td>IS kontekste laikoma, kad katalogo paskelbimo data yra oficiali duomenų apie informacinės sistemos metaduomenis įsigaliojimo data.</td>
                 <td>Šioje savybėje nurodoma oficiali katalogo paskelbimo data.</td>
             </tr>
             <tr class="data-table__header">
@@ -512,12 +512,12 @@ atnaujinama naujais / redaguotais duomenų rinkiniais.</td>
             <tr class="data-table__header">
                 <td>Duomenų rinkinys</td>
                 <td>Koncepcinė klasė, aprašanti skelbiamą informaciją. Sujungia katalogą su duomenų rinkiniu, kuris yra katalogo dalis.</td>
-                <td>Šios klasės egzemplioriais apibūdinami  duomenų rinkiniai, tvarkomi IS apimtyje.
-Kiekvienas duomenų rinkinys per katalogo įrašo sąryšį CatalogRecord, priskiriamas vienam IS (Catalog) atvejui.
-Tokiu būdu aprašomi konkretūs duomenų rinkiniai, valdomi ir tvarkomi konkretaus IS apimtyje. 
-Konkretaus duomenų rinkinio (Dataset) registravimo pagrindas IS (Catalog) apimtyje yra IS nuostatų patvirtinimas (IS gyvavimo ciklo metodikoje apibrėžta tvarka). 
+                <td>Šios klasės egzemplioriais apibūdinami  duomenų rinkiniai, tvarkomi informacinės sistemos apimtyje.
+Kiekvienas duomenų rinkinys per katalogo įrašo sąryšį CatalogRecord, priskiriamas vienam informacinės sistemos (Catalog) atvejui.
+Tokiu būdu aprašomi konkretūs duomenų rinkiniai, valdomi ir tvarkomi konkrečios informacinės sistemos apimtyje. 
+Konkretaus duomenų rinkinio (Dataset) registravimo pagrindas informacinės sistemos (Catalog) apimtyje yra informacinės sistemos nuostatų patvirtinimas (IS gyvavimo ciklo metodikoje apibrėžta tvarka). 
 Kiekvienas duomenų rinkinys įprasmina tam tikrą valstybės informacinės sistemos ar registro nuostatuose įvardintiną informacinės struktūros dalį. 
-Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokiama prasminga ir reikšminga koncepcija, apibūdinama reikšmingomis savybėmis/ atributais.
+Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklos apimtyje suvokiama prasminga ir reikšminga koncepcija, apibūdinama reikšmingomis savybėmis/ atributais.
 </td>
                 <td>[dcat:Dataset](http://www.w3.org/ns/dcat#Dataset)</td>
             </tr>
@@ -541,7 +541,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
         <td>[dct:description](http://purl.org/dc/terms/description)</td>
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..n</td>
-        <td>Koncepcinio detalumo lygmens aprašymas, laikantis IS lygmenyje ar IS valdymo srityje nustatytos terminologijos ontologijos sąvokų ar duomenų rinkinių taikytinų informacinio modelio reikalavimų.</td>
+        <td>Koncepcinio detalumo lygmens aprašymas, laikantisinformacinės sistemoslygmenyje arinformacinės sistemosvaldymo srityje nustatytos terminologijos ontologijos sąvokų ar duomenų rinkinių taikytinų informacinio modelio reikalavimų.</td>
         <td>Laisvu tekstu pateikiamas duomenų rinkinio aprašas. Galima pakartoti, jei aprašas yra keliomis kalbomis.</td>
     </tr>
     <tr>
@@ -1146,9 +1146,9 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip IS veiklos apimtyje suvokia
             <tr class="data-table__header">
                 <td>Pateiktis</td>
                 <td>Fizinė duomenų rinkinio išraiškos forma tam tikru formatu arba duomenų rinkinio realizacija.</td>
-                <td>Ši klasė apibūdina konkretų ir aktyviai veikiantį duomenų rinkinio įgyvendinimą IS - valstybinės informacinės sistemos arba duomenų valdymo aplinkoje, tokioje kaip duomenų bazės lentelė, duomenų failai, saugomi duomenų saugykloje, struktūrizuoti ir pusiau struktūrizuoti failai uždarame intranete arba interneto erdvėje. 
+                <td>Ši klasė apibūdina konkretų ir aktyviai veikiantį duomenų rinkinio įgyvendinimą informacinėje sistemoje - valstybinės informacinės sistemos arba duomenų valdymo aplinkoje, tokioje kaip duomenų bazės lentelė, duomenų failai, saugomi duomenų saugykloje, struktūrizuoti ir pusiau struktūrizuoti failai uždarame intranete arba interneto erdvėje. 
 
-IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra IS aplinkoje tvarkomų duomenų rinkinių realizacijų aprašymui, ir toliau jų modelių detalizavimui klasėmis DataObjectTypeSpecification ir DataElement.
+IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra informacinės sistemos aplinkoje tvarkomų duomenų rinkinių realizacijų aprašymui, ir toliau jų modelių detalizavimui klasėmis DataObjectTypeSpecification ir DataElement.
 </td>
                 <td>[dcat:Distribution](http://www.w3.org/ns/dcat#Distribution)</td>
             </tr>
