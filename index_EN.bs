@@ -211,11 +211,11 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
     <dd>
         <table class="data-table simple">
             <tr class="data-table__header">
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Intervalas</th>
-                <th class="data-table__header-title--sortable" style="width:6%">Kard</th>
-                <th class="data-table__header-title--sortable" style="width:30%">Apibrėžimas</th>
-                <th class="data-table__header-title--sortable" style="width:30%">Aprašymas</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Property</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Range</th>
+                <th class="data-table__header-title--sortable" style="width:6%">Card</th>
+                <th class="data-table__header-title--sortable" style="width:30%">Definition</th>
+                <th class="data-table__header-title--sortable" style="width:30%">Description</th>
             </tr>
 <br></br>
             <tr class="data-table__header">
@@ -246,36 +246,36 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
 ## Importance (dcataplt:Importance)
 
 <dl>
-    <dt>Apibrėžimas</dt>
-    <dd>Informacinės sistemos svarba pagal Valstybės informacinių išeklių valdymo įstatymo reikalavimus.</dd>
-    <dt>Galimų svarbos lygmenų sąrašas</dt>
+    <dt>Definition</dt>
+    <dd>Information system importance as defined by law of State Information Resources Management.</dd>
+    <dt>List of possible importance levels</dt>
     <dd>
         <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Reikšmė</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Reikšmės aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Reikšmės Description</th>
             </tr>
 <br></br>
             <tr class="data-table__header">
-                <td>[Ypatingos svarbos - 1](http://data.gov.lt/controlled-vocabulary/importance/highlyImportant)</td>
+                <td>[Highly important - 1](http://data.gov.lt/controlled-vocabulary/importance/highlyImportant)</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
-                <td>Ypatingos svarbos valstybės informaciniai ištekliai – jiems priskiriamos informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius visai valstybei (poveikis daugiau negu 5 apskrityse, daugiau negu 50 procentų gyventojų ar institucijų).</td>      
+                <td>They include data important for the entire state and/or state registers or state information systems in which these data are processed - value 1 is indicated.</td>      
             </tr>
             <tr class="data-table__header">
-                <td>[Svarbūs - 2](http://data.gov.lt/onto/DCATAPLT/Importance/important)</td>
+                <td>[Important - 2](http://data.gov.lt/onto/DCATAPLT/Importance/important)</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
-                <td>Svarbūs valstybės informaciniai ištekliai – jiems priskiriamos informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius didelei valstybės, institucijų ir gyventojų daliai (poveikis 2–5 apskrityse, 6–50 procentų gyventojų ar institucijų).</td>      
+                <td>They include data important to several institutions and/or state registers or state information systems in which these data are processed - value 2 is indicated.</td>      
             </tr>
             <tr class="data-table__header">
-                <td>[Vidutinės svarbos - 3](http://data.gov.lt/onto/DCATAPLT/Importance/moderatelyImportant)</td>
+                <td>[Medium importance - 3](http://data.gov.lt/onto/DCATAPLT/Importance/moderatelyImportant)</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
-                <td>Vidutinės svarbos valstybės informaciniai ištekliai – jiems priskiriamos informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius nedidelei valstybės, institucijų ir gyventojų daliai (poveikis keliose vienos apskrities savivaldybėse, 1–5 procentų gyventojų ar institucijų).</td>      
+                <td>They include data important for one institution and/or departmental registers or state information systems in which these data are processed - value 3 is indicated.</td>      
             </tr>
             <tr class="data-table__header">
-                <td>[Mažos svarbos - 4](http://data.gov.lt/onto/DCATAPLT/Importance/slightlyImportant)</td>
+                <td>[Low importance - 4](http://data.gov.lt/onto/DCATAPLT/Importance/slightlyImportant)</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
-                <td>Mažos svarbos valstybės informaciniai ištekliai – jiems priskiriamos informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius pavienėms institucijoms ar pavieniams fiziniams asmenims (poveikis ne daugiau kaip vienos apskrities savivaldybei, iki 1 procento gyventojų ar institucijų).</td>      
+                <td>They include data managed by the institution in the performance of internal administration functions and/or information systems in which these data are processed. The procedure for the establishment, development, modernization and liquidation of the information systems mentioned in this point shall be determined by the institutions authorized by the Government of the Republic of Lithuania - meaning 4.</td>      
             </tr>
         </table>
     </dd>
@@ -284,44 +284,44 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
 ## Tipas (dcataplt:Type)
 
 <dl>
-    <dt>Apibrėžimas</dt>
-    <dd>Informacinės sistemos tipas pagal Valstybės informacinių išeklių valdymo įstatymo reikalavimus.</dd>
-    <dt>Galimų informacinių sistemų tipų sąrašas</dt>
+    <dt>Definition</dt>
+    <dd>Information systems types according to the data processed in them by Article 9 of the Law on State Information Resources Management of the Republic of Lithuania.</dd>
+    <dt>List of possible information system types</dt>
     <dd>
         <table class="data-table simple">
             <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Reikšmė</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Meaning</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Reikšmės aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Description</th>
             </tr>
 <br></br>
             <tr class="data-table__header">
-                <td>[Registro informacinė sistema](http://data.gov.lt/onto/DCATAPLT/Type/registerInformationSystem)</td>
+                <td>[Register information system](http://data.gov.lt/onto/DCATAPLT/Type/registerInformationSystem)</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
-                <td>Registrų informacinės sistemos, kuriose registruojami objektai, tvarkomi objektų ir jų registravimo duomenys.</td>      
+                <td>Information systems of registers in which objects are registered, objects and their registration data are processed.</td>      
             </tr>
             <tr class="data-table__header">
-                <td>[Valstybės informacinė sistema](http://data.gov.lt/onto/DCATAPLT/Type/stateInformationSystem)</td>
+                <td>[State information system](http://data.gov.lt/onto/DCATAPLT/Type/stateInformationSystem)</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
-                <td>Valstybės informacinės sistemos, kuriose tvarkomi subjektų teisės aktuose nustatytoms funkcijoms atlikti reikalingi duomenys, įskaitant ir valstybės informacines sistemas, skirtas kelių ar daugelio subjektų jų veiklą reglamentuojančiuose teisės aktuose nustatytoms vienodo pobūdžio veiklos funkcijoms atlikti ir duomenims tvarkyti.</td>      
+                <td>State information systems in which the data necessary for the performance of the functions established by legal acts of entities are processed, including state information systems intended for the performance and data processing of several or many entities of the same kind of operational functions defined in the legal acts regulating their activities (hereinafter referred to as the general information system.</td>      
             </tr>
             <tr class="data-table__header">
-                <td>[Vidaus administravimo informacinė sistema](http://data.gov.lt/onto/DCATAPLT/Importance/moderatelyImportant)</td>
+                <td>[Internal information system](http://data.gov.lt/onto/DCATAPLT/Importance/moderatelyImportant)</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
-                <td>Vidaus administravimo informacinės sistemos, kuriose tvarkomi subjektų valdomi duomenys, reikalingi vidaus administravimo funkcijoms ar kitoms pagalbinio pobūdžio funkcijoms, kurios padeda įgyvendinti subjektui teisės aktuose nustatytus uždavinius.</td>      
+                <td>Internal administration information systems, which process data managed by entities, required for internal administration functions or other functions of an auxiliary nature, which help the entity to implement the tasks established by legal acts.</td>      
             </tr>
         </table>
     </dd>
 </dl>
 
 
-# Naudojamos BregDCAT-AP klasės ir savybės
+# Used BregDCAT-AP classes and their properties
 
 
-## Katalogas
+## Catalog
 
 <dl>
-    <dt>Apibrėžimas</dt>
+    <dt>Definition</dt>
     <dd>Katalogas arba saugykla, kurioje saugomi aprašomi duomenų rinkiniai arba duomenų paslaugos.</dd>
     <dd>
  <table class="data-table simple">
@@ -329,7 +329,7 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
                 <th class="data-table__header-title--sortable" style="width:30%">Aprašas</th>
                 <th class="data-table__header-title--sortable" style="width:30%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
                 <td>[Katalogas](http://www.w3.org/ns/dcat#Catalog)</td>
@@ -380,7 +380,7 @@ Kiekvienas duomenų rinkinys per katalogo įrašo sąryšį CatalogRecord, prisk
 Tokiu būdu aprašomi konkretūs duomenų rinkiniai, valdomi ir tvarkomi konkrečios informacinės sistemos apimtyje. 
 Konkretaus duomenų rinkinio (Dataset) registravimo pagrindas informacinės sistemos (Catalog) apimtyje yra informacinės sistemos nuostatų patvirtinimas (IS gyvavimo ciklo metodikoje apibrėžta tvarka). 
 Kiekvienas duomenų rinkinys įprasmina tam tikrą valstybės informacinės sistemos ar registro nuostatuose įvardintiną informacinės struktūros dalį. 
-Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklos apimtyje suvokiama prasminga ir reikšminga koncepcija, apibūdinama reikšmingomis savybėmis/ atributais.
+Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklos apimtyje suvokiama prasminga ir reikšminga koncepcija, apibūdinama reikšmingomis Propertymis/ atributais.
 </td>
                 <td>[dcat:Dataset](http://www.w3.org/ns/dcat#Dataset)</td>
             </tr>
@@ -610,12 +610,12 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
  <table class="data-table simple">
          
             <tr class="data-table__header">
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Property</th>
                 <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Range</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Card</th>
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Description</th>
             </tr>
 <br></br>
             <tr>
@@ -657,12 +657,12 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
  <table class="data-table simple">
          
             <tr class="data-table__header">
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Property</th>
                 <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Range</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Card</th>
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Description</th>
             </tr>
 </table>
 
@@ -713,12 +713,12 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
         <table class="data-table simple">
          
             <tr class="data-table__header">
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Property</th>
                 <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Range</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Card</th>
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Description</th>
             </tr>
 <br></br>
             <tr>
@@ -727,7 +727,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..1</td>
         <td>-</td>
-        <td>Ši savybė yra eilutė, kuri yra identifikatorius pagal identifikatoriaus schemą, į kurią nurodo jos duomenų tipas.</td>
+        <td>Ši Property yra eilutė, kuri yra identifikatorius pagal identifikatoriaus schemą, į kurią nurodo jos duomenų tipas.</td>
         </tr>
         </table>
 
@@ -792,12 +792,12 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
  <table class="data-table simple">
          
             <tr class="data-table__header">
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Property</th>
                 <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Range</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Card</th>
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Description</th>
             </tr>
 <br></br>
 		  <tr>
@@ -806,7 +806,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>0..1</td>
         <td>-</td>
-        <td>Ši savybė nurodo išteklių geografines ribas.</td>
+        <td>Ši Property nurodo išteklių geografines ribas.</td>
     </tr>
     <tr>
         <td>Centroidas</td>
@@ -814,7 +814,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>0..1</td>
         <td>-</td>
-        <td>Ši savybė nurodo išteklių geografinį centrą (centroidą).</td>
+        <td>Ši Property nurodo išteklių geografinį centrą (centroidą).</td>
     </tr>
     <tr>
         <td>Geometrija</td>
@@ -822,7 +822,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>0..1</td>
         <td>-</td>
-        <td>Ši savybė susieja bet kurį išteklių su atitinkama geometrija.</td>
+        <td>Ši Property susieja bet kurį išteklių su atitinkama geometrija.</td>
     </tr>
 </table>
 
@@ -858,7 +858,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
             </tr>
             <tr class="data-table__header">
                 <td>Laikotarpis</td>
-                <td>Laiko intervalas, apibrėžtas pradžios ir pabaigos datomis.</td>
+                <td>Laiko Range, apibrėžtas pradžios ir pabaigos datomis.</td>
                 <td> - </td>
                 <td>[dct:PeriodOfTime](http://purl.org/dc/terms/PeriodOfTime)</td>
             </tr>
@@ -868,12 +868,12 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
  <table class="data-table simple">
          
             <tr class="data-table__header">
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Property</th>
                 <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Range</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Card</th>
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Description</th>
             </tr>
 <br></br>
              <tr>
@@ -921,7 +921,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
             </tr>
             <tr class="data-table__header">
                 <td>Teisių deklaracija</td>
-                <td>Deklaracija apie intelektinės nuosavybės teises (INT), turimas išteklyje esančiai informacijai arba ištekliui, teisinis dokumentas, suteikiantis oficialų leidimą ką nors daryti su ištekliu, arba deklaracija apie prieigos teises.</td>
+                <td>Deklaracija apie intelektinės nuoPropertys teises (INT), turimas išteklyje esančiai informacijai arba ištekliui, teisinis dokumentas, suteikiantis oficialų leidimą ką nors daryti su ištekliu, arba deklaracija apie prieigos teises.</td>
                 <td> - </td>
                  <td>[dct:RightsStatement](http://purl.org/dc/terms/RightsStatement)</td>
             </tr>
@@ -941,7 +941,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
             </tr>
             <tr class="data-table__header">
                 <td>Duomenų tvarkytojo deklaracija</td>
-                <td>Šioje klasėje pateikiami bet kokie ištekliaus nuosavybės ir saugojimo pokyčiai nuo jo sukūrimo, kurie yra reikšmingi jo autentiškumui, vientisumui ir aiškinimui. deklaracija apie duomenų rinkinio kilmę.</td>
+                <td>Šioje klasėje pateikiami bet kokie ištekliaus nuoPropertys ir saugojimo pokyčiai nuo jo sukūrimo, kurie yra reikšmingi jo autentiškumui, vientisumui ir aiškinimui. deklaracija apie duomenų rinkinio kilmę.</td>
                 <td> - </td>
                 <td>[dct:ProvenanceStatement](http://purl.org/dc/terms/ProvenanceStatement)</td>
             </tr>
@@ -1068,9 +1068,9 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
 
 
 
-# Didelės vertės duomenų rinkinians naudojamos (DCAT-AP-HVD) klasės ir savybės
+# Didelės vertės duomenų rinkinians naudojamos (DCAT-AP-HVD) klasės ir Propertys
 
-Didelės vertės duomenų rinkinių apibrėžimas atsirado iš poreikio identifikuoti svarbiausius duomenis pavyzdžiui:
+Didelės vertės duomenų rinkinių Definition atsirado iš poreikio identifikuoti svarbiausius duomenis pavyzdžiui:
 <ul>
     <li>geografiniai duomenys</li>
     <li>žemės stebėjimo ir aplinkos duomenys</li>
@@ -1081,7 +1081,7 @@ Didelės vertės duomenų rinkinių apibrėžimas atsirado iš poreikio identifi
 </ul>
 Šie duomenys turi didžiausią potencialą daryti įtaką svarbiausioms Europos Komisijos įvardintoms sritims. Tokių duomenų atvėrimas ir pakartotinis panaudojimas sukuria didelę pridėtinę vertę, bet tuo pačiu reikalauja papildomų taisyklių, reglamentuojančių jų prieinamumą, sąveikumą ir panaudojimą. Atsižvelgiant į tai, kad DCAT-AP plėtinys negali pilnai patenkinti didelės vertės duomenų rinkinių kokybės, patikimumo bei atvirumo reikalavimų, buvo pradėtas vystyti DCAT-AP HVD plėtinys, remiantis gairėmis, kurios pateiktos Didelės vertės duomenų rinkinio įgyvendinimo reglamente . Atitinkamai šis plėtinys yra adaptuojamas ir DCAT-AP-LT, pakeičiant LegalResource išteklių į atributą pagal ELI:LegalResource pavadinimu id_local.
 
-## Bendrosios didelės vertės duomenų rinkinių savybės
+## Bendrosios didelės vertės duomenų rinkinių Propertys
 
 Didelės vertės duomenų rinkiniai pasižymi specifiniais techniniais ir teisiniais reikalavimais. Šiems duomenų rinkiniams taikomi šie bendri reikalavimai:
 <ul>
@@ -1097,11 +1097,11 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
 
 ## Katalogas
 <dl>
-    <dt>Apibrėžimas</dt>
+    <dt>Definition</dt>
     <dd>Katalogas arba saugykla, kurioje yra aprašomi duomenų rinkiniai arba duomenų paslaugos.</dd>
     <dt>DCAT nuoroda</dt>
     <dd><a href="https://w3c.github.io/dxwg/dcat/#Class:Catalog">Nuoroda</a></dd>
-    <dt>Savybės</dt>
+    <dt>Propertys</dt>
     <dd>Apibrėžiamos šios šio objekto ypatybės: <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Catalogue.dataset">duomenų rinkinys,</a> 
 	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Catalogue.record">įrašas,</a>
 	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Catalogue.service">paslauga.</a>
@@ -1110,10 +1110,10 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
 <table>
   <thead>
     <tr>
-      <th>Savybė</th>
-      <th>Intervalas</th>
-      <th>Kard</th>
-      <th>Apibrėžimas</th>
+      <th>Property</th>
+      <th>Range</th>
+      <th>Card</th>
+      <th>Definition</th>
       <th>Naudojimas</th>
       <th>Perpanaudojimas</th>
     </tr>
@@ -1152,21 +1152,21 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
 
 ## Katalogo įrašas
 <dl>
-    <dt>Apibrėžimas</dt>
-    <dd>Duomenų rinkinio įrašo kataloge aprašymas.</dd>
+    <dt>Definition</dt>
+    <dd>Duomenų rinkinio įrašo kataloge Description.</dd>
     <dt>DCAT nuoroda</dt>
     <dd><a href="https://w3c.github.io/dxwg/dcat/#Class:Catalog_Record">Nuoroda</a></dd>
-    <dt>Savybės</dt>
+    <dt>Propertys</dt>
     <dd>Apibrėžiamos šios šio objekto ypatybės: <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#CatalogueRecord.primarytopic">pagrindinė tema,</a>
 	</dd>
     <dd>
 <table>
   <thead>
     <tr>
-      <th>Savybė</th>
-      <th>Intervalas</th>
-      <th>Kard</th>
-      <th>Apibrėžimas</th>
+      <th>Property</th>
+      <th>Range</th>
+      <th>Card</th>
+      <th>Definition</th>
       <th>Naudojimas</th>
       <th>Perpanaudojimas</th>
     </tr>
@@ -1178,7 +1178,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <td>[Catalogued Resource](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#CataloguedResource)</td>
       <td>1</td>
       <td>Nuoroda į aprašytąjį duomenų rinkinį, duomenų paslaugą arba katalogą.</td>
-      <td>Katalogo įrašas nurodys vieną subjektą kataloge. Tai gali būti arba duomenų rinkinys, arba duomenų paslauga. Siekiant užtikrinti neambicingą kardinalumo skaitymą, diapazonas nustatomas kaip Kataloguojamas išteklius. Tačiau šio diapazono tikslas nėra reikalauti eksplicitiškai naudoti klasę Kataloguotas įrašas. Kaip abstrakti klasė, turėtų būti naudojama antrinė klasė.</td>
+      <td>Katalogo įrašas nurodys vieną subjektą kataloge. Tai gali būti arba duomenų rinkinys, arba duomenų paslauga. Siekiant užtikrinti neambicingą Cardinalumo skaitymą, diapazonas nustatomas kaip Kataloguojamas išteklius. Tačiau šio diapazono tikslas nėra reikalauti eksplicitiškai naudoti klasę Kataloguotas įrašas. Kaip abstrakti klasė, turėtų būti naudojama antrinė klasė.</td>
       <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#CatalogueRecord.primarytopic">A</a></td>
     </tr>
   </tbody>
@@ -1188,30 +1188,30 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
 
 ## Katalogo resursas
 <dl>
-    <dt>Apibrėžimas</dt>
+    <dt>Definition</dt>
     <dd>Šaltinis, kurį paskelbė arba kuravo vienas agentas.</dd>
     <dt>DCAT nuoroda</dt>
     <dd><a href="https://w3c.github.io/dxwg/dcat/#Class:Resource">Nuoroda</a></dd>
     <dt>Naudojimo pastaba</dt>
     <dd>Ši klasė yra laikoma kaip abstrakti sąvoka.</dd>
-    <dt>Savybės</dt>
-    <dd>Ši specifikacija nenustato jokių papildomų reikalavimų šio objekto savybėms.</dd>
+    <dt>Propertys</dt>
+    <dd>Ši specifikacija nenustato jokių papildomų reikalavimų šio objekto Propertyms.</dd>
     <dd>
   </dd>
 </dl>
 ## Duomenų paslauga
 <dl>
-    <dt>Apibrėžimas</dt>
+    <dt>Definition</dt>
     <dd>Operacijų rinkinys, suteikiantis prieigą prie vieno ar daugiau duomenų rinkinių arba duomenų apdorojimo funkcijų.</dd>
     <dt>DCAT nuoroda</dt>
     <dd><a href="https://w3c.github.io/dxwg/dcat/#Class:Data_Service">Nuoroda</a></dd>
     <dt>Šios klasės poklasė</dt>
     <dd><a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#CataloguedResource">Katalogo resursas</a></dd>
-    <dt>Savybės</dt>
+    <dt>Propertys</dt>
     <dd>Apibrėžiamos šios šio objekto ypatybės: <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.applicablelegislation">teisinis pagrindas,</a> 
 	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.contactpoint">kontaktas,</a>
 	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.documentation">dokumentacija,</a>
-	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.endpointdescription">prieigos taško aprašymas,</a>
+	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.endpointdescription">prieigos taško Description,</a>
 	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.endpointURL">prieigos taško URL,</a>	
 	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.HVDcategory">didelės vertės duomenų rinkinio kategorija,</a>
 	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.licence">licencija,</a>
@@ -1222,10 +1222,10 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
 <table>
   <thead>
     <tr>
-      <th>Savybė</th>
-      <th>Intervalas</th>
-      <th>Kard</th>
-      <th>Apibrėžimas</th>
+      <th>Property</th>
+      <th>Range</th>
+      <th>Card</th>
+      <th>Definition</th>
       <th>Naudojimas</th>
       <th>Perpanaudojimas</th>
     </tr>
@@ -1237,7 +1237,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <td>[Legal Resource](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#LegalResource)</td>
       <td>1..*</td>
       <td>Teisės aktai, kurie įpareigoja kurti ar valdyti duomenų paslaugą.</td>
-      <td>HVD atveju reikšmė PRIVALO apimti ELI http://data.europa.eu/eli/reg_impl/2023/138/oj. Kadangi į išteklių gali būti taikomi keli teisės aktai, maksimalus kardinalumas nėra ribojamas.</td>
+      <td>HVD atveju reikšmė PRIVALO apimti ELI http://data.europa.eu/eli/reg_impl/2023/138/oj. Kadangi į išteklių gali būti taikomi keli teisės aktai, maksimalus Cardinalumas nėra ribojamas.</td>
       <td>P</td>
     </tr>
     <tr>
@@ -1257,11 +1257,11 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <td>P</td>
     </tr>
     <tr>
-      <td>[prieigos taško aprašymas](http://www.w3.org/ns/dcat#endpointDescription)</td>
+      <td>[prieigos taško Description](http://www.w3.org/ns/dcat#endpointDescription)</td>
       <td>[Resource](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Resource)</td>
       <td>0..*</td>
-      <td>Aprašymas paslaugų, prieinamų per galutinius taškus, įskaitant jų operacijas, parametrus ir t.t.</td>
-      <td>Savybė pateikia konkrečias faktinių galutinių taškų detales, o dct:conformsTo naudojama nurodyti bendrąjį standartą ar specifikaciją, kurią įgyvendina galutiniai taškai. 3.3 straipsnis reikalauja pateikti API dokumentaciją Sąjungos arba tarptautiniu mastu pripažintu atviru, žmogui skaitomu ir mašinai skaitomu formatu.</td>
+      <td>Description paslaugų, prieinamų per galutinius taškus, įskaitant jų operacijas, parametrus ir t.t.</td>
+      <td>Property pateikia konkrečias faktinių galutinių taškų detales, o dct:conformsTo naudojama nurodyti bendrąjį standartą ar specifikaciją, kurią įgyvendina galutiniai taškai. 3.3 straipsnis reikalauja pateikti API dokumentaciją Sąjungos arba tarptautiniu mastu pripažintu atviru, žmogui skaitomu ir mašinai skaitomu formatu.</td>
       <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#DataService.endpointdescription">E</a></td>
     </tr>
     <tr>
@@ -1300,7 +1300,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <td>[pateikia duomenų rinkinį](http://www.w3.org/ns/dcat#servesDataset)</td>
       <td>[Dataset](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Dataset)</td>
       <td>1..*</td>
-      <td>Ši savybė nurodo duomenų rinkinį, kurį ši duomenų paslauga gali platinti.</td>
+      <td>Ši Property nurodo duomenų rinkinį, kurį ši duomenų paslauga gali platinti.</td>
       <td>API HVD kontekste nėra atskiras išteklius. Jis naudojamas atverti HVD duomenų rinkinius. Todėl kiekviena duomenų paslauga bent jau yra glaudžiai susijusi su duomenų rinkiniu.</td>
       <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#DataService.servesdataset">E</a></td>
     </tr>
@@ -1312,13 +1312,13 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
 ## Duomenų rinkinys
 
 <dl>
-    <dt>Apibrėžimas</dt>
+    <dt>Definition</dt>
     <dd>Konceptualus objektas, atitinkantis paskelbtą informaciją.</dd>
     <dt>DCAT nuoroda</dt>
     <dd><a href="https://w3c.github.io/dxwg/dcat/#Class:Dataset">Nuoroda</a></dd>
     <dt>Šios klasės poklasė</dt>
     <dd><a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#CataloguedResource">Katalogo resursas</a></dd>
-    <dt>Savybės</dt>
+    <dt>Propertys</dt>
 <dd>Apibrėžiamos šios šio objekto ypatybės: <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.applicablelegislation">teisinis pagrindas,</a> 
 	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Dataset.conformsto">taikymo profilis,</a>
 	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.contactpoint">kontaktas,</a>
@@ -1329,10 +1329,10 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
 <table>
   <thead>
     <tr>
-          <th>Savybė</th>
-      <th>Intervalas</th>
-      <th>Kard</th>
-      <th>Apibrėžimas</th>
+          <th>Property</th>
+      <th>Range</th>
+      <th>Card</th>
+      <th>Definition</th>
       <th>Naudojimas</th>
       <th>Perpanaudojimas</th>
     </tr>
@@ -1344,7 +1344,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <td>[Legal Resource](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#LegalResource)</td>
       <td>1..*</td>
       <td>Teisės aktai, kurie įpareigoja kurti ar valdyti duomenų rinkinį.</td>
-      <td>HVD atveju reikšmė privalo apimti ELI http://data.europa.eu/eli/reg_impl/2023/138/oj. Kadangi į išteklių gali būti taikomi keli teisės aktai, maksimalus kardinalumas nėra ribojamas.</td>
+      <td>HVD atveju reikšmė privalo apimti ELI http://data.europa.eu/eli/reg_impl/2023/138/oj. Kadangi į išteklių gali būti taikomi keli teisės aktai, maksimalus Cardinalumas nėra ribojamas.</td>
       <td>P</td>
     </tr>
     <tr>
@@ -1386,13 +1386,13 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
 
 ## Pateiktis
 <dl>
-    <dt>Apibrėžimas</dt>
+    <dt>Definition</dt>
     <dd>Katalogas arba saugykla, kurioje yra aprašomi duomenų rinkiniai arba duomenų paslaugos.</dd>
     <dt>DCAT nuoroda</dt>
     <dd><a href="https://w3c.github.io/dxwg/dcat/#Class:Distribution">Nuoroda</a></dd>
     <dt>Naudojimo pastaba</dt>
     <dd>Masiniai atsisiuntimai turi būti koduojami kaip pateikimas.</dd>
-    <dt>Savybės</dt>
+    <dt>Propertys</dt>
     <dd>Apibrėžiamos šios šio objekto ypatybės: <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Distribution.accessservice">prieigos paslauga,</a> 
 	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Distribution.accessURL">prieigos URL,</a>
 	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Distribution.applicablelegislation">teisinis pagrindas,</a>
@@ -1404,10 +1404,10 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
 <table>
   <thead>
     <tr>
-     <th>Savybė</th>
-      <th>Intervalas</th>
-      <th>Kard</th>
-      <th>Apibrėžimas</th>
+     <th>Property</th>
+      <th>Range</th>
+      <th>Card</th>
+      <th>Definition</th>
       <th>Naudojimas</th>
       <th>Perpanaudojimas</th>
     </tr>
@@ -1435,7 +1435,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <td>[Legal Resource](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#LegalResource)</td>
       <td>1..*</td>
       <td>Teisės aktai, kurie įpareigoja kurti ar valdyti platinimą.</td>
-      <td>HVD atveju reikšmė privalo apimti ELI http://data.europa.eu/eli/reg_impl/2023/138/oj. Kadangi į išteklių gali būti taikomi keli teisės aktai, maksimalus kardinalumas nėra ribojamas.</td>
+      <td>HVD atveju reikšmė privalo apimti ELI http://data.europa.eu/eli/reg_impl/2023/138/oj. Kadangi į išteklių gali būti taikomi keli teisės aktai, maksimalus Cardinalumas nėra ribojamas.</td>
       <td>P</td>
     </tr>
     <tr>
@@ -1468,11 +1468,11 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
 </dl>
 ## Rūšis
 <dl>
-    <dt>Apibrėžimas</dt>
-    <dd>Aprašymas pagal "vCard" specifikaciją, pvz., nurodant kontaktinio punkto telefono numerį ir el. pašto adresą.</dd>
+    <dt>Definition</dt>
+    <dd>Description pagal "vCard" specifikaciją, pvz., nurodant kontaktinio punkto telefono numerį ir el. pašto adresą.</dd>
     <dt>Naudojimo pastaba</dt>
     <dd>Rekomenduojama pateikti bent el. laišką arba kontaktinę formą iš, pvz., aptarnavimo centro.</dd>
-    <dt>Savybės</dt>
+    <dt>Propertys</dt>
     <dd>Apibrėžiamos šios šio objekto ypatybės: <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Kind.contactpage">kontaktas</a> 
 	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Kind.email">el. paštas.</a>
 	</dd>
@@ -1480,10 +1480,10 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
 <table>
   <thead>
     <tr>
-<th>Savybė</th>
-      <th>Intervalas</th>
-      <th>Kard</th>
-      <th>Apibrėžimas</th>
+<th>Property</th>
+      <th>Range</th>
+      <th>Card</th>
+      <th>Definition</th>
       <th>Naudojimas</th>
       <th>Perpanaudojimas</th>
     </tr>
@@ -1512,11 +1512,11 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
 </dl>
 ## Licencijos dokumentas
 <dl>
-    <dt>Apibrėžimas</dt>
+    <dt>Definition</dt>
     <dd>Teisinis dokumentas, suteikiantis oficialų leidimą ką nors daryti su ištekliais.</dd>
     <dt>Naudojimo pastaba</dt>
     <dd>Pagal HVD yra reikalaujama, kad licencija būtų pateikiama kompiuterio skaitomu būdu. Minimalių duomenų modelis licencijos dokumentui apibūdinti yra už šios specifikacijos ribų.</dd>
-    <dt>Savybės</dt>
+    <dt>Propertys</dt>
     <dd>Ši specifikacija nenustato jokių papildomų reikalavimų šio objekto ypatybėms.</dd>
     <dd>
   </dd>
