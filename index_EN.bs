@@ -204,7 +204,7 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
 ## Information system (dcataplt:InformationSystem)
 
 <dl>
-    <dt>Apibrėžimas</dt>
+    <dt>Definition</dt>
     <dd>Programinės įrangos visuma valstybės ar savivaldybės institucijos ar įstaigos, kito viešojo administravimo subjekto, viešosios įstaigos ar valstybės valdomos įmonės veiklos procesams skaitmenizuoti, duomenims tvarkyti ir (ar) administracinėms ar viešosioms paslaugoms teikti elektroniniu būdu.</dd>
     <dt>Savybės</dt>
     <dd>
