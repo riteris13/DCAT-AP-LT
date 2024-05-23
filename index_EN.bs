@@ -22,7 +22,7 @@ DCAT-AP-LT includes the classes used by BREG-DCAT-AP(https://github.com/SEMICeu/
 </dl>
 ## Context
 
-Šiuo metu numatoma, jog Europos Komisija teiks paramą šioms [Europos bendroms duomenų erdvėms]('https://digital-strategy.ec.europa.eu/en/policies/data-spaces') kurti:
+Currently, it is expected that the European Commission will provide support for these [Europos bendroms duomenų erdvėms]('https://digital-strategy.ec.europa.eu/en/policies/data-spaces') kurti:
 <ul>
 <li>Žemės ūkio;  </li>
 <li> Kultūrinio paveldo; </li>
@@ -41,28 +41,30 @@ DCAT-AP-LT includes the classes used by BREG-DCAT-AP(https://github.com/SEMICeu/
 </ul>
 
 
-Ši specifikacija turi palaikyti šias planuojamas duomenų erdves ir užtikrinti lengvesnį duomenų valdymą jose.  Realizavus šią specifikaciją informacinėje sistemoje, kur bus kataloguojami Lietuvos Respublikos registrų ir kitų informacinių sistemų duomenys - bus sukuriamos priemonės, padedančios Lietuvos duomenų valdymo sričių įgaliotiniams kurti registrų ir kitų informacinių sistemų duomenų valdymo strategijas, atpažinti netikslingą informacijos dubliavimą, taip pat suteiks galimybę dalintis Lietuvos Respublikos duomenimis su Europos Sąjunga pagal bendrą semantinį modelį.
+This specification is intended to support these planned data spaces and provide easier data management within them.  After the implementation of this specification in the information system, where the data of the registers and other information systems of the Republic of Lithuania will be cataloged, tools will be created to help the representatives of the Lithuanian data management areas to create data management strategies for registers and other information systems, to recognize inappropriate duplication of information, and will also provide an opportunity to share the data of the Republic of Lithuania data with the European Union according to the common semantic model.
 
 
 
-## Aprėptis
 
-Šis specifikacija yra orientuota į Valstybės informacinių išteklių valdymo įstatymo nuostatų dėl informacinėse sistemose tvarkomų metaduomenų įgyvendinimo.
+## Scope
 
-# Statusas
+This specification is focused on the implementation of the provisions of the State Information Resources Management Law on metadata managed in information systems.
+
+
+# Status
 
 DCAT-AP-LT 0.1 
 
-# Licencija
+# Licence
 
-Šio modelio medžiaga skelbiama pagal CC-BY 4.0 licenciją, nebent pažymėta kitaip.
+The material in this model is published under the CC-BY 4.0 license, unless otherwise noted.
 
-# Terminologija
+# Terminology
 
 <table>
     <tr>
-        <th>Trumpinys (en. prefix)</th>
-        <th>Vardų erdvės URI</th>
+        <th>Prefix</th>
+        <th>Name space URI</th>
     </tr>
     <tr>
         <td>
@@ -187,18 +189,19 @@ DCAT-AP-LT 0.1
 </table>
 
 
-# Modelio apžvalga
+# Model overview
 
-DCAT-AP-LT apima visas BREG-DCAT-AP 2.1 nudojamas klases ir papildo jas Informacinės Sistemos klase išplečiančia dcat:Catalog klasę bei dvejais kontroliuojamais žodynais Informacinės sistemos tipui ir svarbai pažymėti taip, kaip apibrėžiama Valstybės informacinių išteklių valymo įstatyme.
-Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas DCAT-AP-HVD klases ir papildomas savybes.
+DCAT-AP-LT includes all the classes listed in BREG-DCAT-AP 2.1 and supplements them with an Information System class that extends the dcat:Catalog class and two controlled dictionaries to mark the type and importance of the Information System as defined in the State Information Resource Cleaning Law.
+Also, DCAT-AP-HVD classes and additional properties are used to describe the metadata of high-value datasets.
+
 
 <img src="uml.png" width="800px" height="454px">
 
 
 
-# Pagrindinės esybės
+# Main entities
 
-## Informacinė Sistema (dcataplt:InformationSystem)
+## Information system (dcataplt:InformationSystem)
 
 <dl>
     <dt>Apibrėžimas</dt>
@@ -335,200 +338,14 @@ Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas
             </tr>
  </table>
 <br>
-<table class="data-table simple">
-            <tr class="data-table__header">
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
-                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:40%">Aprašymas</th>
-            </tr>
-<br></br>
-            <tr class="data-table__header">
-                <td>Aprašymas</td>
-                <td>[dct:description](http://purl.org/dc/terms/description)</td>
-                <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-                <td>1..n</td>
-                <td>Šia savybe rekomenduojama pateikti trumpą informacinės sistemos paskirties aprašymą, kaip pateikiama informacinės sistemos nuostatuose.</td>
-                <td>Šioje savybėje pateikiamas katalogo laisvo teksto aprašas laisvos formos tekstu. Šią savybę galima pateikti keliomis kalbomis.</td>
-            </tr>
-                <!-- Trūko identifier -->	
-			          <tr class="data-table__header">
-                <td>Identifikatorius</td>
-                <td>[dct:identifier](http://purl.org/dc/terms/identifier)</td>
-                <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-                <td>1..1</td>
-                <td>-</td>
-                <td>Šioje savybėje nurodomas katalogo identifikatorius.</td>
-                </tr>
-            <tr class="data-table__header">
-                <td>Skelbėjas</td>
-                <td>[dct:publisher](https://w3c.github.io/dxwg/dcat/#Property:resource_publisher)</td>
-                <td>[foaf:Agent](http://xmlns.com/foaf/0.1/Agent)</td>
-                <td>1..1</td>
-                <td>Šia savybe pateikiamas valstybės valdymo ar savivaldos institucijos ar organizacijos, kuri yra informacinės sistemos valdytojas, pavadinimas.</td>
-                <td>Ši savybė nurodo subjektą (organizaciją), atsakingą už katalogo prieinamumą.</td>
-            </tr>
-            <tr class="data-table__header">
-                <td>Pavadinimas</td>
-                <td>[dct:title](https://w3c.github.io/dxwg/dcat/#Property:resource_title)</td>
-                <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-                <td>1..n</td>
-                <td>IS tvarkomų duomenų katalogo pavadinimas turi nurodyti, kad tai konkrečios informacinės sistemos ar jos esminės dalies (posistemės) informacinė struktūra, kurios apimtyje yra tvarkomi duomenų rinkiniai.</td>
-                <td>Šioje savybėje pateikiamas katalogui suteiktas pavadinimas.</td>
-            </tr>
-          
-            <tr class="data-table__header">
-                <td>Kaupimo periodiškumas</td>
-                <td>[dcat:accrualPeriodicity](http://purl.org/dc/terms/acrualPeriodicity)</td>
-                <td>[dct:Frequency]()</td>
-                <td>0..1</td>
-                <td>-</td>
-                <td>Ši savybė nurodo registro katalogo dažnumą
-atnaujinama naujais / redaguotais duomenų rinkiniais.</td>
-            </tr>
 
-            <tr class="data-table__header">
-                <td>Duomenų rinkinys</td>
-                <td>[dcat:dataset](http://www.w3.org/ns/dcat#dataset)</td>
-                <td>[dcat:Dataset](http://www.w3.org/ns/dcat#Dataset)</td>
-                <td>0..n</td>
-                <td>Šia klase apibūdinama konkreti informacinė sistema – valstybės informacinės sistema ar registras, kurio apimtyje yra tvarkomi duomenų rinkiniai.</td>
-                <td>Ši savybė susieja katalogą su duomenų rinkiniu, kuris yra katalogo įrašas.</td>
-            </tr>
-            <tr class="data-table__header">
-                <td>Paslauga</td>
-                <td>[dcat:service](http://www.w3.org/ns/dcat#service)</td>
-                <td>[dcat:DataService](http://www.w3.org/ns/dcat#DataService)</td>
-                <td>0..n</td>
-                <td>-</td>
-                <td>Ši savybė nurodo svetainę arba galinį tašką (angl. end-point) (duomenų paslaugą), įtrauktą į katalogą.</td>
-            </tr>
-            <tr class="data-table__header">
-                <td>Tinklalapis</td>
-                <td>[foaf:homepage](https://w3c.github.io/dxwg/dcat/#Property:catalog_homepage)</td>
-                <td>[foaf:Document](http://xmlns.com/foaf/0.1/Document)</td>
-                <td>0..1</td>
-                <td>-</td>
-                <td>Ši savybė nurodo tinklalapį, kuris yra pagrindinis katalogo puslapis.</td>
-            </tr>
-            <tr class="data-table__header">
-                <td>Kalba</td>
-                <td>[dct:language](https://w3c.github.io/dxwg/dcat/#Property:resource_language)</td>
-                <td>[dct:LinguisticSystem](http://purl.org/dc/terms/LinguisticSystem)</td>
-                <td>0..n</td>
-                <td>-</td>
-                <td>Ši savybė nurodo kalbą, naudojamą tekstiniuose metaduomenyse, apibūdinančiuose kataloge esančių duomenų rinkinių pavadinimus, aprašymus.</td>
-            </tr>
-            <tr class="data-table__header">
-                <td>Licencija</td>
-                <td>[dct:license](http://purl.org/dc/terms/license)</td>
-                <td>[dct:LicenseDocument](http://purl.org/dc/terms/LicenseDocument)</td>
-                <td>0..1</td>
-                <td>-</td>
-                <td>Ši savybė nurodo licenciją, pagal kurią galima naudoti arba pakartotinai naudoti katalogą.</td>
-            </tr>
-            <tr class="data-table__header">
-                <td>Išleistas</td>
-                <td>[dct:issued](http://purl.org/dc/terms/issued)</td>
-                <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-                <td>0..1</td>
-                <td>IS kontekste laikoma, kad katalogo paskelbimo data yra oficiali duomenų apie informacinės sistemos metaduomenis įsigaliojimo data.</td>
-                <td>Šioje savybėje nurodoma oficiali katalogo paskelbimo data.</td>
-            </tr>
-            <tr class="data-table__header">
-                <td>Geografinė aprėptis</td>
-                <td>[dct:spatial](https://w3c.github.io/dxwg/dcat/#Property:dataset_spatial)</td>
-                <td>[dct:Location](http://purl.org/dc/terms/Location)</td>
-                <td>0..1</td>
-                <td>-</td>
-                <td>Šioje savybėje nurodoma naujausia katalogo pakeitimo data.</td>
-            </tr>
-
-            <tr class="data-table__header">
-                <td>Temos taksonomija</td>
-                <td>[dcat:themeTaxonomy](http://www.w3.org/ns/dcat#themeTaxonomy)</td>
-                <td>[skos:ConceptScheme](http://www.w3.org/2004/02/skos/core#ConceptScheme)</td>
-                <td>0..n</td>
-                <td>-</td>
-                <td>Ši savybė nurodo žinių organizavimo sistemą, naudojamą katalogo duomenų rinkiniams klasifikuoti.</td>
-            </tr>
-            <tr class="data-table__header">
-                <td>Pakeitimo data</td>
-                <td>[dct:modified](https://w3c.github.io/dxwg/dcat/#Property:distribution_update_date)</td>
-                <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-                <td>0..1</td>
-                <td>-</td>
-                <td>Šioje savybėje nurodoma naujausia katalogo pakeitimo data.</td>
-            </tr>
-            <tr class="data-table__header">
-                <td>Turi sudedamąją dalį</td>
-                <td>[dct:hasPart](https://w3c.github.io/dxwg/dcat/#Property:resource_has_part)</td>
-                <td>[dcat:Catalog](http://www.w3.org/ns/dcat#Catalog)</td>
-                <td>0..n</td>
-                <td>IS kontekste, šiuo ryšiu gali būti įprasminamos valstybės informacinės sistemos ar registro reikšmingų veiklos sričių ar posistemių dalys.</td>
-                <td>Ši savybė nurodo susijusį katalogą, kuris yra aprašyto katalogo dalis.</td>
-            </tr>
-            <tr class="data-table__header">
-                <td>Yra sudedamoji dalis</td>
-                <td>[dct:isPartPf](https://w3c.github.io/dxwg/dcat/#Property:dataset_in_series)</td>
-                <td>[dcat:Catalog](http://www.w3.org/ns/dcat#Catalog)</td>
-                <td>0..1</td>
-                <td>-</td>
-                <td>Ši savybė nurodo susijusį katalogą, į kurį fiziškai arba logiškai įtrauktas aprašomas katalogas.</td>
-            </tr>
-            <tr class="data-table__header">
-                <td>Įrašas</td>
-                <td>[dcat:record](http://www.w3.org/ns/dcat#record)</td>
-                <td>[dcat:CatalogRecord](http://www.w3.org/ns/dcat#CatalogRecord)</td>
-                <td>0..n</td>
-                <td>-</td>
-                <td>Ši savybė nurodo katalogo įrašą, kuris yra katalogo dalis.</td>
-            </tr>
-            <tr class="data-table__header">
-                <td>Teisės</td>
-                <td>[dct:rights](https://w3c.github.io/dxwg/dcat/#Property:resource_rights)</td>
-                <td>[dct:RightsStatement](http://purl.org/dc/terms/RightsStatement)</td>
-                <td>0..1</td>
-                <td>-</td>
-                <td>Ši savybė pateikia deklaraciją, kurioje nurodomos su katalogu susijusios teisės.</td>
-            </tr>
-            <tr class="data-table__header">
-                <td>Katalogas</td>
-                <td>[dcat:catalog](http://www.w3.org/ns/dcat#catalog)</td>
-                <td>[dcat:Catalog](http://www.w3.org/ns/dcat#Catalog)</td>
-                <td>0..n</td>
-                <td>-</td>
-                <td>Ši savybė nurodo katalogą, kurio turinys domina šio katalogo kontekste.</td>
-            </tr>
-            <tr class="data-table__header">
-                <td>Rengėjas</td>
-                <td>[dct:creator](http://purl.org/dc/terms/creator)</td>
-                <td>[foaf:Agent](http://xmlns.com/foaf/0.1/Agent)</td>
-                <td>0..n</td>
-                <td>IS Valdytojas</td>
-                <td>Ši savybė nurodo subjektą, atsakingą už katalogo parengimą.</td>
-            </tr>
-            <tr class="data-table__header">
-                <td>Teisinis pagrindas</td>
-                <td>[dcatap:applicableLegislation](https://semiceu.github.io/uri.semic.eu-generated/r5r/release/3.0.0/#applicableLegislation)</td>
-                <td>[eli:LegalResource](http://data.europa.eu/eli/ontology#LegalResource)</td>
-                <td>0..n</td>
-                <td>-</td>
-                <td>Teisės aktas, kuris įpareigoja sukurti ir valdyti katalogą.</td>
-            </tr>
-        </table>
    </dd>
 </dl>
 
 
 ## Agentas
 
-<dl>
-    <dt>Apibrėžimas</dt>
-    <dd>Bet kuris subjektas, atliekantis veiksmus, susijusius su pagrindinėmis (angl. Core) klasėmis: Katalogas, Duomenų rinkinys, Duomenų paslauga ir Distribucija.</dd>
-    <dd>
+
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
@@ -538,85 +355,11 @@ atnaujinama naujais / redaguotais duomenų rinkiniais.</td>
             </tr>
             <tr class="data-table__header">
                 <td>Agentas</td>
-                <td>Šioje savybėje pateikiamas agento pavadinimas. Ši savybė gali būti kartojama skirtingoms pavadinimo versijoms (pvz., pavadinimas skirtingomis kalbomis).</td>
+                <td>Bet kuris subjektas, atliekantis veiksmus, susijusius su pagrindinėmis (angl. Core) klasėmis: Katalogas, Duomenų rinkinys, Duomenų paslauga ir Distribucija.</td>
                 <td>-</td>
                 <td>[foaf:Agent](http://xmlns.com/foaf/0.1/Agent)</td>
             </tr>
   </table>
- <table class="data-table simple">
-            <tr class="data-table__header">
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Išteklius</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Intervalas</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
-                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:40%">Aprašymas</th>
-            </tr>
-<br></br>
-            <tr class="data-table__header">
-                <td>Pavadinimas</td>
-                <td>[foaf:name](http://xmlns.com/foaf/0.1/name)</td>
-                <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-                <td>1..n</td>
-                <td>-</td>
-                <td>Šioje savybėje pateikiamas agento pavadinimas. Ši savybė gali būti kartojama skirtingoms pavadinimo versijoms (pvz., pavadinimas skirtingomis kalbomis).</td>
-            </tr>
-            <tr class="data-table__header">
-                <td>Tipas</td>
-                <td>[dct:type](http://purl.org/dc/terms/type)</td>
-                <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
-                <td>0..1</td>
-                <td>-</td>
-                <td>Ši savybė nurodo agento, kuris padaro prieinamu katalogą arba duomenų rinkinį, tipą.</td>
-            </tr>
-            <tr class="data-table__header">
-                <td>Identifikatorius</td>
-                <td>[dct:identifier](http://purl.org/dc/terms/identifier)</td>
-                <td>[adms:Identifier](https://w3c.github.io/dxwg/dcat/#Property:resource_identifier)</td>
-                <td>0..1</td>
-                <td>-</td>
-                <td>Ši savybė nurodo agento, kuris padaro prieinamu katalogą arba duomenų rinkinį, identifikatorių.</td>
-            </tr>
-        </table>
-   </dd>
-</dl>
-
-
-## Tekstinis
-
- <table class="data-table simple">
-            <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
-            </tr>
-            <tr class="data-table__header">
-                <td>Tekstinis</td>
-                <td>tekstinė vertė</td>
-                <td> - </td>
-                <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-            </tr>
-           
-        </table>
-
-## Išteklius
-
- <table class="data-table simple">
-            <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:30%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:30%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
-            </tr>
-            <tr class="data-table__header">
-                <td>Išteklius</td>
-                <td>Bet koks objektas, kurį galima aprašyti RDF</td>
-                <td>Ši klasė apibrėžia abstrakčią sąvoką ir neturi savybių</td>
-                <td>[rdfs:Resource](http://www.w3.org/2000/01/rdf-schema#Resource)</td>
-            </tr>
-           
-        </table>
 
 
 ## Duomenų rinkinys
@@ -644,416 +387,6 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         </table>
 
 
- <table class="data-table simple">
-         
-            <tr class="data-table__header">
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Išteklius</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Intervalas</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
-                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
-            </tr>
-<br></br>
-            <tr>
-        <td>Aprašymas</td>
-        <td>[dct:description](http://purl.org/dc/terms/description)</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>1..n</td>
-        <td>Koncepcinio detalumo lygmens aprašymas, laikantisinformacinės sistemoslygmenyje arinformacinės sistemosvaldymo srityje nustatytos terminologijos ontologijos sąvokų ar duomenų rinkinių taikytinų informacinio modelio reikalavimų.</td>
-        <td>Laisvu tekstu pateikiamas duomenų rinkinio aprašas. Galima pakartoti, jei aprašas yra keliomis kalbomis.</td>
-    </tr>
-    <tr>
-        <td>Pavadinimas</td>
-        <td>[dct:title](http://purl.org/dc/terms/title)</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>1..n</td>
-        <td>-</td>
-        <td>Pateikiamas duomenų rinkiniui suteiktas pavadinimas. Galima pakartoti, jei pavadinimas pateikiamas keliomis kalbomis.</td>
-    </tr>
-    <tr>
-        <td>Identifikatorius</td>
-        <td>[dct:identifier](https://w3c.github.io/dxwg/dcat/#Property:resource_identifier)</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>1..1</td>
-        <td>-</td>
-        <td>Pagrindinis duomenų rinkinio identifikatorius, pvz., URI, arba kitas unikalus identifikatorius katalogo kontekste.</td>
-    </tr>
-    <tr>
-        <td>Kitas identifikatorius</td>
-        <td>[adms:identifier](http://www.w3.org/ns/adms#identifier)</td>
-        <td>[adms:Identifier](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Identifier)</td>
-        <td>1..n</td>
-        <td>-</td>
-        <td>Antrinis duomenų rinkinio identifikatorius. Pavyzdžiai: MAST/ADS, DataCite, DOI, EZID, W3ID. Rekomendacija: įtraukti visus identifikatorius, kuriuos katalogas žino apie duomenų rinkinį.</td>
-    </tr>
-    <tr>
-        <td>Versija</td>
-        <td>[dcat:version](http://www.w3.org/ns/dcat#version)</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>1..1</td>
-        <td>-</td>
-        <td>Duomenų rinkinio versijos identifikavimas (pavadinimas arba identifikatorius).</td>
-    </tr>
-   
-    <tr>
-        <td>Duomenų erdvė</td>
-        <td>[dct:conformsTo](http://purl.org/dc/terms/conformsTo)</td>
-        <td>[dct:Standard](http://purl.org/dc/terms/Standard)</td>
-        <td>1..n</td>
-        <td>Šaltinis: EUR-Lex - 52020DC0066 - EN - EUR-Lex (europa.eu)</td>
-        <td>Nustatyta duomenų erdvė, kuriai atitinka aprašyta distribucija.</td>
-    </tr>
-    <tr>
-        <td>Kontaktinė informacija</td>
-        <td>[dcat:contactPoint](http://www.w3.org/ns/dcat#contactPoint)</td>
-        <td>[vcard:Kind](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Kind)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Šioje savybėje pateikiama kontaktinė informacija, kurią galima naudoti siunčiant pastabas apie duomenų rinkinį.</td>
-    </tr>
-    <tr>
-        <td>Duomenų rinkinio pateiktis</td>
-        <td>[dcat:distribution](http://www.w3.org/ns/dcat#distribution)</td>
-        <td>[dcat:Distribution](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Distribution)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Ši savybė susieja duomenų rinkinį su platinimu.</td>
-    </tr>
-    <tr>
-        <td>Raktažodis</td>
-        <td>[dcat:keyword](http://www.w3.org/ns/dcat#keyword)</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Šioje savybėje pateikiamas duomenų rinkinį apibūdinantis raktažodis arba žyma.</td>
-    </tr>
-    <tr>
-        <td>Duomenų skelbėjas</td>
-        <td>[dct:publisher](https://w3c.github.io/dxwg/dcat/#Property:resource_publisher)</td>
-        <td>[foaf:Agent](http://xmlns.com/foaf/0.1/Agent)</td>
-        <td>0..1</td>
-        <td>-</td>
-        <td>Ši savybė nurodo subjektą (organizaciją), atsakingą už duomenų rinkinio prieinamumą.</td>
-    </tr>
-    <tr>
-        <td>Geografinė vieta</td>
-        <td>[dct:spatial](https://w3c.github.io/dxwg/dcat/#Property:dataset_spatial)</td>
-        <td>[dct:Location](http://purl.org/dc/terms/Location)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Ši savybė nurodo geografinę vietovę, kurią apima duomenų rinkinys.</td>
-    </tr>
-    <tr>
-        <td>Laikotarpis</td>
-        <td>[dct:temporal](https://w3c.github.io/dxwg/dcat/#Property:dataset_temporal)</td>
-        <td>[dct:PeriodOfTime](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Periodoftime)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Ši savybė nurodo laikotarpį, kurį apima duomenų rinkinys.</td>
-    </tr>
-    <tr>
-        <td>Kategorija</td>
-        <td>[dcat:theme](http://www.w3.org/ns/dcat#theme)</td>
-        <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Ši savybė nurodo duomenų rinkinio kategoriją. Duomenų rinkinys gali būti susietas su keliomis temomis.</td>
-    </tr>
-    <tr>
-        <td>Prieigos teisės</td>
-        <td>[dct:accessRights](http://purl.org/dc/terms/accessRights)</td>
-        <td>[dct:RightsStatement](http://purl.org/dc/terms/RightsStatement)</td>
-        <td>0..1</td>
-        <td>-</td>
-        <td>Ši savybė susijusi su informacija, kuri nurodo, ar duomenų rinkinys yra atviri duomenys, ar jam taikomi prieigos apribojimai, ar jis nėra viešas.</td>
-    </tr>
-    <tr>
-        <td>Atitinka</td>
-        <td>[dct:conformsTo](http://purl.org/dc/terms/conformsTo)</td>
-        <td>[dct:Standard](http://purl.org/dc/terms/Standard)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Ši savybė nurodo įgyvendinimo taisyklę arba kitą specifikaciją.</td>
-    </tr>
-    <tr>
-        <td>Rengėjas</td>
-        <td>[dct:creator](http://purl.org/dc/terms/creator)</td>
-        <td>[foaf:Agent](http://xmlns.com/foaf/0.1/Agent)</td>
-        <td>0..1</td>
-        <td>-</td>
-        <td>Subjektas, atsakingas už duomenų rinkinio parengimą.</td>
-    </tr>
-    <tr>
-        <td>Dokumentacija</td>
-        <td>[foaf:page](http://xmlns.com/foaf/0.1/page)</td>
-        <td>[foaf:Document](http://xmlns.com/foaf/0.1/Document)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Ši savybė nurodo puslapį arba dokumentą apie šį duomenų rinkinį.</td>
-    </tr>
-    <tr>
-        <td>Kaupimo periodiškumas</td>
-        <td>[dct:accrualPeriodicity](https://w3c.github.io/dxwg/dcat/#Property:dataset_frequency)</td>
-        <td>[dct:Frequency](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Frequency)</td>
-        <td>0..1</td>
-        <td>-</td>
-        <td>Ši savybė nurodo, kaip dažnai atnaujinamas duomenų rinkinys.</td>
-    </tr>
-    <tr>
-        <td>Turi versiją</td>
-        <td>[dcat:hasVersion](http://www.w3.org/ns/dcat#hasVersion)</td>
-        <td>[dcat:Dataset](http://www.w3.org/ns/dcat#Dataset)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Ši savybė nurodo susijusį duomenų rinkinį, kuris yra aprašyto duomenų rinkinio versija, leidimas arba adaptacija.</td>
-    </tr>
-    <tr>
-        <td>Yra referuota iš</td>
-        <td>[dct:isReferencedBy](https://w3c.github.io/dxwg/dcat/#Property:resource_is_referenced_by)</td>
-        <td>[rdfs:Resource](http://www.w3.org/2000/01/rdf-schema#Resource)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Susijęs šaltinis, pavyzdžiui, leidinys iš kurio pateikiamos nuorodos į duomenų rinkinį, kuriame jis cituojamas ir nukreipia į duomenų rinkinį.</td>
-    </tr>
-    <tr>
-        <td>Yra versija</td>
-        <td>[dcat:isVersionOf](http://www.w3.org/ns/dcat#isVersionOf)</td>
-        <td>[dcat:Dataset](http://www.w3.org/ns/dcat#Dataset)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Susijęs duomenų rinkinys, kurio aprašytasis duomenų rinkinys yra versija arba adaptacija.</td>
-    </tr>
-    <tr>
-        <td>Nukreipimo puslapis</td>
-        <td>[dcat:landingPage](http://www.w3.org/ns/dcat#landingPage)</td>
-        <td>[foaf:Document](http://xmlns.com/foaf/0.1/Document)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Ši savybė nurodo tinklalapį, kuriame galima susipažinti su duomenų rinkiniu, jo distribucija ir (arba) papildoma informacija. Ji skirta nukreipti į pradinio duomenų teikėjo, o ne į trečiosios šalies, pavyzdžiui, agregatoriaus, svetainės puslapį.</td>
-    </tr>
-    <tr>
-        <td>Kalba</td>
-        <td>[dct:language](https://w3c.github.io/dxwg/dcat/#Property:resource_language)</td>
-        <td>[dct:LinguisticSystem](http://purl.org/dc/terms/LinguisticSystem)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Ši savybė nurodo duomenų rinkinio kalbą. Šią savybę galima pakartoti, jei duomenų rinkinys yra keliomis kalbomis.</td>
-    </tr>
-    <tr>
-        <td>Kilmė</td>
-        <td>[dct:provenance](http://purl.org/dc/terms/provenance)</td>
-        <td>[dct:ProvenanceStatement](http://purl.org/dc/terms/ProvenanceStatement)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Šioje savybėje pateikiama deklaracija apie duomenų rinkinio kilmę.</td>
-    </tr>
-    <tr>
-        <td>Kvalifikuotas priskyrimas</td>
-        <td>[prov:qualifiedAttribution](http://www.w3.org/ns/prov#qualifiedAttribution)</td>
-        <td>[prov:Attribution](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Attribution)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Ši savybė pateikia nuorodą į agentą, turintį tam tikrą atsakomybę už išteklių.</td>
-    </tr>
-    <tr>
-        <td>Kvalifikuotas ryšis</td>
-        <td>[dcat:qualifiedRelation](http://www.w3.org/ns/dcat#qualifiedRelation)</td>
-        <td>[dcat:Relationship](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Relationship)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Ši savybė pateikia nuorodą į ryšio su kitu ištekliumi aprašymą.</td>
-    </tr>
-    <tr>
-        <td>Susijęs išteklius</td>
-        <td>[dct:relation](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Relationship.relation)</td>
-        <td>[rdfs:Resource](http://www.w3.org/2000/01/rdf-schema#Resource)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Ši savybė nurodo susijusį išteklių.</td>
-    </tr>
-    <tr>
-        <td>Išleidimo data</td>
-        <td>[dct:issued](http://purl.org/dc/terms/issued)</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>0..1</td>
-        <td>-</td>
-        <td>Duomenų rinkinio oficialaus išleidimo (pvz., paskelbimo) data.</td>
-    </tr>
-    <tr>
-        <td>Pavyzdys</td>
-        <td>[adms:sample](http://www.w3.org/ns/adms#sample)</td>
-        <td>[dcat:Distribution](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Distribution)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Ši savybė nurodo duomenų rinkinio pavyzdį.</td>
-    </tr>
-    <tr>
-        <td>Šaltinis</td>
-        <td>[dct:source](http://purl.org/dc/terms/source)</td>
-        <td>[dcat:Dataset](http://www.w3.org/ns/dcat#Dataset)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Susijęs duomenų rinkinys, iš kurio suformuotas aprašytas duomenų rinkinys.</td>
-    </tr>
-    <tr>
-        <td>Erdvinė raiška</td>
-        <td>[dcat:spatialResolutionInMeters](http://www.w3.org/ns/dcat#spatialResolutionInMeters)</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>0..1</td>
-        <td>-</td>
-        <td>Mažiausias erdvinis atskyrimas, kurį galima atskirti duomenų rinkinyje, matuojamas metrais.</td>
-    </tr>
-    <tr>
-        <td>Laikotarpis</td>
-        <td>[dcat:temporalResolution](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset.temporalresolution)</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>0..1</td>
-        <td>-</td>
-        <td>Laikotarpis, kurį apima duomenų rinkinys.</td>
-    </tr>
-    <tr>
-        <td>Tipas</td>
-        <td>[dct:type](http://purl.org/dc/terms/type)</td>
-        <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
-        <td>0..1</td>
-        <td>-</td>
-        <td>Ši savybė nurodo duomenų rinkinio tipą. Numatytas rekomenduojamas kontroliuojamo žodyno duomenų tipas.</td>
-    </tr>
-    <tr>
-        <td>Pakeitimo data</td>
-        <td>[dct:modified](https://w3c.github.io/dxwg/dcat/#Property:distribution_update_date)</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>0..1</td>
-        <td>-</td>
-        <td>Naujausia duomenų rinkinio pakeitimo arba modifikavimo data.</td>
-    </tr>
-    <tr>
-        <td>Versijos pastabos</td>
-        <td>[adms:versionNotes](http://www.w3.org/ns/adms#versionNotes)</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Šios versijos ir ankstesnės duomenų rinkinio versijos skirtumų aprašymas.</td>
-    </tr>
-    <tr>
-        <td>Buvo sukurtas dėl</td>
-        <td>[prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy)</td>
-        <td>[prov:Activity](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Activity)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Veikla, dėl kurios buvo sukurtas duomenų rinkinys arba kuri suteikia verslo kontekstą duomenų rinkinio kūrimui.</td>
-    </tr>
-    <tr>
-        <td>Yra dalis</td>
-        <td>[dct:isPartOf](https://w3c.github.io/dxwg/dcat/#Property:dataset_in_series)</td>
-        <td>[dcat:Catalog](http://www.w3.org/ns/dcat#Catalog)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Ši savybė nurodo susijusį duomenų rinkinį, į kurį fiziškai arba logiškai įtrauktas aprašomas katalogas.</td>
-    </tr>
-    <tr>
-        <td>Teisinis pagrindas</td>
-        <td>[dcatap:applicableLegislation](https://semiceu.github.io/uri.semic.eu-generated/r5r/release/3.0.0/#applicableLegislation)</td>
-        <td>[eli:LegalResource](http://data.europa.eu/eli/ontology#LegalResource)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Teisės aktas, kurio pagrindu yra valdomas ir tvarkomas duomenų rinkinys.</td>
-    </tr>
-
-	<!-- trūko 'follows' -->
-	<tr>
-        <td>Laikosi</td>
-        <td>[cpsv:follows](http://purl.org/vocab/cpsv#follows)</td>
-        <td>[cpsv:Rule](https://joinup.ec.europa.eu/solution/core-public-servicevocabulary)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Ši ypatybė susieja duomenų rinkinį su taisykle, kuri apibrėžia jo teisinį pagrindą.</td>
-    </tr>
-	<!-- trūko 'hasPart' -->
-	<tr>
-		<td>Turi dalį</td>
-		<td>[dct:hasPart](http://purl.org/dc/terms/hasPart)</td>
-        <td>[dcat:Dataset](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset)</td>
-        <td>0..n</td>
-        <td>IS kontekste, šiuo ryšiu gali būti įprasminamos valstybės informacinės sistemos ar registro reikšmingų veiklos sričių ar posistemių dalys.</td>
-        <td>Ši savybė nurodo susijusį duomenų rinkinį, kuris yra aprašyto duomenų rinkinio dalis.</td>
-	</tr>
-	<!-- trūko 'hasQualityAnnotation' -->
-	<tr>
-		<td>Turi kokybės anotaciją</td>
-		<td>[dqv:hasQualityAnnotation](http://www.w3.org/ns/dqv#hasQualityAnnotation)</td>
-        <td>[dqv:QualityAnnotation](https://www.w3.org/TR/vocab-dqv/#dqv:QualityAnnotation)</td>
-        <td>0..1</td>
-        <td>-</td>
-        <td>Nurodo, kiek nuoseklus yra duomenų rinkinys visoje sistemoje.</td>
-	</tr>
-	<!-- trūko 'hasQualityMeasurement' -->
-	<tr>
-		<td>Turi kokybės matavimą</td>
-		<td>[dqv:hasQualityMeasurement](http://www.w3.org/ns/dqv#hasQualityMeasurement)</td>
-        <td>[dqv:QualityMeasurement](https://www.w3.org/TR/vocab-dqv/#dqv:QualityMeasurement)</td>
-        <td>0..1</td>
-        <td>-</td>
-        <td>Nurodo, kaip patikimas yra pateiktas duomenų rinkinys.</td>
-	</tr>
-	<!-- trūko 'isReplacedBy' -->
-	<tr>
-		<td>Yra pakeistas</td>
-		<td>[dct:isReplacedBy](http://purl.org/dc/terms/isReplacedBy)</td>
-        <td>[dcat:Dataset](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Ši ypatybė nurodo susijusį duomenų rinkinį, kuris egiztuojantį duomenų rinkinį.</td>
-	</tr>
-	<!-- trūko 'isRequiredBy' -->
-	<tr>
-		<td>Yra reikalaujamas</td>
-		<td>[dct:isRequiredBy](http://purl.org/dc/terms/isRequiredBy)</td>
-        <td>[dcat:Dataset](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Ši ypatybė nurodo susijusį duomenų rinkinį, kuriam reikalingas duomenų rinkinys.</td>
-	</tr>
-	<!-- trūko 'references' -->
-	<tr>
-		<td>Nurodo</td>
-		<td>[dct:references](http://purl.org/dc/terms/references)</td>
-        <td>[rdfs:Resource](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Resource)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Ši ypatybė pateikia tinklalapį su ryšio aprašu su kitu ištekliumi, kurį nurodo duomenų rinkinys. Ši ypatybė yra atvirkštinė dct:isReferencedBy. </td>
-	</tr>
-	<!-- trūko 'replaces' -->
-	<tr>
-		<td>Pakeičia</td>
-		<td>[dct:replaces](http://purl.org/dc/terms/replaces)</td>
-        <td>[dcat:Dataset](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Ši ypatybė nurodo kitą duomenų rinkinį, kurį pakeičia duomenų rinkinys.</td>
-	</tr>
-	<!-- trūko 'requires' -->
-	<tr>
-		<td>Reikalauja</td>
-		<td>[dct:requires](http://purl.org/dc/terms/requires)</td>
-        <td>[dcat:Dataset](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Ši ypatybė nurodo kitą duomenų rinkinį, kurio reikia duomenų rinkiniui.</td>
-	</tr>
-	<!-- trūko 'versionInfo' -->
-	<tr>
-		<td>Versijos informacija</td>
-		<td>[owl:versionInfo](http://www.w3.org/2002/07/owl#versionInfo)</td>
-        <td>[rdfs:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Literal)</td>
-        <td>0..1</td>
-        <td>-</td>
-        <td>Šioje ypatybėje yra versijos numeris arba kita informacija apie duomenų rinkinio versiją.</td>
-	</tr>
- </table>
-
-
 ## Duomenų paslauga
 
  <table class="data-table simple">
@@ -1072,167 +405,6 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
            
         </table>
 
- <table class="data-table simple">
-         
-            <tr class="data-table__header">
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
-                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
-            </tr>
-<br></br>
-<tr>
-        <td>Identifikatorius</td>
-        <td>[dct:identifier](http://purl.org/dc/terms/identifier)</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>1..1</td>
-        <td>-</td>
-        <td>Šioje savybėje nurodomas duomenų paslaugos identifikatorius.</td>
-    </tr>
-	<tr>
-        <td>Prieigos taško aprašas</td>
-        <td>[dcat:endpointDescription](http://www.w3.org/ns/dcat#endpointDescription)</td>
-        <td>[rdfs:Resource]()</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Šioje savybėje pateikiamas paslaugų, prieinamų per galinius taškus, aprašymas, įskaitant jų operacijas, parametrus ir t. t. Pastaba. Šioje savybėje pateikiama konkreti informacija apie tikruosius galinių taškų egzempliorius, o dcterms:conformsTo naudojama bendram standartui ar specifikacijai, kurią galiniai taškai įgyvendina, nurodyti.</td>
-    </tr>
-<tr>
-        <td>Raktažodis / žyma</td>
-        <td>[dcat:keyword](http://www.w3.org/ns/dcat#keyword)</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Šioje savybėje pateikiamas duomenų paslaugą apibūdinantis raktažodis arba žyma.</td>
-    </tr>
-
-<tr>
-        <td>Aprašas</td>
-        <td>[dct:description](http://purl.org/dc/terms/description)</td>
-        <td>[rfds:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Literal)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Šioje savybėje laisvu tekstu pateikiamas duomenų paslaugos aprašas. Šią savybę galima pakartoti, jei aprašas pateikiamas keliomis kalbomis.</td>
-    </tr>
-
-<tr>
-        <td>Tema / kategorija</td>
-        <td>[dcat:theme/category](http://www.w3.org/ns/dcat#theme)</td>
-        <td>[skos:Concept](https://www.w3.org/2009/08/skos-reference/skos.html#Concept)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Ši savybė nurodo duomenų paslaugos kategoriją. Duomenų paslauga gali būti susieta su keliomis temomis.</td>
-    </tr>
-
-
-<tr>
-        <td>Duomenų teikėjas</td>
-        <td>[dct:publisher](http://purl.org/dc/terms/publisher)</td>
-        <td>[foaf:Agent]()</td>
-        <td>0..1</td>
-        <td>-</td>
-        <td>Ši savybė nurodo subjektą (organizaciją), atsakingą už duomenų paslaugos prieinamumą.</td>
-    </tr>
-
-<tr>
-        <td>Pateikia duomenų rinkinį</td>
-        <td>[dct:servesDataset](http://www.w3.org/ns/dcat#servesdataset)</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Ši savybė referuoja į duomenų rinkinį, kurį duomenų paslauga platina. Pastaba: privaloma savybė, jei paslauga susijusi su didelės vertės duomenų rinkiniais.</td>
-    </tr>
-
-    <tr>
-        <td>Pavadinimas</td>
-        <td>[dct:title](http://purl.org/dc/terms/title)</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>1..n</td>
-        <td>-</td>
-        <td>Šioje savybėje pateikiamas duomenų paslaugai suteiktas pavadinimas. Galima pakartoti, jei pavadinimas pateikiamas keliomis kalbomis.</td>
-    </tr>
-  <!-- trūko 'licence' -->
-	<tr>
-        <td>Licencija</td>
-        <td>[dct:licence](http://purl.org/dc/terms/license)</td>
-        <td>[dct:LicenseDocument](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#LicenceDocument)</td>
-        <td>0..1</td>
-        <td>-</td>
-        <td>Ši savybė nurodo licenciją, pagal kurią platinama duomenų paslauga. Pastaba: privaloma savybė, jei paslauga susijusi su didelės vertės duomenų rinkiniais.</td>
-    </tr>
-	<!-- trūko 'access rights' -->
-	<tr>
-        <td>Prieigos teisės</td>
-        <td>[dct:accessRights](http://purl.org/dc/terms/accessRights)</td>
-        <td>[dct:RightsStatement]()</td>
-        <td>0..1</td>
-        <td>-</td>
-        <td>Ši savybė susijusi su informacija, kuri nurodo, ar duomenų paslauga yra atvira, ar jai taikomi prieigos apribojimai, ar ji nėra vieša.</td>
-    </tr>
-	<!-- trūko 'conforms to' -->
-	<tr>
-        <td>Atitinka</td>
-        <td>[dct:conformsTo](http://purl.org/dc/terms/conformsTo)</td>
-        <td>[dct:Standard]()</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Ši savybė nurodo įgyvendinimo taisyklę arba kitą specifikaciją.</td>
-    </tr>
-	<!-- trūko 'follows' -->
-	<tr>
-        <td>Laikosi</td>
-        <td>[cpsv:follows](http://purl.org/vocab/cpsv#follows)</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-	<!-- trūko 'landingPage' -->
-	<tr>
-        <td>Nukreipimo puslapis</td>
-        <td>[dcat:landingPage](http://www.w3.org/ns/dcat#landingPage)</td>
-        <td>[foaf:Document]()</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Ši savybė nurodo tinklalapį, kuriame galima susipažinti su duomenų paslauga, jos distribucija ir (arba) papildoma informacija. Ji skirta nukreipti į pradinio duomenų paslaugos teikėjo, o ne į trečiosios šalies, pavyzdžiui, agregatoriaus, svetainės puslapį.</td>
-    </tr>
-
-<tr>
-        <td>Tipas</td>
-        <td>[dct:type](http://purl.org/dc/terms/type)</td>
-        <td>[skos:Concept](https://www.w3.org/2009/08/skos-reference/skos.html#Concept)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Ši savybė nurodo duomenų paslaugos tipą. Numatytas rekomenduojamas kontroliuojamo žodyno duomenų paslaugos tipas.</td>
-    </tr>
-
-    <tr>
-        <td>Paslaugos kokybė</td>
-        <td>[foaf:page](http://xmlns.com/foaf/0.1/page)</td>
-        <td>[foaf:Document](http://xmlns.com/foaf/0.1/Document)</td>
-        <td>1..n</td>
-        <td>-</td>
-        <td>Ši savybė leidžia nurodyti tinklalapį, kuriame pateikiama išsami informacija apie teikiamos paslaugos kokybę bei kita aktuali informacija. Privaloma savybė, jei paslauga susijusi su didelės vertės duomenų rinkiniais.</td>
-    </tr>
-    <tr>
-        <td>Kontaktinė informacija</td>
-        <td>[dcat:contactPoint](http://www.w3.org/ns/dcat#contactPoint)</td>
-        <td>[vcard:Kind](http://www.w3.org/2006/vcard/ns#Kind)</td>
-        <td>1..n</td>
-        <td>-</td>
-        <td>Šioje savybėje pateikiama kontaktinė informacija, kurią galima naudoti siunčiant pastabas apie duomenų paslaugą.</td>
-    </tr>
-    <tr>
-        <td>Tinklalapis</td>
-        <td>[dcat:endpointURL]()></td>
-        <td>[rdfs:Resource](http://www.w3.org/2000/01/rdf-schema#Resource)</td>
-        <td>1..n</td>
-        <td>-</td>
-        <td>Šioje savybėje galinio punkto URL turi būti nuolatinis. Tai reiškia, kad leidėjai turėtų daryti viską, kad išlaikytų stabilią ir esamą vertę.</td>
-    </tr>
-    </table>
 
 ## Kategorija, Teikėjo tipas, Statusas
 
@@ -1274,227 +446,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
            
         </table>
 
- <table class="data-table simple">
-         
-            <tr class="data-table__header">
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
-                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
-            </tr>
-<br></br>
-            <tr>
-        <td>Prieigos URL</td>
-        <td>[dcat:accessURL]()</td>
-        <td>[rdfs:Resource](http://www.w3.org/2000/01/rdf-schema#Resource)</td>
-        <td>1..n</td>
-        <td>-</td>
-        <td>Šioje savybėje pateikiamas URL, kuris suteikia prieigą prie duomenų rinkinio platinimo.</td>
-    </tr>
-    <tr>
-        <td>Licencija</td>
-        <td>[dct:license](http://purl.org/dc/terms/license)</td>
-        <td>[dct:LicenseDocument](http://purl.org/dc/terms/LicenseDocument)</td>
-        <td>1..1</td>
-        <td>-</td>
-        <td>Ši savybė nurodo licenciją, pagal kurią platinama distribucija.</td>
-    </tr>
-	<tr>
-        <td>Prieinamumas</td>
-        <td>[dcatap:availability](http://data.europa.eu/r5r/availability)</td>
-        <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
-        <td>0..1</td>
-        <td>-</td>
-        <td>Nurodoma, kiek laiko planuojama išlaikyti duomenų rinkinio platinimą.</td>
-    </tr>
-	<!-- trūko 'Description' -->
-	<tr>
-        <td>Aprašas</td>
-        <td>[dct:description](http://purl.org/dc/terms/description)</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Šioje savybėje laisvu tekstu pateikiamas pateikties aprašas. Šią savybę galima pakartoti, jei aprašoma keliomis (lygiagrečiomis) kalbomis.</td>
-    </tr>
-	<!-- trūko 'format' -->
-	<tr>
-        <td>Formatas</td>
-        <td>[dct:format](http://purl.org/dc/terms/format)</td>
-        <td>[dct:MediaTypeOrExtent](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#MediaTypeorExtent)</td>
-        <td>0..1</td>
-        <td>-</td>
-        <td>Pateikties failų formatas.</td>
-    </tr>
-	<!-- trūko 'access service' -->
-	<tr>
-        <td>Prieigos paslauga</td>
-        <td>[dcat:accessService](http://www.w3.org/ns/dcat#accessService)</td>
-        <td>[dcat:DataService](http://www.w3.org/ns/dcat#DataService)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Ši savybė nurodo duomenų paslaugą per kurią prieinama duomenų pateiktis</td>
-    </tr>
-	<!-- trūko 'byte size' -->
-	<tr>
-        <td>Dydis baitais</td>
-        <td>[dcat:byteSize](http://www.w3.org/ns/dcat#byteSize)</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>0..1</td>
-        <td>-</td>
-        <td>Ši savybė nurodo pateikties dydį baitais. Tai turi būti
-įvesta kaip xsd:decimal.</td>
-    </tr>
-	<!-- trūko 'downloadURL' -->
-	<tr>
-        <td>parsisiuntimo URL</td>
-        <td>[dcat:downloadURL](http://www.w3.org/ns/dcat#downloa)</td>
-        <td>[rdfs:Resource](http://www.w3.org/2000/01/rdf-schema#Resource)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Šioje nuosavybėje yra URL, kuris yra tiesioginė nuoroda į atsisiunčiamą failą.</td>
-    </tr>
-	<tr>
-    <td>medijos tipas</td>
-		<td>[dcat:mediaType](http://purl.org/dc/terms/mediaType)</td>
-		<td>[dct:MediaType]()</td>
-		<td>0..1</td>
-		<td>-</td>
-		<td>Ši savybė nurodo platinimo laikmenos tipą, kaip apibrėžta
-IANA valdomas žodynas</td>
-	</tr>
-	
-	<tr>
-		<td>kontrolinė suma</td>
-		<td>[spdx:checksum](http://spdx.org/rdf/terms#checksum)</td>
-		<td>[spdx:Checksum](http://spdx.org/rdf/terms#Checksum)</td>
-		<td>0..1</td>
-		<td>-</td>
-		<td>Ši savybė suteikia mechanizmą, leidžiantį patikrinti 
-Pateikties turinio vientisumą.</td>
-	</tr>
-	<tr>
-		<td>suspaudimo formatas</td>
-		<td>[dcat:compressFormat](http://www.w3.org/ns/dcat#compressFormat)</td>
-		<td>[dct:MediaType]()</td>
-		<td>0..1</td>
-		<td>-</td>
-		<td>Ši savybė nurodo failo, kuriame yra duomenys, formatą
-esantys suspaustoje formoje, pvz. sumažinti dydį
-atsisiunčiamą failą.</td>
-	</tr>
-	<tr>
-		<td>turi politiką</td>
-		<td>[odrl:hasPolicy](http://www.w3.org/ns/odrl/2/hasPolicy)</td>
-		<td>[odrl:Policy]()</td>
-		<td>0..1</td>
-		<td>-</td>
-		<td>Ši nuosavybė reiškia politiką, išreiškiančią su pateiktimi susijusias teises, jei naudojamas ODRL žodynas.</td>
-	</tr>
-	<tr>
-		<td>išleista</td>
-		<td>[dct:issued](http://purl.org/dc/terms/issued)</td>
-		<td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-		<td>0..1</td>
-		<td>-</td>
-		<td>Ši savybė nurodo datą, kai pateiktis buvo pirmą kartą
-išleista.</td>
-	</tr>
-	<tr>
-		<td>atnaujinimo / pakeitimo data</td>
-		<td>[dct:modified](http://purl.org/dc/terms/modified)</td>
-		<td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-		<td>0..1</td>
-		<td>-</td>
-		<td>Šioje savybėja nurodoma pateikties naujausio pakeitimo / atnaujinimo data</td>
-	</tr>
-	<tr>
-		<td>kalba</td>
-		<td>[dct:language](http://purl.org/dc/terms/language)</td>
-		<td>dct:LinguisticSystem</td>
-		<td>0..1</td>
-		<td>Ši savybė turėtų būti kartojama, jei yra įvairių pateikties versijų skirtingomis kalbomis</td>
-		<td>Ši savybė nurodo pateikties duomenų kalbą. </td>
-	</tr>
-	<tr>
-		<td>susijusi schema</td>
-		<td>[dct:conformsTo](http://purl.org/dc/terms/conformsTo)</td>
-		<td>[dct:Standard]()</td>
-		<td>0..n</td>
-		<td>-</td>
-		<td>Ši savybė nurodo nustatytą schemą, kurią atitinka aprašoma pateiktis.</td>
-	</tr>
-	<tr>
-		<td>(failų) pakavimo formatas</td>
-		<td>[dcat:packageFormat](http://www.w3.org/ns/dcat#packageFormat)</td>
-		<td>[dct:MediaType]()</td>
-		<td>0..1</td>
-		<td>-</td>
-		<td>Ši savybė nurodo failo, kuriame yra vienas ar daugiau duomenų, formatą
-failai sugrupuoti, pvz. kad būtų įjungtas susijusių failų rinkinys
-atsisiųsta kartu. Jis TURĖTŲ būti išreikštas naudojant laikmenos tipą kaip
-apibrėžtas oficialiame IANA tvarkomame žiniasklaidos tipų registre.</td>
-	</tr>
-	<tr>
-		<td>puslapis (dokumentacija)</td>
-		<td>[foaf:page](http://xmlns.com/foaf/0.1/page)</td>
-		<td>foaf:Document</td>
-		<td>-0..n</td>
-		<td>-</td>
-		<td>Ši savybė nurodo į dokumentą su informacija apie platinimą.</td>
-	</tr>
-	<tr>
-		<td>teisės</td>
-		<td>[dct:rights](http://purl.org/dc/terms/rights)</td>
-		<td>dct:RightsStatement</td>
-		<td>0..1</td>
-		<td>-</td>
-		<td>Ši savybė nurodo informacinį pareiškimą, kuriame nurodytos prieigos
-ir pateikties valdymo teisės.</td>
-	</tr>
-	<tr>
-		<td>erdvinė skiriamoji geba (metrais)</td>
-		<td>[dcat:spatialResolutionInMeters](http://www.w3.org/ns/dcat#spatialResolutionInMeters)</td>
-		<td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-		<td>0..n</td>
-		<td>-</td>
-		<td>Ši savybė nurodo minimalią erdvinę skiriamąją gebą, matuojamą metrais.</td>
-	</tr>
-	<tr>
-		<td>statusas</td>
-		<td>[adms:status](http://www.w3.org/ns/adms#status)</td>
-		<td>skos:Concept</td>
-		<td>0..1</td>
-		<td>-</td>
-		<td>Nurodomas pateikties brandos lygmuo</td>
-	</tr>
-	<tr>
-		<td>pavadinimas</td>
-		<td>[dct:title](http://purl.org/dc/terms/title)</td>
-		<td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-		<td>0..n</td>
-		<td>-</td>
-		<td>Šioje nuosavybėje yra aprašomasis pateikties pavadinimas. 
-</td>
-	</tr>
-	<tr>
-		<td>laiko skiriamoji geba</td>
-		<td>[dcat:temporalResolution](http://www.w3.org/ns/dcat#temporalResolution)</td>
-		<td>[xsd:duration](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-		<td>0..n</td>
-		<td>-</td>
-		<td>Ši savybė nurodo minimalią laiko skiriamąją gebą.</td>
-	</tr>	
-	<tr>
-        <td>Licencija</td>
-        <td>[dct:license](http://purl.org/dc/terms/license)</td>
-        <td>[dct:LicenseDocument](http://purl.org/dc/terms/LicenseDocument)</td>
-        <td>1..1</td>
-        <td>-</td>
-        <td>Ši savybė nurodo licenciją, pagal kurią platinama distribucija.</td>
-    </tr>
-   </table>
+
 
 ## Licencijos dokumentas
 
@@ -1513,27 +465,6 @@ ir pateikties valdymo teisės.</td>
             </tr>
            
         </table>
-
- <table class="data-table simple">
-         
-            <tr class="data-table__header">
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
-                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
-            </tr>
-<br></br>
-              <tr>
-        <td>Tipas</td>
-        <td>[dct:type](http://purl.org/dc/terms/type)</td>
-        <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Ši savybė nurodo licencijos dokumento tipą. Numatytas rekomenduojamas kontroliuojamo žodyno duomenų tipas.</td>
-    </tr>
-</table>
 
 
 ## Kategorijų schema
@@ -1554,27 +485,7 @@ ir pateikties valdymo teisės.</td>
            
         </table>
 
- <table class="data-table simple">
-         
-            <tr class="data-table__header">
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
-                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
-            </tr>
-<br></br>
-            <tr>
-        <td>Pavadinimas</td>
-        <td>[dct:title](http://purl.org/dc/terms/title)</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>1..n</td>
-        <td>-</td>
-        <td>Kategorijos schemos pavadinimas.</td>
-    </tr>
-</table>
-
+ 
 
 ## Teisinis šaltinis
 
@@ -1596,58 +507,6 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
            
         </table>
 
- <table class="data-table simple">
-         
-            <tr class="data-table__header">
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
-                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
-            </tr>
-<br></br>
-             <tr>
-        <td>Tipas</td>
-        <td>[dct:type]()</td>
-        <td>[eli:ResourceType]()</td>
-        <td>1..n</td>
-        <td>-</td>
-        <td>Ši savybė nurodo teisinio ištekliaus tipą (pvz., "Direktyva", „Règlement grand ducal“, „įstatymas“, „Règlement ministériel“, „projektas pasiūlymas“, „Parlamento aktas“ ir t. t.). Valstybės narės raginamos sudaryti savo teisės aktų sąrašą atitinkamoje sąvokų schemoje.</td>
-    </tr>
-    <tr>
-        <td>Aprašas</td>
-        <td>[dct:description]()</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Šioje savybėje pateikiama aprašomoji tekstinė informacija apie teisinį išteklių. Šią savybę reikėtų pakartoti, jei yra įvairių teksto versijų skirtingomis kalbomis.</td>
-    </tr>
-    <tr>
-        <td>Identifikatorius</td>
-        <td>[dcterms:identifier]()</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Šioje savybėje pateikiamas taisyklės identifikatorius.</td>
-    </tr>
-    <tr>
-        <td>Nuoroda</td>
-        <td>[rdfs:seeAlso](http://www.w3.org/2000/01/rdf-schema#seeAlso)</td>
-        <td>[rdfs:Resource](http://www.w3.org/2000/01/rdf-schema#Resource)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Ši savybė aprašo išteklių, susijusį su konkrečiu aprašomu teisiniu ištekliu.</td>
-    </tr>
-    <tr>
-        <td>Susijęs</td>
-        <td>[dcterms:relation]()</td>
-        <td>[eli:LegalResource](http://data.europa.eu/eli/ontology#LegalResource)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Ši savybė reiškia kitą teisinių išteklių klasės egzempliorių, susijusį su konkrečiu aprašomu teisiniu ištekliu.</td>
-    </tr>
-</table>
 
 ## Taisyklė
 
@@ -1667,67 +526,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
            
         </table>
 <br>
-       <table class="data-table simple">
-         
-            <tr class="data-table__header">
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
-                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
-            </tr>
-<br></br>
-             <tr>
-        <td>Aprašymas</td>
-        <td>[dct:description](http://purl.org/dc/terms/description)</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>1..n</td>
-        <td>-</td>
-        <td>Šioje savybėje pateikiama aprašomoji tekstinė informacija apie taisyklę. Ši savybė turėtų būti kartojama, jei yra įvairių teksto versijų skirtingomis kalbomis.</td>
-    </tr>
-    <tr>
-        <td>Identifikatorius</td>
-        <td>[dct:identifier](http://purl.org/dc/terms/identifier)</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>1..1</td>
-        <td>-</td>
-        <td>Šioje savybėje nurodomas taisyklės identifikatorius.</td>
-    </tr>
-    <tr>
-        <td>Pavadinimas</td>
-        <td>[dct:title](http://purl.org/dc/terms/title)</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>1..n</td>
-        <td>-</td>
-        <td>Ši savybė nurodo aprašomąjį ištekliaus pavadinimą arba vardą. Šis savybė turėtų būti kartojama, jei yra įvairių teksto versijų skirtingomis kalbomis.</td>
-    </tr>
-      <tr>
-        <td>Įgyvendina</td>
-        <td>[cpsv:implements](http://purl.org/vocab/cpsv#implements)</td>
-        <td>[eli:LegalResource](http://data.europa.eu/eli/ontology#LegalResource)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Ši savybė susieja taisyklę su atitinkamais teisės aktais ar politikos dokumentais, pvz. teisinį šaltinį, kuriame apibrėžtos taisyklės.</td>
-    </tr>
-    <tr>
-        <td>Kalba</td>
-        <td>[dct:language](http://purl.org/dc/terms/language)</td>
-        <td>[dct:LinguisticSystem](http://purl.org/dc/terms/LinguisticSystem)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Ši savybė nurodo kalbą (-as), kuria (-iomis) galima naudotis taisykle. Ji gali būti viena ar kelios kalbos, pvz., šalyse, kuriose yra daugiau kalbų, nei viena oficiali kalba.</td>
-    </tr>
-    <tr>
-        <td>Tipas</td>
-        <td>[dct:type](http://purl.org/dc/terms/type)</td>
-        <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Ši savybė nurodo taisyklės tipą. Joje turi būti naudojamas kontroliuojama žodynas.</td>
-    </tr>
-
-  </table>
+   
 
 
 ## Viešoji institucija
@@ -1747,75 +546,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
             </tr>
            
         </table>
-         <table class="data-table simple">
-         
-            <tr class="data-table__header">
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
-                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
-            </tr>
-<br></br>
-             <tr>
-        <td>Identifikatorius</td>
-        <td>[dct:identifier]</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>1..1</td>
-        <td>-</td>
-        <td>Ši savybė nurodo Agento identifikatorių.</td>
-    </tr>
-    <tr>
-        <td>Pavadinimas</td>
-        <td>[dct:title](http://purl.org/dc/terms/title)</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>1..1</td>
-        <td>-</td>
-        <td>Ši savybė nurodo institucijos pavadinimą.</td>
-    </tr>
-    <tr>
-        <td>Pageidaujama antraštė</td>
-        <td>skos:prefLabel<br>rdfs:Literal</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>1..n</td>
-        <td>-</td>
-        <td>Ši savybė naudojama organizacijai pavadinti, jei naudojamas pageidaujamas pavadinimą. Šią savybę reikėtų pakartoti, jei pateikiama keliomis kalbomis.</td>
-    </tr>
-    <tr>
-        <td>Geografinė vietovė</td>
-        <td>dct:spatial<br></td>
-        <td>[dct:Location](http://purl.org/dc/terms/Location)</td>
-        <td>1..n</td>
-        <td>-</td>
-        <td>Ši savybė nurodo geografinį arba administracinį regioną, kurį apima institucija. Šios savybės reikšmė turėtų būti URI iš Administracinio teritorinių vienetų pavadintų institucijų sąrašo, kurį tvarko Leidinių biuro Metaduomenų registras.</td>
-    </tr>
-    <tr>
-        <td>Adresas</td>
-        <td>[locn:address](http://www.w3.org/ns/locn#address)</td>
-        <td>[locn:Address](http://www.w3.org/ns/locn#Address)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Ši savybė nurodo adresą, kaip konceptualiai apibrėžta INSPIRE adreso atvaizdavimo duomenų tipu.</td>
-    </tr>
-    <tr>
-        <td>Klasifikacija</td>
-        <td>org:classification<br>rdfs:Literal</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Ši savybė Nurodo institucijos klasifikaciją pagal tam tikrą klasifikavimo schemą.</td>
-    </tr>
-    <tr>
-        <td>Pagrindinis puslapis</td>
-        <td>[foaf:homepage](http://xmlns.com/foaf/0.1/homepage)</td>
-        <td>[foaf:Document](http://xmlns.com/foaf/0.1/Document)</td>
-        <td>0..1</td>
-        <td>-</td>
-        <td>Ši savybė kreipia į institucijos pagrindinę interneto svetainę.</td>
-    </tr>
-
-          </table>
+        
 
 
 ## Informacinės sistemos paslauga
@@ -1855,90 +586,6 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
            
         </table>
 <br>
- <table class="data-table simple">
-         
-            <tr class="data-table__header">
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:65%">Aprašymas</th>
-            </tr>
-<br></br>
-             <tr>
-        <td>Pagrindinė tema</td>
-        <td>[foaf:primaryTopic]()</td>
-        <td>[dcat:Dataset](http://www.w3.org/ns/dcat#Dataset)<br>[dcat:Dataservice](http://www.w3.org/ns/dcat#DataService)<br>[dcat:Catalog](http://www.w3.org/ns/dcat#Catalog)</td>
-        <td>1..1</td>
-        <td>-</td>
-        <td>Nuoroda į įraše aprašytą duomenų rinkinį, duomenų paslaugą arba katalogą. Katalogo įrašas bus nuoroda į vieną katalogo vienetą. Tai gali būti duomenų rinkinys arba duomenų paslauga.</td>
-    </tr>
-    <tr>
-        <td>Pakeitimo data</td>
-        <td>[dct:modified]()</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>1..1</td>
-        <td>-</td>
-        <td>Šioje savybėje nurodoma naujausia katalogo įrašo pakeitimo arba modifikavimo data.</td>
-    </tr>
-    <tr>
-        <td>Taikymo profilis</td>
-        <td>[dcterms:conformsTo](http://purl.org/dc/terms/conformsTo)</td>
-        <td>[dct:Standard](http://purl.org/dc/terms/Standard)</td>
-        <td>0..1</td>
-        <td>-</td>
-        <td>Taikymo profilis, kurį atitinka duomenų rinkinio metaduomenys.</td>
-    </tr>
-    <tr>
-        <td>Pokyčio tipas</td>
-        <td>adms:status<br></td>
-        <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
-        <td>0..1</td>
-        <td>-</td>
-        <td>Katalogo įrašo statusas duomenų rinkinio redakcinio srauto ir duomenų paslaugų aprašymų kontekste.</td>
-    </tr>
-    <tr>
-        <td>Įtraukimo į sąrašą data</td>
-        <td>[dct:issued](http://purl.org/dc/terms/issued)</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>0..1</td>
-        <td>-</td>
-        <td>Duomenų rinkinio aprašymo įtraukimo į katalogą data.</td>
-    </tr>
-    <tr>
-        <td>Aprašymas</td>
-        <td>dct:description<br>rdfs:Literal</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Šioje savybėje laisvu tekstu pateikiamas aprašas. Galima pakartoti, jei aprašoma keliomis kalbomis.</td>
-    </tr>
-    <tr>
-        <td>Kalba</td>
-        <td>[dct:language](http://purl.org/dc/terms/language)</td>
-        <td>[dct:LinguisticSystem](http://purl.org/dc/terms/LinguisticSystem)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Kalba, vartojama tekstiniuose metaduomenyse, apibūdinančiuose duomenų rinkinio pavadinimus, aprašymus ir t. t. Galima pakartoti, jei metaduomenys pateikiami keliomis kalbomis.</td>
-    </tr>
-    <tr>
-        <td>Pirminiai metaduomenys</td>
-        <td>[dct:source](http://purl.org/dc/terms/source)</td>
-        <td>[dcat:CatalogRecord](http://www.w3.org/ns/dcat#CatalogRecord)</td>
-        <td>0..1</td>
-        <td>-</td>
-        <td>Pirminiai (šaltinio) metaduomenys, kurie buvo naudojami kuriant duomenų rinkinio metaduomenis.</td>
-    </tr>
-    <tr>
-        <td>Pavadinimas</td>
-        <td>[dct:title](http://purl.org/dc/terms/title)</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Katalogo įrašui suteiktas pavadinimas.</td>
-    </tr>
-</table>
 
 
 ## Kontrolinė suma
