@@ -243,7 +243,7 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
     </dd>
 </dl>
 
-## Svarba (dcataplt:Importance)
+## Importance (dcataplt:Importance)
 
 <dl>
     <dt>Apibrėžimas</dt>
