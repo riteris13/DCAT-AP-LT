@@ -382,7 +382,7 @@ Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas
             <tr class="data-table__header">
                 <td>Kaupimo periodiškumas</td>
                 <td>[dcat:accrualPeriodicity](http://purl.org/dc/terms/acrualPeriodicity)</td>
-                <td>[dct:Frequency]()</td>
+                <td>[dct:Frequency](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Frequency)</td>
                 <td>0..1</td>
                 <td>-</td>
                 <td>Ši savybė nurodo registro katalogo dažnumą
@@ -1094,7 +1094,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
 	<tr>
         <td>Prieigos taško aprašas</td>
         <td>[dcat:endpointDescription](http://www.w3.org/ns/dcat#endpointDescription)</td>
-        <td>[rdfs:Resource]()</td>
+        <td>[rdfs:Resource](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Resource)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Šioje savybėje pateikiamas paslaugų, prieinamų per galinius taškus, aprašymas, įskaitant jų operacijas, parametrus ir t. t. Pastaba. Šioje savybėje pateikiama konkreti informacija apie tikruosius galinių taškų egzempliorius, o dcterms:conformsTo naudojama bendram standartui ar specifikacijai, kurią galiniai taškai įgyvendina, nurodyti.</td>
@@ -1130,7 +1130,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
 <tr>
         <td>Duomenų teikėjas</td>
         <td>[dct:publisher](http://purl.org/dc/terms/publisher)</td>
-        <td>[foaf:Agent]()</td>
+        <td>[foaf:Agent](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Agent)</td>
         <td>0..1</td>
         <td>-</td>
         <td>Ši savybė nurodo subjektą (organizaciją), atsakingą už duomenų paslaugos prieinamumą.</td>
@@ -1166,7 +1166,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
 	<tr>
         <td>Prieigos teisės</td>
         <td>[dct:accessRights](http://purl.org/dc/terms/accessRights)</td>
-        <td>[dct:RightsStatement]()</td>
+        <td>[dct:RightsStatement](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Rightsstatement)</td>
         <td>0..1</td>
         <td>-</td>
         <td>Ši savybė susijusi su informacija, kuri nurodo, ar duomenų paslauga yra atvira, ar jai taikomi prieigos apribojimai, ar ji nėra vieša.</td>
@@ -1175,7 +1175,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
 	<tr>
         <td>Atitinka</td>
         <td>[dct:conformsTo](http://purl.org/dc/terms/conformsTo)</td>
-        <td>[dct:Standard]()</td>
+        <td>[dct:Standard](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Standard)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo įgyvendinimo taisyklę arba kitą specifikaciją.</td>
@@ -1193,7 +1193,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
 	<tr>
         <td>Nukreipimo puslapis</td>
         <td>[dcat:landingPage](http://www.w3.org/ns/dcat#landingPage)</td>
-        <td>[foaf:Document]()</td>
+        <td>[foaf:Document](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Document)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo tinklalapį, kuriame galima susipažinti su duomenų paslauga, jos distribucija ir (arba) papildoma informacija. Ji skirta nukreipti į pradinio duomenų paslaugos teikėjo, o ne į trečiosios šalies, pavyzdžiui, agregatoriaus, svetainės puslapį.</td>
@@ -1226,7 +1226,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
     </tr>
     <tr>
         <td>Tinklalapis</td>
-        <td>[dcat:endpointURL]()></td>
+        <td>[dcat:endpointURL](http://www.w3.org/ns/dcat#endpointURL)></td>
         <td>[rdfs:Resource](http://www.w3.org/2000/01/rdf-schema#Resource)</td>
         <td>1..n</td>
         <td>-</td>
@@ -1287,7 +1287,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
 <br></br>
             <tr>
         <td>Prieigos URL</td>
-        <td>[dcat:accessURL]()</td>
+        <td>[dcat:accessURL](http://www.w3.org/ns/dcat#accessURL)</td>
         <td>[rdfs:Resource](http://www.w3.org/2000/01/rdf-schema#Resource)</td>
         <td>1..n</td>
         <td>-</td>
@@ -1358,7 +1358,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
 	<tr>
     <td>medijos tipas</td>
 		<td>[dcat:mediaType](http://purl.org/dc/terms/mediaType)</td>
-		<td>[dct:MediaType]()</td>
+		<td>[dct:MediaType](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Mediatype)</td>
 		<td>0..1</td>
 		<td>-</td>
 		<td>Ši savybė nurodo platinimo laikmenos tipą, kaip apibrėžta
@@ -1377,7 +1377,7 @@ Pateikties turinio vientisumą.</td>
 	<tr>
 		<td>suspaudimo formatas</td>
 		<td>[dcat:compressFormat](http://www.w3.org/ns/dcat#compressFormat)</td>
-		<td>[dct:MediaType]()</td>
+		<td>[dct:MediaType](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Mediatype)</td>
 		<td>0..1</td>
 		<td>-</td>
 		<td>Ši savybė nurodo failo, kuriame yra duomenys, formatą
@@ -1387,7 +1387,7 @@ atsisiunčiamą failą.</td>
 	<tr>
 		<td>turi politiką</td>
 		<td>[odrl:hasPolicy](http://www.w3.org/ns/odrl/2/hasPolicy)</td>
-		<td>[odrl:Policy]()</td>
+		<td>[odrl:Policy](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Policy)</td>
 		<td>0..1</td>
 		<td>-</td>
 		<td>Ši nuosavybė reiškia politiką, išreiškiančią su pateiktimi susijusias teises, jei naudojamas ODRL žodynas.</td>
@@ -1412,7 +1412,7 @@ išleista.</td>
 	<tr>
 		<td>kalba</td>
 		<td>[dct:language](http://purl.org/dc/terms/language)</td>
-		<td>dct:LinguisticSystem</td>
+		<td>[dct:LinguisticSystem](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Linguisticsystem)</td>
 		<td>0..1</td>
 		<td>Ši savybė turėtų būti kartojama, jei yra įvairių pateikties versijų skirtingomis kalbomis</td>
 		<td>Ši savybė nurodo pateikties duomenų kalbą. </td>
@@ -1420,7 +1420,7 @@ išleista.</td>
 	<tr>
 		<td>susijusi schema</td>
 		<td>[dct:conformsTo](http://purl.org/dc/terms/conformsTo)</td>
-		<td>[dct:Standard]()</td>
+		<td>[dct:Standard](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Standard)</td>
 		<td>0..n</td>
 		<td>-</td>
 		<td>Ši savybė nurodo nustatytą schemą, kurią atitinka aprašoma pateiktis.</td>
@@ -1428,7 +1428,7 @@ išleista.</td>
 	<tr>
 		<td>(failų) pakavimo formatas</td>
 		<td>[dcat:packageFormat](http://www.w3.org/ns/dcat#packageFormat)</td>
-		<td>[dct:MediaType]()</td>
+		<td>[dct:MediaType](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Mediatype)</td>
 		<td>0..1</td>
 		<td>-</td>
 		<td>Ši savybė nurodo failo, kuriame yra vienas ar daugiau duomenų, formatą
@@ -1439,7 +1439,7 @@ apibrėžtas oficialiame IANA tvarkomame žiniasklaidos tipų registre.</td>
 	<tr>
 		<td>puslapis (dokumentacija)</td>
 		<td>[foaf:page](http://xmlns.com/foaf/0.1/page)</td>
-		<td>foaf:Document</td>
+		<td>[foaf:Document](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Document)</td>
 		<td>-0..n</td>
 		<td>-</td>
 		<td>Ši savybė nurodo į dokumentą su informacija apie platinimą.</td>
@@ -1447,7 +1447,7 @@ apibrėžtas oficialiame IANA tvarkomame žiniasklaidos tipų registre.</td>
 	<tr>
 		<td>teisės</td>
 		<td>[dct:rights](http://purl.org/dc/terms/rights)</td>
-		<td>dct:RightsStatement</td>
+		<td>[dct:RightsStatement](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Rightsstatement)</td>
 		<td>0..1</td>
 		<td>-</td>
 		<td>Ši savybė nurodo informacinį pareiškimą, kuriame nurodytos prieigos
@@ -1464,7 +1464,7 @@ ir pateikties valdymo teisės.</td>
 	<tr>
 		<td>statusas</td>
 		<td>[adms:status](http://www.w3.org/ns/adms#status)</td>
-		<td>skos:Concept</td>
+		<td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
 		<td>0..1</td>
 		<td>-</td>
 		<td>Nurodomas pateikties brandos lygmuo</td>
@@ -1609,15 +1609,15 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
 <br></br>
              <tr>
         <td>Tipas</td>
-        <td>[dct:type]()</td>
-        <td>[eli:ResourceType]()</td>
+        <td>[dct:type](http://purl.org/dc/terms/type)</td>
+        <td>[eli:ResourceType](http://data.europa.eu/eli/ontology#ResourceType)</td>
         <td>1..n</td>
         <td>-</td>
         <td>Ši savybė nurodo teisinio ištekliaus tipą (pvz., "Direktyva", „Règlement grand ducal“, „įstatymas“, „Règlement ministériel“, „projektas pasiūlymas“, „Parlamento aktas“ ir t. t.). Valstybės narės raginamos sudaryti savo teisės aktų sąrašą atitinkamoje sąvokų schemoje.</td>
     </tr>
     <tr>
         <td>Aprašas</td>
-        <td>[dct:description]()</td>
+        <td>[dct:description](http://purl.org/dc/terms/description)</td>
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>0..n</td>
         <td>-</td>
@@ -1625,7 +1625,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
     </tr>
     <tr>
         <td>Identifikatorius</td>
-        <td>[dcterms:identifier]()</td>
+        <td>[dcterms:identifier](http://purl.org/dc/terms/identifier)</td>
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>0..n</td>
         <td>-</td>
@@ -1641,7 +1641,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
     </tr>
     <tr>
         <td>Susijęs</td>
-        <td>[dcterms:relation]()</td>
+        <td>[dcterms:relation](http://purl.org/dc/terms/relation)</td>
         <td>[eli:LegalResource](http://data.europa.eu/eli/ontology#LegalResource)</td>
         <td>0..n</td>
         <td>-</td>
@@ -1760,7 +1760,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
 <br></br>
              <tr>
         <td>Identifikatorius</td>
-        <td>[dct:identifier]</td>
+        <td>[dct:identifier](http://purl.org/dc/terms/identifier)</td>
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..1</td>
         <td>-</td>
@@ -1776,7 +1776,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
     </tr>
     <tr>
         <td>Pageidaujama antraštė</td>
-        <td>skos:prefLabel<br>rdfs:Literal</td>
+        <td>[skos:prefLabel](http://www.w3.org/2004/02/skos/core#prefLabel)<br>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..n</td>
         <td>-</td>
@@ -1784,7 +1784,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
     </tr>
     <tr>
         <td>Geografinė vietovė</td>
-        <td>dct:spatial<br></td>
+        <td>[dct:spatial](http://purl.org/dc/terms/spatial)</td>
         <td>[dct:Location](http://purl.org/dc/terms/Location)</td>
         <td>1..n</td>
         <td>-</td>
@@ -1800,7 +1800,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
     </tr>
     <tr>
         <td>Klasifikacija</td>
-        <td>org:classification<br>rdfs:Literal</td>
+        <td>[org:classification](http://www.w3.org/ns/org#classification)<br>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>0..n</td>
         <td>-</td>
@@ -1868,7 +1868,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
 <br></br>
              <tr>
         <td>Pagrindinė tema</td>
-        <td>[foaf:primaryTopic]()</td>
+        <td>[foaf:primaryTopic](http://xmlns.com/foaf/0.1/primaryTopic)</td>
         <td>[dcat:Dataset](http://www.w3.org/ns/dcat#Dataset)<br>[dcat:Dataservice](http://www.w3.org/ns/dcat#DataService)<br>[dcat:Catalog](http://www.w3.org/ns/dcat#Catalog)</td>
         <td>1..1</td>
         <td>-</td>
@@ -1876,7 +1876,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
     </tr>
     <tr>
         <td>Pakeitimo data</td>
-        <td>[dct:modified]()</td>
+        <td>[dct:modified](http://purl.org/dc/terms/modified)</td>
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..1</td>
         <td>-</td>
@@ -1892,7 +1892,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
     </tr>
     <tr>
         <td>Pokyčio tipas</td>
-        <td>adms:status<br></td>
+        <td>[adms:status](http://www.w3.org/ns/adms#status)</td>
         <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
         <td>0..1</td>
         <td>-</td>
@@ -1908,7 +1908,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
     </tr>
     <tr>
         <td>Aprašymas</td>
-        <td>dct:description<br>rdfs:Literal</td>
+        <td>[dct:description](http://purl.org/dc/terms/description)<br>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>0..n</td>
         <td>-</td>
@@ -1980,7 +1980,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
     </tr>
     <tr>
         <td>Kontrolinės sumos reikšmė</td>
-        <td>spdx:checksumValue<br>rdfs:Literal</td>
+        <td>[spdx:checksumValue](http://spdx.org/rdf/terms#checksumValue)<br>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..1</td>
         <td>-</td>
@@ -2075,7 +2075,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
 <br></br>
             <tr>
         <td>Žymėjimas</td>
-        <td>skos:notation<br>rdfs:Literal</td>
+        <td>[skos:notation](http://www.w3.org/2004/02/skos/core#notation)<br>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..1</td>
         <td>-</td>
