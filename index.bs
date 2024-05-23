@@ -82,7 +82,7 @@ Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas
 
 # Pagrindinės esybės
 
-## Informacinė Sistema
+## Informacinė Sistema (dcataplt:InformationSystem)
 
 <dl>
     <dt>Apibrėžimas</dt>
@@ -123,7 +123,7 @@ Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas
     </dd>
 </dl>
 
-## Svarba
+## Svarba (dcataplt:Importance)
 
 <dl>
     <dt>Apibrėžimas</dt>
@@ -161,7 +161,7 @@ Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas
     </dd>
 </dl>
 
-## Tipas
+## Tipas (dcataplt:Type)
 
 <dl>
     <dt>Apibrėžimas</dt>
