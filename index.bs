@@ -55,7 +55,7 @@ DCAT-AP-LT 0.1
 
 # Licencija
 
-Licence.
+Šio modelio medžiaga skelbiama pagal CC-BY 4.0 licenciją, nebent pažymėta kitaip.
 
 # Terminologija
 
