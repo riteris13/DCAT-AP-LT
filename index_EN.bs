@@ -332,9 +332,9 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
-                <td>[Katalogas](http://www.w3.org/ns/dcat#Catalog)</td>
-                <td>Katalogas arba saugykla, kurioje saugomi aprašomi duomenų rinkiniai arba duomenų paslaugos.</td>
-                <td>Šia klase apibūdinama konkreti informacinė sistema – valstybės informacinė sistema ar registras, kurio apimtyje yra tvarkomi duomenų rinkiniai.</td>
+                <td>[Catalog](http://www.w3.org/ns/dcat#Catalog)</td>
+                <td>A directory or repository that stores descriptive datasets or data services</td>
+                <td>This class describes a specific information system - a state information system or register, the scope of which includes data sets.</td>
                 <td>[dcat:Catalog](http://www.w3.org/ns/dcat#Catalog)</td>
             </tr>
  </table>
@@ -344,62 +344,61 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
 </dl>
 
 
-## Agentas
+## Agent
 
 
  <table class="data-table simple">
             <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Class</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Description</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Context</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
-                <td>Agentas</td>
-                <td>Bet kuris subjektas, atliekantis veiksmus, susijusius su pagrindinėmis (angl. Core) klasėmis: Katalogas, Duomenų rinkinys, Duomenų paslauga ir Distribucija.</td>
+                <td>Agent</td>
+                <td>Any entity that performs actions related to the Core classes: Catalog, Dataset, Data Service, and Distribution.</td>
                 <td>-</td>
                 <td>[foaf:Agent](http://xmlns.com/foaf/0.1/Agent)</td>
             </tr>
   </table>
 
 
-## Duomenų rinkinys
+## Dataset
 
   <table class="data-table simple">
             <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Class</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Description</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Context</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
-                <td>Duomenų rinkinys</td>
-                <td>Koncepcinė klasė, aprašanti kaupiamą / teikiamą informaciją. Sujungia katalogą su duomenų rinkiniu, kuris yra katalogo dalis.</td>
-                <td>Šios klasės egzemplioriais apibūdinami  duomenų rinkiniai, tvarkomi informacinės sistemos apimtyje.
-Kiekvienas duomenų rinkinys per katalogo įrašo sąryšį CatalogRecord, priskiriamas vienam informacinės sistemos (Catalog) atvejui.
-Tokiu būdu aprašomi konkretūs duomenų rinkiniai, valdomi ir tvarkomi konkrečios informacinės sistemos apimtyje. 
-Konkretaus duomenų rinkinio (Dataset) registravimo pagrindas informacinės sistemos (Catalog) apimtyje yra informacinės sistemos nuostatų patvirtinimas (IS gyvavimo ciklo metodikoje apibrėžta tvarka). 
-Kiekvienas duomenų rinkinys įprasmina tam tikrą valstybės informacinės sistemos ar registro nuostatuose įvardintiną informacinės struktūros dalį. 
-Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklos apimtyje suvokiama prasminga ir reikšminga koncepcija, apibūdinama reikšmingomis Propertymis/ atributais.
-</td>
+                <td>Dataset</td>
+                <td>A conceptual class that describes the information being collected/provided. Associates a directory with a dataset that is part of the directory.</td>
+                <td>Instances of this class describe data sets managed within the scope of the information system.
+Each data set is assigned to one instance of the information system (Catalog) through the catalog record link CatalogRecord.
+In this way, specific data sets are described, controlled and managed within the scope of a specific information system. 
+The basis for registering a specific data set (Dataset) in the scope of the information system (Catalog) is the approval of the provisions of the information system (the procedure defined in the methodology of the IS life cycle). 
+Each data set gives meaning to a certain part of the information structure to be named in the regulations of the state information system or register. 
+The data set is distinguished and formulated as a meaningful and significant concept in the scope of the information system activity, described by significant properties/attributes.</td>
                 <td>[dcat:Dataset](http://www.w3.org/ns/dcat#Dataset)</td>
             </tr>
            
         </table>
 
 
-## Duomenų paslauga
+## Data Service
 
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Description</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Context</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
-                <td>Duomenų paslauga</td>
-                <td>Operacijų rinkinys, suteikiantis prieigą prie vieno ar daugiau duomenų rinkinių arba duomenų apdorojimo funkcijų.</td>
+                <td>Data Service</td>
+                <td>A set of operations that provide access to one or more data sets or data processing functions.</td>
                 <td>-</td>
                 <td>[dcat:DataService](http://www.w3.org/ns/dcat#DataService)</td>
             </tr>
@@ -412,9 +411,9 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Description</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Context</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
                 <td>Kategorija, Teikėjo tipas, Statusas</td>
@@ -431,9 +430,9 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:20%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:40%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Description</th>
+                <th class="data-table__header-title--sortable" style="width:40%">Context</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
                 <td>Pateiktis</td>
@@ -454,9 +453,9 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Description</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Context</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
                 <td>Licencijos dokumentas</td>
@@ -473,9 +472,9 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Description</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Context</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
                 <td>Kategorijų schema</td>
@@ -493,9 +492,9 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Description</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Context</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
                 <td>Teisinis šaltinis</td>
@@ -514,9 +513,9 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Description</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Context</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
                 <td>Taisyklė (Rule)</td>
@@ -535,9 +534,9 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
           <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Description</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Context</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
                 <td>Viešoji insitucija (PublicOrganisation)</td>
@@ -555,9 +554,9 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Description</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Context</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
                 <td>Informacinės sistemos paslauga</td>
@@ -574,13 +573,13 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Description</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Context</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
                 <td>Katalogo įrašas</td>
-                <td>Duomenų rinkinio įrašo kataloge aprašas.</td>
+                <td>Duomenų rinkinio įrašo kataloge Description.</td>
                 <td> - </td>
                 <td>[dcat:CatalogRecord](http://www.w3.org/ns/dcat#CatalogRecord)</td>
             </tr>
@@ -594,9 +593,9 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Description</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Context</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
                 <td>Kontrolinė suma</td>
@@ -611,10 +610,10 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
          
             <tr class="data-table__header">
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Property</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Range</th>
                 <th class="data-table__header-title--sortable" style="width:10%">Range</th>
                 <th class="data-table__header-title--sortable" style="width:5%">Card</th>
-                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Context</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Description</th>
             </tr>
 <br></br>
@@ -641,9 +640,9 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Description</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Context</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
                 <td>Dokumentas</td>
@@ -658,10 +657,10 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
          
             <tr class="data-table__header">
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Property</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Range</th>
                 <th class="data-table__header-title--sortable" style="width:10%">Range</th>
                 <th class="data-table__header-title--sortable" style="width:5%">Card</th>
-                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Context</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Description</th>
             </tr>
 </table>
@@ -672,9 +671,9 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Description</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Context</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
              <tr class="data-table__header">
         <td>Dažnis</td>
@@ -692,9 +691,9 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Description</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Context</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr>
             <td>Identifikatorius</td>
@@ -714,10 +713,10 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
          
             <tr class="data-table__header">
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Property</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Range</th>
                 <th class="data-table__header-title--sortable" style="width:10%">Range</th>
                 <th class="data-table__header-title--sortable" style="width:5%">Card</th>
-                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Context</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Description</th>
             </tr>
 <br></br>
@@ -737,9 +736,9 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:30%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:30%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:30%">Description</th>
+                <th class="data-table__header-title--sortable" style="width:30%">Context</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Range</th>
           <tr>
         <td>Rūšis</td>
         <td>Pagal vCard specifikaciją, pvz., kontaktinio asmens telefono numeriui ir el. pašto adresui nurodyti.</td>
@@ -755,9 +754,9 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:30%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:30%">Description</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Context</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
          <tr>
         <td>Lingvistinė sistema</td>
@@ -776,9 +775,9 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:30%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:30%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:30%">Description</th>
+                <th class="data-table__header-title--sortable" style="width:30%">Context</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
                 <td>Vietovė</td>
@@ -793,10 +792,10 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
          
             <tr class="data-table__header">
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Property</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Range</th>
                 <th class="data-table__header-title--sortable" style="width:10%">Range</th>
                 <th class="data-table__header-title--sortable" style="width:5%">Card</th>
-                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Context</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Description</th>
             </tr>
 <br></br>
@@ -832,9 +831,9 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Description</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Context</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
                 <td>Medijos tipas</td>
@@ -852,9 +851,9 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Description</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Context</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
                 <td>Laikotarpis</td>
@@ -869,10 +868,10 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
          
             <tr class="data-table__header">
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Property</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Range</th>
                 <th class="data-table__header-title--sortable" style="width:10%">Range</th>
                 <th class="data-table__header-title--sortable" style="width:5%">Card</th>
-                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Context</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Description</th>
             </tr>
 <br></br>
@@ -915,9 +914,9 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Description</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Context</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
                 <td>Teisių deklaracija</td>
@@ -935,9 +934,9 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Description</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Context</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
                 <td>Duomenų tvarkytojo deklaracija</td>
@@ -954,9 +953,9 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Description</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Context</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
                 <td>Standartas</td>
@@ -973,9 +972,9 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Description</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Context</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
                 <td>Kontaktinė informacija</td>
@@ -993,9 +992,9 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Description</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Context</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
                 <td>Kokybės anotacija</td>
@@ -1014,9 +1013,9 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Description</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Context</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
                 <td>Kokybės matavimas</td>
@@ -1033,9 +1032,9 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Description</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Context</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
                 <td>Veikla</td>
@@ -1053,9 +1052,9 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
  <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Description</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Context</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
                 <td>Adresas</td>
@@ -1178,7 +1177,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <td>[Catalogued Resource](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#CataloguedResource)</td>
       <td>1</td>
       <td>Nuoroda į aprašytąjį duomenų rinkinį, duomenų paslaugą arba katalogą.</td>
-      <td>Katalogo įrašas nurodys vieną subjektą kataloge. Tai gali būti arba duomenų rinkinys, arba duomenų paslauga. Siekiant užtikrinti neambicingą Cardinalumo skaitymą, diapazonas nustatomas kaip Kataloguojamas išteklius. Tačiau šio diapazono tikslas nėra reikalauti eksplicitiškai naudoti klasę Kataloguotas įrašas. Kaip abstrakti klasė, turėtų būti naudojama antrinė klasė.</td>
+      <td>Katalogo įrašas nurodys vieną subjektą kataloge. Tai gali būti arba duomenų rinkinys, arba duomenų paslauga. Siekiant užtikrinti neambicingą Cardinalumo skaitymą, diapazonas nustatomas kaip Kataloguojamas Range. Tačiau šio diapazono tikslas nėra reikalauti eksplicitiškai naudoti klasę Kataloguotas įrašas. Kaip abstrakti klasė, turėtų būti naudojama antrinė klasė.</td>
       <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#CatalogueRecord.primarytopic">A</a></td>
     </tr>
   </tbody>
@@ -1301,7 +1300,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <td>[Dataset](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Dataset)</td>
       <td>1..*</td>
       <td>Ši Property nurodo duomenų rinkinį, kurį ši duomenų paslauga gali platinti.</td>
-      <td>API HVD kontekste nėra atskiras išteklius. Jis naudojamas atverti HVD duomenų rinkinius. Todėl kiekviena duomenų paslauga bent jau yra glaudžiai susijusi su duomenų rinkiniu.</td>
+      <td>API HVD kontekste nėra atskiras Range. Jis naudojamas atverti HVD duomenų rinkinius. Todėl kiekviena duomenų paslauga bent jau yra glaudžiai susijusi su duomenų rinkiniu.</td>
       <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#DataService.servesdataset">E</a></td>
     </tr>
   </tbody>
@@ -1427,7 +1426,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <td>[Resource](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Resource)</td>
       <td>1..*</td>
       <td>URL, suteikiantis prieigą prie duomenų rinkinio pateikties.</td>
-      <td>Išteklius prieigos URL adrese turėtų apimti informaciją, kaip gauti duomenų rinkinį. Pagal DCAT gaires pageidautina taip pat nustatyti downloadURL savybę, jei URL yra nuoroda į atsisiunčiamą išteklių.</td>
+      <td>Range prieigos URL adrese turėtų apimti informaciją, kaip gauti duomenų rinkinį. Pagal DCAT gaires pageidautina taip pat nustatyti downloadURL savybę, jei URL yra nuoroda į atsisiunčiamą išteklių.</td>
       <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Distribution.accessURL">A</a></td>
     </tr>
     <tr>
