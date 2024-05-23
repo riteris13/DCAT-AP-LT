@@ -24,20 +24,20 @@ DCAT-AP-LT includes the classes used by BREG-DCAT-AP(https://github.com/SEMICeu/
 
 Currently, it is expected that the European Commission will provide support for these [Europos bendroms duomenų erdvėms]('https://digital-strategy.ec.europa.eu/en/policies/data-spaces') kurti:
 <ul>
-<li>Žemės ūkio;  </li>
-<li> Kultūrinio paveldo; </li>
- <li>Energetikos; </li>
-<li>Finansinių; </li>
-<li> Žaliojo kurso; </li>
-<li>Kalbos; </li>
- <li>Sveikatos; </li>
-<li> Pramonės (gamybos); </li>
-<li>Žiniasklaidos </li>
- <li>Judumo; </li>
- <li>Viešojo administravimo;  </li>
-<li>Mokslinių tyrimų ir inovacijų; </li>
- <li>Su įgūdžiais susijusių;  </li>
-<li>Turizmo.  </li>
+<li>Agriculture; </li>
+<li>Cultural Heritage; </li>
+ <li>Energy; </li>
+<li>Finance; </li>
+<li>Green deal; </li>
+<li>Language; </li>
+ <li>Health; </li>
+<li>Manufacturing; </li>
+<li>Media; </li>
+ <li>Mobility; </li>
+ <li>Public administration; </li>
+<li>Research and Innovation; </li>
+ <li>Skills;  </li>
+<li>Tourism.  </li>
 </ul>
 
 
