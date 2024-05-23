@@ -322,13 +322,13 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
 
 <dl>
     <dt>Definition</dt>
-    <dd>Katalogas arba saugykla, kurioje saugomi aprašomi duomenų rinkiniai arba duomenų paslaugos.</dd>
+    <dd>A directory or repository that stores descriptive datasets or data services.</dd>
     <dd>
  <table class="data-table simple">
             <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:30%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:30%">Kontekstas</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Class</th>
+                <th class="data-table__header-title--sortable" style="width:30%">Description</th>
+                <th class="data-table__header-title--sortable" style="width:30%">Context</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
