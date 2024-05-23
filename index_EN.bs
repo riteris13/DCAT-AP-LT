@@ -205,8 +205,9 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
 
 <dl>
     <dt>Definition</dt>
-    <dd>Programinės įrangos visuma valstybės ar savivaldybės institucijos ar įstaigos, kito viešojo administravimo subjekto, viešosios įstaigos ar valstybės valdomos įmonės veiklos procesams skaitmenizuoti, duomenims tvarkyti ir (ar) administracinėms ar viešosioms paslaugoms teikti elektroniniu būdu.</dd>
-    <dt>Savybės</dt>
+    <dd>The set of software for digitizing the operational processes of a state or municipal institution or institution, other public administration entity, public institution or state-run company, managing data and/or providing administrative or public services electronically
+.</dd>
+    <dt>Properties</dt>
     <dd>
         <table class="data-table simple">
             <tr class="data-table__header">
@@ -221,22 +222,22 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
                 <td>[importance](http://data.gov.lt/onto/DCATAPLT#importance)</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>1..1</td>
-                <td>Informacinės sistemos svarba.</td>
-                <td>Informacinės sistemos svarba pagal Valstybės informacinių išeklių valdymo įstatymo reikalavimus.</td>
+                <td>Information system importance.</td>
+                <td>Information System importance as defined by law of State Information Resources Management.</td>
             </tr>
             <tr class="data-table__header">
                 <td>[type](http://data.gov.lt/onto/DCATAPLT#type)</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>1..1</td>
-                <td>Informacinės sistemos tipas.</td>
-                <td>Informacinės sistemos tipas pagal Valstybės informacinių išeklių valdymo įstatymo reikalavimus.</td>
+                <td>Information system type.</td>
+                <td>Information System type as defined by law of State Information Resources Management.</td>
             </tr>
             <tr class="data-table__header">
                 <td>[IS importance assessment](http://data.gov.lt/onto/DCATAPLT#importanceAssessmentURL)</td>
                 <td>[rdfs:Resource](http://www.w3.org/2000/01/rdf-schema#Resource)</td>
                 <td>1..1</td>
-                <td>Informacinės sistemos svarbos vertinimas.</td>
-                <td>URL nuoroda į informacinės sistemos svarbos vertinimo dokumentą.</td>
+                <td>Information system importance assessment.</td>
+                <td>URL reference to information System importance assessment document.</td>
             </tr>
         </table>
     </dd>
