@@ -281,7 +281,7 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
     </dd>
 </dl>
 
-## Tipas (dcataplt:Type)
+## Type (dcataplt:Type)
 
 <dl>
     <dt>Definition</dt>
