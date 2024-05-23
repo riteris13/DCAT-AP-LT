@@ -64,10 +64,70 @@ Licence.
         <th>Trumpinys (en. prefix)</th>
         <th>Vardų erdvės URI</th>
     </tr>
-    <tr>
+
+ <tr>
+        <td>`adms`</td>
+        <td>`http://www.w3.org/ns/adms#`</td>
+    </tr>
+<tr>
+        <td>`cpsv`</td>
+        <td>`http://purl.org/vocab/cpsv#`</td>
+    </tr>
+<tr>
+        <td>`cv`</td>
+        <td>`http://data.europa.eu/m8g/`</td>
+    </tr>
+<tr>
         <td>`dcat`</td>
         <td>`http://www.w3.org/ns/dcat#`</td>
     </tr>
+ <tr>
+        <td>`dct`</td>
+        <td>`http://purl.org/dc/terms/`</td>
+    </tr>
+ <tr>
+        <td>`dqv`</td>
+        <td>`http://www.w3.org/ns/dqv#`</td>
+    </tr>
+
+  <tr>
+        <td>`eli`</td>
+        <td>`http://data.europa.eu/eli/ontology#`</td>
+    </tr>
+  <tr>
+        <td>`foaf`</td>
+        <td>`http://xmlns.com/foaf/0.1/`</td>
+    </tr>
+
+  <tr>
+        <td>`odrl`</td>
+        <td>`http://data.europa.eu/m8g/`</td>
+    </tr>
+<tr>
+        <td>`prov`</td>
+        <td>`http://www.w3.org/ns/prov#`</td>
+    </tr>
+<tr>
+        <td>`rdfs`</td>
+        <td>`http://www.w3.org/2000/01/rdf-schema`</td>
+    </tr>
+<tr>
+        <td>`spdx`</td>
+        <td>`http://spdx.org/rdf/terms`</td>
+    </tr>
+ <tr>
+        <td>`skos`</td>
+        <td>`http://www.w3.org/2004/02/skos/core#`</td>
+    </tr>
+ <tr>
+        <td>`vcard`</td>
+        <td>`http://www.w3.org/2006/vcard/ns`</td>
+    </tr>
+<tr>
+        <td>`voaf`</td>
+        <td>`http://purl.org/vocommons/voaf`</td>
+    </tr>
+
 </table>
 
 
@@ -514,7 +574,7 @@ atnaujinama naujais / redaguotais duomenų rinkiniais.</td>
             </tr>
             <tr class="data-table__header">
                 <td>Duomenų rinkinys</td>
-                <td>Koncepcinė klasė, aprašanti skelbiamą informaciją. Sujungia katalogą su duomenų rinkiniu, kuris yra katalogo dalis.</td>
+                <td>Koncepcinė klasė, aprašanti kaupiamą / teikiamą informaciją. Sujungia katalogą su duomenų rinkiniu, kuris yra katalogo dalis.</td>
                 <td>Šios klasės egzemplioriais apibūdinami  duomenų rinkiniai, tvarkomi informacinės sistemos apimtyje.
 Kiekvienas duomenų rinkinys per katalogo įrašo sąryšį CatalogRecord, priskiriamas vienam informacinės sistemos (Catalog) atvejui.
 Tokiu būdu aprašomi konkretūs duomenų rinkiniai, valdomi ir tvarkomi konkrečios informacinės sistemos apimtyje. 
