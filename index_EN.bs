@@ -252,9 +252,9 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
     <dd>
         <table class="data-table simple">
             <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Reikšmė</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Property</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Reikšmės Description</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Description</th>
             </tr>
 <br></br>
             <tr class="data-table__header">
@@ -290,7 +290,7 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
     <dd>
         <table class="data-table simple">
             <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Meaning</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Property</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Description</th>
             </tr>
