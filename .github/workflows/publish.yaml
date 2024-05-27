@@ -29,6 +29,7 @@ jobs:
       - name: Build documentation
         run: |
           bikeshed spec index.bs index.html
+          mkdir en
           bikeshed spec index_EN.bs en/index.html
 
       - name: Upload UI artifacts
