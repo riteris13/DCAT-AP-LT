@@ -10,6 +10,7 @@ Abstract: DCAT-AP-LT metaduomenų modelis.
 Complain About: accidental-2119 yes, missing-example-ids yes
 Markup Shorthands: markdown yes, css no
 Translation: en en/index.html
+Boilerplate: copyright no, abstract no, conformance no
 </pre>
 
 # Įžanga
