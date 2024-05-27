@@ -26,14 +26,10 @@ jobs:
         with:
           python-version: ${{ env.PYTHON_VERSION }}
 
-      - name: Install pyLODE
-        run: pip install bikeshed pylode
-
       - name: Build documentation
         run: |
-          bikeshed spec index.bs
-          cp index.html spec.html
-          pylode -p supermodel -o index.html owl.xml
+          bikeshed spec index.bs index.html
+          bikeshed spec index_EN.bs en/index.html
 
       - name: Upload UI artifacts
         uses: actions/upload-pages-artifact@v2
