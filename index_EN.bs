@@ -9,6 +9,7 @@ Editor: IVPK, https://ivpk.lrv.lt/lt/
 Abstract: DCAT-AP-LT metaduomenų modelis.
 Complain About: accidental-2119 yes, missing-example-ids yes
 Markup Shorthands: markdown yes, css no
+Translation: lt ../index.html
 </pre>
 
 # Introduction
