@@ -212,8 +212,9 @@ Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Intervalas</th>
                 <th class="data-table__header-title--sortable" style="width:6%">Kard</th>
-                <th class="data-table__header-title--sortable" style="width:30%">Apibrėžimas</th>
-                <th class="data-table__header-title--sortable" style="width:30%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:27%">Apibrėžimas</th>
+                <th class="data-table__header-title--sortable" style="width:27%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:6%">Perpanaudojimas</th>
             </tr>
 <br></br>
             <tr class="data-table__header">
@@ -222,6 +223,7 @@ Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas
                 <td>1..1</td>
                 <td>Informacinės sistemos svarba.</td>
                 <td>Informacinės sistemos svarba pagal Valstybės informacinių išeklių valdymo įstatymo reikalavimus.</td>
+                <td>-</td>
             </tr>
             <tr class="data-table__header">
                 <td>[type](http://data.gov.lt/onto/DCATAPLT#type)</td>
@@ -229,6 +231,7 @@ Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas
                 <td>1..1</td>
                 <td>Informacinės sistemos tipas.</td>
                 <td>Informacinės sistemos tipas pagal Valstybės informacinių išeklių valdymo įstatymo reikalavimus.</td>
+                <td>-</td>
             </tr>
             <tr class="data-table__header">
                 <td>[IS importance assessment](http://data.gov.lt/onto/DCATAPLT#importanceAssessmentURL)</td>
@@ -236,6 +239,7 @@ Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas
                 <td>1..1</td>
                 <td>Informacinės sistemos svarbos vertinimas.</td>
                 <td>URL nuoroda į informacinės sistemos svarbos vertinimo dokumentą.</td>
+                <td>-</td>
             </tr>
         </table>
     </dd>
@@ -250,30 +254,35 @@ Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas
     <dd>
         <table class="data-table simple">
             <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Reikšmė</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Range</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:10%">Reikšmė</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Range</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Reikšmės aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
             </tr>
 <br></br>
             <tr class="data-table__header">
                 <td>[Ypatingos svarbos - 1](http://data.gov.lt/controlled-vocabulary/importance/highlyImportant)</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
-                <td>Ypatingos svarbos valstybės informaciniai ištekliai – jiems priskiriamos informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius visai valstybei (poveikis daugiau negu 5 apskrityse, daugiau negu 50 procentų gyventojų ar institucijų).</td>      
+                <td>Ypatingos svarbos valstybės informaciniai ištekliai – jiems priskiriamos informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius visai valstybei (poveikis daugiau negu 5 apskrityse, daugiau negu 50 procentų gyventojų ar institucijų).</td>  
+                <td>-</td>
             </tr>
             <tr class="data-table__header">
                 <td>[Svarbūs - 2](http://data.gov.lt/onto/DCATAPLT/Importance/important)</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Svarbūs valstybės informaciniai ištekliai – jiems priskiriamos informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius didelei valstybės, institucijų ir gyventojų daliai (poveikis 2–5 apskrityse, 6–50 procentų gyventojų ar institucijų).</td>      
+                <td>-</td>
             </tr>
             <tr class="data-table__header">
                 <td>[Vidutinės svarbos - 3](http://data.gov.lt/onto/DCATAPLT/Importance/moderatelyImportant)</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Vidutinės svarbos valstybės informaciniai ištekliai – jiems priskiriamos informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius nedidelei valstybės, institucijų ir gyventojų daliai (poveikis keliose vienos apskrities savivaldybėse, 1–5 procentų gyventojų ar institucijų).</td>      
+                <td>-</td>
             </tr>
             <tr class="data-table__header">
                 <td>[Mažos svarbos - 4](http://data.gov.lt/onto/DCATAPLT/Importance/slightlyImportant)</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Mažos svarbos valstybės informaciniai ištekliai – jiems priskiriamos informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius pavienėms institucijoms ar pavieniams fiziniams asmenims (poveikis ne daugiau kaip vienos apskrities savivaldybei, iki 1 procento gyventojų ar institucijų).</td>      
+                <td>-</td>
             </tr>
         </table>
     </dd>
@@ -288,25 +297,30 @@ Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas
     <dd>
         <table class="data-table simple">
             <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Reikšmė</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Range</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:10%">Reikšmė</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Range</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Reikšmės aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
+                <td>-</td>
             </tr>
 <br></br>
             <tr class="data-table__header">
                 <td>[Registro informacinė sistema](http://data.gov.lt/onto/DCATAPLT/Type/registerInformationSystem)</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
-                <td>Registrų informacinės sistemos, kuriose registruojami objektai, tvarkomi objektų ir jų registravimo duomenys.</td>      
+                <td>Registrų informacinės sistemos, kuriose registruojami objektai, tvarkomi objektų ir jų registravimo duomenys.</td>
+                <td>-</td>
             </tr>
             <tr class="data-table__header">
                 <td>[Valstybės informacinė sistema](http://data.gov.lt/onto/DCATAPLT/Type/stateInformationSystem)</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Valstybės informacinės sistemos, kuriose tvarkomi subjektų teisės aktuose nustatytoms funkcijoms atlikti reikalingi duomenys, įskaitant ir valstybės informacines sistemas, skirtas kelių ar daugelio subjektų jų veiklą reglamentuojančiuose teisės aktuose nustatytoms vienodo pobūdžio veiklos funkcijoms atlikti ir duomenims tvarkyti.</td>      
+                <td>-</td>
             </tr>
             <tr class="data-table__header">
                 <td>[Vidaus administravimo informacinė sistema](http://data.gov.lt/onto/DCATAPLT/Importance/moderatelyImportant)</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
-                <td>Vidaus administravimo informacinės sistemos, kuriose tvarkomi subjektų valdomi duomenys, reikalingi vidaus administravimo funkcijoms ar kitoms pagalbinio pobūdžio funkcijoms, kurios padeda įgyvendinti subjektui teisės aktuose nustatytus uždavinius.</td>      
+                <td>Vidaus administravimo informacinės sistemos, kuriose tvarkomi subjektų valdomi duomenys, reikalingi vidaus administravimo funkcijoms ar kitoms pagalbinio pobūdžio funkcijoms, kurios padeda įgyvendinti subjektui teisės aktuose nustatytus uždavinius.</td>    
+                <td>-</td>
             </tr>
         </table>
     </dd>
