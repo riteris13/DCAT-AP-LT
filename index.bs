@@ -2013,7 +2013,8 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
                 <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
                 <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
                 <th class="data-table__header-title--sortable" style="width:5%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:65%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:60%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
             </tr>
 <br></br>
              <tr>
@@ -2023,6 +2024,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>1..1</td>
         <td>-</td>
         <td>Nuoroda į įraše aprašytą duomenų rinkinį, duomenų paslaugą arba katalogą. Katalogo įrašas bus nuoroda į vieną katalogo vienetą. Tai gali būti duomenų rinkinys arba duomenų paslauga.</td>
+                <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:record_primary_topic">E</a></td>
     </tr>
     <tr>
         <td>Pakeitimo data</td>
@@ -2031,6 +2033,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>1..1</td>
         <td>-</td>
         <td>Šioje savybėje nurodoma naujausia katalogo įrašo pakeitimo arba modifikavimo data.</td>
+                <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:record_update_date">E</a></td>
     </tr>
     <tr>
         <td>Taikymo profilis</td>
@@ -2039,6 +2042,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>0..1</td>
         <td>-</td>
         <td>Taikymo profilis, kurį atitinka duomenų rinkinio metaduomenys.</td>
+                <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:record_conforms_to">E</a></td>
     </tr>
     <tr>
         <td>Pokyčio tipas</td>
@@ -2047,6 +2051,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>0..1</td>
         <td>-</td>
         <td>Katalogo įrašo statusas duomenų rinkinio redakcinio srauto ir duomenų paslaugų aprašymų kontekste.</td>
+                <td>P</td>
     </tr>
     <tr>
         <td>Įtraukimo į sąrašą data</td>
@@ -2055,6 +2060,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>0..1</td>
         <td>-</td>
         <td>Duomenų rinkinio aprašymo įtraukimo į katalogą data.</td>
+                <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:record_listing_date">E</a></td>
     </tr>
     <tr>
         <td>Aprašymas</td>
@@ -2063,6 +2069,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>0..n</td>
         <td>-</td>
         <td>Šioje savybėje laisvu tekstu pateikiamas aprašas. Galima pakartoti, jei aprašoma keliomis kalbomis.</td>
+                <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:record_description">E</a></td>
     </tr>
     <tr>
         <td>Kalba</td>
@@ -2071,6 +2078,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>0..n</td>
         <td>-</td>
         <td>Kalba, vartojama tekstiniuose metaduomenyse, apibūdinančiuose duomenų rinkinio pavadinimus, aprašymus ir t. t. Galima pakartoti, jei metaduomenys pateikiami keliomis kalbomis.</td>
+                <td>P</td>
     </tr>
     <tr>
         <td>Pirminiai metaduomenys</td>
@@ -2079,6 +2087,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>0..1</td>
         <td>-</td>
         <td>Pirminiai (šaltinio) metaduomenys, kurie buvo naudojami kuriant duomenų rinkinio metaduomenis.</td>
+        <td>P</td>
     </tr>
     <tr>
         <td>Pavadinimas</td>
@@ -2087,6 +2096,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>0..n</td>
         <td>-</td>
         <td>Katalogo įrašui suteiktas pavadinimas.</td>
+                <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:record_title">E</a></td>
     </tr>
 </table>
 
@@ -2117,7 +2127,8 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
                 <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
                 <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:45%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
             </tr>
 <br></br>
             <tr>
@@ -2127,6 +2138,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>1..1</td>
         <td>-</td>
         <td>Algoritmas, naudojamas objekto kontrolinei sumai sukurti.</td>
+                <td><a href="https://w3c.github.io/dxwg/dcat/#Property:checksum_algorithm">E</a></td>
     </tr>
     <tr>
         <td>Kontrolinės sumos reikšmė</td>
@@ -2135,6 +2147,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>1..1</td>
         <td>-</td>
         <td>Mažosiomis raidėmis užkoduota šešioliktainė skaitmeninė vertė, sukurta naudojant tam tikrą algoritmą.</td>
+                <td><a href="https://w3c.github.io/dxwg/dcat/#Property:checksum_checksum_value">E</a></td>
     </tr>
 </table>
 
@@ -2164,7 +2177,8 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
                 <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
                 <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:45%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
             </tr>
 </table>
 
@@ -2220,7 +2234,8 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
                 <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
                 <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:45%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
             </tr>
 <br></br>
             <tr>
@@ -2230,6 +2245,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
         <td>1..1</td>
         <td>-</td>
         <td>Ši savybė yra eilutė, kuri yra identifikatorius pagal identifikatoriaus schemą, į kurią nurodo jos duomenų tipas.</td>
+        <td>P</td>
         </tr>
         </table>
 
@@ -2299,7 +2315,8 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
                 <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
                 <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:45%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
             </tr>
 <br></br>
 		  <tr>
@@ -2309,6 +2326,8 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
         <td>0..1</td>
         <td>-</td>
         <td>Ši savybė nurodo išteklių geografines ribas.</td>
+                <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:location_bbox">E</a></td>
+
     </tr>
     <tr>
         <td>Centroidas</td>
@@ -2317,6 +2336,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
         <td>0..1</td>
         <td>-</td>
         <td>Ši savybė nurodo išteklių geografinį centrą (centroidą).</td>
+                <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:location_centroid">E</a></td>
     </tr>
     <tr>
         <td>Geometrija</td>
@@ -2325,6 +2345,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
         <td>0..1</td>
         <td>-</td>
         <td>Ši savybė susieja bet kurį išteklių su atitinkama geometrija.</td>
+                <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:location_geometry">E</a></td>
     </tr>
 </table>
 
@@ -2375,7 +2396,8 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
                 <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
                 <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:45%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
             </tr>
 <br></br>
              <tr>
@@ -2385,6 +2407,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
         <td>0..1</td>
         <td>-</td>
         <td>Laikotarpio pabaigos data.</td>
+                <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:period_end_date">E</a></td>
      </tr>
      <tr>
         <td>Pradžios data</td>
@@ -2393,6 +2416,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
         <td>0..1</td>
         <td>-</td>
         <td>Laikotarpio pradžios data.</td>
+                <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:period_start_date">E</a></td>
      </tr>
      <tr>
         <td>Turi pradžią</td>
@@ -2401,6 +2425,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
         <td>0..1</td>
         <td>-</td>
         <td>Periodo arba intervalo pradžios data.</td>
+                <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:period_has_beginning">E</a></td>
      </tr>
      <tr>
         <td>Turi pabaigą</td>
@@ -2409,6 +2434,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
         <td>0..1</td>
         <td>-</td>
         <td>Periodo arba intervalo pabaigos data.</td>
+                <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:period_has_end">E</a></td>
       </tr>
      </table>
 
