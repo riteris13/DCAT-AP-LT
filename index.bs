@@ -198,7 +198,7 @@ Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas
 
 
 
-# Pagrindinės esybės
+# Klasės
 
 ## Informacinė Sistema (dcataplt:InformationSystem)
 
@@ -245,6 +245,8 @@ Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas
     </dd>
 </dl>
 
+# Kontroliuojami žodynai
+
 ## Svarba (dcataplt:Importance)
 
 <dl>
@@ -261,25 +263,25 @@ Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas
             </tr>
 <br></br>
             <tr class="data-table__header">
-                <td>[Ypatingos svarbos - 1](http://data.gov.lt/controlled-vocabulary/importance/highlyImportant)</td>
+                <td>[Ypatingos svarbos](http://data.gov.lt/controlled-vocabulary/importance/highlyImportant)</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Ypatingos svarbos valstybės informaciniai ištekliai – jiems priskiriamos informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius visai valstybei (poveikis daugiau negu 5 apskrityse, daugiau negu 50 procentų gyventojų ar institucijų).</td>  
                 <td>-</td>
             </tr>
             <tr class="data-table__header">
-                <td>[Svarbūs - 2](http://data.gov.lt/onto/DCATAPLT/Importance/important)</td>
+                <td>[Svarbūs](http://data.gov.lt/onto/DCATAPLT/Importance/important)</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Svarbūs valstybės informaciniai ištekliai – jiems priskiriamos informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius didelei valstybės, institucijų ir gyventojų daliai (poveikis 2–5 apskrityse, 6–50 procentų gyventojų ar institucijų).</td>      
                 <td>-</td>
             </tr>
             <tr class="data-table__header">
-                <td>[Vidutinės svarbos - 3](http://data.gov.lt/onto/DCATAPLT/Importance/moderatelyImportant)</td>
+                <td>[Vidutinės svarbos](http://data.gov.lt/onto/DCATAPLT/Importance/moderatelyImportant)</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Vidutinės svarbos valstybės informaciniai ištekliai – jiems priskiriamos informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius nedidelei valstybės, institucijų ir gyventojų daliai (poveikis keliose vienos apskrities savivaldybėse, 1–5 procentų gyventojų ar institucijų).</td>      
                 <td>-</td>
             </tr>
             <tr class="data-table__header">
-                <td>[Mažos svarbos - 4](http://data.gov.lt/onto/DCATAPLT/Importance/slightlyImportant)</td>
+                <td>[Mažos svarbos](http://data.gov.lt/onto/DCATAPLT/Importance/slightlyImportant)</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Mažos svarbos valstybės informaciniai ištekliai – jiems priskiriamos informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius pavienėms institucijoms ar pavieniams fiziniams asmenims (poveikis ne daugiau kaip vienos apskrities savivaldybei, iki 1 procento gyventojų ar institucijų).</td>      
                 <td>-</td>
