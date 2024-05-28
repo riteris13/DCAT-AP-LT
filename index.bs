@@ -359,367 +359,6 @@ Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas
                 <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:35%">Aprašymas</th>
-<pre class='metadata'>
-Title: DCAT-AP-LT
-Shortname: DCAT-AP-LT
-Level: 1
-Status: LD
-Repository: ivpk/DCAT-AP-LT
-URL: https://ivpk.github.io/DCAT-AP-LT/
-Editor: IVPK, https://ivpk.lrv.lt/lt/
-Abstract: DCAT-AP-LT metaduomenų modelis.
-Complain About: accidental-2119 yes, missing-example-ids yes
-Markup Shorthands: markdown yes, css no
-Translation: en en/index.html
-Boilerplate: copyright no, spec-metadata no, abstract no, conformance no
-</pre>
-
-# Įžanga
-
-<dl>
-    <dd>DCAT-AP-LT yra metaduomenų specifikacija, skirta Lietuvos duomenų rinkiniams ir paslaugoms aprašyti. DCAT-AP-LT yra Europos metaduomenų specifikacijos DCAT-AP plėtinys, parengtas vadovaujantis DCAT-AP specifikacijos formavimui nustatytomis taisyklėmis ir rekomendacijomis, įtraukiant ontologijas ir tezaurus kaip pagalbines priemones aprašant duomenis.
-
-DCAT-AP-LT apima BREG-DCAT-AP(https://github.com/SEMICeu/BregDCAT-AP/tree/main/releases/2.1.0) naudojamas klases ir papildo jas Informacinės Sistemos klase išplečiančia dcat:Catalog klasę bei dvejais kontroliuojamais žodynais Informacinės sistemos tipui ir svarbai pažymėti pagal Valstybės informacinių išteklių valdymo įstatyme  nustatytą  tvarką.
-
-</dd>
-</dl>
-## Kontekstas
-
-Šiuo metu numatoma, jog Europos Komisija teiks paramą šioms [Europos bendroms duomenų erdvėms](https://digital-strategy.ec.europa.eu/en/policies/data-spaces) kurti:
-<ul>
-<li>Žemės ūkio;  </li>
-<li> Kultūrinio paveldo; </li>
- <li>Energetikos; </li>
-<li>Finansinių; </li>
-<li> Žaliojo kurso; </li>
-<li>Kalbos; </li>
- <li>Sveikatos; </li>
-<li> Pramonės (gamybos); </li>
-<li>Žiniasklaidos </li>
- <li>Judumo; </li>
- <li>Viešojo administravimo;  </li>
-<li>Mokslinių tyrimų ir inovacijų; </li>
- <li>Su įgūdžiais susijusių;  </li>
-<li>Turizmo.  </li>
-</ul>
-
-
-Ši specifikacija turi palaikyti šias planuojamas duomenų erdves ir užtikrinti lengvesnį duomenų valdymą jose.  Realizavus šią specifikaciją informacinėje sistemoje, kur bus kataloguojami Lietuvos Respublikos registrų ir kitų informacinių sistemų duomenys - bus sukuriamos priemonės, padedančios Lietuvos duomenų valdymo sričių įgaliotiniams kurti registrų ir kitų informacinių sistemų duomenų valdymo strategijas, atpažinti netikslingą informacijos dubliavimą, taip pat suteiks galimybę dalintis Lietuvos Respublikos duomenimis su Europos Sąjunga pagal bendrą semantinį modelį.
-
-
-
-## Aprėptis
-
-Šis specifikacija yra orientuota į Valstybės informacinių išteklių valdymo įstatymo nuostatų dėl informacinėse sistemose tvarkomų metaduomenų įgyvendinimo.
-
-# Statusas
-
-DCAT-AP-LT 0.1 
-
-# Licencija
-
-Šio modelio medžiaga skelbiama pagal CC-BY 4.0 licenciją, nebent pažymėta kitaip.
-
-# Terminologija
-
-<table>
-    <tr>
-        <th>Trumpinys (en. prefix)</th>
-        <th>Vardų erdvės URI</th>
-    </tr>
-    <tr>
-        <td>
-		<code>adms</code>
-	</td>
-        <td>
-		<code>http://www.w3.org/ns/adms#</code>
-	</td>
-    </tr>
-    <tr>
-        <td>
-		<code>cpsv</code>
-	</td>
-        <td>
-		<code>http://purl.org/vocab/cpsv#</code>
-	</td>
-    </tr>
-    <tr>
-        <td>
-		<code>cv</code>
-	</td>
-        <td>
-		<code>http://data.europa.eu/m8g/</code>
-	</td>
-    </tr>
-    <tr>
-        <td>
-		<code>dcat</code>
-	</td>
-        <td>
-		<code>http://www.w3.org/ns/dcat#</code>
-	</td>
-    </tr>
-    <tr>
-        <td>
-		<code>dqv</code>
-	</td>
-        <td>
-		<code>http://www.w3.org/ns/dqv#</code>
-	</td>
-    </tr>
-    <tr>
-        <td>
-		<code>eli</code>
-	</td>
-        <td>
-		<code>http://data.europa.eu/eli/ontology#</code>
-	</td>
-    </tr>
-    <tr>
-        <td>
-		<code>foaf</code>
-	</td>
-        <td>
-		<code>http://xmlns.com/foaf/0.1/</code>
-	</td>
-    </tr>
-    <tr>
-        <td>
-		<code>odrl</code>
-	</td>
-        <td>
-		<code>http://www.w3.org/ns/odrl/2/</code>
-	</td>
-    </tr>
-    <tr>
-        <td>
-		<code>prov</code>
-	</td>
-        <td>
-		<code>http://www.w3.org/ns/prov#</code>
-	</td>
-    </tr>
-    <tr>
-        <td>
-		<code>rdfs</code>
-	</td>
-        <td>
-		<code>http://www.w3.org/2000/01/rdf-schema#</code>
-	</td>
-    </tr>
-    <tr>
-        <td>
-		<code>skos</code>
-	</td>
-        <td>
-		<code>http://www.w3.org/2004/02/skos/core#</code>
-	</td>
-    </tr>
-    <tr>
-        <td>
-		<code>spdx</code>
-	</td>
-        <td>
-		<code>http://spdx.org/rdf/terms#</code>
-	</td>
-    </tr>
-    <tr>
-        <td>
-		<code>vann</code>
-	</td>
-        <td>
-		<code>http://purl.org/vocab/vann/</code>
-	</td>
-    </tr>
-    <tr>
-        <td>
-		<code>vcard</code>
-	</td>
-        <td>
-		<code>http://www.w3.org/2006/vcard/ns#</code>
-	</td>
-    </tr>
-    <tr>
-        <td>
-		<code>voaf</code>
-	</td>
-        <td>
-		<code>http://purl.org/vocommons/voaf#</code>
-	</td>
-    </tr>
-</table>
-
-
-# Modelio apžvalga
-
-DCAT-AP-LT apima visas BREG-DCAT-AP 2.1 nudojamas klases ir papildo jas Informacinės Sistemos klase išplečiančia dcat:Catalog klasę bei dvejais kontroliuojamais žodynais Informacinės sistemos tipui ir svarbai pažymėti taip, kaip apibrėžiama Valstybės informacinių išteklių valymo įstatyme.
-Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas DCAT-AP-HVD klases ir papildomas savybes.
-
-<img src="uml.png" width="800px" height="454px">
-
-
-
-# Pagrindinės esybės
-
-## Informacinė Sistema (dcataplt:InformationSystem)
-
-<dl>
-    <dt>Apibrėžimas</dt>
-    <dd>Programinės įrangos visuma valstybės ar savivaldybės institucijos ar įstaigos, kito viešojo administravimo subjekto, viešosios įstaigos ar valstybės valdomos įmonės veiklos procesams skaitmenizuoti, duomenims tvarkyti ir (ar) administracinėms ar viešosioms paslaugoms teikti elektroniniu būdu.</dd>
-    <dt>Savybės</dt>
-    <dd>
-        <table class="data-table simple">
-            <tr class="data-table__header">
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
-                <th class="data-table__header-title--sortable" style="width:12%">Intervalas</th>
-                <th class="data-table__header-title--sortable" style="width:6%">Kard</th>
-                <th class="data-table__header-title--sortable" style="width:27%">Apibrėžimas</th>
-                <th class="data-table__header-title--sortable" style="width:27%">Aprašymas</th>
-                <th class="data-table__header-title--sortable" style="width:6%">Perpanaudojimas</th>
-            </tr>
-<br></br>
-            <tr class="data-table__header">
-                <td>[importance](http://data.gov.lt/onto/DCATAPLT#importance)</td>
-                <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
-                <td>1..1</td>
-                <td>Informacinės sistemos svarba.</td>
-                <td>Informacinės sistemos svarba pagal Valstybės informacinių išeklių valdymo įstatymo reikalavimus.</td>
-                <td>-</td>
-            </tr>
-            <tr class="data-table__header">
-                <td>[type](http://data.gov.lt/onto/DCATAPLT#type)</td>
-                <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
-                <td>1..1</td>
-                <td>Informacinės sistemos tipas.</td>
-                <td>Informacinės sistemos tipas pagal Valstybės informacinių išeklių valdymo įstatymo reikalavimus.</td>
-                <td>-</td>
-            </tr>
-            <tr class="data-table__header">
-                <td>[IS importance assessment](http://data.gov.lt/onto/DCATAPLT#importanceAssessmentURL)</td>
-                <td>[rdfs:Resource](http://www.w3.org/2000/01/rdf-schema#Resource)</td>
-                <td>1..1</td>
-                <td>Informacinės sistemos svarbos vertinimas.</td>
-                <td>URL nuoroda į informacinės sistemos svarbos vertinimo dokumentą.</td>
-                <td>-</td>
-            </tr>
-        </table>
-    </dd>
-</dl>
-
-## Svarba (dcataplt:Importance)
-
-<dl>
-    <dt>Apibrėžimas</dt>
-    <dd>Informacinės sistemos svarba pagal Valstybės informacinių išeklių valdymo įstatymo reikalavimus.</dd>
-    <dt>Galimų svarbos lygmenų sąrašas</dt>
-    <dd>
-        <table class="data-table simple">
-            <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:10%">Reikšmė</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Range</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Reikšmės aprašymas</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
-            </tr>
-<br></br>
-            <tr class="data-table__header">
-                <td>[Ypatingos svarbos - 1](http://data.gov.lt/controlled-vocabulary/importance/highlyImportant)</td>
-                <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
-                <td>Ypatingos svarbos valstybės informaciniai ištekliai – jiems priskiriamos informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius visai valstybei (poveikis daugiau negu 5 apskrityse, daugiau negu 50 procentų gyventojų ar institucijų).</td>  
-                <td>-</td>
-            </tr>
-            <tr class="data-table__header">
-                <td>[Svarbūs - 2](http://data.gov.lt/onto/DCATAPLT/Importance/important)</td>
-                <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
-                <td>Svarbūs valstybės informaciniai ištekliai – jiems priskiriamos informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius didelei valstybės, institucijų ir gyventojų daliai (poveikis 2–5 apskrityse, 6–50 procentų gyventojų ar institucijų).</td>      
-                <td>-</td>
-            </tr>
-            <tr class="data-table__header">
-                <td>[Vidutinės svarbos - 3](http://data.gov.lt/onto/DCATAPLT/Importance/moderatelyImportant)</td>
-                <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
-                <td>Vidutinės svarbos valstybės informaciniai ištekliai – jiems priskiriamos informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius nedidelei valstybės, institucijų ir gyventojų daliai (poveikis keliose vienos apskrities savivaldybėse, 1–5 procentų gyventojų ar institucijų).</td>      
-                <td>-</td>
-            </tr>
-            <tr class="data-table__header">
-                <td>[Mažos svarbos - 4](http://data.gov.lt/onto/DCATAPLT/Importance/slightlyImportant)</td>
-                <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
-                <td>Mažos svarbos valstybės informaciniai ištekliai – jiems priskiriamos informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius pavienėms institucijoms ar pavieniams fiziniams asmenims (poveikis ne daugiau kaip vienos apskrities savivaldybei, iki 1 procento gyventojų ar institucijų).</td>      
-                <td>-</td>
-            </tr>
-        </table>
-    </dd>
-</dl>
-
-## Tipas (dcataplt:Type)
-
-<dl>
-    <dt>Apibrėžimas</dt>
-    <dd>Informacinės sistemos tipas pagal Valstybės informacinių išeklių valdymo įstatymo reikalavimus.</dd>
-    <dt>Galimų informacinių sistemų tipų sąrašas</dt>
-    <dd>
-        <table class="data-table simple">
-            <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:10%">Reikšmė</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Range</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Reikšmės aprašymas</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
-                <td>-</td>
-            </tr>
-<br></br>
-            <tr class="data-table__header">
-                <td>[Registro informacinė sistema](http://data.gov.lt/onto/DCATAPLT/Type/registerInformationSystem)</td>
-                <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
-                <td>Registrų informacinės sistemos, kuriose registruojami objektai, tvarkomi objektų ir jų registravimo duomenys.</td>
-                <td>-</td>
-            </tr>
-            <tr class="data-table__header">
-                <td>[Valstybės informacinė sistema](http://data.gov.lt/onto/DCATAPLT/Type/stateInformationSystem)</td>
-                <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
-                <td>Valstybės informacinės sistemos, kuriose tvarkomi subjektų teisės aktuose nustatytoms funkcijoms atlikti reikalingi duomenys, įskaitant ir valstybės informacines sistemas, skirtas kelių ar daugelio subjektų jų veiklą reglamentuojančiuose teisės aktuose nustatytoms vienodo pobūdžio veiklos funkcijoms atlikti ir duomenims tvarkyti.</td>      
-                <td>-</td>
-            </tr>
-            <tr class="data-table__header">
-                <td>[Vidaus administravimo informacinė sistema](http://data.gov.lt/onto/DCATAPLT/Importance/moderatelyImportant)</td>
-                <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
-                <td>Vidaus administravimo informacinės sistemos, kuriose tvarkomi subjektų valdomi duomenys, reikalingi vidaus administravimo funkcijoms ar kitoms pagalbinio pobūdžio funkcijoms, kurios padeda įgyvendinti subjektui teisės aktuose nustatytus uždavinius.</td>    
-                <td>-</td>
-            </tr>
-        </table>
-    </dd>
-</dl>
-
-
-# Naudojamos BregDCAT-AP klasės ir savybės
-
-
-## Katalogas
-
-<dl>
-    <dt>Apibrėžimas</dt>
-    <dd>Katalogas arba saugykla, kurioje saugomi aprašomi duomenų rinkiniai arba duomenų paslaugos.</dd>
-    <dd>
- <table class="data-table simple">
-            <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:15%">Klasė</th>
-                <th class="data-table__header-title--sortable" style="width:30%">Aprašas</th>
-                <th class="data-table__header-title--sortable" style="width:30%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:15%">Intervalas</th>
-            </tr>
-            <tr class="data-table__header">
-                <td>[Katalogas](http://www.w3.org/ns/dcat#Catalog)</td>
-                <td>Katalogas arba saugykla, kurioje saugomi aprašomi duomenų rinkiniai arba duomenų paslaugos.</td>
-                <td>Šia klase apibūdinama konkreti informacinė sistema – valstybės informacinė sistema ar registras, kurio apimtyje yra tvarkomi duomenų rinkiniai.</td>
-                <td>[dcat:Catalog](http://www.w3.org/ns/dcat#Catalog)</td>
-            </tr>
- </table>
-<br>
-<table class="data-table simple">
-            <tr class="data-table__header">
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
-                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:35%">Aprašymas</th>
                 <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
             </tr>
 <br></br>
@@ -1054,7 +693,8 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
                 <th class="data-table__header-title--sortable" style="width:5%">Intervalas</th>
                 <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:45%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
             </tr>
 <br></br>
             <tr>
@@ -1064,6 +704,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>1..n</td>
         <td>Koncepcinio detalumo lygmens aprašymas, laikantisinformacinės sistemoslygmenyje arinformacinės sistemosvaldymo srityje nustatytos terminologijos ontologijos sąvokų ar duomenų rinkinių taikytinų informacinio modelio reikalavimų.</td>
         <td>Laisvu tekstu pateikiamas duomenų rinkinio aprašas. Galima pakartoti, jei aprašas yra keliomis kalbomis.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_description">E</a></td>
     </tr>
     <tr>
         <td>Pavadinimas</td>
@@ -1072,6 +713,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>1..n</td>
         <td>-</td>
         <td>Pateikiamas duomenų rinkiniui suteiktas pavadinimas. Galima pakartoti, jei pavadinimas pateikiamas keliomis kalbomis.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_title">E</a></td>
     </tr>
     <tr>
         <td>Identifikatorius</td>
@@ -1080,6 +722,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>1..1</td>
         <td>-</td>
         <td>Pagrindinis duomenų rinkinio identifikatorius, pvz., URI, arba kitas unikalus identifikatorius katalogo kontekste.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_identifier">E</a></td>
     </tr>
     <tr>
         <td>Kitas identifikatorius</td>
@@ -1088,6 +731,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>1..n</td>
         <td>-</td>
         <td>Antrinis duomenų rinkinio identifikatorius. Pavyzdžiai: MAST/ADS, DataCite, DOI, EZID, W3ID. Rekomendacija: įtraukti visus identifikatorius, kuriuos katalogas žino apie duomenų rinkinį.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#dereferenceable-identifiers">E</a></td>
     </tr>
     <tr>
         <td>Versija</td>
@@ -1096,6 +740,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>1..1</td>
         <td>-</td>
         <td>Duomenų rinkinio versijos identifikavimas (pavadinimas arba identifikatorius).</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_version">A</a></td>
     </tr>
    
     <tr>
@@ -1105,6 +750,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>1..n</td>
         <td>Šaltinis: EUR-Lex - 52020DC0066 - EN - EUR-Lex (europa.eu)</td>
         <td>Nustatyta duomenų erdvė, kuriai atitinka aprašyta distribucija.</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>Kontaktinė informacija</td>
@@ -1113,6 +759,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Šioje savybėje pateikiama kontaktinė informacija, kurią galima naudoti siunčiant pastabas apie duomenų rinkinį.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_contact_point">A</a></td>
     </tr>
     <tr>
         <td>Duomenų rinkinio pateiktis</td>
@@ -1121,6 +768,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė susieja duomenų rinkinį su platinimu.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_distribution">A</a></td>
     </tr>
     <tr>
         <td>Raktažodis</td>
@@ -1129,6 +777,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Šioje savybėje pateikiamas duomenų rinkinį apibūdinantis raktažodis arba žyma.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_keyword">A</a></td>
     </tr>
     <tr>
         <td>Duomenų skelbėjas</td>
@@ -1137,6 +786,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..1</td>
         <td>-</td>
         <td>Ši savybė nurodo subjektą (organizaciją), atsakingą už duomenų rinkinio prieinamumą.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_publisher">E</a></td>
     </tr>
     <tr>
         <td>Geografinė vieta</td>
@@ -1145,6 +795,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo geografinę vietovę, kurią apima duomenų rinkinys.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_spatial_resolution">A</a></td>
     </tr>
     <tr>
         <td>Laikotarpis</td>
@@ -1153,6 +804,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo laikotarpį, kurį apima duomenų rinkinys.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_temporal">A</a></td>
     </tr>
     <tr>
         <td>Kategorija</td>
@@ -1161,6 +813,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo duomenų rinkinio kategoriją. Duomenų rinkinys gali būti susietas su keliomis temomis.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_theme">E</a></td>
     </tr>
     <tr>
         <td>Prieigos teisės</td>
@@ -1169,6 +822,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..1</td>
         <td>-</td>
         <td>Ši savybė susijusi su informacija, kuri nurodo, ar duomenų rinkinys yra atviri duomenys, ar jam taikomi prieigos apribojimai, ar jis nėra viešas.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_access_rights">E</a></td>
     </tr>
     <tr>
         <td>Atitinka</td>
@@ -1177,6 +831,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo įgyvendinimo taisyklę arba kitą specifikaciją.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_conforms_to">A</a></td>
     </tr>
     <tr>
         <td>Rengėjas</td>
@@ -1185,6 +840,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..1</td>
         <td>-</td>
         <td>Subjektas, atsakingas už duomenų rinkinio parengimą.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_creator">A</a></td>
     </tr>
     <tr>
         <td>Dokumentacija</td>
@@ -1193,6 +849,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo puslapį arba dokumentą apie šį duomenų rinkinį.</td>
+        <td>P</td>
     </tr>
     <tr>
         <td>Kaupimo periodiškumas</td>
@@ -1201,6 +858,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..1</td>
         <td>-</td>
         <td>Ši savybė nurodo, kaip dažnai atnaujinamas duomenų rinkinys.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_frequency">E</a></td>
     </tr>
     <tr>
         <td>Turi versiją</td>
@@ -1209,6 +867,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo susijusį duomenų rinkinį, kuris yra aprašyto duomenų rinkinio versija, leidimas arba adaptacija.</td>
+        <td>P</td>
     </tr>
     <tr>
         <td>Yra referuota iš</td>
@@ -1217,6 +876,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Susijęs šaltinis, pavyzdžiui, leidinys iš kurio pateikiamos nuorodos į duomenų rinkinį, kuriame jis cituojamas ir nukreipia į duomenų rinkinį.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_is_referenced_by">A</a></td>
     </tr>
     <tr>
         <td>Yra versija</td>
@@ -1225,6 +885,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Susijęs duomenų rinkinys, kurio aprašytasis duomenų rinkinys yra versija arba adaptacija.</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>Nukreipimo puslapis</td>
@@ -1233,6 +894,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo tinklalapį, kuriame galima susipažinti su duomenų rinkiniu, jo distribucija ir (arba) papildoma informacija. Ji skirta nukreipti į pradinio duomenų teikėjo, o ne į trečiosios šalies, pavyzdžiui, agregatoriaus, svetainės puslapį.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_landing_page">A</a></td>
     </tr>
     <tr>
         <td>Kalba</td>
@@ -1241,6 +903,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo duomenų rinkinio kalbą. Šią savybę galima pakartoti, jei duomenų rinkinys yra keliomis kalbomis.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_language">E</a></td>
     </tr>
     <tr>
         <td>Kilmė</td>
@@ -1249,6 +912,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Šioje savybėje pateikiama deklaracija apie duomenų rinkinio kilmę.</td>
+        <td>P</td>
     </tr>
     <tr>
         <td>Kvalifikuotas priskyrimas</td>
@@ -1257,6 +921,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė pateikia nuorodą į agentą, turintį tam tikrą atsakomybę už išteklių.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_qualified_attribution">A</a></td>
     </tr>
     <tr>
         <td>Kvalifikuotas ryšis</td>
@@ -1265,6 +930,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė pateikia nuorodą į ryšio su kitu ištekliumi aprašymą.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_qualified_relation">A</a></td>
     </tr>
     <tr>
         <td>Susijęs išteklius</td>
@@ -1273,6 +939,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo susijusį išteklių.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_relation">A</a></td>
     </tr>
     <tr>
         <td>Išleidimo data</td>
@@ -1281,6 +948,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..1</td>
         <td>-</td>
         <td>Duomenų rinkinio oficialaus išleidimo (pvz., paskelbimo) data.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_release_date">E</a></td>
     </tr>
     <tr>
         <td>Pavyzdys</td>
@@ -1289,6 +957,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo duomenų rinkinio pavyzdį.</td>
+        <td>P</td>
     </tr>
     <tr>
         <td>Šaltinis</td>
@@ -1297,6 +966,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Susijęs duomenų rinkinys, iš kurio suformuotas aprašytas duomenų rinkinys.</td>
+        <td>P</td>
     </tr>
     <tr>
         <td>Erdvinė raiška</td>
@@ -1305,6 +975,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..1</td>
         <td>-</td>
         <td>Mažiausias erdvinis atskyrimas, kurį galima atskirti duomenų rinkinyje, matuojamas metrais.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_spatial_resolution">A</a></td>
     </tr>
     <tr>
         <td>Laikotarpis</td>
@@ -1313,6 +984,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..1</td>
         <td>-</td>
         <td>Laikotarpis, kurį apima duomenų rinkinys.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_temporal_resolution">A</a></td>
     </tr>
     <tr>
         <td>Tipas</td>
@@ -1321,6 +993,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..1</td>
         <td>-</td>
         <td>Ši savybė nurodo duomenų rinkinio tipą. Numatytas rekomenduojamas kontroliuojamo žodyno duomenų tipas.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_type">E</a></td>
     </tr>
     <tr>
         <td>Pakeitimo data</td>
@@ -1329,6 +1002,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..1</td>
         <td>-</td>
         <td>Naujausia duomenų rinkinio pakeitimo arba modifikavimo data.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_update_date">E</a></td>
     </tr>
     <tr>
         <td>Versijos pastabos</td>
@@ -1337,6 +1011,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Šios versijos ir ankstesnės duomenų rinkinio versijos skirtumų aprašymas.</td>
+        <td>P</td>
     </tr>
     <tr>
         <td>Buvo sukurtas dėl</td>
@@ -1345,6 +1020,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Veikla, dėl kurios buvo sukurtas duomenų rinkinys arba kuri suteikia verslo kontekstą duomenų rinkinio kūrimui.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_was_generated_by">A</a></td>
     </tr>
     <tr>
         <td>Yra dalis</td>
@@ -1353,6 +1029,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo susijusį duomenų rinkinį, į kurį fiziškai arba logiškai įtrauktas aprašomas katalogas.</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>Teisinis pagrindas</td>
@@ -1361,6 +1038,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Teisės aktas, kurio pagrindu yra valdomas ir tvarkomas duomenų rinkinys.</td>
+        <td>P</td>
     </tr>
 
 	<!-- trūko 'follows' -->
@@ -1371,6 +1049,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši ypatybė susieja duomenų rinkinį su taisykle, kuri apibrėžia jo teisinį pagrindą.</td>
+        <td>-</td>
     </tr>
 	<!-- trūko 'hasPart' -->
 	<tr>
@@ -1380,6 +1059,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>IS kontekste, šiuo ryšiu gali būti įprasminamos valstybės informacinės sistemos ar registro reikšmingų veiklos sričių ar posistemių dalys.</td>
         <td>Ši savybė nurodo susijusį duomenų rinkinį, kuris yra aprašyto duomenų rinkinio dalis.</td>
+        <td>-</td>
 	</tr>
 	<!-- trūko 'hasQualityAnnotation' -->
 	<tr>
@@ -1389,6 +1069,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..1</td>
         <td>-</td>
         <td>Nurodo, kiek nuoseklus yra duomenų rinkinys visoje sistemoje.</td>
+        <td>-</td>
 	</tr>
 	<!-- trūko 'hasQualityMeasurement' -->
 	<tr>
@@ -1398,6 +1079,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..1</td>
         <td>-</td>
         <td>Nurodo, kaip patikimas yra pateiktas duomenų rinkinys.</td>
+        <td>-</td>
 	</tr>
 	<!-- trūko 'isReplacedBy' -->
 	<tr>
@@ -1407,6 +1089,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši ypatybė nurodo susijusį duomenų rinkinį, kuris egiztuojantį duomenų rinkinį.</td>
+        <td>-</td>
 	</tr>
 	<!-- trūko 'isRequiredBy' -->
 	<tr>
@@ -1416,6 +1099,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši ypatybė nurodo susijusį duomenų rinkinį, kuriam reikalingas duomenų rinkinys.</td>
+        <td>-</td>
 	</tr>
 	<!-- trūko 'references' -->
 	<tr>
@@ -1425,6 +1109,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši ypatybė pateikia tinklalapį su ryšio aprašu su kitu ištekliumi, kurį nurodo duomenų rinkinys. Ši ypatybė yra atvirkštinė dct:isReferencedBy. </td>
+        <td>-</td>
 	</tr>
 	<!-- trūko 'replaces' -->
 	<tr>
@@ -1434,6 +1119,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši ypatybė nurodo kitą duomenų rinkinį, kurį pakeičia duomenų rinkinys.</td>
+        <td>-</td>
 	</tr>
 	<!-- trūko 'requires' -->
 	<tr>
@@ -1443,6 +1129,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši ypatybė nurodo kitą duomenų rinkinį, kurio reikia duomenų rinkiniui.</td>
+        <td>-</td>
 	</tr>
 	<!-- trūko 'versionInfo' -->
 	<tr>
@@ -1452,6 +1139,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..1</td>
         <td>-</td>
         <td>Šioje ypatybėje yra versijos numeris arba kita informacija apie duomenų rinkinio versiją.</td>
+        <td>-</td>
 	</tr>
  </table>
 
