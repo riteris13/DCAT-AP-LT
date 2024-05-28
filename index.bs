@@ -1389,7 +1389,8 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
                 <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
                 <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:45%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
             </tr>
 <br></br>
             <tr>
@@ -1407,6 +1408,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
         <td>1..1</td>
         <td>-</td>
         <td>Ši savybė nurodo licenciją, pagal kurią platinama distribucija.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_license">E</a></td>
     </tr>
 	<tr>
         <td>Prieinamumas</td>
@@ -1415,6 +1417,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
         <td>0..1</td>
         <td>-</td>
         <td>Nurodoma, kiek laiko planuojama išlaikyti duomenų rinkinio platinimą.</td>
+        <td>P</td>
     </tr>
 	<!-- trūko 'Description' -->
 	<tr>
@@ -1424,6 +1427,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
         <td>0..n</td>
         <td>-</td>
         <td>Šioje savybėje laisvu tekstu pateikiamas pateikties aprašas. Šią savybę galima pakartoti, jei aprašoma keliomis (lygiagrečiomis) kalbomis.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_description">E</a></td>
     </tr>
 	<!-- trūko 'format' -->
 	<tr>
@@ -1433,6 +1437,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
         <td>0..1</td>
         <td>-</td>
         <td>Pateikties failų formatas.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_format">E</a></td>
     </tr>
 	<!-- trūko 'access service' -->
 	<tr>
@@ -1442,6 +1447,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo duomenų paslaugą per kurią prieinama duomenų pateiktis</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_access_service">A</a></td>
     </tr>
 	<!-- trūko 'byte size' -->
 	<tr>
@@ -1450,8 +1456,8 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>0..1</td>
         <td>-</td>
-        <td>Ši savybė nurodo pateikties dydį baitais. Tai turi būti
-įvesta kaip xsd:decimal.</td>
+        <td>Ši savybė nurodo pateikties dydį baitais. Tai turi būti įvesta kaip xsd:decimal.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_size">E</a></td>
     </tr>
 	<!-- trūko 'downloadURL' -->
 	<tr>
@@ -1461,6 +1467,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
         <td>0..n</td>
         <td>-</td>
         <td>Šioje nuosavybėje yra URL, kuris yra tiesioginė nuoroda į atsisiunčiamą failą.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_download_url">E</a></td>
     </tr>
 	<tr>
     <td>medijos tipas</td>
@@ -1468,8 +1475,8 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
 		<td>[dct:MediaType](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Mediatype)</td>
 		<td>0..1</td>
 		<td>-</td>
-		<td>Ši savybė nurodo platinimo laikmenos tipą, kaip apibrėžta
-IANA valdomas žodynas</td>
+		<td>Ši savybė nurodo platinimo laikmenos tipą, kaip apibrėžta IANA valdomas žodynas</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_media_type">E</a></td>
 	</tr>
 	
 	<tr>
@@ -1478,8 +1485,8 @@ IANA valdomas žodynas</td>
 		<td>[spdx:Checksum](http://spdx.org/rdf/terms#Checksum)</td>
 		<td>0..1</td>
 		<td>-</td>
-		<td>Ši savybė suteikia mechanizmą, leidžiantį patikrinti 
-Pateikties turinio vientisumą.</td>
+		<td>Ši savybė suteikia mechanizmą, leidžiantį patikrinti pateikties turinio vientisumą.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_checksum">E</a></td>
 	</tr>
 	<tr>
 		<td>suspaudimo formatas</td>
@@ -1487,9 +1494,8 @@ Pateikties turinio vientisumą.</td>
 		<td>[dct:MediaType](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Mediatype)</td>
 		<td>0..1</td>
 		<td>-</td>
-		<td>Ši savybė nurodo failo, kuriame yra duomenys, formatą
-esantys suspaustoje formoje, pvz. sumažinti dydį
-atsisiunčiamą failą.</td>
+		<td>Ši savybė nurodo failo, kuriame yra duomenys, formatą esantys suspaustoje formoje, pvz. sumažinti dydį atsisiunčiamo failo.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_compression_format">E</a></td>
 	</tr>
 	<tr>
 		<td>turi politiką</td>
@@ -1498,6 +1504,7 @@ atsisiunčiamą failą.</td>
 		<td>0..1</td>
 		<td>-</td>
 		<td>Ši nuosavybė reiškia politiką, išreiškiančią su pateiktimi susijusias teises, jei naudojamas ODRL žodynas.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_has_policy">E</a></td>
 	</tr>
 	<tr>
 		<td>išleista</td>
@@ -1505,8 +1512,8 @@ atsisiunčiamą failą.</td>
 		<td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
 		<td>0..1</td>
 		<td>-</td>
-		<td>Ši savybė nurodo datą, kai pateiktis buvo pirmą kartą
-išleista.</td>
+		<td>Ši savybė nurodo datą, kai pateiktis buvo pirmą kartą išleista.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_release_date">E</a></td>
 	</tr>
 	<tr>
 		<td>atnaujinimo / pakeitimo data</td>
@@ -1515,6 +1522,7 @@ išleista.</td>
 		<td>0..1</td>
 		<td>-</td>
 		<td>Šioje savybėja nurodoma pateikties naujausio pakeitimo / atnaujinimo data</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_update_date">E</a></td>
 	</tr>
 	<tr>
 		<td>kalba</td>
@@ -1523,6 +1531,7 @@ išleista.</td>
 		<td>0..1</td>
 		<td>Ši savybė turėtų būti kartojama, jei yra įvairių pateikties versijų skirtingomis kalbomis</td>
 		<td>Ši savybė nurodo pateikties duomenų kalbą. </td>
+		<td>P</td>
 	</tr>
 	<tr>
 		<td>susijusi schema</td>
@@ -1531,6 +1540,7 @@ išleista.</td>
 		<td>0..n</td>
 		<td>-</td>
 		<td>Ši savybė nurodo nustatytą schemą, kurią atitinka aprašoma pateiktis.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_conforms_to">E</a></td>
 	</tr>
 	<tr>
 		<td>(failų) pakavimo formatas</td>
@@ -1542,6 +1552,7 @@ išleista.</td>
 failai sugrupuoti, pvz. kad būtų įjungtas susijusių failų rinkinys
 atsisiųsta kartu. Jis TURĖTŲ būti išreikštas naudojant laikmenos tipą kaip
 apibrėžtas oficialiame IANA tvarkomame žiniasklaidos tipų registre.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_packaging_format">E</a></td>
 	</tr>
 	<tr>
 		<td>puslapis (dokumentacija)</td>
@@ -1550,6 +1561,7 @@ apibrėžtas oficialiame IANA tvarkomame žiniasklaidos tipų registre.</td>
 		<td>-0..n</td>
 		<td>-</td>
 		<td>Ši savybė nurodo į dokumentą su informacija apie platinimą.</td>
+        <td>P</td>
 	</tr>
 	<tr>
 		<td>teisės</td>
@@ -1559,6 +1571,7 @@ apibrėžtas oficialiame IANA tvarkomame žiniasklaidos tipų registre.</td>
 		<td>-</td>
 		<td>Ši savybė nurodo informacinį pareiškimą, kuriame nurodytos prieigos
 ir pateikties valdymo teisės.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_rights">E</a></td>
 	</tr>
 	<tr>
 		<td>erdvinė skiriamoji geba (metrais)</td>
@@ -1567,6 +1580,7 @@ ir pateikties valdymo teisės.</td>
 		<td>0..n</td>
 		<td>-</td>
 		<td>Ši savybė nurodo minimalią erdvinę skiriamąją gebą, matuojamą metrais.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_spatial_resolution">A</a></td>
 	</tr>
 	<tr>
 		<td>statusas</td>
@@ -1575,6 +1589,7 @@ ir pateikties valdymo teisės.</td>
 		<td>0..1</td>
 		<td>-</td>
 		<td>Nurodomas pateikties brandos lygmuo</td>
+        <td>P</td>
 	</tr>
 	<tr>
 		<td>pavadinimas</td>
@@ -1583,6 +1598,7 @@ ir pateikties valdymo teisės.</td>
 		<td>0..n</td>
 		<td>-</td>
 		<td>Šioje nuosavybėje yra aprašomasis pateikties pavadinimas. 
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_title">E</a></td>
 </td>
 	</tr>
 	<tr>
@@ -1592,6 +1608,7 @@ ir pateikties valdymo teisės.</td>
 		<td>0..n</td>
 		<td>-</td>
 		<td>Ši savybė nurodo minimalią laiko skiriamąją gebą.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_temporal_resolution">A</a></td>
 	</tr>	
 	<tr>
         <td>Licencija</td>
@@ -1600,6 +1617,7 @@ ir pateikties valdymo teisės.</td>
         <td>1..1</td>
         <td>-</td>
         <td>Ši savybė nurodo licenciją, pagal kurią platinama distribucija.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_license">E</a></td>
     </tr>
    </table>
 
@@ -1629,7 +1647,8 @@ ir pateikties valdymo teisės.</td>
                 <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
                 <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:45%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
             </tr>
 <br></br>
               <tr>
@@ -1639,6 +1658,7 @@ ir pateikties valdymo teisės.</td>
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo licencijos dokumento tipą. Numatytas rekomenduojamas kontroliuojamo žodyno duomenų tipas.</td>
+        <td>P</td>
     </tr>
 </table>
 
@@ -1669,7 +1689,8 @@ ir pateikties valdymo teisės.</td>
                 <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
                 <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:45%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
             </tr>
 <br></br>
             <tr>
@@ -1679,6 +1700,7 @@ ir pateikties valdymo teisės.</td>
         <td>1..n</td>
         <td>-</td>
         <td>Kategorijos schemos pavadinimas.</td>
+        <td>P</td>
     </tr>
 </table>
 
@@ -1711,7 +1733,8 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
                 <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
                 <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:45%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
             </tr>
 <br></br>
              <tr>
@@ -1721,7 +1744,8 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>1..n</td>
         <td>-</td>
         <td>Ši savybė nurodo teisinio ištekliaus tipą (pvz., "Direktyva", „Règlement grand ducal“, „įstatymas“, „Règlement ministériel“, „projektas pasiūlymas“, „Parlamento aktas“ ir t. t.). Valstybės narės raginamos sudaryti savo teisės aktų sąrašą atitinkamoje sąvokų schemoje.</td>
-    </tr>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_type">E</a></td>  
+</tr>
     <tr>
         <td>Aprašas</td>
         <td>[dct:description](http://purl.org/dc/terms/description)</td>
@@ -1729,6 +1753,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>0..n</td>
         <td>-</td>
         <td>Šioje savybėje pateikiama aprašomoji tekstinė informacija apie teisinį išteklių. Šią savybę reikėtų pakartoti, jei yra įvairių teksto versijų skirtingomis kalbomis.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_description">E</a></td>
     </tr>
     <tr>
         <td>Identifikatorius</td>
@@ -1737,6 +1762,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>0..n</td>
         <td>-</td>
         <td>Šioje savybėje pateikiamas taisyklės identifikatorius.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_identifier">E</a></td>
     </tr>
     <tr>
         <td>Nuoroda</td>
@@ -1745,6 +1771,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė aprašo išteklių, susijusį su konkrečiu aprašomu teisiniu ištekliu.</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>Susijęs</td>
@@ -1753,6 +1780,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė reiškia kitą teisinių išteklių klasės egzempliorių, susijusį su konkrečiu aprašomu teisiniu ištekliu.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_relation">A</a></td>
     </tr>
 </table>
 
@@ -1782,7 +1810,8 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
                 <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
                 <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:45%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
             </tr>
 <br></br>
              <tr>
@@ -1792,6 +1821,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>1..n</td>
         <td>-</td>
         <td>Šioje savybėje pateikiama aprašomoji tekstinė informacija apie taisyklę. Ši savybė turėtų būti kartojama, jei yra įvairių teksto versijų skirtingomis kalbomis.</td>
+                <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_description">E</a></td>
     </tr>
     <tr>
         <td>Identifikatorius</td>
@@ -1800,6 +1830,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>1..1</td>
         <td>-</td>
         <td>Šioje savybėje nurodomas taisyklės identifikatorius.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_identifier">E</a></td>
     </tr>
     <tr>
         <td>Pavadinimas</td>
@@ -1808,6 +1839,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>1..n</td>
         <td>-</td>
         <td>Ši savybė nurodo aprašomąjį ištekliaus pavadinimą arba vardą. Šis savybė turėtų būti kartojama, jei yra įvairių teksto versijų skirtingomis kalbomis.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_title">E</a></td>
     </tr>
       <tr>
         <td>Įgyvendina</td>
@@ -1816,6 +1848,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė susieja taisyklę su atitinkamais teisės aktais ar politikos dokumentais, pvz. teisinį šaltinį, kuriame apibrėžtos taisyklės.</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>Kalba</td>
@@ -1824,6 +1857,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo kalbą (-as), kuria (-iomis) galima naudotis taisykle. Ji gali būti viena ar kelios kalbos, pvz., šalyse, kuriose yra daugiau kalbų, nei viena oficiali kalba.</td>
+                <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_language">E</a></td>
     </tr>
     <tr>
         <td>Tipas</td>
@@ -1832,6 +1866,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo taisyklės tipą. Joje turi būti naudojamas kontroliuojama žodynas.</td>
+        <td>P</td>
     </tr>
 
   </table>
@@ -1862,7 +1897,8 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
                 <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
                 <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:45%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
             </tr>
 <br></br>
              <tr>
@@ -1872,6 +1908,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>1..1</td>
         <td>-</td>
         <td>Ši savybė nurodo Agento identifikatorių.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_identifier">E</a></td>
     </tr>
     <tr>
         <td>Pavadinimas</td>
@@ -1880,6 +1917,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>1..1</td>
         <td>-</td>
         <td>Ši savybė nurodo institucijos pavadinimą.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_title">E</a></td>
     </tr>
     <tr>
         <td>Pageidaujama antraštė</td>
@@ -1888,6 +1926,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>1..n</td>
         <td>-</td>
         <td>Ši savybė naudojama organizacijai pavadinti, jei naudojamas pageidaujamas pavadinimą. Šią savybę reikėtų pakartoti, jei pateikiama keliomis kalbomis.</td>
+        <td>P</td>
     </tr>
     <tr>
         <td>Geografinė vietovė</td>
@@ -1896,6 +1935,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>1..n</td>
         <td>-</td>
         <td>Ši savybė nurodo geografinį arba administracinį regioną, kurį apima institucija. Šios savybės reikšmė turėtų būti URI iš Administracinio teritorinių vienetų pavadintų institucijų sąrašo, kurį tvarko Leidinių biuro Metaduomenų registras.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_spatial_resolution">A</a></td>
     </tr>
     <tr>
         <td>Adresas</td>
@@ -1904,6 +1944,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo adresą, kaip konceptualiai apibrėžta INSPIRE adreso atvaizdavimo duomenų tipu.</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>Klasifikacija</td>
@@ -1912,6 +1953,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė Nurodo institucijos klasifikaciją pagal tam tikrą klasifikavimo schemą.</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>Pagrindinis puslapis</td>
@@ -1920,6 +1962,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>0..1</td>
         <td>-</td>
         <td>Ši savybė kreipia į institucijos pagrindinę interneto svetainę.</td>
+                <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_homepage">E</a></td>
     </tr>
 
           </table>
