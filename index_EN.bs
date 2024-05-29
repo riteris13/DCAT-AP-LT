@@ -68,6 +68,14 @@ The material in this model is published under the CC-BY 4.0 license, unless othe
         <th>Prefix</th>
         <th>Name space URI</th>
     </tr>
+ <tr>
+        <td>
+		<code>dcataplt</code>
+	</td>
+        <td>
+		<code>https://data.gov.lt/onto/DCATAPLT#</code>
+	</td>
+    </tr>
     <tr>
         <td>
 		<code>adms</code>
@@ -201,7 +209,7 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
 
 
 
-# Main entities
+# Classes
 
 ## Information system (dcataplt:InformationSystem)
 
@@ -221,21 +229,21 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
             </tr>
 <br></br>
             <tr class="data-table__header">
-                <td>[importance](http://data.gov.lt/onto/DCATAPLT#importance)</td>
+                <td>[dcataplt:importance](http://data.gov.lt/onto/DCATAPLT#)</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>1..1</td>
                 <td>Information system importance.</td>
                 <td>Information System importance as defined by law of State Information Resources Management.</td>
             </tr>
             <tr class="data-table__header">
-                <td>[type](http://data.gov.lt/onto/DCATAPLT#type)</td>
+                <td>[dcataplt:type](http://data.gov.lt/onto/DCATAPLT#)</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>1..1</td>
                 <td>Information system type.</td>
                 <td>Information System type as defined by law of State Information Resources Management.</td>
             </tr>
             <tr class="data-table__header">
-                <td>[IS importance assessment](http://data.gov.lt/onto/DCATAPLT#importanceAssessmentURL)</td>
+                <td>[dcataplt:ISImportanceAssessmentURL](http://data.gov.lt/onto/DCATAPLT#)</td>
                 <td>[rdfs:Resource](http://www.w3.org/2000/01/rdf-schema#Resource)</td>
                 <td>1..1</td>
                 <td>Information system importance assessment.</td>
@@ -244,6 +252,8 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
         </table>
     </dd>
 </dl>
+
+#Controlled vocabularies
 
 ## Importance (dcataplt:Importance)
 
@@ -260,22 +270,22 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
             </tr>
 <br></br>
             <tr class="data-table__header">
-                <td>[Highly important - 1](http://data.gov.lt/controlled-vocabulary/importance/highlyImportant)</td>
+                <td>[Highly important](http://data.gov.lt/onto/DCATAPLT#)</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>They include data important for the entire state and/or state registers or state information systems in which these data are processed - value 1 is indicated.</td>      
             </tr>
             <tr class="data-table__header">
-                <td>[Important - 2](http://data.gov.lt/onto/DCATAPLT/Importance/important)</td>
+                <td>[Important](http://data.gov.lt/onto/DCATAPLT#)</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>They include data important to several institutions and/or state registers or state information systems in which these data are processed - value 2 is indicated.</td>      
             </tr>
             <tr class="data-table__header">
-                <td>[Medium importance - 3](http://data.gov.lt/onto/DCATAPLT/Importance/moderatelyImportant)</td>
+                <td>[Moderaely important](http://data.gov.lt/onto/DCATAPLT#)</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>They include data important for one institution and/or departmental registers or state information systems in which these data are processed - value 3 is indicated.</td>      
             </tr>
             <tr class="data-table__header">
-                <td>[Low importance - 4](http://data.gov.lt/onto/DCATAPLT/Importance/slightlyImportant)</td>
+                <td>[Slightly important](http://data.gov.lt/onto/DCATAPLT#)</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>They include data managed by the institution in the performance of internal administration functions and/or information systems in which these data are processed. The procedure for the establishment, development, modernization and liquidation of the information systems mentioned in this point shall be determined by the institutions authorized by the Government of the Republic of Lithuania - meaning 4.</td>      
             </tr>
@@ -298,17 +308,17 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
             </tr>
 <br></br>
             <tr class="data-table__header">
-                <td>[Register information system](http://data.gov.lt/onto/DCATAPLT/Type/registerInformationSystem)</td>
+                <td>[Register information system](http://data.gov.lt/onto/DCATAPLT#)</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Information systems of registers in which objects are registered, objects and their registration data are processed.</td>      
             </tr>
             <tr class="data-table__header">
-                <td>[State information system](http://data.gov.lt/onto/DCATAPLT/Type/stateInformationSystem)</td>
+                <td>[State information system](http://data.gov.lt/onto/DCATAPLT#)</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>State information systems in which the data necessary for the performance of the functions established by legal acts of entities are processed, including state information systems intended for the performance and data processing of several or many entities of the same kind of operational functions defined in the legal acts regulating their activities (hereinafter referred to as the general information system.</td>      
             </tr>
             <tr class="data-table__header">
-                <td>[Internal information system](http://data.gov.lt/onto/DCATAPLT/Importance/moderatelyImportant)</td>
+                <td>[Internal information system](http://data.gov.lt/onto/DCATAPLT#)</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Internal administration information systems, which process data managed by entities, required for internal administration functions or other functions of an auxiliary nature, which help the entity to implement the tasks established by legal acts.</td>      
             </tr>
@@ -408,7 +418,7 @@ The data set is distinguished and formulated as a meaningful and significant con
         </table>
 
 
-## Kategorija, Teikėjo tipas, Statusas
+## Category, Publisher type, Status
 
  <table class="data-table simple">
             <tr >
@@ -418,16 +428,16 @@ The data set is distinguished and formulated as a meaningful and significant con
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
-                <td>Kategorija, Teikėjo tipas, Statusas</td>
-                <td></td>
-                <td></td>
+                <td>Category, Publisher type, Status</td>
+                <td>A concept defining resource publisher type, resource status or other reource category</td>
+                <td> - </td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
             </tr>
            
         </table>
 
 
-## Pateiktis
+## Distribution
 
  <table class="data-table simple">
             <tr >
@@ -437,7 +447,7 @@ The data set is distinguished and formulated as a meaningful and significant con
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
-                <td>Pateiktis</td>
+                <td>Dstribution</td>
                 <td>Fizinė duomenų rinkinio išraiškos forma tam tikru formatu arba duomenų rinkinio realizacija.</td>
                 <td>Ši klasė apibūdina konkretų ir aktyviai veikiantį duomenų rinkinio įgyvendinimą informacinėje sistemoje - valstybinės informacinės sistemos arba duomenų valdymo aplinkoje, tokioje kaip duomenų bazės lentelė, duomenų failai, saugomi duomenų saugykloje, struktūrizuoti ir pusiau struktūrizuoti failai uždarame intranete arba interneto erdvėje. 
 
@@ -450,7 +460,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
 
 
 
-## Licencijos dokumentas
+## Licence Document
 
  <table class="data-table simple">
             <tr >
@@ -460,7 +470,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
-                <td>Licencijos dokumentas</td>
+                <td>Licence document</td>
                 <td>Teisinis dokumentas, kuriuo suteikiamas oficialus leidimas ką nors daryti su ištekliais.</td>
                 <td> - </td>
                 <td>[dct:LicenseDocument](http://purl.org/dc/terms/LicenseDocument)</td>
@@ -469,7 +479,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
         </table>
 
 
-## Kategorijų schema
+## Category Scheme
 
  <table class="data-table simple">
             <tr >
@@ -489,7 +499,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
 
  
 
-## Teisinis šaltinis
+## Legal Resource
 
  <table class="data-table simple">
             <tr >
@@ -499,7 +509,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
-                <td>Teisinis šaltinis</td>
+                <td>Legal Resource</td>
                 <td>Teisiniai šaltiniai - tai teisės aktai, politika ar politikos kryptys, kurie yra taisyklės, kuriomis apibrėžiamas bazinių registrų ir kitų informacinių sistemų paslaugos. 
 Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal ELI ontologiją.
 </td>
@@ -510,7 +520,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         </table>
 
 
-## Taisyklė
+## Rule
 
  <table class="data-table simple">
             <tr >
@@ -520,7 +530,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
-                <td>Taisyklė (Rule)</td>
+                <td>Rule</td>
                 <td>Taisyklė - tai dokumentas, kuriame nustatomos konkrečios gairės ar procedūros, kurių laikosi bazinis registras. Jame gali būti pateikiama informacija ir keliami reikalavimai viešojo bazinio registro teikiamoms paslaugoms.</td>
                 <td> - </td>
                 <td>[cpsv:Rule](http://purl.org/vocab/cpsv#Rule)</td>
@@ -531,7 +541,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
    
 
 
-## Viešoji institucija
+## Public Organisation
 
           <table class="data-table simple">
             <tr >
@@ -541,7 +551,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
-                <td>Viešoji insitucija (PublicOrganisation)</td>
+                <td>Public Organisation</td>
                 <td>Viešoji institucija yra Agentas, kuris atsakingas už viešųjų paslaugų teikimą. Čia naudojama klasė iš Pagrindinio institucijų žodyno, taip pat pagrįsto W3C Organizacijų ontologija.</td>
                 <td> - </td>
                 <td>[cv:PublicOrganisation](http://data.europa.eu/m8g/PublicOrganisation)</td>
@@ -551,7 +561,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         
 
 
-## Informacinės sistemos paslauga
+## Public Service
 
  <table class="data-table simple">
             <tr >
@@ -561,7 +571,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
-                <td>Informacinės sistemos paslauga</td>
+                <td>Public Service</td>
                 <td>Ši klasė atvaizduoja gebėjimą atlikti viešosios paslaugos tiekimo procesus ir egzistuoja nepriklausomai nuo to, ar ja naudojamasi, ar ne. Tai veiksmų, kuriuos atlieka viešojo administravimo institucija arba kurie atliekami jos vardu piliečio, verslo ar kitos viešosios įstaigos naudai, rinkinys.</td>
                 <td> - </td>
                 <td>[cpsv:PublicService](http://purl.org/vocab/cpsv#PublicService)</td>
@@ -570,7 +580,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         </table>
 
 
-## Katalogo įrašas
+## Catalog Record
 
  <table class="data-table simple">
             <tr >
@@ -608,34 +618,6 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
            
         </table>
 <br>
- <table class="data-table simple">
-         
-            <tr class="data-table__header">
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Property</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Range</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Range</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Card</th>
-                <th class="data-table__header-title--sortable" style="width:20%">Context</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Description</th>
-            </tr>
-<br></br>
-            <tr>
-        <td>Algoritmas</td>
-        <td>[spdx:algorithm](http://spdx.org/rdf/terms#algorithm)</td>
-        <td>[spdx:ChecksumAlgorithm](http://spdx.org/rdf/terms#ChecksumAlgorithm)</td>
-        <td>1..1</td>
-        <td>-</td>
-        <td>Algoritmas, naudojamas objekto kontrolinei sumai sukurti.</td>
-    </tr>
-    <tr>
-        <td>Kontrolinės sumos reikšmė</td>
-        <td>spdx:checksumValue<br>rdfs:Literal</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>1..1</td>
-        <td>-</td>
-        <td>Mažosiomis raidėmis užkoduota šešioliktainė skaitmeninė vertė, sukurta naudojant tam tikrą algoritmą.</td>
-    </tr>
-</table>
 
 ## Dokumentas
 
@@ -655,17 +637,6 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
            
         </table>
 
- <table class="data-table simple">
-         
-            <tr class="data-table__header">
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Property</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Range</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Range</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Card</th>
-                <th class="data-table__header-title--sortable" style="width:20%">Context</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Description</th>
-            </tr>
-</table>
 
 
 ## Dažnis
@@ -710,28 +681,6 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
            
         </table>
 <br>
-
-        <table class="data-table simple">
-         
-            <tr class="data-table__header">
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Property</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Range</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Range</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Card</th>
-                <th class="data-table__header-title--sortable" style="width:20%">Context</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Description</th>
-            </tr>
-<br></br>
-            <tr>
-        <td>Žymėjimas</td>
-        <td>skos:notation<br>rdfs:Literal</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>1..1</td>
-        <td>-</td>
-        <td>Ši Property yra eilutė, kuri yra identifikatorius pagal identifikatoriaus schemą, į kurią nurodo jos duomenų tipas.</td>
-        </tr>
-        </table>
-
 
 ## Rūšis
 
@@ -790,43 +739,6 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
            
         </table>
 
- <table class="data-table simple">
-         
-            <tr class="data-table__header">
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Property</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Range</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Range</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Card</th>
-                <th class="data-table__header-title--sortable" style="width:20%">Context</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Description</th>
-            </tr>
-<br></br>
-		  <tr>
-        <td>Geografinis ribinis stačiakampis</td>
-        <td>[dcat:bbox](http://www.w3.org/ns/dcat#bbox)</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>0..1</td>
-        <td>-</td>
-        <td>Ši Property nurodo išteklių geografines ribas.</td>
-    </tr>
-    <tr>
-        <td>Centroidas</td>
-        <td>[dcat:centroid](http://www.w3.org/ns/dcat#centroid)</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>0..1</td>
-        <td>-</td>
-        <td>Ši Property nurodo išteklių geografinį centrą (centroidą).</td>
-    </tr>
-    <tr>
-        <td>Geometrija</td>
-        <td>[locn:geometry](http://www.w3.org/ns/locn#geometry)</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>0..1</td>
-        <td>-</td>
-        <td>Ši Property susieja bet kurį išteklių su atitinkama geometrija.</td>
-    </tr>
-</table>
-
 
 ## Medijos tipas
 
@@ -866,50 +778,6 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
            
         </table>
 
- <table class="data-table simple">
-         
-            <tr class="data-table__header">
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Property</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Range</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Range</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Card</th>
-                <th class="data-table__header-title--sortable" style="width:20%">Context</th>
-                <th class="data-table__header-title--sortable" style="width:50%">Description</th>
-            </tr>
-<br></br>
-             <tr>
-        <td>Pabaigos data</td>
-        <td>[dcat:endDate](https://www.w3.org/ns/dcat#endDate)</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>0..1</td>
-        <td>-</td>
-        <td>Laikotarpio pabaigos data.</td>
-     </tr>
-     <tr>
-        <td>Pradžios data</td>
-        <td>[dcat:startDate](http://www.w3.org/ns/dcat#startDate)</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>0..1</td>
-        <td>-</td>
-        <td>Laikotarpio pradžios data.</td>
-     </tr>
-     <tr>
-        <td>Turi pradžią</td>
-        <td>[time:hasBeginning](http://www.w3.org/2006/time#hasBeginning)</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>0..1</td>
-        <td>-</td>
-        <td>Periodo arba intervalo pradžios data.</td>
-     </tr>
-     <tr>
-        <td>Turi pabaigą</td>
-        <td>[time:hasEnd](http://www.w3.org/2006/time#hasEnd)</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>0..1</td>
-        <td>-</td>
-        <td>Periodo arba intervalo pabaigos data.</td>
-      </tr>
-     </table>
 
 ## Teisių deklaracija
 
