@@ -2040,6 +2040,14 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>-</td>
         <td>Ši savybė nurodo susijusią registro paslaugą, kuri yra įtraukta arba fiziškai, arba logiškai įeina į aprašomą išteklių. Naudojama bazinių registrų registrams aprašyti.</td>
     </tr>
+   <tr>
+        <td>Yra sudedamoji dalis</td>
+        <td>[dcterms:isPartOf](http://purl.org/dc/terms/isPartOf)</td>
+        <td>[cpsv:PublicService](http://purl.org/vocab/cpsv#PublicService)</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Ši savybė nurodo susijusią registro paslaugą, į kurią yra įtraukta arba fiziškai, arba logiškai įeina aprašomas išteklius. Naudojama bazinių registrų registrams aprašyti.</td>
+    </tr>
     <tr>
         <td>Pagrindinis puslapis</td>
         <td>foaf:homepage<br>foaf:Document</td>
