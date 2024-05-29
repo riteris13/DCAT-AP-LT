@@ -440,7 +440,7 @@ Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas
             </tr>
             <tr class="data-table__header">
                 <td>Tinklalapis</td>
-                <td>[foaf:homepage](https://w3c.github.io/dxwg/dcat/#Property:catalog_homepage)</td>
+                <td>[foaf:homepage](http://xmlns.com/foaf/0.1/homepage)</td>
                 <td>[foaf:Document](http://xmlns.com/foaf/0.1/Document)</td>
                 <td>0..1</td>
                 <td>-</td>
@@ -2050,7 +2050,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
     </tr>
     <tr>
         <td>Pagrindinis puslapis</td>
-        <td>foaf:homepage</td>
+        <td>[foaf:homepage](http://xmlns.com/foaf/0.1/homepage)</td>
         <td>[foaf:Document](http://xmlns.com/foaf/0.1/Document)</td>
         <td>0..1</td>
         <td>-</td>
