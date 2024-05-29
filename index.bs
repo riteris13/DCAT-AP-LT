@@ -267,7 +267,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
         <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:10%">Reikšmė</th>
-		<th class="data-table__header-title--sortable" style="width:10%">Ištekliaus URI</th>
+		<th class="data-table__header-title--sortable" style="width:10%">URI</th>
                 <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Reikšmės aprašymas</th>
                 <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
@@ -315,7 +315,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
         <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:10%">Reikšmė</th>
-		<th class="data-table__header-title--sortable" style="width:10%">Ištekliaus URI</th>
+		<th class="data-table__header-title--sortable" style="width:10%">URI</th>
                 <th class="data-table__header-title--sortable" style="width:10%">Range</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Reikšmės aprašymas</th>
                 <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
