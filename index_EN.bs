@@ -949,5 +949,7 @@ optional identifier of the agency managing the identifier scheme.
            
         </table>
 
+# Metadata Standard for High Value Datasets (HVD-DCAT-AP-LT)
 
+Metadata information for high-value datasets is provided in this [appendix](https://ivpk.github.io/DCAT-AP-LT/en/hvd.html).
 
