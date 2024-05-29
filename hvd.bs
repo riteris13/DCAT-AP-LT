@@ -38,11 +38,13 @@ Didelės vertės duomenų rinkiniai pasižymi specifiniais techniniais ir teisin
     <li>nemokama prieiga ir gavimas;</li>
     <li>išsamūs metaduomenų aprašai.</li>
 </ul>
+
 Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikalavimus, DCAT-AP-LT modelyje atsiranda poreikis taikyti papildomas, modifikuotas ar sugriežtintas metaduomenų modelio taisykles didelės vertės duomenų rinkiniams. Šios taisyklės apima DCAT-AP klases papildančias savybes ar griežtesnį esamų savybių privalomumo taikymą ir yra apibrėžtos <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/">DCAT-AP-HVD</a> priede. 
 
 # Didelės vertės duomenų rinkinians naudojamos (DCAT-AP-HVD) klasės ir savybės
 
 ## Katalogas
+
 <dl>
     <dt>Apibrėžimas</dt>
     <dd>Katalogas arba saugykla, kurioje yra aprašomi duomenų rinkiniai arba duomenų paslaugos.</dd>
@@ -98,6 +100,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
 
 
 ## Katalogo įrašas
+
 <dl>
     <dt>Apibrėžimas</dt>
     <dd>Duomenų rinkinio įrašo kataloge aprašymas.</dd>
@@ -146,7 +149,9 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
     <dd>
   </dd>
 </dl>
+
 ## Duomenų paslauga
+
 <dl>
     <dt>Apibrėžimas</dt>
     <dd>Operacijų rinkinys, suteikiantis prieigą prie vieno ar daugiau duomenų rinkinių arba duomenų apdorojimo funkcijų.</dd>
@@ -332,6 +337,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
 </dl>
 
 ## Pateiktis
+
 <dl>
     <dt>Apibrėžimas</dt>
     <dd>Katalogas arba saugykla, kurioje yra aprašomi duomenų rinkiniai arba duomenų paslaugos.</dd>
@@ -413,7 +419,9 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
 </table>
   </dd>
 </dl>
+
 ## Rūšis
+
 <dl>
     <dt>Apibrėžimas</dt>
     <dd>Aprašymas pagal "vCard" specifikaciją, pvz., nurodant kontaktinio punkto telefono numerį ir el. pašto adresą.</dd>
@@ -457,7 +465,9 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
 </table>
   </dd>
 </dl>
+
 ## Licencijos dokumentas
+
 <dl>
     <dt>Apibrėžimas</dt>
     <dd>Teisinis dokumentas, suteikiantis oficialų leidimą ką nors daryti su ištekliais.</dd>
