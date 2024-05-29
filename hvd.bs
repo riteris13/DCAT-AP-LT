@@ -13,7 +13,7 @@ Translation: en en/index.html
 Boilerplate: copyright no, spec-metadata no, abstract no, conformance no
 </pre>
 
-# Didelės vertės duomenų rinkinians naudojamos (DCAT-AP-HVD) klasės ir savybės
+# Įžanga
 
 Didelės vertės duomenų rinkinių apibrėžimas atsirado iš poreikio identifikuoti svarbiausius duomenis pavyzdžiui:
 <ul>
@@ -39,6 +39,8 @@ Didelės vertės duomenų rinkiniai pasižymi specifiniais techniniais ir teisin
     <li>išsamūs metaduomenų aprašai.</li>
 </ul>
 Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikalavimus, DCAT-AP-LT modelyje atsiranda poreikis taikyti papildomas, modifikuotas ar sugriežtintas metaduomenų modelio taisykles didelės vertės duomenų rinkiniams. Šios taisyklės apima DCAT-AP klases papildančias savybes ar griežtesnį esamų savybių privalomumo taikymą ir yra apibrėžtos <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/">DCAT-AP-HVD</a> priede. 
+
+# Didelės vertės duomenų rinkinians naudojamos (DCAT-AP-HVD) klasės ir savybės
 
 ## Katalogas
 <dl>
