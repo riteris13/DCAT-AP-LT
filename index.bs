@@ -477,11 +477,11 @@ Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas
 
             <tr class="data-table__header">
                 <td>Geografinė aprėptis</td>
-                <td>[dct:spatial](https://w3c.github.io/dxwg/dcat/#Property:dataset_spatial)</td>
+                <td>[dct:spatial](http://purl.org/dc/terms/spatial)</td>
                 <td>[dct:Location](http://purl.org/dc/terms/Location)</td>
                 <td>0..1</td>
                 <td>-</td>
-                <td>Šioje savybėje nurodoma naujausia katalogo pakeitimo data.</td>
+                <td>Šioje savybėje nurodoma geografinė duomenų aprėptis.</td>
                 <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_spatial">E</a></td>
             </tr>
 
@@ -2058,15 +2058,15 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
     </tr>
     <tr>
         <td>Rezultatas (duomenų išteklius)</td>
-        <td>cpsv:produces</td>
-        <td>cv:Output</td>
+        <td>[cpsv:produces](http://purl.org/vocab/cpsv#produces)</td>
+        <td>[cv:Output](http://data.europa.eu/m8g/Output)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė apibrėžia paslaugos išvestį kaip prieinamą duomenų išteklių ir valdomą bazinio registro paslaugos. Išvestis taip pat turi būti aprašyta kaip cat:Catalog, dcat:Dataset arba dcat:DataService.</td>
     </tr>
     <tr>
         <td>Geografinė vietovė</td>
-        <td>dcterms:spatial</td>
+        <td>[dct:spatial](http://purl.org/dc/terms/spatial)</td>
         <td>dct:Location</td>
         <td>0..n</td>
         <td>-</td>
