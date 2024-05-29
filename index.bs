@@ -2728,4 +2728,49 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
            
         </table>
 
+# Naudojami BReg-DCAT-AP Kontroliuojami žodynai
 
+<table>
+  <tr>
+    <th>Property URI</th>
+    <th>Used in Class</th>
+    <th>Vocabulary name</th>
+    <th>Vocabulary URI</th>
+    <th>Usage note</th>
+  </tr>
+  <tr>
+    <td>dct:accessRights</td>
+    <td>Data Service; Dataset; Registry Catalogue; Distribution</td>
+    <td>Access Rights NAL</td>
+    <td><a href="http://publications.europa.eu/resource/authority/access-right">http://publications.europa.eu/resource/authority/access-right</a></td>
+    <td>Datasets, and Data Services must include the level of access rights according to the list of values (i.e., Public, non-public, and restricted).</td>
+  </tr>
+  <tr>
+    <td>dct:accrualPeriodicity</td>
+    <td>Dataset; Registry Catalogue</td>
+    <td>Frequency NAL</td>
+    <td><a href="http://publications.europa.eu/resource/authority/frequency">http://publications.europa.eu/resource/authority/frequency</a></td>
+    <td>Datasets and catalogues must specify the frequency of update using the EU Publications Office File Frequency NAL (e.g., continuous, daily, hourly, etc.).</td>
+  </tr>
+  <tr>
+    <td>dct:creator</td>
+    <td>Dataset; Registry Catalogue</td>
+    <td>Corporate Bodies NAL</td>
+    <td><a href="http://publications.europa.eu/resource/dataset/corporate-body">http://publications.europa.eu/resource/dataset/corporate-body</a></td>
+    <td>The Corporate bodies NAL includes all the European institutions and a reduced set of international organisations. The Corporate bodies NAL must be used for European institutions and a small set of international organisations. In case of other types of organisations, national, regional, or local vocabularies should be used, if available.</td>
+  </tr>
+  <tr>
+    <td>dct:format</td>
+    <td>Data Service; Distribution; Registry Catalogue</td>
+    <td>File Type NAL</td>
+    <td><a href="http://publications.europa.eu/resource/authority/file-type">http://publications.europa.eu/resource/authority/file-type</a></td>
+    <td>The media type of distributions must be represented using the concrete list of document file types of the EU Publications Office File Type NAL.</td>
+  </tr>
+  <tr>
+    <td>dct:language</td>
+    <td>Dataset; Distribution; Registry Catalogue; Rule</td>
+    <td>Languages NAL</td>
+    <td><a href="http://publications.europa.eu/resource/authority/language">http://publications.europa.eu/resource/authority/language</a></td>
+    <td>Descriptions of Datasets, Data Service, Catalogues, Rules, and Distributions must include the languages using the EU Publications Office NAL.</td>
+  </tr>
+</table>
