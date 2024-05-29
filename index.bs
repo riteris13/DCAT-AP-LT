@@ -47,7 +47,7 @@ DCAT-AP-LT apima BREG-DCAT-AP(https://github.com/SEMICeu/BregDCAT-AP/tree/main/r
 
 
 
-## Aprėptis #Ę {#Apreptis}
+## Aprėptis ## {#Apreptis}
 
 Šis specifikacija yra orientuota į Valstybės informacinių išteklių valdymo įstatymo nuostatų dėl informacinėse sistemose tvarkomų metaduomenų įgyvendinimo.
 
