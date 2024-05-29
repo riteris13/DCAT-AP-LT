@@ -2809,27 +2809,27 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
   </tr>
   <tr>
     <td>adms:status</td>
-    <td>Distribution; Registry Catalogue; Registry Service</td>
+    <td>Pateiktis; Katalogas; Informacinės sistemos paslauga</td>
     <td>ADMS Status vocabulary</td>
     <td><a href="http://purl.org/adms/status/">http://purl.org/adms/status/</a></td>
-    <td>Data Distributions must indicate the status of the resource according to the ADMS Status vocabulary (i.e., Completed, Deprecated, Under Development).</td>
+    <td>Duomenų paskirstymuose turi būti nurodyta ištekliaus būsena pagal ADMS būsenos žodyną (t. y. baigta, nebenaudojama, kuriama).</td>
   </tr>
 	<tr>
     <td>cv:thematicArea</td>
-    <td>Public Registry Service</td>
+    <td>Informacinės sistemos paslauga</td>
     <td>EuroVoc</td>
     <td><a href="http://eurovoc.europa.eu/">http://eurovoc.europa.eu/</a></td>
-    <td>The use of EuroVoc is recommended (not mandatory) at any hierarchical level, in a flexible way, to describe the thematic area of a service.</td>
+    <td>Naudoti EuroVoc rekomenduojama (neprivaloma) bet kuriame hierarchiniame lygmenyje lanksčiai apibūdinti paslaugos teminę sritį.</td>
   </tr>
   <tr>
     <td>dcat:theme</td>
-    <td>Data Service; Dataset</td>
+    <td>Duomenų paslauga; Duomenų rinkinys</td>
     <td>Data Theme Taxonomy NAL; EuroVoc</td>
     <td>
       <a href="http://publications.europa.eu/resource/authority/data-theme">Data Theme Taxonomy NAL</a><br>
       <a href="http://eurovoc.europa.eu/">EuroVoc</a>
     </td>
-    <td>The EU Publications Office Data Theme NAL is mandatory to describe catalogues and datasets in open data portals. EuroVoc is recommended at any hierarchical level, in a flexible way, to describe the theme of a resource, dataset or data service.</td>
+    <td>ES leidinių biuro duomenų tema NAL yra privaloma aprašant katalogus ir duomenų rinkinius atvirų duomenų portaluose. „EuroVoc“ rekomenduojama bet kuriuo hierarchiniu lygiu lanksčiai apibūdinti šaltinio, duomenų rinkinio ar duomenų paslaugos temą.</td>
   </tr>
   <tr>
     <td>dcat:themeTaxonomy</td>
