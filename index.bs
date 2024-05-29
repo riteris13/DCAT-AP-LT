@@ -896,7 +896,6 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Susijęs duomenų rinkinys, kurio aprašytasis duomenų rinkinys yra versija arba adaptacija.</td>
-        <td>-</td>
      <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_has_version">E</a></td>
     </tr>
     <tr>
