@@ -262,34 +262,34 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
 <dl>
     <dt>Apibrėžimas</dt>
     <dd>Informacinės sistemos svarba pagal Valstybės informacinių išeklių valdymo įstatymo reikalavimus.</dd>
-    <dt>Galimų svarbos lygmenų sąrašas</dt>
+    <dt>Galimų svarbos lygmenų reikšmių sąrašas</dt>
     <dd>
         <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:10%">Reikšmė</th>
-		<th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
+		<th class="data-table__header-title--sortable" style="width:10%">Ištekliaus URI</th>
                 <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Reikšmės aprašymas</th>
                 <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
             </tr>
 <br></br>
             <tr class="data-table__header">
-                <td>[Ypatingos svarbos](http://data.gov.lt/onto/DCATAPLT#)</td>
-		<td>dcataplt:highlyImportant</td>
+                <td>Ypatingos svarbos</td>
+		<td>[dcataplt:highlyImportant](http://data.gov.lt/onto/DCATAPLT#)</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Ypatingos svarbos valstybės informaciniai ištekliai – jiems priskiriamos informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius visai valstybei (poveikis daugiau negu 5 apskrityse, daugiau negu 50 procentų gyventojų ar institucijų).</td>  
                 <td>P</td>
             </tr>
             <tr class="data-table__header">
-                <td>[Svarbūs](http://data.gov.lt/onto/DCATAPLT#)</td>
-		<td>dcataplt:Important</td>
+                <td>Svarbūs</td>
+		<td>[dcataplt:Important](http://data.gov.lt/onto/DCATAPLT#)</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Svarbūs valstybės informaciniai ištekliai – jiems priskiriamos informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius didelei valstybės, institucijų ir gyventojų daliai (poveikis 2–5 apskrityse, 6–50 procentų gyventojų ar institucijų).</td>      
                 <td>P</td>
             </tr>
             <tr class="data-table__header">
-                <td>[Vidutinės svarbos](http://data.gov.lt/onto/DCATAPLT#t)</td>
-		<td>dcataplt:moderatelyImportant</td>
+                <td>Vidutinės svarbos</td>
+		<td>[dcataplt:moderatelyImportant](http://data.gov.lt/onto/DCATAPLT#)</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Vidutinės svarbos valstybės informaciniai ištekliai – jiems priskiriamos informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius nedidelei valstybės, institucijų ir gyventojų daliai (poveikis keliose vienos apskrities savivaldybėse, 1–5 procentų gyventojų ar institucijų).</td>      
                 <td>P</td>
@@ -310,11 +310,12 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
 <dl>
     <dt>Apibrėžimas</dt>
     <dd>Informacinės sistemos tipas pagal Valstybės informacinių išeklių valdymo įstatymo reikalavimus.</dd>
-    <dt>Galimų informacinių sistemų tipų sąrašas</dt>
+    <dt>Galimų informacinių sistemų tipų reikšmių sąrašas</dt>
     <dd>
         <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:10%">Reikšmė</th>
+		<th class="data-table__header-title--sortable" style="width:10%">Ištekliaus URI</th>
                 <th class="data-table__header-title--sortable" style="width:10%">Range</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Reikšmės aprašymas</th>
                 <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
@@ -323,18 +324,21 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
 <br></br>
             <tr class="data-table__header">
                 <td>[Registro informacinė sistema](http://data.gov.lt/onto/DCATAPLT#)</td>
+		<td>dcataplt:moderatelyImportant</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Registrų informacinės sistemos, kuriose registruojami objektai, tvarkomi objektų ir jų registravimo duomenys.</td>
                 <td>P</td>
             </tr>
             <tr class="data-table__header">
                 <td>[Valstybės informacinė sistema](http://data.gov.lt/onto/DCATAPLT#)</td>
+		<td>dcataplt:moderatelyImportant</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Valstybės informacinės sistemos, kuriose tvarkomi subjektų teisės aktuose nustatytoms funkcijoms atlikti reikalingi duomenys, įskaitant ir valstybės informacines sistemas, skirtas kelių ar daugelio subjektų jų veiklą reglamentuojančiuose teisės aktuose nustatytoms vienodo pobūdžio veiklos funkcijoms atlikti ir duomenims tvarkyti.</td>      
                 <td>P</td>
             </tr>
             <tr class="data-table__header">
                 <td>[Vidaus administravimo informacinė sistema](http://data.gov.lt/onto/DCATAPLT#)</td>
+		<td>dcataplt:moderatelyImportant</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Vidaus administravimo informacinės sistemos, kuriose tvarkomi subjektų valdomi duomenys, reikalingi vidaus administravimo funkcijoms ar kitoms pagalbinio pobūdžio funkcijoms, kurios padeda įgyvendinti subjektui teisės aktuose nustatytus uždavinius.</td>    
                 <td>P</td>
