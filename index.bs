@@ -2034,7 +2034,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
     </tr>
     <tr>
         <td>Turi dalį</td>
-        <td>dcterms:hasPart</td>
+        <td>[dcterms:hasPart](http://purl.org/dc/terms/hassPart)</td>
         <td>[cpsv:PublicService](http://purl.org/vocab/cpsv#PublicService)</td>
         <td>0..n</td>
         <td>-</td>
