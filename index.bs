@@ -1411,6 +1411,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
         <td>1..n</td>
         <td>-</td>
         <td>Šioje savybėje pateikiamas URL, kuris suteikia prieigą prie duomenų rinkinio platinimo.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_access_url">E</a></td>
     </tr>
     <tr>
         <td>Licencija</td>
@@ -1458,7 +1459,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo duomenų paslaugą per kurią prieinama duomenų pateiktis</td>
-        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_access_service">A</a></td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_access_service">E</a></td>
     </tr>
 	<!-- trūko 'byte size' -->
 	<tr>
@@ -1542,7 +1543,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
 		<td>0..1</td>
 		<td>Ši savybė turėtų būti kartojama, jei yra įvairių pateikties versijų skirtingomis kalbomis</td>
 		<td>Ši savybė nurodo pateikties duomenų kalbą. </td>
-		<td>P</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_language">E</a></td>
 	</tr>
 	<tr>
 		<td>susijusi schema</td>
@@ -1572,7 +1573,7 @@ apibrėžtas oficialiame IANA tvarkomame žiniasklaidos tipų registre.</td>
 		<td>-0..n</td>
 		<td>-</td>
 		<td>Ši savybė nurodo į dokumentą su informacija apie platinimą.</td>
-        <td>P</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_homepage">E</a></td>
 	</tr>
 	<tr>
 		<td>teisės</td>
@@ -1591,7 +1592,7 @@ ir pateikties valdymo teisės.</td>
 		<td>0..n</td>
 		<td>-</td>
 		<td>Ši savybė nurodo minimalią erdvinę skiriamąją gebą, matuojamą metrais.</td>
-        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_spatial_resolution">A</a></td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_spatial_resolution">E</a></td>
 	</tr>
 	<tr>
 		<td>statusas</td>
@@ -1600,7 +1601,7 @@ ir pateikties valdymo teisės.</td>
 		<td>0..1</td>
 		<td>-</td>
 		<td>Nurodomas pateikties brandos lygmuo</td>
-        <td>P</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_status">E</a></td>
 	</tr>
 	<tr>
 		<td>pavadinimas</td>
@@ -1619,7 +1620,7 @@ ir pateikties valdymo teisės.</td>
 		<td>0..n</td>
 		<td>-</td>
 		<td>Ši savybė nurodo minimalią laiko skiriamąją gebą.</td>
-        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_temporal_resolution">A</a></td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_temporal_resolution">E</a></td>
 	</tr>	
 	<tr>
         <td>Licencija</td>
