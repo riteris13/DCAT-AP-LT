@@ -206,7 +206,7 @@ Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas
 
 
 
-# Klasės {#Klases}
+# Klasės # {#Klases}
 
 ## Informacinė Sistema (dcataplt:InformationSystem)
 
