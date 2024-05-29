@@ -6,7 +6,7 @@ Status: LD
 Repository: ivpk/DCAT-AP-LT
 URL: https://ivpk.github.io/DCAT-AP-LT/
 Editor: IVPK, https://ivpk.lrv.lt/lt/
-Abstract: DCAT-AP-LT metaduomenų modelis.
+Abstract: DCAT-AP-LT metadata model.
 Complain About: accidental-2119 yes, missing-example-ids yes
 Markup Shorthands: markdown yes, css no
 Translation: lt ../index.html
