@@ -324,21 +324,21 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
 <br></br>
             <tr class="data-table__header">
                 <td>Registro informacinė sistema</td>
-		<td>dcataplt:moderatelyImportant</td>
+		<td>dcataplt:registerInformationSystemt</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Registrų informacinės sistemos, kuriose registruojami objektai, tvarkomi objektų ir jų registravimo duomenys.</td>
                 <td>P</td>
             </tr>
             <tr class="data-table__header">
                 <td>Valstybės informacinė sistema</td>
-		<td>dcataplt:moderatelyImportant</td>
+		<td>dcataplt:stateInformationSystem</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Valstybės informacinės sistemos, kuriose tvarkomi subjektų teisės aktuose nustatytoms funkcijoms atlikti reikalingi duomenys, įskaitant ir valstybės informacines sistemas, skirtas kelių ar daugelio subjektų jų veiklą reglamentuojančiuose teisės aktuose nustatytoms vienodo pobūdžio veiklos funkcijoms atlikti ir duomenims tvarkyti.</td>      
                 <td>P</td>
             </tr>
             <tr class="data-table__header">
                 <td>Vidaus administravimo informacinė sistema</td>
-		<td>dcataplt:moderatelyImportant</td>
+		<td>dcataplt:internalInformationSystem</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Vidaus administravimo informacinės sistemos, kuriose tvarkomi subjektų valdomi duomenys, reikalingi vidaus administravimo funkcijoms ar kitoms pagalbinio pobūdžio funkcijoms, kurios padeda įgyvendinti subjektui teisės aktuose nustatytus uždavinius.</td>    
                 <td>P</td>
