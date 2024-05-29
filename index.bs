@@ -2067,14 +2067,14 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
     <tr>
         <td>Geografinė vietovė</td>
         <td>[dct:spatial](http://purl.org/dc/terms/spatial)</td>
-        <td>dct:Location</td>
+        <td>[dct:Location](http://purl.org/dc/terms/Location)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Šioje savybėje nurodomas geografinis arba administracinis regionas, kurį apima registro paslauga.</td>
     </tr>
     <tr>
         <td>Statusas</td>
-        <td>adms:status</td>
+        <td>[adms:status](http://www.w3.org/ns/adms#status)td>
         <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
         <td>0..1</td>
         <td>-</td>
@@ -2090,7 +2090,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
     </tr>
     <tr>
         <td>Tipas</td>
-        <td>dct:type</td>
+        <td>[dct:type](http://purl.org/dc/terms/type)</td>
         <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
         <td>0..n</td>
         <td>-</td>
