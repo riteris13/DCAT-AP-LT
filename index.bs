@@ -2889,7 +2889,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <td>1..*</td>
       <td>Teisės aktai, kurie įpareigoja kurti ar valdyti duomenų paslaugą.</td>
       <td>HVD atveju reikšmė PRIVALO apimti ELI http://data.europa.eu/eli/reg_impl/2023/138/oj. Kadangi į išteklių gali būti taikomi keli teisės aktai, maksimalus kardinalumas nėra ribojamas.</td>
-      <td>P</td>
+      <td><a href="http://data.europa.eu/eli/ontology#LegalResource">A</a></td>
     </tr>
     <tr>
       <td>[kontaktas](http://www.w3.org/ns/dcat#contactPoint)</td>
@@ -2897,7 +2897,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <td>1..*</td>
       <td>Kontaktinė informacija, kurią galima naudoti siunčiant pastabas apie duomenų paslaugą.</td>
       <td>3.4 straipsnis reikalauja paskirti kontaktinį tašką API.</td>
-      <td>P</td>
+      <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_contact_point">A</a></td>
     </tr>
     <tr>
       <td>[dokumentacija](http://xmlns.com/foaf/0.1/Page)</td>
@@ -2913,7 +2913,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <td>0..*</td>
       <td>Aprašymas paslaugų, prieinamų per galutinius taškus, įskaitant jų operacijas, parametrus ir t.t.</td>
       <td>Savybė pateikia konkrečias faktinių galutinių taškų detales, o dct:conformsTo naudojama nurodyti bendrąjį standartą ar specifikaciją, kurią įgyvendina galutiniai taškai. 3.3 straipsnis reikalauja pateikti API dokumentaciją Sąjungos arba tarptautiniu mastu pripažintu atviru, žmogui skaitomu ir mašinai skaitomu formatu.</td>
-      <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#DataService.endpointdescription">E</a></td>
+      <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:data_service_endpoint_description">A</a></td>
     </tr>
     <tr>
       <td>[prieigos taško URL](http://www.w3.org/ns/dcat#endpointURL)</td>
@@ -2921,7 +2921,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <td>1..*</td>
       <td>Pagrindinė paslaugos vieta arba pirminis galutinis taškas (IRI).</td>
       <td>Galutinio taško URL TURĖTŲ būti pastovus. Tai reiškia, kad leidėjai turėtų daryti viską, kas įmanoma, kad išlaikytų reikšmę stabilia ir egzistuojančia.</td>
-      <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#DataService.endpointURL">E</a></td>
+      <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:data_service_endpoint_url">A</a></td>
     </tr>
     <tr>
       <td>[didelės vertės duomenų rinkinio kategorija](http://data.europa.eu/r5r/hvdCategory)</td>
@@ -2937,7 +2937,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <td>0..1</td>
       <td>Licencija, pagal kurią teikiama duomenų paslauga.</td>
       <td>3.3 straipsnis nurodo, kad turi būti pateiktos naudojimo sąlygos. Pagal DCAT-AP HVD teisinės informacijos gaires tai įgyvendinama pirmenybė teikiant licenciją. Kaip alternatyvą gali būti naudojamos teisės.</td>
-      <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#DataService.licence">E</a></td>
+      <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_license">A</a></td>
     </tr>
     <tr>
       <td>[teisės](http://purl.org/dc/terms/rights)</td>
@@ -2945,7 +2945,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <td>0..*</td>
       <td>Deklaracija, kuriame nurodomos su platinimu susijusios teisės.</td>
       <td>3.3 straipsnis nurodo, kad turi būti pateiktos naudojimo sąlygos. Pagal DCAT-AP HVD teisinės informacijos gaires tai įgyvendinama pirmenybė teikiant licenciją. Kaip alternatyvą gali būti naudojamos teisės.</td>
-      <td>P</td>
+      <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_rights">A</a></td>
     </tr>
     <tr>
       <td>[pateikia duomenų rinkinį](http://www.w3.org/ns/dcat#servesDataset)</td>
