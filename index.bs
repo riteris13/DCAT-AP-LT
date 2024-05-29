@@ -2833,34 +2833,38 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
   </tr>
   <tr>
     <td>dcat:themeTaxonomy</td>
-    <td>Registry Catalogue</td>
+    <td>Katalogas</td>
     <td>Data Theme Taxonomy NAL; EuroVoc</td>
     <td>
       <a href="http://publications.europa.eu/resource/authority/data-theme">Data Theme Taxonomy NAL</a><br>
       <a href="http://publications.europa.eu/resource/dataset/eurovoc">EuroVoc</a>
     </td>
-    <td>The Registry Catalogue must specify the URI to the thesaurus that defines the potential themes of its resources, as well as the taxonomy of the Data Theme NAL (mandatory) or EuroVoc (recommended).</td>
+    <td>Registro kataloge turi būti nurodytas tezauro URI, kuris apibrėžia galimas jo išteklių temas, taip pat duomenų temos NAL (privaloma) arba EuroVoc (rekomenduojama) taksonomiją.
+</td>
   </tr>
   <tr>
     <td>dct:type</td>
-    <td>Legal Resource</td>
+    <td>Teisinis išteklius</td>
     <td>Resource Type NAL</td>
     <td><a href="http://publications.europa.eu/resource/authority/resource-type">http://publications.europa.eu/resource/authority/resource-type</a></td>
-    <td>Legal Resource must indicate the type of the document represented (e.g., Amended proposal, Agreement, etc.).</td>
+    <td>Teisiniame šaltinyje turi būti nurodytas atstovaujamo dokumento tipas (pvz., pakeistas pasiūlymas, sutartis ir kt.).
+</td>
   </tr>
   <tr>
     <td>dct:type</td>
-    <td>Agent</td>
+    <td>Agentas</td>
     <td>ADMS publisher type vocabulary</td>
     <td><a href="http://purl.org/adms/publishertype/">http://purl.org/adms/publishertype/</a></td>
-    <td>The list of terms in the ADMS publisher type vocabulary is included in the ADMS specification.</td>
+    <td>Terminų sąrašas ADMS leidėjo tipo žodyne yra įtrauktas į ADMS specifikaciją
+.</td>
   </tr>
   <tr>
     <td>dcatap:availability</td>
-    <td>Distribution</td>
+    <td>Pateiktis</td>
     <td>Distribution availability vocabulary</td>
     <td><a href="http://data.europa.eu/r5r/availability/">http://data.europa.eu/r5r/availability/</a></td>
-    <td>The list of terms for the availability levels of a dataset distribution, according to the DCAT-AP specification.</td>
+    <td>Duomenų rinkinio pateikties pasiekiamumo lygių terminų sąrašas pagal DCAT-AP specifikaciją.
+</td>
   </tr>
 
 </table>
