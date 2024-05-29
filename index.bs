@@ -1670,7 +1670,7 @@ ir pateikties valdymo teisės.</td>
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo licencijos dokumento tipą. Numatytas rekomenduojamas kontroliuojamo žodyno duomenų tipas.</td>
-        <td>P</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_type">E</a></td>
     </tr>
 </table>
 
@@ -1712,7 +1712,7 @@ ir pateikties valdymo teisės.</td>
         <td>1..n</td>
         <td>-</td>
         <td>Kategorijos schemos pavadinimas.</td>
-        <td>P</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_title">E</a></td>
     </tr>
 </table>
 
@@ -1783,7 +1783,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė aprašo išteklių, susijusį su konkrečiu aprašomu teisiniu ištekliu.</td>
-        <td>-</td>
+        <td>P</td>
     </tr>
     <tr>
         <td>Susijęs</td>
@@ -1792,7 +1792,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė reiškia kitą teisinių išteklių klasės egzempliorių, susijusį su konkrečiu aprašomu teisiniu ištekliu.</td>
-        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_relation">A</a></td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_relation">E</a></td>
     </tr>
 </table>
 
@@ -1860,7 +1860,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė susieja taisyklę su atitinkamais teisės aktais ar politikos dokumentais, pvz. teisinį šaltinį, kuriame apibrėžtos taisyklės.</td>
-        <td>-</td>
+        <td>P</td>
     </tr>
     <tr>
         <td>Kalba</td>
@@ -1878,7 +1878,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo taisyklės tipą. Joje turi būti naudojamas kontroliuojama žodynas.</td>
-        <td>P</td>
+                <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_type">E</a></td>
     </tr>
 
   </table>
