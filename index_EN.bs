@@ -253,7 +253,7 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
     </dd>
 </dl>
 
-#Controlled vocabularies
+# Controlled vocabularies
 
 ## Importance (dcataplt:Importance)
 
@@ -948,36 +948,6 @@ optional identifier of the agency managing the identifier scheme.
             </tr>
            
         </table>
-
-
-
-#  High Value Datasets (DCAT-AP-HVD)
-
-The Definition of High Value Datasets arose from the need to identify the most important data for example:
-<ul>
- <li>geographic data</li>
- <li>earth observation and environmental data</li>
- <li>meteorological data</li>
- <li>statistical data</li>
- <li>data of companies and their owners</li>
- <li>mobility data</li>
-</ul>
-This data has the greatest potential to influence the most important areas identified by the European Commission. The opening and reuse of such data creates significant added value, but at the same time requires additional rules governing their availability, interoperability and use. Considering the fact that the DCAT-AP extension cannot fully satisfy the quality, reliability and openness requirements of high-value data sets, the development of the DCAT-AP HVD extension was started, based on the guidelines provided in the High-value Data Set Implementation Regulation. Accordingly, this extension is also adapted to DCAT-AP-LT, changing the LegalResource resource to an attribute under ELI:LegalResource with the name id_local
-.
-
-## General properties of high-value datasets
-
-High-value datasets have specific technical and legal requirements. These data sets are subject to the following general requirements:
-<ul>
- <li>open data licenses;</li>
- <li>publicly available documentation;</li>
- <li>ensuring machine readability;</li>
- <li>possibility (if possible) to download all desired data at once;</li>
- <li>ability to receive data using API interfaces;</li>
- <li>free access and retrieval;</li>
- <li>detailed metadata descriptions.</li>
-</ul>
-Considering these features and, accordingly, the resulting requirements, in the DCAT-AP-LT model there is a need to apply additional, modified or tightened metadata model rules for high-value data sets. These rules include properties that complement DCAT-AP classes or enforce stricter binding of existing properties and are defined in <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/">DCAT-AP - in HVD</a>'s appendix.
 
 
 
