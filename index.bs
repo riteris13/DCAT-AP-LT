@@ -2739,74 +2739,74 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
         <th class="data-table__header-title--sortable" style="width:12%">Naudojimo pastaba</th>	
     <th></th>
   </tr>
+<tr>
+<td>dct:accessRights</td>
+<td>Duomenų paslauga; Duomenų rinkinys; Registro katalogas; Pateikimas</td>
+<td>Access Rights NAL</td>
+<td><a href="http://publications.europa.eu/resource/authority/access-right">http://publications.europa.eu/resource/authority/access-right</a></td>
+<td>Duomenų rinkiniai ir duomenų paslaugos privalo apimti prieigos teisių lygį pagal vertybių sąrašą (t.y., viešas, neviešas ir ribotas).</td>
+</tr>
+<tr>
+<td>dct:accrualPeriodicity</td>
+<td>Duomenų rinkinys; Registro katalogas</td>
+<td>Frequency NAL</td>
+<td><a href="http://publications.europa.eu/resource/authority/frequency">http://publications.europa.eu/resource/authority/frequency</a></td>
+<td>Duomenų rinkiniai ir katalogai privalo nurodyti atnaujinimo dažnumą naudodami ES Leidinių biuro failų dažnumo NAL (pvz., nuolatinis, kasdienis, kasvalandinis ir t.t.).</td>
+</tr>
+<tr>
+<td>dct:creator</td>
+<td>Duomenų rinkinys; Registro katalogas</td>
+<td>Corporate Bodies NAL</td>
+<td><a href="http://publications.europa.eu/resource/dataset/corporate-body">http://publications.europa.eu/resource/dataset/corporate-body</a></td>
+<td>Korporacijų kūnų NAL apima visas Europos institucijas ir sumažintą tarptautinių organizacijų rinkinį. Korporacijų kūnų NAL turi būti naudojamas Europos institucijoms ir nedideliam tarptautinių organizacijų rinkiniui. Kitų tipų organizacijų atveju, jei įmanoma, turėtų būti naudojami nacionaliniai, regioniniai ar vietiniai žodynai.</td>
+</tr>
+<tr>
+<td>dct:format</td>
+<td>Duomenų paslauga; Pateikimas, Registro katalogas</td>
+<td>File Type NAL</td>
+<td><a href="http://publications.europa.eu/resource/authority/file-type">http://publications.europa.eu/resource/authority/file-type</a></td>
+<td>Pateikimo medijos tipas turi būti atstovaujamas naudojant ES Leidinių biuro dokumentų failų tipų konkretų sąrašą.</td>
+</tr>
+<tr>
+<td>dct:language</td>
+<td>Duomenų rinkinys; Pateikimas; Registro katalogas; Taisyklė</td>
+<td>Languages NAL</td>
+<td><a href="http://publications.europa.eu/resource/authority/language">http://publications.europa.eu/resource/authority/language</a></td>
+<td>Duomenų rinkinių, duomenų paslaugų, katalogų, taisyklių ir pateikimo aprašymai privalo apimti kalbas naudojant ES Leidinių biuro NAL.</td>
+</tr>
+ 
   <tr>
-    <td>dct:accessRights</td>
-    <td>Data Service; Dataset; Registry Catalogue; Distribution</td>
-    <td>Access Rights NAL</td>
-    <td><a href="http://publications.europa.eu/resource/authority/access-right">http://publications.europa.eu/resource/authority/access-right</a></td>
-    <td>Datasets, and Data Services must include the level of access rights according to the list of values (i.e., Public, non-public, and restricted).</td>
-  </tr>
-  <tr>
-    <td>dct:accrualPeriodicity</td>
-    <td>Dataset; Registry Catalogue</td>
-    <td>Frequency NAL</td>
-    <td><a href="http://publications.europa.eu/resource/authority/frequency">http://publications.europa.eu/resource/authority/frequency</a></td>
-    <td>Datasets and catalogues must specify the frequency of update using the EU Publications Office File Frequency NAL (e.g., continuous, daily, hourly, etc.).</td>
-  </tr>
-  <tr>
-    <td>dct:creator</td>
-    <td>Dataset; Registry Catalogue</td>
-    <td>Corporate Bodies NAL</td>
-    <td><a href="http://publications.europa.eu/resource/dataset/corporate-body">http://publications.europa.eu/resource/dataset/corporate-body</a></td>
-    <td>The Corporate bodies NAL includes all the European institutions and a reduced set of international organisations. The Corporate bodies NAL must be used for European institutions and a small set of international organisations. In case of other types of organisations, national, regional, or local vocabularies should be used, if available.</td>
-  </tr>
-  <tr>
-    <td>dct:format</td>
-    <td>Data Service; Distribution; Registry Catalogue</td>
-    <td>File Type NAL</td>
-    <td><a href="http://publications.europa.eu/resource/authority/file-type">http://publications.europa.eu/resource/authority/file-type</a></td>
-    <td>The media type of distributions must be represented using the concrete list of document file types of the EU Publications Office File Type NAL.</td>
-  </tr>
-  <tr>
-    <td>dct:language</td>
-    <td>Dataset; Distribution; Registry Catalogue; Rule</td>
-    <td>Languages NAL</td>
-    <td><a href="http://publications.europa.eu/resource/authority/language">http://publications.europa.eu/resource/authority/language</a></td>
-    <td>Descriptions of Datasets, Data Service, Catalogues, Rules, and Distributions must include the languages using the EU Publications Office NAL.</td>
-  </tr>
-
-  <tr>
-    <td>dct:license</td>
-    <td>Data Service; Distribution; Registry Catalogue</td>
-    <td>Licences NAL</td>
-    <td><a href="http://publications.europa.eu/resource/authority/licence">http://publications.europa.eu/resource/authority/licence</a></td>
-    <td>This vocabulary must be used in case the licence of a distribution, dataset or catalogue is internationally recognised and included in the EU Publications Office NAL.</td>
-  </tr>
-  <tr>
-    <td>dcat:mediaType</td>
-    <td>Distribution</td>
-    <td>IANA Media Types</td>
-    <td><a href="https://www.iana.org/assignments/media-types/media-types.xhtml">https://www.iana.org/assignments/media-types/media-types.xhtml</a></td>
-    <td>Distributions must represent the format of the document using the IANA Media Types list (e.g., application/mp4, application/pdf, etc.).</td>
-  </tr>
-  <tr>
-    <td>dct:publisher</td>
-    <td>Data Service; Dataset; Registry Catalogue</td>
-    <td>Corporate Bodies NAL</td>
-    <td><a href="http://publications.europa.eu/resource/dataset/corporate-body">http://publications.europa.eu/resource/dataset/corporate-body</a></td>
-    <td>The Corporate bodies NAL includes all the European institutions and a reduced set of international organisations. The Corporate bodies NAL must be used for European institutions and a small set of international organisations. In case of other types of organisations, national, regional or local vocabularies should be used, if available.</td>
-  </tr>
-  <tr>
-    <td>dct:spatial</td>
-    <td>Dataset; Public Organisation; Registry Catalogue; Registry Service</td>
-    <td>Continents NAL, Countries NAL, Places NAL</td>
-    <td>
-      <a href="http://publications.europa.eu/resource/dataset/continent">Continents NAL</a><br>
-      <a href="http://publications.europa.eu/resource/dataset/country">Countries NAL</a><br>
-      <a href="http://publications.europa.eu/resource/dataset/place">Places NAL</a>
-    </td>
-    <td>Spatial coverage must be represented using the NAL according to the scope of the description (i.e., continent, country or region).</td>
-  </tr>
+<td>dct:license</td>
+<td>Duomenų paslauga; Pateikimas; Registro katalogas</td>
+<td>Licences NAL</td>
+<td><a href="http://publications.europa.eu/resource/authority/licence">http://publications.europa.eu/resource/authority/licence</a></td>
+<td>Šis žodynas turi būti naudojamas, jei platinimo, duomenų rinkinio ar katalogo licencija yra tarptautiniu mastu pripažinta ir įtraukta į ES Leidinių biuro NAL.</td>
+</tr>
+<tr>
+<td>dcat:mediaType</td>
+<td>Pateikimas</td>
+<td>IANA Media Types</td>
+<td><a href="https://www.iana.org/assignments/media-types/media-types.xhtml">https://www.iana.org/assignments/media-types/media-types.xhtml</a></td>
+<td>Pateikimai turi atstovauti dokumento formatą naudojant IANA medijos tipų sąrašą (pvz., application/mp4, application/pdf ir t.t.).</td>
+</tr>
+<tr>
+<td>dct:publisher</td>
+<td>Duomenų paslauga; Duomenų rinkinys; Registrų katalogas</td>
+<td>Corporate Bodies NAL</td>
+<td><a href="http://publications.europa.eu/resource/dataset/corporate-body">http://publications.europa.eu/resource/dataset/corporate-body</a></td>
+<td>Korporacijų kūnų NAL apima visas Europos institucijas ir sumažintą tarptautinių organizacijų rinkinį. Korporacijų kūnų NAL turi būti naudojamas Europos institucijoms ir nedideliam tarptautinių organizacijų rinkiniui. Kitų tipų organizacijų atveju, jei įmanoma, turėtų būti naudojami nacionaliniai, regioniniai ar vietiniai žodynai.</td>
+</tr>
+<tr>
+<td>dct:spatial</td>
+<td>Duomenų rinkinys; Viešoji organizacija; Registro katalogas; Registro paslauga</td>
+<td>Continents NAL, Countries NAL, Places NAL</td>
+<td>
+<a href="http://publications.europa.eu/resource/dataset/continent">Kontinentų NAL</a><br>
+<a href="http://publications.europa.eu/resource/dataset/country">Šalių NAL</a><br>
+<a href="http://publications.europa.eu/resource/dataset/place">Vietų NAL</a>
+</td>
+<td>Erdvinis aprėptis turi būti atstovaujama naudojant NAL pagal aprašymo apimtį (t.y., kontinentas, šalis ar regionas).</td>
+</tr>
   <tr>
     <td>adms:status</td>
     <td>Pateiktis; Katalogas; Informacinės sistemos paslauga</td>
