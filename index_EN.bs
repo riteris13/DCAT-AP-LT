@@ -600,7 +600,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
 <br>
 
 
-## Kontrolinė suma
+## Checksum
 
  <table class="data-table simple">
             <tr >
@@ -619,7 +619,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         </table>
 <br>
 
-## Dokumentas
+## Document
 
  <table class="data-table simple">
             <tr >
@@ -629,8 +629,8 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
-                <td>Dokumentas</td>
-                <td>Abstrakti klasė apibūdinanti įvairių tipų dokumentus</td>
+                <td>Document</td>
+                <td>An abstract class describing different types of documents</td>
                 <td></td>
                 <td>[foaf:Document](http://xmlns.com/foaf/0.1/Document)</td>
             </tr>
@@ -639,7 +639,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
 
 
 
-## Dažnis
+## Frequency
 
  <table class="data-table simple">
             <tr >
@@ -649,8 +649,8 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
              <tr class="data-table__header">
-        <td>Dažnis</td>
-        <td>Žymimas tam tikrų įvykių dažnumas, pavyzdžiui duomenų atnaujinimo.</td>
+        <td>Frequency</td>
+        <td>The frequency of certain events, such as data updates, is marked.</td>
         <td> - </td>
         <td><a href="http://purl.org/dc/terms/Frequency">dct:Frequency</a></td>
     </tr>
