@@ -2010,32 +2010,32 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
 <br></br>
    <tr>
         <td>Aprašymas</td>
-        <td>dct:description<br>rdfs:Literal</td>
-        <td>1..n</td>
+        <td>[dct:description](http://purl.org/dc/terms/description)</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..n</td>
         <td>-</td>
         <td>Ši savybė naudojama paslaugai aprašyti naudojant laisvu tekstu. Gali būti kartojama, jei aprašas keliomis kalbomis.</td>
     </tr>
     <tr>
         <td>Identifikatorius</td>
-        <td>dcterms:identifier<br>rdfs:Literal</td>
-        <td>1..1</td>
+        <td>[dcterms:identifier](http://purl.org/dc/terms/identifier)</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..1</td>
         <td>-</td>
         <td>Šioje savybėje pateikiamas oficialus registro paslaugos identifikavimas.</td>
     </tr>
     <tr>
         <td>Pavadinimas</td>
-        <td>dct:title<br>rdfs:Literal</td>
-        <td>1..n</td>
+        <td>dct:title</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..n</td>
         <td>-</td>
         <td>Ši savybė reiškia oficialų registro paslaugos pavadinimą. Gali būti kartojama, jei pavadinimas keliomis kalbomis.</td>
     </tr>
     <tr>
         <td>Turi dalį</td>
-        <td>dcterms:hasPart<br>cpsv:PublicService</td>
-        <td>0..n</td>
+        <td>dcterms:hasPart</td>
+        <td>[cpsv:PublicService](http://purl.org/vocab/cpsv#PublicService)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo susijusią registro paslaugą, kuri yra įtraukta arba fiziškai, arba logiškai įeina į aprašomą išteklių. Naudojama bazinių registrų registrams aprašyti.</td>
@@ -2050,40 +2050,40 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
     </tr>
     <tr>
         <td>Rezultatas (duomenų išteklius)</td>
-        <td>cpsv:produces<br>cv:Output</td>
-        <td>0..n</td>
+        <td>cpsv:produces</td>
+        <td>cv:Output</td>
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė apibrėžia paslaugos išvestį kaip prieinamą duomenų išteklių ir valdomą bazinio registro paslaugos. Išvestis taip pat turi būti aprašyta kaip cat:Catalog, dcat:Dataset arba dcat:DataService.</td>
     </tr>
     <tr>
         <td>Geografinė vietovė</td>
-        <td>dcterms:spatial<br>dct:Location</td>
-        <td>0..n</td>
+        <td>dcterms:spatial</td>
+        <td>dct:Location</td>
         <td>0..n</td>
         <td>-</td>
         <td>Šioje savybėje nurodomas geografinis arba administracinis regionas, kurį apima registro paslauga.</td>
     </tr>
     <tr>
         <td>Statusas</td>
-        <td>adms:status<br>skos:Concept</td>
-        <td>0..1</td>
+        <td>adms:status</td>
+        <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
         <td>0..1</td>
         <td>-</td>
         <td>Ši savybė nurodo registro paslaugos būseną (t. y. aktyvi, neaktyvi, kuriama ir t. t.) pagal iš anksto nustatytą žodyną.</td>
     </tr>
     <tr>
         <td>Tematinė sritis</td>
-        <td>cv:thematicArea<br>skos:Concept</td>
-        <td>0..n</td>
+        <td>cv:thematicArea</td>
+        <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo pagrindinę (-es) registro temą (-as) pagal apibrėžtą klasifikavimo schemą.</td>
     </tr>
     <tr>
         <td>Tipas</td>
-        <td>dct:type<br>skos:Concept</td>
-        <td>0..n</td>
+        <td>dct:type</td>
+        <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo registro paslaugos tipą, aprašytą sąvokų rinkinyje (pvz., bazinis registras ir bazinių registrų registras).</td>
@@ -2167,7 +2167,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
     </tr>
     <tr>
         <td>Aprašymas</td>
-        <td>[dct:description](http://purl.org/dc/terms/description)<br>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
+        <td>[dct:description](http://purl.org/dc/terms/description)</td>
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>0..n</td>
         <td>-</td>
