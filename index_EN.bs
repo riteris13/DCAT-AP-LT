@@ -448,10 +448,12 @@ The data set is distinguished and formulated as a meaningful and significant con
             </tr>
             <tr class="data-table__header">
                 <td>Dstribution</td>
-                <td>Fizinė duomenų rinkinio išraiškos forma tam tikru formatu arba duomenų rinkinio realizacija.</td>
-                <td>Ši Class apibūdina konkretų ir aktyviai veikiantį duomenų rinkinio įgyvendinimą informacinėje sistemoje - valstybinės informacinės sistemos arba duomenų valdymo aplinkoje, tokioje kaip duomenų bazės lentelė, duomenų failai, saugomi duomenų saugykloje, struktūrizuoti ir pusiau struktūrizuoti failai uždarame intranete arba interneto erdvėje. 
+                <td>The physical form of expression of a data set in a particular format, or the realization of a data set.
+</td>
+                <td>This Class describes a concrete and active implementation of a data set in an information system - a state information system or a data management environment, such as a database table, data files stored in a data warehouse, structured and semi-structured files in a closed intranet or Internet space. 
+In the context of IS, the priority and largest application of this Class is for the description of realizations of data sets managed in the information system environment, and further for detailing their models in Classmis DataObjectTypeSpecification and DataElement.
 
-IS kontekste, šios Classs prioritetinis ir didžiausios apimties taikymas yra informacinės sistemos aplinkoje tvarkomų duomenų rinkinių realizacijų aprašymui, ir toliau jų modelių detalizavimui Classmis DataObjectTypeSpecification ir DataElement.
+
 </td>
                 <td>[dcat:Distribution](http://www.w3.org/ns/dcat#Distribution)</td>
             </tr>
@@ -471,7 +473,8 @@ IS kontekste, šios Classs prioritetinis ir didžiausios apimties taikymas yra i
             </tr>
             <tr class="data-table__header">
                 <td>Licence document</td>
-                <td>Teisinis dokumentas, kuriuo suteikiamas oficialus leidimas ką nors daryti su ištekliais.</td>
+                <td>A legal document that gives official permission to do something with a resource.
+</td>
                 <td> - </td>
                 <td>[dct:LicenseDocument](http://purl.org/dc/terms/LicenseDocument)</td>
             </tr>
