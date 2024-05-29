@@ -41,7 +41,7 @@ Didelės vertės duomenų rinkiniai pasižymi specifiniais techniniais ir teisin
 
 Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikalavimus, DCAT-AP-LT modelyje atsiranda poreikis taikyti papildomas, modifikuotas ar sugriežtintas metaduomenų modelio taisykles didelės vertės duomenų rinkiniams. Šios taisyklės apima DCAT-AP klases papildančias savybes ar griežtesnį esamų savybių privalomumo taikymą ir yra apibrėžtos <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/">DCAT-AP-HVD</a> priede. 
 
-# Didelės vertės duomenų rinkinians naudojamos (DCAT-AP-HVD) klasės ir savybės
+# Didelės vertės duomenų rinkiniams naudojamos (DCAT-AP-HVD) klasės ir savybės
 
 ## Katalogas
 
