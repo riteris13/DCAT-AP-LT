@@ -1996,7 +1996,99 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
             </tr>
            
         </table>
-
+ <table class="data-table simple">
+         
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Išteklius</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:60%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
+            </tr>
+<br></br>
+   <tr>
+        <td>Aprašymas</td>
+        <td>dct:description<br>rdfs:Literal</td>
+        <td>1..n</td>
+        <td>1..n</td>
+        <td>-</td>
+        <td>Ši savybė naudojama paslaugai aprašyti naudojant laisvu tekstu. Gali būti kartojama, jei aprašas keliomis kalbomis.</td>
+    </tr>
+    <tr>
+        <td>Identifikatorius</td>
+        <td>dcterms:identifier<br>rdfs:Literal</td>
+        <td>1..1</td>
+        <td>1..1</td>
+        <td>-</td>
+        <td>Šioje savybėje pateikiamas oficialus registro paslaugos identifikavimas.</td>
+    </tr>
+    <tr>
+        <td>Pavadinimas</td>
+        <td>dct:title<br>rdfs:Literal</td>
+        <td>1..n</td>
+        <td>1..n</td>
+        <td>-</td>
+        <td>Ši savybė reiškia oficialų registro paslaugos pavadinimą. Gali būti kartojama, jei pavadinimas keliomis kalbomis.</td>
+    </tr>
+    <tr>
+        <td>Turi dalį</td>
+        <td>dcterms:hasPart<br>cpsv:PublicService</td>
+        <td>0..n</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Ši savybė nurodo susijusią registro paslaugą, kuri yra įtraukta arba fiziškai, arba logiškai įeina į aprašomą išteklių. Naudojama bazinių registrų registrams aprašyti.</td>
+    </tr>
+    <tr>
+        <td>Pagrindinis puslapis</td>
+        <td>foaf:homepage<br>foaf:Document</td>
+        <td>0..1</td>
+        <td>0..1</td>
+        <td>-</td>
+        <td>Ši savybė nurodo registro paslaugos pagrindinį puslapį.</td>
+    </tr>
+    <tr>
+        <td>Rezultatas (duomenų išteklius)</td>
+        <td>cpsv:produces<br>cv:Output</td>
+        <td>0..n</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Ši savybė apibrėžia paslaugos išvestį kaip prieinamą duomenų išteklių ir valdomą bazinio registro paslaugos. Išvestis taip pat turi būti aprašyta kaip cat:Catalog, dcat:Dataset arba dcat:DataService.</td>
+    </tr>
+    <tr>
+        <td>Geografinė vietovė</td>
+        <td>dcterms:spatial<br>dct:Location</td>
+        <td>0..n</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Šioje savybėje nurodomas geografinis arba administracinis regionas, kurį apima registro paslauga.</td>
+    </tr>
+    <tr>
+        <td>Statusas</td>
+        <td>adms:status<br>skos:Concept</td>
+        <td>0..1</td>
+        <td>0..1</td>
+        <td>-</td>
+        <td>Ši savybė nurodo registro paslaugos būseną (t. y. aktyvi, neaktyvi, kuriama ir t. t.) pagal iš anksto nustatytą žodyną.</td>
+    </tr>
+    <tr>
+        <td>Tematinė sritis</td>
+        <td>cv:thematicArea<br>skos:Concept</td>
+        <td>0..n</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Ši savybė nurodo pagrindinę (-es) registro temą (-as) pagal apibrėžtą klasifikavimo schemą.</td>
+    </tr>
+    <tr>
+        <td>Tipas</td>
+        <td>dct:type<br>skos:Concept</td>
+        <td>0..n</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Ši savybė nurodo registro paslaugos tipą, aprašytą sąvokų rinkinyje (pvz., bazinis registras ir bazinių registrų registras).</td>
+    </tr>
+  </table>
 
 ## Katalogo įrašas
 
