@@ -949,6 +949,140 @@ optional identifier of the agency managing the identifier scheme.
            
         </table>
 
+# BReg-DCAT-AP used controlled vocabularies
+
+<table>
+  <tr>
+	<th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Property URI</th>
+        <th class="data-table__header-title--sortable" style="width:20%">Used in Class</th>
+        <th class="data-table__header-title--sortable" style="width:12%">Vocabulary name</th>
+        <th class="data-table__header-title--sortable" style="width:12%">Vocabulary URI</th>
+	<th class="data-table__header-title--sortable" style="width:12%">Usage note</th>
+  </tr>
+  <tr>
+    <td>dct:accessRights</td>
+    <td>Data Service; Dataset; Registry Catalogue; Distribution</td>
+    <td>Access Rights NAL</td>
+    <td><a href="http://publications.europa.eu/resource/authority/access-right">http://publications.europa.eu/resource/authority/access-right</a></td>
+    <td>Datasets, and Data Services must include the level of access rights according to the list of values (i.e., Public, non-public, and restricted).</td>
+  </tr>
+  <tr>
+    <td>dct:accrualPeriodicity</td>
+    <td>Dataset; Registry Catalogue</td>
+    <td>Frequency NAL</td>
+    <td><a href="http://publications.europa.eu/resource/authority/frequency">http://publications.europa.eu/resource/authority/frequency</a></td>
+    <td>Datasets and catalogues must specify the frequency of update using the EU Publications Office File Frequency NAL (e.g., continuous, daily, hourly, etc.).</td>
+  </tr>
+  <tr>
+    <td>dct:creator</td>
+    <td>Dataset; Registry Catalogue</td>
+    <td>Corporate Bodies NAL</td>
+    <td><a href="http://publications.europa.eu/resource/dataset/corporate-body">http://publications.europa.eu/resource/dataset/corporate-body</a></td>
+    <td>The Corporate bodies NAL includes all the European institutions and a reduced set of international organisations. The Corporate bodies NAL must be used for European institutions and a small set of international organisations. In case of other types of organisations, national, regional, or local vocabularies should be used, if available.</td>
+  </tr>
+  <tr>
+    <td>dct:format</td>
+    <td>Data Service; Distribution; Registry Catalogue</td>
+    <td>File Type NAL</td>
+    <td><a href="http://publications.europa.eu/resource/authority/file-type">http://publications.europa.eu/resource/authority/file-type</a></td>
+    <td>The media type of distributions must be represented using the concrete list of document file types of the EU Publications Office File Type NAL.</td>
+  </tr>
+  <tr>
+    <td>dct:language</td>
+    <td>Dataset; Distribution; Registry Catalogue; Rule</td>
+    <td>Languages NAL</td>
+    <td><a href="http://publications.europa.eu/resource/authority/language">http://publications.europa.eu/resource/authority/language</a></td>
+    <td>Descriptions of Datasets, Data Service, Catalogues, Rules, and Distributions must include the languages using the EU Publications Office NAL.</td>
+  </tr>
+
+  <tr>
+    <td>dct:license</td>
+    <td>Data Service; Distribution; Registry Catalogue</td>
+    <td>Licences NAL</td>
+    <td><a href="http://publications.europa.eu/resource/authority/licence">http://publications.europa.eu/resource/authority/licence</a></td>
+    <td>This vocabulary must be used in case the licence of a distribution, dataset or catalogue is internationally recognised and included in the EU Publications Office NAL.</td>
+  </tr>
+  <tr>
+    <td>dcat:mediaType</td>
+    <td>Distribution</td>
+    <td>IANA Media Types</td>
+    <td><a href="https://www.iana.org/assignments/media-types/media-types.xhtml">https://www.iana.org/assignments/media-types/media-types.xhtml</a></td>
+    <td>Distributions must represent the format of the document using the IANA Media Types list (e.g., application/mp4, application/pdf, etc.).</td>
+  </tr>
+  <tr>
+    <td>dct:publisher</td>
+    <td>Data Service; Dataset; Registry Catalogue</td>
+    <td>Corporate Bodies NAL</td>
+    <td><a href="http://publications.europa.eu/resource/dataset/corporate-body">http://publications.europa.eu/resource/dataset/corporate-body</a></td>
+    <td>The Corporate bodies NAL includes all the European institutions and a reduced set of international organisations. The Corporate bodies NAL must be used for European institutions and a small set of international organisations. In case of other types of organisations, national, regional or local vocabularies should be used, if available.</td>
+  </tr>
+  <tr>
+    <td>dct:spatial</td>
+    <td>Dataset; Public Organisation; Registry Catalogue; Registry Service</td>
+    <td>Continents NAL, Countries NAL, Places NAL</td>
+    <td>
+      <a href="http://publications.europa.eu/resource/dataset/continent">Continents NAL</a><br>
+      <a href="http://publications.europa.eu/resource/dataset/country">Countries NAL</a><br>
+      <a href="http://publications.europa.eu/resource/dataset/place">Places NAL</a>
+    </td>
+    <td>Spatial coverage must be represented using the NAL according to the scope of the description (i.e., continent, country or region).</td>
+  </tr>
+  <tr>
+    <td>adms:status</td>
+    <td>Distribution; Registry Catalogue; Registry Service</td>
+    <td>ADMS Status vocabulary</td>
+    <td><a href="http://purl.org/adms/status/">http://purl.org/adms/status/</a></td>
+    <td>Data Distributions must indicate the status of the resource according to the ADMS Status vocabulary (i.e., Completed, Deprecated, Under Development).</td>
+  </tr>
+	<tr>
+    <td>cv:thematicArea</td>
+    <td>Public Registry Service</td>
+    <td>EuroVoc</td>
+    <td><a href="http://eurovoc.europa.eu/">http://eurovoc.europa.eu/</a></td>
+    <td>The use of EuroVoc is recommended (not mandatory) at any hierarchical level, in a flexible way, to describe the thematic area of a service.</td>
+  </tr>
+  <tr>
+    <td>dcat:theme</td>
+    <td>Data Service; Dataset</td>
+    <td>Data Theme Taxonomy NAL; EuroVoc</td>
+    <td>
+      <a href="http://publications.europa.eu/resource/authority/data-theme">Data Theme Taxonomy NAL</a><br>
+      <a href="http://eurovoc.europa.eu/">EuroVoc</a>
+    </td>
+    <td>The EU Publications Office Data Theme NAL is mandatory to describe catalogues and datasets in open data portals. EuroVoc is recommended at any hierarchical level, in a flexible way, to describe the theme of a resource, dataset or data service.</td>
+  </tr>
+  <tr>
+    <td>dcat:themeTaxonomy</td>
+    <td>Registry Catalogue</td>
+    <td>Data Theme Taxonomy NAL; EuroVoc</td>
+    <td>
+      <a href="http://publications.europa.eu/resource/authority/data-theme">Data Theme Taxonomy NAL</a><br>
+      <a href="http://publications.europa.eu/resource/dataset/eurovoc">EuroVoc</a>
+    </td>
+    <td>The Registry Catalogue must specify the URI to the thesaurus that defines the potential themes of its resources, as well as the taxonomy of the Data Theme NAL (mandatory) or EuroVoc (recommended).</td>
+  </tr>
+  <tr>
+    <td>dct:type</td>
+    <td>Legal Resource</td>
+    <td>Resource Type NAL</td>
+    <td><a href="http://publications.europa.eu/resource/authority/resource-type">http://publications.europa.eu/resource/authority/resource-type</a></td>
+    <td>Legal Resource must indicate the type of the document represented (e.g., Amended proposal, Agreement, etc.).</td>
+  </tr>
+  <tr>
+    <td>dct:type</td>
+    <td>Agent</td>
+    <td>ADMS publisher type vocabulary</td>
+    <td><a href="http://purl.org/adms/publishertype/">http://purl.org/adms/publishertype/</a></td>
+    <td>The list of terms in the ADMS publisher type vocabulary is included in the ADMS specification.</td>
+  </tr>
+  <tr>
+    <td>dcatap:availability</td>
+    <td>Distribution</td>
+    <td>Distribution availability vocabulary</td>
+    <td><a href="http://data.europa.eu/r5r/availability/">http://data.europa.eu/r5r/availability/</a></td>
+    <td>The list of terms for the availability levels of a dataset distribution, according to the DCAT-AP specification.</td>
+  </tr>
+
 # Metadata Standard for High Value Datasets (HVD-DCAT-AP-LT)
 
 Metadata information for high-value datasets is provided in this [appendix](https://ivpk.github.io/DCAT-AP-LT/en/hvd.html).
