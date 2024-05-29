@@ -1307,7 +1307,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
 	<tr>
         <td>Nukreipimo puslapis</td>
         <td>[dcat:landingPage](http://www.w3.org/ns/dcat#landingPage)</td>
-        <td>[foaf:Document](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Document)</td>
+        <td>[foaf:Document](http://xmlns.com/foaf/0.1/Document)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo tinklalapį, kuriame galima susipažinti su duomenų paslauga, jos distribucija ir (arba) papildoma informacija. Ji skirta nukreipti į pradinio duomenų paslaugos teikėjo, o ne į trečiosios šalies, pavyzdžiui, agregatoriaus, svetainės puslapį.</td>
@@ -2050,8 +2050,8 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
     </tr>
     <tr>
         <td>Pagrindinis puslapis</td>
-        <td>foaf:homepage<br>foaf:Document</td>
-        <td>0..1</td>
+        <td>foaf:homepage</td>
+        <td>[foaf:Document](http://xmlns.com/foaf/0.1/Document)</td>
         <td>0..1</td>
         <td>-</td>
         <td>Ši savybė nurodo registro paslaugos pagrindinį puslapį.</td>
