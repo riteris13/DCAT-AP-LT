@@ -2732,11 +2732,12 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
 
 <table>
   <tr>
-    <th>Property URI</th>
-    <th>Used in Class</th>
-    <th>Vocabulary name</th>
-    <th>Vocabulary URI</th>
-    <th>Usage note</th>
+ 	<th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybės URI</th>
+	<th class="data-table__header-title--sortable" style="width:50%">Nauojama klasėje / klasėse</th>
+        <th class="data-table__header-title--sortable" style="width:12%">Žodyno pavadinimas</th>
+	<th class="data-table__header-title--sortable" style="width:12%">Žodyno URI</th>
+        <th class="data-table__header-title--sortable" style="width:12%">Naudojimo pastaba</th>	
+    <th></th>
   </tr>
   <tr>
     <td>dct:accessRights</td>
