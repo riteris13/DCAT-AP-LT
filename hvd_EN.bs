@@ -13,7 +13,7 @@ Translation: en en/index.html
 Boilerplate: copyright no, spec-metadata no, abstract no, conformance no
 </pre>
 
-#  High Value Datasets (DCAT-AP-HVD)
+#  Introduction to High Value Datasets (DCAT-AP-HVD)
 
 The Definition of High Value Datasets arose from the need to identify the most important data for example:
 <ul>
@@ -27,7 +27,7 @@ The Definition of High Value Datasets arose from the need to identify the most i
 This data has the greatest potential to influence the most important areas identified by the European Commission. The opening and reuse of such data creates significant added value, but at the same time requires additional rules governing their availability, interoperability and use. Considering the fact that the DCAT-AP extension cannot fully satisfy the quality, reliability and openness requirements of high-value data sets, the development of the DCAT-AP HVD extension was started, based on the guidelines provided in the High-value Data Set Implementation Regulation. Accordingly, this extension is also adapted to DCAT-AP-LT, changing the LegalResource resource to an attribute under ELI:LegalResource with the name id_local
 .
 
-## General properties of high-value datasets
+# General properties of high-value datasets
 
 High-value datasets have specific technical and legal requirements. These data sets are subject to the following general requirements:
 <ul>
