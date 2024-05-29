@@ -2026,7 +2026,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
     </tr>
     <tr>
         <td>Pavadinimas</td>
-        <td>dct:title</td>
+        <td>[dct:title](http://purl.org/dc/terms/title)</td>
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..n</td>
         <td>-</td>
