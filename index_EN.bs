@@ -489,7 +489,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
-                <td>Kategorijų schema</td>
+                <td>Category Scheme</td>
                 <td></td>
                 <td></td>
                 <td>[skos:ConceptScheme](http://www.w3.org/2004/02/skos/core#ConceptScheme)</td>
@@ -510,8 +510,8 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
             </tr>
             <tr class="data-table__header">
                 <td>Legal Resource</td>
-                <td>Teisiniai šaltiniai - tai teisės aktai, politika ar politikos kryptys, kurie yra taisyklės, kuriomis apibrėžiamas bazinių registrų ir kitų informacinių sistemų paslaugos. 
-Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal ELI ontologiją.
+                <td>Legal sources are legal acts, policies or policies, which are rules that define the services of base registries and other information systems. 
+Note: Descriptions of legal resources are expected to be provided in the future according to the ELI ontology.
 </td>
                 <td> - </td>
                 <td>[eli:LegalResource](http://data.europa.eu/eli/ontology#LegalResource)</td>
@@ -561,7 +561,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         
 
 
-## Public Service
+## Public Registry Service
 
  <table class="data-table simple">
             <tr >
@@ -571,8 +571,9 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
-                <td>Public Service</td>
-                <td>Ši klasė atvaizduoja gebėjimą atlikti viešosios paslaugos tiekimo procesus ir egzistuoja nepriklausomai nuo to, ar ja naudojamasi, ar ne. Tai veiksmų, kuriuos atlieka viešojo administravimo institucija arba kurie atliekami jos vardu piliečio, verslo ar kitos viešosios įstaigos naudai, rinkinys.</td>
+                <td>Public Registry Service</td>
+                <td>This class represents the ability to perform the processes of providing a public service and exists regardless of whether it is used or not. It is a set of actions performed by or on behalf of a public administration body for the benefit of a citizen, business or other public institution.
+</td>
                 <td> - </td>
                 <td>[cpsv:PublicService](http://purl.org/vocab/cpsv#PublicService)</td>
             </tr>
@@ -590,8 +591,8 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
-                <td>Katalogo įrašas</td>
-                <td>Duomenų rinkinio įrašo kataloge Description.</td>
+                <td>Catalog record</td>
+                <td>The dataset entry in catalog.</td>
                 <td> - </td>
                 <td>[dcat:CatalogRecord](http://www.w3.org/ns/dcat#CatalogRecord)</td>
             </tr>
@@ -610,8 +611,9 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
-                <td>Kontrolinė suma</td>
-                <td>Reikšmė, leidžianti patvirtinti failo turinio autentiškumą.</td>
+                <td>Checksum</td>
+                <td>A value to authenticate the contents of the file.
+</td>
                 <td> - </td>
                 <td>[spdx:Checksum](http://spdx.org/rdf/terms#Checksum)</td>
             </tr>
@@ -659,7 +661,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
 
 
 
-## Identifikatorius
+## Identifier
 
  <table class="data-table simple">
             <tr >
@@ -669,11 +671,11 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr>
-            <td>Identifikatorius</td>
-        <td>Identifikatorius tam tikrame kontekste, yra eilutė (angl. string), kuri ir yra identifikatorius;
-neprivalomas identifikatoriaus schemos identifikatorius;
-neprivalomas identifikatoriaus schemos versijos identifikatorius;
-neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
+            <td>Identifier</td>
+        <td>An identifier in a certain context is a string, which is an identifier;
+an optional identifier of the identifier scheme;
+an optional identifier for the version of the identifier scheme;
+optional identifier of the agency managing the identifier scheme.
 </td>
         <td> - </td>
         <td><a href="http://www.w3.org/ns/adms#Identifier">adms:Identifier</a></td>
@@ -682,7 +684,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
         </table>
 <br>
 
-## Rūšis
+## Kind
 
  <table class="data-table simple">
             <tr >
@@ -691,16 +693,16 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
                 <th class="data-table__header-title--sortable" style="width:30%">Context</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
           <tr>
-        <td>Rūšis</td>
-        <td>Pagal vCard specifikaciją, pvz., kontaktinio asmens telefono numeriui ir el. pašto adresui nurodyti.</td>
-        <td>Klasė Rūšis yra tėvinė klasė keturių vCard kortelių tipų (Individualus asmuo, Organizacija, Vieta, Grupė).</td>
+        <td>Kind</td>
+        <td>according to the vCard specification, e.g. for the contact's phone number and email to specify the postal address.</td>
+        <td>The Type class is the parent class for the four vCard types (Individual, Organization, Place, Group).</td>
         <td><a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a></td>
     </tr>
            
         </table>
 
 
-## Lingvistinė sistema
+## Linguistic system
 
  <table class="data-table simple">
             <tr >
@@ -710,8 +712,8 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
          <tr>
-        <td>Lingvistinė sistema</td>
-        <td>Komunikacijoje naudojama ženklų, simbolių, garsų, gestų ar taisyklių sistema, pvz. kalba.</td>
+        <td>Linguistic system</td>
+        <td>Communication uses a system of signs, symbols, sounds, gestures or rules, e.g. language.</td>
         <td> - </td>
         <td><a href="http://purl.org/dc/terms/LinguisticSystem">dct:LinguisticSystem</a></td>
     </tr>
@@ -721,7 +723,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
  
 
 
-## Vietovė
+## Location
 
  <table class="data-table simple">
             <tr >
@@ -731,16 +733,16 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
-                <td>Vietovė</td>
-                <td>Erdvinis regionas arba įvardyta vieta.</td>
-                <td>Naudojimo pastaba: gali būti vaizduojama naudojant kontroliuojamąjį žodyną arba geografines koordinates. Pastaruoju atveju rekomenduojama naudoti pagrindinį vietovės žodyną, laikantis GeoDCAT-AP specifikacijoje aprašyto metodo.</td>
+                <td>Location</td>
+                <td>Spatial region or named place.</td>
+                <td>Usage Note: Can be represented using a controlled dictionary or geographic coordinates. In the latter case, it is recommended to use a basic terrain dictionary, following the method described in the GeoDCAT-AP specification.</td>
                 <td>[dct:Location](http://purl.org/dc/terms/Location)</td>
             </tr>
            
         </table>
 
 
-## Medijos tipas
+## Media type
 
  <table class="data-table simple">
             <tr >
