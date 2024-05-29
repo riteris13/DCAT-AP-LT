@@ -226,7 +226,7 @@ Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas
             </tr>
 <br></br>
             <tr class="data-table__header">
-                <td>[dcataplt:importance](http://data.gov.lt/onto/DCATAPLT#)</td>
+                <td>dcataplt:importance</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>1..1</td>
                 <td>Informacinės sistemos svarba.</td>
@@ -234,7 +234,7 @@ Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas
                 <td>P</td>
             </tr>
             <tr class="data-table__header">
-                <td>[dcataplt:type](http://data.gov.lt/onto/DCATAPLT#)</td>
+                <td>dcataplt:type</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>1..1</td>
                 <td>Informacinės sistemos tipas.</td>
@@ -242,7 +242,7 @@ Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas
                 <td>P</td>
             </tr>
             <tr class="data-table__header">
-                <td>[dcataplt:ISImportanceAssessmentURL](http://data.gov.lt/onto/DCATAPLT#)</td>
+                <td>dcataplt:ISImportanceAssessmentURL</td>
                 <td>[rdfs:Resource](http://www.w3.org/2000/01/rdf-schema#Resource)</td>
                 <td>1..1</td>
                 <td>Informacinės sistemos svarbos vertinimas.</td>
@@ -275,27 +275,27 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
 <br></br>
             <tr class="data-table__header">
                 <td>Ypatingos svarbos</td>
-		<td>[dcataplt:highlyImportant](http://data.gov.lt/onto/DCATAPLT#)</td>
+		<td>dcataplt:highlyImportant</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Ypatingos svarbos valstybės informaciniai ištekliai – jiems priskiriamos informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius visai valstybei (poveikis daugiau negu 5 apskrityse, daugiau negu 50 procentų gyventojų ar institucijų).</td>  
                 <td>P</td>
             </tr>
             <tr class="data-table__header">
                 <td>Svarbūs</td>
-		<td>[dcataplt:Important](http://data.gov.lt/onto/DCATAPLT#)</td>
+		<td>dcataplt:Important</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Svarbūs valstybės informaciniai ištekliai – jiems priskiriamos informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius didelei valstybės, institucijų ir gyventojų daliai (poveikis 2–5 apskrityse, 6–50 procentų gyventojų ar institucijų).</td>      
                 <td>P</td>
             </tr>
             <tr class="data-table__header">
                 <td>Vidutinės svarbos</td>
-		<td>[dcataplt:moderatelyImportant](http://data.gov.lt/onto/DCATAPLT#)</td>
+		<td>dcataplt:moderatelyImportant</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Vidutinės svarbos valstybės informaciniai ištekliai – jiems priskiriamos informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius nedidelei valstybės, institucijų ir gyventojų daliai (poveikis keliose vienos apskrities savivaldybėse, 1–5 procentų gyventojų ar institucijų).</td>      
                 <td>P</td>
             </tr>
             <tr class="data-table__header">
-                <td>[Mažos svarbos](http://data.gov.lt/onto/DCATAPLT#)</td>
+                <td>Mažos svarbos</td>
 		<td>dcataplt:slightlyImportant</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Mažos svarbos valstybės informaciniai ištekliai – jiems priskiriamos informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius pavienėms institucijoms ar pavieniams fiziniams asmenims (poveikis ne daugiau kaip vienos apskrities savivaldybei, iki 1 procento gyventojų ar institucijų).</td>      
@@ -323,21 +323,21 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
             </tr>
 <br></br>
             <tr class="data-table__header">
-                <td>[Registro informacinė sistema](http://data.gov.lt/onto/DCATAPLT#)</td>
+                <td>Registro informacinė sistema</td>
 		<td>dcataplt:moderatelyImportant</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Registrų informacinės sistemos, kuriose registruojami objektai, tvarkomi objektų ir jų registravimo duomenys.</td>
                 <td>P</td>
             </tr>
             <tr class="data-table__header">
-                <td>[Valstybės informacinė sistema](http://data.gov.lt/onto/DCATAPLT#)</td>
+                <td>Valstybės informacinė sistema</td>
 		<td>dcataplt:moderatelyImportant</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Valstybės informacinės sistemos, kuriose tvarkomi subjektų teisės aktuose nustatytoms funkcijoms atlikti reikalingi duomenys, įskaitant ir valstybės informacines sistemas, skirtas kelių ar daugelio subjektų jų veiklą reglamentuojančiuose teisės aktuose nustatytoms vienodo pobūdžio veiklos funkcijoms atlikti ir duomenims tvarkyti.</td>      
                 <td>P</td>
             </tr>
             <tr class="data-table__header">
-                <td>[Vidaus administravimo informacinė sistema](http://data.gov.lt/onto/DCATAPLT#)</td>
+                <td>Vidaus administravimo informacinė sistema</td>
 		<td>dcataplt:moderatelyImportant</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Vidaus administravimo informacinės sistemos, kuriose tvarkomi subjektų valdomi duomenys, reikalingi vidaus administravimo funkcijoms ar kitoms pagalbinio pobūdžio funkcijoms, kurios padeda įgyvendinti subjektui teisės aktuose nustatytus uždavinius.</td>    
