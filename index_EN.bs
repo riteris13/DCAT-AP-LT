@@ -534,7 +534,7 @@ Note: Descriptions of legal resources are expected to be provided in the future 
             </tr>
             <tr class="data-table__header">
                 <td>Rule</td>
-                <td>Taisyklė - tai dokumentas, kuriame nustatomos konkrečios gairės ar procedūros, kurių laikosi bazinis registras. Jame gali būti pateikiama informacija ir keliami reikalavimai viešojo bazinio registro teikiamoms paslaugoms.</td>
+                <td>A rule is a document that sets out specific guidelines or procedures to be followed by a base registry. It may contain information and set requirements for the services provided by the public base registry.</td>
                 <td> - </td>
                 <td>[cpsv:Rule](http://purl.org/vocab/cpsv#Rule)</td>
             </tr>
@@ -555,7 +555,8 @@ Note: Descriptions of legal resources are expected to be provided in the future 
             </tr>
             <tr class="data-table__header">
                 <td>Public Organisation</td>
-                <td>Viešoji institucija yra Agentas, kuris atsakingas už viešųjų paslaugų teikimą. Čia naudojama klasė iš Pagrindinio institucijų žodyno, taip pat pagrįsto W3C Organizacijų ontologija.</td>
+                <td>A public institution is an Agent that is responsible for the provision of public services. This uses a class from the Core Entity Dictionary, also based on the W3C Organizations Ontology.
+</td>
                 <td> - </td>
                 <td>[cv:PublicOrganisation](http://data.europa.eu/m8g/PublicOrganisation)</td>
             </tr>
@@ -877,7 +878,8 @@ optional identifier of the agency managing the identifier scheme.
             </tr>
             <tr class="data-table__header">
                 <td>Quality Annotation</td>
-                <td>Nurodo kokybės anotacijas, įskaitant įvertinimus, kokybės sertifikatus arba atsiliepimus, kurie gali būti susieti su duomenų rinkiniais arba pateiktimis. Kokybės anotacijose turi būti vienas teiginys oa:motivatedBy su oa:Motyvacija (ir skos:Concept) pavyzdžiu, kuris atspindi kokybės vertinimo tikslą. Šį atvejį apibrėžiame kaip dqv:qualityAssessment.</td>
+                <td>Specifies quality annotations, including ratings, quality certificates, or feedback, that can be associated with datasets or submissions. Quality annotations must contain a single oa:motivatedBy statement with an instance of oa:Motivation (and skos:Concept) that represents the purpose of the quality assessment. We define this case as dqv:qualityAssessment.
+</td>
                 <td> - </td>
                 <td>[dqv:QualityAnnotation](http://www.w3.org/ns/dqv#QualityAnnotation)</td>
             </tr>
@@ -887,7 +889,7 @@ optional identifier of the agency managing the identifier scheme.
 
 
 
-## Kokybės matavimas
+## Quality Measurement
 
  <table class="data-table simple">
             <tr >
@@ -897,8 +899,9 @@ optional identifier of the agency managing the identifier scheme.
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
-                <td>Kokybės matavimas</td>
-                <td>Šia klase apibrėžiamos galimas kokybės vertinimas pagal specifinius kokybės vertinimo kriterijus</td>
+                <td>Quality Measurement</td>
+                <td>This class defines possible quality assessment based on specific quality assessment criteria
+</td>
                 <td> - </td>
                 <td>[dqv:QualityMeasurement](http://www.w3.org/ns/dqv#QualityMeasurement)</td>
             </tr>
@@ -906,7 +909,7 @@ optional identifier of the agency managing the identifier scheme.
         </table>
 
 
-## Veikla
+## Activity
 
  <table class="data-table simple">
             <tr >
@@ -916,8 +919,9 @@ optional identifier of the agency managing the identifier scheme.
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
-                <td>Veikla</td>
-                <td>Veikla yra veiksmai, kurie vyksta per tam tikrą laikotarpį ir daro įtaką ištekliams; tai gali apimti duomenų ar kitų išteklių naudojimą, apdorojimą, transformavimą, modifikavimą, perkėlimą, naudojimą ar generavimą</td>
+                <td>Activity</td>
+                <td>Activities are actions that take place over a period of time and affect resources; this may include the use, processing, transformation, modification, transfer, use or generation of data or other resources
+</td>
                 <td> - </td>
                 <td>[prov:Activity](http://www.w3.org/ns/prov#Activity)</td>
             </tr>
@@ -926,7 +930,7 @@ optional identifier of the agency managing the identifier scheme.
 
 
 
-## Adresas
+## Address
 
  <table class="data-table simple">
             <tr >
@@ -936,8 +940,9 @@ optional identifier of the agency managing the identifier scheme.
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
-                <td>Adresas</td>
-                <td>„Adreso atvaizdavimas“, kaip konceptualiai apibrėžiamas INSPIRE adreso atstovavimo duomenų tipas. </td>
+                <td>Address</td>
+                <td>"Address Mapping" as the INSPIRE address representation data type is conceptually defined.
+ </td>
                 <td></td>
                 <td>[locn:Address](http://www.w3.org/ns/locn#Address)</td>
             </tr>
