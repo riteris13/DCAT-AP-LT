@@ -389,7 +389,7 @@ Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas
                 <td>1..1</td>
                 <td>-</td>
                 <td>Šioje savybėje nurodomas katalogo identifikatorius.</td>
-                <td>-</td>
+                <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_identifier">E</a></td>
                 </tr>
             <tr class="data-table__header">
                 <td>Skelbėjas</td>
@@ -409,7 +409,7 @@ Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas
                 <td>Šioje savybėje pateikiamas katalogui suteiktas pavadinimas.</td>
                 <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_title">E</a></td>
             </tr>
-          
+
             <tr class="data-table__header">
                 <td>Kaupimo periodiškumas</td>
                 <td>[dcat:accrualPeriodicity](http://purl.org/dc/terms/acrualPeriodicity)</td>
@@ -417,7 +417,7 @@ Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas
                 <td>0..1</td>
                 <td>-</td>
                 <td>Ši savybė nurodo registro katalogo dažnumą atnaujinama naujais / redaguotais duomenų rinkiniais.</td>
-                <td>-</td>
+                <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_frequency">E</a></td>
             </tr>
 
             <tr class="data-table__header">
@@ -427,7 +427,7 @@ Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas
                 <td>0..n</td>
                 <td>Šia klase apibūdinama konkreti informacinė sistema – valstybės informacinės sistema ar registras, kurio apimtyje yra tvarkomi duomenų rinkiniai.</td>
                 <td>Ši savybė susieja katalogą su duomenų rinkiniu, kuris yra katalogo įrašas.</td>
-                <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_dataset">A</a></td>
+                <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_dataset">E</a></td>
             </tr>
             <tr class="data-table__header">
                 <td>Paslauga</td>
@@ -436,7 +436,7 @@ Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas
                 <td>0..n</td>
                 <td>-</td>
                 <td>Ši savybė nurodo svetainę arba galinį tašką (angl. end-point) (duomenų paslaugą), įtrauktą į katalogą.</td>
-                <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_service">A</a></td>
+                <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_service">E</a></td>
             </tr>
             <tr class="data-table__header">
                 <td>Tinklalapis</td>
@@ -474,6 +474,7 @@ Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas
                 <td>Šioje savybėje nurodoma oficiali katalogo paskelbimo data.</td>
                 <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_release_date">E</a></td>
             </tr>
+
             <tr class="data-table__header">
                 <td>Geografinė aprėptis</td>
                 <td>[dct:spatial](https://w3c.github.io/dxwg/dcat/#Property:dataset_spatial)</td>
@@ -481,7 +482,7 @@ Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas
                 <td>0..1</td>
                 <td>-</td>
                 <td>Šioje savybėje nurodoma naujausia katalogo pakeitimo data.</td>
-                <td>-</td>
+                <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_spatial">E</a></td>
             </tr>
 
             <tr class="data-table__header">
@@ -518,7 +519,7 @@ Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas
                 <td>0..1</td>
                 <td>-</td>
                 <td>Ši savybė nurodo susijusį katalogą, į kurį fiziškai arba logiškai įtrauktas aprašomas katalogas.</td>
-                <td>-</td>
+                <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_in_series">E</a></td>
             </tr>
             <tr class="data-table__header">
                 <td>Įrašas</td>
@@ -527,7 +528,7 @@ Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas
                 <td>0..n</td>
                 <td>-</td>
                 <td>Ši savybė nurodo katalogo įrašą, kuris yra katalogo dalis.</td>
-                <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_catalog_record">A</a></td>
+                <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_catalog_record">E</a></td>
             </tr>
             <tr class="data-table__header">
                 <td>Teisės</td>
@@ -545,7 +546,7 @@ Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas
                 <td>0..n</td>
                 <td>-</td>
                 <td>Ši savybė nurodo katalogą, kurio turinys domina šio katalogo kontekste.</td>
-                <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_catalog">A</a></td>
+                <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_catalog">E</a></td>
             </tr>
             <tr class="data-table__header">
                 <td>Rengėjas</td>
@@ -554,7 +555,7 @@ Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas
                 <td>0..n</td>
                 <td>IS Valdytojas</td>
                 <td>Ši savybė nurodo subjektą, atsakingą už katalogo parengimą.</td>
-                <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_creator">A</a></td>
+                <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_creator">E</a></td>
             </tr>
             <tr class="data-table__header">
                 <td>Teisinis pagrindas</td>
