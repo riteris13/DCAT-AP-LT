@@ -1155,6 +1155,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
  </table>
 
 
+
 ## Duomenų paslauga
 
  <table class="data-table simple">
@@ -1200,7 +1201,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Šioje savybėje pateikiamas paslaugų, prieinamų per galinius taškus, aprašymas, įskaitant jų operacijas, parametrus ir t. t. Pastaba. Šioje savybėje pateikiama konkreti informacija apie tikruosius galinių taškų egzempliorius, o dcterms:conformsTo naudojama bendram standartui ar specifikacijai, kurią galiniai taškai įgyvendina, nurodyti.</td>
-        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:data_service_endpoint_description">A</a></td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:data_service_endpoint_description">E</a></td>
     </tr>
 <tr>
         <td>Raktažodis / žyma</td>
@@ -1209,7 +1210,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Šioje savybėje pateikiamas duomenų paslaugą apibūdinantis raktažodis arba žyma.</td>
-        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_keyword">A</a></td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_keyword">E</a></td>
     </tr>
 
 <tr>
@@ -1219,7 +1220,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Šioje savybėje laisvu tekstu pateikiamas duomenų paslaugos aprašas. Šią savybę galima pakartoti, jei aprašas pateikiamas keliomis kalbomis.</td>
-        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_description">A</a></td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_description">E</a></td>
     </tr>
 
 <tr>
@@ -1250,7 +1251,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė referuoja į duomenų rinkinį, kurį duomenų paslauga platina. Pastaba: privaloma savybė, jei paslauga susijusi su didelės vertės duomenų rinkiniais.</td>
-        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:data_service_serves_dataset">A</a></td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:data_service_serves_dataset">E</a></td>
     </tr>
 
     <tr>
@@ -1290,7 +1291,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo įgyvendinimo taisyklę arba kitą specifikaciją.</td>
-        <td>-</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:record_conforms_to">E</a></td>
     </tr>
 	<!-- trūko 'follows' -->
 	<tr>
@@ -1300,7 +1301,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>-</td>
         <td>-</td>
         <td>-</td>
-        <td>-</td>
+        <td>P</td>
     </tr>
 	<!-- trūko 'landingPage' -->
 	<tr>
@@ -1320,7 +1321,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo duomenų paslaugos tipą. Numatytas rekomenduojamas kontroliuojamo žodyno duomenų paslaugos tipas.</td>
-        <td>-</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_type">E</a></td>
     </tr>
 
     <tr>
@@ -1330,7 +1331,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>1..n</td>
         <td>-</td>
         <td>Ši savybė leidžia nurodyti tinklalapį, kuriame pateikiama išsami informacija apie teikiamos paslaugos kokybę bei kita aktuali informacija. Privaloma savybė, jei paslauga susijusi su didelės vertės duomenų rinkiniais.</td>
-        <td>-</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_landing_page">E</a></td>
     </tr>
     <tr>
         <td>Kontaktinė informacija</td>
@@ -1339,7 +1340,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>1..n</td>
         <td>-</td>
         <td>Šioje savybėje pateikiama kontaktinė informacija, kurią galima naudoti siunčiant pastabas apie duomenų paslaugą.</td>
-        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_contact_point">A</a></td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_contact_point">E</a></td>
     </tr>
     <tr>
         <td>Tinklalapis</td>
@@ -1350,7 +1351,6 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>Šioje savybėje galinio punkto URL turi būti nuolatinis. Tai reiškia, kad leidėjai turėtų daryti viską, kad išlaikytų stabilią ir esamą vertę.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:data_service_endpoint_url">E</a></td>
     </tr>
-    </table>
 
 ## Kategorija, Teikėjo tipas, Statusas
 
