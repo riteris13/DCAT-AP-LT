@@ -751,7 +751,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>1..1</td>
         <td>-</td>
         <td>Duomenų rinkinio versijos identifikavimas (pavadinimas arba identifikatorius).</td>
-        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_version">A</a></td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_version">E</a></td>
     </tr>
    
     <tr>
@@ -761,7 +761,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>1..n</td>
         <td>Šaltinis: EUR-Lex - 52020DC0066 - EN - EUR-Lex (europa.eu)</td>
         <td>Nustatyta duomenų erdvė, kuriai atitinka aprašyta distribucija.</td>
-        <td>-</td>
+        <td>P</td>
     </tr>
     <tr>
         <td>Kontaktinė informacija</td>
@@ -770,7 +770,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Šioje savybėje pateikiama kontaktinė informacija, kurią galima naudoti siunčiant pastabas apie duomenų rinkinį.</td>
-        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_contact_point">A</a></td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_contact_point">E</a></td>
     </tr>
     <tr>
         <td>Duomenų rinkinio pateiktis</td>
@@ -779,7 +779,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė susieja duomenų rinkinį su platinimu.</td>
-        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_distribution">A</a></td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_distribution">E</a></td>
     </tr>
     <tr>
         <td>Raktažodis</td>
@@ -788,7 +788,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Šioje savybėje pateikiamas duomenų rinkinį apibūdinantis raktažodis arba žyma.</td>
-        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_keyword">A</a></td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_keyword">E</a></td>
     </tr>
     <tr>
         <td>Duomenų skelbėjas</td>
@@ -806,7 +806,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo geografinę vietovę, kurią apima duomenų rinkinys.</td>
-        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_spatial_resolution">A</a></td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_spatial_resolution">E</a></td>
     </tr>
     <tr>
         <td>Laikotarpis</td>
@@ -815,7 +815,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo laikotarpį, kurį apima duomenų rinkinys.</td>
-        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_temporal">A</a></td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_temporal">E</a></td>
     </tr>
     <tr>
         <td>Kategorija</td>
@@ -842,7 +842,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo įgyvendinimo taisyklę arba kitą specifikaciją.</td>
-        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_conforms_to">A</a></td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_conforms_to">E</a></td>
     </tr>
     <tr>
         <td>Rengėjas</td>
@@ -851,7 +851,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..1</td>
         <td>-</td>
         <td>Subjektas, atsakingas už duomenų rinkinio parengimą.</td>
-        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_creator">A</a></td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_creator">E</a></td>
     </tr>
     <tr>
         <td>Dokumentacija</td>
@@ -860,7 +860,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo puslapį arba dokumentą apie šį duomenų rinkinį.</td>
-        <td>P</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_landing_page">E</a></td>
     </tr>
     <tr>
         <td>Kaupimo periodiškumas</td>
@@ -878,7 +878,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo susijusį duomenų rinkinį, kuris yra aprašyto duomenų rinkinio versija, leidimas arba adaptacija.</td>
-        <td>P</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_has_version">E</a></td>
     </tr>
     <tr>
         <td>Yra referuota iš</td>
@@ -887,7 +887,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Susijęs šaltinis, pavyzdžiui, leidinys iš kurio pateikiamos nuorodos į duomenų rinkinį, kuriame jis cituojamas ir nukreipia į duomenų rinkinį.</td>
-        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_is_referenced_by">A</a></td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_is_referenced_by">E</a></td>
     </tr>
     <tr>
         <td>Yra versija</td>
@@ -897,6 +897,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>-</td>
         <td>Susijęs duomenų rinkinys, kurio aprašytasis duomenų rinkinys yra versija arba adaptacija.</td>
         <td>-</td>
+     <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_has_version">E</a></td>
     </tr>
     <tr>
         <td>Nukreipimo puslapis</td>
@@ -905,7 +906,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo tinklalapį, kuriame galima susipažinti su duomenų rinkiniu, jo distribucija ir (arba) papildoma informacija. Ji skirta nukreipti į pradinio duomenų teikėjo, o ne į trečiosios šalies, pavyzdžiui, agregatoriaus, svetainės puslapį.</td>
-        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_landing_page">A</a></td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_landing_page">E</a></td>
     </tr>
     <tr>
         <td>Kalba</td>
@@ -932,7 +933,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė pateikia nuorodą į agentą, turintį tam tikrą atsakomybę už išteklių.</td>
-        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_qualified_attribution">A</a></td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_qualified_attribution">E</a></td>
     </tr>
     <tr>
         <td>Kvalifikuotas ryšis</td>
@@ -941,7 +942,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė pateikia nuorodą į ryšio su kitu ištekliumi aprašymą.</td>
-        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_qualified_relation">A</a></td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_qualified_relation">E</a></td>
     </tr>
     <tr>
         <td>Susijęs išteklius</td>
@@ -950,7 +951,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo susijusį išteklių.</td>
-        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_relation">A</a></td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_relation">E</a></td>
     </tr>
     <tr>
         <td>Išleidimo data</td>
@@ -986,7 +987,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..1</td>
         <td>-</td>
         <td>Mažiausias erdvinis atskyrimas, kurį galima atskirti duomenų rinkinyje, matuojamas metrais.</td>
-        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_spatial_resolution">A</a></td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_spatial_resolution">E</a></td>
     </tr>
     <tr>
         <td>Laikotarpis</td>
@@ -995,7 +996,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..1</td>
         <td>-</td>
         <td>Laikotarpis, kurį apima duomenų rinkinys.</td>
-        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_temporal_resolution">A</a></td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_temporal_resolution">E</a></td>
     </tr>
     <tr>
         <td>Tipas</td>
@@ -1022,7 +1023,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Šios versijos ir ankstesnės duomenų rinkinio versijos skirtumų aprašymas.</td>
-        <td>P</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_version_notes">E</a></td>
     </tr>
     <tr>
         <td>Buvo sukurtas dėl</td>
@@ -1031,7 +1032,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Veikla, dėl kurios buvo sukurtas duomenų rinkinys arba kuri suteikia verslo kontekstą duomenų rinkinio kūrimui.</td>
-        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_was_generated_by">A</a></td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_was_generated_by">E</a></td>
     </tr>
     <tr>
         <td>Yra dalis</td>
@@ -1040,7 +1041,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši savybė nurodo susijusį duomenų rinkinį, į kurį fiziškai arba logiškai įtrauktas aprašomas katalogas.</td>
-        <td>-</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_in_series">E</a></td>
     </tr>
     <tr>
         <td>Teisinis pagrindas</td>
@@ -1060,7 +1061,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši ypatybė susieja duomenų rinkinį su taisykle, kuri apibrėžia jo teisinį pagrindą.</td>
-        <td>-</td>
+        <td>P</td>
     </tr>
 	<!-- trūko 'hasPart' -->
 	<tr>
@@ -1070,7 +1071,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>IS kontekste, šiuo ryšiu gali būti įprasminamos valstybės informacinės sistemos ar registro reikšmingų veiklos sričių ar posistemių dalys.</td>
         <td>Ši savybė nurodo susijusį duomenų rinkinį, kuris yra aprašyto duomenų rinkinio dalis.</td>
-        <td>-</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_has_part">E</a></td>
 	</tr>
 	<!-- trūko 'hasQualityAnnotation' -->
 	<tr>
@@ -1080,7 +1081,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..1</td>
         <td>-</td>
         <td>Nurodo, kiek nuoseklus yra duomenų rinkinys visoje sistemoje.</td>
-        <td>-</td>
+        <td><a href="https://www.w3.org/TR/vocab-dqv/#dqv:hasQualityAnnotation">E</a></td>
 	</tr>
 	<!-- trūko 'hasQualityMeasurement' -->
 	<tr>
@@ -1090,7 +1091,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..1</td>
         <td>-</td>
         <td>Nurodo, kaip patikimas yra pateiktas duomenų rinkinys.</td>
-        <td>-</td>
+         <td><a href="https://www.w3.org/TR/vocab-dqv/#dqv:hasQualityMeasurement">E</a></td>
 	</tr>
 	<!-- trūko 'isReplacedBy' -->
 	<tr>
@@ -1100,7 +1101,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši ypatybė nurodo susijusį duomenų rinkinį, kuris egiztuojantį duomenų rinkinį.</td>
-        <td>-</td>
+         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_replaces">E</a></td>
 	</tr>
 	<!-- trūko 'isRequiredBy' -->
 	<tr>
@@ -1110,7 +1111,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši ypatybė nurodo susijusį duomenų rinkinį, kuriam reikalingas duomenų rinkinys.</td>
-        <td>-</td>
+         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_qualified_relation">E</a></td>
 	</tr>
 	<!-- trūko 'references' -->
 	<tr>
@@ -1120,7 +1121,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši ypatybė pateikia tinklalapį su ryšio aprašu su kitu ištekliumi, kurį nurodo duomenų rinkinys. Ši ypatybė yra atvirkštinė dct:isReferencedBy. </td>
-        <td>-</td>
+         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_is_referenced_by">E</a></td>
 	</tr>
 	<!-- trūko 'replaces' -->
 	<tr>
@@ -1130,7 +1131,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši ypatybė nurodo kitą duomenų rinkinį, kurį pakeičia duomenų rinkinys.</td>
-        <td>-</td>
+         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_replaces">E</a></td>
 	</tr>
 	<!-- trūko 'requires' -->
 	<tr>
@@ -1140,7 +1141,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..n</td>
         <td>-</td>
         <td>Ši ypatybė nurodo kitą duomenų rinkinį, kurio reikia duomenų rinkiniui.</td>
-        <td>-</td>
+        <td>P</td>
 	</tr>
 	<!-- trūko 'versionInfo' -->
 	<tr>
@@ -1150,7 +1151,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>0..1</td>
         <td>-</td>
         <td>Šioje ypatybėje yra versijos numeris arba kita informacija apie duomenų rinkinio versiją.</td>
-        <td>-</td>
+         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_version">E</a></td>
 	</tr>
  </table>
 
