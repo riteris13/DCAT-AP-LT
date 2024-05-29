@@ -229,21 +229,21 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
             </tr>
 <br></br>
             <tr class="data-table__header">
-                <td>[dcataplt:importance](http://data.gov.lt/onto/DCATAPLT#)</td>
+                <td>dcataplt:importance</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>1..1</td>
                 <td>Information system importance.</td>
                 <td>Information System importance as defined by law of State Information Resources Management.</td>
             </tr>
             <tr class="data-table__header">
-                <td>[dcataplt:type](http://data.gov.lt/onto/DCATAPLT#)</td>
+                <td>dcataplt:type</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>1..1</td>
                 <td>Information system type.</td>
                 <td>Information System type as defined by law of State Information Resources Management.</td>
             </tr>
             <tr class="data-table__header">
-                <td>[dcataplt:ISImportanceAssessmentURL](http://data.gov.lt/onto/DCATAPLT#)</td>
+                <td>dcataplt:ISImportanceAssessmentURL</td>
                 <td>[rdfs:Resource](http://www.w3.org/2000/01/rdf-schema#Resource)</td>
                 <td>1..1</td>
                 <td>Information system importance assessment.</td>
@@ -264,28 +264,33 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
     <dd>
         <table class="data-table simple">
             <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Property</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Value</th>
+		<th class="data-table__header-title--sortable" style="width:12%">URI</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Description</th>
             </tr>
 <br></br>
             <tr class="data-table__header">
-                <td>[Highly important](http://data.gov.lt/onto/DCATAPLT#)</td>
+                <td>Highly important</td>
+		<td>dcataplt:highlyImportant</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>They include data important for the entire state and/or state registers or state information systems in which these data are processed - value 1 is indicated.</td>      
             </tr>
             <tr class="data-table__header">
-                <td>[Important](http://data.gov.lt/onto/DCATAPLT#)</td>
+                <td>Important</td>
+		<td>dcataplt:important</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>They include data important to several institutions and/or state registers or state information systems in which these data are processed - value 2 is indicated.</td>      
             </tr>
             <tr class="data-table__header">
-                <td>[Moderaely important](http://data.gov.lt/onto/DCATAPLT#)</td>
+                <td>Moderately important</td>
+		<td>dcataplt:moderatelyImportant</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>They include data important for one institution and/or departmental registers or state information systems in which these data are processed - value 3 is indicated.</td>      
             </tr>
             <tr class="data-table__header">
-                <td>[Slightly important](http://data.gov.lt/onto/DCATAPLT#)</td>
+                <td>Slightly important</td>
+		<td>dcataplt:slightlyImportant</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>They include data managed by the institution in the performance of internal administration functions and/or information systems in which these data are processed. The procedure for the establishment, development, modernization and liquidation of the information systems mentioned in this point shall be determined by the institutions authorized by the Government of the Republic of Lithuania - meaning 4.</td>      
             </tr>
@@ -302,23 +307,27 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
     <dd>
         <table class="data-table simple">
             <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Property</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Name</th>
+		<th class="data-table__header-title--sortable" style="width:12%">URI</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Description</th>
             </tr>
 <br></br>
             <tr class="data-table__header">
-                <td>[Register information system](http://data.gov.lt/onto/DCATAPLT#)</td>
+                <td>Register information system</td>
+		<td>dcataplt:registerInformationSystem</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Information systems of registers in which objects are registered, objects and their registration data are processed.</td>      
             </tr>
             <tr class="data-table__header">
-                <td>[State information system](http://data.gov.lt/onto/DCATAPLT#)</td>
+                <td>State information system</td>
+		<td>dcataplt:stateInformationSystem</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>State information systems in which the data necessary for the performance of the functions established by legal acts of entities are processed, including state information systems intended for the performance and data processing of several or many entities of the same kind of operational functions defined in the legal acts regulating their activities (hereinafter referred to as the general information system.</td>      
             </tr>
             <tr class="data-table__header">
-                <td>[Internal information system](http://data.gov.lt/onto/DCATAPLT#)</td>
+                <td>Internal information system</td>
+		<td>dcataplt:internalInformationSystem</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Internal administration information systems, which process data managed by entities, required for internal administration functions or other functions of an auxiliary nature, which help the entity to implement the tasks established by legal acts.</td>      
             </tr>
