@@ -1,0 +1,17 @@
+<pre class='metadata'>
+Title: DCAT-AP-LT
+Shortname: DCAT-AP-LT
+Level: 1
+Status: LD
+Repository: ivpk/DCAT-AP-LT
+URL: https://ivpk.github.io/DCAT-AP-LT/
+Editor: IVPK, https://ivpk.lrv.lt/lt/
+Abstract: DCAT-AP-LT metaduomenų modelis.
+Complain About: accidental-2119 yes, missing-example-ids yes
+Markup Shorthands: markdown yes, css no
+Translation: en en/index.html
+Boilerplate: copyright no, spec-metadata no, abstract no, conformance no
+</pre>
+
+# Įžanga
+
