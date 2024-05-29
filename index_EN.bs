@@ -755,8 +755,9 @@ optional identifier of the agency managing the identifier scheme.
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
-                <td>Medijos tipas</td>
-                <td>Medijos tipas, pvz. kompiuterio failo formatas.</td>
+                <td>Media type</td>
+                <td>Media type, e.g. computer file format.
+</td>
                 <td></td>
                 <td>[dct:MediaType](http://purl.org/dc/terms/MediaType)</td>
             </tr>
@@ -765,7 +766,7 @@ optional identifier of the agency managing the identifier scheme.
 
 
 
-## Laikotarpis
+## Period of Time
 
  <table class="data-table simple">
             <tr >
@@ -775,8 +776,8 @@ optional identifier of the agency managing the identifier scheme.
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
-                <td>Laikotarpis</td>
-                <td>Laiko Range, apibrėžtas pradžios ir pabaigos datomis.</td>
+                <td>Period of Time</td>
+                <td>Time period defined by start and end dates.</td>
                 <td> - </td>
                 <td>[dct:PeriodOfTime](http://purl.org/dc/terms/PeriodOfTime)</td>
             </tr>
@@ -784,7 +785,7 @@ optional identifier of the agency managing the identifier scheme.
         </table>
 
 
-## Teisių deklaracija
+## Rights Statements
 
  <table class="data-table simple">
             <tr >
@@ -794,8 +795,9 @@ optional identifier of the agency managing the identifier scheme.
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
-                <td>Teisių deklaracija</td>
-                <td>Deklaracija apie intelektinės nuoPropertys teises (INT), turimas išteklyje esančiai informacijai arba ištekliui, teisinis dokumentas, suteikiantis oficialų leidimą ką nors daryti su ištekliu, arba deklaracija apie prieigos teises.</td>
+                <td>Rights Statements</td>
+                <td>A declaration of intellectual property rights (INT) to the information or resource contained in the resource, a legal document that gives formal permission to do something with the resource, or a declaration of access rights.
+</td>
                 <td> - </td>
                  <td>[dct:RightsStatement](http://purl.org/dc/terms/RightsStatement)</td>
             </tr>
@@ -804,7 +806,7 @@ optional identifier of the agency managing the identifier scheme.
 
 
 
-## Duomenų tvarkytojo deklaracija
+## Provenence Statement
 
  <table class="data-table simple">
             <tr >
@@ -814,8 +816,9 @@ optional identifier of the agency managing the identifier scheme.
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
-                <td>Duomenų tvarkytojo deklaracija</td>
-                <td>Šioje klasėje pateikiami bet kokie ištekliaus nuoPropertys ir saugojimo pokyčiai nuo jo sukūrimo, kurie yra reikšmingi jo autentiškumui, vientisumui ir aiškinimui. deklaracija apie duomenų rinkinio kilmę.</td>
+                <td>Provenence Statement</td>
+                <td>This class contains any changes to a resource's from properties and storage to its creation that are relevant to its authenticity, integrity, and interpretation. declaration of the origin of the data set.
+</td>
                 <td> - </td>
                 <td>[dct:ProvenanceStatement](http://purl.org/dc/terms/ProvenanceStatement)</td>
             </tr>
@@ -823,7 +826,7 @@ optional identifier of the agency managing the identifier scheme.
         </table>
 
 
-## Standartas
+## Standard
 
  <table class="data-table simple">
             <tr >
@@ -833,8 +836,9 @@ optional identifier of the agency managing the identifier scheme.
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
-                <td>Standartas</td>
-                <td>Standartas ar kitaspecifikacija, kurią atitinka duomenų rinkinys ar pateiktis</td>
+                <td>Standard</td>
+                <td>A standard or other specification to which a data set or representation conforms
+</td>
                 <td></td>
                 <td>[dct:Standard](http://purl.org/dc/terms/Standard)</td>
             </tr>
@@ -842,7 +846,7 @@ optional identifier of the agency managing the identifier scheme.
         </table>
 
 
-## Kontaktinė informacija
+## Contact Point
 
  <table class="data-table simple">
             <tr >
@@ -852,8 +856,8 @@ optional identifier of the agency managing the identifier scheme.
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
-                <td>Kontaktinė informacija</td>
-                <td>Šia klase aprašoma kontaktinė informacija</td>
+                <td>Contact Point</td>
+                <td>This class describes contact point information. </td>
                 <td> - </td>
                 <td>[schema:ContactPoint](http://schema.org/ContactPoint)</td>
             </tr>
@@ -862,7 +866,7 @@ optional identifier of the agency managing the identifier scheme.
 
 
 
-## Kokybės anotacija
+## Quality Annotation
 
  <table class="data-table simple">
             <tr >
@@ -872,7 +876,7 @@ optional identifier of the agency managing the identifier scheme.
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
             </tr>
             <tr class="data-table__header">
-                <td>Kokybės anotacija</td>
+                <td>Quality Annotation</td>
                 <td>Nurodo kokybės anotacijas, įskaitant įvertinimus, kokybės sertifikatus arba atsiliepimus, kurie gali būti susieti su duomenų rinkiniais arba pateiktimis. Kokybės anotacijose turi būti vienas teiginys oa:motivatedBy su oa:Motyvacija (ir skos:Concept) pavyzdžiu, kuris atspindi kokybės vertinimo tikslą. Šį atvejį apibrėžiame kaip dqv:qualityAssessment.</td>
                 <td> - </td>
                 <td>[dqv:QualityAnnotation](http://www.w3.org/ns/dqv#QualityAnnotation)</td>
