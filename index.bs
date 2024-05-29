@@ -206,7 +206,7 @@ Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas
 
 
 
-# Klasės{#Klases}
+# Klasės {#Klases}
 
 ## Informacinė Sistema (dcataplt:InformationSystem)
 
@@ -253,11 +253,11 @@ Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas
     </dd>
 </dl>
 
-# Kontroliuojami žodynai
+# Kontroliuojami žodynai {#KontroliuojamiZodynai}
 
 DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuojami reikšmių ar tipų sąrašai, klasifikatoriai ir žinynai
 
-## Svarba (dcataplt:Importance)
+## Svarba (dcataplt:Importance) {#Svarba}
 
 <dl>
     <dt>Apibrėžimas</dt>
@@ -305,7 +305,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
     </dd>
 </dl>
 
-## Tipas (dcataplt:Type)
+## Tipas (dcataplt:Type) {#Tipas}
 
 <dl>
     <dt>Apibrėžimas</dt>
@@ -348,7 +348,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
 </dl>
 
 
-# Naudojamos BregDCAT-AP klasės ir savybės
+# Naudojamos BregDCAT-AP klasės ir savybės {#NaudojamosBREGSavybes}
 
 
 ## Katalogas
