@@ -255,7 +255,7 @@ Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas
 
 # Kontroliuojami žodynai
 
-DCAT-AP-LT naudojami kontroliuojami žodynai.
+DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuojami reikšmių ar tipų sąrašai, klasifikatoriai ir žinynai
 
 ## Svarba (dcataplt:Importance)
 
