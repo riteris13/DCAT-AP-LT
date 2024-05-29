@@ -403,7 +403,7 @@ The data set is distinguished and formulated as a meaningful and significant con
 
  <table class="data-table simple">
             <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Class</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Description</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Context</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
@@ -422,7 +422,7 @@ The data set is distinguished and formulated as a meaningful and significant con
 
  <table class="data-table simple">
             <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Class</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Description</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Context</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
@@ -441,7 +441,7 @@ The data set is distinguished and formulated as a meaningful and significant con
 
  <table class="data-table simple">
             <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Class</th>
                 <th class="data-table__header-title--sortable" style="width:20%">Description</th>
                 <th class="data-table__header-title--sortable" style="width:40%">Context</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
@@ -449,9 +449,9 @@ The data set is distinguished and formulated as a meaningful and significant con
             <tr class="data-table__header">
                 <td>Dstribution</td>
                 <td>Fizinė duomenų rinkinio išraiškos forma tam tikru formatu arba duomenų rinkinio realizacija.</td>
-                <td>Ši klasė apibūdina konkretų ir aktyviai veikiantį duomenų rinkinio įgyvendinimą informacinėje sistemoje - valstybinės informacinės sistemos arba duomenų valdymo aplinkoje, tokioje kaip duomenų bazės lentelė, duomenų failai, saugomi duomenų saugykloje, struktūrizuoti ir pusiau struktūrizuoti failai uždarame intranete arba interneto erdvėje. 
+                <td>Ši Class apibūdina konkretų ir aktyviai veikiantį duomenų rinkinio įgyvendinimą informacinėje sistemoje - valstybinės informacinės sistemos arba duomenų valdymo aplinkoje, tokioje kaip duomenų bazės lentelė, duomenų failai, saugomi duomenų saugykloje, struktūrizuoti ir pusiau struktūrizuoti failai uždarame intranete arba interneto erdvėje. 
 
-IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra informacinės sistemos aplinkoje tvarkomų duomenų rinkinių realizacijų aprašymui, ir toliau jų modelių detalizavimui klasėmis DataObjectTypeSpecification ir DataElement.
+IS kontekste, šios Classs prioritetinis ir didžiausios apimties taikymas yra informacinės sistemos aplinkoje tvarkomų duomenų rinkinių realizacijų aprašymui, ir toliau jų modelių detalizavimui Classmis DataObjectTypeSpecification ir DataElement.
 </td>
                 <td>[dcat:Distribution](http://www.w3.org/ns/dcat#Distribution)</td>
             </tr>
@@ -464,7 +464,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
 
  <table class="data-table simple">
             <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Class</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Description</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Context</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
@@ -483,7 +483,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
 
  <table class="data-table simple">
             <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Class</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Description</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Context</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
@@ -503,7 +503,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
 
  <table class="data-table simple">
             <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Class</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Description</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Context</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
@@ -524,7 +524,7 @@ Note: Descriptions of legal resources are expected to be provided in the future 
 
  <table class="data-table simple">
             <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Class</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Description</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Context</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
@@ -545,7 +545,7 @@ Note: Descriptions of legal resources are expected to be provided in the future 
 
           <table class="data-table simple">
             <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Class</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Description</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Context</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
@@ -565,7 +565,7 @@ Note: Descriptions of legal resources are expected to be provided in the future 
 
  <table class="data-table simple">
             <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Class</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Description</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Context</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
@@ -585,7 +585,7 @@ Note: Descriptions of legal resources are expected to be provided in the future 
 
  <table class="data-table simple">
             <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Class</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Description</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Context</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
@@ -605,7 +605,7 @@ Note: Descriptions of legal resources are expected to be provided in the future 
 
  <table class="data-table simple">
             <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Class</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Description</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Context</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
@@ -625,7 +625,7 @@ Note: Descriptions of legal resources are expected to be provided in the future 
 
  <table class="data-table simple">
             <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Class</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Description</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Context</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
@@ -645,7 +645,7 @@ Note: Descriptions of legal resources are expected to be provided in the future 
 
  <table class="data-table simple">
             <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Class</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Description</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Context</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
@@ -665,7 +665,7 @@ Note: Descriptions of legal resources are expected to be provided in the future 
 
  <table class="data-table simple">
             <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Class</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Description</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Context</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
@@ -688,7 +688,7 @@ optional identifier of the agency managing the identifier scheme.
 
  <table class="data-table simple">
             <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Class</th>
                 <th class="data-table__header-title--sortable" style="width:30%">Description</th>
                 <th class="data-table__header-title--sortable" style="width:30%">Context</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
@@ -706,7 +706,7 @@ optional identifier of the agency managing the identifier scheme.
 
  <table class="data-table simple">
             <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Class</th>
                 <th class="data-table__header-title--sortable" style="width:30%">Description</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Context</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
@@ -727,7 +727,7 @@ optional identifier of the agency managing the identifier scheme.
 
  <table class="data-table simple">
             <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Class</th>
                 <th class="data-table__header-title--sortable" style="width:30%">Description</th>
                 <th class="data-table__header-title--sortable" style="width:30%">Context</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
@@ -746,7 +746,7 @@ optional identifier of the agency managing the identifier scheme.
 
  <table class="data-table simple">
             <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Class</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Description</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Context</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
@@ -766,7 +766,7 @@ optional identifier of the agency managing the identifier scheme.
 
  <table class="data-table simple">
             <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Class</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Description</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Context</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
@@ -785,7 +785,7 @@ optional identifier of the agency managing the identifier scheme.
 
  <table class="data-table simple">
             <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Class</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Description</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Context</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
@@ -805,7 +805,7 @@ optional identifier of the agency managing the identifier scheme.
 
  <table class="data-table simple">
             <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Class</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Description</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Context</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
@@ -824,7 +824,7 @@ optional identifier of the agency managing the identifier scheme.
 
  <table class="data-table simple">
             <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Class</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Description</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Context</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
@@ -843,7 +843,7 @@ optional identifier of the agency managing the identifier scheme.
 
  <table class="data-table simple">
             <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Class</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Description</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Context</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
@@ -863,7 +863,7 @@ optional identifier of the agency managing the identifier scheme.
 
  <table class="data-table simple">
             <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Class</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Description</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Context</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
@@ -884,7 +884,7 @@ optional identifier of the agency managing the identifier scheme.
 
  <table class="data-table simple">
             <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Class</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Description</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Context</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
@@ -903,7 +903,7 @@ optional identifier of the agency managing the identifier scheme.
 
  <table class="data-table simple">
             <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Class</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Description</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Context</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
@@ -923,7 +923,7 @@ optional identifier of the agency managing the identifier scheme.
 
  <table class="data-table simple">
             <tr >
-                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Class</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Description</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Context</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
