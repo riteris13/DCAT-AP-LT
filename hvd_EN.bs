@@ -1,6 +1,6 @@
 <pre class='metadata'>
-Title: DCAT-AP-LT
-Shortname: DCAT-AP-LT
+Title: High Value Datasets metadata specification
+Shortname: HVD
 Level: 1
 Status: LD
 Repository: ivpk/DCAT-AP-LT
