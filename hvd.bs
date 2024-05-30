@@ -1,6 +1,6 @@
 <pre class='metadata'>
-Title: DCAT-AP-LT
-Shortname: DCAT-AP-LT
+Title: Didelės vertės duomenų rinkinių metaduomenų modelis (HVD)
+Shortname: HVD
 Level: 1
 Status: LD
 Repository: ivpk/DCAT-AP-LT
