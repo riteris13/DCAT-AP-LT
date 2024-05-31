@@ -200,7 +200,7 @@ DCAT-AP-LT 0.1
 # Modelio apžvalga # {#ModelioApzvalga}
 
 DCAT-AP-LT apima visas BREG-DCAT-AP 2.1 nudojamas klases ir papildo jas Informacinės Sistemos klase išplečiančia dcat:Catalog klasę bei dvejais kontroliuojamais žodynais Informacinės sistemos tipui ir svarbai pažymėti taip, kaip apibrėžiama Valstybės informacinių išteklių valymo įstatyme.
-Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas DCAT-AP-HVD klases ir papildomas savybes.
+Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas DCAT-AP-HVD klases ir papildomas savybes. Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas [DCAT-AP-HVD klases ir papildomas savybes](https://ivpk.github.io/DCAT-AP-LT/en/hvd.html).
 
 <img src="uml.png" width="800px" height="454px">
 
