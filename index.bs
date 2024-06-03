@@ -592,7 +592,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
 
 <dl>
     <dt>Apibrėžimas</dt>
-    <dd>Bet kuris subjektas, atliekantis veiksmus, susijusius su pagrindinėmis (angl. Core) klasėmis: Katalogas, Duomenų rinkinys, Duomenų paslauga ir Pateikimą.</dd>
+    <dd>Bet kuris subjektas, atliekantis veiksmus, susijusius su pagrindinėmis (angl. Core) klasėmis: Katalogas, Duomenų rinkinys, Duomenų paslauga ir Pateiktį.</dd>
     <dd>
  <table class="data-table simple">
             <tr >
@@ -921,7 +921,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>[foaf:Document](http://xmlns.com/foaf/0.1/Document)</td>
         <td>0..n</td>
         <td>-</td>
-        <td>Ši savybė nurodo tinklalapį, kuriame galima susipažinti su duomenų rinkiniu, jo pateikimu ir (arba) papildoma informacija. Ji skirta nukreipti į pradinio duomenų teikėjo, o ne į trečiosios šalies, pavyzdžiui, agregatoriaus, svetainės puslapį.</td>
+        <td>Ši savybė nurodo tinklalapį, kuriame galima susipažinti su duomenų rinkiniu, jo pateiktim ir (arba) papildoma informacija. Ji skirta nukreipti į pradinio duomenų teikėjo, o ne į trečiosios šalies, pavyzdžiui, agregatoriaus, svetainės puslapį.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_landing_page">E</a></td>
     </tr>
     <tr>
@@ -1327,7 +1327,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>[foaf:Document](http://xmlns.com/foaf/0.1/Document)</td>
         <td>0..n</td>
         <td>-</td>
-        <td>Ši savybė nurodo tinklalapį, kuriame galima susipažinti su duomenų paslauga, jos pateikimu ir (arba) papildoma informacija. Ji skirta nukreipti į pradinio duomenų paslaugos teikėjo, o ne į trečiosios šalies, pavyzdžiui, agregatoriaus, svetainės puslapį.</td>
+        <td>Ši savybė nurodo tinklalapį, kuriame galima susipažinti su duomenų paslauga, jo pateiktimi ir (arba) papildoma informacija. Ji skirta nukreipti į pradinio duomenų paslaugos teikėjo, o ne į trečiosios šalies, pavyzdžiui, agregatoriaus, svetainės puslapį.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_landing_page">E</a></td>
     </tr>
 
@@ -2771,14 +2771,14 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
 <td>Duomenų paslauga; Pateikimas, Registro katalogas</td>
 <td>File Type NAL</td>
 <td><a href="http://publications.europa.eu/resource/authority/file-type">http://publications.europa.eu/resource/authority/file-type</a></td>
-<td>Pateikimo medijos tipas turi būti atstovaujamas naudojant ES Leidinių biuro dokumentų failų tipų konkretų sąrašą.</td>
+<td>Pateikties medijos tipas turi būti atstovaujamas naudojant ES Leidinių biuro dokumentų failų tipų konkretų sąrašą.</td>
 </tr>
 <tr>
 <td>dct:language</td>
 <td>Duomenų rinkinys; Pateikimas; Registro katalogas; Taisyklė</td>
 <td>Languages NAL</td>
 <td><a href="http://publications.europa.eu/resource/authority/language">http://publications.europa.eu/resource/authority/language</a></td>
-<td>Duomenų rinkinių, duomenų paslaugų, katalogų, taisyklių ir pateikimo aprašymai privalo apimti kalbas naudojant ES Leidinių biuro NAL.</td>
+<td>Duomenų rinkinių, duomenų paslaugų, katalogų, taisyklių ir pateikties aprašymai privalo apimti kalbas naudojant ES Leidinių biuro NAL.</td>
 </tr>
  
   <tr>
