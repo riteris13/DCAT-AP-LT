@@ -2872,3 +2872,8 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
 # Didelės vertės duomenų rinkinių metaduomenų standartas (HVD-DCAT-AP-LT)
 
 Didelės vertės duomenų rinkinių metaduomenų informacija pateikiama šiame [priede](https://ivpk.github.io/DCAT-AP-LT/hvd.html).
+
+# Nuorodos
+
+# Padėka
+
