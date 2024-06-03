@@ -592,7 +592,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
 
 <dl>
     <dt>Apibrėžimas</dt>
-    <dd>Bet kuris subjektas, atliekantis veiksmus, susijusius su pagrindinėmis (angl. Core) klasėmis: Katalogas, Duomenų rinkinys, Duomenų paslauga ir Distribucija.</dd>
+    <dd>Bet kuris subjektas, atliekantis veiksmus, susijusius su pagrindinėmis (angl. Core) klasėmis: Katalogas, Duomenų rinkinys, Duomenų paslauga ir Pateikimą.</dd>
     <dd>
  <table class="data-table simple">
             <tr >
@@ -777,7 +777,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>[dct:Standard](http://purl.org/dc/terms/Standard)</td>
         <td>1..n</td>
         <td>Šaltinis: EUR-Lex - 52020DC0066 - EN - EUR-Lex (europa.eu)</td>
-        <td>Nustatyta duomenų erdvė, kuriai atitinka aprašyta distribucija.</td>
+        <td>Nustatyta duomenų erdvė, kuriai atitinka aprašytas pateikimas.</td>
         <td>P</td>
     </tr>
     <tr>
@@ -921,7 +921,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>[foaf:Document](http://xmlns.com/foaf/0.1/Document)</td>
         <td>0..n</td>
         <td>-</td>
-        <td>Ši savybė nurodo tinklalapį, kuriame galima susipažinti su duomenų rinkiniu, jo distribucija ir (arba) papildoma informacija. Ji skirta nukreipti į pradinio duomenų teikėjo, o ne į trečiosios šalies, pavyzdžiui, agregatoriaus, svetainės puslapį.</td>
+        <td>Ši savybė nurodo tinklalapį, kuriame galima susipažinti su duomenų rinkiniu, jo pateikimu ir (arba) papildoma informacija. Ji skirta nukreipti į pradinio duomenų teikėjo, o ne į trečiosios šalies, pavyzdžiui, agregatoriaus, svetainės puslapį.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_landing_page">E</a></td>
     </tr>
     <tr>
@@ -1327,7 +1327,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>[foaf:Document](http://xmlns.com/foaf/0.1/Document)</td>
         <td>0..n</td>
         <td>-</td>
-        <td>Ši savybė nurodo tinklalapį, kuriame galima susipažinti su duomenų paslauga, jos distribucija ir (arba) papildoma informacija. Ji skirta nukreipti į pradinio duomenų paslaugos teikėjo, o ne į trečiosios šalies, pavyzdžiui, agregatoriaus, svetainės puslapį.</td>
+        <td>Ši savybė nurodo tinklalapį, kuriame galima susipažinti su duomenų paslauga, jos pateikimu ir (arba) papildoma informacija. Ji skirta nukreipti į pradinio duomenų paslaugos teikėjo, o ne į trečiosios šalies, pavyzdžiui, agregatoriaus, svetainės puslapį.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_landing_page">E</a></td>
     </tr>
 
@@ -1436,7 +1436,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
         <td>[dct:LicenseDocument](http://purl.org/dc/terms/LicenseDocument)</td>
         <td>1..1</td>
         <td>-</td>
-        <td>Ši savybė nurodo licenciją, pagal kurią platinama distribucija.</td>
+        <td>Ši savybė nurodo licenciją, pagal kurią platinamas pateikimas.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_license">E</a></td>
     </tr>
 	<tr>
@@ -1645,7 +1645,7 @@ ir pateikties valdymo teisės.</td>
         <td>[dct:LicenseDocument](http://purl.org/dc/terms/LicenseDocument)</td>
         <td>1..1</td>
         <td>-</td>
-        <td>Ši savybė nurodo licenciją, pagal kurią platinama distribucija.</td>
+        <td>Ši savybė nurodo licenciją, pagal kurią platinamas pateikimas.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_license">E</a></td>
     </tr>
    </table>
