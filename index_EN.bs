@@ -1096,3 +1096,6 @@ optional identifier of the agency managing the identifier scheme.
 
 Metadata information for high-value datasets is provided in this [appendix](https://ivpk.github.io/DCAT-AP-LT/en/hvd.html).
 
+# Aknowledgements
+
+We would like to express our gratitude to everyone who worked on the development of the DCAT-AP-LT model: Kęstutis Andrijauskas, Martynas Mockus, Mantas Zimnickas, Darius Amilevičius, Martynas Daugirdas, Gabrielė Stočkūnaitė, Alanas Lukjanovičius, Vladimiras Desiatnikovas
