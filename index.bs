@@ -210,8 +210,8 @@ Pagrindinių modelių esybių, kurios sudaro taikymo profilio branduolį, savyb�
  
 <ul>
 <li>A: pakartotinai naudojamas kaip apibrėžta ir išreikšta DCAT / BREG </li>
-</li>E: pakartotinai naudojamas su papildomomis naudojimo pastabomis arba papildomais apribojimais, palyginti su DCAT / BREG</li>
-</li> P: DCAT-AP profilio plėtinys, kuriame DCAT / BREG anksčiau nebuvo jokių reikalavimų </li>
+<li>E: pakartotinai naudojamas su papildomomis naudojimo pastabomis arba papildomais apribojimais, palyginti su DCAT / BREG</li>
+<li> P: DCAT-AP profilio plėtinys, kuriame DCAT / BREG anksčiau nebuvo jokių reikalavimų </li>
 </ul>
 
 
