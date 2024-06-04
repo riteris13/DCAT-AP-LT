@@ -3118,3 +3118,5 @@ Didelės vertės duomenų rinkinių metaduomenų informacija pateikiama šiame [
 
 # Padėka
 
+Norime išreikšti padėką visiems dirbusiems, kuriant DCAT-AP-LT modelį: Kęstutis Andrijauskas, Martynas Mockus, Mantas Zimnickas, Darius Amilevičius, Martynas Daugirdas, Gabrielė Stočkūnaitė, Alanas Lukjanovičius, Vladimiras Desiatnikovas
+
