@@ -2903,7 +2903,7 @@ Didelės vertės duomenų rinkinių metaduomenų informacija pateikiama šiame [
 		<code>DCAT</code>
 	</td>
         <td>
-		<code>Tai yra tarptautinis metaduomenų žodynas, skirtas apibūdinti duomenų rinkinius ir jų atsiradimo šaltinius. Jis naudojamas duomenų rinkinių katalogavimui ir paieškai, taip pat duomenų rinkinių integracijai ir dalijimuisi.</code>
+		<code>Tai yra tarptautinis metaduomenų žodynas, skirtas apibūdinti duomenų rinkinius ir jų atsiradimo šaltinius. Jis naudojamas duomenų rinkinių katalogavimui ir paieškai, taip pat duomenų rinkinių integracijai ir dalijimuisi. Prieiga internetu: http://www.w3.org/ns/dcat#</code>
 	</td>
     </tr>
     <tr>
@@ -2911,7 +2911,7 @@ Didelės vertės duomenų rinkinių metaduomenų informacija pateikiama šiame [
 		<code>DCAT-AP</code>
 	</td>
         <td>
-		<code>Tai yra Europos Sąjungos rekomenduojamas metaduomenų rinkinys, naudojamas apibūdinti viešojo sektoriaus duomenų rinkinius. Jis remiasi DCAT.</code>
+		<code>Tai yra Europos Sąjungos rekomenduojamas metaduomenų rinkinys, naudojamas apibūdinti viešojo sektoriaus duomenų rinkinius. Jis remiasi DCAT. </code>
 	</td>
     </tr>
     <tr>
@@ -3023,7 +3023,7 @@ Didelės vertės duomenų rinkinių metaduomenų informacija pateikiama šiame [
 		<code>ODRL</code>
 	</td>
         <td>
-		<code>Atviroji skaitmeninių teisių kalba (ODRL) yra politikos išraiškos kalba, teikianti lankstų ir sąveikų informacijos modelį, žodyną ir kodavimo mechanizmus, skirtus pareiškimams apie turinio ir paslaugų naudojimą pateikti. ODRL žodynas ir išraiška apibūdina ODRL strategijose vartojamus terminus ir kaip juos koduoti.</code>
+		<code>Atviroji skaitmeninių teisių kalba (ODRL) yra politikos išraiškos kalba, teikianti lankstų ir sąveikų informacijos modelį, žodyną ir kodavimo mechanizmus, skirtus pareiškimams apie turinio ir paslaugų naudojimą pateikti. ODRL žodynas ir išraiška apibūdina ODRL strategijose vartojamus terminus ir kaip juos koduoti. Prieiga internetu: http://www.w3.org/ns/odrl/2/</code>
 	</td>
     </tr>
     <tr>
