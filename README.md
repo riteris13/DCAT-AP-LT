@@ -29,5 +29,4 @@ Data Structure Specification (Lithuanian version)	https://ivpk.github.io/dsa/
 
 For more information, please contact:
 INFORMATION SOCIETY DEVELOPMENT COMMITTEE
-Patricija Elžbieta Zarankaitė, Communication Specialist
-+370 661 91 375, patricija.zarankaite@ivpk.lt
++370 685 83 595, info@ivpk.lt
