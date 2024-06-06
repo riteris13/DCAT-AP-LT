@@ -948,7 +948,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
                 <td>Šios klasės egzemplioriais apibūdinami  duomenų rinkiniai, tvarkomi informacinės sistemos apimtyje.
 Kiekvienas duomenų rinkinys per katalogo įrašo sąryšį CatalogRecord, priskiriamas vienam informacinės sistemos (Catalog) atvejui.
 Tokiu būdu aprašomi konkretūs duomenų rinkiniai, valdomi ir tvarkomi konkrečios informacinės sistemos apimtyje. 
-Konkretaus duomenų rinkinio (Dataset) registravimo pagrindas informacinės sistemos (Catalog) apimtyje yra informacinės sistemos nuostatų patvirtinimas (IS gyvavimo ciklo metodikoje apibrėžta tvarka). 
+Konkretaus duomenų rinkinio (Dataset) registravimo pagrindas informacinės sistemos (Information system) apimtyje yra informacinės sistemos nuostatų patvirtinimas (VII valdymo ir tvarkymo metodikoje apibrėžta tvarka). 
 Kiekvienas duomenų rinkinys įprasmina tam tikrą valstybės informacinės sistemos ar registro nuostatuose įvardintiną informacinės struktūros dalį. 
 Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklos apimtyje suvokiama prasminga ir reikšminga koncepcija, apibūdinama reikšmingomis savybėmis/ atributais.
 </td>
