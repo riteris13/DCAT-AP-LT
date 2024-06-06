@@ -1,5 +1,5 @@
 <pre class='metadata'>
-Title: High Value Datasets metadata specification
+Title: High Value Datasets (DCAT-AP-LT) metadata specification
 Shortname: HVD
 Level: 1
 Status: LD
@@ -13,7 +13,7 @@ Translation: en en/index.html
 Boilerplate: copyright no, spec-metadata no, abstract no, conformance no
 </pre>
 
-#  Introduction to High Value Datasets (DCAT-AP-HVD)
+#  Implementation of DCAT-AP HVD in Lithuania
 
 The Definition of High Value Datasets arose from the need to identify the most important data for example:
 <ul>
@@ -26,6 +26,9 @@ The Definition of High Value Datasets arose from the need to identify the most i
 </ul>
 This data has the greatest potential to influence the most important areas identified by the European Commission. The opening and reuse of such data creates significant added value, but at the same time requires additional rules governing their availability, interoperability and use. Considering the fact that the DCAT-AP extension cannot fully satisfy the quality, reliability and openness requirements of high-value data sets, the development of the DCAT-AP HVD extension was started, based on the guidelines provided in the High-value Data Set Implementation Regulation. Accordingly, this extension is also adapted to DCAT-AP-LT, changing the LegalResource resource to an attribute under ELI:LegalResource with the name id_local
 .
+In Lithuania, High Value Datasets are described 'as-is' in the DCAT-AP HVD 2.2.0 specification, with minor adaptations regarding the citation of the legal source, as the ELI has not yet been adopted in Lithuania.
+In this annex, the LegalResource resource is an attribute under ELI with the name [id_local](https://eur01.safelinks.protection.outlook.com/?url=http%3A%2F%2Fdata.europa.eu%2Feli%2Fontology%23id_local&data=05%7C02%7CGabriele.Stockunaite%40lt.ey.com%7C4f65e98dfd1c4980c89c08dc86081798%7C5b973f9977df4bebb27daa0c70b8482c%7C0%7C0%7C638532616550038681%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=8TkKmt0geGtNLmXyejrp8uRKqhxHresGF1Ba0dYytDM%3D&reserved=0). The local identifier is used as the URI of the legal resource published in the [Register of Legal Acts](https://eur01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fe-tar.lt%2Fportal%2Fen%2Findex&data=05%7C02%7CGabriele.Stockunaite%40lt.ey.com%7C4f65e98dfd1c4980c89c08dc86081798%7C5b973f9977df4bebb27daa0c70b8482c%7C0%7C0%7C638532616550050298%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=7opCeCzEGbYIuPsV8S%2BkzFDkB3jBvKlkps0HAGc2eGU%3D&reserved=0).
+
 
 # General properties of high-value datasets
 
@@ -41,6 +44,11 @@ High-value datasets have specific technical and legal requirements. These data s
 </ul>
 Considering these features and, accordingly, the resulting requirements, in the DCAT-AP-LT model there is a need to apply additional, modified or tightened metadata model rules for high-value data sets. These rules include properties that complement DCAT-AP classes or enforce stricter binding of existing properties and are defined in <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/">DCAT-AP - in HVD</a>'s appendix.
 
+# Acknowledgments
+
+We would like to express our gratitude to everyone who worked on the development of the DCAT-AP-LT HVD extention: Kęstutis Andrijauskas, Martynas Mockus, Mantas Zimnickas, Darius Amilevičius, Martynas Daugirdas, Gabrielė Stočkūnaitė, Alanas Lukjanovičius, Vladimiras Desiatnikovas.
+
+# References
 
 
 
