@@ -3127,6 +3127,8 @@ Didelės vertės duomenų rinkinių metaduomenų informacija pateikiama šiame [
 # Nuorodos
 
 
+ <dl class="bibliography"><dt id="bib-datacite">[DATACITE<!---0.115482%-->]</dt><dd>
+      <a href="http://www.datacite.org/"><cite>DataCite</cite></a>.  DataCite. URL: <a href="http://www.datacite.org/">http://www.datacite.org/</a><!---0.115482%-->
     </dd><dt id="bib-deu">[DEU<!---0.115482%-->]</dt><dd>
       <a href="https://data.europa.eu/"><cite>The official portal for European data</cite></a>.  European Commission. URL: <a href="https://data.europa.eu/">https://data.europa.eu</a><!---0.115482%-->
     </dd><dt id="bib-doi">[DOI<!---0.115482%-->]</dt><dd>
