@@ -1948,8 +1948,8 @@ ir pateikties valdymo teisės.</td>
             </tr>
             <tr class="data-table__header">
                 <td>Kategorijų schema</td>
-                <td></td>
-                <td></td>
+                <td>Žinių ir informacijos modelio sistema / modelis pagal kurią(-į) išreiškiama duomenų rnikinio kataloge / informacinėje sistemoje kategorija ar tema. </td>
+                <td> - </td>
                 <td>[skos:ConceptScheme](http://www.w3.org/2004/02/skos/core#ConceptScheme)</td>
             </tr>
            
