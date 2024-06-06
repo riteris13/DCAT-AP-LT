@@ -3127,6 +3127,39 @@ Didelės vertės duomenų rinkinių metaduomenų informacija pateikiama šiame [
 # Nuorodos
 
 
+    </dd><dt id="bib-deu">[DEU<!---0.115482%-->]</dt><dd>
+      <a href="https://data.europa.eu/"><cite>The official portal for European data</cite></a>.  European Commission. URL: <a href="https://data.europa.eu/">https://data.europa.eu</a><!---0.115482%-->
+    </dd><dt id="bib-doi">[DOI<!---0.115482%-->]</dt><dd>
+      <a href="http://www.doi.org/"><cite>Digital Object Identifier</cite></a>.  DOI Foundation. URL: <a href="http://www.doi.org/">http://www.doi.org/</a><!---0.115482%-->
+    </dd><dt id="bib-dxwg">[DXWG<!---0.115482%-->]</dt><dd>
+      <a href="https://www.w3.org/2017/dxwg/wiki/Main_Page"><cite>Dataset Exchange Working Group</cite></a>.  W3C. URL: <a href="https://www.w3.org/2017/dxwg/wiki/Main_Page">https://www.w3.org/2017/dxwg/wiki/Main_Page</a><!---0.115482%-->
+    </dd><dt id="bib-ezid">[EZID<!---0.115482%-->]</dt><dd>
+      <a href="https://ezid.cdlib.org/"><cite>EZID</cite></a>.  California Digital Library. URL: <a href="https://ezid.cdlib.org/">https://ezid.cdlib.org/</a><!---0.115482%-->
+    </dd><dt id="bib-iso8601">[ISO8601<!---0.115482%-->]</dt><dd>
+      <a href="http://www.iso.org/iso/catalogue_detail?csnumber=40874"><cite>Representation of dates and times. ISO 8601:2004.</cite></a>.  International Organization for Standardization (ISO). 2004. ISO 8601:2004. URL: <a href="http://www.iso.org/iso/catalogue_detail?csnumber=40874">http://www.iso.org/iso/catalogue_detail?csnumber=40874</a><!---0.115482%-->
+    </dd><dt id="bib-mastads">[MASTADS<!---0.115482%-->]</dt><dd>
+      <a href="https://archive.stsci.edu/pub_dsn.html"><cite>Referencing Data Sets in Astronomical Literature</cite></a>.  MAST. URL: <a href="https://archive.stsci.edu/pub_dsn.html">https://archive.stsci.edu/pub_dsn.html</a><!---0.115482%-->
+    </dd><dt id="bib-odrl">[ODRL<!---0.115482%-->]</dt><dd>
+      <a href="https://www.w3.org/ns/odrl/2/"><cite>The Open Digital Rights Language Ontology Version 2.2</cite></a>.  W3C POE Working Group. URL: <a href="https://www.w3.org/ns/odrl/2/">https://www.w3.org/ns/odrl/2/</a><!---0.115482%-->
+    </dd><dt id="bib-psi">[PSI<!---0.115482%-->]</dt><dd>
+      <a href="https://eur-lex.europa.eu/eli/dir/2019/1024/oj"><cite>Directive on open data and the re-use of public sector information (recast)</cite></a>.  European Union. URL: <a href="https://eur-lex.europa.eu/eli/dir/2019/1024/oj">https://eur-lex.europa.eu/eli/dir/2019/1024/oj</a><!---0.115482%-->
+    </dd><dt id="bib-rfc2119">[RFC2119<!---0.115482%-->]</dt><dd>
+      <a href="https://www.rfc-editor.org/rfc/rfc2119"><cite>Key words for use in RFCs to Indicate Requirement Levels</cite></a>. S. Bradner.  IETF. March 1997. Best Current Practice. URL: <a href="https://www.rfc-editor.org/rfc/rfc2119">https://www.rfc-editor.org/rfc/rfc2119</a><!---0.115482%-->
+    </dd><dt id="bib-rfc5646">[rfc5646<!---0.115482%-->]</dt><dd>
+      <a href="https://www.rfc-editor.org/rfc/rfc5646"><cite>Tags for Identifying Languages</cite></a>. A. Phillips, Ed.; M. Davis, Ed..  IETF. September 2009. Best Current Practice. URL: <a href="https://www.rfc-editor.org/rfc/rfc5646">https://www.rfc-editor.org/rfc/rfc5646</a><!---0.115482%-->
+    </dd><dt id="bib-rfc8174">[RFC8174<!---0.115482%-->]</dt><dd>
+      <a href="https://www.rfc-editor.org/rfc/rfc8174"><cite>Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words</cite></a>. B. Leiba.  IETF. May 2017. Best Current Practice. URL: <a href="https://www.rfc-editor.org/rfc/rfc8174">https://www.rfc-editor.org/rfc/rfc8174</a><!---0.115482%-->
+    </dd><dt id="bib-semic">[SEMIC<!---0.115482%-->]</dt><dd>
+      <a href="https://joinup.ec.europa.eu/"><cite>JoinUp welcomes Interoperable Europe</cite></a>.  European Commission. URL: <a href="https://joinup.ec.europa.eu/">https://joinup.ec.europa.eu/</a><!---0.115482%-->
+    </dd><dt id="bib-vocab-dcat-1">[vocab-dcat-1<!---0.115482%-->]</dt><dd>
+      <a href="https://www.w3.org/TR/vocab-dcat-1/"><cite>Data Catalog Vocabulary (DCAT)</cite></a>. Fadi Maali; John Erickson.  W3C. 4 February 2020. W3C Recommendation. URL: <a href="https://www.w3.org/TR/vocab-dcat-1/">https://www.w3.org/TR/vocab-dcat-1/</a><!---0.115482%-->
+    </dd><dt id="bib-vocab-dcat-2">[vocab-dcat-2<!---0.115482%-->]</dt><dd>
+      <a href="https://www.w3.org/TR/vocab-dcat-2/"><cite>Data Catalog Vocabulary (DCAT) - Version 2</cite></a>. Riccardo Albertoni; David Browning; Simon Cox; Alejandra Gonzalez Beltran; Andrea Perego; Peter Winstanley.  W3C. 4 February 2020. W3C Recommendation. URL: <a href="https://www.w3.org/TR/vocab-dcat-2/">https://www.w3.org/TR/vocab-dcat-2/</a><!---0.115482%-->
+    </dd><dt id="bib-vocab-dcat-3">[vocab-dcat-3<!---0.115482%-->]</dt><dd>
+      <a href="https://www.w3.org/TR/vocab-dcat-3/"><cite>Data Catalog Vocabulary (DCAT) - Version 3</cite></a>. Simon Cox; Andrea Perego; Alejandra Gonzalez Beltran; Peter Winstanley; Riccardo Albertoni; David Browning.  W3C. 18 January 2024. W3C Candidate Recommendation. URL: <a href="https://www.w3.org/TR/vocab-dcat-3/">https://www.w3.org/TR/vocab-dcat-3/</a><!---0.115482%-->
+    </dd><dt id="bib-w3id">[W3ID<!---0.115482%-->]</dt><dd>
+      <a href="https://w3id.org/"><cite>Permanent Identifiers for the Web</cite></a>.  W3C Permanent Identifier Community Group. URL: <a href="https://w3id.org/">https://w3id.org/</a><!---0.115482%-->
+    </dd><!---0.115482%--></dl>
 
 
 # Padėka
