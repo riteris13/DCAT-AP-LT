@@ -482,7 +482,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
 
 # Nuorodos
 
- <dl class="bibliography"><dt id="bib-datacite">[DATACITE<!---0.115482%-->]
+ <dl class="bibliography">
 <dt id="bib-semic">[SEMIC<!---0.115482%-->]</dt><dd>
       <a href="https://joinup.ec.europa.eu/"><cite>JoinUp welcomes Interoperable Europe</cite></a>.  European Commission. URL: <a href="https://joinup.ec.europa.eu/">https://joinup.ec.europa.eu/</a><!---0.115482%-->
     </dd><dt id="bib-vocab-dcat-1">[vocab-dcat-1<!---0.115482%-->]</dt><dd>
