@@ -50,6 +50,31 @@ We would like to express our gratitude to everyone who worked on the development
 
 # References
 
+ <dl class="bibliography"><dt id="bib-datacite">[DATACITE<!---0.115482%-->]
+<dt id="bib-semic">[SEMIC<!---0.115482%-->]</dt><dd>
+      <a href="https://joinup.ec.europa.eu/"><cite>JoinUp welcomes Interoperable Europe</cite></a>.  European Commission. URL: <a href="https://joinup.ec.europa.eu/">https://joinup.ec.europa.eu/</a><!---0.115482%-->
+    </dd><dt id="bib-vocab-dcat-1">[vocab-dcat-1<!---0.115482%-->]</dt><dd>
+      <a href="https://www.w3.org/TR/vocab-dcat-1/"><cite>Data Catalog Vocabulary (DCAT)</cite></a>. Fadi Maali; John Erickson.  W3C. 4 February 2020. W3C Recommendation. URL: <a href="https://www.w3.org/TR/vocab-dcat-1/">https://www.w3.org/TR/vocab-dcat-1/</a><!---0.115482%-->
+    </dd><dt id="bib-vocab-dcat-2">[vocab-dcat-2<!---0.115482%-->]</dt><dd>
+      <a href="https://www.w3.org/TR/vocab-dcat-2/"><cite>Data Catalog Vocabulary (DCAT) - Version 2</cite></a>. Riccardo Albertoni; David Browning; Simon Cox; Alejandra Gonzalez Beltran; Andrea Perego; Peter Winstanley.  W3C. 4 February 2020. W3C Recommendation. URL: <a href="https://www.w3.org/TR/vocab-dcat-2/">https://www.w3.org/TR/vocab-dcat-2/</a><!---0.115482%-->
+    </dd><dt id="bib-vocab-dcat-3">[vocab-dcat-3<!---0.115482%-->]</dt><dd>
+      <a href="https://www.w3.org/TR/vocab-dcat-3/"><cite>Data Catalog Vocabulary (DCAT) - Version 3</cite></a>. Simon Cox; Andrea Perego; Alejandra Gonzalez Beltran; Peter Winstanley; Riccardo Albertoni; David Browning.  W3C. 18 January 2024. W3C Candidate Recommendation. URL: <a href="https://www.w3.org/TR/vocab-dcat-3/">https://www.w3.org/TR/vocab-dcat-3/</a><!---0.115482%-->
+    </dd>
+ <dl class="bibliography"><dt id="bib-dcat-ap-hvd">[DCAT-AP-HVD<!---0.115482%-->]</dt><dd>
+      <a href="https://semiceu.github.io/uri.semic.eu-generated/DCAT-AP/releases/2.2.0-hvd/"><cite>Usage Guidelines of DCAT-AP for High-Value Datasets</cite></a>.  European Commission. URL: <a href="https://semiceu.github.io/uri.semic.eu-generated/DCAT-AP/releases/2.2.0-hvd/">https://semiceu.github.io/uri.semic.eu-generated/DCAT-AP/releases/2.2.0-hvd/</a><!---0.115482%-->
+    </dd><dt id="bib-fair">[FAIR<!---0.115482%-->]</dt><dd>
+      <a href="https://www.openaire.eu/how-to-make-your-data-fair"><cite>How to make your data FAIR</cite></a>.  OpenAire. URL: <a href="https://www.openaire.eu/how-to-make-your-data-fair">https://www.openaire.eu/how-to-make-your-data-fair</a><!---0.115482%-->
+    </dd><dt id="bib-geodcat-ap">[geodcat-ap<!---0.115482%-->]</dt><dd>
+      <a href="https://semiceu.github.io/GeoDCAT-AP/releases/"><cite>GeoDCAT-AP: A geospatial extension for the DCAT application profile for data portals in Europe</cite></a>.  European Commission. 23 December 2020. URL: <a href="https://semiceu.github.io/GeoDCAT-AP/releases/">https://semiceu.github.io/GeoDCAT-AP/releases/</a><!---0.115482%-->
+    </dd><dt id="bib-hvd">[HVD<!---0.115482%-->]</dt><dd>
+      <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R0138"><cite>Implementing Regulation for High Value Datasets</cite></a>.  European Union. URL: <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R0138">https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R0138</a><!---0.115482%-->
+    </dd><dt id="bib-json-ld11">[json-ld11<!---0.115482%-->]</dt>
+<dt id="bib-prov-o">[prov-o<!---0.115482%-->]</dt><dd>
+      <a href="https://www.w3.org/TR/prov-o/"><cite>PROV-O: The PROV Ontology</cite></a>. Timothy Lebo; Satya Sahoo; Deborah McGuinness.  W3C. 30 April 2013. W3C Recommendation. URL: <a href="https://www.w3.org/TR/prov-o/">https://www.w3.org/TR/prov-o/</a><!---0.115482%-->
+    </dd><dt id="bib-rfc3986">[rfc3986<!---0.115482%-->]</dt><dd>
+      <a href="https://www.rfc-editor.org/rfc/rfc3986"><cite>Uniform Resource Identifier (URI): Generic Syntax</cite></a>. T. Berners-Lee; R. Fielding; L. Masinter.  IETF. January 2005. Internet Standard. URL: <a href="https://www.rfc-editor.org/rfc/rfc3986">https://www.rfc-editor.org/rfc/rfc3986</a><!---0.115482%-->
+    </dd></dl>
+
 
 
 
