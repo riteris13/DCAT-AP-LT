@@ -484,6 +484,12 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
 # Nuorodos
 
  <dl class="bibliography">
+<dt id="bib-dcat-ap-lt">[DCAT-AP-LT<!---0.115482%-->]</dt><dd>
+      <a href="https://ivpk.github.io/DCAT-AP-LT/"><cite>Lithuanian DCAT Application Profile </cite></a> </dd>
+ <dl class="bibliography"><dt id="bib-legal">[REGISTER OF LEGAL ACTS IN LITHUANIA<!---0.115482%-->]
+<dd>
+      <a href="https://www.e-tar.lt/portal/"><cite>LIthuanian register of legal acts</cite></a>
+    </dd>
 <dt id="bib-semic">[SEMIC<!---0.115482%-->]</dt><dd>
       <a href="https://joinup.ec.europa.eu/"><cite>JoinUp welcomes Interoperable Europe</cite></a>.  European Commission. URL: <a href="https://joinup.ec.europa.eu/">https://joinup.ec.europa.eu/</a><!---0.115482%-->
     </dd><dt id="bib-vocab-dcat-1">[vocab-dcat-1<!---0.115482%-->]</dt><dd>
