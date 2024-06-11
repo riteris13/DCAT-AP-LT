@@ -336,7 +336,9 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
 </dl>
 
 
-# Used BregDCAT-AP classes and their properties
+# Used BregDCAT-AP classes
+
+Note:  In Lithuania,  Datasets are described with minor adaptations regarding the citation of the legal source, as the ELI has not yet been adopted in Lithuania. LegalResource resource is an attribute under ELI with the name [id_local](=http://data.europa.eu/eli/ontology#id_local). The local identifier is used as the URI of the legal resource published in the [Register of Legal Acts](https://www.e-tar.lt/portal/).
 
 
 ## Catalog
@@ -523,7 +525,7 @@ In the context of IS, the priority and largest application of this Class is for 
             <tr class="data-table__header">
                 <td>Legal Resource</td>
                 <td>Legal sources are legal acts, policies or policies, which are rules that define the services of base registries and other information systems. 
-Note: Descriptions of legal resources are expected to be provided in the future according to the ELI ontology.
+Note:  In Lithuania,  Datasets are described with minor adaptations regarding the citation of the legal source, as the ELI has not yet been adopted in Lithuania. LegalResource resource is an attribute under ELI with the name [id_local](=http://data.europa.eu/eli/ontology#id_local). The local identifier is used as the URI of the legal resource published in the [Register of Legal Acts](https://www.e-tar.lt/portal/).
 </td>
                 <td> - </td>
                 <td>[eli:LegalResource](http://data.europa.eu/eli/ontology#LegalResource)</td>
