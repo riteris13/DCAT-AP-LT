@@ -1104,7 +1104,7 @@ We would like to express our gratitude to everyone who worked on the development
 
 
 
-# Refferences
+# References
 
  <dl class="bibliography"><dt id="bib-datacite">[DATACITE<!---0.115482%-->]</dt><dd>
       <a href="http://www.datacite.org/"><cite>DataCite</cite></a>.  DataCite. URL: <a href="http://www.datacite.org/">http://www.datacite.org/</a><!---0.115482%-->
