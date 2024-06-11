@@ -484,6 +484,11 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
 </dl>
 
 
+# Padėka
+
+Norime išreikšti padėką visiems dirbusiems, kuriant DCAT-AP-LT specifikaciją: Kęstutis Andrijauskas, Martynas Mockus, Mantas Zimnickas, Darius Amilevičius, Martynas Daugirdas, Gabrielė Stočkūnaitė, Alanas Lukjanovičius, Vladimiras Desiatnikovas
+
+
 # Nuorodos
 
  <dl class="bibliography">
