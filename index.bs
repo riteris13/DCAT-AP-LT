@@ -1,4 +1,4 @@
-F<pre class='metadata'>
+<pre class='metadata'>
 Title: DCAT-AP-LT
 Shortname: DCAT-AP-LT
 Level: 1
