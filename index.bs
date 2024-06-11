@@ -1,4 +1,4 @@
-<pre class='metadata'>
+F<pre class='metadata'>
 Title: DCAT-AP-LT
 Shortname: DCAT-AP-LT
 Level: 1
@@ -1614,6 +1614,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>Šioje savybėje galinio punkto URL turi būti nuolatinis. Tai reiškia, kad leidėjai turėtų daryti viską, kad išlaikytų stabilią ir esamą vertę.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:data_service_endpoint_url">E</a></td>
     </tr>
+  </table>
 
 ## Kategorija, Teikėjo tipas, Statusas
 
