@@ -441,14 +441,14 @@ DCAT-AP-LT 0.1
 
 # Apžvalga # {#Apzvalga}
 
-DCAT-AP-LT apima visas BREG-DCAT-AP 2.1 nudojamas klases ir papildo jas Informacinės Sistemos klase išplečiančia dcat:Catalog klasę bei dvejais kontroliuojamais žodynais Informacinės sistemos tipui ir svarbai pažymėti taip, kaip apibrėžiama Valstybės informacinių išteklių valymo įstatyme.
+DCAT-AP-LT apima visas BREG-DCAT-AP 2.1 naudojamas klases ir papildo jas Informacinės Sistemos klase išplečiančia dcat:Catalog klasę bei dvejais kontroliuojamais žodynais Informacinės sistemos tipui ir svarbai pažymėti taip, kaip apibrėžiama Valstybės informacinių išteklių valymo įstatyme.
 Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas DCAT-AP-HVD klases ir papildomas savybes. Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas [DCAT-AP-HVD klases ir papildomas savybes](https://ivpk.github.io/DCAT-AP-LT/en/hvd.html).
 
 <img src="uml.png" width="800px" height="454px">
 
 <br>
 
-Pagrindinių modelių esybių, kurios sudaro taikymo profilio branduolį, savybės ir su jomis susiję apribojimai, taikomi šio profilio kontekste, pateikiami lentelės pavidalu. Kiekviena eilutė atitinka vieną ypatybę.Siekiant sutaupyti vietos, naudojami šie sutrumpinimai, kurie trumpai nurodo skirtumą nuo DCAT:
+Pagrindinių modelių esybių, kurios sudaro taikymo profilio branduolį, savybės ir su jomis susiję apribojimai, taikomi šio profilio kontekste, pateikiami lentelės pavidalu. Kiekviena eilutė atitinka vieną ypatybę. Siekiant sutaupyti vietos, naudojami šie sutrumpinimai, kurie trumpai nurodo skirtumą nuo DCAT:
  
 <ul>
 <li>A: pakartotinai naudojamas kaip apibrėžta ir išreikšta DCAT / BREG </li>
@@ -481,7 +481,7 @@ Pagrindinių modelių esybių, kurios sudaro taikymo profilio branduolį, savyb�
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>1..1</td>
                 <td>Informacinės sistemos svarba.</td>
-                <td>Informacinės sistemos svarba pagal Valstybės informacinių išeklių valdymo įstatymo reikalavimus.</td>
+                <td>Informacinės sistemos svarba pagal Valstybės informacinių išteklių valdymo įstatymo reikalavimus.</td>
                 <td>P</td>
             </tr>
             <tr class="data-table__header">
@@ -489,7 +489,7 @@ Pagrindinių modelių esybių, kurios sudaro taikymo profilio branduolį, savyb�
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>1..1</td>
                 <td>Informacinės sistemos tipas.</td>
-                <td>Informacinės sistemos tipas pagal Valstybės informacinių išeklių valdymo įstatymo reikalavimus.</td>
+                <td>Informacinės sistemos tipas pagal Valstybės informacinių išteklių valdymo įstatymo reikalavimus.</td>
                 <td>P</td>
             </tr>
             <tr class="data-table__header">
@@ -512,7 +512,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
 
 <dl>
     <dt>Apibrėžimas</dt>
-    <dd>Informacinės sistemos svarba pagal Valstybės informacinių išeklių valdymo įstatymo reikalavimus.</dd>
+    <dd>Informacinės sistemos svarba pagal Valstybės informacinių išteklių valdymo įstatymo reikalavimus.</dd>
     <dt>Galimų svarbos lygmenų reikšmių sąrašas</dt>
     <dd>
         <table class="data-table simple">
@@ -560,7 +560,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
 
 <dl>
     <dt>Apibrėžimas</dt>
-    <dd>Informacinės sistemos tipas pagal Valstybės informacinių išeklių valdymo įstatymo reikalavimus.</dd>
+    <dd>Informacinės sistemos tipas pagal Valstybės informacinių išteklių valdymo įstatymo reikalavimus.</dd>
     <dt>Galimų informacinių sistemų tipų reikšmių sąrašas</dt>
     <dd>
         <table class="data-table simple">
