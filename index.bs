@@ -3121,7 +3121,8 @@ Norime išreikšti padėką visiems dirbusiems, kuriant DCAT-AP-LT specifikacij�
 # Nuorodos
 
 
- <dl class="bibliography"><dt id="bib-datacite">[DATACITE<!---0.115482%-->]</dt><dd>
+ 
+<dl class="bibliography"><dt id="bib-datacite">[DATACITE<!---0.115482%-->]</dt><dd>
       <a href="http://www.datacite.org/"><cite>DataCite</cite></a>.  DataCite. URL: <a href="http://www.datacite.org/">http://www.datacite.org/</a><!---0.115482%-->
     </dd><dt id="bib-deu">[DEU<!---0.115482%-->]</dt><dd>
       <a href="https://data.europa.eu/"><cite>The official portal for European data</cite></a>.  European Commission. URL: <a href="https://data.europa.eu/">https://data.europa.eu</a><!---0.115482%-->
@@ -3152,7 +3153,10 @@ Norime išreikšti padėką visiems dirbusiems, kuriant DCAT-AP-LT specifikacij�
       <a href="https://semiceu.github.io/GeoDCAT-AP/releases/"><cite>GeoDCAT-AP: A geospatial extension for the DCAT application profile for data portals in Europe</cite></a>.  European Commission. 23 December 2020. URL: <a href="https://semiceu.github.io/GeoDCAT-AP/releases/">https://semiceu.github.io/GeoDCAT-AP/releases/</a><!---0.115482%-->
     </dd><dt id="bib-hvd">[HVD<!---0.115482%-->]</dt><dd>
       <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R0138"><cite>Implementing Regulation for High Value Datasets</cite></a>.  European Union. URL: <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R0138">https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R0138</a><!---0.115482%-->
-    </dd><dt id="bib-json-ld11">[json-ld11<!---0.115482%-->]</dt><dd>
+    </dd><dt id="bib-hvd">[DCAT-AP-LT HVD<!---0.115482%-->]</dt><dd>
+      <a href="https://ivpk.github.io/DCAT-AP-LT/hvd.html"><cite>Didelės vertės duomenų rinkinių LT metaduomenų specifikacija </cite></a>
+    </dd>
+<dt id="bib-json-ld11">[json-ld11<!---0.115482%-->]</dt><dd>
       <a href="https://www.w3.org/TR/json-ld11/"><cite>JSON-LD 1.1</cite></a>. Gregg Kellogg; Pierre-Antoine Champin; Dave Longley.  W3C. 16 July 2020. W3C Recommendation. URL: <a href="https://www.w3.org/TR/json-ld11/">https://www.w3.org/TR/json-ld11/</a><!---0.115482%-->
     </dd><dt id="bib-prov-o">[prov-o<!---0.115482%-->]</dt><dd>
       <a href="https://www.w3.org/TR/prov-o/"><cite>PROV-O: The PROV Ontology</cite></a>. Timothy Lebo; Satya Sahoo; Deborah McGuinness.  W3C. 30 April 2013. W3C Recommendation. URL: <a href="https://www.w3.org/TR/prov-o/">https://www.w3.org/TR/prov-o/</a><!---0.115482%-->
@@ -3163,6 +3167,13 @@ Norime išreikšti padėką visiems dirbusiems, kuriant DCAT-AP-LT specifikacij�
     </dd><dt id="bib-shacl">[shacl<!---0.115482%-->]</dt><dd>
       <a href="https://www.w3.org/TR/shacl/"><cite>Shapes Constraint Language (SHACL)</cite></a>. Holger Knublauch; Dimitris Kontokostas.  W3C. 20 July 2017. W3C Recommendation. URL: <a href="https://www.w3.org/TR/shacl/">https://www.w3.org/TR/shacl/</a><!---0.115482%-->
     </dd><!---0.115482%--></dl>
-
+<dl class="bibliography"><dt id="bib-legal">[TEISĖS AKTŲ REGISTRAS<!---0.115482%-->]
+<dd>
+      <a href="https://www.e-tar.lt/portal/"><cite>Teisės aktų registras</cite></a>
+    </dd>
+<dl class="bibliography"><dt id="bib-udts">[UDTS<!---0.115482%-->]
+<dd>
+      <a href="https://ivpk.github.io/uapi/"><cite>Universalios duomenų teikimo sąsajos specifikacija</cite></a>
+    </dd>
 
 
