@@ -289,7 +289,7 @@ DCAT-AP-LT apima BREG-DCAT-AP(https://github.com/SEMICeu/BregDCAT-AP/tree/main/r
 
 
 
-## Aprėptis ## {#Apreptis}
+# Aprėptis # {#Apreptis}
 
 Šis specifikacija yra orientuota į Valstybės informacinių išteklių valdymo įstatymo nuostatų dėl informacinėse sistemose tvarkomų metaduomenų įgyvendinimo.
 
@@ -914,7 +914,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
            
         </table>
 
-## Išteklius
+## Išteklius  ## {##Isteklius}
 
  <table class="data-table simple">
             <tr >
@@ -933,7 +933,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
         </table>
 
 
-## Duomenų rinkinys
+## Duomenų rinkinys  ## {##DuomenuRinkinys}
 
   <table class="data-table simple">
             <tr >
@@ -1418,7 +1418,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
 
 
 
-## Duomenų paslauga
+## Duomenų paslauga ## {##DuomenuPaslauga}
 
  <table class="data-table simple">
             <tr >
@@ -1616,7 +1616,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
     </tr>
   </table>
 
-## Kategorija, Teikėjo tipas, Statusas
+## Kategorija, Teikėjo tipas, Statusas ## {##Kategorija}
 
  <table class="data-table simple">
             <tr >
@@ -1939,7 +1939,7 @@ ir pateikties valdymo teisės.</td>
 </table>
 
 
-## Kategorijų schema
+## Kategorijų schema ## {##KategorijuSchema}
 
  <table class="data-table simple">
             <tr >
@@ -1981,7 +1981,7 @@ ir pateikties valdymo teisės.</td>
 </table>
 
 
-## Teisinis šaltinis
+## Teisinis šaltinis ## {##TeisinisSaltinis}
 
  <table class="data-table simple">
             <tr >
@@ -2060,7 +2060,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
     </tr>
 </table>
 
-## Taisyklė
+## Taisyklė ## {##Taisykle}
 
  <table class="data-table simple">
             <tr >
@@ -2148,7 +2148,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
   </table>
 
 
-## Viešoji institucija
+## Viešoji institucija ## {##ViesojiInstitucija}
 
           <table class="data-table simple">
             <tr >
@@ -2244,7 +2244,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
           </table>
 
 
-## Informacinės sistemos paslauga
+## Informacinės sistemos paslauga ## {##ISPaslauga}
 
  <table class="data-table simple">
             <tr >
@@ -2374,7 +2374,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
     </tr>
   </table>
 
-## Katalogo įrašas
+## Katalogo įrašas ## {##KatalogoIrasas}
 
  <table class="data-table simple">
             <tr >
@@ -2488,7 +2488,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
 </table>
 
 
-## Kontrolinė suma
+## Kontrolinė suma ## {##KontrolineSuma}
 
  <table class="data-table simple">
             <tr >
@@ -2570,7 +2570,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
 </table>
 
 
-## Dažnis
+## Dažnis ## {##Daznis}
 
  <table class="data-table simple">
             <tr >
@@ -2637,7 +2637,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
         </table>
 
 
-## Rūšis
+## Rūšis ## {##Rusis}
 
  <table class="data-table simple">
             <tr >
@@ -2655,7 +2655,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
         </table>
 
 
-## Lingvistinė sistema
+## Lingvistinė sistema ## {##LingvistineSistema}
 
  <table class="data-table simple">
             <tr >
@@ -2676,7 +2676,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
  
 
 
-## Vietovė
+## Vietovė ## {##Vietove}
 
  <table class="data-table simple">
             <tr >
@@ -2825,7 +2825,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
       </tr>
      </table>
 
-## Teisių deklaracija
+## Teisių deklaracija ## {##TeisiuDeklaracija}
 
  <table class="data-table simple">
             <tr >
@@ -2845,7 +2845,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
 
 
 
-## Duomenų tvarkytojo deklaracija
+## Duomenų tvarkytojo deklaracija ## {##DTDeklaracija}
 
  <table class="data-table simple">
             <tr >
@@ -2883,7 +2883,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
         </table>
 
 
-## Kontaktinė informacija
+## Kontaktinė informacija ## {##KontaktineInformacija}
 
  <table class="data-table simple">
             <tr >
@@ -2903,7 +2903,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
 
 
 
-## Kokybės anotacija
+## Kokybės anotacija ## {##KokybesAnotacija}
 
  <table class="data-table simple">
             <tr >
@@ -2924,7 +2924,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
 
 
 
-## Kokybės matavimas
+## Kokybės matavimas ## {##KokybesMatavimas}
 
  <table class="data-table simple">
             <tr >
@@ -2981,7 +2981,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
            
         </table>
 
-# Naudojami BReg-DCAT-AP Kontroliuojami žodynai
+# Naudojami BReg-DCAT-AP Kontroliuojami žodynai # {#BREGZodynai}
 
 <table>
   <tr>
@@ -3122,11 +3122,11 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
 
 </table>
 
-# Didelės vertės duomenų rinkinių metaduomenų standartas (HVD-DCAT-AP-LT)
+# Didelės vertės duomenų rinkinių metaduomenų standartas (HVD-DCAT-AP-LT) # {#HVD-DCAT-AP-LT}
 
 Didelės vertės duomenų rinkinių metaduomenų informacija pateikiama šiame [priede](https://ivpk.github.io/DCAT-AP-LT/hvd.html).
 
-# Padėka
+# Padėka # {#Padeka}
 
 Norime išreikšti padėką visiems dirbusiems, kuriant DCAT-AP-LT specifikaciją: Kęstutis Andrijauskas, Martynas Mockus, Mantas Zimnickas, Darius Amilevičius, Martynas Daugirdas, Gabrielė Stočkūnaitė, Alanas Lukjanovičius, Vladimiras Desiatnikovas
 
