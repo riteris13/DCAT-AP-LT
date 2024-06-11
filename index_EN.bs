@@ -1099,3 +1099,50 @@ Metadata information for high-value datasets is provided in this [appendix](http
 # Aknowledgements
 
 We would like to express our gratitude to everyone who worked on the development of the DCAT-AP-LT model: Kęstutis Andrijauskas, Martynas Mockus, Mantas Zimnickas, Darius Amilevičius, Martynas Daugirdas, Gabrielė Stočkūnaitė, Alanas Lukjanovičius, Vladimiras Desiatnikovas
+
+
+# Refferences
+
+ <dl class="bibliography"><dt id="bib-datacite">[DATACITE<!---0.115482%-->]</dt><dd>
+      <a href="http://www.datacite.org/"><cite>DataCite</cite></a>.  DataCite. URL: <a href="http://www.datacite.org/">http://www.datacite.org/</a><!---0.115482%-->
+    </dd><dt id="bib-deu">[DEU<!---0.115482%-->]</dt><dd>
+      <a href="https://data.europa.eu/"><cite>The official portal for European data</cite></a>.  European Commission. URL: <a href="https://data.europa.eu/">https://data.europa.eu</a><!---0.115482%-->
+    </dd><dt id="bib-doi">[DOI<!---0.115482%-->]</dt><dd>
+      <a href="http://www.doi.org/"><cite>Digital Object Identifier</cite></a>.  DOI Foundation. URL: <a href="http://www.doi.org/">http://www.doi.org/</a><!---0.115482%-->
+    </dd><dt id="bib-ezid">[EZID<!---0.115482%-->]</dt><dd>
+      <a href="https://ezid.cdlib.org/"><cite>EZID</cite></a>.  California Digital Library. URL: <a href="https://ezid.cdlib.org/">https://ezid.cdlib.org/</a><!---0.115482%-->
+    </dd><dt id="bib-odrl">[ODRL<!---0.115482%-->]</dt><dd>
+      <a href="https://www.w3.org/ns/odrl/2/"><cite>The Open Digital Rights Language Ontology Version 2.2</cite></a>.  W3C POE Working Group. URL: <a href="https://www.w3.org/ns/odrl/2/">https://www.w3.org/ns/odrl/2/</a><!---0.115482%-->
+    </dd><dt id="bib-psi">[PSI<!---0.115482%-->]</dt><dd>
+      <a href="https://eur-lex.europa.eu/eli/dir/2019/1024/oj"><cite>Directive on open data and the re-use of public sector information (recast)</cite></a>.  European Union. URL: <a href="https://eur-lex.europa.eu/eli/dir/2019/1024/oj">https://eur-lex.europa.eu/eli/dir/2019/1024/oj</a><!---0.115482%-->
+    </dd><dt id="bib-semic">[SEMIC<!---0.115482%-->]</dt><dd>
+      <a href="https://joinup.ec.europa.eu/"><cite>JoinUp welcomes Interoperable Europe</cite></a>.  European Commission. URL: <a href="https://joinup.ec.europa.eu/">https://joinup.ec.europa.eu/</a><!---0.115482%-->
+    </dd><dt id="bib-vocab-dcat-1">[vocab-dcat-1<!---0.115482%-->]</dt><dd>
+      <a href="https://www.w3.org/TR/vocab-dcat-1/"><cite>Data Catalog Vocabulary (DCAT)</cite></a>. Fadi Maali; John Erickson.  W3C. 4 February 2020. W3C Recommendation. URL: <a href="https://www.w3.org/TR/vocab-dcat-1/">https://www.w3.org/TR/vocab-dcat-1/</a><!---0.115482%-->
+    </dd><dt id="bib-vocab-dcat-2">[vocab-dcat-2<!---0.115482%-->]</dt><dd>
+      <a href="https://www.w3.org/TR/vocab-dcat-2/"><cite>Data Catalog Vocabulary (DCAT) - Version 2</cite></a>. Riccardo Albertoni; David Browning; Simon Cox; Alejandra Gonzalez Beltran; Andrea Perego; Peter Winstanley.  W3C. 4 February 2020. W3C Recommendation. URL: <a href="https://www.w3.org/TR/vocab-dcat-2/">https://www.w3.org/TR/vocab-dcat-2/</a><!---0.115482%-->
+    </dd><dt id="bib-vocab-dcat-3">[vocab-dcat-3<!---0.115482%-->]</dt><dd>
+      <a href="https://www.w3.org/TR/vocab-dcat-3/"><cite>Data Catalog Vocabulary (DCAT) - Version 3</cite></a>. Simon Cox; Andrea Perego; Alejandra Gonzalez Beltran; Peter Winstanley; Riccardo Albertoni; David Browning.  W3C. 18 January 2024. W3C Candidate Recommendation. URL: <a href="https://www.w3.org/TR/vocab-dcat-3/">https://www.w3.org/TR/vocab-dcat-3/</a><!---0.115482%-->
+    </dd><dt id="bib-w3id">[W3ID<!---0.115482%-->]</dt><dd>
+      <a href="https://w3id.org/"><cite>Permanent Identifiers for the Web</cite></a>.  W3C Permanent Identifier Community Group. URL: <a href="https://w3id.org/">https://w3id.org/</a><!---0.115482%-->
+    </dd><!---0.115482%--></dl>
+ <dl class="bibliography"><dt id="bib-dcat-ap-hvd">[DCAT-AP-HVD<!---0.115482%-->]</dt><dd>
+      <a href="https://semiceu.github.io/uri.semic.eu-generated/DCAT-AP/releases/2.2.0-hvd/"><cite>Usage Guidelines of DCAT-AP for High-Value Datasets</cite></a>.  European Commission. URL: <a href="https://semiceu.github.io/uri.semic.eu-generated/DCAT-AP/releases/2.2.0-hvd/">https://semiceu.github.io/uri.semic.eu-generated/DCAT-AP/releases/2.2.0-hvd/</a><!---0.115482%-->
+    </dd><dt id="bib-fair">[FAIR<!---0.115482%-->]</dt><dd>
+      <a href="https://www.openaire.eu/how-to-make-your-data-fair"><cite>How to make your data FAIR</cite></a>.  OpenAire. URL: <a href="https://www.openaire.eu/how-to-make-your-data-fair">https://www.openaire.eu/how-to-make-your-data-fair</a><!---0.115482%-->
+    </dd><dt id="bib-geodcat-ap">[geodcat-ap<!---0.115482%-->]</dt><dd>
+      <a href="https://semiceu.github.io/GeoDCAT-AP/releases/"><cite>GeoDCAT-AP: A geospatial extension for the DCAT application profile for data portals in Europe</cite></a>.  European Commission. 23 December 2020. URL: <a href="https://semiceu.github.io/GeoDCAT-AP/releases/">https://semiceu.github.io/GeoDCAT-AP/releases/</a><!---0.115482%-->
+    </dd><dt id="bib-hvd">[HVD<!---0.115482%-->]</dt><dd>
+      <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R0138"><cite>Implementing Regulation for High Value Datasets</cite></a>.  European Union. URL: <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R0138">https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R0138</a><!---0.115482%-->
+    </dd><dt id="bib-json-ld11">[json-ld11<!---0.115482%-->]</dt><dd>
+      <a href="https://www.w3.org/TR/json-ld11/"><cite>JSON-LD 1.1</cite></a>. Gregg Kellogg; Pierre-Antoine Champin; Dave Longley.  W3C. 16 July 2020. W3C Recommendation. URL: <a href="https://www.w3.org/TR/json-ld11/">https://www.w3.org/TR/json-ld11/</a><!---0.115482%-->
+    </dd><dt id="bib-prov-o">[prov-o<!---0.115482%-->]</dt><dd>
+      <a href="https://www.w3.org/TR/prov-o/"><cite>PROV-O: The PROV Ontology</cite></a>. Timothy Lebo; Satya Sahoo; Deborah McGuinness.  W3C. 30 April 2013. W3C Recommendation. URL: <a href="https://www.w3.org/TR/prov-o/">https://www.w3.org/TR/prov-o/</a><!---0.115482%-->
+    </dd><dt id="bib-rfc3986">[rfc3986<!---0.115482%-->]</dt><dd>
+      <a href="https://www.rfc-editor.org/rfc/rfc3986"><cite>Uniform Resource Identifier (URI): Generic Syntax</cite></a>. T. Berners-Lee; R. Fielding; L. Masinter.  IETF. January 2005. Internet Standard. URL: <a href="https://www.rfc-editor.org/rfc/rfc3986">https://www.rfc-editor.org/rfc/rfc3986</a><!---0.115482%-->
+    </dd><dt id="bib-rfc6497">[rfc6497<!---0.115482%-->]</dt><dd>
+      <a href="https://www.rfc-editor.org/rfc/rfc6497"><cite>BCP 47 Extension T - Transformed Content</cite></a>. M. Davis; A. Phillips; Y. Umaoka; C. Falk.  IETF. February 2012. Informational. URL: <a href="https://www.rfc-editor.org/rfc/rfc6497">https://www.rfc-editor.org/rfc/rfc6497</a><!---0.115482%-->
+    </dd><dt id="bib-shacl">[shacl<!---0.115482%-->]</dt><dd>
+      <a href="https://www.w3.org/TR/shacl/"><cite>Shapes Constraint Language (SHACL)</cite></a>. Holger Knublauch; Dimitris Kontokostas.  W3C. 20 July 2017. W3C Recommendation. URL: <a href="https://www.w3.org/TR/shacl/">https://www.w3.org/TR/shacl/</a><!---0.115482%-->
+    </dd><!---0.115482%--></dl>
+
