@@ -950,7 +950,7 @@ Kiekvienas duomenų rinkinys per katalogo įrašo sąryšį CatalogRecord, prisk
 Tokiu būdu aprašomi konkretūs duomenų rinkiniai, valdomi ir tvarkomi konkrečios informacinės sistemos apimtyje. 
 Konkretaus duomenų rinkinio (Dataset) registravimo pagrindas informacinės sistemos (Information system) apimtyje yra informacinės sistemos nuostatų patvirtinimas (VII valdymo ir tvarkymo metodikoje apibrėžta tvarka). 
 Kiekvienas duomenų rinkinys įprasmina tam tikrą valstybės informacinės sistemos ar registro nuostatuose įvardintiną informacinės struktūros dalį. 
-Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklos apimtyje suvokiama prasminga ir reikšminga koncepcija, apibūdinama reikšmingomis savybėmis/ atributais.
+Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veiklos apimtyje suvokiama prasminga ir reikšminga koncepcija, apibūdinama reikšmingomis savybėmis/ atributais.
 </td>
                 <td>[dcat:Dataset](http://www.w3.org/ns/dcat#Dataset)</td>
             </tr>
@@ -975,7 +975,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>[dct:description](http://purl.org/dc/terms/description)</td>
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..n</td>
-        <td>Koncepcinio detalumo lygmens aprašymas, laikantisinformacinės sistemoslygmenyje arinformacinės sistemosvaldymo srityje nustatytos terminologijos ontologijos sąvokų ar duomenų rinkinių taikytinų informacinio modelio reikalavimų.</td>
+        <td>Koncepcinio detalumo lygmens aprašymas, laikantis informacinės sistemos lygmenyje ar informacinės sistemos valdymo srityje nustatytos terminologijos ontologijos sąvokų ar duomenų rinkinių taikytinų informacinio modelio reikalavimų.</td>
         <td>Laisvu tekstu pateikiamas duomenų rinkinio aprašas. Galima pakartoti, jei aprašas yra keliomis kalbomis.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_description">E</a></td>
     </tr>
@@ -1361,7 +1361,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>[dcat:Dataset](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset)</td>
         <td>0..n</td>
         <td>-</td>
-        <td>Ši ypatybė nurodo susijusį duomenų rinkinį, kuris egiztuojantį duomenų rinkinį.</td>
+        <td>Ši ypatybė nurodo susijusį duomenų rinkinį, kuris egzistuojantį duomenų rinkinį.</td>
          <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_replaces">E</a></td>
 	</tr>
 	<!-- trūko 'isRequiredBy' -->
@@ -1797,7 +1797,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
 		<td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
 		<td>0..1</td>
 		<td>-</td>
-		<td>Šioje savybėja nurodoma pateikties naujausio pakeitimo / atnaujinimo data</td>
+		<td>Šioje savybėje nurodoma pateikties naujausio pakeitimo / atnaujinimo data</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_update_date">E</a></td>
 	</tr>
 	<tr>
@@ -1950,7 +1950,7 @@ ir pateikties valdymo teisės.</td>
             </tr>
             <tr class="data-table__header">
                 <td>Kategorijų schema</td>
-                <td>Žinių ir informacijos modelio sistema / modelis pagal kurią(-į) išreiškiama duomenų rnikinio kataloge / informacinėje sistemoje kategorija ar tema. </td>
+                <td>Žinių ir informacijos modelio sistema / modelis pagal kurią(-į) išreiškiama duomenų rinkinio kataloge / informacinėje sistemoje kategorija ar tema. </td>
                 <td> - </td>
                 <td>[skos:ConceptScheme](http://www.w3.org/2004/02/skos/core#ConceptScheme)</td>
             </tr>
@@ -2875,7 +2875,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
             </tr>
             <tr class="data-table__header">
                 <td>Standartas</td>
-                <td>Standartas ar kitaspecifikacija, kurią atitinka duomenų rinkinys ar pateiktis</td>
+                <td>Standartas ar kita specifikacija, kurią atitinka duomenų rinkinys ar pateiktis</td>
                 <td></td>
                 <td>[dct:Standard](http://purl.org/dc/terms/Standard)</td>
             </tr>
