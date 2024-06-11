@@ -1455,6 +1455,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaipinformacinės sistemosveiklo
         <td>1..1</td>
         <td>-</td>
         <td>Šioje savybėje nurodomas duomenų paslaugos identifikatorius.</td>
+	<td>E</td>
     </tr>
 	<tr>
         <td>Prieigos taško aprašas</td>
