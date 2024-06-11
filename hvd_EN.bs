@@ -24,9 +24,8 @@ The Definition of High Value Datasets arose from the need to identify the most i
  <li>data of companies and their owners</li>
  <li>mobility data</li>
 </ul>
-This data has the greatest potential to influence the most important areas identified by the European Commission. The opening and reuse of such data creates significant added value, but at the same time requires additional rules governing their availability, interoperability and use. Considering the fact that the DCAT-AP extension cannot fully satisfy the quality, reliability and openness requirements of high-value data sets, the development of the DCAT-AP HVD extension was started, based on the guidelines provided in the High-value Data Set Implementation Regulation. Accordingly, this extension is also adapted to DCAT-AP-LT, changing the LegalResource resource to an attribute under ELI:LegalResource with the name id_local
-.
-In Lithuania, High Value Datasets are described 'as-is' in the DCAT-AP HVD 2.2.0 specification, with minor adaptations regarding the citation of the legal source, as the ELI has not yet been adopted in Lithuania.
+This data has the greatest potential to influence the most important areas identified by the European Commission. The opening and reuse of such data creates significant added value, but at the same time requires additional rules governing their availability, interoperability and use. Considering the fact that the DCAT-AP extension cannot fully satisfy the quality, reliability and openness requirements of high-value data sets, the development of the DCAT-AP HVD extension was started, based on the guidelines provided in the High-value Data Set Implementation Regulation. 
+<br> Accordingly, this extension is also adapted to DCAT-AP-LT, changing the LegalResource resource to an attribute under ELI:LegalResource with the name id_local. In Lithuania, High Value Datasets are described 'as-is' in the DCAT-AP HVD 2.2.0 specification, with minor adaptations regarding the citation of the legal source, as the ELI has not yet been adopted in Lithuania.
 In this annex, the LegalResource resource is an attribute under ELI with the name [id_local](=http://data.europa.eu/eli/ontology#id_local). The local identifier is used as the URI of the legal resource published in the [Register of Legal Acts](https://www.e-tar.lt/portal/).
 
 
