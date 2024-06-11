@@ -824,7 +824,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
                 <td>[dcatap:applicableLegislation](https://semiceu.github.io/uri.semic.eu-generated/r5r/release/3.0.0/#applicableLegislation)</td>
                 <td>[eli:LegalResource](http://data.europa.eu/eli/ontology#LegalResource)</td>
                 <td>0..n</td>
-                <td>-</td>
+                <td>Lietuvoje duomenų rinkiniai aprašomi su nedideliais teisinio šaltinio citavimo pakeitimais, nes ELI Lietuvoje dar nepriimtas. Šiame priede LegalResource šaltinis yra ELI atributas pavadinimu [id_local](=http://data.europa.eu/eli/ontology#id_local). Vietinis identifikatorius naudojamas kaip [Teisės aktų registre](https://www.e-tar.lt/portal/) paskelbto teisinio šaltinio URI.</td>
                 <td>Teisės aktas, kuris įpareigoja sukurti ir valdyti katalogą.</td>
 		<td>P</td>
             </tr>
@@ -1309,7 +1309,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
         <td>[dcatap:applicableLegislation](https://semiceu.github.io/uri.semic.eu-generated/r5r/release/3.0.0/#applicableLegislation)</td>
         <td>[eli:LegalResource](http://data.europa.eu/eli/ontology#LegalResource)</td>
         <td>0..n</td>
-        <td>-</td>
+        <td>Lietuvoje duomenų rinkiniai aprašomi su nedideliais teisinio šaltinio citavimo pakeitimais, nes ELI Lietuvoje dar nepriimtas. Šiame priede LegalResource šaltinis yra ELI atributas pavadinimu [id_local](=http://data.europa.eu/eli/ontology#id_local). Vietinis identifikatorius naudojamas kaip [Teisės aktų registre](https://www.e-tar.lt/portal/) paskelbto teisinio šaltinio URI.</td>
         <td>Teisės aktas, kurio pagrindu yra valdomas ir tvarkomas duomenų rinkinys.</td>
         <td>P</td>
     </tr>
@@ -1995,7 +1995,7 @@ ir pateikties valdymo teisės.</td>
                 <td>Teisiniai šaltiniai - tai teisės aktai, politika ar politikos kryptys, kurie yra taisyklės, kuriomis apibrėžiamas bazinių registrų ir kitų informacinių sistemų paslaugos. 
 Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal ELI ontologiją.
 </td>
-                <td> - </td>
+                <td>Lietuvoje duomenų rinkiniai aprašomi su nedideliais teisinio šaltinio citavimo pakeitimais, nes ELI Lietuvoje dar nepriimtas. Šiame priede LegalResource šaltinis yra ELI atributas pavadinimu [id_local](=http://data.europa.eu/eli/ontology#id_local). Vietinis identifikatorius naudojamas kaip [Teisės aktų registre](https://www.e-tar.lt/portal/) paskelbto teisinio šaltinio URI.</td>
                 <td>[eli:LegalResource](http://data.europa.eu/eli/ontology#LegalResource)</td>
             </tr>
            
@@ -2018,7 +2018,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>[dct:type](http://purl.org/dc/terms/type)</td>
         <td>[eli:ResourceType](http://data.europa.eu/eli/ontology#ResourceType)</td>
         <td>1..n</td>
-        <td>-</td>
+        <td>Lietuvoje duomenų rinkiniai aprašomi su nedideliais teisinio šaltinio citavimo pakeitimais, nes ELI Lietuvoje dar nepriimtas. Šiame priede LegalResource šaltinis yra ELI atributas pavadinimu [id_local](=http://data.europa.eu/eli/ontology#id_local). Vietinis identifikatorius naudojamas kaip [Teisės aktų registre](https://www.e-tar.lt/portal/) paskelbto teisinio šaltinio URI.</td>
         <td>Ši savybė nurodo teisinio ištekliaus tipą (pvz., "Direktyva", „Règlement grand ducal“, „įstatymas“, „Règlement ministériel“, „projektas pasiūlymas“, „Parlamento aktas“ ir t. t.). Valstybės narės raginamos sudaryti savo teisės aktų sąrašą atitinkamoje sąvokų schemoje.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_type">E</a></td>  
 </tr>
@@ -2054,7 +2054,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>[dcterms:relation](http://purl.org/dc/terms/relation)</td>
         <td>[eli:LegalResource](http://data.europa.eu/eli/ontology#LegalResource)</td>
         <td>0..n</td>
-        <td>-</td>
+        <td>Lietuvoje duomenų rinkiniai aprašomi su nedideliais teisinio šaltinio citavimo pakeitimais, nes ELI Lietuvoje dar nepriimtas. Šiame priede LegalResource šaltinis yra ELI atributas pavadinimu [id_local](=http://data.europa.eu/eli/ontology#id_local). Vietinis identifikatorius naudojamas kaip [Teisės aktų registre](https://www.e-tar.lt/portal/) paskelbto teisinio šaltinio URI.</td>
         <td>Ši savybė reiškia kitą teisinių išteklių klasės egzempliorių, susijusį su konkrečiu aprašomu teisiniu ištekliu.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_relation">E</a></td>
     </tr>
@@ -2122,7 +2122,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>[cpsv:implements](http://purl.org/vocab/cpsv#implements)</td>
         <td>[eli:LegalResource](http://data.europa.eu/eli/ontology#LegalResource)</td>
         <td>0..n</td>
-        <td>-</td>
+        <td>Lietuvoje duomenų rinkiniai aprašomi su nedideliais teisinio šaltinio citavimo pakeitimais, nes ELI Lietuvoje dar nepriimtas. Šiame priede LegalResource šaltinis yra ELI atributas pavadinimu [id_local](=http://data.europa.eu/eli/ontology#id_local). Vietinis identifikatorius naudojamas kaip [Teisės aktų registre](https://www.e-tar.lt/portal/) paskelbto teisinio šaltinio URI.</td>
         <td>Ši savybė susieja taisyklę su atitinkamais teisės aktais ar politikos dokumentais, pvz. teisinį šaltinį, kuriame apibrėžtos taisyklės.</td>
         <td>P</td>
     </tr>
