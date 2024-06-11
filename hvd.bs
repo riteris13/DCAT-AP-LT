@@ -13,7 +13,7 @@ Translation: en en/index.html
 Boilerplate: copyright no, spec-metadata no, abstract no, conformance no
 </pre>
 
-# Įžanga
+# Įžanga # {#Izanga}
 
 Didelės vertės duomenų rinkinių apibrėžimas atsirado iš poreikio identifikuoti svarbiausius duomenis pavyzdžiui:
 <ul>
@@ -26,7 +26,7 @@ Didelės vertės duomenų rinkinių apibrėžimas atsirado iš poreikio identifi
 </ul>
 Šie duomenys turi didžiausią potencialą daryti įtaką svarbiausioms Europos Komisijos įvardintoms sritims. Tokių duomenų atvėrimas ir pakartotinis panaudojimas sukuria didelę pridėtinę vertę, bet tuo pačiu reikalauja papildomų taisyklių, reglamentuojančių jų prieinamumą, sąveikumą ir panaudojimą. Atsižvelgiant į tai, kad DCAT-AP plėtinys negali pilnai patenkinti didelės vertės duomenų rinkinių kokybės, patikimumo bei atvirumo reikalavimų, buvo pradėtas vystyti DCAT-AP HVD plėtinys, remiantis gairėmis, kurios pateiktos Didelės vertės duomenų rinkinio įgyvendinimo reglamente . Atitinkamai šis plėtinys yra adaptuojamas ir DCAT-AP-LT, pakeičiant LegalResource išteklių į atributą pagal ELI:LegalResource pavadinimu id_local.
 
-# Bendrosios didelės vertės duomenų rinkinių savybės
+# Bendrosios didelės vertės duomenų rinkinių savybės # {#BendrosiosSavybes}
 
 Didelės vertės duomenų rinkiniai pasižymi specifiniais techniniais ir teisiniais reikalavimais. Šiems duomenų rinkiniams taikomi šie bendri reikalavimai:
 <ul>
@@ -42,9 +42,9 @@ Didelės vertės duomenų rinkiniai pasižymi specifiniais techniniais ir teisin
 Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikalavimus, DCAT-AP-LT modelyje atsiranda poreikis taikyti papildomas, modifikuotas ar sugriežtintas metaduomenų modelio taisykles didelės vertės duomenų rinkiniams. Šios taisyklės apima DCAT-AP klases papildančias savybes ar griežtesnį esamų savybių privalomumo taikymą ir yra apibrėžtos <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/">DCAT-AP-HVD</a> priede. <br> Lietuvoje didelės vertės duomenų rinkiniai aprašomi „tokie, kokie yra“ DCAT-AP HVD 2.2.0 specifikacijoje, su nedideliais teisinio šaltinio citavimo pakeitimais, nes ELI Lietuvoje dar nepriimtas.
 Šiame priede LegalResource šaltinis yra ELI atributas pavadinimu [id_local](=http://data.europa.eu/eli/ontology#id_local). Vietinis identifikatorius naudojamas kaip [Teisės aktų registre](https://www.e-tar.lt/portal/) paskelbto teisinio šaltinio URI.
 
-# Didelės vertės duomenų rinkiniams naudojamos (DCAT-AP-HVD) klasės ir savybės
+# Didelės vertės duomenų rinkiniams naudojamos (DCAT-AP-HVD) klasės ir savybės # {#HVDKlasesIrSavybes}
 
-## Katalogas
+## Katalogas  ## {##Katalogas}
 
 <dl>
     <dt>Apibrėžimas</dt>
@@ -100,7 +100,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
 </dl>
 
 
-## Katalogo įrašas
+## Katalogo įrašas ## {##KatalogoIrasas}
 
 <dl>
     <dt>Apibrėžimas</dt>
@@ -137,7 +137,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
   </dd>
 </dl>
 
-## Katalogo resursas
+## Katalogo išteklius ## {##KatalogoIsteklius}
 <dl>
     <dt>Apibrėžimas</dt>
     <dd>Šaltinis, kurį paskelbė arba kuravo vienas agentas.</dd>
@@ -151,7 +151,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
   </dd>
 </dl>
 
-## Duomenų paslauga
+## Duomenų paslauga ## {##DuomenuPaslauga}
 
 <dl>
     <dt>Apibrėžimas</dt>
@@ -263,7 +263,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
   </dd>
 </dl>
 
-## Duomenų rinkinys
+## Duomenų rinkinys ## {##DuomenuRinkinys}
 
 <dl>
     <dt>Apibrėžimas</dt>
@@ -424,7 +424,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
   </dd>
 </dl>
 
-## Rūšis
+## Rūšis ## {##Rusis}
 
 <dl>
     <dt>Apibrėžimas</dt>
@@ -484,7 +484,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
 </dl>
 
 
-# Padėka
+# Padėka # {#Padeka}
 
 Norime išreikšti padėką visiems dirbusiems, kuriant DCAT-AP-LT specifikaciją: Kęstutis Andrijauskas, Martynas Mockus, Mantas Zimnickas, Darius Amilevičius, Martynas Daugirdas, Gabrielė Stočkūnaitė, Alanas Lukjanovičius, Vladimiras Desiatnikovas
 
