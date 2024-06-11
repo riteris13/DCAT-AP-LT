@@ -1150,4 +1150,8 @@ We would like to express our gratitude to everyone who worked on the development
     </dd><dt id="bib-shacl">[shacl<!---0.115482%-->]</dt><dd>
       <a href="https://www.w3.org/TR/shacl/"><cite>Shapes Constraint Language (SHACL)</cite></a>. Holger Knublauch; Dimitris Kontokostas.  W3C. 20 July 2017. W3C Recommendation. URL: <a href="https://www.w3.org/TR/shacl/">https://www.w3.org/TR/shacl/</a><!---0.115482%-->
     </dd><!---0.115482%--></dl>
+<dl class="bibliography"><dt id="bib-legal">[REGISTER OF LEGAL ACTS IN LITHUANIA<!---0.115482%-->]
+<dd>
+      <a href="https://www.e-tar.lt/portal/"><cite>LIthuanian register of legal acts</cite></a>
+    </dd>
 
