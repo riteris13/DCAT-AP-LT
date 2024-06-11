@@ -190,8 +190,9 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <td>[Legal Resource](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#LegalResource)</td>
       <td>1..*</td>
       <td>Teisės aktai, kurie įpareigoja kurti ar valdyti duomenų paslaugą.</td>
-      <td>HVD atveju reikšmė PRIVALO apimti ELI http://data.europa.eu/eli/reg_impl/2023/138/oj. Kadangi į išteklių gali būti taikomi keli teisės aktai, maksimalus kardinalumas nėra ribojamas.</td>
-      <td><a href="http://data.europa.eu/eli/ontology#LegalResource">A</a></td>
+      <td>HVD atveju reikšmė PRIVALO apimti ELI http://data.europa.eu/eli/reg_impl/2023/138/oj. Kadangi į išteklių gali būti taikomi keli teisės aktai, maksimalus kardinalumas nėra ribojamas. Lietuvoje didelės vertės duomenų rinkiniai aprašomi „tokie, kokie yra“ DCAT-AP HVD 2.2.0 specifikacijoje, su nedideliais teisinio šaltinio citavimo pakeitimais, nes ELI Lietuvoje dar nepriimtas.
+Šiame priede LegalResource šaltinis yra ELI atributas pavadinimu [id_local](=http://data.europa.eu/eli/ontology#id_local). Vietinis identifikatorius naudojamas kaip [Teisės aktų registre](https://www.e-tar.lt/portal/) paskelbto teisinio šaltinio URI.</td>
+      <td><a href="http://data.europa.eu/eli/ontology#LegalResource">E</a></td>
     </tr>
     <tr>
       <td>[kontaktas](http://www.w3.org/ns/dcat#contactPoint)</td>
@@ -297,8 +298,9 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <td>[Legal Resource](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#LegalResource)</td>
       <td>1..*</td>
       <td>Teisės aktai, kurie įpareigoja kurti ar valdyti duomenų rinkinį.</td>
-      <td>HVD atveju reikšmė privalo apimti ELI http://data.europa.eu/eli/reg_impl/2023/138/oj. Kadangi į išteklių gali būti taikomi keli teisės aktai, maksimalus kardinalumas nėra ribojamas.</td>
-      <td><a href="http://data.europa.eu/eli/ontology#LegalResource">A</a></td>
+      <td>HVD atveju reikšmė privalo apimti ELI http://data.europa.eu/eli/reg_impl/2023/138/oj. Kadangi į išteklių gali būti taikomi keli teisės aktai, maksimalus kardinalumas nėra ribojamas. Lietuvoje didelės vertės duomenų rinkiniai aprašomi „tokie, kokie yra“ DCAT-AP HVD 2.2.0 specifikacijoje, su nedideliais teisinio šaltinio citavimo pakeitimais, nes ELI Lietuvoje dar nepriimtas.
+Šiame priede LegalResource šaltinis yra ELI atributas pavadinimu [id_local](=http://data.europa.eu/eli/ontology#id_local). Vietinis identifikatorius naudojamas kaip [Teisės aktų registre](https://www.e-tar.lt/portal/) paskelbto teisinio šaltinio URI.</td>
+      <td><a href="http://data.europa.eu/eli/ontology#LegalResource">E</a></td>
     </tr>
     <tr>
       <td>[atitinka](http://purl.org/dc/terms/conformsTo)</td>
@@ -389,8 +391,9 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
       <td>[Legal Resource](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#LegalResource)</td>
       <td>1..*</td>
       <td>Teisės aktai, kurie įpareigoja kurti ar valdyti platinimą.</td>
-      <td>HVD atveju reikšmė privalo apimti ELI http://data.europa.eu/eli/reg_impl/2023/138/oj. Kadangi į išteklių gali būti taikomi keli teisės aktai, maksimalus kardinalumas nėra ribojamas.</td>
-      <td>P</td>
+      <td>HVD atveju reikšmė privalo apimti ELI http://data.europa.eu/eli/reg_impl/2023/138/oj. Kadangi į išteklių gali būti taikomi keli teisės aktai, maksimalus kardinalumas nėra ribojamas. Lietuvoje didelės vertės duomenų rinkiniai aprašomi „tokie, kokie yra“ DCAT-AP HVD 2.2.0 specifikacijoje, su nedideliais teisinio šaltinio citavimo pakeitimais, nes ELI Lietuvoje dar nepriimtas.
+Šiame priede LegalResource šaltinis yra ELI atributas pavadinimu [id_local](=http://data.europa.eu/eli/ontology#id_local). Vietinis identifikatorius naudojamas kaip [Teisės aktų registre](https://www.e-tar.lt/portal/) paskelbto teisinio šaltinio URI.</td>
+      <td>E</td>
     </tr>
     <tr>
       <td>[licencija](http://purl.org/dc/terms/license)</td>
