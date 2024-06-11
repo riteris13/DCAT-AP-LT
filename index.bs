@@ -826,7 +826,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
                 <td>0..n</td>
                 <td>Lietuvoje duomenų rinkiniai aprašomi su nedideliais teisinio šaltinio citavimo pakeitimais, nes ELI Lietuvoje dar nepriimtas. Šiame priede LegalResource šaltinis yra ELI atributas pavadinimu [id_local](=http://data.europa.eu/eli/ontology#id_local). Vietinis identifikatorius naudojamas kaip [Teisės aktų registre](https://www.e-tar.lt/portal/) paskelbto teisinio šaltinio URI.</td>
                 <td>Teisės aktas, kuris įpareigoja sukurti ir valdyti katalogą.</td>
-		<td>P</td>
+		<td>E</td>
             </tr>
         </table>
    </dd>
@@ -1311,7 +1311,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
         <td>0..n</td>
         <td>Lietuvoje duomenų rinkiniai aprašomi su nedideliais teisinio šaltinio citavimo pakeitimais, nes ELI Lietuvoje dar nepriimtas. Šiame priede LegalResource šaltinis yra ELI atributas pavadinimu [id_local](=http://data.europa.eu/eli/ontology#id_local). Vietinis identifikatorius naudojamas kaip [Teisės aktų registre](https://www.e-tar.lt/portal/) paskelbto teisinio šaltinio URI.</td>
         <td>Teisės aktas, kurio pagrindu yra valdomas ir tvarkomas duomenų rinkinys.</td>
-        <td>P</td>
+        <td>E</td>
     </tr>
 
 	<!-- trūko 'follows' -->
@@ -1737,7 +1737,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
     </tr>
 	<!-- trūko 'downloadURL' -->
 	<tr>
-        <td>parsisiuntimo URL</td>
+        <td>Parsisiuntimo URL</td>
         <td>[dcat:downloadURL](http://www.w3.org/ns/dcat#downloa)</td>
         <td>[rdfs:Resource](http://www.w3.org/2000/01/rdf-schema#Resource)</td>
         <td>0..n</td>
@@ -1746,7 +1746,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_download_url">E</a></td>
     </tr>
 	<tr>
-    <td>medijos tipas</td>
+    <td>Medijos tipas</td>
 		<td>[dcat:mediaType](http://purl.org/dc/terms/mediaType)</td>
 		<td>[dct:MediaType](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Mediatype)</td>
 		<td>0..1</td>
@@ -1756,7 +1756,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
 	</tr>
 	
 	<tr>
-		<td>kontrolinė suma</td>
+		<td>Kontrolinė suma</td>
 		<td>[spdx:checksum](http://spdx.org/rdf/terms#checksum)</td>
 		<td>[spdx:Checksum](http://spdx.org/rdf/terms#Checksum)</td>
 		<td>0..1</td>
@@ -1765,7 +1765,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_checksum">E</a></td>
 	</tr>
 	<tr>
-		<td>suspaudimo formatas</td>
+		<td>Suspaudimo formatas</td>
 		<td>[dcat:compressFormat](http://www.w3.org/ns/dcat#compressFormat)</td>
 		<td>[dct:MediaType](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Mediatype)</td>
 		<td>0..1</td>
@@ -1774,7 +1774,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_compression_format">E</a></td>
 	</tr>
 	<tr>
-		<td>turi politiką</td>
+		<td>Turi politiką</td>
 		<td>[odrl:hasPolicy](http://www.w3.org/ns/odrl/2/hasPolicy)</td>
 		<td>[odrl:Policy](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Policy)</td>
 		<td>0..1</td>
@@ -1783,7 +1783,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_has_policy">E</a></td>
 	</tr>
 	<tr>
-		<td>išleista</td>
+		<td>Išleista</td>
 		<td>[dct:issued](http://purl.org/dc/terms/issued)</td>
 		<td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
 		<td>0..1</td>
@@ -1792,7 +1792,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_release_date">E</a></td>
 	</tr>
 	<tr>
-		<td>atnaujinimo / pakeitimo data</td>
+		<td>Atnaujinimo / pakeitimo data</td>
 		<td>[dct:modified](http://purl.org/dc/terms/modified)</td>
 		<td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
 		<td>0..1</td>
@@ -1801,7 +1801,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_update_date">E</a></td>
 	</tr>
 	<tr>
-		<td>kalba</td>
+		<td>Kalba</td>
 		<td>[dct:language](http://purl.org/dc/terms/language)</td>
 		<td>[dct:LinguisticSystem](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Linguisticsystem)</td>
 		<td>0..1</td>
@@ -1810,7 +1810,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_language">E</a></td>
 	</tr>
 	<tr>
-		<td>susijusi schema</td>
+		<td>Susijusi schema</td>
 		<td>[dct:conformsTo](http://purl.org/dc/terms/conformsTo)</td>
 		<td>[dct:Standard](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Standard)</td>
 		<td>0..n</td>
@@ -1819,7 +1819,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_conforms_to">E</a></td>
 	</tr>
 	<tr>
-		<td>(failų) pakavimo formatas</td>
+		<td>(Failų) Pakavimo formatas</td>
 		<td>[dcat:packageFormat](http://www.w3.org/ns/dcat#packageFormat)</td>
 		<td>[dct:MediaType](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Mediatype)</td>
 		<td>0..1</td>
@@ -1831,7 +1831,7 @@ apibrėžtas oficialiame IANA tvarkomame žiniasklaidos tipų registre.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_packaging_format">E</a></td>
 	</tr>
 	<tr>
-		<td>puslapis (dokumentacija)</td>
+		<td>Puslapis (dokumentacija)</td>
 		<td>[foaf:page](http://xmlns.com/foaf/0.1/page)</td>
 		<td>[foaf:Document](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Document)</td>
 		<td>-0..n</td>
@@ -1840,7 +1840,7 @@ apibrėžtas oficialiame IANA tvarkomame žiniasklaidos tipų registre.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_homepage">E</a></td>
 	</tr>
 	<tr>
-		<td>teisės</td>
+		<td>Teisės</td>
 		<td>[dct:rights](http://purl.org/dc/terms/rights)</td>
 		<td>[dct:RightsStatement](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Rightsstatement)</td>
 		<td>0..1</td>
@@ -1850,7 +1850,7 @@ ir pateikties valdymo teisės.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_rights">E</a></td>
 	</tr>
 	<tr>
-		<td>erdvinė skiriamoji geba (metrais)</td>
+		<td>Erdvinė skiriamoji geba (metrais)</td>
 		<td>[dcat:spatialResolutionInMeters](http://www.w3.org/ns/dcat#spatialResolutionInMeters)</td>
 		<td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
 		<td>0..n</td>
@@ -1859,7 +1859,7 @@ ir pateikties valdymo teisės.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_spatial_resolution">E</a></td>
 	</tr>
 	<tr>
-		<td>statusas</td>
+		<td>Statusas</td>
 		<td>[adms:status](http://www.w3.org/ns/adms#status)</td>
 		<td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
 		<td>0..1</td>
@@ -1868,7 +1868,7 @@ ir pateikties valdymo teisės.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_status">E</a></td>
 	</tr>
 	<tr>
-		<td>pavadinimas</td>
+		<td>Pavadinimas</td>
 		<td>[dct:title](http://purl.org/dc/terms/title)</td>
 		<td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
 		<td>0..n</td>
@@ -1878,7 +1878,7 @@ ir pateikties valdymo teisės.</td>
 </td>
 	</tr>
 	<tr>
-		<td>laiko skiriamoji geba</td>
+		<td>Laiko skiriamoji geba</td>
 		<td>[dcat:temporalResolution](http://www.w3.org/ns/dcat#temporalResolution)</td>
 		<td>[xsd:duration](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
 		<td>0..n</td>
@@ -2124,7 +2124,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>0..n</td>
         <td>Lietuvoje duomenų rinkiniai aprašomi su nedideliais teisinio šaltinio citavimo pakeitimais, nes ELI Lietuvoje dar nepriimtas. Šiame priede LegalResource šaltinis yra ELI atributas pavadinimu [id_local](=http://data.europa.eu/eli/ontology#id_local). Vietinis identifikatorius naudojamas kaip [Teisės aktų registre](https://www.e-tar.lt/portal/) paskelbto teisinio šaltinio URI.</td>
         <td>Ši savybė susieja taisyklę su atitinkamais teisės aktais ar politikos dokumentais, pvz. teisinį šaltinį, kuriame apibrėžtos taisyklės.</td>
-        <td>P</td>
+        <td>E</td>
     </tr>
     <tr>
         <td>Kalba</td>
