@@ -975,7 +975,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
         <td>[dct:description](http://purl.org/dc/terms/description)</td>
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..n</td>
-        <td>Koncepcinio detalumo lygmens aprašymas, laikantis informacinės sistemos lygmenyje ar informacinės sistemos valdymo srityje nustatytos terminologijos ontologijos sąvokų ar duomenų rinkinių taikytinų informacinio modelio reikalavimų.</td>
+        <td>Koncepcinio detalumo lygmens aprašymas, laikantis informacinės sistemos lygmenyje ar informacinės sistemos valdymo srityje nustatytų vardų erdvių, ontologijos sąvokų, bedrųjų žodynų ar duomenų rinkinių taikytinų informacinio modelio reikalavimų.</td>
         <td>Laisvu tekstu pateikiamas duomenų rinkinio aprašas. Galima pakartoti, jei aprašas yra keliomis kalbomis.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_description">E</a></td>
     </tr>
