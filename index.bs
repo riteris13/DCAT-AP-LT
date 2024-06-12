@@ -105,7 +105,7 @@ Boilerplate: copyright no, spec-metadata no, abstract no, conformance no
 		<code>DSA</code>
 	</td>
         <td>
-		<code>[DSA](#bib-dsa) - tai duomenų struktūros aprašo specifikacija, taikoma aprašyti vieningai Lietuvoje valstybės informacinius išteklius sudarančius duomenis.</code>
+		<code>DSA - tai duomenų struktūros aprašo specifikacija, taikoma aprašyti vieningai Lietuvoje valstybės informacinius išteklius sudarančius duomenis.</code>
 	</td>
     </tr>
     
