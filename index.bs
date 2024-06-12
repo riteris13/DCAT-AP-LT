@@ -102,6 +102,15 @@ Boilerplate: copyright no, spec-metadata no, abstract no, conformance no
     </tr>
     <tr>
         <td>
+		<code>DSA</code>
+	</td>
+        <td>
+		<code>DSA - tai duomenų struktūros aprašo specifikacija, taikoma aprašyti vieningai Lietuvoje valstybės informacinius išteklius sudarančius duomenis.</code>
+	</td>
+    </tr>
+    
+    <tr>
+        <td>
 		<code>Informacinė sistema</code>
 	</td>
         <td>
