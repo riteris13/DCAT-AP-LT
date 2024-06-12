@@ -3171,12 +3171,10 @@ Norime išreikšti padėką visiems dirbusiems, kuriant DCAT-AP-LT specifikacij�
       <a href="https://www.rfc-editor.org/rfc/rfc6497"><cite>BCP 47 Extension T - Transformed Content</cite></a>. M. Davis; A. Phillips; Y. Umaoka; C. Falk.  IETF. February 2012. Informational. URL: <a href="https://www.rfc-editor.org/rfc/rfc6497">https://www.rfc-editor.org/rfc/rfc6497</a><!---0.115482%-->
     </dd><dt id="bib-shacl">[shacl<!---0.115482%-->]</dt><dd>
       <a href="https://www.w3.org/TR/shacl/"><cite>Shapes Constraint Language (SHACL)</cite></a>. Holger Knublauch; Dimitris Kontokostas.  W3C. 20 July 2017. W3C Recommendation. URL: <a href="https://www.w3.org/TR/shacl/">https://www.w3.org/TR/shacl/</a><!---0.115482%-->
-    </dd><!---0.115482%--></dl>
-<dl class="bibliography"><dt id="bib-legal">[TEISĖS AKTŲ REGISTRAS<!---0.115482%-->]
+    </dd><dt id="bib-legal">[TEISĖS AKTŲ REGISTRAS<!---0.115482%-->]
 <dd>
       <a href="https://www.e-tar.lt/portal/"><cite>Teisės aktų registras</cite></a>
-    </dd>
-<dl class="bibliography"><dt id="bib-udts">[UDTS<!---0.115482%-->]
+    </dd><dt id="bib-udts">[UDTS<!---0.115482%-->]
 <dd>
       <a href="https://ivpk.github.io/uapi/"><cite>Universalios duomenų teikimo sąsajos specifikacija</cite></a>
-    </dd>
+    </dd></dl>
