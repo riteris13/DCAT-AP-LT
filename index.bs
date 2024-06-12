@@ -451,9 +451,9 @@ Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas
 Pagrindinių modelių esybių, kurios sudaro taikymo profilio branduolį, savybės ir su jomis susiję apribojimai, taikomi šio profilio kontekste, pateikiami lentelės pavidalu. Kiekviena eilutė atitinka vieną ypatybę. Siekiant sutaupyti vietos, naudojami šie sutrumpinimai, kurie trumpai nurodo skirtumą nuo DCAT:
  
 <ul>
-<li>A: pakartotinai naudojamas kaip apibrėžta ir išreikšta DCAT / BREG </li>
-<li>E: pakartotinai naudojamas su papildomomis naudojimo pastabomis arba papildomais apribojimais, palyginti su DCAT / BREG</li>
-<li> P: DCAT-AP profilio plėtinys, kuriame DCAT / BREG anksčiau nebuvo jokių reikalavimų </li>
+<li>A: pakartotinai naudojamas kaip apibrėžta ir išreikšta DCAT</li>
+<li>E: pakartotinai naudojamas su papildomomis naudojimo pastabomis arba papildomais apribojimais, palyginti su DCAT</li>
+<li> P: DCAT-AP profilio plėtinys, kuriame DCAT anksčiau nebuvo jokių reikalavimų </li>
 </ul>
 
 
