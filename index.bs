@@ -260,7 +260,7 @@ Boilerplate: copyright no, spec-metadata no, abstract no, conformance no
 <dl>
     <dd>DCAT-AP-LT yra metaduomenų specifikacija, skirta Lietuvos duomenų rinkiniams ir paslaugoms aprašyti. DCAT-AP-LT yra Europos metaduomenų specifikacijos DCAT-AP plėtinys, parengtas vadovaujantis DCAT-AP specifikacijos formavimui nustatytomis taisyklėmis ir rekomendacijomis, įtraukiant ontologijas ir tezaurus kaip pagalbines priemones aprašant duomenis.
 
-DCAT-AP-LT apima BregDCAT-AP (https://github.com/SEMICeu/BregDCAT-AP/tree/main/releases/2.1.0) naudojamas klases ir papildo jas Informacinės Sistemos klase išplečiančia dcat:Catalog klasę bei dvejais kontroliuojamais žodynais Informacinės sistemos tipui ir svarbai pažymėti pagal Valstybės informacinių išteklių valdymo įstatyme  nustatytą  tvarką.
+DCAT-AP-LT apima BregDCAT-AP [BregDCAT-AP] naudojamas klases ir papildo jas Informacinės Sistemos klase išplečiančia dcat:Catalog klasę bei dvejais kontroliuojamais žodynais Informacinės sistemos tipui ir svarbai pažymėti pagal Valstybės informacinių išteklių valdymo įstatyme  nustatytą  tvarką.
 
 </dd>
 </dl>
@@ -441,7 +441,7 @@ DCAT-AP-LT 0.1
 
 # Apžvalga # {#Apzvalga}
 
-DCAT-AP-LT apima visas BregDCAT-AP 2.1 naudojamas klases ir papildo jas Informacinės Sistemos klase išplečiančia dcat:Catalog klasę bei dvejais kontroliuojamais žodynais Informacinės sistemos tipui ir svarbai pažymėti taip, kaip apibrėžiama Valstybės informacinių išteklių valymo įstatyme.
+DCAT-AP-LT apima visas BregDCAT-AP 2.1 [BregDCAT-AP] naudojamas klases ir papildo jas Informacinės Sistemos klase išplečiančia dcat:Catalog klasę bei dvejais kontroliuojamais žodynais Informacinės sistemos tipui ir svarbai pažymėti taip, kaip apibrėžiama Valstybės informacinių išteklių valymo įstatyme.
 Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas DCAT-AP HVD klases ir papildomas savybes. Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas [DCAT-AP-LT HVD klases ir papildomas savybes](https://ivpk.github.io/DCAT-AP-LT/en/hvd.html).
 
 <img src="uml.png" width="800px" height="454px">
@@ -3122,7 +3122,11 @@ Norime išreikšti padėką visiems dirbusiems, kuriant DCAT-AP-LT specifikacij�
 
 
  
-<dl class="bibliography"><dt id="bib-datacite">[DATACITE<!---0.115482%-->]</dt><dd>
+<dl class="bibliography">
+<dt id="bib-breg">[BregDCAT-AP]</dt><dd>
+      <a href="https://github.com/SEMICeu/BregDCAT-AP/tree/main/releases/2.1.0"><cite>BregDCAT-AP</cite></a>
+    </dd>
+<dt id="bib-datacite">[DATACITE<!---0.115482%-->]</dt><dd>
       <a href="http://www.datacite.org/"><cite>DataCite</cite></a>.  DataCite. URL: <a href="http://www.datacite.org/">http://www.datacite.org/</a><!---0.115482%-->
     </dd><dt id="bib-deu">[DEU<!---0.115482%-->]</dt><dd>
       <a href="https://data.europa.eu/"><cite>The official portal for European data</cite></a>.  European Commission. URL: <a href="https://data.europa.eu/">https://data.europa.eu</a><!---0.115482%-->
@@ -3153,8 +3157,9 @@ Norime išreikšti padėką visiems dirbusiems, kuriant DCAT-AP-LT specifikacij�
       <a href="https://semiceu.github.io/GeoDCAT-AP/releases/"><cite>GeoDCAT-AP: A geospatial extension for the DCAT application profile for data portals in Europe</cite></a>.  European Commission. 23 December 2020. URL: <a href="https://semiceu.github.io/GeoDCAT-AP/releases/">https://semiceu.github.io/GeoDCAT-AP/releases/</a><!---0.115482%-->
     </dd><dt id="bib-hvd">[HVD<!---0.115482%-->]</dt><dd>
       <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R0138"><cite>Implementing Regulation for High Value Datasets</cite></a>.  European Union. URL: <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R0138">https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R0138</a><!---0.115482%-->
-    </dd><dt id="bib-hvd">[DCAT-AP-LT HVD<!---0.115482%-->]</dt><dd>
-      <a href="https://ivpk.github.io/DCAT-AP-LT/hvd.html"><cite>Didelės vertės duomenų rinkinių LT metaduomenų specifikacija </cite></a>
+    </dd>
+    <dt id="bib-hvd">[DCAT-AP-LT HVD<!---0.115482%-->]</dt><dd>
+      <a href="https://ivpk.github.io/DCAT-AP-LT/hvd.html"><cite>Didelės vertės duomenų rinkinių metaduomenų specifikacija, taikoma Lietuvoje</cite></a>
     </dd>
 <dt id="bib-json-ld11">[json-ld11<!---0.115482%-->]</dt><dd>
       <a href="https://www.w3.org/TR/json-ld11/"><cite>JSON-LD 1.1</cite></a>. Gregg Kellogg; Pierre-Antoine Champin; Dave Longley.  W3C. 16 July 2020. W3C Recommendation. URL: <a href="https://www.w3.org/TR/json-ld11/">https://www.w3.org/TR/json-ld11/</a><!---0.115482%-->
@@ -3175,5 +3180,3 @@ Norime išreikšti padėką visiems dirbusiems, kuriant DCAT-AP-LT specifikacij�
 <dd>
       <a href="https://ivpk.github.io/uapi/"><cite>Universalios duomenų teikimo sąsajos specifikacija</cite></a>
     </dd>
-
-
