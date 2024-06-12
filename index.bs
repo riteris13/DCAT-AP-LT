@@ -241,7 +241,7 @@ Boilerplate: copyright no, spec-metadata no, abstract no, conformance no
 		<code>Valstybės informaciniai ištekliai (VII)</code>
 	</td>
         <td>
-		<code>Duomenys, tvarkomi informacinėse sistemose, informacinės sistemos, informacinių technologijų platformos ir informacinių technologijų priemonės, naudojami valstybės reikmėms.</code>
+		<code>Duomenys, informacinės sistemos, informacinių technologijų platformos ir informacinių technologijų priemonės, naudojami valstybės reikmėms.</code>
 	</td>
     </tr>
 <tr>
