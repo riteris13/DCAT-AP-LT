@@ -24,7 +24,7 @@ DCAT-AP-LT includes the classes used by BREG-DCAT-AP(https://github.com/SEMICeu/
 </dl>
 ## Context
 
-Currently, it is expected that the European Commission will provide support for development of these [Common European Data Spaces]('https://digital-strategy.ec.europa.eu/en/policies/data-spaces'):
+Currently, it is expected that the European Commission will provide support for development of these [Common European Data Spaces](https://digital-strategy.ec.europa.eu/en/policies/data-spaces):
 <ul>
 <li>Agriculture; </li>
 <li>Cultural Heritage; </li>
