@@ -17,7 +17,7 @@ Boilerplate: copyright no, spec-metadata no, abstract no, conformance no
 
 <table>
     <tr>
-        <th>Sąvoką</th>
+        <th>Sąvoka</th>
         <th>Aprašymas</th>
     </tr>
     <tr>
