@@ -3132,7 +3132,12 @@ Norime išreikšti padėką visiems dirbusiems, kuriant DCAT-AP-LT specifikacij�
       <a href="https://data.europa.eu/"><cite>The official portal for European data</cite></a>.  European Commission. URL: <a href="https://data.europa.eu/">https://data.europa.eu</a><!---0.115482%-->
     </dd><dt id="bib-doi">[DOI<!---0.115482%-->]</dt><dd>
       <a href="http://www.doi.org/"><cite>Digital Object Identifier</cite></a>.  DOI Foundation. URL: <a href="http://www.doi.org/">http://www.doi.org/</a><!---0.115482%-->
-    </dd><dt id="bib-ezid">[EZID<!---0.115482%-->]</dt><dd>
+    </dd>
+    <dt id="bib-dsa">[DSA<!---0.115482%-->]
+<dd>
+      <a href="https://ivpk.github.io/dsa/"><cite>Duomenų struktūros aprašo specifikacija</cite></a>
+    </dd>
+    <dt id="bib-ezid">[EZID<!---0.115482%-->]</dt><dd>
       <a href="https://ezid.cdlib.org/"><cite>EZID</cite></a>.  California Digital Library. URL: <a href="https://ezid.cdlib.org/">https://ezid.cdlib.org/</a><!---0.115482%-->
     </dd><dt id="bib-odrl">[ODRL<!---0.115482%-->]</dt><dd>
       <a href="https://www.w3.org/ns/odrl/2/"><cite>The Open Digital Rights Language Ontology Version 2.2</cite></a>.  W3C POE Working Group. URL: <a href="https://www.w3.org/ns/odrl/2/">https://www.w3.org/ns/odrl/2/</a><!---0.115482%-->
