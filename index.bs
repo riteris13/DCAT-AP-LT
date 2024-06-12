@@ -3133,7 +3133,7 @@ Norime išreikšti padėką visiems dirbusiems, kuriant DCAT-AP-LT specifikacij�
  
 <dl class="bibliography">
 <dt id="bib-breg">[BregDCAT-AP]</dt><dd>
-      <a href="https://joinup.ec.europa.eu/rdf_entity/http_e_f_fdata_ceuropa_ceu_fw21_f31929cda-c61a-4631-9ef3-d35c1c3495b3?page=3"><cite>BregDCAT-AP</cite></a>BRegDCAT-AP is an annex to DCAT-AP. It describes additional usage of the DCAT-AP for Base Registries. URL: <a href="https://github.com/SEMICeu/BregDCAT-AP/tree/main/releases/2.1.0">https://github.com/SEMICeu/BregDCAT-AP/tree/main/releases/2.1.0</a>
+      <a href="https://joinup.ec.europa.eu/rdf_entity/http_e_f_fdata_ceuropa_ceu_fw21_f31929cda-c61a-4631-9ef3-d35c1c3495b3?page=3"><cite>BregDCAT-AP</cite></a> It is an annex to DCAT-AP. It describes additional usage of the DCAT-AP for Base Registries. URL: <a href="https://github.com/SEMICeu/BregDCAT-AP/tree/main/releases/2.1.0">https://github.com/SEMICeu/BregDCAT-AP/tree/main/releases/2.1.0</a>
     </dd>
 <dt id="bib-datacite">[DATACITE<!---0.115482%-->]</dt><dd>
       <a href="http://www.datacite.org/"><cite>DataCite</cite></a>.  DataCite. URL: <a href="http://www.datacite.org/">http://www.datacite.org/</a><!---0.115482%-->
