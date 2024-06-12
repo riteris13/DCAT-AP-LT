@@ -1,5 +1,5 @@
 <pre class='metadata'>
-Title: Didelės vertės duomenų rinkinių (HVD) metaduomenų specifikacija, taikoma Lietuvoje
+Title: Didelės vertės duomenų rinkinių metaduomenų specifikacija, taikoma Lietuvoje (DCAT-AP-LT HVD)
 Shortname: HVD
 Level: 1
 Status: LD
@@ -39,10 +39,10 @@ Didelės vertės duomenų rinkiniai pasižymi specifiniais techniniais ir teisin
     <li>išsamūs metaduomenų aprašai.</li>
 </ul>
 
-Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikalavimus, DCAT-AP-LT modelyje atsiranda poreikis taikyti papildomas, modifikuotas ar sugriežtintas metaduomenų modelio taisykles didelės vertės duomenų rinkiniams. Šios taisyklės apima DCAT-AP klases papildančias savybes ar griežtesnį esamų savybių privalomumo taikymą ir yra apibrėžtos <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/">DCAT-AP-HVD</a> priede. <br> Lietuvoje didelės vertės duomenų rinkiniai aprašomi „tokie, kokie yra“ DCAT-AP HVD 2.2.0 specifikacijoje, su nedideliais teisinio šaltinio citavimo pakeitimais, nes ELI Lietuvoje dar nepriimtas.
+Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikalavimus, DCAT-AP-LT specifikacijoje atsiranda poreikis taikyti papildomas, modifikuotas ar sugriežtintas metaduomenų specifikacijos taisykles didelės vertės duomenų rinkiniams. Šios taisyklės apima DCAT-AP klases papildančias savybes ar griežtesnį esamų savybių privalomumo taikymą ir yra apibrėžtos <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/">DCAT-AP HVD</a> priede. <br> Lietuvoje didelės vertės duomenų rinkiniai aprašomi „tokie, kokie yra“ DCAT-AP HVD 2.2.0 specifikacijoje, su nedideliais teisinio šaltinio citavimo pakeitimais, nes ELI Lietuvoje dar nepriimtas.
 Šiame priede LegalResource šaltinis yra ELI atributas pavadinimu [id_local](=http://data.europa.eu/eli/ontology#id_local). Vietinis identifikatorius naudojamas kaip [Teisės aktų registre](https://www.e-tar.lt/portal/) paskelbto teisinio šaltinio URI.
 
-# Didelės vertės duomenų rinkiniams naudojamos (DCAT-AP-HVD) klasės ir savybės # {#HVDKlasesIrSavybes}
+# Didelės vertės duomenų rinkiniams naudojamos (DCAT-AP HVD) klasės ir savybės # {#HVDKlasesIrSavybes}
 
 ## Katalogas  ## {##Katalogas}
 
