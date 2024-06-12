@@ -1,12 +1,12 @@
 <pre class='metadata'>
-Title: Didelės vertės duomenų rinkinių metaduomenų specifikacija, taikoma Lietuvoje (DCAT-AP-LT HVD)
+Title: DCAT-AP-LT HVD
 Shortname: HVD
 Level: 1
 Status: LD
 Repository: ivpk/DCAT-AP-LT
 URL: https://ivpk.github.io/DCAT-AP-LT/
 Editor: IVPK, https://ivpk.lrv.lt/lt/
-Abstract: DCAT-AP-LT HVD metaduomenų specifikacija, taikoma Lietuvoje.
+Abstract: DCAT-AP-LT HVD metaduomenų specifikacija.
 Complain About: accidental-2119 yes, missing-example-ids yes
 Markup Shorthands: markdown yes, css no
 Translation: en en/index.html
