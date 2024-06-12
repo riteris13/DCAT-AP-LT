@@ -260,7 +260,7 @@ Boilerplate: copyright no, spec-metadata no, abstract no, conformance no
 <dl>
     <dd>DCAT-AP-LT yra metaduomenų specifikacija, skirta Lietuvos duomenų rinkiniams ir paslaugoms aprašyti. DCAT-AP-LT yra Europos metaduomenų specifikacijos DCAT-AP plėtinys, parengtas vadovaujantis DCAT-AP specifikacijos formavimui nustatytomis taisyklėmis ir rekomendacijomis, įtraukiant ontologijas ir tezaurus kaip pagalbines priemones aprašant duomenis.
 
-DCAT-AP-LT apima BregDCAT-AP [BregDCAT-AP](bib-breg) naudojamas klases ir papildo jas Informacinės Sistemos klase išplečiančia dcat:Catalog klasę bei dvejais kontroliuojamais žodynais Informacinės sistemos tipui ir svarbai pažymėti pagal Valstybės informacinių išteklių valdymo įstatyme  nustatytą  tvarką.
+DCAT-AP-LT apima BregDCAT-AP [BregDCAT-AP](#bib-breg) naudojamas klases ir papildo jas Informacinės Sistemos klase išplečiančia dcat:Catalog klasę bei dvejais kontroliuojamais žodynais Informacinės sistemos tipui ir svarbai pažymėti pagal Valstybės informacinių išteklių valdymo įstatyme  nustatytą  tvarką.
 
 </dd>
 </dl>
@@ -441,7 +441,7 @@ DCAT-AP-LT 0.1
 
 # Apžvalga # {#Apzvalga}
 
-DCAT-AP-LT apima visas BregDCAT-AP 2.1 [BregDCAT-AP](bib-breg) naudojamas klases ir papildo jas Informacinės Sistemos klase išplečiančia dcat:Catalog klasę bei dvejais kontroliuojamais žodynais Informacinės sistemos tipui ir svarbai pažymėti taip, kaip apibrėžiama Valstybės informacinių išteklių valymo įstatyme.
+DCAT-AP-LT apima visas BregDCAT-AP 2.1 [BregDCAT-AP](#bib-breg) naudojamas klases ir papildo jas Informacinės Sistemos klase išplečiančia dcat:Catalog klasę bei dvejais kontroliuojamais žodynais Informacinės sistemos tipui ir svarbai pažymėti taip, kaip apibrėžiama Valstybės informacinių išteklių valymo įstatyme.
 Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas DCAT-AP HVD klases ir papildomas savybes. Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas [DCAT-AP-LT HVD klases ir papildomas savybes](https://ivpk.github.io/DCAT-AP-LT/en/hvd.html).
 
 <img src="uml.png" width="800px" height="454px">
