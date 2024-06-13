@@ -2432,7 +2432,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
     </tr>
         </table>
 
-### Rekomenduojamos klasės Viešoji Institucijs savybės ### {###RekomenduojamosViesojiInstitucijaSavybės}
+### Rekomenduojamos klasės Viešoji Institucija savybės ### {###RekomenduojamosViesojiInstitucijaSavybės}
 
 
  <table class="data-table simple">
@@ -2494,8 +2494,10 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
             </tr>
            
         </table>
+
+### Privalomos klasės Informacinės Sistemos Paslauga savybės ### {###PrivalomosISPaslaugaSavybės}
+
  <table class="data-table simple">
-         
             <tr class="data-table__header">
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
                 <th class="data-table__header-title--sortable" style="width:10%">URI</th>
@@ -2534,6 +2536,19 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
                    <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_title">E</a></td>
     </tr>
     <tr>
+        <td>Turi kompetentingą valdžios instituciją</td>
+        <td>[cv:hasCompetentAuthority](http://data.europa.eu/m8g/hasCompetentAuthority)</td>
+        <td>[cv:PublicOrganisation](http://data.europa.eu/m8g/PublicOrganisation)</td>
+        <td>1..n</td>
+        <td>-</td>
+        <td>Ši savybė susieja informacinės sistemos paslaugą su viešąja institucija, kuri yra atsakinga už paslaugos teikimą.</td>
+                   <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_title">E</a></td>
+    </tr>
+	 </table>
+
+### Rekomenduojamos klasės Informacinės Sistemos Paslauga savybės ### {###RekomenduojamosISPaslaugaSavybės}
+
+    <tr>
         <td>Turi dalį</td>
         <td>[dcterms:hasPart](http://purl.org/dc/terms/hassPart)</td>
         <td>[cpsv:PublicService](http://purl.org/vocab/cpsv#PublicService)</td>
@@ -2561,7 +2576,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
                    <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_homepage">E</a></td>
     </tr>
     <tr>
-        <td>Rezultatas (duomenų išteklius)</td>
+        <td>Sukuria</td>
         <td>[cpsv:produces](http://purl.org/vocab/cpsv#produces)</td>
         <td>[cv:Output](http://data.europa.eu/m8g/Output)</td>
         <td>0..n</td>
@@ -2570,7 +2585,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
                    <td>P</td>
     </tr>
     <tr>
-        <td>Geografinė vietovė</td>
+        <td>Erdvinė / geografinė aprėptis</td>
         <td>[dct:spatial](http://purl.org/dc/terms/spatial)</td>
         <td>[dct:Location](http://purl.org/dc/terms/Location)</td>
         <td>0..n</td>
@@ -2606,6 +2621,48 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
                    <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_type">E</a></td>
     </tr>
   </table>
+
+### Pasirenkamos klasės Informacinės Sistemos Paslauga savybės ### {###PasirenkamosISPaslaugaSavybės}
+
+ <table class="data-table simple">
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:10%">URI</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:60%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
+            </tr>
+<br></br>
+   <tr>
+        <td>Laikosi</td>
+        <td>[cpsv:follows](http://purl.org/vocab/cpsv#follows)</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
+        <td>1..n</td>
+        <td>-</td>
+        <td>Ši savybė susieja informacinės sistemos paslaugą su taisyklėmis, pagal kurias (-omis) ji veikia..</td>
+                   <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_description">E</a></td>
+</tr>
+    <tr>
+        <td>Turi kontaktinę informaciją</td>
+        <td>[cv:hasContactPoint](http://data.europa.eu/m8g/hasContactPoint)</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
+        <td>1..1</td>
+        <td>-</td>
+        <td>Šioje savybėje pateikiama kontaktinė informacija. </td>
+                   <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_identifier">E</a></td>
+    </tr>
+    <tr>
+        <td>Turi teisinį šaltinį</td>
+        <td>[cv:hasLegalResouce](http://data.europa.eu/m8g/hasLegalResorce)</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
+        <td>1..n</td>
+        <td>-</td>
+        <td>Ši savybė nurdo susijusį / susijusius teisinius šaltinius.</td>
+                   <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_title">E</a></td>
+    </tr>
+	 </table>
 
 ## Katalogo įrašas ## {##KatalogoIrasas}
 
