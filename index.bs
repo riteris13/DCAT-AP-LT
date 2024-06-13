@@ -2625,15 +2625,16 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
            
         </table>
 <br>
- <table class="data-table simple">
-         
+### Privalomos klasės Katalogo įrašas savybės ### {###PrivalomosKatalogoĮrašasSavybės}
+
+<table class="data-table simple">
             <tr class="data-table__header">
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
                 <th class="data-table__header-title--sortable" style="width:10%">URI</th>
                 <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
                 <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
-                <th class="data-table__header-title--sortable" style="width:5%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:60%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:35%">Aprašymas</th>
                 <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
             </tr>
 <br></br>
@@ -2655,6 +2656,21 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>Šioje savybėje nurodoma naujausia katalogo įrašo pakeitimo arba modifikavimo data.</td>
                 <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:record_update_date">E</a></td>
     </tr>
+
+### Rekomenduojamos klasės Katalogo įrašas savybės ### {###RekomenduojamosKatalogoĮrašasSavybės}
+
+<table class="data-table simple">
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:10%">URI</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:35%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
+            </tr>
+<br></br>
+
     <tr>
         <td>Taikymo profilis</td>
         <td>[dcterms:conformsTo](http://purl.org/dc/terms/conformsTo)</td>
@@ -2682,6 +2698,21 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>Duomenų rinkinio aprašymo įtraukimo į katalogą data.</td>
                 <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:record_listing_date">E</a></td>
     </tr>
+
+### Pasirenkamos klasės Katalogo įrašas savybės ### {###PasirenkamosKatalogoĮrašasSavybės}
+
+<table class="data-table simple">
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:10%">URI</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:35%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
+            </tr>
+<br></br>
+
     <tr>
         <td>Aprašymas</td>
         <td>[dct:description](http://purl.org/dc/terms/description)</td>
@@ -2739,15 +2770,17 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
            
         </table>
 <br>
- <table class="data-table simple">
-         
+
+### Privalomos klasės Kontrolinė suma savybės ### {###PrivalomosKontrolinėSumaSavybės}
+
+<table class="data-table simple">
             <tr class="data-table__header">
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
                 <th class="data-table__header-title--sortable" style="width:10%">URI</th>
                 <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
                 <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
-                <th class="data-table__header-title--sortable" style="width:45%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:35%">Aprašymas</th>
                 <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
             </tr>
 <br></br>
