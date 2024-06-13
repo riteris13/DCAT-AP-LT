@@ -2149,12 +2149,14 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
            
         </table>
 
+### Privalomos klasės Teisinis šaltinis savybės ### {###PrivalomosTeisinisŠaltinisSavybės}
+
  <table class="data-table simple">
          
             <tr class="data-table__header">
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
-                <th class="data-table__header-title--sortable" style="width:10%">URI</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">URI</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Intervalas</th>
                 <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:45%">Aprašymas</th>
@@ -2170,6 +2172,21 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>Ši savybė nurodo teisinio ištekliaus tipą (pvz., "Direktyva", „Règlement grand ducal“, „įstatymas“, „Règlement ministériel“, „projektas pasiūlymas“, „Parlamento aktas“ ir t. t.). Valstybės narės raginamos sudaryti savo teisės aktų sąrašą atitinkamoje sąvokų schemoje.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_type">E</a></td>  
 </tr>
+
+### Rekomenduojamos klasės Teisinis šaltinis savybės ### {###RekomenduojamosTeisinisŠaltinisSavybės}
+
+ <table class="data-table simple">
+         
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:5%">URI</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:45%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
+            </tr>
+<br></br>
     <tr>
         <td>Aprašas</td>
         <td>[dct:description](http://purl.org/dc/terms/description)</td>
@@ -2188,6 +2205,22 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>Šioje savybėje pateikiamas taisyklės identifikatorius.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_identifier">E</a></td>
     </tr>
+
+### Pasirenkamos klasės Teisinis šaltinis savybės ### {###PasirenkamosTeisinisŠaltinisSavybės}
+
+ <table class="data-table simple">
+         
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:5%">URI</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:45%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
+            </tr>
+<br></br>
+
     <tr>
         <td>Nuoroda</td>
         <td>[rdfs:seeAlso](http://www.w3.org/2000/01/rdf-schema#seeAlso)</td>
@@ -2766,7 +2799,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
         </table>
 <br>
 
-### Privalomos klasės Identifikatorius savybės ### {###RekomenduojamosIdentifikatoriusSavybės}
+### Privalomos klasės Identifikatorius savybės ### {###PrivalomosIdentifikatoriusSavybės}
 
  <table class="data-table simple">
          
@@ -2851,10 +2884,14 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
 
  <table class="data-table simple">
          
+### Rekomenduojamos klasės Vietovė savybės ### {###RekomenduojamosVietovėSavybės}
+
+ <table class="data-table simple">
+         
             <tr class="data-table__header">
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
-                <th class="data-table__header-title--sortable" style="width:10%">URI</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">URI</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Intervalas</th>
                 <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:45%">Aprašymas</th>
@@ -2880,6 +2917,22 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
         <td>Ši savybė nurodo išteklių geografinį centrą (centroidą).</td>
                 <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:location_centroid">E</a></td>
     </tr>
+
+### Pasirenkamos klasės Vietovė savybės ### {###PasirenkamosVietovėSavybės}
+
+ <table class="data-table simple">
+         
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:5%">URI</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:45%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
+            </tr>
+<br></br>
+
     <tr>
         <td>Geometrija</td>
         <td>[locn:geometry](http://www.w3.org/ns/locn#geometry)</td>
@@ -2930,12 +2983,14 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
            
         </table>
 
+### Rekomenduojamos klasės Laikotarpis savybės ### {###RekomenduojamosLaikotarpisSavybės}
+
  <table class="data-table simple">
          
             <tr class="data-table__header">
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
-                <th class="data-table__header-title--sortable" style="width:10%">URI</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">URI</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Intervalas</th>
                 <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:45%">Aprašymas</th>
@@ -2960,6 +3015,22 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
         <td>Laikotarpio pradžios data.</td>
                 <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:period_start_date">E</a></td>
      </tr>
+
+### Pasirenkamos klasės Laikotarpis savybės ### {###PasirenkamosLaikotarpisSavybės}
+
+ <table class="data-table simple">
+         
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:5%">URI</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:45%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
+            </tr>
+<br></br>
+
      <tr>
         <td>Turi pradžią</td>
         <td>[time:hasBeginning](http://www.w3.org/2006/time#hasBeginning)</td>
