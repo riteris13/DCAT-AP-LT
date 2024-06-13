@@ -2259,12 +2259,14 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
            
         </table>
 <br>
-       <table class="data-table simple">
+      ### Privalomos klasės Taisyklė savybės ### {###PrivalomosTaisyklėSavybės}
+
+ <table class="data-table simple">
          
             <tr class="data-table__header">
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
-                <th class="data-table__header-title--sortable" style="width:10%">URI</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">URI</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Intervalas</th>
                 <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:45%">Aprašymas</th>
@@ -2298,6 +2300,22 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>Ši savybė nurodo aprašomąjį ištekliaus pavadinimą arba vardą. Šis savybė turėtų būti kartojama, jei yra įvairių teksto versijų skirtingomis kalbomis.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_title">E</a></td>
     </tr>
+
+      ### Rekomenduojamos klasės Taisyklė savybės ### {###RekomenduojamosTaisyklėSavybės}
+
+ <table class="data-table simple">
+         
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:5%">URI</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:45%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
+            </tr>
+<br></br>
+
       <tr>
         <td>Įgyvendina</td>
         <td>[cpsv:implements](http://purl.org/vocab/cpsv#implements)</td>
@@ -2316,6 +2334,22 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>Ši savybė nurodo kalbą (-as), kuria (-iomis) galima naudotis taisykle. Ji gali būti viena ar kelios kalbos, pvz., šalyse, kuriose yra daugiau kalbų, nei viena oficiali kalba.</td>
                 <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_language">E</a></td>
     </tr>
+
+      ### Pasirenkamos klasės Taisyklė savybės ### {###PasirenkamosTaisyklėSavybės}
+
+ <table class="data-table simple">
+         
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:5%">URI</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:45%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
+            </tr>
+<br></br>
+
     <tr>
         <td>Tipas</td>
         <td>[dct:type](http://purl.org/dc/terms/type)</td>
