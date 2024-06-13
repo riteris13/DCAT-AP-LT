@@ -1021,6 +1021,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
            
         </table>
 
+### Privalomos klasės Duomenų rinkinys savybės ### {###PrivalomosDuomenųRinkinysSavybės}
 
  <table class="data-table simple">
          
@@ -1062,25 +1063,6 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_identifier">E</a></td>
     </tr>
     <tr>
-        <td>Kitas identifikatorius</td>
-        <td>[adms:identifier](http://www.w3.org/ns/adms#identifier)</td>
-        <td>[adms:Identifier](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Identifier)</td>
-        <td>1..n</td>
-        <td>-</td>
-        <td>Antrinis duomenų rinkinio identifikatorius. Pavyzdžiai: MAST/ADS, DataCite, DOI, EZID, W3ID. Rekomendacija: įtraukti visus identifikatorius, kuriuos katalogas žino apie duomenų rinkinį.</td>
-        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#dereferenceable-identifiers">E</a></td>
-    </tr>
-    <tr>
-        <td>Versija</td>
-        <td>[dcat:version](http://www.w3.org/ns/dcat#version)</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>1..1</td>
-        <td>-</td>
-        <td>Duomenų rinkinio versijos identifikavimas (pavadinimas arba identifikatorius).</td>
-        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_version">E</a></td>
-    </tr>
-   
-    <tr>
         <td>Duomenų erdvė</td>
         <td>[dct:conformsTo](http://purl.org/dc/terms/conformsTo)</td>
         <td>[dct:Standard](http://purl.org/dc/terms/Standard)</td>
@@ -1089,6 +1071,22 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
         <td>Nustatyta duomenų erdvė, kuriai atitinka aprašytas pateikimas.</td>
         <td>P</td>
     </tr>
+
+### Rekomenduojamos klasės Duomenų rinkinys savybės ### {###RekomenduojamosDuomenųRinkinysSavybės}
+
+ <table class="data-table simple">
+         
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:5%">URI</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:45%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
+            </tr>
+<br></br>
+
     <tr>
         <td>Kontaktinė informacija</td>
         <td>[dcat:contactPoint](http://www.w3.org/ns/dcat#contactPoint)</td>
@@ -1152,6 +1150,41 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
         <td>Ši savybė nurodo duomenų rinkinio kategoriją. Duomenų rinkinys gali būti susietas su keliomis temomis.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_theme">E</a></td>
     </tr>
+
+### Pasirenkamos klasės Duomenų rinkinys savybės ### {###PasirenkamosDuomenųRinkinysSavybės}
+
+ <table class="data-table simple">
+         
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:5%">URI</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:45%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
+            </tr>
+<br></br>
+
+    <tr>
+        <td>Kitas identifikatorius</td>
+        <td>[adms:identifier](http://www.w3.org/ns/adms#identifier)</td>
+        <td>[adms:Identifier](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Identifier)</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Antrinis duomenų rinkinio identifikatorius. Pavyzdžiai: MAST/ADS, DataCite, DOI, EZID, W3ID. Rekomendacija: įtraukti visus identifikatorius, kuriuos katalogas žino apie duomenų rinkinį.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#dereferenceable-identifiers">E</a></td>
+    </tr>
+    <tr>
+        <td>Versija</td>
+        <td>[dcat:version](http://www.w3.org/ns/dcat#version)</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
+        <td>0..1</td>
+        <td>-</td>
+        <td>Duomenų rinkinio versijos identifikavimas (pavadinimas arba identifikatorius).</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_version">E</a></td>
+    </tr>
+
     <tr>
         <td>Prieigos teisės</td>
         <td>[dct:accessRights](http://purl.org/dc/terms/accessRights)</td>
@@ -1500,12 +1533,14 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
            
         </table>
 
+### Privalomos klasės Duomenų paslauga savybės ### {###PrivalomosDuomenųPaslaugaSavybės}
+
  <table class="data-table simple">
          
             <tr class="data-table__header">
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
-                <th class="data-table__header-title--sortable" style="width:10%">URI</th>
-                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">URI</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Intervalas</th>
                 <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
                 <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
                 <th class="data-table__header-title--sortable" style="width:45%">Aprašymas</th>
@@ -1520,6 +1555,48 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
         <td>-</td>
         <td>Šioje savybėje nurodomas duomenų paslaugos identifikatorius.</td>
 	<td>E</td>
+    </tr>
+    <tr>
+        <td>Pavadinimas</td>
+        <td>[dct:title](http://purl.org/dc/terms/title)</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
+        <td>1..n</td>
+        <td>-</td>
+        <td>Šioje savybėje pateikiamas duomenų paslaugai suteiktas pavadinimas. Galima pakartoti, jei pavadinimas pateikiamas keliomis kalbomis.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_title">E</a></td>
+    </tr>
+    <tr>
+        <td>Tinklalapis</td>
+        <td>[dcat:endpointURL](http://www.w3.org/ns/dcat#endpointURL)></td>
+        <td>[rdfs:Resource](http://www.w3.org/2000/01/rdf-schema#Resource)</td>
+        <td>1..n</td>
+        <td>-</td>
+        <td>Šioje savybėje galinio punkto URL turi būti nuolatinis. Tai reiškia, kad leidėjai turėtų daryti viską, kad išlaikytų stabilią ir esamą vertę.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:data_service_endpoint_url">E</a></td>
+    </tr>
+
+### Rekomenduojamos klasės Duomenų paslauga savybės ### {###RekomenduojamosDuomenųPaslaugaSavybės}
+
+ <table class="data-table simple">
+         
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:5%">URI</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:45%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
+            </tr>
+<br></br>
+    <tr>
+        <td>Kontaktinė informacija</td>
+        <td>[dcat:contactPoint](http://www.w3.org/ns/dcat#contactPoint)</td>
+        <td>[vcard:Kind](http://www.w3.org/2006/vcard/ns#Kind)</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Šioje savybėje pateikiama kontaktinė informacija, kurią galima naudoti siunčiant pastabas apie duomenų paslaugą.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_contact_point">E</a></td>
     </tr>
 	<tr>
         <td>Prieigos taško aprašas</td>
@@ -1539,17 +1616,24 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
         <td>Šioje savybėje pateikiamas duomenų paslaugą apibūdinantis raktažodis arba žyma.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_keyword">E</a></td>
     </tr>
-
 <tr>
-        <td>Aprašas</td>
-        <td>[dct:description](http://purl.org/dc/terms/description)</td>
-        <td>[rfds:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Literal)</td>
+        <td>Duomenų teikėjas</td>
+        <td>[dct:publisher](http://purl.org/dc/terms/publisher)</td>
+        <td>[foaf:Agent](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Agent)</td>
+        <td>0..1</td>
+        <td>-</td>
+        <td>Ši savybė nurodo subjektą (organizaciją), atsakingą už duomenų paslaugos prieinamumą.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_publisher">E</a></td>
+    </tr>
+<tr>
+        <td>Pateikia duomenų rinkinį</td>
+        <td>[dct:servesDataset](http://www.w3.org/ns/dcat#servesdataset)</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>0..n</td>
         <td>-</td>
-        <td>Šioje savybėje laisvu tekstu pateikiamas duomenų paslaugos aprašas. Šią savybę galima pakartoti, jei aprašas pateikiamas keliomis kalbomis.</td>
-        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_description">E</a></td>
+        <td>Ši savybė referuoja į duomenų rinkinį, kurį duomenų paslauga platina. Pastaba: privaloma savybė, jei paslauga susijusi su didelės vertės duomenų rinkiniais.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:data_service_serves_dataset">E</a></td>
     </tr>
-
 <tr>
         <td>Tema / kategorija</td>
         <td>[dcat:theme/category](http://www.w3.org/ns/dcat#theme)</td>
@@ -1560,48 +1644,21 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_theme">E</a></td>
     </tr>
 
+### Pasirenkamos klasės Duomenų paslauga savybės ### {###RekomenduojamosDuomenųPaslaugaSavybės}
 
+ <table class="data-table simple">
+         
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:5%">URI</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:45%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
+            </tr>
+<br></br>
 <tr>
-        <td>Duomenų teikėjas</td>
-        <td>[dct:publisher](http://purl.org/dc/terms/publisher)</td>
-        <td>[foaf:Agent](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Agent)</td>
-        <td>0..1</td>
-        <td>-</td>
-        <td>Ši savybė nurodo subjektą (organizaciją), atsakingą už duomenų paslaugos prieinamumą.</td>
-        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_publisher">E</a></td>
-    </tr>
-
-<tr>
-        <td>Pateikia duomenų rinkinį</td>
-        <td>[dct:servesDataset](http://www.w3.org/ns/dcat#servesdataset)</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>0..n</td>
-        <td>-</td>
-        <td>Ši savybė referuoja į duomenų rinkinį, kurį duomenų paslauga platina. Pastaba: privaloma savybė, jei paslauga susijusi su didelės vertės duomenų rinkiniais.</td>
-        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:data_service_serves_dataset">E</a></td>
-    </tr>
-
-    <tr>
-        <td>Pavadinimas</td>
-        <td>[dct:title](http://purl.org/dc/terms/title)</td>
-        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-        <td>1..n</td>
-        <td>-</td>
-        <td>Šioje savybėje pateikiamas duomenų paslaugai suteiktas pavadinimas. Galima pakartoti, jei pavadinimas pateikiamas keliomis kalbomis.</td>
-        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_title">E</a></td>
-    </tr>
-  <!-- trūko 'licence' -->
-	<tr>
-        <td>Licencija</td>
-        <td>[dct:licence](http://purl.org/dc/terms/license)</td>
-        <td>[dct:LicenseDocument](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#LicenceDocument)</td>
-        <td>0..1</td>
-        <td>-</td>
-        <td>Ši savybė nurodo licenciją, pagal kurią platinama duomenų paslauga. Pastaba: privaloma savybė, jei paslauga susijusi su didelės vertės duomenų rinkiniais.</td>
-        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_license">E</a></td>
-    </tr>
-	<!-- trūko 'access rights' -->
-	<tr>
         <td>Prieigos teisės</td>
         <td>[dct:accessRights](http://purl.org/dc/terms/accessRights)</td>
         <td>[dct:RightsStatement](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Rightsstatement)</td>
@@ -1610,7 +1667,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
         <td>Ši savybė susijusi su informacija, kuri nurodo, ar duomenų paslauga yra atvira, ar jai taikomi prieigos apribojimai, ar ji nėra vieša.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_access_rights">E</a></td>
     </tr>
-	<!-- trūko 'conforms to' -->
+<tr>
 	<tr>
         <td>Atitinka</td>
         <td>[dct:conformsTo](http://purl.org/dc/terms/conformsTo)</td>
@@ -1620,17 +1677,23 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
         <td>Ši savybė nurodo įgyvendinimo taisyklę arba kitą specifikaciją.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:record_conforms_to">E</a></td>
     </tr>
-	<!-- trūko 'follows' -->
+        <td>Aprašas</td>
+        <td>[dct:description](http://purl.org/dc/terms/description)</td>
+        <td>[rfds:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Literal)</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Šioje savybėje laisvu tekstu pateikiamas duomenų paslaugos aprašas. Šią savybę galima pakartoti, jei aprašas pateikiamas keliomis kalbomis.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_description">E</a></td>
+    </tr>
 	<tr>
         <td>Laikosi</td>
         <td>[cpsv:follows](http://purl.org/vocab/cpsv#follows)</td>
         <td>-</td>
-        <td>-</td>
+        <td>0..n</td>
         <td>-</td>
         <td>-</td>
         <td>P</td>
     </tr>
-	<!-- trūko 'landingPage' -->
 	<tr>
         <td>Nukreipimo puslapis</td>
         <td>[dcat:landingPage](http://www.w3.org/ns/dcat#landingPage)</td>
@@ -1641,6 +1704,25 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_landing_page">E</a></td>
     </tr>
 
+  <!-- trūko 'licence' -->
+	<tr>
+        <td>Licencija</td>
+        <td>[dct:licence](http://purl.org/dc/terms/license)</td>
+        <td>[dct:LicenseDocument](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#LicenceDocument)</td>
+        <td>0..1</td>
+        <td>-</td>
+        <td>Ši savybė nurodo licenciją, pagal kurią platinama duomenų paslauga. Pastaba: privaloma savybė, jei paslauga susijusi su didelės vertės duomenų rinkiniais.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_license">E</a></td>
+    </tr>
+    <tr>
+        <td>Paslaugos kokybė</td>
+        <td>[foaf:page](http://xmlns.com/foaf/0.1/page)</td>
+        <td>[foaf:Document](http://xmlns.com/foaf/0.1/Document)</td>
+        <td>1..n</td>
+        <td>-</td>
+        <td>Ši savybė leidžia nurodyti tinklalapį, kuriame pateikiama išsami informacija apie teikiamos paslaugos kokybę bei kita aktuali informacija. Privaloma savybė, jei paslauga susijusi su didelės vertės duomenų rinkiniais.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_landing_page">E</a></td>
+    </tr>
 <tr>
         <td>Tipas</td>
         <td>[dct:type](http://purl.org/dc/terms/type)</td>
@@ -1651,33 +1733,6 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_type">E</a></td>
     </tr>
 
-    <tr>
-        <td>Paslaugos kokybė</td>
-        <td>[foaf:page](http://xmlns.com/foaf/0.1/page)</td>
-        <td>[foaf:Document](http://xmlns.com/foaf/0.1/Document)</td>
-        <td>1..n</td>
-        <td>-</td>
-        <td>Ši savybė leidžia nurodyti tinklalapį, kuriame pateikiama išsami informacija apie teikiamos paslaugos kokybę bei kita aktuali informacija. Privaloma savybė, jei paslauga susijusi su didelės vertės duomenų rinkiniais.</td>
-        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_landing_page">E</a></td>
-    </tr>
-    <tr>
-        <td>Kontaktinė informacija</td>
-        <td>[dcat:contactPoint](http://www.w3.org/ns/dcat#contactPoint)</td>
-        <td>[vcard:Kind](http://www.w3.org/2006/vcard/ns#Kind)</td>
-        <td>1..n</td>
-        <td>-</td>
-        <td>Šioje savybėje pateikiama kontaktinė informacija, kurią galima naudoti siunčiant pastabas apie duomenų paslaugą.</td>
-        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_contact_point">E</a></td>
-    </tr>
-    <tr>
-        <td>Tinklalapis</td>
-        <td>[dcat:endpointURL](http://www.w3.org/ns/dcat#endpointURL)></td>
-        <td>[rdfs:Resource](http://www.w3.org/2000/01/rdf-schema#Resource)</td>
-        <td>1..n</td>
-        <td>-</td>
-        <td>Šioje savybėje galinio punkto URL turi būti nuolatinis. Tai reiškia, kad leidėjai turėtų daryti viską, kad išlaikytų stabilią ir esamą vertę.</td>
-        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:data_service_endpoint_url">E</a></td>
-    </tr>
   </table>
 
 ## Kategorija, Teikėjo tipas, Statusas ## {##Kategorija}
