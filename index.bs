@@ -632,6 +632,9 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
             </tr>
  </table>
 <br>
+
+### Privalomos klasės Katalogas savybės ### {###PrivalomosKatalogasSavybės}
+
 <table class="data-table simple">
             <tr class="data-table__header">
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
@@ -680,6 +683,20 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
                 <td>Šioje savybėje pateikiamas katalogui suteiktas pavadinimas.</td>
                 <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_title">E</a></td>
             </tr>
+ </table>
+
+### Rekomenduojamos klasės Katalogas savybės ### {###RekomenduojamosKatalogasSavybės}
+
+<table class="data-table simple">
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:10%">URI</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:35%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
+            </tr>
 
             <tr class="data-table__header">
                 <td>Kaupimo periodiškumas</td>
@@ -700,15 +717,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
                 <td>Ši savybė susieja katalogą su duomenų rinkiniu, kuris yra katalogo įrašas.</td>
                 <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_dataset">E</a></td>
             </tr>
-            <tr class="data-table__header">
-                <td>Paslauga</td>
-                <td>[dcat:service](http://www.w3.org/ns/dcat#service)</td>
-                <td>[dcat:DataService](http://www.w3.org/ns/dcat#DataService)</td>
-                <td>0..n</td>
-                <td>-</td>
-                <td>Ši savybė nurodo svetainę arba galinį tašką (angl. end-point) (duomenų paslaugą), įtrauktą į katalogą.</td>
-                <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_service">E</a></td>
-            </tr>
+
             <tr class="data-table__header">
                 <td>Tinklalapis</td>
                 <td>[foaf:homepage](http://xmlns.com/foaf/0.1/homepage)</td>
@@ -737,6 +746,16 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
                 <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_license">E</a></td>
             </tr>
             <tr class="data-table__header">
+                <td>Pakeitimo data</td>
+                <td>[dct:modified](https://w3c.github.io/dxwg/dcat/#Property:distribution_update_date)</td>
+                <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
+                <td>0..1</td>
+                <td>-</td>
+                <td>Šioje savybėje nurodoma naujausia katalogo pakeitimo data.</td>
+                <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_update_date">E</a></td>
+            </tr>
+
+            <tr class="data-table__header">
                 <td>Išleistas</td>
                 <td>[dct:issued](http://purl.org/dc/terms/issued)</td>
                 <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
@@ -754,9 +773,9 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
                 <td>-</td>
                 <td>Šioje savybėje nurodoma geografinė duomenų aprėptis.</td>
                 <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_spatial">E</a></td>
-            </tr>
+            </tr>   
 
-            <tr class="data-table__header">
+    <tr class="data-table__header">
                 <td>Temos taksonomija</td>
                 <td>[dcat:themeTaxonomy](http://www.w3.org/ns/dcat#themeTaxonomy)</td>
                 <td>[skos:ConceptScheme](http://www.w3.org/2004/02/skos/core#ConceptScheme)</td>
@@ -765,15 +784,22 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
                 <td>Ši savybė nurodo žinių organizavimo sistemą, naudojamą katalogo duomenų rinkiniams klasifikuoti.</td>
                 <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_themes">E</a></td>
             </tr>
+
+ </table>
+
+### Pasirenkamos klasės Katalogas savybės ### {###PasirenkamosKatalogasSavybės}
+
+<table class="data-table simple">
             <tr class="data-table__header">
-                <td>Pakeitimo data</td>
-                <td>[dct:modified](https://w3c.github.io/dxwg/dcat/#Property:distribution_update_date)</td>
-                <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-                <td>0..1</td>
-                <td>-</td>
-                <td>Šioje savybėje nurodoma naujausia katalogo pakeitimo data.</td>
-                <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_update_date">E</a></td>
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:10%">URI</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:35%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
             </tr>
+
             <tr class="data-table__header">
                 <td>Turi sudedamąją dalį</td>
                 <td>[dct:hasPart](https://w3c.github.io/dxwg/dcat/#Property:resource_has_part)</td>
@@ -836,6 +862,15 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
                 <td>Lietuvoje duomenų rinkiniai aprašomi su nedideliais teisinio šaltinio citavimo pakeitimais, nes ELI Lietuvoje dar nepriimtas. Šiame priede LegalResource šaltinis yra ELI atributas pavadinimu [id_local](=http://data.europa.eu/eli/ontology#id_local). Vietinis identifikatorius naudojamas kaip [Teisės aktų registre](https://www.e-tar.lt/portal/) paskelbto teisinio šaltinio URI.</td>
                 <td>Teisės aktas, kuris įpareigoja sukurti ir valdyti katalogą.</td>
 		<td>E</td>
+            </tr>
+            <tr class="data-table__header">
+                <td>Paslauga</td>
+                <td>[dcat:service](http://www.w3.org/ns/dcat#service)</td>
+                <td>[dcat:DataService](http://www.w3.org/ns/dcat#DataService)</td>
+                <td>0..n</td>
+                <td>-</td>
+                <td>Ši savybė nurodo svetainę arba galinį tašką (angl. end-point) (duomenų paslaugą), įtrauktą į katalogą.</td>
+                <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_service">E</a></td>
             </tr>
         </table>
    </dd>
