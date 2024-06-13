@@ -862,6 +862,9 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
                 <td>[foaf:Agent](http://xmlns.com/foaf/0.1/Agent)</td>
             </tr>
   </table>
+
+### Privalomos klasės Agentas savybės ### {###PrivalomosAgentasSavybės}
+
  <table class="data-table simple">
             <tr class="data-table__header">
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
@@ -873,6 +876,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
                 <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
             </tr>
 <br></br>
+
             <tr class="data-table__header">
                 <td>Pavadinimas</td>
                 <td>[foaf:name](http://xmlns.com/foaf/0.1/name)</td>
@@ -882,6 +886,22 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
                 <td>Šioje savybėje pateikiamas agento pavadinimas. Ši savybė gali būti kartojama skirtingoms pavadinimo versijoms (pvz., pavadinimas skirtingomis kalbomis).</td>
 		<td>P</td>
             </tr>
+ </table>
+
+### Rekomenduojamos klasės Agentas savybės ### {###RekomenduojamosAgentasSavybės}
+
+ <table class="data-table simple">
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:5%">URI</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:35%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
+            </tr>
+<br></br>
+
             <tr class="data-table__header">
                 <td>Tipas</td>
                 <td>[dct:type](http://purl.org/dc/terms/type)</td>
