@@ -2229,8 +2229,10 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
             </tr>
            
         </table>
+
+### Privalomos klasės Viešoji Institucijs savybės ### {###PrivalomosViesojiInstitucijaSavybės}
+
          <table class="data-table simple">
-         
             <tr class="data-table__header">
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
                 <th class="data-table__header-title--sortable" style="width:10%">URI</th>
@@ -2277,6 +2279,22 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>Ši savybė nurodo geografinį arba administracinį regioną, kurį apima institucija. Šios savybės reikšmė turėtų būti URI iš Administracinio teritorinių vienetų pavadintų institucijų sąrašo, kurį tvarko Leidinių biuro Metaduomenų registras.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_spatial_resolution">E</a></td>
     </tr>
+        </table>
+
+### Rekomenduojamos klasės Viešoji Institucijs savybės ### {###RekomenduojamosViesojiInstitucijaSavybės}
+
+
+ <table class="data-table simple">
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:10%">URI</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:45%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
+            </tr>
+
     <tr>
         <td>Adresas</td>
         <td>[locn:address](http://www.w3.org/ns/locn#address)</td>
