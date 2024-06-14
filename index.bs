@@ -2332,6 +2332,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>Ši savybė nurodo aprašomąjį ištekliaus pavadinimą arba vardą. Šis savybė turėtų būti kartojama, jei yra įvairių teksto versijų skirtingomis kalbomis.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_title">E</a></td>
     </tr>
+ </table>
 
       ### Rekomenduojamos klasės Taisyklė savybės ### {###RekomenduojamosTaisyklėSavybės}
 
@@ -2366,6 +2367,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>Ši savybė nurodo kalbą (-as), kuria (-iomis) galima naudotis taisykle. Ji gali būti viena ar kelios kalbos, pvz., šalyse, kuriose yra daugiau kalbų, nei viena oficiali kalba.</td>
                 <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_language">E</a></td>
     </tr>
+ </table>
 
       ### Pasirenkamos klasės Taisyklė savybės ### {###PasirenkamosTaisyklėSavybės}
 
@@ -2745,6 +2747,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>Šioje savybėje nurodoma naujausia katalogo įrašo pakeitimo arba modifikavimo data.</td>
                 <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:record_update_date">E</a></td>
     </tr>
+ </table>
 
 ### Rekomenduojamos klasės Katalogo įrašas savybės ### {###RekomenduojamosKatalogoĮrašasSavybės}
 
@@ -2787,6 +2790,8 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>Duomenų rinkinio aprašymo įtraukimo į katalogą data.</td>
                 <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:record_listing_date">E</a></td>
     </tr>
+ </table>
+
 
 ### Pasirenkamos klasės Katalogo įrašas savybės ### {###PasirenkamosKatalogoĮrašasSavybės}
 
