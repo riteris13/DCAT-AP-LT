@@ -1071,6 +1071,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
         <td>Nustatyta duomenų erdvė, kuriai atitinka aprašytas pateikimas.</td>
         <td>P</td>
     </tr>
+</table>
 
 ### Rekomenduojamos klasės Duomenų rinkinys savybės ### {###RekomenduojamosDuomenųRinkinysSavybės}
 
@@ -1150,6 +1151,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
         <td>Ši savybė nurodo duomenų rinkinio kategoriją. Duomenų rinkinys gali būti susietas su keliomis temomis.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_theme">E</a></td>
     </tr>
+</table>
 
 ### Pasirenkamos klasės Duomenų rinkinys savybės ### {###PasirenkamosDuomenųRinkinysSavybės}
 
