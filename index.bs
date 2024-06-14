@@ -2089,6 +2089,8 @@ ir pateikties valdymo teisės.</td>
            
         </table>
 
+### Rekomenduojamos klasės Licencijos Dokumentas savybės ### {###RekomenduojamosLicencijosDokumentasSavybės}
+
  <table class="data-table simple">
          
             <tr class="data-table__header">
