@@ -2105,6 +2105,8 @@ ir pateikties valdymo teisės.</td>
            
         </table>
 
+### Privalomos klasės Kategorijų schema savybės ### {###PrivalomosKategorijųSchemaSavybės}
+
  <table class="data-table simple">
          
             <tr class="data-table__header">
