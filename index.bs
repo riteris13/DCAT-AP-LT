@@ -2845,6 +2845,57 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
     </tr>
 </table>
 
+## Santykis ## {##Santykis}
+
+          <table class="data-table simple">
+            <tr >
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Klasė</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Aprašas</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:12%">URI</th>
+            </tr>
+            <tr class="data-table__header">
+                <td>Santykis (Relation)</td>
+                <td>Viešoji institucija yra Agentas, kuris atsakingas už viešųjų paslaugų teikimą. Čia naudojama klasė iš Pagrindinio institucijų žodyno, taip pat pagrįsto W3C Organizacijų ontologija.</td>
+                <td> - </td>
+                <td>[cv:PublicOrganisation](http://data.europa.eu/m8g/PublicOrganisation)</td>
+            </tr>
+           
+        </table>
+
+### Privalomos klasės Santykis savybės ### {###PrivalomosSantykisSavybės}
+
+         <table class="data-table simple">
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:10%">URI</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:45%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
+            </tr>
+<br></br>
+             <tr>
+        <td>Turėjo rolę</td>
+        <td>[dcat:hadRole](http://www.w3.org/ns/dcat#hadRole)</td>
+        <td>[dcat:Role](http://www.w3.org/ns/dcat#Role)</td>
+        <td>1..1</td>
+        <td>-</td>
+        <td>Ši savybė nurodo esybės arba agento funciją to kita esybe ar resursu.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_identifier">E</a></td>
+    </tr>
+    <tr>
+        <td>Ryšys</td>
+        <td>[dct:relation](http://purl.org/dc/terms/relation)</td>
+        <td>[rdfs:Resource](http://www.w3.org/2000/01/rdf-schema#Resource)</td>
+        <td>1..1</td>
+        <td>-</td>
+        <td>Ši savybė nurodo susijusį resursą.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_title">E</a></td>
+    </tr>
+        </table>
+
 
 ## Kontrolinė suma ## {##KontrolineSuma}
 
