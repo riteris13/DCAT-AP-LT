@@ -3071,6 +3071,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
         <td>Ši savybė nurodo išteklių geografinį centrą (centroidą).</td>
                 <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:location_centroid">E</a></td>
     </tr>
+</table>
 
 ### Pasirenkamos klasės Vietovė savybės ### {###PasirenkamosVietovėSavybės}
 
@@ -3169,6 +3170,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
         <td>Laikotarpio pradžios data.</td>
                 <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:period_start_date">E</a></td>
      </tr>
+</table>
 
 ### Pasirenkamos klasės Laikotarpis savybės ### {###PasirenkamosLaikotarpisSavybės}
 
