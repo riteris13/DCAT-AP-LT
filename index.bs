@@ -1749,9 +1749,33 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
                 <td></td>
                 <td></td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
-            </tr>
-           
+            </tr>      
         </table>
+
+### Privalomos klasės Kategorija, Teikėjo tipas, Statusas savybės ### {###PrivalomosKategorijaSavybės}
+
+<table class="data-table simple">
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:10%">URI</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
+                <th class="data-table__header-title--sortable" style="width:20%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:35%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
+            </tr>
+<br></br>
+
+            <tr>
+        <td>Pageidaujama antraštė</td>
+        <td>[skos:prefLabel](http://www.w3.org/2004/02/skos/core#prefLabel)</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
+        <td>1..n</td>
+        <td>-</td>
+        <td>Šioje savybėje pateikiama pageidaujama antraštė / etiketė.</td>
+        <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_access_url">E</a></td>
+    </tr>
+ </table>
 
 
 ## Pateiktis
@@ -1798,6 +1822,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
         <td>Šioje savybėje pateikiamas URL, kuris suteikia prieigą prie duomenų rinkinio platinimo.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_access_url">E</a></td>
     </tr>
+ </table>
 
 ### Rekomenduojamos klasės Pateiktis savybės ### {###PrivalomosPateiktisSavybės}
 
@@ -1849,6 +1874,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
         <td>Pateikties failų formatas.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_format">E</a></td>
     </tr>
+ </table>
 
 ### Pasirenkamos klasės Pateiktis savybės ### {###PasirenkamosPateiktisSavybės}
 
