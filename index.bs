@@ -1576,6 +1576,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
         <td>Šioje savybėje galinio punkto URL turi būti nuolatinis. Tai reiškia, kad leidėjai turėtų daryti viską, kad išlaikytų stabilią ir esamą vertę.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:data_service_endpoint_url">E</a></td>
     </tr>
+</table>
 
 ### Rekomenduojamos klasės Duomenų paslauga savybės ### {###RekomenduojamosDuomenųPaslaugaSavybės}
 
@@ -1645,6 +1646,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
         <td>Ši savybė nurodo duomenų paslaugos kategoriją. Duomenų paslauga gali būti susieta su keliomis temomis.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_theme">E</a></td>
     </tr>
+</table>
 
 ### Pasirenkamos klasės Duomenų paslauga savybės ### {###RekomenduojamosDuomenųPaslaugaSavybės}
 
@@ -2204,6 +2206,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>Ši savybė nurodo teisinio ištekliaus tipą (pvz., "Direktyva", „Règlement grand ducal“, „įstatymas“, „Règlement ministériel“, „projektas pasiūlymas“, „Parlamento aktas“ ir t. t.). Valstybės narės raginamos sudaryti savo teisės aktų sąrašą atitinkamoje sąvokų schemoje.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_type">E</a></td>  
 </tr>
+</table>
 
 ### Rekomenduojamos klasės Teisinis šaltinis savybės ### {###RekomenduojamosTeisinisŠaltinisSavybės}
 
@@ -2237,6 +2240,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>Šioje savybėje pateikiamas taisyklės identifikatorius.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_identifier">E</a></td>
     </tr>
+</table>
 
 ### Pasirenkamos klasės Teisinis šaltinis savybės ### {###PasirenkamosTeisinisŠaltinisSavybės}
 
