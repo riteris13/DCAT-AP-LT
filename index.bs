@@ -787,7 +787,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
 
  </table>
 
-### Pasirenkamos klasės Katalogas savybės ### {###PasirenkamosKatalogasSavybės}
+### Neprivalomos klasės Katalogas savybės ### {###NeprivalomosKatalogasSavybės}
 
 <table class="data-table simple">
             <tr class="data-table__header">
@@ -1153,7 +1153,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
     </tr>
 </table>
 
-### Pasirenkamos klasės Duomenų rinkinys savybės ### {###PasirenkamosDuomenųRinkinysSavybės}
+### Neprivalomos klasės Duomenų rinkinys savybės ### {###NeprivalomosDuomenųRinkinysSavybės}
 
  <table class="data-table simple">
          
@@ -1648,7 +1648,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
     </tr>
 </table>
 
-### Pasirenkamos klasės Duomenų paslauga savybės ### {###RekomenduojamosDuomenųPaslaugaSavybės}
+### Neprivalomos klasės Duomenų paslauga savybės ### {###RekomenduojamosDuomenųPaslaugaSavybės}
 
  <table class="data-table simple">
          
@@ -1880,7 +1880,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
     </tr>
  </table>
 
-### Pasirenkamos klasės Pateiktis savybės ### {###PasirenkamosPateiktisSavybės}
+### Neprivalomos klasės Pateiktis savybės ### {###NeprivalomosPateiktisSavybės}
 
 <table class="data-table simple">
             <tr class="data-table__header">
@@ -2242,7 +2242,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
     </tr>
 </table>
 
-### Pasirenkamos klasės Teisinis šaltinis savybės ### {###PasirenkamosTeisinisŠaltinisSavybės}
+### Neprivalomos klasės Teisinis šaltinis savybės ### {###NeprivalomosTeisinisŠaltinisSavybės}
 
  <table class="data-table simple">
          
@@ -2373,7 +2373,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
     </tr>
  </table>
 
-      ### Pasirenkamos klasės Taisyklė savybės ### {###PasirenkamosTaisyklėSavybės}
+      ### Neprivalomos klasės Taisyklė savybės ### {###NeprivalomosTaisyklėSavybės}
 
  <table class="data-table simple">
          
@@ -2660,7 +2660,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
     </tr>
   </table>
 
-### Pasirenkamos klasės Informacinės Sistemos Paslauga savybės ### {###PasirenkamosISPaslaugaSavybės}
+### Neprivalomos klasės Informacinės Sistemos Paslauga savybės ### {###NeprivalomosISPaslaugaSavybės}
 
  <table class="data-table simple">
             <tr class="data-table__header">
@@ -2797,7 +2797,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
  </table>
 
 
-### Pasirenkamos klasės Katalogo įrašas savybės ### {###PasirenkamosKatalogoĮrašasSavybės}
+### Neprivalomos klasės Katalogo įrašas savybės ### {###NeprivalomosKatalogoĮrašasSavybės}
 
 <table class="data-table simple">
             <tr class="data-table__header">
@@ -3135,7 +3135,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
     </tr>
 </table>
 
-### Pasirenkamos klasės Vietovė savybės ### {###PasirenkamosVietovėSavybės}
+### Neprivalomos klasės Vietovė savybės ### {###NeprivalomosVietovėSavybės}
 
  <table class="data-table simple">
          
@@ -3234,7 +3234,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
      </tr>
 </table>
 
-### Pasirenkamos klasės Laikotarpis savybės ### {###PasirenkamosLaikotarpisSavybės}
+### Neprivalomos klasės Laikotarpis savybės ### {###NeprivalomosLaikotarpisSavybės}
 
  <table class="data-table simple">
          
