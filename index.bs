@@ -1648,7 +1648,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
     </tr>
 </table>
 
-### Klasės Duomenų paslauga rekomenduojamos savybės ### {###RekomenduojamosDuomenųPaslaugaSavybės}
+### Klasės Duomenų paslauga pasirenkamos savybės ### {###PasirenkamosDuomenųPaslaugaSavybės}
 
  <table class="data-table simple">
          
