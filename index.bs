@@ -633,7 +633,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
  </table>
 <br>
 
-### Privalomos klasės Katalogas savybės ### {###PrivalomosKatalogasSavybės}
+### Klasės Katalogas privalomos privalomos savybės ### {###PrivalomosKatalogasSavybės}
 
 <table class="data-table simple">
             <tr class="data-table__header">
@@ -685,7 +685,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
             </tr>
  </table>
 
-### Rekomenduojamos klasės Katalogas savybės ### {###RekomenduojamosKatalogasSavybės}
+### Klasės Katalogas rekomenduojamos savybės ### {###RekomenduojamosKatalogasSavybės}
 
 <table class="data-table simple">
             <tr class="data-table__header">
@@ -787,7 +787,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
 
  </table>
 
-### Neprivalomos klasės Katalogas savybės ### {###NeprivalomosKatalogasSavybės}
+### Klasės Katalogas pasirenkamos pasirenkamos savybės ### {###PasirenkamosKatalogasSavybės}
 
 <table class="data-table simple">
             <tr class="data-table__header">
@@ -898,7 +898,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
             </tr>
   </table>
 
-### Privalomos klasės Agentas savybės ### {###PrivalomosAgentasSavybės}
+### Klasės Agentas privalomos privalomos savybės ### {###PrivalomosAgentasSavybės}
 
  <table class="data-table simple">
             <tr class="data-table__header">
@@ -923,7 +923,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
             </tr>
  </table>
 
-### Rekomenduojamos klasės Agentas savybės ### {###RekomenduojamosAgentasSavybės}
+### Klasės Agentas rekomenduojamos savybės ### {###RekomenduojamosAgentasSavybės}
 
  <table class="data-table simple">
             <tr class="data-table__header">
@@ -1021,7 +1021,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
            
         </table>
 
-### Privalomos klasės Duomenų rinkinys savybės ### {###PrivalomosDuomenųRinkinysSavybės}
+### Klasės Duomenų rinkinys privalomos savybės ### {###PrivalomosDuomenųRinkinysSavybės}
 
  <table class="data-table simple">
          
@@ -1073,7 +1073,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
     </tr>
 </table>
 
-### Rekomenduojamos klasės Duomenų rinkinys savybės ### {###RekomenduojamosDuomenųRinkinysSavybės}
+### Klasės Duomenų rinkinys rekomenduojamos savybės ### {###RekomenduojamosDuomenųRinkinysSavybės}
 
  <table class="data-table simple">
          
@@ -1153,7 +1153,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
     </tr>
 </table>
 
-### Neprivalomos klasės Duomenų rinkinys savybės ### {###NeprivalomosDuomenųRinkinysSavybės}
+### Klasės Duomenų rinkinys pasirenkamos savybės ### {###PasirenkamosDuomenųRinkinysSavybės}
 
  <table class="data-table simple">
          
@@ -1535,7 +1535,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
            
         </table>
 
-### Privalomos klasės Duomenų paslauga savybės ### {###PrivalomosDuomenųPaslaugaSavybės}
+### Klasės Duomenų paslauga privalomos savybės ### {###PrivalomosDuomenųPaslaugaSavybės}
 
  <table class="data-table simple">
          
@@ -1578,7 +1578,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
     </tr>
 </table>
 
-### Rekomenduojamos klasės Duomenų paslauga savybės ### {###RekomenduojamosDuomenųPaslaugaSavybės}
+### Klasės Duomenų paslauga rekomenduojamos savybės ### {###RekomenduojamosDuomenųPaslaugaSavybės}
 
  <table class="data-table simple">
          
@@ -1648,7 +1648,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
     </tr>
 </table>
 
-### Neprivalomos klasės Duomenų paslauga savybės ### {###RekomenduojamosDuomenųPaslaugaSavybės}
+### Klasės Duomenų paslauga rekomenduojamos savybės ### {###RekomenduojamosDuomenųPaslaugaSavybės}
 
  <table class="data-table simple">
          
@@ -1756,7 +1756,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
             </tr>      
         </table>
 
-### Privalomos klasės Kategorija, Teikėjo tipas, Statusas savybės ### {###PrivalomosKategorijaSavybės}
+### Klasės Kategorija, Teikėjo tipas, Statusas privalomos savybės ### {###PrivalomosKategorijaSavybės}
 
 <table class="data-table simple">
             <tr class="data-table__header">
@@ -1803,7 +1803,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
            
         </table>
 
-### Privalomos klasės Pateiktis savybės ### {###PrivalomosPateiktisSavybės}
+### Klasės Pateiktis privalomos savybės ### {###PrivalomosPateiktisSavybės}
 
 <table class="data-table simple">
             <tr class="data-table__header">
@@ -1828,7 +1828,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
     </tr>
  </table>
 
-### Rekomenduojamos klasės Pateiktis savybės ### {###PrivalomosPateiktisSavybės}
+### Klasės Pateiktis privalomos savybės ### {###PrivalomosPateiktisSavybės}
 
 <table class="data-table simple">
             <tr class="data-table__header">
@@ -1880,7 +1880,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
     </tr>
  </table>
 
-### Neprivalomos klasės Pateiktis savybės ### {###NeprivalomosPateiktisSavybės}
+### Klasės Pateiktis pasirenkamos savybės ### {###PasirenkamosPateiktisSavybės}
 
 <table class="data-table simple">
             <tr class="data-table__header">
@@ -2093,7 +2093,7 @@ ir pateikties valdymo teisės.</td>
            
         </table>
 
-### Rekomenduojamos klasės Licencijos Dokumentas savybės ### {###RekomenduojamosLicencijosDokumentasSavybės}
+### Klasės Licencijos Dokumentas rekomenduojamos savybės ### {###RekomenduojamosLicencijosDokumentasSavybės}
 
  <table class="data-table simple">
          
@@ -2137,7 +2137,7 @@ ir pateikties valdymo teisės.</td>
            
         </table>
 
-### Privalomos klasės Kategorijų schema savybės ### {###PrivalomosKategorijųSchemaSavybės}
+### Klasės Kategorijų schema privalomos savybės ### {###PrivalomosKategorijųSchemaSavybės}
 
  <table class="data-table simple">
          
@@ -2183,7 +2183,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
            
         </table>
 
-### Privalomos klasės Teisinis šaltinis savybės ### {###PrivalomosTeisinisŠaltinisSavybės}
+### Klasės Teisinis šaltinis privalomos savybės ### {###PrivalomosTeisinisŠaltinisSavybės}
 
  <table class="data-table simple">
          
@@ -2208,7 +2208,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
 </tr>
 </table>
 
-### Rekomenduojamos klasės Teisinis šaltinis savybės ### {###RekomenduojamosTeisinisŠaltinisSavybės}
+### Klasės Teisinis šaltinis rekomenduojamos savybės ### {###RekomenduojamosTeisinisŠaltinisSavybės}
 
  <table class="data-table simple">
          
@@ -2242,7 +2242,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
     </tr>
 </table>
 
-### Neprivalomos klasės Teisinis šaltinis savybės ### {###NeprivalomosTeisinisŠaltinisSavybės}
+### Klasės Teisinis šaltinis pasirenkamos savybės ### {###PasirenkamosTeisinisŠaltinisSavybės}
 
  <table class="data-table simple">
          
@@ -2295,7 +2295,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
            
         </table>
 <br>
-      ### Privalomos klasės Taisyklė savybės ### {###PrivalomosTaisyklėSavybės}
+      ### Klasės Taisyklė privalomos savybės ### {###PrivalomosTaisyklėSavybės}
 
  <table class="data-table simple">
          
@@ -2338,7 +2338,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
     </tr>
  </table>
 
-      ### Rekomenduojamos klasės Taisyklė savybės ### {###RekomenduojamosTaisyklėSavybės}
+      ### Klasės Taisyklė rekomenduojamos savybės ### {###RekomenduojamosTaisyklėSavybės}
 
  <table class="data-table simple">
          
@@ -2373,7 +2373,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
     </tr>
  </table>
 
-      ### Neprivalomos klasės Taisyklė savybės ### {###NeprivalomosTaisyklėSavybės}
+      ### Klasės Taisyklė pasirenkamos savybės ### {###PasirenkamosTaisyklėSavybės}
 
  <table class="data-table simple">
          
@@ -2419,7 +2419,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
            
         </table>
 
-### Privalomos klasės Viešoji Institucijs savybės ### {###PrivalomosViesojiInstitucijaSavybės}
+### Klasės Viešoji Institucijs privalomos savybės ### {###PrivalomosViesojiInstitucijaSavybės}
 
          <table class="data-table simple">
             <tr class="data-table__header">
@@ -2470,7 +2470,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
     </tr>
         </table>
 
-### Rekomenduojamos klasės Viešoji Institucija savybės ### {###RekomenduojamosViesojiInstitucijaSavybės}
+### Klasės Viešoji Institucija rekomenduojamos savybės ### {###RekomenduojamosViesojiInstitucijaSavybės}
 
 
  <table class="data-table simple">
@@ -2533,7 +2533,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
            
         </table>
 
-### Privalomos klasės Informacinės Sistemos Paslauga savybės ### {###PrivalomosISPaslaugaSavybės}
+### Klasės Informacinės Sistemos Paslauga privalomos savybės ### {###PrivalomosISPaslaugaSavybės}
 
  <table class="data-table simple">
             <tr class="data-table__header">
@@ -2584,7 +2584,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
     </tr>
 	 </table>
 
-### Rekomenduojamos klasės Informacinės Sistemos Paslauga savybės ### {###RekomenduojamosISPaslaugaSavybės}
+### Klasės Informacinės Sistemos Paslauga rekomenduojamos savybės ### {###RekomenduojamosISPaslaugaSavybės}
 
     <tr>
         <td>Turi dalį</td>
@@ -2660,7 +2660,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
     </tr>
   </table>
 
-### Neprivalomos klasės Informacinės Sistemos Paslauga savybės ### {###NeprivalomosISPaslaugaSavybės}
+### Klasės Informacinės Sistemos Paslauga pasirenkamos savybės ### {###PasirenkamosISPaslaugaSavybės}
 
  <table class="data-table simple">
             <tr class="data-table__header">
@@ -2720,7 +2720,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
            
         </table>
 <br>
-### Privalomos klasės Katalogo įrašas savybės ### {###PrivalomosKatalogoĮrašasSavybės}
+### Klasės Katalogo įrašas privalomos savybės ### {###PrivalomosKatalogoĮrašasSavybės}
 
 <table class="data-table simple">
             <tr class="data-table__header">
@@ -2753,7 +2753,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
     </tr>
  </table>
 
-### Rekomenduojamos klasės Katalogo įrašas savybės ### {###RekomenduojamosKatalogoĮrašasSavybės}
+### Klasės Katalogo įrašas rekomenduojamos savybės ### {###RekomenduojamosKatalogoĮrašasSavybės}
 
 <table class="data-table simple">
             <tr class="data-table__header">
@@ -2797,7 +2797,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
  </table>
 
 
-### Neprivalomos klasės Katalogo įrašas savybės ### {###NeprivalomosKatalogoĮrašasSavybės}
+### Klasės Katalogo įrašas pasirenkamos savybės ### {###PasirenkamosKatalogoĮrašasSavybės}
 
 <table class="data-table simple">
             <tr class="data-table__header">
@@ -2867,7 +2867,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
            
         </table>
 
-### Privalomos klasės Santykis savybės ### {###PrivalomosSantykisSavybės}
+### Klasės Santykis privalomos savybės ### {###PrivalomosSantykisSavybės}
 
          <table class="data-table simple">
             <tr class="data-table__header">
@@ -2920,7 +2920,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         </table>
 <br>
 
-### Privalomos klasės Kontrolinė suma savybės ### {###PrivalomosKontrolinėSumaSavybės}
+### Klasės Kontrolinė suma privalomos savybės ### {###PrivalomosKontrolinėSumaSavybės}
 
 <table class="data-table simple">
             <tr class="data-table__header">
@@ -3015,7 +3015,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
         </table>
 <br>
 
-### Privalomos klasės Identifikatorius savybės ### {###PrivalomosIdentifikatoriusSavybės}
+### Klasės Identifikatorius privalomos savybės ### {###PrivalomosIdentifikatoriusSavybės}
 
  <table class="data-table simple">
          
@@ -3100,7 +3100,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
 
  <table class="data-table simple">
          
-### Rekomenduojamos klasės Vietovė savybės ### {###RekomenduojamosVietovėSavybės}
+### Klasės Vietovė rekomenduojamos savybės ### {###RekomenduojamosVietovėSavybės}
 
  <table class="data-table simple">
          
@@ -3135,7 +3135,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
     </tr>
 </table>
 
-### Neprivalomos klasės Vietovė savybės ### {###NeprivalomosVietovėSavybės}
+### Klasės Vietovė pasirenkamos savybės ### {###PasirenkamosVietovėSavybės}
 
  <table class="data-table simple">
          
@@ -3200,7 +3200,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
            
         </table>
 
-### Rekomenduojamos klasės Laikotarpis savybės ### {###RekomenduojamosLaikotarpisSavybės}
+### Klasės Laikotarpis rekomenduojamos savybės ### {###RekomenduojamosLaikotarpisSavybės}
 
  <table class="data-table simple">
          
@@ -3234,7 +3234,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
      </tr>
 </table>
 
-### Neprivalomos klasės Laikotarpis savybės ### {###NeprivalomosLaikotarpisSavybės}
+### Klasės Laikotarpis pasirenkamos savybės ### {###PasirenkamosLaikotarpisSavybės}
 
  <table class="data-table simple">
          
