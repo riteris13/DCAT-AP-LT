@@ -633,7 +633,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
  </table>
 <br>
 
-### Klasės Katalogas privalomos privalomos savybės ### {###PrivalomosKatalogasSavybės}
+### Klasės Katalogas privalomos savybės ### {###PrivalomosKatalogasSavybės}
 
 <table class="data-table simple">
             <tr class="data-table__header">
@@ -787,7 +787,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
 
  </table>
 
-### Klasės Katalogas pasirenkamos pasirenkamos savybės ### {###PasirenkamosKatalogasSavybės}
+### Klasės Katalogas pasirenkamos savybės ### {###PasirenkamosKatalogasSavybės}
 
 <table class="data-table simple">
             <tr class="data-table__header">
@@ -898,7 +898,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
             </tr>
   </table>
 
-### Klasės Agentas privalomos privalomos savybės ### {###PrivalomosAgentasSavybės}
+### Klasės Agentas privalomos savybės ### {###PrivalomosAgentasSavybės}
 
  <table class="data-table simple">
             <tr class="data-table__header">
