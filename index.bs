@@ -2411,7 +2411,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
                 <th class="data-table__header-title--sortable" style="width:12%">URI</th>
             </tr>
             <tr class="data-table__header">
-                <td>Viešoji insitucija (PublicOrganisation)</td>
+                <td>Viešoji institucija (PublicOrganisation)</td>
                 <td>Viešoji institucija yra Agentas, kuris atsakingas už viešųjų paslaugų teikimą. Čia naudojama klasė iš Pagrindinio institucijų žodyno, taip pat pagrįsto W3C Organizacijų ontologija.</td>
                 <td> - </td>
                 <td>[cv:PublicOrganisation](http://data.europa.eu/m8g/PublicOrganisation)</td>
@@ -2419,7 +2419,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
            
         </table>
 
-### Klasės Viešoji Institucijs privalomos savybės ### {###PrivalomosViesojiInstitucijaSavybės}
+### Klasės Viešoji Institucija privalomos savybės ### {###PrivalomosViesojiInstitucijaSavybės}
 
          <table class="data-table simple">
             <tr class="data-table__header">
@@ -2697,7 +2697,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..n</td>
         <td>-</td>
-        <td>Ši savybė nurdo susijusį / susijusius teisinius šaltinius.</td>
+        <td>Ši savybė nurodo susijusį / susijusius teisinius šaltinius.</td>
                    <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_title">E</a></td>
     </tr>
 	 </table>
