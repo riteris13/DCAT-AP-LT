@@ -972,7 +972,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
             <tr class="data-table__header">
                 <td>Tekstinis</td>
                 <td>tekstinė vertė</td>
-                <td> - </td>
+                <td> Ši klasė apibrėžia abstrakčią sąvoką ir neturi savybių. </td>
                 <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
             </tr>
            
