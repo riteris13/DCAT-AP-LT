@@ -466,7 +466,7 @@ Pagrindinių modelių esybių, kurios sudaro taikymo profilio branduolį, savyb�
 </ul>
 
 
-# Klasės # {#Klases}
+# DCAT-AP-LT specifinė klasė # {#DCAT-AP-LTKlase}
 
 ## Informacinė Sistema (dcataplt:InformationSystem) ## {#InformacineSistema}
 
@@ -513,7 +513,7 @@ Pagrindinių modelių esybių, kurios sudaro taikymo profilio branduolį, savyb�
     </dd>
 </dl>
 
-# Kontroliuojami žodynai # {#KontroliuojamiZodynai}
+# DCAT-AP-LT specifiniai kontroliuojami žodynai # {#DCAT-AP-LTKontroliuojamiZodynai}
 
 DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuojami reikšmių ar tipų sąrašai, klasifikatoriai ir žinynai
 
