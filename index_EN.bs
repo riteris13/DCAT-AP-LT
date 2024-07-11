@@ -209,7 +209,7 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
 
 
 
-# Classes
+# DCAT-AP-LT Specific Classes
 
 ## Information system (dcataplt:InformationSystem)
 
@@ -257,7 +257,7 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
     </dd>
 </dl>
 
-# Controlled vocabularies
+# DCAT-AP-LT Specific Controlled Vocabularies
 
 ## Importance (dcataplt:Importance)
 
