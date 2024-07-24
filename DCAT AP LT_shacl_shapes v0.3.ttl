@@ -673,7 +673,7 @@
         sh:severity sh:Violation;
 		sh:message "Savybės rdfs:seeAlso reikšmės tipas privalo būti rdfs:Literal"@lt
     ], [
-        sh:nodeKind eli:LegalResource;
+        sh:class eli:LegalResource;
         sh:path dct:relation ;
         sh:severity sh:Violation;
 		sh:message "Savybės dct:relation reikšmės tipas privalo būti eli:LegalResource"@lt
@@ -1070,7 +1070,7 @@
     sh:name "Relationship"@en ;
 	sh:name "Santykis"@lt ;
     sh:property [
-        sh:nodeKind :DcatResource_Shape ;
+        sh:NodeShape :DcatResource_Shape;
         sh:minCount 1 ;
         sh:path dct:relation ;
         sh:severity sh:Violation;
