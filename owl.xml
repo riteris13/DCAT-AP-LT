@@ -1788,6 +1788,7 @@
 	<rdfs:label xml:lang="en">Galimų svarbos lygmenų sąrašas</rdfs:label>
 	    <rdfs:isDefinedBy rdf:resource="http://data.gov.lt/onto/DCATAPLT/Importance"/>
     <dct:identifier>Importance</dct:identifier>
+    <dct:title>Importance</dct:title>
     <skos:hasTopConcept rdf:resource="http://data.gov.lt/controlled-vocabulary/importance/highlyImportant"/>
     <skos:hasTopConcept rdf:resource="http://data.gov.lt/onto/DCATAPLT/Importance/important"/>
     <skos:hasTopConcept rdf:resource="http://data.gov.lt/onto/DCATAPLT/Importance/moderatelyImportant"/>
@@ -1843,6 +1844,7 @@
     <rdfs:label xml:lang="en">List of information system types</rdfs:label>
 	<rdfs:label xml:lang="en">Galimų informacinių sisemų tipų sąrašas</rdfs:label>
     <dct:identifier>Type</dct:identifier>
+   <dct:title>Type</dct:title>
    <skos:hasTopConcept rdf:resource="http://data.gov.lt/onto/DCATAPLT/Type/registerInformationSystem"/>
     <skos:hasTopConcept rdf:resource="http://data.gov.lt/onto/DCATAPLT/Type/stateInformationSystem"/>
     <skos:hasTopConcept rdf:resource="http://data.gov.lt/onto/DCATAPLT/Type/internalInformationSystem"/>
