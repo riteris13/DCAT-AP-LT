@@ -2076,7 +2076,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
         <td>[rdfs:Resource](http://www.w3.org/2000/01/rdf-schema#Resource)</td>
         <td>0..n</td>
         <td>-</td>
-        <td>Šioje nuosavybėje yra URL, kuris yra tiesioginė nuoroda į atsisiunčiamą failą.</td>
+        <td>Šioje savybėje yra URL, kuris yra tiesioginė nuoroda į atsisiunčiamą failą.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_download_url">E</a></td>
     </tr>
 	<tr>
@@ -2113,7 +2113,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
 		<td>[odrl:Policy](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Policy)</td>
 		<td>0..1</td>
 		<td>-</td>
-		<td>Ši nuosavybė reiškia politiką, išreiškiančią su pateiktimi susijusias teises, jei naudojamas ODRL žodynas.</td>
+		<td>Ši savybė reiškia politiką, išreiškiančią su pateiktimi susijusias teises, jei naudojamas ODRL žodynas.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_has_policy">E</a></td>
 	</tr>
 	<tr>
@@ -2207,7 +2207,7 @@ ir pateikties valdymo teisės.</td>
 		<td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
 		<td>0..n</td>
 		<td>-</td>
-		<td>Šioje nuosavybėje yra aprašomasis pateikties pavadinimas. 
+		<td>Šioje savybėje yra aprašomasis pateikties pavadinimas. 
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_title">E</a></td>
 </td>
 	</tr>
