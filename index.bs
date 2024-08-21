@@ -2095,7 +2095,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
 		<td>[spdx:Checksum](http://spdx.org/rdf/terms#Checksum)</td>
 		<td>0..1</td>
 		<td>-</td>
-		<td>Ši savybė suteikia mechanizmą, leidžiantį patikrinti pateikties turinio vientisumą.</td>
+		<td>Ši savybė nurodo pateikties vientisumui užtikrinti naudojamą mechanizmą.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_checksum">E</a></td>
 	</tr>
 	<tr>
