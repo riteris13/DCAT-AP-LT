@@ -2848,6 +2848,19 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
                 border-spacing: 20px 0;
             }
         </style>
+
+ <table class="data-table simple">
+            <tr class="data-table__header">
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybė</th>
+                <th class="data-table__header-title--sortable" style="width:10%">URI</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kard</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Kontekstas</th>
+                <th class="data-table__header-title--sortable" style="width:60%">Aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
+            </tr>
+<br></br>
+
     <tr>
         <td>Turi dalį</td>
         <td>[dcterms:hasPart](http://purl.org/dc/terms/hassPart)</td>
