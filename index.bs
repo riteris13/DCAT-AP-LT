@@ -1972,7 +1972,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
     </tr>
  </table>
 
-### Klasės Pateiktis privalomos savybės ### {###PrivalomosPateiktisSavybes}
+### Klasės Pateiktis rekomenduojamos savybės ### {###PrivalomosPateiktisSavybes}
 
         <style>
             .data-table.simple {
