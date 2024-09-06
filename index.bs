@@ -713,11 +713,11 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
                 <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_identifier">E</a></td>
                 </tr>
             <tr class="data-table__header">
-                <td>Skelbėjas</td>
+                <td>Tvarkytojas</td>
                 <td>[dct:publisher](https://w3c.github.io/dxwg/dcat/#Property:resource_publisher)</td>
                 <td>[foaf:Agent](http://xmlns.com/foaf/0.1/Agent)</td>
                 <td>1..1</td>
-                <td>Šia savybe pateikiamas valstybės valdymo ar savivaldos institucijos ar organizacijos, kuri yra informacinės sistemos valdytojas, pavadinimas.</td>
+                <td>Šia savybe pateikiamas valstybės valdymo ar savivaldos institucijos ar organizacijos, kuri yra informacinės sistemos tvarkytojas, pavadinimas.</td>
                 <td>Ši savybė nurodo subjektą (organizaciją), atsakingą už katalogo prieinamumą.</td>
                 <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_publisher">E</a></td>
             </tr>
@@ -729,6 +729,15 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
                 <td>IS tvarkomų duomenų katalogo pavadinimas turi nurodyti, kad tai konkrečios informacinės sistemos ar jos esminės dalies (posistemės) informacinė struktūra, kurios apimtyje yra tvarkomi duomenų rinkiniai.</td>
                 <td>Šioje savybėje pateikiamas katalogui suteiktas pavadinimas.</td>
                 <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_title">E</a></td>
+            </tr>
+	 <tr class="data-table__header">
+                <td>Valdytojas</td>
+                <td>[dct:creator](http://purl.org/dc/terms/creator)</td>
+                <td>[foaf:Agent](http://xmlns.com/foaf/0.1/Agent)</td>
+                <td>0..1</td>
+                <td>IS Valdytojas</td>
+                <td>Šia savybe pateikiamas valstybės valdymo ar savivaldos institucijos ar organizacijos, kuri yra informacinės sistemos valdytojas, pavadinimas.</td>
+                <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_creator">E</a></td>
             </tr>
  </table>
 
@@ -904,15 +913,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
                 <td>Ši savybė nurodo katalogą, kurio turinys domina šio katalogo kontekste.</td>
                 <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_catalog">E</a></td>
             </tr>
-            <tr class="data-table__header">
-                <td>Rengėjas</td>
-                <td>[dct:creator](http://purl.org/dc/terms/creator)</td>
-                <td>[foaf:Agent](http://xmlns.com/foaf/0.1/Agent)</td>
-                <td>0..n</td>
-                <td>IS Valdytojas</td>
-                <td>Ši savybė nurodo subjektą, atsakingą už katalogo parengimą.</td>
-                <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_creator">E</a></td>
-            </tr>
+           
             <tr class="data-table__header">
                 <td>Teisinis pagrindas</td>
                 <td>[dcatap:applicableLegislation](https://semiceu.github.io/uri.semic.eu-generated/r5r/release/3.0.0/#applicableLegislation)</td>
