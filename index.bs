@@ -514,6 +514,23 @@ Pagrindinių modelių esybių, kurios sudaro taikymo profilio branduolį, savyb�
                 <td>URL nuoroda į informacinės sistemos svarbos vertinimo dokumentą.</td>
                 <td>P</td>
             </tr>
+ 		<tr class="data-table__header">
+                <td>dcataplt:relatesToInformationSystem</td>
+                <td>dcataplt:InformationSystem</td>
+                <td>0..n</td>
+                <td>Informacinės sistemos, kurios teikia duomenis šiai IS.</td>
+                <td>-</td>
+                <td>P</td>
+            </tr>
+</tr>
+ 		<tr class="data-table__header">
+                <td>dcataplt:relatesToDataService</td>
+                <td>[Dataservice]()</td>
+                <td>0..n</td>
+                <td>Informacinių sistemų duomenų paslaugos, kurios teikia duomenis šiai informacinei sistemai.</td>
+                <td>-</td>
+                <td>P</td>
+            </tr>
         </table>
     </dd>
 </dl>
