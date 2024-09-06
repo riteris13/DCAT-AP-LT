@@ -4030,6 +4030,16 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
     <td>Terminų sąrašas ADMS leidėjo tipo žodyne yra įtrauktas į ADMS specifikaciją
 .</td>
   </tr>
+
+  <tr>
+    <td>dct:type</td>
+    <td>Duomenų paslauga</td>
+    <td>EUROVOC data service type vocabulary</td>
+    <td><a href="http://publications.europa.eu/resource/authority/data-service-type ">http://publications.europa.eu/resource/authority/data-service-type</a></td>
+    <td>Duomenų paslaugos tipų žodynas
+.</td>
+  </tr>
+
   <tr>
     <td>dcatap:availability</td>
     <td>Pateiktis</td>
