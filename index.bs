@@ -502,8 +502,8 @@ Pagrindinių modelių esybių, kurios sudaro taikymo profilio branduolį, savyb�
                 <td>dcataplt:type</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>1..1</td>
-                <td>Informacinės sistemos tipas.</td>
-                <td>Informacinės sistemos tipas pagal Valstybės informacinių išteklių valdymo įstatymo reikalavimus.</td>
+                <td>Informacinės sistemos rūšis.</td>
+                <td>Informacinės sistemos rūšis pagal Valstybės informacinių išteklių valdymo įstatymo reikalavimus.</td>
                 <td>P</td>
             </tr>
             <tr class="data-table__header">
@@ -518,8 +518,8 @@ Pagrindinių modelių esybių, kurios sudaro taikymo profilio branduolį, savyb�
                 <td>dcataplt:relatesToInformationSystem</td>
                 <td>dcataplt:InformationSystem</td>
                 <td>0..n</td>
+                <td>Susijusi IS</td>
                 <td>Informacinės sistemos, kurios teikia duomenis šiai IS.</td>
-                <td>-</td>
                 <td>P</td>
             </tr>
 </tr>
@@ -527,8 +527,8 @@ Pagrindinių modelių esybių, kurios sudaro taikymo profilio branduolį, savyb�
                 <td>dcataplt:relatesToDataService</td>
                 <td>[Dataservice]()</td>
                 <td>0..n</td>
+                <td>Susijusi duomenų paslauga</td>
                 <td>Informacinių sistemų duomenų paslaugos, kurios teikia duomenis šiai informacinei sistemai.</td>
-                <td>-</td>
                 <td>P</td>
             </tr>
         </table>
@@ -594,7 +594,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
     </dd>
 </dl>
 
-## Tipas (dcataplt:Type) ## {#Tipas}
+## Informacinės sistemos rūšis (dcataplt:Type) ## {#Tipas}
 
 <dl>
     <dt>Apibrėžimas</dt>
