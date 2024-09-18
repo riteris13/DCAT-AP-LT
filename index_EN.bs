@@ -808,7 +808,29 @@ optional identifier of the agency managing the identifier scheme.
             </tr>
            
         </table>
+## Resource  
 
+        <style>
+            .data-table.simple {
+                border-collapse: separate;
+                border-spacing: 20px 0;
+            }
+        </style>
+ <table class="data-table simple">
+            <tr >
+               <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Class</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Description</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Context</th>
+                <th class="data-table__header-title--sortable" style="width:12%">Range</th>
+            </tr>
+            <tr class="data-table__header">
+                <td>Resource</td>
+                <td>Any object that can be described with RDF</td>
+                <td>This is an abstrct class. This class does not impose any requirements for the properties</td>
+                <td>[rdfs:Resource](http://www.w3.org/2000/01/rdf-schema#Resource)</td>
+            </tr>
+           
+        </table>
 
 ## Rights Statements
 
