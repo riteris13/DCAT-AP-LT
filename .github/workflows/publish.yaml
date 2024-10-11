@@ -37,7 +37,7 @@ jobs:
           mkdir docs/en
           bikeshed spec index_EN.bs docs/en/index.html
           bikeshed spec hvd_EN.bs docs/en/hvd.html
-      -name: Build v1.0
+      - name: Build v1.0
         run: |
           mkdir docs/v1.0
           bikeshed spec /v1.0/index.bs docs/v1.0/index.html
