@@ -32,6 +32,7 @@ jobs:
       - name: Build documentation
         run: |
           mkdir docs
+          cp uml.png docs/
           bikeshed spec index.bs docs/index.html
           bikeshed spec hvd.bs docs/hvd.html
           mkdir docs/en
@@ -40,6 +41,7 @@ jobs:
       - name: Build v1.0
         run: |
           mkdir docs/v1.0
+          cp uml.png docs/v1.0/
           bikeshed spec v1.0/index.bs docs/v1.0/index.html
           bikeshed spec v1.0/hvd.bs docs/v1.0/hvd.html
           mkdir docs/v1.0/en

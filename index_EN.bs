@@ -3,6 +3,7 @@ Title: DCAT-AP-LT
 Shortname: DCAT-AP-LT
 Level: 1
 Status: LS
+Date: 2024-10-10
 ED: https://ivpk.github.io/DCAT-AP-LT/v1.0
 Repository: ivpk/DCAT-AP-LT
 URL: https://ivpk.github.io/DCAT-AP-LT/

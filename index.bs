@@ -3,7 +3,6 @@ Title: DCAT-AP-LT
 Shortname: DCAT-AP-LT
 Level: 1
 Status: LS
-Status Text: Release 2.0.0
 Date: 2024-10-10
 ED: https://ivpk.github.io/DCAT-AP-LT/v1.0
 Repository: ivpk/DCAT-AP-LT
@@ -14,7 +13,6 @@ Complain About: accidental-2119 yes, missing-example-ids yes
 Markup Shorthands: markdown yes, css no
 Translation: en en/index.html
 Boilerplate: copyright no, spec-metadata yes, abstract no, conformance no
-Metadata include: Status no, Status Text yes
 </pre>
 
 # Sąvokos # {#Savokos}
