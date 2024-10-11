@@ -11,7 +11,7 @@ Abstract: DCAT-AP-LT HVD metaduomenų specifikacija.
 Complain About: accidental-2119 yes, missing-example-ids yes
 Markup Shorthands: markdown yes, css no
 Translation: en ../en/hvd.html
-Boilerplate: copyright no, spec-metadata no, abstract no, conformance no
+Boilerplate: copyright no, spec-metadata no, abstract no, conformance no, status no
 </pre>
 
 # Įžanga # {#Izanga}

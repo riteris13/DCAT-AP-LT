@@ -11,7 +11,7 @@ Abstract: DCAT-AP-LT metadata model.
 Complain About: accidental-2119 yes, missing-example-ids yes
 Markup Shorthands: markdown yes, css no
 Translation: lt ../index.html
-Boilerplate: copyright no, spec-metadata no, abstract no, conformance no
+Boilerplate: copyright no, spec-metadata yes, abstract no, conformance no, status no
 </pre>
 
 # Introduction
@@ -56,7 +56,7 @@ This specification is focused on the implementation of the provisions of the Sta
 
 # Status
 
-DCAT-AP-LT 0.1 
+DCAT-AP-LT 2.0.0 Release
 
 # Licence
 

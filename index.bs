@@ -3,7 +3,7 @@ Title: DCAT-AP-LT
 Shortname: DCAT-AP-LT
 Level: 1
 Status: LS
-Status Text: Release 1.0
+Status Text: Release 2.0.0
 Date: 2024-10-10
 ED: https://ivpk.github.io/DCAT-AP-LT/v1.0
 Repository: ivpk/DCAT-AP-LT
@@ -13,7 +13,7 @@ Abstract: DCAT-AP-LT metaduomenų modelis.
 Complain About: accidental-2119 yes, missing-example-ids yes
 Markup Shorthands: markdown yes, css no
 Translation: en en/index.html
-Boilerplate: copyright no, spec-metadata yes, abstract no, conformance no
+Boilerplate: copyright no, spec-metadata yes, abstract no, conformance no, status no, status-text yes
 </pre>
 
 # Sąvokos # {#Savokos}
@@ -307,7 +307,7 @@ DCAT-AP-LT apima [BregDCAT-AP](#bib-breg) naudojamas klases ir papildo jas Infor
 
 # Statusas
 
-DCAT-AP-LT 0.1 
+DCAT-AP-LT 2.0.0 Paskelbta
 
 # Licencija
 
