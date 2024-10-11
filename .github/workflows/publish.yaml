@@ -38,15 +38,15 @@ jobs:
           mkdir docs/en
           bikeshed spec index_EN.bs docs/en/index.html
           bikeshed spec hvd_EN.bs docs/en/hvd.html
-      - name: Build v1.0
+      - name: Build v2.0
         run: |
-          mkdir docs/v1.0
-          cp uml.png docs/v1.0/
-          bikeshed spec v1.0/index.bs docs/v1.0/index.html
-          bikeshed spec v1.0/hvd.bs docs/v1.0/hvd.html
-          mkdir docs/v1.0/en
-          bikeshed spec v1.0/index_EN.bs docs/v1.0/en/index.html
-          bikeshed spec v1.0/hvd_EN.bs docs/v1.0/en/hvd.html
+          mkdir docs/v2.0
+          cp uml.png docs/v2.0/
+          bikeshed spec v2.0/index.bs docs/v2.0/index.html
+          bikeshed spec v2.0/hvd.bs docs/v2.0/hvd.html
+          mkdir docs/v2.0/en
+          bikeshed spec v2.0/index_EN.bs docs/v2.0/en/index.html
+          bikeshed spec v2.0/hvd_EN.bs docs/v2.0/en/hvd.html
 
       - name: Upload UI artifacts
         uses: actions/upload-pages-artifact@v2
