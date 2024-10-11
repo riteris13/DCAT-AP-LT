@@ -1,0 +1,624 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix schema: <http://schema.org/> .
+@prefix dqv: <http://www.w3.org/ns/dqv#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix odrl: <http://www.w3.org/ns/odrl/2/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://data.gov.lt/onto/DCATAPLT>
+  a owl:Ontology ;
+  rdfs:label "DCAT Application Profile for Lithuanian Information Resources"@en ;
+  dc:modified "2024-05-09"^^xsd:date ;
+  dc:abstract "DCAT Application Profile for Lithuanian Information Resources specification based on the DCAT-AP, BRegDCAT vocabularies."@en ;
+  cc:attributionName "IVPK"@en ;
+  rdfs:comment "This document specifies the set of RDF classes and properties used in the DCATAPLT Application profile."@en ;
+  owl:versionInfo "1.0.0" .
+
+dcat:Catalog
+  dc:identifier "dcat:Catalog" ;
+  rdfs:label "Registry Catalogue"@en, "Katalogas"@lt .
+
+foaf:Agent
+  dc:identifier "foaf:Agent" ;
+  rdfs:label "Agent"@en, "Agentas"@lt .
+
+rdfs:Literal
+  dc:identifier "rdfs:Literal" ;
+  rdfs:label "Literal"@en, "Tekstinis"@lt .
+
+rdfs:Resource
+  dc:identifier "rdfs:Resource" ;
+  rdfs:label "Resource"@en, "Išteklius"@lt .
+
+dcat:Dataset
+  dc:identifier "dcat:Dataset" ;
+  rdfs:label "Dataset"@en, "Duomenų rinkinys"@lt .
+
+dcat:DataService
+  dc:identifier "dcat:DataService" ;
+  rdfs:label "Data Service"@en, "Duomenų paslauga"@lt .
+
+skos:Concept
+  dc:identifier "skos:Concept" ;
+  rdfs:label "Category, Publisher type, Status "@en, "Kategorija, skelbėjo tipas, statusas"@lt .
+
+dcat:Distribution
+  dc:identifier "dcat:Distribution" ;
+  rdfs:label "Distribution"@en, "Platinimas"@lt .
+
+dc:LicenseDocument
+  dc:identifier "dct:LicenseDocument" ;
+  rdfs:label "Licence Document"@en, "Licencijos dokumentas"@lt .
+
+skos:ConceptScheme
+  dc:identifier "skos:ConceptScheme" ;
+  rdfs:label "Category scheme"@en, "Koncepcijos schema"@lt .
+
+<http://data.europa.eu/eli/ontology#LegalResource>
+  dc:identifier "eli:LegalResource" ;
+  rdfs:label "Legal Resource"@en, "Teisinis išteklius"@lt .
+
+<http://purl.org/vocab/cpsv#Rule>
+  dc:identifier "cpsv:Rule" ;
+  rdfs:label "Rule"@en, "Taisyklė"@lt .
+
+<http://data.europa.eu/m8g/PublicOrganisation>
+  dc:identifier "cv:PublicOrganisation" ;
+  rdfs:label "Public Organisation"@en, "Viešoji organizacija"@lt .
+
+<http://purl.org/vocab/cpsv#PublicService>
+  dc:identifier "cpsv:PublicService" ;
+  rdfs:label "Public Registry Service"@en, "Viešoji paslauga"@lt .
+
+dcat:CatalogRecord
+  dc:identifier "dcat:CatalogRecord" ;
+  rdfs:label "Katalogo įrašas"@lt .
+
+<http://spdx.org/rdf/terms#Checksum>
+  dc:identifier "spdx:Checksum" ;
+  rdfs:label "Checksum"@en, "Kontrolinė suma"@lt .
+
+foaf:Document
+  dc:identifier "foaf:Document" ;
+  rdfs:label "Document"@en, "Dokumentas"@lt .
+
+dc:Frequency
+  dc:identifier "dct:Frequency" ;
+  rdfs:label "Frequency"@en, "Dažnis"@lt .
+
+<http://www.w3.org/ns/adms#Identifier>
+  dc:identifier "adms:Identifier" ;
+  rdfs:label "Identifier"@en, "Identifikatorius"@lt .
+
+vcard:Kind
+  dc:identifier "vcard:Kind" ;
+  rdfs:label "Kind"@en, "Rūšis"@lt .
+
+dc:LinguisticSystem
+  dc:identifier "dct:LinguisticSystem" ;
+  rdfs:label "Linguistic system"@en, "Lingvistinė sistema"@lt .
+
+dc:Location
+  dc:identifier "dct:Location" ;
+  rdfs:label "Location"@en, "Vietovė"@lt .
+
+dc:MediaType
+  dc:identifier "dct:MediaType" ;
+  rdfs:label "Media type"@en, "Laikmenos tipas"@lt .
+
+dc:PeriodOfTime
+  dc:identifier "dct:PeriodOfTime" ;
+  rdfs:label "Period of time"@en, "Laiko aprėptis"@lt .
+
+dc:RightsStatement
+  dc:identifier "dct:RightsStatement" ;
+  rdfs:label "Rights statement"@en, " Teisių pareiškimas"@lt .
+
+dc:ProvenanceStatement
+  dc:identifier "dct:ProvenanceStatement" ;
+  rdfs:label "Provenance Statement"@en, "Kilmės pareiškimas"@lt .
+
+dc:Standard
+  dc:identifier "dct:Standard" ;
+  rdfs:label "Standard"@en, "Standartas"@lt .
+
+schema:ContactPoint
+  dc:identifier "schema:ContactPoint" ;
+  rdfs:label "Contact Point"@en, "Kontaktas"@lt .
+
+dqv:QualityAnnotation
+  dc:identifier "dqv:QualityAnnotation" ;
+  rdfs:label "Quality Annotation"@en, "Kokybės anotacija"@lt .
+
+dqv:QualityMeasurement
+  dc:identifier "dqv:QualityMeasurement" ;
+  rdfs:label "Quality Measurement"@en, "Kokybės matavimas"@lt .
+
+prov:Activity
+  dc:identifier "prov:Activity" ;
+  rdfs:label "Activity"@en, "Veikla"@lt .
+
+<http://www.w3.org/ns/locn#Address>
+  dc:identifier "locn:Address" ;
+  rdfs:label "Address"@en, "Adresas"@lt .
+
+<http://data.gov.lt/onto/DCATAPLT#InformationSystem>
+  a owl:Class ;
+  rdfs:subClassOf <https://www.w3.org/ns/dcat#Catalog> ;
+  rdfs:isDefinedBy <http://data.gov.lt/DCAT-AP-LT> ;
+  rdfs:label "Information System"@en, "Informacinė Sistema"@lt .
+
+<http://data.gov.lt/DCAT-AP-LT/importance>
+  dc:identifier "dcataplt:importance" ;
+  rdfs:label "Information System - importance"@en, "Informacinė Sistema - svarba"@lt .
+
+<http://data.gov.lt/DCAT-AP-LT/importanceAssessmentURL>
+  dc:identifier "dcataplt:importanceAssessmentURL" ;
+  rdfs:label "Information System - importance assessment URL"@en, "Informacinė Sistema - svarbos vertinimo URL"@lt .
+
+<http://data.gov.lt/DCAT-AP-LT/type>
+  dc:identifier "dcataplt:type" ;
+  rdfs:label "Information System - type"@en, "Informacinė Sistema - tipas"@lt .
+
+dc:description
+  dc:identifier "dct:description" ;
+  rdfs:label "Information System - description"@en, "Informacinė Sistema – aprašas"@lt, "Catalogue Record - description"@en, "Katalogo įrašas - aprašymas"@lt, "Data Service - description"@en, "Duomenų paslauga - aprašymas"@lt, "Dataset - description"@en, "Duomenų rinkinys - aprašymas"@lt, "Distribution - description"@en, "Platinimas - aprašymas"@lt, "Legal Resource - description"@en, "Teisinis išteklius - aprašymas"@lt, "Public Registry Service - description"@en, "Viešoji paslauga - aprašymas"@lt, "Registry Catalogue - description"@en, "Registro katalogas - aprašymas"@lt, "Rule - description"@en, "Taisyklė - aprašymas"@lt .
+
+dc:identifier
+  dc:identifier "dct:identifier" ;
+  rdfs:label "Information System - identifier"@en, "Informacinė Sistema - identifikatorius"@lt, "Agent - identifier"@en, "Agentas - Identifikatorius"@lt, "Data Service - identifier"@en, "Duomenų paslauga - Identifikatorius"@lt, "Dataset - identifier"@en, "Duomenų rinkinys - identifikatorius"@lt, "Legal Resource - identifier"@en, "Teisinis išteklius - identifikatorius"@lt, "Public Organisation - identifier"@en, "Viešoji organizacija - identifikatorius"@lt, "Public Registry Service - identifier"@en, "Viešoji paslauga - identifikatorius"@lt, "Registry Catalogue - identifier"@en, "Registro katalogas - identifikatorius"@lt, "Rule - identifier"@en, "Taisyklė - identifikatorius"@lt .
+
+dc:publisher
+  dc:identifier "dct:publisher" ;
+  rdfs:label "Information System - publisher"@en, "Informacinė Sistema – teikėjas"@lt, "Data Service - publisher"@en, "Duomenų paslauga - skelbėjas"@lt, "Dataset - publisher"@en, "Duomenų rinkinys - duomenų skelbėjas"@lt, "Registry Catalogue - publisher"@en, "Registro katalogas - skelbėjas"@lt .
+
+dc:title
+  dc:identifier "dct:title" ;
+  rdfs:label "Information System - title"@en, "Informacinė Sistema - pavadinimas"@lt, "Catalogue Record - title"@en, "Katalogo įrašas - pavadinimas"@lt, "Data Service - title"@en, "Duomenų paslauga - pavadinimas"@lt, "Dataset - title"@en, "Duomenų rinkinys - pavadinimas"@lt, "Distribution - title"@en, "Platinimas - Pavadinimas"@lt, "Public Organisation - name"@en, "Viešoji organizacija - Pavadinimas"@lt, "Public Organisation - title"@en, "Viešoji paslauga - pavadinimas"@lt, "Registry Catalogue - title"@en, "Registro katalogas - pavadinimas"@lt, "Rule - title"@en, "Taisyklė - pavadinimas"@lt, "Category Scheme - title"@en, "Temos schema - pavadinimas"@lt .
+
+dc:acrualPeriodicity
+  dc:identifier "dct:accrualPeriodicity" ;
+  rdfs:label "Information System - accrual periodicity"@en, "Informacinė Sistema - kaupimo periodiškumas"@lt, "Dataset - accrual periodicity"@en, "Duomenų rinkinys - kaupimo periodiškumas"@lt, "Registry Catalogue - accrual periodicity"@en, "Registro katalogas - kaupimo periodas"@lt .
+
+dcat:dataset
+  dc:identifier "dcat:dataset" ;
+  rdfs:label "Information System - dataset"@en, "Informacinė Sistema - duomenų rinkinys"@lt, "Registry Catalogue - dataset"@en, "Registro katalogas - duomenų rinkinys"@lt .
+
+foaf:homepage
+  dc:identifier "foaf:homepage" ;
+  rdfs:label "Information System - homepage"@en, "Infrmacinė Sistema - pagrindinis puslapis"@lt, "Public Organisation - homepage"@en, "Viešoji organizacija - pagrindinis puslapis"@lt, "Public Registry Service - homepage"@en, "Viešojo paslauga - pagrindinis puslapis"@lt, "Registry Catalogue - homepage"@en, "Duomenų katalogas - pagrindinis puslapis"@lt .
+
+dc:language
+  dc:identifier "dct:language" ;
+  rdfs:label "Information System - language"@en, "Informacinė Sistema - kalba"@lt, "Catalogue Record - language"@en, "Katalogo įrašas - kalba"@lt, "Dataset - language"@en, "Duomenų rinkinys - kalba"@lt, "Distribution - language"@en, "Platinimas - kalba"@lt, "Registry Catalogue - language"@en, "Duomenų katalogas - kalba"@lt, "Rule - language"@en, "Taisyklė - Kalba"@lt .
+
+dc:license
+  dc:identifier "dct:license" ;
+  rdfs:label "Information System - licence"@en, "Informacinė Sistema - licencija"@lt, "Data Service - licence"@en, "Duomenų paslauga - licencija"@lt, "Distribution - licence"@en, "Platinimas - licencija"@lt, "Registry Catalogue - licence"@en, "Registro katalogas - licencija"@lt .
+
+dc:issued
+  dc:identifier "dct:issued" ;
+  rdfs:label "Information System - issued"@en, "Informacinė Sistema – išleista "@lt, "Catalogue Record - release date"@en, "Katalogo įrašas - išleidimo data"@lt, "Dataset - issued"@en, "Duomenų rinkinys - išleidimo data"@lt, "Distribution - issued"@en, "Platinimas - Išleidimo data"@lt, "Registry Catalogue - issued"@en, "Registro katalogas - išleidimo data"@lt .
+
+dc:modified
+  dc:identifier "dct:modified" ;
+  rdfs:label "Information System - update/ modification date"@en, "Informacinė Sistema - atnaujinimo / pakeitimo data"@lt, "Katalogo įrašas - pakeitimo data"@lt, "Catalogue Record - last update"@en, "Dataset - update/ modification date"@en, "Duomenų rinkinys - atnaujinimo/pakeitimo data"@lt, "Distribution - update/modification date"@en, "Platinimas - Atnaujinimo / Pakeitimo data"@lt, "Registry Catalogue - update/ modification date"@en, "Registro katalogas - atnaujinimo / pakeitimo data"@lt .
+
+dcat:themeTaxonomy
+  dc:identifier "dcat:themeTaxonomy" ;
+  rdfs:label "Information System - theme taxonomy"@en, "Informacinė Sistema - temos taksonomija"@lt, "Registry Catalogue - theme taxonomy"@en, "Registro katalogas - temos klasifikacija"@lt .
+
+dc:provenance
+  dc:identifier "dct:provenance" ;
+  rdfs:label "Information System - provenance"@en, "Informacinė Sistema - kilmė"@lt, "Dataset - provenance"@en, "Duomenų rinkinys - kilmė"@lt, "Registry Catalogue - provenance"@en, "Registro katalogas - kilmė"@lt .
+
+dc:spatial
+  dc:identifier "dct:spatial" ;
+  rdfs:label "Information System - spatial coverage"@en, "Informacinė Sistema - erdvinė/geografinė aprėptis"@lt, "Dataset - spatial/ geographical coverage"@en, "Duomenų rinkinys - erdvinė/geografinė aprėptis"@lt, "Public Organisation - spatial coverage"@en, "Viešoji organizacija - geografinė vietovė"@lt, "Public Registry Service - spatial coverage"@en, "Viešoji paslauga - geografinė vietovė"@lt, "Registry Catalogue - spatial coverage"@en, "Registro katalogas - geografinė vieta"@lt .
+
+dcat:catalog
+  dc:identifier "dcat:catalog" ;
+  rdfs:label "Information System - catalog"@en, "Informacinė Sistema - katalogas"@lt, "Registry Catalogue - catalog "@en, "Registro katalogas - katalogas"@lt .
+
+dc:creator
+  dc:identifier "dct:creator" ;
+  rdfs:label "Information System- creator"@en, "Informacinė Sistema - rengėjas"@lt, "Dataset - creator"@en, "Duomenų rinkinys - rengėjas"@lt, "Data Catalogue- creator"@en, "Duomenų katalogas - kūrėjas"@lt .
+
+dc:hasPart
+  dc:identifier "dct:hasPart" ;
+  rdfs:label "Information System - has part"@en, "Informacinė Sistema - turi sudedamąją dalį"@lt, "Dataset - has part"@en, "Duomenų rinkinys - Turi dalį"@lt, "Public Registry Service - has part"@en, "Viešoji paslauga - turi dalį"@lt, "Registry Catalogue - has part"@en, "Registro katalogas - turi dalį"@lt .
+
+dc:isPartOf
+  dc:identifier "dct:isPartOf" ;
+  rdfs:label "Information System - is part of"@en, "Informacinė Sistema - yra sudedamoji dalis"@lt, "Dataset - is part of"@en, "Duomenų rinkinys - yra dalis"@lt, "Public Registry Service - is part of"@en, "Viešoji paslauga - yra dalis"@lt, "Registry Catalogue - is part of"@en, "Registro katalogas - yra dalis"@lt .
+
+dcat:record
+  dc:identifier "dcat:record" ;
+  rdfs:label "Information System - record"@en, "Informacinė Sistema - įrašas"@lt, "Registry Catalogue - record"@en, "Registro katalogas - įrašas"@lt .
+
+dc:rights
+  dc:identifier "dct:rights" ;
+  rdfs:label "Information System - rights"@en, "Informacinė Sistema - teisės"@lt, "Distribution - rights"@en, "Platinimas - teisės"@lt, "Registry Catalogue - rights"@en, "Registro katalogas - teisės"@lt .
+
+dcat:service
+  dc:identifier "dcat:service" ;
+  rdfs:label "Information System - service"@en, "Informacinė Sistema - paslauga"@lt, "Registry Catalogue - service"@en, "Registro katalogas - paslauga"@lt .
+
+foaf:name
+  dc:identifier "foaf:name" ;
+  rdfs:label "Agent - name"@en, "Agentas - pavadinimas"@lt .
+
+dc:type
+  dc:identifier "dct:type" ;
+  rdfs:label "Agent - type"@en, "Agentas - tipas"@lt, "Data Service - type"@en, "Duomenų paslauga - tipas"@lt, "Dataset - type "@en, "Duomenų rinkinys - tipas"@lt, "Legal Resource - type"@en, "Teisinis išteklius - tipas"@lt, "Licence Document - licence type"@en, "Licencijos dokumentas - tipas"@lt, "Public Organisation - type"@en, "Viešoji organizacija - tipas"@lt, "Rule - type"@en, "Taisyklė - tipas"@lt .
+
+foaf:primaryTopic
+  dc:identifier "foaf:primaryTopic" ;
+  rdfs:label "Catalogue Record - primary topic"@en, "Katalogo įrašas - pagrindinė tema"@lt .
+
+<http://www.w3.org/ns/adms#status>
+  dc:identifier "adms:status" ;
+  rdfs:label "Catalogue Record - status"@en, "Katalogo įrašas - statusas"@lt, "Distribution - status"@en, "Platinimas - Statusas"@lt, "Public Registry Service - status"@en, "Viešoji paslauga - statusas"@lt .
+
+dc:conformsTo
+  dc:identifier "dct:conformsTo" ;
+  rdfs:label "Catalogue Record - application profile"@en, "Katalogo įrašas - taikymo profilis"@lt, "Data Service - conforms to"@en, "Duomenų paslauga - atitinka"@lt, "Dataset - conforms to"@en, "Duomenų rinkinys - atitinka"@lt, "Distribution - linked schemas"@en, "Platinimas - susijusi schema"@lt .
+
+dc:source
+  dc:identifier "dct:source" ;
+  rdfs:label "Catalogue Record - source metadata"@en, "Katalogo įrašas - pirminiai metaduomenys"@lt, "Dataset - source "@en, "Duomenų rinkinys - šaltinis"@lt .
+
+<http://spdx.org/rdf/terms#algorithm>
+  dc:identifier "spdx:algorithm" ;
+  rdfs:label "Checksum - algorithm"@en, "Kontrolinė suma - algoritmas"@lt .
+
+<http://spdx.org/rdf/terms#checksumValue>
+  dc:identifier "spdx:checksumValue" ;
+  rdfs:label "Checksum - checksum value"@en, "Kontrolinė suma - reikšmė"@lt .
+
+dcat:endpointURL
+  dc:identifier "dcat:endpointURL" ;
+  rdfs:label "Data Service - endpoint URL "@en, "Duomenų paslauga - prieigos taško URL"@lt .
+
+dcat:servesdataset
+  dc:identifier "dcat:servesDataset" ;
+  rdfs:label "Data Service - serves dataset"@en, "Duomenų paslauga - pateikia duomenų rinkinį"@lt .
+
+dcat:endpointDescription
+  dc:identifier "dcat:endpointDescription" ;
+  rdfs:label "Data Service - endpoint description"@en, "Duomenų paslauga - prieigos taško aprašymas"@lt .
+
+dcat:keyword
+  dc:identifier "dcat:keyword" ;
+  rdfs:label "Data Service - keyword/ tag"@en, "Duomenų paslauga - raktažodis/žymuo"@lt, "Dataset - keyword/ tag"@en, "Duomenų rinkinys - raktažodis"@lt .
+
+dcat:theme
+  dc:identifier "dcat:theme" ;
+  rdfs:label "Data Service - theme/category"@en, "Duomenų paslauga - tema/kategorija"@lt, "Dataset - theme/category"@en, "Duomenų rinkinys - kategorija"@lt .
+
+dc:accessRights
+  dc:identifier "dct:accessRights" ;
+  rdfs:label "Data Service - access rights"@en, "Duomenų paslauga - prieigos teisės"@lt, "Dataset - access Rights"@en, "Duomenų rinkinys - prieigos teisės"@lt .
+
+<http://purl.org/vocab/cpsv#follows>
+  dc:identifier "cpsv:follows" ;
+  rdfs:label "Data Service - follows"@en, "Duomenų paslauga - išplaukia"@lt, "Dataset - follows"@en, "Duomenų rinkinys - išplaukia"@lt, "Public Registry Service - follows"@en, "Viešoji paslauga - išplaukia"@lt .
+
+dcat:landingPage
+  dc:identifier "dcat:landingPage" ;
+  rdfs:label "Data Service - landing page"@en, "Duomenų paslauga - nukreipimo puslapis"@lt, "Dataset - landing page"@en, "Duomenų rinkinys - nukreipimo puslapis"@lt .
+
+foaf:page
+  dc:identifier "foaf:page" ;
+  rdfs:label "Data Service - page (documentation)"@en, "Duomenų paslauga - puslapis (dokumentacija)"@lt, "Dataset - page (documentation)"@en, "Duomenų rinkinys - dokumentacija"@lt, "Distribution - page (documentation)"@en, "Platinimas - dokumentacija"@lt .
+
+dcat:contactPoint
+  dc:identifier "dcat:contactPoint" ;
+  rdfs:label "Data Service - Contact point"@en, "Duomenų paslauga - kontaktas"@lt, "Dataset - contact point"@en, "Duomenų rinkinys - kontaktas"@lt .
+
+dcat:distribution
+  dc:identifier "dcat:distribution" ;
+  rdfs:label "Dataset - dataset distribution"@en, "Duomenų rinkinys - duomenų rinkinio platinimas"@lt .
+
+dc:temporal
+  dc:identifier "dct:temporal" ;
+  rdfs:label "Dataset - temporal coverage"@en, "Duomenų rinkinys - laiko aprėptis"@lt .
+
+dqv:hasQualityAnnotation
+  dc:identifier "dqv:hasQualityAnnotation" ;
+  rdfs:label "Dataset - has quality annotation"@en, "Duomenų rinkinys - turi kokybės anotacija"@lt .
+
+dqv:hasQualityMeasurement
+  dc:identifier "dqv:hasQualityMeasurement" ;
+  rdfs:label "Dataset - has quality measurement"@en, "Duomenų rinkinys - turi kokybės matavimą"@lt .
+
+dc:isVersionOf
+  dc:identifier "dct:isVersionOf" ;
+  rdfs:label "Dataset - is Version Of"@en, "Duomenų rinkinys - yra versija"@lt .
+
+dc:hasVersion
+  dc:identifier "dct:hasVersion" ;
+  rdfs:label "Dataset - has Version"@en, "Duomenų rinkinys - turi versiją"@lt .
+
+dc:isReferencedBy
+  dc:identifier "dct:isReferencedBy" ;
+  rdfs:label "Dataset - is referenced By "@en, "Duomenų rinkinys - yra referuota iš"@lt .
+
+dc:isReplacedBy
+  dc:identifier "dct:isReplacedBy" ;
+  rdfs:label "Dataset - is replaced By "@en, "Duomenų rinkinys - yra pakeistas"@lt .
+
+dc:isRequiredBy
+  dc:identifier "dct:isRequiredBy" ;
+  rdfs:label "Dataset - is required By "@en, "Duomenų rinkinys - yra būtinas"@lt .
+
+<http://www.w3.org/ns/adms#identifier>
+  dc:identifier "adms:identifier" ;
+  rdfs:label "Dataset - other identifier"@en, "Duomenų rinkinys - kitas identifikatorius"@lt .
+
+prov:qualifiedAttribution
+  dc:identifier "prov:qualifiedAttribution" ;
+  rdfs:label "Dataset - qualified attribution"@en, "Duomenų rinkinys - kvalifikuotas priskyrimas"@lt .
+
+dcat:qualifiedRelation
+  dc:identifier "dcat:qualifiedRelation" ;
+  rdfs:label "Dataset - qualified relation"@en, "Duomenų rinkinys - kvaifikuotas ryšys"@lt .
+
+dc:references
+  dc:identifier "dct:references" ;
+  rdfs:label "Dataset - references"@en, "Duomenų rinkinys - Nurodo"@lt .
+
+dc:relation
+  dc:identifier "dct:relation" ;
+  rdfs:label "Dataset - related resource"@en, "Duomenų rinkinys - Susijęs išteklius"@lt, "Legal Resource - related resource"@en, "Teisinis išteklius - susijęs"@lt, "Relationship - relation"@en, "Santykis - ryšys"@lt .
+
+dc:replaces
+  dc:identifier "dct:replaces" ;
+  rdfs:label "Dataset - replaces"@en, "Duomenų rinkinys - Pakeičia"@lt .
+
+dc:requires
+  dc:identifier "dct:requires" ;
+  rdfs:label "Dataset - requires"@en, "Duomenų rinkinys - Reikalauja"@lt .
+
+<http://www.w3.org/ns/adms#sample>
+  dc:identifier "adms:sample" ;
+  rdfs:label "Dataset - sample"@en, "Duomenų rinkinys - Pavyzdys"@lt .
+
+dcat:spatialResolutionInMeters
+  dc:identifier "dcat:spatialResolutionInMeters" ;
+  rdfs:label "Dataset - spatial resolution (meters)"@en, "Duomenų rinkinys - erdvinė raiška(metrais)"@lt, "Distribution - spatial resolution (meters) "@en, "Platinimas - Erdvinė raiška(metrais)"@lt .
+
+dcat:temporalResolution
+  dc:identifier "dcat:temporalResolution", "dcat:temporalResolution " ;
+  rdfs:label "Dataset - temporal resolution"@en, "Duomenų rinkinys - laiko aprėptis"@lt, "Distribution - temporal resolution"@en, "Platinimas - Laiko aprėptis"@lt .
+
+owl:versionInfo
+  dc:identifier "owl:versionInfo" ;
+  rdfs:label "Dataset - version"@en, "Duomenų rinkinys - versija"@lt .
+
+<http://www.w3.org/ns/adms#versionNotes>
+  dc:identifier "adms:versionNotes" ;
+  rdfs:label "Dataset - version notes"@en, "Duomenų rinkinys - versijos pastabos"@lt .
+
+prov:wasGeneratedBy
+  dc:identifier "prov:wasGeneratedBy" ;
+  rdfs:label "Dataset - was generated by"@en, "Duomenų rinkinys - buvo sukurtas"@lt .
+
+dcat:accessURL
+  dc:identifier "dcat:accessURL" ;
+  rdfs:label "Distribution - access URL"@en, "Platinimas - Priegos URL"@lt .
+
+<http://data.europa.eu/r5r/availability>
+  dc:identifier "dcatap:availability" ;
+  rdfs:label "Distribution - availability"@en, "Platinimas - Prieinamumas"@lt .
+
+dc:format
+  dc:identifier "dct:format" ;
+  rdfs:label "Distribution - format"@en, "Platinimas - formatas"@lt .
+
+dcat:accessService
+  dc:identifier "dcat:accessService " ;
+  rdfs:label "Distribution - access service"@en, "Platinimas - Prieigos paslauga"@lt .
+
+dcat:byteSize
+  dc:identifier "dcat:byteSize" ;
+  rdfs:label "Distribution - byte size"@en, "Platinimas - Dydis baitais"@lt .
+
+dcat:downloadURL
+  dc:identifier "dcat:downloadURL" ;
+  rdfs:label "Distribution - download URL"@en, "Platinimas - Parsisiuntimo URL"@lt .
+
+dc:mediaType
+  dc:identifier "dcat:mediaType" ;
+  rdfs:label "Distribution - media type"@en, "Platinimas - laikmenos tipas"@lt .
+
+<http://spdx.org/rdf/terms#checksum>
+  dc:identifier "spdx:checksum" ;
+  rdfs:label "distribution - checksum"@en, "Platinimas - Kontrolinė suma"@lt .
+
+dcat:compressFormat
+  dc:identifier "dcat:compressFormat" ;
+  rdfs:label "Distribution - compression format"@en, "Platinimas - Suspaudimo formatas"@lt .
+
+odrl:hasPolicy
+  dc:identifier "odrl:hasPolicy" ;
+  rdfs:label "Distribution - has policy"@en, "Platinimas - turi politiką"@lt .
+
+dcat:packageFormat
+  dc:identifier "dcat:packageFormat" ;
+  rdfs:label "Distribution - packaging format"@en, "Platinimas - rinkmenos formatas"@lt .
+
+skos:notation
+  dc:identifier "skos:notation" ;
+  rdfs:label "Identifier - notation"@en, "Identifikatorius - notacija"@lt .
+
+rdfs:seeAlso
+  dc:identifier "rdfs:seeAlso" ;
+  rdfs:label "Legal Resource - reference"@en, "Teisinis išteklius - nuoroda"@lt .
+
+<http://www.w3.org/ns/locn#geometry>
+  dc:identifier "locn:geometry" ;
+  rdfs:label "Location - geometry"@en, "Vieta - geometrija"@lt .
+
+dcat:bbox
+  dc:identifier " dcat:bbox" ;
+  rdfs:label "Location - bounding box "@en, "Vieta - Geografinės ribos"@lt .
+
+dcat:centroid
+  dc:identifier "dcat:centroid" ;
+  rdfs:label "Location - centroid"@en, "Vieta - Geografinis centras"@lt .
+
+dcat:startDate
+  dc:identifier "dcat:startDate" ;
+  rdfs:label "Period Of Time - start date"@en, "Laiko aprėptis - pradžios data"@lt .
+
+dcat:endDate
+  dc:identifier "dcat:endDate" ;
+  rdfs:label "Period Of Time - end date"@en, "Laiko aprėptis - pabaigos data"@lt .
+
+<http://www.w3.org/TR/owl-time/#time:hasBeginning>
+  dc:identifier "time:hasBeginning" ;
+  rdfs:label "Period Of Time - beginning"@en, "Laiko aprėptis - turi pradžią"@lt .
+
+<http://www.w3.org/TR/owl-time/#time:hasEnd>
+  dc:identifier "time:hasEnd" ;
+  rdfs:label "Period Of Time - end"@en, "Laiko aprėptis - turi pabaigą"@lt .
+
+skos:prefLabel
+  dc:identifier "skos:prefLabel" ;
+  rdfs:label "Public Organisation - preferred label"@en, "Viešoji organizacija - pageidaujama antraštė"@lt, "Category - preferred label"@en, "Tema - pageidaujama antraštė"@lt .
+
+<http://www.w3.org/ns/locn#address>
+  dc:identifier "locn:address" ;
+  rdfs:label "Public Organisation - address"@en, "Viešoji organizacija - adresas"@lt .
+
+org:classification
+  dc:identifier "org:classification" ;
+  rdfs:label "Public Organisation - classification"@en, "Viešoji organizacija - klasifikacija"@lt .
+
+<http://data.europa.eu/m8g/hasCompetentAuthority>
+  dc:identifier "cv:hasCompetentAuthority" ;
+  rdfs:label "Public Organisation - has competent authority"@en, "Viešoji organizacija - turi kompetentingą instituciją"@lt .
+
+<http://purl.org/vocab/cpsv#produces>
+  dc:identifier "cpsv:produces" ;
+  rdfs:label "Public Registry Service - produces"@en, "Viešoji paslauga - rezultatas (duomenų išteklius)"@lt .
+
+<http://data.europa.eu/m8g/thematicArea>
+  dc:identifier "cv:thematicArea" ;
+  rdfs:label "Public Registry Service - thematic area"@en, "Viešoji paslauga - tematinė sritis"@lt .
+
+<http://data.europa.eu/m8g/hasContactPoint>
+  dc:identifier "cv:hasContactPoint" ;
+  rdfs:label "Public Organisation - has contact point"@en, "Viešoji organizacija - turi kontaktinį tašką"@lt .
+
+<http://data.europa.eu/m8g/hasLegalResouce>
+  dc:identifier "cv:hasLegalResouce" ;
+  rdfs:label "Public Organisation - has legal resource"@en, """Viešoji organiacija - turi teisinį išteklių
+		"""@lt .
+
+dcat:hadRole
+  dc:identifier "dcat:hadRole" ;
+  rdfs:label "Relationship - had role"@en, "Santykis - turi funkciją"@lt .
+
+<http://purl.org/vocab/cpsv#implements>
+  dc:identifier "cpsv:implements" ;
+  rdfs:label "Rule - implements"@en, "Taisyklė - Įgyvendina"@lt .
+
+<http://data.gov.lt/onto/DCATAPLT#importance>
+  a rdf:Property, owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://data.gov.lt/onto/DCATAPLT#importance> ;
+  rdfs:label "Information system importance"@en, "Informacinės sistemos svarba"@lt ;
+  rdfs:comment "Information System importance as defined by law of State Information Resources Management."@en, "Informacinės sistemos svarba pagal Valstybės informacinių išeklių valdymo įstatymo reikalavimus."@lt ;
+  rdfs:range skos:Concept .
+
+<http://data.gov.lt/onto/DCATAPLT#type>
+  a rdf:Property, owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://data.gov.lt/DCAT-AP-LT/type> ;
+  rdfs:label "Information system type"@en, "Informacinės sistemos tipas"@lt ;
+  rdfs:comment "Information System type as defined by law of State Information Resources Management."@en, "Informacinės sistemos tipas pagal Valstybės informacinių išeklių valdymo įstatymo reikalavimus."@lt ;
+  rdfs:range skos:Concept .
+
+<http://data.gov.lt/onto/DCATAPLT#importanceAssessmentURL>
+  a rdf:Property, owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://data.gov.lt/DCAT-AP-LT/importanceAssessmentURL> ;
+  rdfs:label "Information system importance assessment"@en, "Informacinės sistemos svarbos vertinimas"@lt ;
+  rdfs:comment "URL reference to information System importance assessment document."@en, "URL nuoroda į informacinės sistemos svarbos vertinimo dokumentą."@lt ;
+  rdfs:range dcat:accessURL .
+
+<http://data.gov.lt/onto/DCATAPLT/Importance>
+  a skos:ConceptScheme ;
+  rdfs:label "List of importance levels"@en, "Galimų svarbos lygmenų sąrašas"@en ;
+  rdfs:isDefinedBy <http://data.gov.lt/onto/DCATAPLT/Importance> ;
+  dc:identifier "Importance" ;
+  dc:title "Importance" ;
+  skos:hasTopConcept <http://data.gov.lt/controlled-vocabulary/importance/highlyImportant>, <http://data.gov.lt/onto/DCATAPLT/Importance/important>, <http://data.gov.lt/onto/DCATAPLT/Importance/moderatelyImportant>, <http://data.gov.lt/onto/DCATAPLT/Importance/slightlyImportant> .
+
+<http://data.gov.lt/controlled-vocabulary/importance/highlyImportant>
+  a skos:Concept ;
+  dc:identifier "highlyImportant" ;
+  skos:inScheme <http://data.gov.lt/onto/DCATAPLT/Importance> ;
+  skos:prefLabel "Highly important - 1"@en, "Ypatingos svarbos - 1"@lt ;
+  skos:definition """State information resources of high importance - information systems in which the impact of a violation of the availability, integrity and confidentiality of data has consequences for the entire state (impact in more than 5 counties, more than 50 percent of the population or institutions)
+"""@en, "Ypatingos svarbos valstybės informaciniai ištekliai – informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius visai valstybei (poveikis daugiau negu 5 apskrityse, daugiau negu 50 procentų gyventojų ar institucijų)"@lt .
+
+<http://data.gov.lt/onto/DCATAPLT/Importance/important>
+  a skos:Concept ;
+  dc:identifier "important" ;
+  skos:inScheme <http://data.gov.lt/onto/DCATAPLT/Importance> ;
+  skos:prefLabel "Important - 2"@en, "Svarbūs - 2"@lt ;
+  skos:definition "Important information resources of the state - the impact of a violation of the availability, integrity and confidentiality of information systems containing data causes consequences for a large part of the state, institutions and the population (impact in 2-5 counties, 6-50 percent of the population or institutions)"@en, """Svarbūs valstybės informaciniai ištekliai – informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius didelei valstybės, institucijų ir gyventojų daliai (poveikis 2–5 apskrityse, 6–50 procentų gyventojų ar institucijų).
+"""@lt .
+
+<http://data.gov.lt/onto/DCATAPLT/Importance/moderatelyImportant>
+  a skos:Concept ;
+  dc:identifier "moderatelyImportant" ;
+  skos:inScheme <http://data.gov.lt/onto/DCATAPLT/Importance> ;
+  skos:prefLabel "Moderately important - 3"@en, "Vidutinės svarbos - 3"@lt ;
+  skos:definition """State information resources of moderate importance - information systems in which the impact of a violation of the availability, integrity and confidentiality of data causes consequences for a small part of the state, institutions and population (impact in several municipalities of one county, 1-5 percent of the population or institutions);
+"""@en, "Vidutinės svarbos valstybės informaciniai ištekliai – informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius nedidelei valstybės, institucijų ir gyventojų daliai (poveikis keliose vienos apskrities savivaldybėse, 1–5 procentų gyventojų ar institucijų)"@lt .
+
+<http://data.gov.lt/onto/DCATAPLT/Importance/slightlyImportant>
+  a skos:Concept ;
+  dc:identifier "slightlyImportant" ;
+  skos:inScheme <http://data.gov.lt/onto/DCATAPLT/Importance> ;
+  skos:prefLabel "Slightly important - 4"@en, "Mažos svarbos - 4"@lt ;
+  skos:definition "State information resources of slight importance - information systems in which the impact of a violation of the availability, integrity and confidentiality of data causes consequences for individual institutions or individual natural persons (impact on no more than one county municipality, up to 1 percent of the population or institutions)."@en, "Mažos svarbos valstybės informaciniai ištekliai – informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius pavienėms institucijoms ar pavieniams fiziniams asmenims (poveikis ne daugiau kaip vienos apskrities savivaldybei, iki 1 procento gyventojų ar institucijų)."@lt .
+
+<http://data.gov.lt/onto/DCATAPLT/Type>
+  a skos:ConceptScheme ;
+  rdfs:label "List of information system types"@en, "Galimų informacinių sisemų tipų sąrašas"@en ;
+  dc:identifier "Type" ;
+  dc:title "Type" ;
+  skos:hasTopConcept <http://data.gov.lt/onto/DCATAPLT/Type/registerInformationSystem>, <http://data.gov.lt/onto/DCATAPLT/Type/stateInformationSystem>, <http://data.gov.lt/onto/DCATAPLT/Type/internalInformationSystem> .
+
+<http://data.gov.lt/onto/DCATAPLT/Type/registerInformationSystem>
+  a skos:Concept ;
+  dc:identifier "registerInformationSystem" ;
+  skos:inScheme <http://data.gov.lt/onto/DCATAPLT/Type> ;
+  skos:prefLabel "Register information system"@en, "Registrų informacinė sistema"@lt ;
+  skos:definition "Information systems of registers in which objects are registered, objects and their registration data are processed."@en, "Registrų informacinės sistemos, kuriose registruojami objektai, tvarkomi objektų ir jų registravimo duomenys."@lt .
+
+<http://data.gov.lt/onto/DCATAPLT/Type/stateInformationSystem>
+  a skos:Concept ;
+  dc:identifier "stateInformationSystem" ;
+  skos:inScheme <http://data.gov.lt/onto/DCATAPLT/Type> ;
+  skos:prefLabel "State information system"@en, "Valstybės informacinė sistema"@lt ;
+  skos:definition "State information systems in which the data necessary for the performance of the functions established by legal acts of entities are processed, including state information systems intended for the performance and data processing of several or many entities of the same kind of operational functions defined in the legal acts regulating their activities (hereinafter referred to as the general information System."@en, """Valstybės informacinės sistemos, kuriose tvarkomi subjektų teisės aktuose nustatytoms funkcijoms atlikti reikalingi duomenys, įskaitant ir valstybės informacines sistemas, skirtas kelių ar daugelio subjektų jų veiklą reglamentuojančiuose teisės aktuose nustatytoms vienodo pobūdžio veiklos funkcijoms atlikti ir duomenims tvarkyti.
+"""@lt .
+
+<http://data.gov.lt/onto/DCATAPLT/Type/internalInformationSystem>
+  a skos:Concept ;
+  dc:identifier "internalInformationSystem" ;
+  skos:inScheme <http://data.gov.lt/onto/DCATAPLT/Type> ;
+  skos:prefLabel "Internal administration information sysem"@en, "Vidaus administravimo informacinė sistema"@lt ;
+  skos:definition "Internal administration information systems, which process data managed by entities, required for internal administration functions or other functions of an auxiliary nature, which help the entity to implement the tasks established by legal acts."@en, "Vidaus administravimo informacinės sistemos, kuriose tvarkomi subjektų valdomi duomenys, reikalingi vidaus administravimo funkcijoms ar kitoms pagalbinio pobūdžio funkcijoms, kurios padeda įgyvendinti subjektui teisės aktuose nustatytus uždavinius."@lt .

@@ -2,15 +2,14 @@
 Title: DCAT-AP-LT HVD
 Shortname: HVD
 Level: 1
-Status: LS
-ED: https://ivpk.github.io/DCAT-AP-LT/v1.0
+Status: LD
 Repository: ivpk/DCAT-AP-LT
 URL: https://ivpk.github.io/DCAT-AP-LT/
-Editor: VSSA, https://vssa.lrv.lt/
+Editor: IVPK, https://ivpk.lrv.lt/lt/
 Abstract: DCAT-AP-LT HVD metaduomenų specifikacija.
 Complain About: accidental-2119 yes, missing-example-ids yes
 Markup Shorthands: markdown yes, css no
-Translation: en ../en/hvd.html
+Translation: en en/index.html
 Boilerplate: copyright no, spec-metadata no, abstract no, conformance no
 </pre>
 

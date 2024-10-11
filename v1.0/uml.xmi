@@ -1,0 +1,610 @@
+<?xml  version='1.0' encoding='windows-1252' ?>
+<xmi:XMI xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.1" xmlns:thecustomprofile="http://www.sparxsystems.com/profiles/thecustomprofile/1.0" xmlns:RDF="http://www.sparxsystems.com/profiles/RDF/1.0">
+	<xmi:Documentation exporter="Enterprise Architect" exporterVersion="6.5" exporterID="1628"/>
+	<uml:Model xmi:type="uml:Model" name="EA_Model" visibility="public">
+		<packagedElement xmi:type="uml:Package" xmi:id="EAPK_833105C2_FFBF_CBEC_B6C5_3F8EDCD704CC" name="Praktinis Pvz RDFUIs" visibility="public">
+			<packagedElement xmi:type="uml:Class" xmi:id="EAID_901CB4D9_2A9A_4a1f_BB55_5C247546FB57" name="dcat:Catalog" visibility="public">
+				<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_dst3BE2AE_B10D_43e3_B1A1_7C1DCE66AE7C" visibility="public" association="EAID_5F3BE2AE_B10D_43e3_B1A1_7C1DCE66AE7C" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false" aggregation="none">
+					<type xmi:idref="EAID_901CB4D9_2A9A_4a1f_BB55_5C247546FB57"/>
+					<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000001__B10D_43e3_B1A1_7C1DCE66AE7C" value="0"/>
+					<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000002__B10D_43e3_B1A1_7C1DCE66AE7C" value="-1"/>
+				</ownedAttribute>
+				<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_dstCFE970_7C77_4a73_A673_C1CF4F40815F" visibility="public" association="EAID_92CFE970_7C77_4a73_A673_C1CF4F40815F" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false" aggregation="none">
+					<type xmi:idref="EAID_901CB4D9_2A9A_4a1f_BB55_5C247546FB57"/>
+					<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000003__7C77_4a73_A673_C1CF4F40815F" value="0"/>
+					<upperValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000004__7C77_4a73_A673_C1CF4F40815F" value="1"/>
+				</ownedAttribute>
+			</packagedElement>
+			<packagedElement xmi:type="uml:Association" xmi:id="EAID_5F3BE2AE_B10D_43e3_B1A1_7C1DCE66AE7C" name="&lt;&lt;dct:hasPartOf&gt;&gt;" visibility="public">
+				<memberEnd xmi:idref="EAID_dst3BE2AE_B10D_43e3_B1A1_7C1DCE66AE7C"/>
+				<memberEnd xmi:idref="EAID_src3BE2AE_B10D_43e3_B1A1_7C1DCE66AE7C"/>
+				<ownedEnd xmi:type="uml:Property" xmi:id="EAID_src3BE2AE_B10D_43e3_B1A1_7C1DCE66AE7C" visibility="public" association="EAID_5F3BE2AE_B10D_43e3_B1A1_7C1DCE66AE7C" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false" aggregation="none">
+					<type xmi:idref="EAID_901CB4D9_2A9A_4a1f_BB55_5C247546FB57"/>
+				</ownedEnd>
+			</packagedElement>
+			<packagedElement xmi:type="uml:Association" xmi:id="EAID_92CFE970_7C77_4a73_A673_C1CF4F40815F" name="&lt;&lt;dct:isPartOf&gt;&gt;" visibility="public">
+				<memberEnd xmi:idref="EAID_dstCFE970_7C77_4a73_A673_C1CF4F40815F"/>
+				<memberEnd xmi:idref="EAID_srcCFE970_7C77_4a73_A673_C1CF4F40815F"/>
+				<ownedEnd xmi:type="uml:Property" xmi:id="EAID_srcCFE970_7C77_4a73_A673_C1CF4F40815F" visibility="public" association="EAID_92CFE970_7C77_4a73_A673_C1CF4F40815F" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false" aggregation="none">
+					<type xmi:idref="EAID_901CB4D9_2A9A_4a1f_BB55_5C247546FB57"/>
+				</ownedEnd>
+			</packagedElement>
+			<packagedElement xmi:type="uml:Class" xmi:id="EAID_A7C3AFDC_9BF6_456a_BD09_57436005FDDB" name="RDFProperty1" visibility="public"/>
+			<packagedElement xmi:type="uml:Enumeration" xmi:id="EAID_040AF75E_9DE1_49eb_B7C5_FE0AB6E9F8CA" name=":Type" visibility="public">
+				<ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="EAID_571EDF13_28F8_4add_B715_9FDF4F18E0FB" name=":internalInformationSystem" visibility="public"/>
+				<ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="EAID_A1263D91_D2E9_4ddb_B1D8_E1EB40522D57" name=":stateInformationSystem" visibility="public"/>
+				<ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="EAID_1DB11462_F1B9_4f2c_B545_3EEF9FDF0B94" name=":registerInformationSystem" visibility="public"/>
+			</packagedElement>
+			<packagedElement xmi:type="uml:DataType" xmi:id="EAID_6FA951A7_F9E6_43e1_AEE7_2E39AAE60E7E" name="Importance" visibility="public"/>
+			<packagedElement xmi:type="uml:DataType" xmi:id="EAID_93566008_4677_4b07_A0DF_729AA00BB3D4" name="IS importance assessment" visibility="public"/>
+			<packagedElement xmi:type="uml:DataType" xmi:id="EAID_7FB0FEBF_3DDD_4da3_98BD_7D3CEF4C1116" name="Type" visibility="public"/>
+			<packagedElement xmi:type="uml:Abstraction" xmi:id="EAID_3722EF71_1E48_494c_A429_568BD8BBDBF7" visibility="public" supplier="EAPK_D1263665_71C4_4f0c_8331_05C2FFBFCBEC" client="EAPK_833105C2_FFBF_CBEC_B6C5_3F8EDCD704CC"/>
+		</packagedElement>
+		<RDF:rdfsDomain base_Association="EAID_5F3BE2AE_B10D_43e3_B1A1_7C1DCE66AE7C"/>
+		<RDF:rdfsDomain base_Association="EAID_92CFE970_7C77_4a73_A673_C1CF4F40815F"/>
+		<RDF:rdfProperty base_Class="EAID_A7C3AFDC_9BF6_456a_BD09_57436005FDDB"/>
+		<RDF:rdfsDatatype base_DataType="EAID_6FA951A7_F9E6_43e1_AEE7_2E39AAE60E7E"/>
+		<RDF:rdfsDatatype base_DataType="EAID_93566008_4677_4b07_A0DF_729AA00BB3D4"/>
+		<RDF:rdfsDatatype base_DataType="EAID_7FB0FEBF_3DDD_4da3_98BD_7D3CEF4C1116"/>
+		<thecustomprofile:trace base_Abstraction="EAID_3722EF71_1E48_494c_A429_568BD8BBDBF7"/>
+	</uml:Model>
+	<xmi:Extension extender="Enterprise Architect" extenderID="6.5">
+		<elements>
+			<element xmi:idref="EAPK_833105C2_FFBF_CBEC_B6C5_3F8EDCD704CC" xmi:type="uml:Package" name="Praktinis Pvz RDFUIs" scope="public">
+				<model package2="EAID_833105C2_FFBF_CBEC_B6C5_3F8EDCD704CC" package="EAPK_CA48AEB6_0C12_498a_9852_85D80EED3020" tpos="0" ea_localid="86" ea_eleType="package"/>
+				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="CN554DR" version="1.0" phase="1.0" created="2024-05-09 12:24:30" modified="2024-05-09 12:24:30" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;" object_style="Locked=false;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Simple RDF Document"/>
+				<packageproperties version="1.0"/>
+				<paths/>
+				<times created="2024-05-09 12:24:30" modified="2024-05-09 12:24:30"/>
+				<flags iscontrolled="0" isprotected="0" usedtd="0" logxml="0"/>
+			</element>
+			<element xmi:idref="EAID_901CB4D9_2A9A_4a1f_BB55_5C247546FB57" xmi:type="uml:Class" name="dcat:Catalog" scope="public">
+				<model package="EAPK_833105C2_FFBF_CBEC_B6C5_3F8EDCD704CC" tpos="0" ea_localid="666" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Class" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+				<project author="CN554DR" version="1.0" phase="1.0" created="2024-05-13 15:37:22" modified="2024-05-09 15:54:20" complexity="1" status="Approved"/>
+				<code product_name="&lt;none&gt;" gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;" object_style="Locked=false;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Praktinis Pvz RDFUIs"/>
+				<links>
+					<Association xmi:id="EAID_5F3BE2AE_B10D_43e3_B1A1_7C1DCE66AE7C" start="EAID_901CB4D9_2A9A_4a1f_BB55_5C247546FB57" end="EAID_901CB4D9_2A9A_4a1f_BB55_5C247546FB57"/>
+					<Association xmi:id="EAID_92CFE970_7C77_4a73_A673_C1CF4F40815F" start="EAID_901CB4D9_2A9A_4a1f_BB55_5C247546FB57" end="EAID_901CB4D9_2A9A_4a1f_BB55_5C247546FB57"/>
+					<Association xmi:id="EAID_5F3BE2AE_B10D_43e3_B1A1_7C1DCE66AE7C" start="EAID_901CB4D9_2A9A_4a1f_BB55_5C247546FB57" end="EAID_901CB4D9_2A9A_4a1f_BB55_5C247546FB57"/>
+					<Association xmi:id="EAID_92CFE970_7C77_4a73_A673_C1CF4F40815F" start="EAID_901CB4D9_2A9A_4a1f_BB55_5C247546FB57" end="EAID_901CB4D9_2A9A_4a1f_BB55_5C247546FB57"/>
+					<Generalization xmi:id="EAID_D11019EA_E734_400e_A779_6B8DA2A2C5F2" start="EAID_6D0B9250_1B85_4132_BD5B_575A6D13A48F" end="EAID_901CB4D9_2A9A_4a1f_BB55_5C247546FB57"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_A7C3AFDC_9BF6_456a_BD09_57436005FDDB" xmi:type="uml:Class" name="RDFProperty1" scope="public">
+				<model package="EAPK_833105C2_FFBF_CBEC_B6C5_3F8EDCD704CC" tpos="0" ea_localid="665" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Class" nType="0" scope="public" stereotype="rdfProperty" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+				<project author="CN554DR" version="1.0" phase="1.0" created="2024-05-10 12:05:17" modified="2024-05-10 12:05:17" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags>
+					<tag xmi:id="EAID_07D93580_7E85_367e_880A_54116BC83FDE" name="label" modelElement="EAID_A7C3AFDC_9BF6_456a_BD09_57436005FDDB"/>
+					<tag xmi:id="EAID_1936012D_E2B2_3be2_8339_99A3C7D3A058" name="uriRef" modelElement="EAID_A7C3AFDC_9BF6_456a_BD09_57436005FDDB"/>
+				</tags>
+				<xrefs value="$XREFPROP=$XID={670D7987-1D8F-47f6-B079-6A7A5EB8755C}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=rdfProperty;FQName=RDF::rdfProperty;@ENDSTEREO;$DES;$CLT={A7C3AFDC-9BF6-456a-BD09-57436005FDDB}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="Praktinis Pvz RDFUIs"/>
+			</element>
+			<element xmi:idref="EAID_040AF75E_9DE1_49eb_B7C5_FE0AB6E9F8CA" xmi:type="uml:Enumeration" name=":Type" scope="public">
+				<model package="EAPK_833105C2_FFBF_CBEC_B6C5_3F8EDCD704CC" tpos="0" ea_localid="661" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Enumeration" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<project author="CN554DR" version="1.0" phase="1.0" created="2024-05-09 12:31:48" modified="2024-05-10 14:46:04" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags>
+					<tag xmi:id="EAID_07D93580_E4C9_a1e4_B4D8_3FF3E13569A0" name="label" modelElement="EAID_040AF75E_9DE1_49eb_B7C5_FE0AB6E9F8CA"/>
+					<tag xmi:id="EAID_1936012D_1176_1411_ACCF_F88001793A0C" name="uriRef" modelElement="EAID_040AF75E_9DE1_49eb_B7C5_FE0AB6E9F8CA"/>
+				</tags>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Praktinis Pvz RDFUIs"/>
+				<attributes>
+					<attribute xmi:idref="EAID_571EDF13_28F8_4add_B715_9FDF4F18E0FB" name=":internalInformationSystem" scope="Public">
+						<initial/>
+						<documentation/>
+						<model ea_localid="449" ea_guid="{571EDF13-28F8-4add-B715-9FDF4F18E0FB}"/>
+						<properties collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<coords ordered="0"/>
+						<containment containment="Not Specified" position="0"/>
+						<stereotype stereotype="enum"/>
+						<bounds lower="1" upper="1"/>
+						<options/>
+						<style/>
+						<styleex value="IsLiteral=1;volatile=0;"/>
+						<tags/>
+						<xrefs value="$XREFPROP=$XID={2D6FB2EE-77A0-49a5-861E-37AD444FEA01}$XID;$NAM=Stereotypes$NAM;$TYP=attribute property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=enum;@ENDSTEREO;$DES;$CLT={571EDF13-28F8-4add-B715-9FDF4F18E0FB}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+					</attribute>
+					<attribute xmi:idref="EAID_A1263D91_D2E9_4ddb_B1D8_E1EB40522D57" name=":stateInformationSystem" scope="Public">
+						<initial/>
+						<documentation/>
+						<model ea_localid="450" ea_guid="{A1263D91-D2E9-4ddb-B1D8-E1EB40522D57}"/>
+						<properties collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<coords ordered="0"/>
+						<containment containment="Not Specified" position="1"/>
+						<stereotype stereotype="enum"/>
+						<bounds lower="1" upper="1"/>
+						<options/>
+						<style/>
+						<styleex value="IsLiteral=1;volatile=0;"/>
+						<tags/>
+						<xrefs value="$XREFPROP=$XID={BA2CBB4B-EE66-47c8-BCD3-10DA6A082FCD}$XID;$NAM=Stereotypes$NAM;$TYP=attribute property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=enum;@ENDSTEREO;$DES;$CLT={A1263D91-D2E9-4ddb-B1D8-E1EB40522D57}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+					</attribute>
+					<attribute xmi:idref="EAID_1DB11462_F1B9_4f2c_B545_3EEF9FDF0B94" name=":registerInformationSystem" scope="Public">
+						<initial/>
+						<documentation/>
+						<model ea_localid="451" ea_guid="{1DB11462-F1B9-4f2c-B545-3EEF9FDF0B94}"/>
+						<properties collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<coords ordered="0"/>
+						<containment containment="Not Specified" position="2"/>
+						<stereotype stereotype="enum"/>
+						<bounds lower="1" upper="1"/>
+						<options/>
+						<style/>
+						<styleex value="IsLiteral=1;volatile=0;"/>
+						<tags/>
+						<xrefs value="$XREFPROP=$XID={30DD4F8B-FEEE-4c38-83BA-EA6B0B826528}$XID;$NAM=Stereotypes$NAM;$TYP=attribute property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=enum;@ENDSTEREO;$DES;$CLT={1DB11462-F1B9-4f2c-B545-3EEF9FDF0B94}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+					</attribute>
+				</attributes>
+				<links>
+					<Dependency xmi:id="EAID_E551DB12_7C80_488a_A182_A52DD59E4E91" start="EAID_6D0B9250_1B85_4132_BD5B_575A6D13A48F" end="EAID_040AF75E_9DE1_49eb_B7C5_FE0AB6E9F8CA"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_6FA951A7_F9E6_43e1_AEE7_2E39AAE60E7E" xmi:type="uml:DataType" name="Importance" scope="public">
+				<model package="EAPK_833105C2_FFBF_CBEC_B6C5_3F8EDCD704CC" tpos="0" ea_localid="662" ea_eleType="element"/>
+				<properties isSpecification="false" sType="DataType" nType="0" scope="public" stereotype="rdfsDatatype" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<project author="CN554DR" version="1.0" phase="1.0" created="2024-05-09 16:12:16" modified="2024-05-09 16:13:34" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags>
+					<tag xmi:id="EAID_07D93580_DB4F_61db_8FF7_E15871596F48" name="label" modelElement="EAID_6FA951A7_F9E6_43e1_AEE7_2E39AAE60E7E"/>
+					<tag xmi:id="EAID_1936012D_D8BC_d2d8_8C4F_4F124309C0F0" name="uriRef" modelElement="EAID_6FA951A7_F9E6_43e1_AEE7_2E39AAE60E7E"/>
+				</tags>
+				<xrefs value="$XREFPROP=$XID={43B901F6-345E-4ad9-93B6-CE7B066B29C2}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=rdfsDatatype;FQName=RDF::rdfsDatatype;@ENDSTEREO;$DES;$CLT={6FA951A7-F9E6-43e1-AEE7-2E39AAE60E7E}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="Praktinis Pvz RDFUIs"/>
+			</element>
+			<element xmi:idref="EAID_93566008_4677_4b07_A0DF_729AA00BB3D4" xmi:type="uml:DataType" name="IS importance assessment" scope="public">
+				<model package="EAPK_833105C2_FFBF_CBEC_B6C5_3F8EDCD704CC" tpos="0" ea_localid="663" ea_eleType="element"/>
+				<properties isSpecification="false" sType="DataType" nType="0" scope="public" stereotype="rdfsDatatype" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<project author="CN554DR" version="1.0" phase="1.0" created="2024-05-09 16:13:39" modified="2024-05-09 16:14:15" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags>
+					<tag xmi:id="EAID_07D93580_DB4F_61db_A2F0_54012DA8BEB3" name="label" modelElement="EAID_93566008_4677_4b07_A0DF_729AA00BB3D4"/>
+					<tag xmi:id="EAID_1936012D_D8BC_d2d8_8C6E_55C6A0DA3A5D" name="uriRef" modelElement="EAID_93566008_4677_4b07_A0DF_729AA00BB3D4"/>
+				</tags>
+				<xrefs value="$XREFPROP=$XID={BEB7A88E-3DEF-48ee-A179-6A2C0D1B0A24}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=rdfsDatatype;FQName=RDF::rdfsDatatype;@ENDSTEREO;$DES;$CLT={93566008-4677-4b07-A0DF-729AA00BB3D4}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="Praktinis Pvz RDFUIs"/>
+			</element>
+			<element xmi:idref="EAID_7FB0FEBF_3DDD_4da3_98BD_7D3CEF4C1116" xmi:type="uml:DataType" name="Type" scope="public">
+				<model package="EAPK_833105C2_FFBF_CBEC_B6C5_3F8EDCD704CC" tpos="0" ea_localid="664" ea_eleType="element"/>
+				<properties isSpecification="false" sType="DataType" nType="0" scope="public" stereotype="rdfsDatatype" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<project author="CN554DR" version="1.0" phase="1.0" created="2024-05-09 16:14:24" modified="2024-05-09 16:14:51" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags>
+					<tag xmi:id="EAID_07D93580_DB4F_61db_AD10_3B01349000DA" name="label" modelElement="EAID_7FB0FEBF_3DDD_4da3_98BD_7D3CEF4C1116"/>
+					<tag xmi:id="EAID_1936012D_D8BC_d2d8_A8F3_949A58607002" name="uriRef" modelElement="EAID_7FB0FEBF_3DDD_4da3_98BD_7D3CEF4C1116"/>
+				</tags>
+				<xrefs value="$XREFPROP=$XID={62F68E5A-5760-40c8-9CAB-EBAC0C25FF98}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=rdfsDatatype;FQName=RDF::rdfsDatatype;@ENDSTEREO;$DES;$CLT={7FB0FEBF-3DDD-4da3-98BD-7D3CEF4C1116}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="Praktinis Pvz RDFUIs"/>
+			</element>
+		</elements>
+		<connectors>
+			<connector xmi:idref="EAID_5F3BE2AE_B10D_43e3_B1A1_7C1DCE66AE7C" name="&lt;&lt;dct:hasPartOf&gt;&gt;">
+				<source xmi:idref="EAID_901CB4D9_2A9A_4a1f_BB55_5C247546FB57">
+					<model ea_localid="666" type="Class" name="dcat:Catalog"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_901CB4D9_2A9A_4a1f_BB55_5C247546FB57">
+					<model ea_localid="666" type="Class" name="dcat:Catalog"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type multiplicity="0..*" aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="271"/>
+				<properties ea_type="Association" stereotype="rdfsDomain" direction="Source -&gt; Destination"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels mt="&lt;&lt;dct:hasPartOf&gt;&gt;" rb="0..*"/>
+				<extendedProperties/>
+				<style/>
+				<xrefs value="$XREFPROP=$XID={C47DB0A8-E3E0-4e6f-B97E-AF20BAB45BEE}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=rdfsDomain;FQName=RDF::rdfsDomain;@ENDSTEREO;$DES;$CLT={5F3BE2AE-B10D-43e3-B1A1-7C1DCE66AE7C}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_92CFE970_7C77_4a73_A673_C1CF4F40815F" name="&lt;&lt;dct:isPartOf&gt;&gt;">
+				<source xmi:idref="EAID_901CB4D9_2A9A_4a1f_BB55_5C247546FB57">
+					<model ea_localid="666" type="Class" name="dcat:Catalog"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_901CB4D9_2A9A_4a1f_BB55_5C247546FB57">
+					<model ea_localid="666" type="Class" name="dcat:Catalog"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type multiplicity="0..1" aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="272"/>
+				<properties ea_type="Association" stereotype="rdfsDomain" direction="Source -&gt; Destination"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels mt="&lt;&lt;dct:isPartOf&gt;&gt;" rb="0..1"/>
+				<extendedProperties/>
+				<style/>
+				<xrefs value="$XREFPROP=$XID={A2284C19-F583-4731-B6D6-42ED6348DCDB}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=rdfsDomain;FQName=RDF::rdfsDomain;@ENDSTEREO;$DES;$CLT={92CFE970-7C77-4a73-A673-C1CF4F40815F}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_D11019EA_E734_400e_A779_6B8DA2A2C5F2">
+				<source xmi:idref="EAID_6D0B9250_1B85_4132_BD5B_575A6D13A48F">
+					<model ea_localid="152" type="Class" name=":InformationSystem"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_901CB4D9_2A9A_4a1f_BB55_5C247546FB57">
+					<model ea_localid="666" type="Class" name="dcat:Catalog"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="274"/>
+				<properties ea_type="Generalization" stereotype="rdfsSubClassOf" direction="Source -&gt; Destination"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs value="$XREFPROP=$XID={FD8C7C1A-F94B-4558-9A4A-8BF3461C762F}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=rdfsSubClassOf;FQName=RDF::rdfsSubClassOf;@ENDSTEREO;$DES;$CLT={D11019EA-E734-400e-A779-6B8DA2A2C5F2}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_E551DB12_7C80_488a_A182_A52DD59E4E91" name=":type">
+				<source xmi:idref="EAID_6D0B9250_1B85_4132_BD5B_575A6D13A48F">
+					<model ea_localid="152" type="Class" name=":InformationSystem"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_040AF75E_9DE1_49eb_B7C5_FE0AB6E9F8CA">
+					<model ea_localid="661" type="Enumeration" name=":Type"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type multiplicity="1..1" aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="268"/>
+				<properties ea_type="Dependency" stereotype="rdfsIsDefinedBy" direction="Source -&gt; Destination"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels mt=":type" rb="1..1"/>
+				<extendedProperties/>
+				<style/>
+				<xrefs value="$XREFPROP=$XID={EE55C822-75BE-4dde-BBB0-45CE957F3C64}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=rdfsIsDefinedBy;FQName=RDF::rdfsIsDefinedBy;@ENDSTEREO;$DES;$CLT={E551DB12-7C80-488a-A182-A52DD59E4E91}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_3722EF71_1E48_494c_A429_568BD8BBDBF7">
+				<source xmi:idref="EAID_833105C2_FFBF_CBEC_B6C5_3F8EDCD704CC">
+					<model ea_localid="660" type="Package" name="Praktinis Pvz RDFUIs"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_D1263665_71C4_4f0c_8331_05C2FFBFCBEC">
+					<model ea_localid="137" type="Package" name="Praktinis Pvz RDFUI"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="264"/>
+				<properties ea_type="Abstraction" stereotype="trace" direction="Source -&gt; Destination"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style value="version=1.0;VOF=1;"/>
+				<xrefs value="$XREFPROP=$XID={A69D9EAD-8330-496a-A345-644F0E7F2045}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=trace;GUID={46C9366B-AC74-4814-ACB1-80E5821C666C};@ENDSTEREO;$DES;$CLT={3722EF71-1E48-494c-A429-568BD8BBDBF7}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<tags/>
+			</connector>
+		</connectors>
+		<primitivetypes>
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPrimitiveTypesPackage" name="EA_PrimitiveTypes_Package" visibility="public"/>
+		</primitivetypes>
+		<profiles>
+			<uml:Profile xmlns:uml="http://schema.omg.org/spec/UML/2.1/" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmi:version="2.1" xmi:id="thecustomprofile" nsPrefix="thecustomprofile" name="thecustomprofile" metamodelReference="mmref01">
+				<ownedComment xmi:type="uml:Comment" xmi:id="comment01" annotatedElement="thecustomprofile">
+					<body> Version:1.0</body>
+				</ownedComment>
+				<packageImport xmi:id="mmref01">
+					<importedPackage href="http://schema.omg.org/spec/UML/2.1/"/>
+				</packageImport>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="trace" name="trace">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="trace-base_Abstraction" name="base_Abstraction" association="Abstraction_trace">
+						<type href="http://schema.omg.org/spec/UML/2.1/Abstraction"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Abstraction_trace" name="A_Abstraction_trace" memberEnd="extension_trace trace-base_Abstraction">
+					<ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="extension_trace" name="extension_trace" type="trace" isComposite="true" lower="0" upper="1" memberEnd="extension_trace trace-base_Abstraction"/>
+				</packagedElement>
+			</uml:Profile>
+			<uml:Profile xmlns:uml="http://schema.omg.org/spec/UML/2.1/" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmi:version="2.1" xmi:id="9A858348-8" nsPrefix="RDF" name="RDF" metamodelReference="mmref01">
+				<ownedComment xmi:type="uml:Comment" xmi:id="comment01" annotatedElement="9A858348-8">
+					<body>Resource Description Framework V1.0 Version:1.0</body>
+				</ownedComment>
+				<packageImport xmi:id="mmref01">
+					<importedPackage href="http://schema.omg.org/spec/UML/2.1/"/>
+				</packageImport>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="reifies" name="reifies">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="reifies-base_Dependency" name="base_Dependency" association="Dependency_reifies">
+						<type href="http://schema.omg.org/spec/UML/2.1/Dependency"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Dependency_reifies" name="A_Dependency_reifies" memberEnd="extension_reifies reifies-base_Dependency">
+					<ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="extension_reifies" name="extension_reifies" type="reifies" isComposite="true" lower="0" upper="1" memberEnd="extension_reifies reifies-base_Dependency"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="rdfsIsDefinedBy" name="rdfsIsDefinedBy">
+					<generalization xmi:type="uml:Generalization" xmi:id="rdfsIsDefinedBy_rdfsSeeAlso_generalization" general="rdfsSeeAlso"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="rdfsDatatype" name="rdfsDatatype">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="rdfsDatatype-base_DataType" name="base_DataType" association="DataType_rdfsDatatype">
+						<type href="http://schema.omg.org/spec/UML/2.1/DataType"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="rdfsDatatype-label" name="label">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="rdfsDatatype-uriRef" name="uriRef">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="DataType_rdfsDatatype" name="A_DataType_rdfsDatatype" memberEnd="extension_rdfsDatatype rdfsDatatype-base_DataType">
+					<ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="extension_rdfsDatatype" name="extension_rdfsDatatype" type="rdfsDatatype" isComposite="true" lower="0" upper="1" memberEnd="extension_rdfsDatatype rdfsDatatype-base_DataType"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="blankNode" name="blankNode">
+					<generalization xmi:type="uml:Generalization" xmi:id="blankNode_rdfsResource_generalization" general="rdfsResource"/>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="blankNode-nodeID" name="nodeID">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="rdfsDomain" name="rdfsDomain">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="rdfsDomain-base_Association" name="base_Association" association="Association_rdfsDomain">
+						<type href="http://schema.omg.org/spec/UML/2.1/Association"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Association_rdfsDomain" name="A_Association_rdfsDomain" memberEnd="extension_rdfsDomain rdfsDomain-base_Association">
+					<ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="extension_rdfsDomain" name="extension_rdfsDomain" type="rdfsDomain" isComposite="true" lower="0" upper="1" memberEnd="extension_rdfsDomain rdfsDomain-base_Association"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="rdfsSeeAlso" name="rdfsSeeAlso">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="rdfsSeeAlso-base_Dependency" name="base_Dependency" association="Dependency_rdfsSeeAlso">
+						<type href="http://schema.omg.org/spec/UML/2.1/Dependency"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Dependency_rdfsSeeAlso" name="A_Dependency_rdfsSeeAlso" memberEnd="extension_rdfsSeeAlso rdfsSeeAlso-base_Dependency">
+					<ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="extension_rdfsSeeAlso" name="extension_rdfsSeeAlso" type="rdfsSeeAlso" isComposite="true" lower="0" upper="1" memberEnd="extension_rdfsSeeAlso rdfsSeeAlso-base_Dependency"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="rdfsSubPropertyOf" name="rdfsSubPropertyOf">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="rdfsSubPropertyOf-base_Generalization" name="base_Generalization" association="Generalization_rdfsSubPropertyOf">
+						<type href="http://schema.omg.org/spec/UML/2.1/Generalization"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Generalization_rdfsSubPropertyOf" name="A_Generalization_rdfsSubPropertyOf" memberEnd="extension_rdfsSubPropertyOf rdfsSubPropertyOf-base_Generalization">
+					<ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="extension_rdfsSubPropertyOf" name="extension_rdfsSubPropertyOf" type="rdfsSubPropertyOf" isComposite="true" lower="0" upper="1" memberEnd="extension_rdfsSubPropertyOf rdfsSubPropertyOf-base_Generalization"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="uriReferenceNode" name="uriReferenceNode">
+					<generalization xmi:type="uml:Generalization" xmi:id="uriReferenceNode_rdfsResource_generalization" general="rdfsResource"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="rdfsSubClassOf" name="rdfsSubClassOf">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="rdfsSubClassOf-base_Generalization" name="base_Generalization" association="Generalization_rdfsSubClassOf">
+						<type href="http://schema.omg.org/spec/UML/2.1/Generalization"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Generalization_rdfsSubClassOf" name="A_Generalization_rdfsSubClassOf" memberEnd="extension_rdfsSubClassOf rdfsSubClassOf-base_Generalization">
+					<ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="extension_rdfsSubClassOf" name="extension_rdfsSubClassOf" type="rdfsSubClassOf" isComposite="true" lower="0" upper="1" memberEnd="extension_rdfsSubClassOf rdfsSubClassOf-base_Generalization"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="rdfGraph" name="rdfGraph">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="rdfGraph-base_Package" name="base_Package" association="Package_rdfGraph">
+						<type href="http://schema.omg.org/spec/UML/2.1/Package"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="rdfGraph-label" name="label">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="rdfGraph-statementForGraph" name="statementForGraph">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="rdfGraph-graphName" name="graphName">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Package_rdfGraph" name="A_Package_rdfGraph" memberEnd="extension_rdfGraph rdfGraph-base_Package">
+					<ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="extension_rdfGraph" name="extension_rdfGraph" type="rdfGraph" isComposite="true" lower="0" upper="1" memberEnd="extension_rdfGraph rdfGraph-base_Package"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="rdfsClass" name="rdfsClass">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="rdfsClass-base_Class" name="base_Class" association="Class_rdfsClass">
+						<type href="http://schema.omg.org/spec/UML/2.1/Class"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="rdfsClass-label" name="label">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="rdfsClass-uriRef" name="uriRef">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Class_rdfsClass" name="A_Class_rdfsClass" memberEnd="extension_rdfsClass rdfsClass-base_Class">
+					<ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="extension_rdfsClass" name="extension_rdfsClass" type="rdfsClass" isComposite="true" lower="0" upper="1" memberEnd="extension_rdfsClass rdfsClass-base_Class"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="rdfsResource" name="rdfsResource">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="rdfsResource-base_Object" name="base_Object" association="Object_rdfsResource">
+						<type href="http://schema.omg.org/spec/UML/2.1/Object"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="rdfsResource-label" name="label">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="rdfsResource-memberOf" name="memberOf">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="rdfsResource-uriRef" name="uriRef">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Object_rdfsResource" name="A_Object_rdfsResource" memberEnd="extension_rdfsResource rdfsResource-base_Object">
+					<ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="extension_rdfsResource" name="extension_rdfsResource" type="rdfsResource" isComposite="true" lower="0" upper="1" memberEnd="extension_rdfsResource rdfsResource-base_Object"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="rdfDocument" name="rdfDocument">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="rdfDocument-base_Package" name="base_Package" association="Package_rdfDocument">
+						<type href="http://schema.omg.org/spec/UML/2.1/Package"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="rdfDocument-statementForDocument" name="statementForDocument">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="rdfDocument-xmlBase" name="xmlBase">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="rdfDocument-namespaceDefinition" name="namespaceDefinition">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="rdfDocument-defaultNamespace" name="defaultNamespace">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Package_rdfDocument" name="A_Package_rdfDocument" memberEnd="extension_rdfDocument rdfDocument-base_Package">
+					<ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="extension_rdfDocument" name="extension_rdfDocument" type="rdfDocument" isComposite="true" lower="0" upper="1" memberEnd="extension_rdfDocument rdfDocument-base_Package"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="rdfsComment" name="rdfsComment">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="rdfsComment-base_Comment" name="base_Comment" association="Comment_rdfsComment">
+						<type href="http://schema.omg.org/spec/UML/2.1/Comment"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="rdfsComment-language" name="language">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Comment_rdfsComment" name="A_Comment_rdfsComment" memberEnd="extension_rdfsComment rdfsComment-base_Comment">
+					<ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="extension_rdfsComment" name="extension_rdfsComment" type="rdfsComment" isComposite="true" lower="0" upper="1" memberEnd="extension_rdfsComment rdfsComment-base_Comment"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="rdfsRange" name="rdfsRange">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="rdfsRange-base_Association" name="base_Association" association="Association_rdfsRange">
+						<type href="http://schema.omg.org/spec/UML/2.1/Association"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Association_rdfsRange" name="A_Association_rdfsRange" memberEnd="extension_rdfsRange rdfsRange-base_Association">
+					<ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="extension_rdfsRange" name="extension_rdfsRange" type="rdfsRange" isComposite="true" lower="0" upper="1" memberEnd="extension_rdfsRange rdfsRange-base_Association"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="rdfGlobal" name="rdfGlobal">
+					<generalization xmi:type="uml:Generalization" xmi:id="rdfGlobal_rdfProperty_generalization" general="rdfProperty"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="rdfProperty" name="rdfProperty">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="rdfProperty-base_Class" name="base_Class" association="Class_rdfProperty">
+						<type href="http://schema.omg.org/spec/UML/2.1/Class"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="rdfProperty-base_Association" name="base_Association" association="Association_rdfProperty">
+						<type href="http://schema.omg.org/spec/UML/2.1/Association"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="rdfProperty-base_Property" name="base_Property" association="Property_rdfProperty">
+						<type href="http://schema.omg.org/spec/UML/2.1/Property"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="rdfProperty-label" name="label">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="rdfProperty-uriRef" name="uriRef">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Class_rdfProperty" name="A_Class_rdfProperty" memberEnd="extension_rdfProperty rdfProperty-base_Class">
+					<ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="extension_rdfProperty" name="extension_rdfProperty" type="rdfProperty" isComposite="true" lower="0" upper="1" memberEnd="extension_rdfProperty rdfProperty-base_Class"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Association_rdfProperty" name="A_Association_rdfProperty" memberEnd="extension_rdfProperty rdfProperty-base_Association">
+					<ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="extension_rdfProperty" name="extension_rdfProperty" type="rdfProperty" isComposite="true" lower="0" upper="1" memberEnd="extension_rdfProperty rdfProperty-base_Association"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Property_rdfProperty" name="A_Property_rdfProperty" memberEnd="extension_rdfProperty rdfProperty-base_Property">
+					<ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="extension_rdfProperty" name="extension_rdfProperty" type="rdfProperty" isComposite="true" lower="0" upper="1" memberEnd="extension_rdfProperty rdfProperty-base_Property"/>
+				</packagedElement>
+			</uml:Profile>
+		</profiles>
+		<diagrams>
+			<diagram xmi:id="EAID_B78F6019_B50B_B493_BD10_7A3044564502">
+				<model package="EAPK_833105C2_FFBF_CBEC_B6C5_3F8EDCD704CC" localID="8" owner="EAPK_833105C2_FFBF_CBEC_B6C5_3F8EDCD704CC" tpos="0"/>
+				<properties name="dcataplt" type="Logical"/>
+				<project author="CN554DR" version="1.0" created="2024-05-09 00:00:00" modified="2024-05-13 15:45:21"/>
+				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=0;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=780;DocSize.cy=1134;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=1;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;HideConnStereotype=1;"/>
+				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=ODM::RDFDefinition;MDGView=Complete;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=1;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;OverrideLinkedF=1;HideConnStereotype=1;SuppressedCompartments=;Theme=:119;GST=1SaveTag=45FCC8A2;"/>
+				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<extendedProperties/>
+				<persistentstyle value="DGS=On=0:CNT=8:W=120:H=40:SG=0:SGH=0:AEB=0:;AR=0;DCL=0;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;Swimlanes=locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;"/>
+				<xrefs value="$XREFPROP=$XID={A4B5C058-2F01-4833-8BE1-204FAE17C456}$XID;$NAM=Version$NAM;$TYP=reference$TYP;$VIS=Public$VIS;$DES=1.0 to 1.0$DES;$CLT={B78F6019-B50B-B493-BD10-7A3044564502}$CLT;$SUP={6F31EC88-63D7-4c68-B78F-6019B50BB493}$SUP;$ENDXREF;"/>
+				<elements>
+					<element geometry="Left=390;Top=443;Right=550;Bottom=525;" subject="EAID_901CB4D9_2A9A_4a1f_BB55_5C247546FB57" seqno="1" style="HideIcon=0;BCol=16119285;font=Calibri;fontsz=80;bold=0;black=0;italic=0;ul=0;charset=0;pitch=34;BFol=0;LWth=0;DUID=81C80A13;ImageID=0;"/>
+					<element geometry="Left=711;Top=606;Right=885;Bottom=706;" subject="EAID_040AF75E_9DE1_49eb_B7C5_FE0AB6E9F8CA" seqno="2" style="DUID=ACD97DF9;HideIcon=0;AttCustom=0;OpCustom=0;RzO=1;"/>
+					<element geometry="Left=363;Top=605;Right=578;Bottom=707;" subject="EAID_6D0B9250_1B85_4132_BD5B_575A6D13A48F" seqno="3" style="NSL=0;LCol=-1;LWth=-1;bold=0;black=0;italic=0;ul=0;charset=0;BFol=0;BCol=16119285;font=Calibri;fontsz=80;pitch=34;DUID=C5178F5F;"/>
+					<element geometry="Left=737;Top=431;Right=859;Bottom=538;" subject="EAID_16979D43_468D_4642_A4B5_1A3A274CD9AF" seqno="4" style="DUID=AA27EE7A;HideIcon=0;LWth=0;"/>
+					<element geometry="SX=107;SY=32;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=CX=49:CY=14:OX=-1:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LMB=;LRT=;LRB=CX=17:CY=14:OX=-4:OY=5:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_67F6C6F7_0FC1_4053_B4B7_E034A87BB2A7" style="Mode=3;EOID=AA27EE7A;SOID=C5178F5F;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="SX=70;SY=-3;EX=-86;EY=-3;EDGE=2;$LLB=;LLT=;LMT=CX=22:CY=14:OX=2:OY=-2:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LMB=;LRT=;LRB=CX=17:CY=14:OX=-1:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_E551DB12_7C80_488a_A182_A52DD59E4E91" style="Mode=3;EOID=ACD97DF9;SOID=C5178F5F;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_D11019EA_E734_400e_A779_6B8DA2A2C5F2" style="Mode=3;EOID=81C80A13;SOID=C5178F5F;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="SX=0;SY=0;EX=0;EY=0;SCME=1;SCTR=1;EDGE=2;SCTR.LEFT=548;SCTR.TOP=-473;SCTR.RIGHT=604;SCTR.BOTTOM=-444;$LLB=;LLT=;LMT=CX=51:CY=27:OX=8:OY=1:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LMB=;LRT=CX=17:CY=14:OX=29:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=;IRHS=;ILHS=;Path=550:-473$604:-473$604:-444$550:-444$;" subject="EAID_5F3BE2AE_B10D_43e3_B1A1_7C1DCE66AE7C" style="Mode=3;EOID=81C80A13;SOID=81C80A13;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="SX=0;SY=0;EX=0;EY=0;SCME=1;SCTR=1;EDGE=3;SCTR.LEFT=543;SCTR.TOP=-546;SCTR.RIGHT=608;SCTR.BOTTOM=-511;$LLB=;LLT=;LMT=CX=68:CY=14:OX=5:OY=11:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LMB=;LRT=CX=17:CY=14:OX=22:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=;IRHS=;ILHS=;Path=543:-525$543:-546$608:-546$608:-511$550:-511$;" subject="EAID_92CFE970_7C77_4a73_A673_C1CF4F40815F" style="Mode=3;EOID=81C80A13;SOID=81C80A13;Color=-1;LWidth=0;Hidden=0;"/>
+				</elements>
+			</diagram>
+		</diagrams>
+	</xmi:Extension>
+</xmi:XMI>
