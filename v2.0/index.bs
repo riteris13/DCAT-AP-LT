@@ -11,8 +11,6 @@ Complain About: accidental-2119 yes, missing-example-ids yes
 Markup Shorthands: markdown yes, css no
 Translation: en en/index.html
 Boilerplate: copyright no, spec-metadata no, abstract no, conformance no
-## This is an example title
-<p>this is a paragraph</p>
 </pre>
 
 # Sąvokos # {#Savokos}
@@ -304,11 +302,11 @@ DCAT-AP-LT apima [BregDCAT-AP](#bib-breg) naudojamas klases ir papildo jas Infor
 
 Ši specifikacija yra orientuota į Valstybės informacinių išteklių valdymo įstatymo nuostatų dėl informacinėse sistemose tvarkomų metaduomenų įgyvendinimo.
 
-# Statusas
+# Statusas # {#Statusas}
 
 DCAT-AP-LT 0.1 
 
-# Licencija
+# Licencija # {#Licencija}
 
 Šio modelio medžiaga skelbiama pagal CC-BY 4.0 licenciją, nebent pažymėta kitaip.
 
@@ -1992,7 +1990,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
     </tr>
  </table>
 
-### Klasės Pateiktis rekomenduojamos savybės ### {###PrivalomosPateiktisSavybes}
+### Klasės Pateiktis rekomenduojamos savybės ### {###RekomenduojamosPateiktisSavybes}
 
         <style>
             .data-table.simple {
@@ -2251,7 +2249,7 @@ ir pateikties valdymo teisės.</td>
     </tr>
    </table>
 
-## Licencijos dokumentas ## {LicencijosDokumentas}
+## Licencijos dokumentas ## {##LicencijosDokumentas}
 
         <style>
             .data-table.simple {
@@ -3873,7 +3871,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
 
 
 
-## Adresas ## {##Veikla}
+## Adresas ## {##Adresas}
 
         <style>
             .data-table.simple {
@@ -4063,7 +4061,7 @@ Didelės vertės duomenų rinkinių metaduomenų informacija pateikiama šiame [
 Norime išreikšti padėką visiems dirbusiems, kuriant DCAT-AP-LT specifikaciją: Kęstutis Andrijauskas, Martynas Mockus, Mantas Zimnickas, Darius Amilevičius, Martynas Daugirdas, Gabrielė Stočkūnaitė, Alanas Lukjanovičius, Vladimiras Desiatnikovas
 
 
-# Nuorodos
+# Nuorodos # {#Nuorodos}
 
 
  
@@ -4108,7 +4106,7 @@ Norime išreikšti padėką visiems dirbusiems, kuriant DCAT-AP-LT specifikacij�
     </dd><dt id="bib-hvd">[HVD<!---0.115482%-->]</dt><dd>
       <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R0138"><cite>Implementing Regulation for High Value Datasets</cite></a>.  European Union. URL: <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R0138">https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R0138</a><!---0.115482%-->
     </dd>
-    <dt id="bib-hvd">[DCAT-AP-LT HVD<!---0.115482%-->]</dt><dd>
+    <dt id="bib-lt-hvd">[DCAT-AP-LT HVD<!---0.115482%-->]</dt><dd>
       <a href="https://ivpk.github.io/DCAT-AP-LT/hvd.html"><cite>Didelės vertės duomenų rinkinių metaduomenų specifikacija, taikoma Lietuvoje</cite></a>
     </dd>
 <dt id="bib-json-ld11">[json-ld11<!---0.115482%-->]</dt><dd>
