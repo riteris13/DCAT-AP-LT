@@ -53,9 +53,9 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
     <dd><a href="https://w3c.github.io/dxwg/dcat/#Class:Catalog">Nuoroda</a></dd>
     <dt>Savybės</dt>
     <dd>Apibrėžiamos šios šio objekto ypatybės: <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Catalogue.dataset">duomenų rinkinys,</a> 
-	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Catalogue.record">įrašas,</a>
-	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Catalogue.service">paslauga.</a>
-	</dd>
+    <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Catalogue.record">įrašas,</a>
+    <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Catalogue.service">paslauga.</a>
+    </dd>
     <dd>
 <table>
   <thead>
@@ -109,7 +109,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
     <dd><a href="https://w3c.github.io/dxwg/dcat/#Class:Catalog_Record">Nuoroda</a></dd>
     <dt>Savybės</dt>
     <dd>Apibrėžiamos šios šio objekto ypatybės: <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#CatalogueRecord.primarytopic">pagrindinė tema,</a>
-	</dd>
+    </dd>
     <dd>
 <table>
   <thead>
@@ -162,15 +162,15 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
     <dd><a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#CataloguedResource">Katalogo resursas</a></dd>
     <dt>Savybės</dt>
     <dd>Apibrėžiamos šios šio objekto ypatybės: <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.applicablelegislation">teisinis pagrindas,</a> 
-	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.contactpoint">kontaktas,</a>
-	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.documentation">dokumentacija,</a>
-	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.endpointdescription">prieigos taško aprašymas,</a>
-	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.endpointURL">prieigos taško URL,</a>	
-	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.HVDcategory">didelės vertės duomenų rinkinio kategorija,</a>
-	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.licence">licencija,</a>
-	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.rights">teisės,</a>
-	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.servesdataset">pateikia duomenų rinkinį.</a>
-	</dd>
+    <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.contactpoint">kontaktas,</a>
+    <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.documentation">dokumentacija,</a>
+    <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.endpointdescription">prieigos taško aprašymas,</a>
+    <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.endpointURL">prieigos taško URL,</a>    
+    <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.HVDcategory">didelės vertės duomenų rinkinio kategorija,</a>
+    <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.licence">licencija,</a>
+    <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.rights">teisės,</a>
+    <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.servesdataset">pateikia duomenų rinkinį.</a>
+    </dd>
     <dd>
 <table>
   <thead>
@@ -274,11 +274,11 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
     <dd><a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#CataloguedResource">Katalogo resursas</a></dd>
     <dt>Savybės</dt>
 <dd>Apibrėžiamos šios šio objekto ypatybės: <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.applicablelegislation">teisinis pagrindas,</a> 
-	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Dataset.conformsto">taikymo profilis,</a>
-	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.contactpoint">kontaktas,</a>
-	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Dataset.datasetdistribution">duomenų rinkinio pateikimas,</a>
-	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.HVDcategory">didelės vertės duomenų rinkinio kategorija.</a>
-	</dd>
+    <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Dataset.conformsto">taikymo profilis,</a>
+    <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.contactpoint">kontaktas,</a>
+    <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Dataset.datasetdistribution">duomenų rinkinio pateikimas,</a>
+    <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.HVDcategory">didelės vertės duomenų rinkinio kategorija.</a>
+    </dd>
     <dd>
 <table>
   <thead>
@@ -350,12 +350,12 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
     <dd>Masiniai atsisiuntimai turi būti koduojami kaip pateikimas.</dd>
     <dt>Savybės</dt>
     <dd>Apibrėžiamos šios šio objekto ypatybės: <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Distribution.accessservice">prieigos paslauga,</a> 
-	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Distribution.accessURL">prieigos URL,</a>
-	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Distribution.applicablelegislation">teisinis pagrindas,</a>
-	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Distribution.licence">licencija,</a>
-	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Distribution.linkedschemas">susijusi schema,</a>
-	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Distribution.rights">teisės.</a>
-	</dd>
+    <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Distribution.accessURL">prieigos URL,</a>
+    <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Distribution.applicablelegislation">teisinis pagrindas,</a>
+    <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Distribution.licence">licencija,</a>
+    <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Distribution.linkedschemas">susijusi schema,</a>
+    <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Distribution.rights">teisės.</a>
+    </dd>
     <dd>
 <table>
   <thead>
@@ -433,8 +433,8 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
     <dd>Rekomenduojama pateikti bent el. laišką arba kontaktinę formą iš, pvz., aptarnavimo centro.</dd>
     <dt>Savybės</dt>
     <dd>Apibrėžiamos šios šio objekto ypatybės: <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Kind.contactpage">kontaktas</a> 
-	<a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Kind.email">el. paštas.</a>
-	</dd>
+    <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Kind.email">el. paštas.</a>
+    </dd>
     <dd>
 <table>
   <thead>
