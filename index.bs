@@ -4056,6 +4056,11 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
 
 Didelės vertės duomenų rinkinių metaduomenų informacija pateikiama šiame [priede](https://ivpk.github.io/DCAT-AP-LT/hvd.html).
 
+# Metaduomenų modelio susiejimas su IS gyvavimo ciklo stadijomis  # {#Gyvavimo}
+
+DCAT-AP-LT metaduomenų modelio susiejimo ir pildymo skirtingose informacinės sistemos gyvavimo ciklo stadijose pateikiama šiame [priede](https://github.com/ivpk/DCAT-AP-LT/blob/main/IVPK%20-%20Meta%20-%20DCAT-AP-LT%20susiejimas%20su%20IS%20gyvavimo%20stadijomis_Klasi%C5%B3%20ir%20savybi%C5%B3%20lygmenyje_v4_2024-10-14.pdf).
+
+
 # Padėka # {#Padeka}
 
 Norime išreikšti padėką visiems dirbusiems, kuriant DCAT-AP-LT specifikaciją: Kęstutis Andrijauskas, Martynas Mockus, Mantas Zimnickas, Darius Amilevičius, Martynas Daugirdas, Gabrielė Stočkūnaitė, Alanas Lukjanovičius, Vladimiras Desiatnikovas
