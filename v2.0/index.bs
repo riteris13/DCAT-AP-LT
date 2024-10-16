@@ -14,7 +14,12 @@ Boilerplate: copyright no, spec-metadata no, abstract no, conformance no
 </pre>
 
 # Sąvokos # {#Savokos}
-
+<details>
+    <summary>Here is a new section</summary>
+    Text in the details
+    more text
+    <b>bold text</b>
+<details>
 <table>
     <tr>
         <th>Sąvoka</th>
