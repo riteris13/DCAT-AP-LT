@@ -339,7 +339,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
   </dd>
 </dl>
 
-## Pateiktis
+## Pateiktis ## {##Pateiktis}
 
 <dl>
     <dt>Apibrėžimas</dt>
@@ -470,7 +470,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
   </dd>
 </dl>
 
-## Licencijos dokumentas
+## Licencijos dokumentas ## {##LicencijosDokumentas}
 
 <dl>
     <dt>Apibrėžimas</dt>
@@ -489,7 +489,7 @@ Atsižvelgiant į šias savybes ir, atitinkamai, iš to išplaukiančius reikala
 Norime išreikšti padėką visiems dirbusiems, kuriant DCAT-AP-LT specifikaciją: Kęstutis Andrijauskas, Martynas Mockus, Mantas Zimnickas, Darius Amilevičius, Martynas Daugirdas, Gabrielė Stočkūnaitė, Alanas Lukjanovičius, Vladimiras Desiatnikovas
 
 
-# Nuorodos
+# Nuorodos # {#Nuorodos}
 
  <dl class="bibliography">
 <dt id="bib-dcat-ap-lt">[DCAT-AP-LT<!---0.115482%-->]</dt><dd>

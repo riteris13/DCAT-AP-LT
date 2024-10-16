@@ -1,11 +1,11 @@
 <pre class='metadata'>
-Title: DCAT-AP-LT
+Title: DCAT-AP-LT - Version 2
 Shortname: DCAT-AP-LT
 Level: 1
-Status: LD
+Status: iso/TS
 Repository: ivpk/DCAT-AP-LT
 URL: https://ivpk.github.io/DCAT-AP-LT/
-Editor: IVPK, https://ivpk.lrv.lt/lt/
+Editor: VSSA, https://vssa.lrv.lt/en/
 Abstract: DCAT-AP-LT metadata model.
 Complain About: accidental-2119 yes, missing-example-ids yes
 Markup Shorthands: markdown yes, css no
@@ -13,7 +13,7 @@ Translation: lt ../index.html
 Boilerplate: copyright no, spec-metadata no, abstract no, conformance no
 </pre>
 
-# Introduction
+# Introduction # {#Introduction}
 
 <dl>
     <dd>DCAT-AP-LT is a metadata specification for describing Lithuanian datasets and services. DCAT-AP-LT is an extension of the European metadata specification DCAT-AP, developed in accordance with the rules and recommendations established for the formation of the DCAT-AP specification, including ontologies and thesauri as auxiliary tools for data description.
@@ -22,7 +22,7 @@ DCAT-AP-LT includes the classes used by BREG-DCAT-AP(https://github.com/SEMICeu/
 
 </dd>
 </dl>
-## Context
+## Context ## {##Context}
 
 Currently, it is expected that the European Commission will provide support for development of these [Common European Data Spaces](https://digital-strategy.ec.europa.eu/en/policies/data-spaces):
 <ul>
@@ -48,20 +48,20 @@ This specification is intended to support these planned data spaces and provide 
 
 
 
-## Scope
+## Scope ## {##Scope}
 
 This specification is focused on the implementation of the provisions of the State Information Resources Management Law on metadata managed in information systems.
 
 
-# Status
+# Status # {#Status}
 
 DCAT-AP-LT 0.1 
 
-# Licence
+# Licence # {#Licence}
 
 The material in this model is published under the CC-BY 4.0 license, unless otherwise noted.
 
-# Terminology
+# Terminology # {#Terminology}
 
 <table>
     <tr>
@@ -199,7 +199,7 @@ The material in this model is published under the CC-BY 4.0 license, unless othe
 </table>
 
 
-# Model overview
+# Model overview # {#ModelOverview}
 
 DCAT-AP-LT includes all the classes listed in BREG-DCAT-AP 2.1 and supplements them with an Information System class that extends the dcat:Catalog class and two controlled dictionaries to mark the type and importance of the Information System as defined in the State Information Resource Cleaning Law.
 Also, DCAT-AP-HVD classes and additional properties are used to describe the metadata of high-value datasets.
@@ -209,9 +209,9 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
 
 
 
-# DCAT-AP-LT Specific Classes
+# DCAT-AP-LT Specific Classes # {#SpecificClasses}
 
-## Information system (dcataplt:InformationSystem)
+## Information system (dcataplt:InformationSystem) ## {##IS}
 
 <dl>
     <dt>Definition</dt>
@@ -257,9 +257,9 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
     </dd>
 </dl>
 
-# DCAT-AP-LT Specific Controlled Vocabularies
+# DCAT-AP-LT Specific Controlled Vocabularies # {#SpecificVocabs}
 
-## Importance (dcataplt:Importance)
+## Importance (dcataplt:Importance) ## {##Importance}
 
 <dl>
     <dt>Definition</dt>
@@ -307,7 +307,7 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
     </dd>
 </dl>
 
-## Type (dcataplt:Type)
+## Type (dcataplt:Type) ## {##Type}
 
 <dl>
     <dt>Definition</dt>
@@ -349,12 +349,12 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
 </dl>
 
 
-# Used BregDCAT-AP classes
+# Used BregDCAT-AP classes # {#Breg}
 
 Note:  In Lithuania,  Datasets are described with minor adaptations regarding the citation of the legal source, as the ELI has not yet been adopted in Lithuania. LegalResource resource is an attribute under ELI with the name [id_local](=http://data.europa.eu/eli/ontology#id_local). The local identifier is used as the URI of the legal resource published in the [Register of Legal Acts](https://www.e-tar.lt/portal/).
 
 
-## Catalog
+## Catalog ## {##Catalog}
 
 <dl>
     <dt>Definition</dt>
@@ -380,7 +380,7 @@ Note:  In Lithuania,  Datasets are described with minor adaptations regarding th
 </dl>
 
 
-## Agent
+## Agent ## {##Agent}
 
 
  <table class="data-table simple">
@@ -399,7 +399,7 @@ Note:  In Lithuania,  Datasets are described with minor adaptations regarding th
   </table>
 
 
-## Dataset
+## Dataset ## {##Dataset}
 
   <table class="data-table simple">
             <tr >
@@ -423,7 +423,7 @@ The data set is distinguished and formulated as a meaningful and significant con
         </table>
 
 
-## Data Service
+## Data Service ## {##DataService}
 
  <table class="data-table simple">
             <tr >
@@ -442,7 +442,7 @@ The data set is distinguished and formulated as a meaningful and significant con
         </table>
 
 
-## Category, Publisher type, Status
+## Category, Publisher type, Status ## {##Category}
 
  <table class="data-table simple">
             <tr >
@@ -461,7 +461,7 @@ The data set is distinguished and formulated as a meaningful and significant con
         </table>
 
 
-## Distribution
+## Distribution ## {##Distribution}
 
  <table class="data-table simple">
             <tr >
@@ -486,7 +486,7 @@ In the context of IS, the priority and largest application of this Class is for 
 
 
 
-## Licence Document
+## Licence Document ## {##LicenceDocument}
 
  <table class="data-table simple">
             <tr >
@@ -506,7 +506,7 @@ In the context of IS, the priority and largest application of this Class is for 
         </table>
 
 
-## Category Scheme
+## Category Scheme ## {##CategoryScheme}
 
  <table class="data-table simple">
             <tr >
@@ -526,7 +526,7 @@ In the context of IS, the priority and largest application of this Class is for 
 
  
 
-## Legal Resource
+## Legal Resource ## {##LegalResource}
 
  <table class="data-table simple">
             <tr >
@@ -547,7 +547,7 @@ Note:  In Lithuania,  Datasets are described with minor adaptations regarding th
         </table>
 
 
-## Rule
+## Rule ## {##Rule}
 
  <table class="data-table simple">
             <tr >
@@ -568,7 +568,7 @@ Note:  In Lithuania,  Datasets are described with minor adaptations regarding th
    
 
 
-## Public Organisation
+## Public Organisation ## {##PublicOrganisation}
 
           <table class="data-table simple">
             <tr >
@@ -589,7 +589,7 @@ Note:  In Lithuania,  Datasets are described with minor adaptations regarding th
         
 
 
-## Public Registry Service
+## Public Registry Service ## {##PRService)
 
  <table class="data-table simple">
             <tr >
@@ -609,7 +609,7 @@ Note:  In Lithuania,  Datasets are described with minor adaptations regarding th
         </table>
 
 
-## Catalog Record
+## Catalog Record ## {##CatalogRecord}
 
  <table class="data-table simple">
             <tr >
@@ -629,7 +629,7 @@ Note:  In Lithuania,  Datasets are described with minor adaptations regarding th
 <br>
 
 
-## Checksum
+## Checksum ## {##Checksum}
 
  <table class="data-table simple">
             <tr >
@@ -649,7 +649,7 @@ Note:  In Lithuania,  Datasets are described with minor adaptations regarding th
         </table>
 <br>
 
-## Document
+## Document ## {##Document}
 
  <table class="data-table simple">
             <tr >
@@ -669,7 +669,7 @@ Note:  In Lithuania,  Datasets are described with minor adaptations regarding th
 
 
 
-## Frequency
+## Frequency ## {##Frequency}
 
  <table class="data-table simple">
             <tr >
@@ -689,7 +689,7 @@ Note:  In Lithuania,  Datasets are described with minor adaptations regarding th
 
 
 
-## Identifier
+## Identifier ## {##Identifier}
 
  <table class="data-table simple">
             <tr >
@@ -712,7 +712,7 @@ optional identifier of the agency managing the identifier scheme.
         </table>
 <br>
 
-## Kind
+## Kind ## {##Kind}
 
  <table class="data-table simple">
             <tr >
@@ -730,7 +730,7 @@ optional identifier of the agency managing the identifier scheme.
         </table>
 
 
-## Linguistic system
+## Linguistic system ## {##LinguisticSystem}
 
  <table class="data-table simple">
             <tr >
@@ -751,7 +751,7 @@ optional identifier of the agency managing the identifier scheme.
  
 
 
-## Location
+## Location ## {##Location}
 
  <table class="data-table simple">
             <tr >
@@ -770,7 +770,7 @@ optional identifier of the agency managing the identifier scheme.
         </table>
 
 
-## Media type
+## Media type{MediaType}
 
  <table class="data-table simple">
             <tr >
@@ -791,7 +791,7 @@ optional identifier of the agency managing the identifier scheme.
 
 
 
-## Period of Time
+## Period of Time ## {##PeriodOfTime}
 
  <table class="data-table simple">
             <tr >
@@ -808,7 +808,7 @@ optional identifier of the agency managing the identifier scheme.
             </tr>
            
         </table>
-## Resource  
+## Resource ## {##Resource}
 
         <style>
             .data-table.simple {
@@ -832,7 +832,7 @@ optional identifier of the agency managing the identifier scheme.
            
         </table>
 
-## Rights Statements
+## Rights Statements ## {##RightsStatement}
 
  <table class="data-table simple">
             <tr >
@@ -853,7 +853,7 @@ optional identifier of the agency managing the identifier scheme.
 
 
 
-## Provenence Statement
+## Provenence Statement ## {##ProvenanceStatement}
 
  <table class="data-table simple">
             <tr >
@@ -873,7 +873,7 @@ optional identifier of the agency managing the identifier scheme.
         </table>
 
 
-## Standard
+## Standard ## {##Standard}
 
  <table class="data-table simple">
             <tr >
@@ -893,7 +893,7 @@ optional identifier of the agency managing the identifier scheme.
         </table>
 
 
-## Contact Point
+## Contact Point ## {##ContactPoint}
 
  <table class="data-table simple">
             <tr >
@@ -913,7 +913,7 @@ optional identifier of the agency managing the identifier scheme.
 
 
 
-## Quality Annotation
+## Quality Annotation ## {##QualityAnnotation}
 
  <table class="data-table simple">
             <tr >
@@ -935,7 +935,7 @@ optional identifier of the agency managing the identifier scheme.
 
 
 
-## Quality Measurement
+## Quality Measurement ## {##QualityMeasurement}
 
  <table class="data-table simple">
             <tr >
@@ -955,7 +955,7 @@ optional identifier of the agency managing the identifier scheme.
         </table>
 
 
-## Activity
+## Activity ## {##Activity}
 
  <table class="data-table simple">
             <tr >
@@ -976,7 +976,7 @@ optional identifier of the agency managing the identifier scheme.
 
 
 
-## Address
+## Address ## {##Address}
 
  <table class="data-table simple">
             <tr >
@@ -994,7 +994,7 @@ optional identifier of the agency managing the identifier scheme.
            
         </table>
 
-# BReg-DCAT-AP used controlled vocabularies
+# BReg-DCAT-AP used controlled vocabularies ## {##ControlledVocabluaries}
 
 <table>
   <tr>
@@ -1130,7 +1130,7 @@ optional identifier of the agency managing the identifier scheme.
  </table>
 
 
-# Metadata Standard for High Value Datasets (HVD-DCAT-AP-LT)
+# Metadata Standard for High Value Datasets (HVD-DCAT-AP-LT) # {#HVD}
 
 Metadata information for high-value datasets is provided in this [appendix](https://ivpk.github.io/DCAT-AP-LT/en/hvd.html).
 

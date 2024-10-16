@@ -1,16 +1,18 @@
 <pre class='metadata'>
-Title: DCAT-AP-LT
+Title: DCAT-AP-LT - Versija 2
 Shortname: DCAT-AP-LT
 Level: 1
 Status: iso/TS
 Repository: ivpk/DCAT-AP-LT
 URL: https://ivpk.github.io/DCAT-AP-LT/
-Editor: IVPK, https://ivpk.lrv.lt/lt/
+Editor: VSSA, https://VSSA.lrv.lt/lt/
 Abstract: DCAT-AP-LT metaduomenų modelis.
 Complain About: accidental-2119 yes, missing-example-ids yes
 Markup Shorthands: markdown yes, css no
 Translation: en en/index.html
 Boilerplate: copyright no, spec-metadata no, abstract no, conformance no
+## This is an example title
+<p>this is a paragraph</p>
 </pre>
 
 # Sąvokos # {#Savokos}
@@ -273,7 +275,7 @@ DCAT-AP-LT apima [BregDCAT-AP](#bib-breg) naudojamas klases ir papildo jas Infor
 
 </dd>
 </dl>
-## Kontekstas
+## Kontekstas ## {##Kontekstas}
 
 Šiuo metu numatoma, jog Europos Komisija teiks paramą šioms [Europos bendroms duomenų erdvėms](https://digital-strategy.ec.europa.eu/en/policies/data-spaces) kurti:
 <ul>
@@ -468,7 +470,7 @@ Pagrindinių modelių esybių, kurios sudaro taikymo profilio branduolį, savyb�
 
 # DCAT-AP-LT specifinė klasė # {#DCAT-AP-LTKlase}
 
-## Informacinė Sistema (dcataplt:InformationSystem) ## {#InformacineSistema}
+## Informacinė Sistema (dcataplt:InformationSystem) ## {##InformacineSistema}
 
 <dl>
     <dt>Apibrėžimas</dt>
@@ -540,7 +542,7 @@ Pagrindinių modelių esybių, kurios sudaro taikymo profilio branduolį, savyb�
 
 DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuojami reikšmių ar tipų sąrašai, klasifikatoriai ir žinynai
 
-## Svarba (dcataplt:Importance) ## {#Svarba}
+## Svarba (dcataplt:Importance) ## {##Svarba}
 
 <dl>
     <dt>Apibrėžimas</dt>
@@ -594,7 +596,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
     </dd>
 </dl>
 
-## Informacinės sistemos rūšis (dcataplt:Type) ## {#Tipas}
+## Informacinės sistemos rūšis (dcataplt:Type) ## {##Tipas}
 
 <dl>
     <dt>Apibrėžimas</dt>
@@ -646,7 +648,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
 # Naudojamos BregDCAT-AP klasės ir savybės # {#NaudojamosBREGSavybes}
 
 
-## Katalogas
+## Katalogas ## {##Katalogas}
 
 <dl>
     <dt>Apibrėžimas</dt>
@@ -937,7 +939,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
 </dl>
 
 
-## Agentas
+## Agentas ## {##Agentas}
 
 <dl>
     <dt>Apibrėžimas</dt>
@@ -1038,7 +1040,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
 </dl>
 
 
-## Tekstinis
+## Tekstinis  ## {##Tekstinis}
 
         <style>
             .data-table.simple {
@@ -1062,7 +1064,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
            
         </table>
 
-## Išteklius  ## {##Isteklius}
+## Išteklius ## {##Isteklius}
 
         <style>
             .data-table.simple {
@@ -1087,7 +1089,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
         </table>
 
 
-## Duomenų rinkinys  ## {##DuomenuRinkinys}
+## Duomenų rinkinys ## {##DuomenuRinkinys}
 
         <style>
             .data-table.simple {
@@ -1932,7 +1934,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
  </table>
 
 
-## Pateiktis
+## Pateiktis ## {##Pateiktis}
 
         <style>
             .data-table.simple {
@@ -2249,7 +2251,7 @@ ir pateikties valdymo teisės.</td>
     </tr>
    </table>
 
-## Licencijos dokumentas
+## Licencijos dokumentas ## {LicencijosDokumentas}
 
         <style>
             .data-table.simple {
@@ -3300,7 +3302,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
     </tr>
 </table>
 
-## Dokumentas
+## Dokumentas ## {##Dokumentas}
 
         <style>
             .data-table.simple {
@@ -3351,7 +3353,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
 
 
 
-## Identifikatorius
+## Identifikatorius ## {##Identifikatorius}
 
         <style>
             .data-table.simple {
@@ -3560,7 +3562,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
 </table>
 
 
-## Medijos tipas
+## Medijos tipas ## {##MedijosTipas}
 
         <style>
             .data-table.simple {
@@ -3586,7 +3588,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
 
 
 
-## Laikotarpis
+## Laikotarpis ## {##Laikotarpis}
 
         <style>
             .data-table.simple {
@@ -3742,7 +3744,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
         </table>
 
 
-## Standartas
+## Standartas ## {##Standartas}
 
         <style>
             .data-table.simple {
@@ -3845,7 +3847,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
         </table>
 
 
-## Veikla
+## Veikla ## {##Veikla}
 
         <style>
             .data-table.simple {
@@ -3871,7 +3873,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
 
 
 
-## Adresas
+## Adresas ## {##Veikla}
 
         <style>
             .data-table.simple {

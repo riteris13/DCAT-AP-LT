@@ -13,7 +13,7 @@ Translation: en en/index.html
 Boilerplate: copyright no, spec-metadata no, abstract no, conformance no
 </pre>
 
-#  Implementation of DCAT-AP HVD in Lithuania
+# Implementation of DCAT-AP HVD in Lithuania
 
 The Definition of High Value Datasets arose from the need to identify the most important data for example:
 <ul>
