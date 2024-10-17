@@ -27,7 +27,7 @@ jobs:
           python-version: ${{ env.PYTHON_VERSION }}
 
       - name: Install Bikeshed
-        run: pip install bikeshed
+        run: pip install bikeshed --quiet
 
       - name: Build documentation
         run: |

@@ -590,7 +590,7 @@ Note:  In Lithuania,  Datasets are described with minor adaptations regarding th
         
 
 
-## Public Registry Service ## {##PRService)
+## Public Registry Service ## {##PRService}
 
  <table class="data-table simple">
             <tr >
@@ -771,7 +771,7 @@ optional identifier of the agency managing the identifier scheme.
         </table>
 
 
-## Media type{MediaType}
+## Media type ## {##MediaType}
 
  <table class="data-table simple">
             <tr >
