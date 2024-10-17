@@ -4059,7 +4059,7 @@ Didelės vertės duomenų rinkinių metaduomenų informacija pateikiama šiame [
 
 # DCAT-AP-LT metaduomenų klasių ir savybių kūrimo eiga pagal informacinės sistemos gyvavimo ciklo stadijas  # {#Gyvavimo}
 
-DCAT-AP-LT metaduomenų klasių ir savybių kūrimo eiga pagal skirtingas informacinės sistemos gyvavimo ciklo stadijas pateikiama šiame [priede]('https://riteris13.github.io/DCAT-AP-LT/DCAT-AP-LT metaduomenų kūrimo eiga pagal IS gyvavimo ciklo stadijas v2.0.1.pdf').
+DCAT-AP-LT metaduomenų klasių ir savybių kūrimo eiga pagal skirtingas informacinės sistemos gyvavimo ciklo stadijas pateikiama šiame [priede](DCAT-AP-LT%20metaduomenų%20kūrimo%20eiga%20pagal%20IS%20gyvavimo%20ciklo%20stadijas%20v2.0.1.pdf).
 
 
 # Padėka # {#Padeka}
