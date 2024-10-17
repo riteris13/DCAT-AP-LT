@@ -5,7 +5,7 @@ Level: 1
 Status: iso/TS
 Date: 2024-10-18
 Repository: ivpk/DCAT-AP-LT
-URL: https://ivpk.github.io/DCAT-AP-LT/
+URL: https://ivpk.github.io/DCAT-AP-LT/en/
 Editor: VSSA, https://vssa.lrv.lt/en/
 Abstract: DCAT-AP-LT metadata model.
 Complain About: accidental-2119 yes, missing-example-ids yes
@@ -1133,7 +1133,7 @@ optional identifier of the agency managing the identifier scheme.
 
 # Metadata Standard for High Value Datasets (HVD-DCAT-AP-LT) # {#HVD}
 
-Metadata information for high-value datasets is provided in this [appendix](https://ivpk.github.io/DCAT-AP-LT/en/hvd.html).
+Metadata information for high-value datasets is provided in this [appendix](hvd.html).
 
 # Aknowledgements # {#Aknowledgements}
 
