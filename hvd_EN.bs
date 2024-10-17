@@ -2,19 +2,19 @@
 Title: High Value Datasets (DCAT-AP-LT) metadata specification
 Shortname: HVD
 Level: 1
-Status: LS
-ED: https://ivpk.github.io/DCAT-AP-LT/v1.0
+Status: iso/TS
+Date: 2024-10-18
 Repository: ivpk/DCAT-AP-LT
 URL: https://ivpk.github.io/DCAT-AP-LT/
-Editor: VSSA, https://vssa.lrv.lt/en
+Editor: IVPK, https://ivpk.lrv.lt/lt/
 Abstract: DCAT-AP-LT metadata model.
 Complain About: accidental-2119 yes, missing-example-ids yes
 Markup Shorthands: markdown yes, css no
-Translation: lt ../hvd.html
-Boilerplate: copyright no, spec-metadata no, abstract no, conformance no, status no
+Translation: en en/index.html
+Boilerplate: copyright no, spec-metadata no, abstract no, conformance no
 </pre>
 
-#  Implementation of DCAT-AP HVD in Lithuania
+# Implementation of DCAT-AP HVD in Lithuania
 
 The Definition of High Value Datasets arose from the need to identify the most important data for example:
 <ul>

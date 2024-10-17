@@ -3,6 +3,7 @@ Title: DCAT-AP-LT - Version 2
 Shortname: DCAT-AP-LT
 Level: 1
 Status: iso/TS
+Date: 2024-10-18
 Repository: ivpk/DCAT-AP-LT
 URL: https://ivpk.github.io/DCAT-AP-LT/
 Editor: VSSA, https://vssa.lrv.lt/en/
@@ -1134,13 +1135,13 @@ optional identifier of the agency managing the identifier scheme.
 
 Metadata information for high-value datasets is provided in this [appendix](https://ivpk.github.io/DCAT-AP-LT/en/hvd.html).
 
-# Aknowledgements
+# Aknowledgements # {#Aknowledgements}
 
 We would like to express our gratitude to everyone who worked on the development of the DCAT-AP-LT model: Kęstutis Andrijauskas, Martynas Mockus, Mantas Zimnickas, Darius Amilevičius, Martynas Daugirdas, Gabrielė Stočkūnaitė, Alanas Lukjanovičius, Vladimiras Desiatnikovas
 
 
 
-# References
+# References # {#References}
 
  <dl class="bibliography"><dt id="bib-datacite">[DATACITE<!---0.115482%-->]</dt><dd>
       <a href="http://www.datacite.org/"><cite>DataCite</cite></a>.  DataCite. URL: <a href="http://www.datacite.org/">http://www.datacite.org/</a><!---0.115482%-->

@@ -1,10 +1,9 @@
 <pre class='metadata'>
-Title: DCAT-AP-LT
+Title: DCAT-AP-LT - Version 2
 Shortname: DCAT-AP-LT
 Level: 1
-Status: LS
-Date: 2024-10-10
-ED: https://ivpk.github.io/DCAT-AP-LT/v1.0
+Status: iso/TS
+Date: 2024-10-18
 Repository: ivpk/DCAT-AP-LT
 URL: https://ivpk.github.io/DCAT-AP-LT/
 Editor: VSSA, https://vssa.lrv.lt/en/
@@ -12,10 +11,10 @@ Abstract: DCAT-AP-LT metadata model.
 Complain About: accidental-2119 yes, missing-example-ids yes
 Markup Shorthands: markdown yes, css no
 Translation: lt ../index.html
-Boilerplate: copyright no, spec-metadata yes, abstract no, conformance no, status no
+Boilerplate: copyright no, spec-metadata no, abstract no, conformance no
 </pre>
 
-# Introduction
+# Introduction # {#Introduction}
 
 <dl>
     <dd>DCAT-AP-LT is a metadata specification for describing Lithuanian datasets and services. DCAT-AP-LT is an extension of the European metadata specification DCAT-AP, developed in accordance with the rules and recommendations established for the formation of the DCAT-AP specification, including ontologies and thesauri as auxiliary tools for data description.
@@ -24,24 +23,24 @@ DCAT-AP-LT includes the classes used by BREG-DCAT-AP(https://github.com/SEMICeu/
 
 </dd>
 </dl>
-## Context
+## Context ## {##Context}
 
 Currently, it is expected that the European Commission will provide support for development of these [Common European Data Spaces](https://digital-strategy.ec.europa.eu/en/policies/data-spaces):
 <ul>
-<li>Agriculture; </li>
-<li>Cultural Heritage; </li>
- <li>Energy; </li>
-<li>Finance; </li>
-<li>Green deal; </li>
-<li>Language; </li>
- <li>Health; </li>
-<li>Manufacturing; </li>
-<li>Media; </li>
- <li>Mobility; </li>
- <li>Public administration; </li>
-<li>Research and Innovation; </li>
- <li>Skills;  </li>
-<li>Tourism.  </li>
+    <li>Agriculture; </li>
+    <li>Cultural Heritage; </li>
+    <li>Energy; </li>
+    <li>Finance; </li>
+    <li>Green deal; </li>
+    <li>Language; </li>
+    <li>Health; </li>
+    <li>Manufacturing; </li>
+    <li>Media; </li>
+    <li>Mobility; </li>
+    <li>Public administration; </li>
+    <li>Research and Innovation; </li>
+    <li>Skills; </li>
+    <li>Tourism. </li>
 </ul>
 
 
@@ -50,20 +49,20 @@ This specification is intended to support these planned data spaces and provide 
 
 
 
-## Scope
+## Scope ## {##Scope}
 
 This specification is focused on the implementation of the provisions of the State Information Resources Management Law on metadata managed in information systems.
 
 
-# Status
+# Status # {#Status}
 
-DCAT-AP-LT 2.0.0 Release
+DCAT-AP-LT 0.1 
 
-# Licence
+# Licence # {#Licence}
 
 The material in this model is published under the CC-BY 4.0 license, unless otherwise noted.
 
-# Terminology
+# Terminology # {#Terminology}
 
 <table>
     <tr>
@@ -72,136 +71,136 @@ The material in this model is published under the CC-BY 4.0 license, unless othe
     </tr>
  <tr>
         <td>
-		<code>dcataplt</code>
-	</td>
+        <code>dcataplt</code>
+       </td>
         <td>
-		<code>https://data.gov.lt/onto/DCATAPLT#</code>
-	</td>
+        <code>https://data.gov.lt/onto/DCATAPLT#</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>adms</code>
-	</td>
+        <code>adms</code>
+        </td>
         <td>
-		<code>http://www.w3.org/ns/adms#</code>
-	</td>
+        <code>http://www.w3.org/ns/adms#</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>cpsv</code>
-	</td>
+        <code>cpsv</code>
+        </td>
         <td>
-		<code>http://purl.org/vocab/cpsv#</code>
-	</td>
+        <code>http://purl.org/vocab/cpsv#</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>cv</code>
-	</td>
+        <code>cv</code>
+        </td>
         <td>
-		<code>http://data.europa.eu/m8g/</code>
-	</td>
+        <code>http://data.europa.eu/m8g/</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>dcat</code>
-	</td>
+        <code>dcat</code>
+        </td>
         <td>
-		<code>http://www.w3.org/ns/dcat#</code>
-	</td>
+        <code>http://www.w3.org/ns/dcat#</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>dqv</code>
-	</td>
+        <code>dqv</code>
+        </td>
         <td>
-		<code>http://www.w3.org/ns/dqv#</code>
-	</td>
+        <code>http://www.w3.org/ns/dqv#</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>eli</code>
-	</td>
+        <code>eli</code>
+        </td>
         <td>
-		<code>http://data.europa.eu/eli/ontology#</code>
-	</td>
+        <code>http://data.europa.eu/eli/ontology#</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>foaf</code>
-	</td>
+        <code>foaf</code>
+        </td>
         <td>
-		<code>http://xmlns.com/foaf/0.1/</code>
-	</td>
+        <code>http://xmlns.com/foaf/0.1/</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>odrl</code>
-	</td>
+        <code>odrl</code>
+        </td>
         <td>
-		<code>http://www.w3.org/ns/odrl/2/</code>
-	</td>
+        <code>http://www.w3.org/ns/odrl/2/</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>prov</code>
-	</td>
+        <code>prov</code>
+        </td>
         <td>
-		<code>http://www.w3.org/ns/prov#</code>
-	</td>
+        <code>http://www.w3.org/ns/prov#</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>rdfs</code>
-	</td>
+        <code>rdfs</code>
+        </td>
         <td>
-		<code>http://www.w3.org/2000/01/rdf-schema#</code>
-	</td>
+        <code>http://www.w3.org/2000/01/rdf-schema#</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>skos</code>
-	</td>
+        <code>skos</code>
+        </td>
         <td>
-		<code>http://www.w3.org/2004/02/skos/core#</code>
-	</td>
+        <code>http://www.w3.org/2004/02/skos/core#</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>spdx</code>
-	</td>
+        <code>spdx</code>
+        </td>
         <td>
-		<code>http://spdx.org/rdf/terms#</code>
-	</td>
+        <code>http://spdx.org/rdf/terms#</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>vann</code>
-	</td>
+        <code>vann</code>
+        </td>
         <td>
-		<code>http://purl.org/vocab/vann/</code>
-	</td>
+        <code>http://purl.org/vocab/vann/</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>vcard</code>
-	</td>
+        <code>vcard</code>
+        </td>
         <td>
-		<code>http://www.w3.org/2006/vcard/ns#</code>
-	</td>
+        <code>http://www.w3.org/2006/vcard/ns#</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>voaf</code>
-	</td>
+        <code>voaf</code>
+        </td>
         <td>
-		<code>http://purl.org/vocommons/voaf#</code>
-	</td>
+        <code>http://purl.org/vocommons/voaf#</code>
+        </td>
     </tr>
 </table>
 
 
-# Model overview
+# Model overview # {#ModelOverview}
 
 DCAT-AP-LT includes all the classes listed in BREG-DCAT-AP 2.1 and supplements them with an Information System class that extends the dcat:Catalog class and two controlled dictionaries to mark the type and importance of the Information System as defined in the State Information Resource Cleaning Law.
 Also, DCAT-AP-HVD classes and additional properties are used to describe the metadata of high-value datasets.
@@ -211,9 +210,9 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
 
 
 
-# DCAT-AP-LT Specific Classes
+# DCAT-AP-LT Specific Classes # {#SpecificClasses}
 
-## Information system (dcataplt:InformationSystem)
+## Information system (dcataplt:InformationSystem) ## {##IS}
 
 <dl>
     <dt>Definition</dt>
@@ -228,7 +227,7 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
                 <th class="data-table__header-title--sortable" style="width:6%">Card</th>
                 <th class="data-table__header-title--sortable" style="width:30%">Definition</th>
                 <th class="data-table__header-title--sortable" style="width:30%">Description</th>
-		<th class="data-table__header-title--sortable" style="width:6%">Reuse</th>
+        <th class="data-table__header-title--sortable" style="width:6%">Reuse</th>
             </tr>
 <br></br>
             <tr class="data-table__header">
@@ -237,7 +236,7 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
                 <td>1..1</td>
                 <td>Information system importance.</td>
                 <td>Information System importance as defined by law of State Information Resources Management.</td>
-		<td>P</td>
+        <td>P</td>
             </tr>
             <tr class="data-table__header">
                 <td>dcataplt:type</td>
@@ -245,7 +244,7 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
                 <td>1..1</td>
                 <td>Information system type.</td>
                 <td>Information System type as defined by law of State Information Resources Management.</td>
-		<td>P</td>
+        <td>P</td>
             </tr>
             <tr class="data-table__header">
                 <td>dcataplt:ISImportanceAssessmentURL</td>
@@ -253,15 +252,15 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
                 <td>1..1</td>
                 <td>Information system importance assessment.</td>
                 <td>URL reference to information System importance assessment document.</td>
-		<td>P</td>
+        <td>P</td>
             </tr>
         </table>
     </dd>
 </dl>
 
-# DCAT-AP-LT Specific Controlled Vocabularies
+# DCAT-AP-LT Specific Controlled Vocabularies # {#SpecificVocabs}
 
-## Importance (dcataplt:Importance)
+## Importance (dcataplt:Importance) ## {##Importance}
 
 <dl>
     <dt>Definition</dt>
@@ -271,45 +270,45 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
         <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Value</th>
-		<th class="data-table__header-title--sortable" style="width:12%">URI</th>
+        <th class="data-table__header-title--sortable" style="width:12%">URI</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Description</th>
-		 <th class="data-table__header-title--sortable" style="width:5%">Reuse</th>
+         <th class="data-table__header-title--sortable" style="width:5%">Reuse</th>
             </tr>
 <br></br>
             <tr class="data-table__header">
                 <td>Highly important</td>
-		<td>dcataplt:highlyImportant</td>
+        <td>dcataplt:highlyImportant</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>They include data important for the entire state and/or state registers or state information systems in which these data are processed - value 1 is indicated.</td> 
-		<td>P</td>
+        <td>P</td>
             </tr>
             <tr class="data-table__header">
                 <td>Important</td>
-		<td>dcataplt:important</td>
+        <td>dcataplt:important</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>They include data important to several institutions and/or state registers or state information systems in which these data are processed - value 2 is indicated.</td>      
-		<td>P</td>           
+        <td>P</td>           
 </tr>
             <tr class="data-table__header">
                 <td>Moderately important</td>
-		<td>dcataplt:moderatelyImportant</td>
+        <td>dcataplt:moderatelyImportant</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>They include data important for one institution and/or departmental registers or state information systems in which these data are processed - value 3 is indicated.</td>      
-		<td>P</td>           
+        <td>P</td>           
 </tr>
             <tr class="data-table__header">
                 <td>Slightly important</td>
-		<td>dcataplt:slightlyImportant</td>
+        <td>dcataplt:slightlyImportant</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>They include data managed by the institution in the performance of internal administration functions and/or information systems in which these data are processed. The procedure for the establishment, development, modernization and liquidation of the information systems mentioned in this point shall be determined by the institutions authorized by the Government of the Republic of Lithuania - meaning 4.</td>      
-		<td>P</td>            
+        <td>P</td>            
 </tr>
         </table>
     </dd>
 </dl>
 
-## Type (dcataplt:Type)
+## Type (dcataplt:Type) ## {##Type}
 
 <dl>
     <dt>Definition</dt>
@@ -319,44 +318,44 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
         <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Name</th>
-		<th class="data-table__header-title--sortable" style="width:12%">URI</th>
+        <th class="data-table__header-title--sortable" style="width:12%">URI</th>
                 <th class="data-table__header-title--sortable" style="width:12%">Range</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Description</th>
-		<th class="data-table__header-title--sortable" style="width:5%">Reuse</th>
+        <th class="data-table__header-title--sortable" style="width:5%">Reuse</th>
             </tr>
 <br></br>
             <tr class="data-table__header">
                 <td>Register information system</td>
-		<td>dcataplt:registerInformationSystem</td>
+        <td>dcataplt:registerInformationSystem</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Information systems of registers in which objects are registered, objects and their registration data are processed.</td>      
-		<td>P</td>           
+        <td>P</td>           
 </tr>
             <tr class="data-table__header">
                 <td>State information system</td>
-		<td>dcataplt:stateInformationSystem</td>
+        <td>dcataplt:stateInformationSystem</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>State information systems in which the data necessary for the performance of the functions established by legal acts of entities are processed, including state information systems intended for the performance and data processing of several or many entities of the same kind of operational functions defined in the legal acts regulating their activities (hereinafter referred to as the general information system.</td>      
-		<td>P</td>            
+        <td>P</td>            
 </tr>
             <tr class="data-table__header">
                 <td>Internal information system</td>
-		<td>dcataplt:internalInformationSystem</td>
+        <td>dcataplt:internalInformationSystem</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Internal administration information systems, which process data managed by entities, required for internal administration functions or other functions of an auxiliary nature, which help the entity to implement the tasks established by legal acts.</td>      
-		<td>P</td>           
+        <td>P</td>           
 </tr>
         </table>
     </dd>
 </dl>
 
 
-# Used BregDCAT-AP classes
+# Used BregDCAT-AP classes # {#Breg}
 
 Note:  In Lithuania,  Datasets are described with minor adaptations regarding the citation of the legal source, as the ELI has not yet been adopted in Lithuania. LegalResource resource is an attribute under ELI with the name [id_local](=http://data.europa.eu/eli/ontology#id_local). The local identifier is used as the URI of the legal resource published in the [Register of Legal Acts](https://www.e-tar.lt/portal/).
 
 
-## Catalog
+## Catalog ## {##Catalog}
 
 <dl>
     <dt>Definition</dt>
@@ -382,7 +381,7 @@ Note:  In Lithuania,  Datasets are described with minor adaptations regarding th
 </dl>
 
 
-## Agent
+## Agent ## {##Agent}
 
 
  <table class="data-table simple">
@@ -401,7 +400,7 @@ Note:  In Lithuania,  Datasets are described with minor adaptations regarding th
   </table>
 
 
-## Dataset
+## Dataset ## {##Dataset}
 
   <table class="data-table simple">
             <tr >
@@ -425,7 +424,7 @@ The data set is distinguished and formulated as a meaningful and significant con
         </table>
 
 
-## Data Service
+## Data Service ## {##DataService}
 
  <table class="data-table simple">
             <tr >
@@ -444,7 +443,7 @@ The data set is distinguished and formulated as a meaningful and significant con
         </table>
 
 
-## Category, Publisher type, Status
+## Category, Publisher type, Status ## {##Category}
 
  <table class="data-table simple">
             <tr >
@@ -463,7 +462,7 @@ The data set is distinguished and formulated as a meaningful and significant con
         </table>
 
 
-## Distribution
+## Distribution ## {##Distribution}
 
  <table class="data-table simple">
             <tr >
@@ -488,7 +487,7 @@ In the context of IS, the priority and largest application of this Class is for 
 
 
 
-## Licence Document
+## Licence Document ## {##LicenceDocument}
 
  <table class="data-table simple">
             <tr >
@@ -508,7 +507,7 @@ In the context of IS, the priority and largest application of this Class is for 
         </table>
 
 
-## Category Scheme
+## Category Scheme ## {##CategoryScheme}
 
  <table class="data-table simple">
             <tr >
@@ -528,7 +527,7 @@ In the context of IS, the priority and largest application of this Class is for 
 
  
 
-## Legal Resource
+## Legal Resource ## {##LegalResource}
 
  <table class="data-table simple">
             <tr >
@@ -549,7 +548,7 @@ Note:  In Lithuania,  Datasets are described with minor adaptations regarding th
         </table>
 
 
-## Rule
+## Rule ## {##Rule}
 
  <table class="data-table simple">
             <tr >
@@ -570,7 +569,7 @@ Note:  In Lithuania,  Datasets are described with minor adaptations regarding th
    
 
 
-## Public Organisation
+## Public Organisation ## {##PublicOrganisation}
 
           <table class="data-table simple">
             <tr >
@@ -591,7 +590,7 @@ Note:  In Lithuania,  Datasets are described with minor adaptations regarding th
         
 
 
-## Public Registry Service
+## Public Registry Service ## {##PRService)
 
  <table class="data-table simple">
             <tr >
@@ -611,7 +610,7 @@ Note:  In Lithuania,  Datasets are described with minor adaptations regarding th
         </table>
 
 
-## Catalog Record
+## Catalog Record ## {##CatalogRecord}
 
  <table class="data-table simple">
             <tr >
@@ -631,7 +630,7 @@ Note:  In Lithuania,  Datasets are described with minor adaptations regarding th
 <br>
 
 
-## Checksum
+## Checksum ## {##Checksum}
 
  <table class="data-table simple">
             <tr >
@@ -651,7 +650,7 @@ Note:  In Lithuania,  Datasets are described with minor adaptations regarding th
         </table>
 <br>
 
-## Document
+## Document ## {##Document}
 
  <table class="data-table simple">
             <tr >
@@ -671,7 +670,7 @@ Note:  In Lithuania,  Datasets are described with minor adaptations regarding th
 
 
 
-## Frequency
+## Frequency ## {##Frequency}
 
  <table class="data-table simple">
             <tr >
@@ -691,7 +690,7 @@ Note:  In Lithuania,  Datasets are described with minor adaptations regarding th
 
 
 
-## Identifier
+## Identifier ## {##Identifier}
 
  <table class="data-table simple">
             <tr >
@@ -714,7 +713,7 @@ optional identifier of the agency managing the identifier scheme.
         </table>
 <br>
 
-## Kind
+## Kind ## {##Kind}
 
  <table class="data-table simple">
             <tr >
@@ -732,7 +731,7 @@ optional identifier of the agency managing the identifier scheme.
         </table>
 
 
-## Linguistic system
+## Linguistic system ## {##LinguisticSystem}
 
  <table class="data-table simple">
             <tr >
@@ -753,7 +752,7 @@ optional identifier of the agency managing the identifier scheme.
  
 
 
-## Location
+## Location ## {##Location}
 
  <table class="data-table simple">
             <tr >
@@ -772,7 +771,7 @@ optional identifier of the agency managing the identifier scheme.
         </table>
 
 
-## Media type
+## Media type{MediaType}
 
  <table class="data-table simple">
             <tr >
@@ -793,7 +792,7 @@ optional identifier of the agency managing the identifier scheme.
 
 
 
-## Period of Time
+## Period of Time ## {##PeriodOfTime}
 
  <table class="data-table simple">
             <tr >
@@ -810,7 +809,7 @@ optional identifier of the agency managing the identifier scheme.
             </tr>
            
         </table>
-## Resource  
+## Resource ## {##Resource}
 
         <style>
             .data-table.simple {
@@ -834,7 +833,7 @@ optional identifier of the agency managing the identifier scheme.
            
         </table>
 
-## Rights Statements
+## Rights Statements ## {##RightsStatement}
 
  <table class="data-table simple">
             <tr >
@@ -855,7 +854,7 @@ optional identifier of the agency managing the identifier scheme.
 
 
 
-## Provenence Statement
+## Provenence Statement ## {##ProvenanceStatement}
 
  <table class="data-table simple">
             <tr >
@@ -875,7 +874,7 @@ optional identifier of the agency managing the identifier scheme.
         </table>
 
 
-## Standard
+## Standard ## {##Standard}
 
  <table class="data-table simple">
             <tr >
@@ -895,7 +894,7 @@ optional identifier of the agency managing the identifier scheme.
         </table>
 
 
-## Contact Point
+## Contact Point ## {##ContactPoint}
 
  <table class="data-table simple">
             <tr >
@@ -915,7 +914,7 @@ optional identifier of the agency managing the identifier scheme.
 
 
 
-## Quality Annotation
+## Quality Annotation ## {##QualityAnnotation}
 
  <table class="data-table simple">
             <tr >
@@ -937,7 +936,7 @@ optional identifier of the agency managing the identifier scheme.
 
 
 
-## Quality Measurement
+## Quality Measurement ## {##QualityMeasurement}
 
  <table class="data-table simple">
             <tr >
@@ -957,7 +956,7 @@ optional identifier of the agency managing the identifier scheme.
         </table>
 
 
-## Activity
+## Activity ## {##Activity}
 
  <table class="data-table simple">
             <tr >
@@ -978,7 +977,7 @@ optional identifier of the agency managing the identifier scheme.
 
 
 
-## Address
+## Address ## {##Address}
 
  <table class="data-table simple">
             <tr >
@@ -989,23 +988,22 @@ optional identifier of the agency managing the identifier scheme.
             </tr>
             <tr class="data-table__header">
                 <td>Address</td>
-                <td>"Address Mapping" as the INSPIRE address representation data type is conceptually defined.
- </td>
+                <td>"Address Mapping" as the INSPIRE address representation data type is conceptually defined. </td>
                 <td></td>
                 <td>[locn:Address](http://www.w3.org/ns/locn#Address)</td>
             </tr>
            
         </table>
 
-# BReg-DCAT-AP used controlled vocabularies
+# BReg-DCAT-AP used controlled vocabularies ## {##ControlledVocabluaries}
 
 <table>
   <tr>
-	<th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Property URI</th>
+    <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Property URI</th>
         <th class="data-table__header-title--sortable" style="width:20%">Used in Class</th>
         <th class="data-table__header-title--sortable" style="width:12%">Vocabulary name</th>
         <th class="data-table__header-title--sortable" style="width:12%">Vocabulary URI</th>
-	<th class="data-table__header-title--sortable" style="width:12%">Usage note</th>
+    <th class="data-table__header-title--sortable" style="width:12%">Usage note</th>
   </tr>
   <tr>
     <td>dct:accessRights</td>
@@ -1082,7 +1080,7 @@ optional identifier of the agency managing the identifier scheme.
     <td><a href="http://purl.org/adms/status/">http://purl.org/adms/status/</a></td>
     <td>Data Distributions must indicate the status of the resource according to the ADMS Status vocabulary (i.e., Completed, Deprecated, Under Development).</td>
   </tr>
-	<tr>
+    <tr>
     <td>cv:thematicArea</td>
     <td>Public Registry Service</td>
     <td>EuroVoc</td>
@@ -1133,17 +1131,17 @@ optional identifier of the agency managing the identifier scheme.
  </table>
 
 
-# Metadata Standard for High Value Datasets (HVD-DCAT-AP-LT)
+# Metadata Standard for High Value Datasets (HVD-DCAT-AP-LT) # {#HVD}
 
 Metadata information for high-value datasets is provided in this [appendix](https://ivpk.github.io/DCAT-AP-LT/en/hvd.html).
 
-# Aknowledgements
+# Aknowledgements # {#Aknowledgements}
 
 We would like to express our gratitude to everyone who worked on the development of the DCAT-AP-LT model: Kęstutis Andrijauskas, Martynas Mockus, Mantas Zimnickas, Darius Amilevičius, Martynas Daugirdas, Gabrielė Stočkūnaitė, Alanas Lukjanovičius, Vladimiras Desiatnikovas
 
 
 
-# References
+# References # {#References}
 
  <dl class="bibliography"><dt id="bib-datacite">[DATACITE<!---0.115482%-->]</dt><dd>
       <a href="http://www.datacite.org/"><cite>DataCite</cite></a>.  DataCite. URL: <a href="http://www.datacite.org/">http://www.datacite.org/</a><!---0.115482%-->

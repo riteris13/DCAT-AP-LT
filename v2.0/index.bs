@@ -3,6 +3,7 @@ Title: DCAT-AP-LT - Versija 2
 Shortname: DCAT-AP-LT
 Level: 1
 Status: iso/TS
+Date: 2024-10-18
 Repository: ivpk/DCAT-AP-LT
 URL: https://ivpk.github.io/DCAT-AP-LT/
 Editor: VSSA, https://VSSA.lrv.lt/lt/
@@ -4055,6 +4056,11 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
 # Didelės vertės duomenų rinkinių metaduomenų specifikacija, taikoma Lietuvoje (DCAT-AP-LT HVD) # {#DCAT-AP-LTHVD}
 
 Didelės vertės duomenų rinkinių metaduomenų informacija pateikiama šiame [priede](https://ivpk.github.io/DCAT-AP-LT/hvd.html).
+
+# DCAT-AP-LT metaduomenų klasių ir savybių kūrimo eiga pagal informacinės sistemos gyvavimo ciklo stadijas  # {#Gyvavimo}
+
+DCAT-AP-LT metaduomenų klasių ir savybių kūrimo eiga pagal skirtingas informacinės sistemos gyvavimo ciklo stadijas pateikiama šiame [priede](/DCAT-AP-LT metaduomenų kūrimo eiga pagal IS gyvavimo ciklo stadijas v2.0.1.pdf).
+
 
 # Padėka # {#Padeka}
 

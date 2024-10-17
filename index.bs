@@ -1,18 +1,17 @@
 <pre class='metadata'>
-Title: DCAT-AP-LT
+Title: DCAT-AP-LT - Versija 2
 Shortname: DCAT-AP-LT
 Level: 1
-Status: LS
-Date: 2024-10-10
-ED: https://ivpk.github.io/DCAT-AP-LT/v1.0
+Status: iso/TS
+Date: 2024-10-18
 Repository: ivpk/DCAT-AP-LT
 URL: https://ivpk.github.io/DCAT-AP-LT/
-Editor: VSSA, https://vssa.lrv.lt/
+Editor: VSSA, https://VSSA.lrv.lt/lt/
 Abstract: DCAT-AP-LT metaduomenų modelis.
 Complain About: accidental-2119 yes, missing-example-ids yes
 Markup Shorthands: markdown yes, css no
 Translation: en en/index.html
-Boilerplate: copyright no, spec-metadata yes, abstract no, conformance no
+Boilerplate: copyright no, spec-metadata no, abstract no, conformance no
 </pre>
 
 # Sąvokos # {#Savokos}
@@ -24,244 +23,244 @@ Boilerplate: copyright no, spec-metadata yes, abstract no, conformance no
     </tr>
     <tr>
         <td>
-		<code>Bazinis registras</code>
-	</td>
+        <code>Bazinis registras</code>
+        </td>
         <td>
-		<code>Tai teisėtos, oficialios ir patikimos centrinės informacinės duomenų bazės, kuriose saugomi svarbiausi VII duomenys apie piliečius, įmones, transporto priemones, vairuotojo pažymėjimus, pastatus ir vietoves. Ši informacija sudaro pagrindinius duomenis (angl. Master Data) viešosioms paslaugoms teikti. </code>
-	</td>
+        <code>Tai teisėtos, oficialios ir patikimos centrinės informacinės duomenų bazės, kuriose saugomi svarbiausi VII duomenys apie piliečius, įmones, transporto priemones, vairuotojo pažymėjimus, pastatus ir vietoves. Ši informacija sudaro pagrindinius duomenis (angl. Master Data) viešosioms paslaugoms teikti. </code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>DCAT</code>
-	</td>
+        <code>DCAT</code>
+        </td>
         <td>
-		<code>Tai yra tarptautinis metaduomenų žodynas, skirtas apibūdinti duomenų rinkinius ir jų atsiradimo šaltinius. Jis naudojamas duomenų rinkinių katalogavimui ir paieškai, taip pat duomenų rinkinių integracijai ir dalijimuisi. Prieiga internetu: http://www.w3.org/ns/dcat#</code>
-	</td>
+        <code>Tai yra tarptautinis metaduomenų žodynas, skirtas apibūdinti duomenų rinkinius ir jų atsiradimo šaltinius. Jis naudojamas duomenų rinkinių katalogavimui ir paieškai, taip pat duomenų rinkinių integracijai ir dalijimuisi. Prieiga internetu: http://www.w3.org/ns/dcat#</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>DCAT-AP</code>
-	</td>
+        <code>DCAT-AP</code>
+        </td>
         <td>
-		<code>Tai metaduomenų įrašų specifikacija, skirta užtikrinti Europos duomenų portalų semantinę sąveiką. Ji pagrįsta W3C DCAT ir palaiko standartizuotus duomenų rinkinių aprašus, leidžiančius veiksmingai keistis duomenimis ir juos pakartotinai naudoti.</code>
-	</td>
+        <code>Tai metaduomenų įrašų specifikacija, skirta užtikrinti Europos duomenų portalų semantinę sąveiką. Ji pagrįsta W3C DCAT ir palaiko standartizuotus duomenų rinkinių aprašus, leidžiančius veiksmingai keistis duomenimis ir juos pakartotinai naudoti.</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>DCAT-AP HVD</code>
-	</td>
+        <code>DCAT-AP HVD</code>
+        </td>
         <td>
-		<code>Tai yra specialus DCAT-AP plėtinys, kuris skirtas išsamiau aprašyti didelės vertės duomenų rinkinių patikimumą, kokybę ir kitus vertinimo rodiklius. Šis plėtinys leidžia lengviau ir tikslingiau interpretuoti duomenų kokybės ir patikimumo informaciją, taip pat prisideda prie didelės vertės duomenų atviro naudojimo ir interaktyvumo.</code>
-	</td>
+        <code>Tai yra specialus DCAT-AP plėtinys, kuris skirtas išsamiau aprašyti didelės vertės duomenų rinkinių patikimumą, kokybę ir kitus vertinimo rodiklius. Šis plėtinys leidžia lengviau ir tikslingiau interpretuoti duomenų kokybės ir patikimumo informaciją, taip pat prisideda prie didelės vertės duomenų atviro naudojimo ir interaktyvumo.</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>Duomenys</code>
-	</td>
+        <code>Duomenys</code>
+    </td>
         <td>
-		<code>Skaitmeninės išraiškos informacija, dokumentai ir (ar) jų kopijos, įskaitant garso, vaizdo arba garso ir vaizdo įrašus, taip pat asmens duomenis, tinkami saugoti, perduoti, interpretuoti ir apdoroti informacinių technologijų priemonėmis.</code>
-	</td>
+        <code>Skaitmeninės išraiškos informacija, dokumentai ir (ar) jų kopijos, įskaitant garso, vaizdo arba garso ir vaizdo įrašus, taip pat asmens duomenis, tinkami saugoti, perduoti, interpretuoti ir apdoroti informacinių technologijų priemonėmis.</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>Duomenų branda</code>
-	</td>
+        <code>Duomenų branda</code>
+        </td>
         <td>
-		<code>Duomenų brandumas yra terminas, apibūdinantis organizacijos gebėjimą sistemingai rinkti, valdyti ir naudoti duomenis. Tai rodo, kaip efektyviai organizacija naudoja savo duomenis, taip pat kaip gerai ji yra pasirengusi naujoms duomenų analizės strategijoms ir technologijoms.</code>
-	</td>
+        <code>Duomenų brandumas yra terminas, apibūdinantis organizacijos gebėjimą sistemingai rinkti, valdyti ir naudoti duomenis. Tai rodo, kaip efektyviai organizacija naudoja savo duomenis, taip pat kaip gerai ji yra pasirengusi naujoms duomenų analizės strategijoms ir technologijoms.</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>Duomenų kokybė</code>
-	</td>
+        <code>Duomenų kokybė</code>
+        </td>
         <td>
-		<code>Duomenų kokybė apibūdina duomenų tikslumą, patikimumą ir nuoseklumą, taip pat duomenų nuolatinį atnaujinimą. Tai yra duomenų savybės, kurios lemia duomenų naudingumą ir patikimumą sprendimų priėmimui.</code>
-	</td>
+        <code>Duomenų kokybė apibūdina duomenų tikslumą, patikimumą ir nuoseklumą, taip pat duomenų nuolatinį atnaujinimą. Tai yra duomenų savybės, kurios lemia duomenų naudingumą ir patikimumą sprendimų priėmimui.</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>Duomenų paslauga</code>
-	</td>
+        <code>Duomenų paslauga</code>
+    </td>
         <td>
-		<code>Tai operacijų rinkinys, suteikiantis prieigą prie vieno ar daugiau duomenų rinkinių arba duomenų apdorojimo funkcijų.</code>
-	</td>
+        <code>Tai operacijų rinkinys, suteikiantis prieigą prie vieno ar daugiau duomenų rinkinių arba duomenų apdorojimo funkcijų.</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>Duomenų portalas</code>
-	</td>
+        <code>Duomenų portalas</code>
+        </td>
         <td>
-		<code>Tai žiniatinklio sistema, kurioje pateikiamas duomenų katalogas su duomenų rinkinių aprašymais ir kurioje teikiamos paslaugos, leidžiančios surasti ir pakartotinai naudoti duomenų rinkinius.</code>
-	</td>
+        <code>Tai žiniatinklio sistema, kurioje pateikiamas duomenų katalogas su duomenų rinkinių aprašymais ir kurioje teikiamos paslaugos, leidžiančios surasti ir pakartotinai naudoti duomenų rinkinius.</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>Duomenų rinkinys</code>
-	</td>
+        <code>Duomenų rinkinys</code>
+        </td>
         <td>
-		<code>Tai viename šaltinyje paskelbtų arba kuruojamų duomenų rinkinys, kurį galima gauti arba atsisiųsti vienu ar keliais formatais.</code>
-	</td>
+        <code>Tai viename šaltinyje paskelbtų arba kuruojamų duomenų rinkinys, kurį galima gauti arba atsisiųsti vienu ar keliais formatais.</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>DSA</code>
-	</td>
+        <code>DSA</code>
+        </td>
         <td>
-		<code>DSA - tai duomenų struktūros aprašo specifikacija, taikoma aprašyti vieningai Lietuvoje valstybės informacinius išteklius sudarančius duomenis.</code>
-	</td>
+        <code>DSA - tai duomenų struktūros aprašo specifikacija, taikoma aprašyti vieningai Lietuvoje valstybės informacinius išteklius sudarančius duomenis.</code>
+        </td>
     </tr>
     
     <tr>
         <td>
-		<code>Informacinė sistema</code>
-	</td>
+        <code>Informacinė sistema</code>
+        </td>
         <td>
-		<code>Programinės įrangos visuma valstybės ar savivaldybės institucijos ar įstaigos, kito viešojo administravimo subjekto, viešosios įstaigos ar valstybės valdomos įmonės veiklos procesams skaitmenizuoti, duomenims tvarkyti ir (ar) administracinėms ar viešosioms paslaugoms teikti elektroniniu būdu.</code>
-	</td>
+        <code>Programinės įrangos visuma valstybės ar savivaldybės institucijos ar įstaigos, kito viešojo administravimo subjekto, viešosios įstaigos ar valstybės valdomos įmonės veiklos procesams skaitmenizuoti, duomenims tvarkyti ir (ar) administracinėms ar viešosioms paslaugoms teikti elektroniniu būdu.</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>Informacinės sistemos gyvavimo ciklas</code>
-	</td>
+        <code>Informacinės sistemos gyvavimo ciklas</code>
+        </td>
         <td>
-		<code>Informacinės sistemos būsenos pokyčių nuo jos įsteigimo iki veiklos užbaigimo visuma.</code>
-	</td>
+        <code>Informacinės sistemos būsenos pokyčių nuo jos įsteigimo iki veiklos užbaigimo visuma.</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>Informacinės sistemos tvarkytojas</code>
-	</td>
+        <code>Informacinės sistemos tvarkytojas</code>
+        </td>
         <td>
-		<code>Valstybės ar savivaldybės institucija ar įstaiga, kitas viešojo administravimo subjektas, viešoji įstaiga ar valstybės valdoma įmonė, kurie informacinės sistemos valdytojo nustatyta tvarka jo vardu užtikrina informacinės sistemos veikimą.</code>
-	</td>
+        <code>Valstybės ar savivaldybės institucija ar įstaiga, kitas viešojo administravimo subjektas, viešoji įstaiga ar valstybės valdoma įmonė, kurie informacinės sistemos valdytojo nustatyta tvarka jo vardu užtikrina informacinės sistemos veikimą.</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>Informacinės sistemos valdytojas</code>
-	</td>
+        <code>Informacinės sistemos valdytojas</code>
+        </td>
         <td>
-		<code>Valstybės ar savivaldybės institucija ar įstaiga, kitas viešojo administravimo subjektas, viešoji įstaiga ar valstybės valdoma įmonė, kurie nustato informacinės sistemos veikimo tikslus ir priemones.</code>
-	</td>
+        <code>Valstybės ar savivaldybės institucija ar įstaiga, kitas viešojo administravimo subjektas, viešoji įstaiga ar valstybės valdoma įmonė, kurie nustato informacinės sistemos veikimo tikslus ir priemones.</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>Kontroliuojamas žodynas</code>
-	</td>
+        <code>Kontroliuojamas žodynas</code>
+        </td>
         <td>
-		<code>Tai žodyno leidėjo valdomas ir prižiūrimas terminų ir jų apibrėžimų rinkinys, kuris padeda vienareikšmiškai sužymėti ir efektyviai pasiekti informaciją. Kontroliuojamas žodynas padeda išvengti naudojamų sinonimų, klaidingų terminų ar variacijų, kas gali sukelti keblumų, siekiant surasti tokią informaciją.</code>
-	</td>
+        <code>Tai žodyno leidėjo valdomas ir prižiūrimas terminų ir jų apibrėžimų rinkinys, kuris padeda vienareikšmiškai sužymėti ir efektyviai pasiekti informaciją. Kontroliuojamas žodynas padeda išvengti naudojamų sinonimų, klaidingų terminų ar variacijų, kas gali sukelti keblumų, siekiant surasti tokią informaciją.</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>Metaduomenys</code>
-	</td>
+        <code>Metaduomenys</code>
+        </td>
         <td>
-		<code>Aprašomoji informacija, kuri padeda suprasti duomenų ar jų rinkinių išdėstymo struktūrą, logiką, semantiką, tarpusavio ryšius, taip pat surasti, teisingai interpretuoti ir naudoti pateikiamus duomenis ar jų rinkinius.</code>
-	</td>
+        <code>Aprašomoji informacija, kuri padeda suprasti duomenų ar jų rinkinių išdėstymo struktūrą, logiką, semantiką, tarpusavio ryšius, taip pat surasti, teisingai interpretuoti ir naudoti pateikiamus duomenis ar jų rinkinius.</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>ODRL</code>
-	</td>
+        <code>ODRL</code>
+        </td>
         <td>
-		<code>Atviroji skaitmeninių teisių kalba (ODRL) yra politikos išraiškos kalba, teikianti lankstų ir sąveikų informacijos modelį, žodyną ir kodavimo mechanizmus, skirtus pareiškimams apie turinio ir paslaugų naudojimą pateikti. ODRL žodynas ir išraiška apibūdina ODRL strategijose vartojamus terminus ir kaip juos koduoti. Prieiga internetu: http://www.w3.org/ns/odrl/2/</code>
-	</td>
+        <code>Atviroji skaitmeninių teisių kalba (ODRL) yra politikos išraiškos kalba, teikianti lankstų ir sąveikų informacijos modelį, žodyną ir kodavimo mechanizmus, skirtus pareiškimams apie turinio ir paslaugų naudojimą pateikti. ODRL žodynas ir išraiška apibūdina ODRL strategijose vartojamus terminus ir kaip juos koduoti. Prieiga internetu: http://www.w3.org/ns/odrl/2/</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>Ontologija</code>
-	</td>
+        <code>Ontologija</code>
+        </td>
         <td>
-		<code>Tai išsami žinių struktūra arba modelis, kurio apimtyje yra identifikuotos ir apibrėžtos sąvokos (koncepcijos) ir jų tarpusavio ryšiai tam tikroje dalykinėje ar teminėje srityje.</code>
-	</td>
+        <code>Tai išsami žinių struktūra arba modelis, kurio apimtyje yra identifikuotos ir apibrėžtos sąvokos (koncepcijos) ir jų tarpusavio ryšiai tam tikroje dalykinėje ar teminėje srityje.</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>Pagrindiniai duomenys</code>
-	</td>
+        <code>Pagrindiniai duomenys</code>
+        </td>
         <td>
-		<code>Tai pagrindiniai valstybės veiklai organizuoti būtini duomenys, tokie kaip gyventojai, mokesčiai, įmonės, teritorinis suskirstymas, valstybės turtas ar teisės aktai, žinoma, neapsiribojant tik jais. Pagrindiniai duomenys dažnai yra grupuojami pagal registrus ir gali apimti susijusius etaloninius duomenis.</code>
-	</td>
+        <code>Tai pagrindiniai valstybės veiklai organizuoti būtini duomenys, tokie kaip gyventojai, mokesčiai, įmonės, teritorinis suskirstymas, valstybės turtas ar teisės aktai, žinoma, neapsiribojant tik jais. Pagrindiniai duomenys dažnai yra grupuojami pagal registrus ir gali apimti susijusius etaloninius duomenis.</code>
+        </td>
     </tr>
   <tr>
         <td>
-		<code>Pagrindiniai žodynai</code>
-	</td>
+        <code>Pagrindiniai žodynai</code>
+        </td>
         <td>
-		<code>Tai supaprastinti, pakartotinai panaudojami ir plėtojami žinių apie duomenis modeliai, kurie fiksuoja esmines duomenų savybių charakteristikas tokiu būdu, kuris yra nešališkas ir neutralus sintaksės atžvilgiu.</code>
-	</td>
+        <code>Tai supaprastinti, pakartotinai panaudojami ir plėtojami žinių apie duomenis modeliai, kurie fiksuoja esmines duomenų savybių charakteristikas tokiu būdu, kuris yra nešališkas ir neutralus sintaksės atžvilgiu.</code>
+        </td>
     </tr>
   <tr>
         <td>
-		<code>Plėtinys</code>
-	</td>
+        <code>Plėtinys</code>
+        </td>
         <td>
-		<code>Papildoma standarto specifikacija ar funkcijų elementas, kuri praplečia standarto galimybes, kad būtų galima tenkinti konkretų poreikį arba atvejį. Plėtiniai naudojami standartui pritaikyti tam tikros bendruomenės poreikiams arba spręsti aspektus, kurių pagrindinis standartas nenumato.</code>
-	</td>
+        <code>Papildoma standarto specifikacija ar funkcijų elementas, kuri praplečia standarto galimybes, kad būtų galima tenkinti konkretų poreikį arba atvejį. Plėtiniai naudojami standartui pritaikyti tam tikros bendruomenės poreikiams arba spręsti aspektus, kurių pagrindinis standartas nenumato.</code>
+        </td>
     </tr>
   <tr>
         <td>
-		<code>Referenciniai duomenys</code>
-	</td>
+        <code>Referenciniai duomenys</code>
+        </td>
         <td>
-		<code>Tai pagrindinių duomenų dalis, kuri apima iš anksto apibrėžtas, standartizuotas duomenų reikšmes ar klasifikavimo schemas, kurias gali pakartotinai naudoti programos, sistemos, duomenų saugyklos bei ataskaitos, nukreipiant atgal į referencinius duomenis.</code>
-	</td>
+        <code>Tai pagrindinių duomenų dalis, kuri apima iš anksto apibrėžtas, standartizuotas duomenų reikšmes ar klasifikavimo schemas, kurias gali pakartotinai naudoti programos, sistemos, duomenų saugyklos bei ataskaitos, nukreipiant atgal į referencinius duomenis.</code>
+        </td>
     </tr>
  <tr>
         <td>
-		<code>Registras</code>
-	</td>
+        <code>Registras</code>
+        </td>
         <td>
-		<code>Informacinėje sistemoje tvarkomas registruojamą objektą ar objektus apibūdinantis duomenų rinkinys ar rinkiniai, kuriems nustatomos specialios registravimo sąlygos.</code>
-	</td>
+        <code>Informacinėje sistemoje tvarkomas registruojamą objektą ar objektus apibūdinantis duomenų rinkinys ar rinkiniai, kuriems nustatomos specialios registravimo sąlygos.</code>
+        </td>
     </tr>
  <tr>
         <td>
-		<code>Taikymo profilis</code>
-	</td>
+        <code>Taikymo profilis</code>
+        </td>
         <td>
-		<code>Tai aukštesnio lygmens standarto (ar specifikacijos) pritaikymo konkrečiame kontekste ar dalykinėje srityje specifikacija, pateikiant, nurodant privalomus, rekomenduojamus ir neprivalomus elementus, pateikiant rekomendacijas dėl kontroliuojamų žodynų/ išgrynintų sąvokų ir terminų naudojimo. Tai padeda užtikrinti nuoseklų ir tinkamą naudojimą tam tikroje taikymo aplinkoje.</code>
-	</td>
+        <code>Tai aukštesnio lygmens standarto (ar specifikacijos) pritaikymo konkrečiame kontekste ar dalykinėje srityje specifikacija, pateikiant, nurodant privalomus, rekomenduojamus ir neprivalomus elementus, pateikiant rekomendacijas dėl kontroliuojamų žodynų/ išgrynintų sąvokų ir terminų naudojimo. Tai padeda užtikrinti nuoseklų ir tinkamą naudojimą tam tikroje taikymo aplinkoje.</code>
+        </td>
     </tr>
 <tr>
         <td>
-		<code>Taksonomija</code>
-	</td>
+        <code>Taksonomija</code>
+        </td>
         <td>
-		<code>Tai hierarchinė klasifikacijos sistema, kuri sugrupuoja objektus ar sąvokas pagal bendras, vienijančias savybes (angl. qualities) arba kiekybinius rodiklius į logiškai susietas kategorijas ar pogrupius pagal aiškią hierarchinę (dažnai griežtą) struktūrą.</code>
-	</td>
+        <code>Tai hierarchinė klasifikacijos sistema, kuri sugrupuoja objektus ar sąvokas pagal bendras, vienijančias savybes (angl. qualities) arba kiekybinius rodiklius į logiškai susietas kategorijas ar pogrupius pagal aiškią hierarchinę (dažnai griežtą) struktūrą.</code>
+        </td>
     </tr>
 <tr>
         <td>
-		<code>Teikimas</code>
-	</td>
+        <code>Teikimas</code>
+        </td>
         <td>
-		<code>Teikimas yra vienakryptė asociacija. Tai reiškia, kad viena klasė žino apie kitą klasę, bet nebūtinai atvirkščiai. Tai reiškia vienpusį santykį.</code>
-	</td>
+        <code>Teikimas yra vienakryptė asociacija. Tai reiškia, kad viena klasė žino apie kitą klasę, bet nebūtinai atvirkščiai. Tai reiškia vienpusį santykį.</code>
+        </td>
     </tr>
 <tr>
         <td>
-		<code>Tezauras</code>
-	</td>
+        <code>Tezauras</code>
+        </td>
         <td>
-		<code>Tai semantinis žodynas, kuriame terminai ir sąvokos tarpusavyje siejasi patvirtintais, hierarchiniais, sinoniminiais ir/ar kitokiais ryšiais.</code>
-	</td>
+        <code>Tai semantinis žodynas, kuriame terminai ir sąvokos tarpusavyje siejasi patvirtintais, hierarchiniais, sinoniminiais ir/ar kitokiais ryšiais.</code>
+        </td>
     </tr>
 <tr>
         <td>
-		<code>Valstybės informaciniai ištekliai (VII)</code>
-	</td>
+        <code>Valstybės informaciniai ištekliai (VII)</code>
+        </td>
         <td>
-		<code>Duomenys, informacinės sistemos, informacinių technologijų platformos ir informacinių technologijų priemonės, naudojami valstybės reikmėms.</code>
-	</td>
+        <code>Duomenys, informacinės sistemos, informacinių technologijų platformos ir informacinių technologijų priemonės, naudojami valstybės reikmėms.</code>
+        </td>
     </tr>
 <tr>
         <td>
-		<code>Žodynas</code>
-	</td>
+        <code>Žodynas</code>
+        </td>
         <td>
-		<code>Tai rinkiniai terminų ir jų apibrėžimų konkrečiai apibrėžtoje žinių srityje. Šie terminai neturi hierarchinio ar kitokio ryšio tarpusavyje.</code>
-	</td>
+        <code>Tai rinkiniai terminų ir jų apibrėžimų konkrečiai apibrėžtoje žinių srityje. Šie terminai neturi hierarchinio ar kitokio ryšio tarpusavyje.</code>
+        </td>
     </tr>
 </table>
 
@@ -275,7 +274,7 @@ DCAT-AP-LT apima [BregDCAT-AP](#bib-breg) naudojamas klases ir papildo jas Infor
 
 </dd>
 </dl>
-## Kontekstas
+## Kontekstas ## {##Kontekstas}
 
 Šiuo metu numatoma, jog Europos Komisija teiks paramą šioms [Europos bendroms duomenų erdvėms](https://digital-strategy.ec.europa.eu/en/policies/data-spaces) kurti:
 <ul>
@@ -304,11 +303,11 @@ DCAT-AP-LT apima [BregDCAT-AP](#bib-breg) naudojamas klases ir papildo jas Infor
 
 Ši specifikacija yra orientuota į Valstybės informacinių išteklių valdymo įstatymo nuostatų dėl informacinėse sistemose tvarkomų metaduomenų įgyvendinimo.
 
-# Statusas
+# Statusas # {#Statusas}
 
-DCAT-AP-LT 2.0.0 Paskelbta
+DCAT-AP-LT 0.1 
 
-# Licencija
+# Licencija # {#Licencija}
 
 Šio modelio medžiaga skelbiama pagal CC-BY 4.0 licenciją, nebent pažymėta kitaip.
 
@@ -321,131 +320,131 @@ DCAT-AP-LT 2.0.0 Paskelbta
     </tr>
  <tr>
         <td>
-		<code>dcataplt</code>
-	</td>
+        <code>dcataplt</code>
+        </td>
         <td>
-		<code>https://data.gov.lt/onto/DCATAPLT#</code>
-	</td>
+        <code>https://data.gov.lt/onto/DCATAPLT#</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>adms</code>
-	</td>
+        <code>adms</code>
+        </td>
         <td>
-		<code>http://www.w3.org/ns/adms#</code>
-	</td>
+        <code>http://www.w3.org/ns/adms#</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>cpsv</code>
-	</td>
+        <code>cpsv</code>
+        </td>
         <td>
-		<code>http://purl.org/vocab/cpsv#</code>
-	</td>
+        <code>http://purl.org/vocab/cpsv#</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>cv</code>
-	</td>
+        <code>cv</code>
+        </td>
         <td>
-		<code>http://data.europa.eu/m8g/</code>
-	</td>
+        <code>http://data.europa.eu/m8g/</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>dcat</code>
-	</td>
+        <code>dcat</code>
+        </td>
         <td>
-		<code>http://www.w3.org/ns/dcat#</code>
-	</td>
+        <code>http://www.w3.org/ns/dcat#</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>dqv</code>
-	</td>
+        <code>dqv</code>
+        </td>
         <td>
-		<code>http://www.w3.org/ns/dqv#</code>
-	</td>
+        <code>http://www.w3.org/ns/dqv#</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>eli</code>
-	</td>
+        <code>eli</code>
+        </td>
         <td>
-		<code>http://data.europa.eu/eli/ontology#</code>
-	</td>
+        <code>http://data.europa.eu/eli/ontology#</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>foaf</code>
-	</td>
+        <code>foaf</code>
+        </td>
         <td>
-		<code>http://xmlns.com/foaf/0.1/</code>
-	</td>
+        <code>http://xmlns.com/foaf/0.1/</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>odrl</code>
-	</td>
+        <code>odrl</code>
+        </td>
         <td>
-		<code>http://www.w3.org/ns/odrl/2/</code>
-	</td>
+        <code>http://www.w3.org/ns/odrl/2/</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>prov</code>
-	</td>
+        <code>prov</code>
+        </td>
         <td>
-		<code>http://www.w3.org/ns/prov#</code>
-	</td>
+        <code>http://www.w3.org/ns/prov#</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>rdfs</code>
-	</td>
+        <code>rdfs</code>
+        </td>
         <td>
-		<code>http://www.w3.org/2000/01/rdf-schema#</code>
-	</td>
+        <code>http://www.w3.org/2000/01/rdf-schema#</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>skos</code>
-	</td>
+        <code>skos</code>
+        </td>
         <td>
-		<code>http://www.w3.org/2004/02/skos/core#</code>
-	</td>
+        <code>http://www.w3.org/2004/02/skos/core#</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>spdx</code>
-	</td>
+        <code>spdx</code>
+        </td>
         <td>
-		<code>http://spdx.org/rdf/terms#</code>
-	</td>
+        <code>http://spdx.org/rdf/terms#</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>vann</code>
-	</td>
+        <code>vann</code>
+        </td>
         <td>
-		<code>http://purl.org/vocab/vann/</code>
-	</td>
+        <code>http://purl.org/vocab/vann/</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>vcard</code>
-	</td>
+        <code>vcard</code>
+        </td>
         <td>
-		<code>http://www.w3.org/2006/vcard/ns#</code>
-	</td>
+        <code>http://www.w3.org/2006/vcard/ns#</code>
+        </td>
     </tr>
     <tr>
         <td>
-		<code>voaf</code>
-	</td>
+        <code>voaf</code>
+        </td>
         <td>
-		<code>http://purl.org/vocommons/voaf#</code>
-	</td>
+        <code>http://purl.org/vocommons/voaf#</code>
+        </td>
     </tr>
 </table>
 
@@ -470,7 +469,7 @@ Pagrindinių modelių esybių, kurios sudaro taikymo profilio branduolį, savyb�
 
 # DCAT-AP-LT specifinė klasė # {#DCAT-AP-LTKlase}
 
-## Informacinė Sistema (dcataplt:InformationSystem) ## {#InformacineSistema}
+## Informacinė Sistema (dcataplt:InformationSystem) ## {##InformacineSistema}
 
 <dl>
     <dt>Apibrėžimas</dt>
@@ -516,7 +515,7 @@ Pagrindinių modelių esybių, kurios sudaro taikymo profilio branduolį, savyb�
                 <td>URL nuoroda į informacinės sistemos svarbos vertinimo dokumentą.</td>
                 <td>P</td>
             </tr>
- 		<tr class="data-table__header">
+         <tr class="data-table__header">
                 <td>dcataplt:relatesToInformationSystem</td>
                 <td>dcataplt:InformationSystem</td>
                 <td>0..n</td>
@@ -525,7 +524,7 @@ Pagrindinių modelių esybių, kurios sudaro taikymo profilio branduolį, savyb�
                 <td>P</td>
             </tr>
 </tr>
- 		<tr class="data-table__header">
+         <tr class="data-table__header">
                 <td>dcataplt:relatesToDataService</td>
                 <td>[Dataservice]()</td>
                 <td>0..n</td>
@@ -542,7 +541,7 @@ Pagrindinių modelių esybių, kurios sudaro taikymo profilio branduolį, savyb�
 
 DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuojami reikšmių ar tipų sąrašai, klasifikatoriai ir žinynai
 
-## Svarba (dcataplt:Importance) ## {#Svarba}
+## Svarba (dcataplt:Importance) ## {##Svarba}
 
 <dl>
     <dt>Apibrėžimas</dt>
@@ -558,7 +557,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
         <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:10%">Reikšmė</th>
-		<th class="data-table__header-title--sortable" style="width:10%">URI</th>
+        <th class="data-table__header-title--sortable" style="width:10%">URI</th>
                 <th class="data-table__header-title--sortable" style="width:10%">Intervalas</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Reikšmės aprašymas</th>
                 <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
@@ -566,28 +565,28 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
 <br></br>
             <tr class="data-table__header">
                 <td>Ypatingos svarbos</td>
-		<td>dcataplt:highlyImportant</td>
+        <td>dcataplt:highlyImportant</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Ypatingos svarbos valstybės informaciniai ištekliai – jiems priskiriamos informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius visai valstybei (poveikis daugiau negu 5 apskrityse, daugiau negu 50 procentų gyventojų ar institucijų).</td>  
                 <td>P</td>
             </tr>
             <tr class="data-table__header">
                 <td>Svarbūs</td>
-		<td>dcataplt:Important</td>
+        <td>dcataplt:Important</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Svarbūs valstybės informaciniai ištekliai – jiems priskiriamos informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius didelei valstybės, institucijų ir gyventojų daliai (poveikis 2–5 apskrityse, 6–50 procentų gyventojų ar institucijų).</td>      
                 <td>P</td>
             </tr>
             <tr class="data-table__header">
                 <td>Vidutinės svarbos</td>
-		<td>dcataplt:moderatelyImportant</td>
+        <td>dcataplt:moderatelyImportant</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Vidutinės svarbos valstybės informaciniai ištekliai – jiems priskiriamos informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius nedidelei valstybės, institucijų ir gyventojų daliai (poveikis keliose vienos apskrities savivaldybėse, 1–5 procentų gyventojų ar institucijų).</td>      
                 <td>P</td>
             </tr>
             <tr class="data-table__header">
                 <td>Mažos svarbos</td>
-		<td>dcataplt:slightlyImportant</td>
+        <td>dcataplt:slightlyImportant</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Mažos svarbos valstybės informaciniai ištekliai – jiems priskiriamos informacinės sistemos, kuriose esančių duomenų prieinamumo, vientisumo ir konfidencialumo pažeidimo poveikis sukelia padarinius pavienėms institucijoms ar pavieniams fiziniams asmenims (poveikis ne daugiau kaip vienos apskrities savivaldybei, iki 1 procento gyventojų ar institucijų).</td>      
                 <td>P</td>
@@ -596,7 +595,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
     </dd>
 </dl>
 
-## Informacinės sistemos rūšis (dcataplt:Type) ## {#Tipas}
+## Informacinės sistemos rūšis (dcataplt:Type) ## {##Tipas}
 
 <dl>
     <dt>Apibrėžimas</dt>
@@ -612,7 +611,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
         <table class="data-table simple">
             <tr >
                 <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:10%">Reikšmė</th>
-		<th class="data-table__header-title--sortable" style="width:10%">URI</th>
+        <th class="data-table__header-title--sortable" style="width:10%">URI</th>
                 <th class="data-table__header-title--sortable" style="width:10%">Range</th>
                 <th class="data-table__header-title--sortable" style="width:50%">Reikšmės aprašymas</th>
                 <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
@@ -621,21 +620,21 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
 <br></br>
             <tr class="data-table__header">
                 <td>Registro informacinė sistema</td>
-		<td>dcataplt:registerInformationSystemt</td>
+        <td>dcataplt:registerInformationSystemt</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Registrų informacinės sistemos, kuriose registruojami objektai, tvarkomi objektų ir jų registravimo duomenys.</td>
                 <td>P</td>
             </tr>
             <tr class="data-table__header">
                 <td>Valstybės informacinė sistema</td>
-		<td>dcataplt:stateInformationSystem</td>
+        <td>dcataplt:stateInformationSystem</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Valstybės informacinės sistemos, kuriose tvarkomi subjektų teisės aktuose nustatytoms funkcijoms atlikti reikalingi duomenys, įskaitant ir valstybės informacines sistemas, skirtas kelių ar daugelio subjektų jų veiklą reglamentuojančiuose teisės aktuose nustatytoms vienodo pobūdžio veiklos funkcijoms atlikti ir duomenims tvarkyti.</td>      
                 <td>P</td>
             </tr>
             <tr class="data-table__header">
                 <td>Vidaus administravimo informacinė sistema</td>
-		<td>dcataplt:internalInformationSystem</td>
+        <td>dcataplt:internalInformationSystem</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Vidaus administravimo informacinės sistemos, kuriose tvarkomi subjektų valdomi duomenys, reikalingi vidaus administravimo funkcijoms ar kitoms pagalbinio pobūdžio funkcijoms, kurios padeda įgyvendinti subjektui teisės aktuose nustatytus uždavinius.</td>    
                 <td>P</td>
@@ -648,7 +647,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
 # Naudojamos BregDCAT-AP klasės ir savybės # {#NaudojamosBREGSavybes}
 
 
-## Katalogas
+## Katalogas ## {##Katalogas}
 
 <dl>
     <dt>Apibrėžimas</dt>
@@ -704,8 +703,8 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
                 <td>Šioje savybėje pateikiamas katalogo laisvo teksto aprašas laisvos formos tekstu. Šią savybę galima pateikti keliomis kalbomis.</td>
                 <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_description">E</a></td>
             </tr>
-                <!-- Trūko identifier -->	
-			          <tr class="data-table__header">
+                <!-- Trūko identifier -->    
+                      <tr class="data-table__header">
                 <td>Identifikatorius</td>
                 <td>[dct:identifier](http://purl.org/dc/terms/identifier)</td>
                 <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
@@ -732,7 +731,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
                 <td>Šioje savybėje pateikiamas katalogui suteiktas pavadinimas.</td>
                 <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_title">E</a></td>
             </tr>
-	 <tr class="data-table__header">
+     <tr class="data-table__header">
                 <td>Valdytojas</td>
                 <td>[dct:creator](http://purl.org/dc/terms/creator)</td>
                 <td>[foaf:Agent](http://xmlns.com/foaf/0.1/Agent)</td>
@@ -923,7 +922,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
                 <td>0..n</td>
                 <td>Lietuvoje duomenų rinkiniai aprašomi su nedideliais teisinio šaltinio citavimo pakeitimais, nes ELI Lietuvoje dar nepriimtas. Šiame priede LegalResource šaltinis yra ELI atributas pavadinimu [id_local](=http://data.europa.eu/eli/ontology#id_local). Vietinis identifikatorius naudojamas kaip [Teisės aktų registre](https://www.e-tar.lt/portal/) paskelbto teisinio šaltinio URI.</td>
                 <td>Teisės aktas, kuris įpareigoja sukurti ir valdyti katalogą.</td>
-		<td>E</td>
+        <td>E</td>
             </tr>
             <tr class="data-table__header">
                 <td>Paslauga</td>
@@ -939,7 +938,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
 </dl>
 
 
-## Agentas
+## Agentas ## {##Agentas}
 
 <dl>
     <dt>Apibrėžimas</dt>
@@ -993,7 +992,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
                 <td>1..n</td>
                 <td>-</td>
                 <td>Šioje savybėje pateikiamas agento pavadinimas. Ši savybė gali būti kartojama skirtingoms pavadinimo versijoms (pvz., pavadinimas skirtingomis kalbomis).</td>
-		<td>P</td>
+        <td>P</td>
             </tr>
  </table>
 
@@ -1024,7 +1023,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
                 <td>0..1</td>
                 <td>-</td>
                 <td>Ši savybė nurodo agento, kuris padaro prieinamu katalogą arba duomenų rinkinį, tipą.</td>
-		<td>P</td>
+        <td>P</td>
             </tr>
             <tr class="data-table__header">
                 <td>Identifikatorius</td>
@@ -1033,14 +1032,14 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
                 <td>0..1</td>
                 <td>-</td>
                 <td>Ši savybė nurodo agento, kuris padaro prieinamu katalogą arba duomenų rinkinį, identifikatorių.</td>
-		<td>-</td>
+        <td>-</td>
             </tr>
         </table>
    </dd>
 </dl>
 
 
-## Tekstinis
+## Tekstinis  ## {##Tekstinis}
 
         <style>
             .data-table.simple {
@@ -1064,7 +1063,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
            
         </table>
 
-## Išteklius  ## {##Isteklius}
+## Išteklius ## {##Isteklius}
 
         <style>
             .data-table.simple {
@@ -1089,7 +1088,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
         </table>
 
 
-## Duomenų rinkinys  ## {##DuomenuRinkinys}
+## Duomenų rinkinys ## {##DuomenuRinkinys}
 
         <style>
             .data-table.simple {
@@ -1529,8 +1528,8 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
         <td>E</td>
     </tr>
 
-	<!-- trūko 'follows' -->
-	<tr>
+    <!-- trūko 'follows' -->
+    <tr>
         <td>Laikosi</td>
         <td>[cpsv:follows](http://purl.org/vocab/cpsv#follows)</td>
         <td>[cpsv:Rule](https://joinup.ec.europa.eu/solution/core-public-servicevocabulary)</td>
@@ -1539,96 +1538,96 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
         <td>Ši ypatybė susieja duomenų rinkinį su taisykle, kuri apibrėžia jo teisinį pagrindą.</td>
         <td>P</td>
     </tr>
-	<!-- trūko 'hasPart' -->
-	<tr>
-		<td>Turi dalį</td>
-		<td>[dct:hasPart](http://purl.org/dc/terms/hasPart)</td>
+    <!-- trūko 'hasPart' -->
+    <tr>
+        <td>Turi dalį</td>
+        <td>[dct:hasPart](http://purl.org/dc/terms/hasPart)</td>
         <td>[dcat:Dataset](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset)</td>
         <td>0..n</td>
         <td>IS kontekste, šiuo ryšiu gali būti įprasminamos valstybės informacinės sistemos ar registro reikšmingų veiklos sričių ar posistemių dalys.</td>
         <td>Ši savybė nurodo susijusį duomenų rinkinį, kuris yra aprašyto duomenų rinkinio dalis.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_has_part">E</a></td>
-	</tr>
-	<!-- trūko 'hasQualityAnnotation' -->
-	<tr>
-		<td>Turi kokybės anotaciją</td>
-		<td>[dqv:hasQualityAnnotation](http://www.w3.org/ns/dqv#hasQualityAnnotation)</td>
+    </tr>
+    <!-- trūko 'hasQualityAnnotation' -->
+    <tr>
+        <td>Turi kokybės anotaciją</td>
+        <td>[dqv:hasQualityAnnotation](http://www.w3.org/ns/dqv#hasQualityAnnotation)</td>
         <td>[dqv:QualityAnnotation](https://www.w3.org/TR/vocab-dqv/#dqv:QualityAnnotation)</td>
         <td>0..1</td>
         <td>-</td>
         <td>Nurodo, kiek nuoseklus yra duomenų rinkinys visoje sistemoje.</td>
         <td><a href="https://www.w3.org/TR/vocab-dqv/#dqv:hasQualityAnnotation">E</a></td>
-	</tr>
-	<!-- trūko 'hasQualityMeasurement' -->
-	<tr>
-		<td>Turi kokybės matavimą</td>
-		<td>[dqv:hasQualityMeasurement](http://www.w3.org/ns/dqv#hasQualityMeasurement)</td>
+    </tr>
+    <!-- trūko 'hasQualityMeasurement' -->
+    <tr>
+        <td>Turi kokybės matavimą</td>
+        <td>[dqv:hasQualityMeasurement](http://www.w3.org/ns/dqv#hasQualityMeasurement)</td>
         <td>[dqv:QualityMeasurement](https://www.w3.org/TR/vocab-dqv/#dqv:QualityMeasurement)</td>
         <td>0..1</td>
         <td>-</td>
         <td>Nurodo, kaip patikimas yra pateiktas duomenų rinkinys.</td>
          <td><a href="https://www.w3.org/TR/vocab-dqv/#dqv:hasQualityMeasurement">E</a></td>
-	</tr>
-	<!-- trūko 'isReplacedBy' -->
-	<tr>
-		<td>Yra pakeistas</td>
-		<td>[dct:isReplacedBy](http://purl.org/dc/terms/isReplacedBy)</td>
+    </tr>
+    <!-- trūko 'isReplacedBy' -->
+    <tr>
+        <td>Yra pakeistas</td>
+        <td>[dct:isReplacedBy](http://purl.org/dc/terms/isReplacedBy)</td>
         <td>[dcat:Dataset](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Ši ypatybė nurodo susijusį duomenų rinkinį, kuris egzistuojantį duomenų rinkinį.</td>
          <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_replaces">E</a></td>
-	</tr>
-	<!-- trūko 'isRequiredBy' -->
-	<tr>
-		<td>Yra reikalaujamas</td>
-		<td>[dct:isRequiredBy](http://purl.org/dc/terms/isRequiredBy)</td>
+    </tr>
+    <!-- trūko 'isRequiredBy' -->
+    <tr>
+        <td>Yra reikalaujamas</td>
+        <td>[dct:isRequiredBy](http://purl.org/dc/terms/isRequiredBy)</td>
         <td>[dcat:Dataset](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Ši ypatybė nurodo susijusį duomenų rinkinį, kuriam reikalingas duomenų rinkinys.</td>
          <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_qualified_relation">E</a></td>
-	</tr>
-	<!-- trūko 'references' -->
-	<tr>
-		<td>Nurodo</td>
-		<td>[dct:references](http://purl.org/dc/terms/references)</td>
+    </tr>
+    <!-- trūko 'references' -->
+    <tr>
+        <td>Nurodo</td>
+        <td>[dct:references](http://purl.org/dc/terms/references)</td>
         <td>[rdfs:Resource](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Resource)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Ši ypatybė pateikia tinklalapį su ryšio aprašu su kitu ištekliumi, kurį nurodo duomenų rinkinys. Ši ypatybė yra atvirkštinė dct:isReferencedBy. </td>
          <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_is_referenced_by">E</a></td>
-	</tr>
-	<!-- trūko 'replaces' -->
-	<tr>
-		<td>Pakeičia</td>
-		<td>[dct:replaces](http://purl.org/dc/terms/replaces)</td>
+    </tr>
+    <!-- trūko 'replaces' -->
+    <tr>
+        <td>Pakeičia</td>
+        <td>[dct:replaces](http://purl.org/dc/terms/replaces)</td>
         <td>[dcat:Dataset](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Ši ypatybė nurodo kitą duomenų rinkinį, kurį pakeičia duomenų rinkinys.</td>
          <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_replaces">E</a></td>
-	</tr>
-	<!-- trūko 'requires' -->
-	<tr>
-		<td>Reikalauja</td>
-		<td>[dct:requires](http://purl.org/dc/terms/requires)</td>
+    </tr>
+    <!-- trūko 'requires' -->
+    <tr>
+        <td>Reikalauja</td>
+        <td>[dct:requires](http://purl.org/dc/terms/requires)</td>
         <td>[dcat:Dataset](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset)</td>
         <td>0..n</td>
         <td>-</td>
         <td>Ši ypatybė nurodo kitą duomenų rinkinį, kurio reikia duomenų rinkiniui.</td>
         <td>P</td>
-	</tr>
-	<!-- trūko 'versionInfo' -->
-	<tr>
-		<td>Versijos informacija</td>
-		<td>[owl:versionInfo](http://www.w3.org/2002/07/owl#versionInfo)</td>
+    </tr>
+    <!-- trūko 'versionInfo' -->
+    <tr>
+        <td>Versijos informacija</td>
+        <td>[owl:versionInfo](http://www.w3.org/2002/07/owl#versionInfo)</td>
         <td>[rdfs:Literal](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Literal)</td>
         <td>0..1</td>
         <td>-</td>
         <td>Šioje ypatybėje yra versijos numeris arba kita informacija apie duomenų rinkinio versiją.</td>
          <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_version">E</a></td>
-	</tr>
+    </tr>
  </table>
 
 
@@ -1684,7 +1683,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
         <td>1..1</td>
         <td>-</td>
         <td>Šioje savybėje nurodomas duomenų paslaugos identifikatorius.</td>
-	<td>E</td>
+    <td>E</td>
     </tr>
     <tr>
         <td>Pavadinimas</td>
@@ -1735,7 +1734,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
         <td>Šioje savybėje pateikiama kontaktinė informacija, kurią galima naudoti siunčiant pastabas apie duomenų paslaugą.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_contact_point">E</a></td>
     </tr>
-	<tr>
+    <tr>
         <td>Prieigos taško aprašas</td>
         <td>[dcat:endpointDescription](http://www.w3.org/ns/dcat#endpointDescription)</td>
         <td>[rdfs:Resource](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Resource)</td>
@@ -1812,7 +1811,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_access_rights">E</a></td>
     </tr>
 <tr>
-	<tr>
+    <tr>
         <td>Atitinka</td>
         <td>[dct:conformsTo](http://purl.org/dc/terms/conformsTo)</td>
         <td>[dct:Standard](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Standard)</td>
@@ -1829,7 +1828,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
         <td>Šioje savybėje laisvu tekstu pateikiamas duomenų paslaugos aprašas. Šią savybę galima pakartoti, jei aprašas pateikiamas keliomis kalbomis.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_description">E</a></td>
     </tr>
-	<tr>
+    <tr>
         <td>Laikosi</td>
         <td>[cpsv:follows](http://purl.org/vocab/cpsv#follows)</td>
         <td>-</td>
@@ -1838,7 +1837,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
         <td>-</td>
         <td>P</td>
     </tr>
-	<tr>
+    <tr>
         <td>Nukreipimo puslapis</td>
         <td>[dcat:landingPage](http://www.w3.org/ns/dcat#landingPage)</td>
         <td>[foaf:Document](http://xmlns.com/foaf/0.1/Document)</td>
@@ -1849,7 +1848,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
     </tr>
 
   <!-- trūko 'licence' -->
-	<tr>
+    <tr>
         <td>Licencija</td>
         <td>[dct:licence](http://purl.org/dc/terms/license)</td>
         <td>[dct:LicenseDocument](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#LicenceDocument)</td>
@@ -1934,7 +1933,7 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
  </table>
 
 
-## Pateiktis
+## Pateiktis ## {##Pateiktis}
 
         <style>
             .data-table.simple {
@@ -1992,7 +1991,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
     </tr>
  </table>
 
-### Klasės Pateiktis rekomenduojamos savybės ### {###PrivalomosPateiktisSavybes}
+### Klasės Pateiktis rekomenduojamos savybės ### {###RekomenduojamosPateiktisSavybes}
 
         <style>
             .data-table.simple {
@@ -2021,7 +2020,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
         <td>Ši savybė nurodo licenciją, pagal kurią platinamas pateikimas.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_license">E</a></td>
     </tr>
-	<tr>
+    <tr>
         <td>Prieinamumas</td>
         <td>[dcatap:availability](http://data.europa.eu/r5r/availability)</td>
         <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
@@ -2030,7 +2029,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
         <td>Nurodoma, kiek laiko planuojama išlaikyti duomenų rinkinio platinimą.</td>
         <td>P</td>
     </tr>
-	<tr>
+    <tr>
         <td>Aprašas</td>
         <td>[dct:description](http://purl.org/dc/terms/description)</td>
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
@@ -2039,7 +2038,7 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
         <td>Šioje savybėje laisvu tekstu pateikiamas pateikties aprašas. Šią savybę galima pakartoti, jei aprašoma keliomis (lygiagrečiomis) kalbomis.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_description">E</a></td>
     </tr>
-	<tr>
+    <tr>
         <td>Formatas</td>
         <td>[dct:format](http://purl.org/dc/terms/format)</td>
         <td>[dct:MediaTypeOrExtent](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#MediaTypeorExtent)</td>
@@ -2069,8 +2068,8 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
                 <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
             </tr>
 <br></br>
-	<!-- trūko 'access service' -->
-	<tr>
+    <!-- trūko 'access service' -->
+    <tr>
         <td>Prieigos paslauga</td>
         <td>[dcat:accessService](http://www.w3.org/ns/dcat#accessService)</td>
         <td>[dcat:DataService](http://www.w3.org/ns/dcat#DataService)</td>
@@ -2079,8 +2078,8 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
         <td>Ši savybė nurodo duomenų paslaugą per kurią prieinama duomenų pateiktis</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_access_service">E</a></td>
     </tr>
-	<!-- trūko 'byte size' -->
-	<tr>
+    <!-- trūko 'byte size' -->
+    <tr>
         <td>Dydis baitais</td>
         <td>[dcat:byteSize](http://www.w3.org/ns/dcat#byteSize)</td>
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
@@ -2089,8 +2088,8 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
         <td>Ši savybė nurodo pateikties dydį baitais. Tai turi būti įvesta kaip xsd:decimal.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_size">E</a></td>
     </tr>
-	<!-- trūko 'downloadURL' -->
-	<tr>
+    <!-- trūko 'downloadURL' -->
+    <tr>
         <td>Parsisiuntimo URL</td>
         <td>[dcat:downloadURL](http://www.w3.org/ns/dcat#downloa)</td>
         <td>[rdfs:Resource](http://www.w3.org/2000/01/rdf-schema#Resource)</td>
@@ -2099,148 +2098,148 @@ IS kontekste, šios klasės prioritetinis ir didžiausios apimties taikymas yra 
         <td>Šioje savybėje yra URL, kuris yra tiesioginė nuoroda į atsisiunčiamą failą.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_download_url">E</a></td>
     </tr>
-	<tr>
+    <tr>
     <td>Medijos tipas</td>
-		<td>[dcat:mediaType](http://purl.org/dc/terms/mediaType)</td>
-		<td>[dct:MediaType](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Mediatype)</td>
-		<td>0..1</td>
-		<td>-</td>
-		<td>Ši savybė nurodo platinimo laikmenos tipą, kaip apibrėžta IANA valdomas žodynas</td>
+        <td>[dcat:mediaType](http://purl.org/dc/terms/mediaType)</td>
+        <td>[dct:MediaType](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Mediatype)</td>
+        <td>0..1</td>
+        <td>-</td>
+        <td>Ši savybė nurodo platinimo laikmenos tipą, kaip apibrėžta IANA valdomas žodynas</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_media_type">E</a></td>
-	</tr>
-	
-	<tr>
-		<td>Kontrolinė suma</td>
-		<td>[spdx:checksum](http://spdx.org/rdf/terms#checksum)</td>
-		<td>[spdx:Checksum](http://spdx.org/rdf/terms#Checksum)</td>
-		<td>0..1</td>
-		<td>-</td>
-		<td>Ši savybė nurodo pateikties vientisumui užtikrinti naudojamą mechanizmą.</td>
+    </tr>
+    
+    <tr>
+        <td>Kontrolinė suma</td>
+        <td>[spdx:checksum](http://spdx.org/rdf/terms#checksum)</td>
+        <td>[spdx:Checksum](http://spdx.org/rdf/terms#Checksum)</td>
+        <td>0..1</td>
+        <td>-</td>
+        <td>Ši savybė nurodo pateikties vientisumui užtikrinti naudojamą mechanizmą.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_checksum">E</a></td>
-	</tr>
-	<tr>
-		<td>Suspaudimo formatas</td>
-		<td>[dcat:compressFormat](http://www.w3.org/ns/dcat#compressFormat)</td>
-		<td>[dct:MediaType](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Mediatype)</td>
-		<td>0..1</td>
-		<td>-</td>
-		<td>Ši savybė nurodo failo, kuriame yra duomenys, formatą esantys suspaustoje formoje, pvz. sumažinti dydį atsisiunčiamo failo.</td>
+    </tr>
+    <tr>
+        <td>Suspaudimo formatas</td>
+        <td>[dcat:compressFormat](http://www.w3.org/ns/dcat#compressFormat)</td>
+        <td>[dct:MediaType](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Mediatype)</td>
+        <td>0..1</td>
+        <td>-</td>
+        <td>Ši savybė nurodo failo, kuriame yra duomenys, formatą esantys suspaustoje formoje, pvz. sumažinti dydį atsisiunčiamo failo.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_compression_format">E</a></td>
-	</tr>
-	<tr>
-		<td>Turi politiką</td>
-		<td>[odrl:hasPolicy](http://www.w3.org/ns/odrl/2/hasPolicy)</td>
-		<td>[odrl:Policy](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Policy)</td>
-		<td>0..1</td>
-		<td>-</td>
-		<td>Ši savybė reiškia politiką, išreiškiančią su pateiktimi susijusias teises, jei naudojamas ODRL žodynas.</td>
+    </tr>
+    <tr>
+        <td>Turi politiką</td>
+        <td>[odrl:hasPolicy](http://www.w3.org/ns/odrl/2/hasPolicy)</td>
+        <td>[odrl:Policy](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Policy)</td>
+        <td>0..1</td>
+        <td>-</td>
+        <td>Ši savybė reiškia politiką, išreiškiančią su pateiktimi susijusias teises, jei naudojamas ODRL žodynas.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_has_policy">E</a></td>
-	</tr>
-	<tr>
-		<td>Išleista</td>
-		<td>[dct:issued](http://purl.org/dc/terms/issued)</td>
-		<td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-		<td>0..1</td>
-		<td>-</td>
-		<td>Ši savybė nurodo datą, kai pateiktis buvo pirmą kartą išleista.</td>
+    </tr>
+    <tr>
+        <td>Išleista</td>
+        <td>[dct:issued](http://purl.org/dc/terms/issued)</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
+        <td>0..1</td>
+        <td>-</td>
+        <td>Ši savybė nurodo datą, kai pateiktis buvo pirmą kartą išleista.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_release_date">E</a></td>
-	</tr>
-	<tr>
-		<td>Atnaujinimo / pakeitimo data</td>
-		<td>[dct:modified](http://purl.org/dc/terms/modified)</td>
-		<td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-		<td>0..1</td>
-		<td>-</td>
-		<td>Šioje savybėje nurodoma pateikties naujausio pakeitimo / atnaujinimo data</td>
+    </tr>
+    <tr>
+        <td>Atnaujinimo / pakeitimo data</td>
+        <td>[dct:modified](http://purl.org/dc/terms/modified)</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
+        <td>0..1</td>
+        <td>-</td>
+        <td>Šioje savybėje nurodoma pateikties naujausio pakeitimo / atnaujinimo data</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_update_date">E</a></td>
-	</tr>
-	<tr>
-		<td>Kalba</td>
-		<td>[dct:language](http://purl.org/dc/terms/language)</td>
-		<td>[dct:LinguisticSystem](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Linguisticsystem)</td>
-		<td>0..1</td>
-		<td>Ši savybė turėtų būti kartojama, jei yra įvairių pateikties versijų skirtingomis kalbomis</td>
-		<td>Ši savybė nurodo pateikties duomenų kalbą. </td>
+    </tr>
+    <tr>
+        <td>Kalba</td>
+        <td>[dct:language](http://purl.org/dc/terms/language)</td>
+        <td>[dct:LinguisticSystem](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Linguisticsystem)</td>
+        <td>0..1</td>
+        <td>Ši savybė turėtų būti kartojama, jei yra įvairių pateikties versijų skirtingomis kalbomis</td>
+        <td>Ši savybė nurodo pateikties duomenų kalbą. </td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_language">E</a></td>
-	</tr>
-	<tr>
-		<td>Susijusi schema</td>
-		<td>[dct:conformsTo](http://purl.org/dc/terms/conformsTo)</td>
-		<td>[dct:Standard](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Standard)</td>
-		<td>0..n</td>
-		<td>-</td>
-		<td>Ši savybė nurodo nustatytą schemą, kurią atitinka aprašoma pateiktis.</td>
+    </tr>
+    <tr>
+        <td>Susijusi schema</td>
+        <td>[dct:conformsTo](http://purl.org/dc/terms/conformsTo)</td>
+        <td>[dct:Standard](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Standard)</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Ši savybė nurodo nustatytą schemą, kurią atitinka aprašoma pateiktis.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_conforms_to">E</a></td>
-	</tr>
-	<tr>
-		<td>(Failų) Pakavimo formatas</td>
-		<td>[dcat:packageFormat](http://www.w3.org/ns/dcat#packageFormat)</td>
-		<td>[dct:MediaType](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Mediatype)</td>
-		<td>0..1</td>
-		<td>-</td>
-		<td>Ši savybė nurodo failo, kuriame yra vienas ar daugiau duomenų, formatą
+    </tr>
+    <tr>
+        <td>(Failų) Pakavimo formatas</td>
+        <td>[dcat:packageFormat](http://www.w3.org/ns/dcat#packageFormat)</td>
+        <td>[dct:MediaType](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Mediatype)</td>
+        <td>0..1</td>
+        <td>-</td>
+        <td>Ši savybė nurodo failo, kuriame yra vienas ar daugiau duomenų, formatą
 failai sugrupuoti, pvz. kad būtų įjungtas susijusių failų rinkinys
 atsisiųsta kartu. Jis TURĖTŲ būti išreikštas naudojant laikmenos tipą kaip
 apibrėžtas oficialiame IANA tvarkomame žiniasklaidos tipų registre.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_packaging_format">E</a></td>
-	</tr>
-	<tr>
-		<td>Puslapis (dokumentacija)</td>
-		<td>[foaf:page](http://xmlns.com/foaf/0.1/page)</td>
-		<td>[foaf:Document](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Document)</td>
-		<td>-0..n</td>
-		<td>-</td>
-		<td>Ši savybė nurodo į dokumentą su informacija apie platinimą.</td>
+    </tr>
+    <tr>
+        <td>Puslapis (dokumentacija)</td>
+        <td>[foaf:page](http://xmlns.com/foaf/0.1/page)</td>
+        <td>[foaf:Document](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Document)</td>
+        <td>-0..n</td>
+        <td>-</td>
+        <td>Ši savybė nurodo į dokumentą su informacija apie platinimą.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_homepage">E</a></td>
-	</tr>
-	<tr>
-		<td>Teisės</td>
-		<td>[dct:rights](http://purl.org/dc/terms/rights)</td>
-		<td>[dct:RightsStatement](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Rightsstatement)</td>
-		<td>0..1</td>
-		<td>-</td>
-		<td>Ši savybė nurodo informacinį pareiškimą, kuriame nurodytos prieigos
+    </tr>
+    <tr>
+        <td>Teisės</td>
+        <td>[dct:rights](http://purl.org/dc/terms/rights)</td>
+        <td>[dct:RightsStatement](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Rightsstatement)</td>
+        <td>0..1</td>
+        <td>-</td>
+        <td>Ši savybė nurodo informacinį pareiškimą, kuriame nurodytos prieigos
 ir pateikties valdymo teisės.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_rights">E</a></td>
-	</tr>
-	<tr>
-		<td>Erdvinė skiriamoji geba (metrais)</td>
-		<td>[dcat:spatialResolutionInMeters](http://www.w3.org/ns/dcat#spatialResolutionInMeters)</td>
-		<td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-		<td>0..n</td>
-		<td>-</td>
-		<td>Ši savybė nurodo minimalią erdvinę skiriamąją gebą, matuojamą metrais.</td>
+    </tr>
+    <tr>
+        <td>Erdvinė skiriamoji geba (metrais)</td>
+        <td>[dcat:spatialResolutionInMeters](http://www.w3.org/ns/dcat#spatialResolutionInMeters)</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Ši savybė nurodo minimalią erdvinę skiriamąją gebą, matuojamą metrais.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_spatial_resolution">E</a></td>
-	</tr>
-	<tr>
-		<td>Statusas</td>
-		<td>[adms:status](http://www.w3.org/ns/adms#status)</td>
-		<td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
-		<td>0..1</td>
-		<td>-</td>
-		<td>Nurodomas pateikties brandos lygmuo</td>
+    </tr>
+    <tr>
+        <td>Statusas</td>
+        <td>[adms:status](http://www.w3.org/ns/adms#status)</td>
+        <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
+        <td>0..1</td>
+        <td>-</td>
+        <td>Nurodomas pateikties brandos lygmuo</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_status">E</a></td>
-	</tr>
-	<tr>
-		<td>Pavadinimas</td>
-		<td>[dct:title](http://purl.org/dc/terms/title)</td>
-		<td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-		<td>0..n</td>
-		<td>-</td>
-		<td>Šioje savybėje yra aprašomasis pateikties pavadinimas. 
+    </tr>
+    <tr>
+        <td>Pavadinimas</td>
+        <td>[dct:title](http://purl.org/dc/terms/title)</td>
+        <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Šioje savybėje yra aprašomasis pateikties pavadinimas. 
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_title">E</a></td>
 </td>
-	</tr>
-	<tr>
-		<td>Laiko skiriamoji geba</td>
-		<td>[dcat:temporalResolution](http://www.w3.org/ns/dcat#temporalResolution)</td>
-		<td>[xsd:duration](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
-		<td>0..n</td>
-		<td>-</td>
-		<td>Ši savybė nurodo minimalią laiko skiriamąją gebą.</td>
+    </tr>
+    <tr>
+        <td>Laiko skiriamoji geba</td>
+        <td>[dcat:temporalResolution](http://www.w3.org/ns/dcat#temporalResolution)</td>
+        <td>[xsd:duration](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
+        <td>0..n</td>
+        <td>-</td>
+        <td>Ši savybė nurodo minimalią laiko skiriamąją gebą.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_temporal_resolution">E</a></td>
-	</tr>	
-	<tr>
+    </tr>    
+    <tr>
         <td>Licencija</td>
         <td>[dct:license](http://purl.org/dc/terms/license)</td>
         <td>[dct:LicenseDocument](http://purl.org/dc/terms/LicenseDocument)</td>
@@ -2251,7 +2250,7 @@ ir pateikties valdymo teisės.</td>
     </tr>
    </table>
 
-## Licencijos dokumentas
+## Licencijos dokumentas ## {##LicencijosDokumentas}
 
         <style>
             .data-table.simple {
@@ -2858,7 +2857,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>Ši savybė susieja informacinės sistemos paslaugą su viešąja institucija, kuri yra atsakinga už paslaugos teikimą.</td>
                    <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_title">E</a></td>
     </tr>
-	 </table>
+     </table>
 
 ### Klasės Informacinės Sistemos Paslauga rekomenduojamos savybės ### {###RekomenduojamosISPaslaugaSavybes}
        
@@ -3001,7 +3000,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
         <td>Ši savybė nurodo susijusį / susijusius teisinius šaltinius.</td>
                    <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_title">E</a></td>
     </tr>
-	 </table>
+     </table>
 
 ## Katalogo įrašas ## {##KatalogoIrasas}
 
@@ -3302,7 +3301,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
     </tr>
 </table>
 
-## Dokumentas
+## Dokumentas ## {##Dokumentas}
 
         <style>
             .data-table.simple {
@@ -3353,7 +3352,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
 
 
 
-## Identifikatorius
+## Identifikatorius ## {##Identifikatorius}
 
         <style>
             .data-table.simple {
@@ -3508,7 +3507,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
                 <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
             </tr>
 <br></br>
-		  <tr>
+          <tr>
         <td>Geografinis ribinis stačiakampis</td>
         <td>[dcat:bbox](http://www.w3.org/ns/dcat#bbox)</td>
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
@@ -3562,7 +3561,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
 </table>
 
 
-## Medijos tipas
+## Medijos tipas ## {##MedijosTipas}
 
         <style>
             .data-table.simple {
@@ -3588,7 +3587,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
 
 
 
-## Laikotarpis
+## Laikotarpis ## {##Laikotarpis}
 
         <style>
             .data-table.simple {
@@ -3744,7 +3743,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
         </table>
 
 
-## Standartas
+## Standartas ## {##Standartas}
 
         <style>
             .data-table.simple {
@@ -3847,7 +3846,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
         </table>
 
 
-## Veikla
+## Veikla ## {##Veikla}
 
         <style>
             .data-table.simple {
@@ -3873,7 +3872,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
 
 
 
-## Adresas
+## Adresas ## {##Adresas}
 
         <style>
             .data-table.simple {
@@ -3907,11 +3906,11 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
             }
         </style>
   <tr>
- 	<th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybės URI</th>
-	<th class="data-table__header-title--sortable" style="width:50%">Nauojama klasėje / klasėse</th>
+     <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">Savybės URI</th>
+    <th class="data-table__header-title--sortable" style="width:50%">Nauojama klasėje / klasėse</th>
         <th class="data-table__header-title--sortable" style="width:12%">Žodyno pavadinimas</th>
-	<th class="data-table__header-title--sortable" style="width:12%">Žodyno URI</th>
-        <th class="data-table__header-title--sortable" style="width:12%">Naudojimo pastaba</th>	
+    <th class="data-table__header-title--sortable" style="width:12%">Žodyno URI</th>
+        <th class="data-table__header-title--sortable" style="width:12%">Naudojimo pastaba</th>    
     <th></th>
   </tr>
 <tr>
@@ -3989,7 +3988,7 @@ neprivalomas identifikatoriaus schemą valdančios agentūros identifikatorius.
     <td><a href="http://purl.org/adms/status/">http://purl.org/adms/status/</a></td>
     <td>Duomenų paskirstymuose turi būti nurodyta ištekliaus būsena pagal ADMS būsenos žodyną (t. y. baigta, nebenaudojama, kuriama).</td>
   </tr>
-	<tr>
+    <tr>
     <td>cv:thematicArea</td>
     <td>Informacinės sistemos paslauga</td>
     <td>EuroVoc</td>
@@ -4060,7 +4059,7 @@ Didelės vertės duomenų rinkinių metaduomenų informacija pateikiama šiame [
 
 # DCAT-AP-LT metaduomenų klasių ir savybių kūrimo eiga pagal informacinės sistemos gyvavimo ciklo stadijas  # {#Gyvavimo}
 
-DCAT-AP-LT metaduomenų klasių ir savybių kūrimo eiga pagal skirtingas informacinės sistemos gyvavimo ciklo stadijas pateikiama šiame [priede](https://github.com/ivpk/DCAT-AP-LT/blob/main/IVPK%20-%20Meta%20-%20DCAT-AP-LT%20susiejimas%20su%20IS%20gyvavimo%20stadijomis_Klasi%C5%B3%20ir%20savybi%C5%B3%20lygmenyje_v4_2024-10-14.pdf).
+DCAT-AP-LT metaduomenų klasių ir savybių kūrimo eiga pagal skirtingas informacinės sistemos gyvavimo ciklo stadijas pateikiama šiame [priede](/DCAT-AP-LT metaduomenų kūrimo eiga pagal IS gyvavimo ciklo stadijas v2.0.1.pdf).
 
 
 # Padėka # {#Padeka}
@@ -4068,7 +4067,7 @@ DCAT-AP-LT metaduomenų klasių ir savybių kūrimo eiga pagal skirtingas inform
 Norime išreikšti padėką visiems dirbusiems, kuriant DCAT-AP-LT specifikaciją: Kęstutis Andrijauskas, Martynas Mockus, Mantas Zimnickas, Darius Amilevičius, Martynas Daugirdas, Gabrielė Stočkūnaitė, Alanas Lukjanovičius, Vladimiras Desiatnikovas
 
 
-# Nuorodos
+# Nuorodos # {#Nuorodos}
 
 
  
@@ -4113,7 +4112,7 @@ Norime išreikšti padėką visiems dirbusiems, kuriant DCAT-AP-LT specifikacij�
     </dd><dt id="bib-hvd">[HVD<!---0.115482%-->]</dt><dd>
       <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R0138"><cite>Implementing Regulation for High Value Datasets</cite></a>.  European Union. URL: <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R0138">https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R0138</a><!---0.115482%-->
     </dd>
-    <dt id="bib-hvd">[DCAT-AP-LT HVD<!---0.115482%-->]</dt><dd>
+    <dt id="bib-lt-hvd">[DCAT-AP-LT HVD<!---0.115482%-->]</dt><dd>
       <a href="https://ivpk.github.io/DCAT-AP-LT/hvd.html"><cite>Didelės vertės duomenų rinkinių metaduomenų specifikacija, taikoma Lietuvoje</cite></a>
     </dd>
 <dt id="bib-json-ld11">[json-ld11<!---0.115482%-->]</dt><dd>

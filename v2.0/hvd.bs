@@ -2,7 +2,8 @@
 Title: DCAT-AP-LT HVD
 Shortname: HVD
 Level: 1
-Status: LD
+Status: iso/TS
+Date: 2024-10-18
 Repository: ivpk/DCAT-AP-LT
 URL: https://ivpk.github.io/DCAT-AP-LT/
 Editor: IVPK, https://ivpk.lrv.lt/lt/
