@@ -56,7 +56,7 @@ This specification is focused on the implementation of the provisions of the Sta
 
 # Status # {#Status}
 
-DCAT-AP-LT 0.1 
+Published DCAT-AP-LT 2.0.1 technical specification
 
 # Licence # {#Licence}
 

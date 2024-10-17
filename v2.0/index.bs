@@ -278,20 +278,20 @@ DCAT-AP-LT apima [BregDCAT-AP](#bib-breg) naudojamas klases ir papildo jas Infor
 
 Šiuo metu numatoma, jog Europos Komisija teiks paramą šioms [Europos bendroms duomenų erdvėms](https://digital-strategy.ec.europa.eu/en/policies/data-spaces) kurti:
 <ul>
-<li>Žemės ūkio;  </li>
-<li> Kultūrinio paveldo; </li>
- <li>Energetikos; </li>
-<li>Finansinių; </li>
-<li> Žaliojo kurso; </li>
-<li>Kalbos; </li>
- <li>Sveikatos; </li>
-<li> Pramonės (gamybos); </li>
-<li>Žiniasklaidos </li>
- <li>Judumo; </li>
- <li>Viešojo administravimo;  </li>
-<li>Mokslinių tyrimų ir inovacijų; </li>
- <li>Su įgūdžiais susijusių;  </li>
-<li>Turizmo.  </li>
+    <li>Žemės ūkio;</li>
+    <li> Kultūrinio paveldo;</li>
+    <li>Energetikos;</li>
+    <li>Finansinių;</li>
+    <li> Žaliojo kurso;</li>
+    <li>Kalbos;</li>
+    <li>Sveikatos;</li>
+    <li> Pramonės (gamybos);</li>
+    <li>Žiniasklaidos</li>
+    <li>Judumo;</li>
+    <li>Viešojo administravimo;</li>
+    <li>Mokslinių tyrimų ir inovacijų;</li>
+    <li>Su įgūdžiais susijusių;</li>
+    <li>Turizmo.</li>
 </ul>
 
 
@@ -305,7 +305,7 @@ DCAT-AP-LT apima [BregDCAT-AP](#bib-breg) naudojamas klases ir papildo jas Infor
 
 # Statusas # {#Statusas}
 
-DCAT-AP-LT 0.1 
+Paskelbta DCAT-AP-LT 2.0.1 techninė specifikacija
 
 # Licencija # {#Licencija}
 
@@ -318,7 +318,7 @@ DCAT-AP-LT 0.1
         <th>Trumpinys (en. prefix)</th>
         <th>Vardų erdvės URI</th>
     </tr>
- <tr>
+    <tr>
         <td>
         <code>dcataplt</code>
         </td>
@@ -515,7 +515,7 @@ Pagrindinių modelių esybių, kurios sudaro taikymo profilio branduolį, savyb�
                 <td>URL nuoroda į informacinės sistemos svarbos vertinimo dokumentą.</td>
                 <td>P</td>
             </tr>
-         <tr class="data-table__header">
+            <tr class="data-table__header">
                 <td>dcataplt:relatesToInformationSystem</td>
                 <td>dcataplt:InformationSystem</td>
                 <td>0..n</td>
@@ -523,8 +523,7 @@ Pagrindinių modelių esybių, kurios sudaro taikymo profilio branduolį, savyb�
                 <td>Informacinės sistemos, kurios teikia duomenis šiai IS.</td>
                 <td>P</td>
             </tr>
-</tr>
-         <tr class="data-table__header">
+            <tr class="data-table__header">
                 <td>dcataplt:relatesToDataService</td>
                 <td>[Dataservice]()</td>
                 <td>0..n</td>
