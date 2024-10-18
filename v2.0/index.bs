@@ -642,6 +642,120 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
     </dd>
 </dl>
 
+## Teisinio išteklio rūšis (dcataplt:LegalActType) ## {##TeisinioSaltinioTipas}
+
+<dl>
+    <dt>Apibrėžimas</dt>
+    <dd>Teisinių šaltinių Lietuvos Respublikoje tipų sąrašas.</dd>
+    <dt>Galimų teisinių šaltinių tipų sąrašas</dt>
+    <dd>
+        <style>
+            .data-table.simple {
+                border-collapse: separate;
+                border-spacing: 20px 0;
+            }
+        </style>
+        <table class="data-table simple">
+            <tr >
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:10%">Reikšmė</th>
+        <th class="data-table__header-title--sortable" style="width:10%">URI</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Range</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Reikšmės aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
+                <td>-</td>
+            </tr>
+<br></br>
+            <tr class="data-table__header">
+                <td>Konstitucinis įstatymas</td>
+        <td>dcataplt:Constitutional</td>
+                <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
+                <td>Konstitucinis įstatymas</td>
+                <td>P</td>
+            </tr>
+            <tr class="data-table__header">
+                <td>Įstatymas</td>
+        <td>dcataplt:LegalAct</td>
+                <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
+                <td>Įstatymas.</td>      
+                <td>P</td>
+            </tr>
+            <tr class="data-table__header">
+                <td>Seimo nutarimas</td>
+        <td>dcataplt:ParliamentDecision</td>
+                <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
+                <td>Seimo nutarimas.</td>    
+                <td>P</td>
+            </tr>
+            <tr class="data-table__header">
+                <td>Kitas seimo priimtas teisės aktas</td>
+        <td>dcataplt:OtherParliamentLegalAct</td>
+                <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
+                <td>Kitas seimo priimtas teisės aktas.</td>    
+                <td>P</td>
+            </tr>
+            <tr class="data-table__header">
+                <td>LR tarptautinė sutartis</td>
+        <td>dcataplt:LRInternationalAgreement</td>
+                <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
+                <td>Lietuvos Respublikos tarptautinė sutartis.</td>    
+                <td>P</td>
+            </tr>
+            <tr class="data-table__header">
+                <td>LR Prezidento dekretas ar potvarkis</td>
+        <td>dcataplt:PresidentDecree</td>
+                <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
+                <td>Respublikos Prezidento dekretas ar potvarkis.</td>    
+                <td>P</td>
+            </tr>
+            <tr class="data-table__header">
+                <td>Vyriausybės nutarimas</td>
+        <td>dcataplt:GovernmentDecision</td>
+                <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
+                <td>Vyriausybės nutarimas, sprendimas ar rezoliucija.</td>    
+                <td>P</td>
+            </tr>
+            <tr class="data-table__header">
+                <td>Norminis teisės aktas</td>
+        <td>dcataplt:NormativeLegalAct</td>
+                <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
+                <td>Ministrų, Vyriausybės įstaigų, kitų valstybės institucijų ir įstaigų vadovų ir kolegialių institucijų norminis teisės aktas.</td>    
+                <td>P</td>
+            </tr>
+            <tr class="data-table__header">
+                <td>Seimo valdybos sprendimas</td>
+        <td>dcataplt:ParliamentaryBoardDecision</td>
+                <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
+                <td>Seimo valdybos sprendimas.</td>    
+                <td>P</td>
+            </tr>
+            <tr class="data-table__header"></tr>
+                <td>LB Norminis teisės aktas</td>
+        <td>dcataplt:LBNormativeLegalAct</td>
+                <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
+                <td>Lietuvos banko norminis teisės aktas.</td>    
+                <td>P</td>
+            </tr>
+            <tr class="data-table__header">
+                <td>Savivaldybių institucijų norminis teisės aktas</td>
+        <td>dcataplt:MunicipalNormativeLegalAct</td>
+                <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
+                <td>Savivaldybių institucijų norminis teisės aktas.</td>    
+                <td>P</td>
+            </tr>
+            <tr class="data-table__header"></tr>
+                <td>Kitas teisės aktas</td>
+        <td>dcataplt:OtherLegalAct</td>
+                <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
+                <td>Kitas teisės aktas.</td>    
+                <td>P</td>
+            </tr>
+        </table>
+    </dd>
+</dl>
+
+
+
+
 
 # Naudojamos BregDCAT-AP klasės ir savybės # {#NaudojamosBREGSavybes}
 
