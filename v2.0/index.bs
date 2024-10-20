@@ -667,84 +667,84 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
 <br></br>
             <tr class="data-table__header">
                 <td>Konstitucinis įstatymas</td>
-        <td>dcataplt:Constitutional</td>
+        <td>dcataplt:constitutional</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Konstitucinis įstatymas</td>
                 <td>P</td>
             </tr>
             <tr class="data-table__header">
                 <td>Įstatymas</td>
-        <td>dcataplt:LegalAct</td>
+        <td>dcataplt:legalAct</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Įstatymas.</td>      
                 <td>P</td>
             </tr>
             <tr class="data-table__header">
                 <td>Seimo nutarimas</td>
-        <td>dcataplt:ParliamentDecision</td>
+        <td>dcataplt:parliamentDecision</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Seimo nutarimas.</td>    
                 <td>P</td>
             </tr>
             <tr class="data-table__header">
                 <td>Kitas seimo priimtas teisės aktas</td>
-        <td>dcataplt:OtherParliamentLegalAct</td>
+        <td>dcataplt:otherParliamentLegalAct</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Kitas seimo priimtas teisės aktas.</td>    
                 <td>P</td>
             </tr>
             <tr class="data-table__header">
                 <td>LR tarptautinė sutartis</td>
-        <td>dcataplt:LRInternationalAgreement</td>
+        <td>dcataplt:lrInternationalAgreement</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Lietuvos Respublikos tarptautinė sutartis.</td>    
                 <td>P</td>
             </tr>
             <tr class="data-table__header">
                 <td>LR Prezidento dekretas ar potvarkis</td>
-        <td>dcataplt:PresidentDecree</td>
+        <td>dcataplt:presidentDecree</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Respublikos Prezidento dekretas ar potvarkis.</td>    
                 <td>P</td>
             </tr>
             <tr class="data-table__header">
                 <td>Vyriausybės nutarimas</td>
-        <td>dcataplt:GovernmentDecision</td>
+        <td>dcataplt:governmentDecision</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Vyriausybės nutarimas, sprendimas ar rezoliucija.</td>    
                 <td>P</td>
             </tr>
             <tr class="data-table__header">
                 <td>Norminis teisės aktas</td>
-        <td>dcataplt:NormativeLegalAct</td>
+        <td>dcataplt:normativeLegalAct</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Ministrų, Vyriausybės įstaigų, kitų valstybės institucijų ir įstaigų vadovų ir kolegialių institucijų norminis teisės aktas.</td>    
                 <td>P</td>
             </tr>
             <tr class="data-table__header">
                 <td>Seimo valdybos sprendimas</td>
-        <td>dcataplt:ParliamentaryBoardDecision</td>
+        <td>dcataplt:parliamentaryBoardDecision</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Seimo valdybos sprendimas.</td>    
                 <td>P</td>
             </tr>
             <tr class="data-table__header"></tr>
                 <td>LB Norminis teisės aktas</td>
-        <td>dcataplt:LBNormativeLegalAct</td>
+        <td>dcataplt:lbNormativeLegalAct</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Lietuvos banko norminis teisės aktas.</td>    
                 <td>P</td>
             </tr>
             <tr class="data-table__header">
                 <td>Savivaldybių institucijų norminis teisės aktas</td>
-        <td>dcataplt:MunicipalNormativeLegalAct</td>
+        <td>dcataplt:municipalNormativeLegalAct</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Savivaldybių institucijų norminis teisės aktas.</td>    
                 <td>P</td>
             </tr>
             <tr class="data-table__header"></tr>
                 <td>Kitas teisės aktas</td>
-        <td>dcataplt:OtherLegalAct</td>
+        <td>dcataplt:otherLegalResource</td>
                 <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
                 <td>Kitas teisės aktas.</td>    
                 <td>P</td>
@@ -823,7 +823,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
                 <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
                 <td>1..1</td>
                 <td>-</td>
-                <td>Šioje savybėje nurodomas katalogo identifikatorius.</td>
+                <td>Šioje savybėje nurodomas katalogo / informacinės sistemos identifikatorius.</td>
                 <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_identifier">E</a></td>
                 </tr>
             <tr class="data-table__header">
@@ -841,7 +841,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
                 <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
                 <td>1..n</td>
                 <td>IS tvarkomų duomenų katalogo pavadinimas turi nurodyti, kad tai konkrečios informacinės sistemos ar jos esminės dalies (posistemės) informacinė struktūra, kurios apimtyje yra tvarkomi duomenų rinkiniai.</td>
-                <td>Šioje savybėje pateikiamas katalogui suteiktas pavadinimas.</td>
+                <td>Šioje savybėje pateikiamas katalogui / informacinei sistemai suteiktas pavadinimas.</td>
                 <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_title">E</a></td>
             </tr>
      <tr class="data-table__header">
@@ -880,7 +880,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
                 <td>[dct:Frequency](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Frequency)</td>
                 <td>0..1</td>
                 <td>-</td>
-                <td>Ši savybė nurodo registro katalogo dažnumą atnaujinama naujais / redaguotais duomenų rinkiniais.</td>
+                <td>Ši savybė nurodo registro katalogo ar IS dažnumą atnaujinama naujais / redaguotais duomenų rinkiniais.</td>
                 <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_frequency">E</a></td>
             </tr>
 
@@ -889,7 +889,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
                 <td>[dcat:dataset](http://www.w3.org/ns/dcat#dataset)</td>
                 <td>[dcat:Dataset](http://www.w3.org/ns/dcat#Dataset)</td>
                 <td>0..n</td>
-                <td>Šia klase apibūdinama konkreti informacinė sistema – valstybės informacinės sistema ar registras, kurio apimtyje yra tvarkomi duomenų rinkiniai.</td>
+                <td>Koncepcinė klasė, aprašanti kaupiamą / teikiamą informaciją. Sujungia IS su duomenų rinkiniu, kuris yra IS dalis.</td>
                 <td>Ši savybė susieja katalogą su duomenų rinkiniu, kuris yra katalogo įrašas.</td>
                 <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_dataset">E</a></td>
             </tr>
@@ -900,7 +900,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
                 <td>[foaf:Document](http://xmlns.com/foaf/0.1/Document)</td>
                 <td>0..1</td>
                 <td>-</td>
-                <td>Ši savybė nurodo tinklalapį, kuris yra pagrindinis katalogo puslapis.</td>
+                <td>Ši savybė nurodo tinklalapį, kuris yra pagrindinis katalogo / IS puslapis.</td>
                 <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_homepage">E</a></td>
             </tr>
             <tr class="data-table__header">
@@ -937,7 +937,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
                 <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
                 <td>0..1</td>
                 <td>IS kontekste laikoma, kad katalogo paskelbimo data yra oficiali duomenų apie informacinės sistemos metaduomenis įsigaliojimo data.</td>
-                <td>Šioje savybėje nurodoma oficiali katalogo paskelbimo data.</td>
+                <td>Šioje savybėje nurodoma oficiali katalogo / IS paskelbimo ar sukūrimo data.</td>
                 <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_release_date">E</a></td>
             </tr>
 
@@ -1043,7 +1043,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
                 <td>[dcat:DataService](http://www.w3.org/ns/dcat#DataService)</td>
                 <td>0..n</td>
                 <td>-</td>
-                <td>Ši savybė nurodo svetainę arba galinį tašką (angl. end-point) (duomenų paslaugą), įtrauktą į katalogą.</td>
+                <td>Ši savybė nurodo duomenų paslaugą (WS/API), įtrauktą į katalogą / IS.</td>
                 <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_service">E</a></td>
             </tr>
         </table>
@@ -1275,16 +1275,16 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
         <td>[rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)</td>
         <td>1..1</td>
         <td>-</td>
-        <td>Pagrindinis duomenų rinkinio identifikatorius, pvz., URI, arba kitas unikalus identifikatorius katalogo kontekste.</td>
+        <td>Pagrindinis duomenų rinkinio identifikatorius, pvz., URI, arba kitas unikalus identifikatorius.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_identifier">E</a></td>
     </tr>
     <tr>
-        <td>Duomenų erdvė</td>
+        <td>Atitinka</td>
         <td>[dct:conformsTo](http://purl.org/dc/terms/conformsTo)</td>
         <td>[dct:Standard](http://purl.org/dc/terms/Standard)</td>
         <td>1..n</td>
-        <td>Šaltinis: EUR-Lex - 52020DC0066 - EN - EUR-Lex (europa.eu)</td>
-        <td>Nustatyta duomenų erdvė, kuriai atitinka aprašytas pateikimas.</td>
+        <td>Standartas ar taisyklė kurį atitinka/įgyvendina duomenų rinkinys. VII išteklių įstatymas yra visiems taikomas standartas, papildomi standartai pateikiami išmimtiniais atvejais, kai yra grindžiama kitais specialiais įstatymais</td>
+        <td>Ši savybė nurodo įgyvendinimo taisyklę arba kitą specifikaciją..</td>
         <td>P</td>
     </tr>
 </table>
@@ -1324,8 +1324,8 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
         <td>[dcat:distribution](http://www.w3.org/ns/dcat#distribution)</td>
         <td>[dcat:Distribution](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Distribution)</td>
         <td>0..n</td>
-        <td>-</td>
-        <td>Ši savybė susieja duomenų rinkinį su platinimu.</td>
+        <td>Registruojamos visos galimos duomenų rinkinio pateiktys (failų teikimas, duomenų paslaugos, duomenų bazių prisijungimai ir kita). Tai gali būti ir ribotos pateiktys apribotos pagal požymį (metus, vietą, ar kitą duomenų objektą)</td>
+        <td>Ši savybė susieja duomenų rinkinį su jo pateiktimi.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_distribution">E</a></td>
     </tr>
     <tr>
@@ -1420,7 +1420,10 @@ Duomenų rinkinys išskiriamas ir formuluojamas kaip informacinės sistemos veik
         <td>[dct:accessRights](http://purl.org/dc/terms/accessRights)</td>
         <td>[dct:RightsStatement](http://purl.org/dc/terms/RightsStatement)</td>
         <td>0..1</td>
-        <td>-</td>
+        <td>Konfidencialūs: Informacija, kuri nėra atskleista. Naudojimo pastaba: šių duomenų atskleidimas galėtų pakenkti suinteresuotoms šalims, tokioms kaip viešosioms administracijoms ir verslo įmonėms. Tai gali būti susiję su asmenine ir profesine informacija, taip pat su informacija verslo, prekybos ar komercijos kontekste; 
+Ne_viešieji: Neviešai prieinami duomenys dėl privatumo, saugumo ar kitų priežasčių. Naudojimo pastaba: Ši kategorija gali apimti išteklius, kuriuose yra jautrios ar asmeninės informacijos;
+Apriboti: Prieinami tik tam tikromis sąlygomis. Naudojimo pastaba: Ši kategorija gali apimti išteklius, už kuriuos reikia mokėti, išteklius, kurie dalijami pagal konfidencialumo sutartis, išteklius, dėl kurių leidėjas ar savininkas dar nėra nusprendęs, ar jie gali būti viešai paskelbti;
+Viešieji: Viešai prieinami visiems. Naudojimo pastaba: Leidžiami apribojimai apima registraciją ir prašymą gauti API raktus, jei bet kas gali prašyti tokios registracijos ir/arba API raktų.</td>
         <td>Ši savybė susijusi su informacija, kuri nurodo, ar duomenų rinkinys yra atviri duomenys, ar jam taikomi prieigos apribojimai, ar jis nėra viešas.</td>
         <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_access_rights">E</a></td>
     </tr>
