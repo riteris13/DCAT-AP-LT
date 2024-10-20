@@ -642,7 +642,7 @@ DCAT-AP-LT naudojami kontroliuojami žodynai, pavyzdžiui, nustatyti kontroliuoj
     </dd>
 </dl>
 
-## Teisinio išteklio rūšis (dcataplt:LegalActType) ## {##TeisinioSaltinioTipas}
+## Teisinio šaltinio tipas (dcataplt:LegalActType) ## {##TeisinioSaltinioTipas}
 
 <dl>
     <dt>Apibrėžimas</dt>
