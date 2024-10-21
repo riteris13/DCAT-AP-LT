@@ -1,442 +1,124 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   width="799.99951"
-   height="453.69101"
-   viewBox="0 0 799.99955 453.69101"
-   version="1.1"
-   id="svg32"
-   sodipodi:docname="uml.svg"
-   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:cc="http://creativecommons.org/ns#">
-  <defs
-     id="defs32" />
-  <sodipodi:namedview
-     id="namedview32"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:showpageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#505050"
-     inkscape:document-units="px"
-     inkscape:zoom="1.2202317"
-     inkscape:cx="186.03025"
-     inkscape:cy="125.38602"
-     inkscape:window-width="1712"
-     inkscape:window-height="1400"
-     inkscape:window-x="1920"
-     inkscape:window-y="32"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg32" />
-  <title
-     id="title1" />
-  <desc
-     id="desc1">Created with Enterprise Architect (Build: 1628) 2</desc>
-  <g
-     style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1"
-     id="g2"
-     transform="matrix(1.3422819,0,0,1.3422819,-7.3825503,-7.3825503)">
-    <path
-       d="M 6,6 V 343 H 601 V 6 H 6"
-       shape-rendering="auto"
-       id="path1" />
-  </g>
-  <g
-     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1"
-     id="g3"
-     transform="matrix(1.3422819,0,0,1.3422819,-7.3825503,-7.3825503)">
-    <polygon
-       points="6,6 6,26 66,26 79,12 79,6 "
-       shape-rendering="auto"
-       style="fill-rule:evenodd"
-       id="polygon2" />
-  </g>
-  <g
-     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:0"
-     id="g4"
-     transform="matrix(1.3422819,0,0,1.3422819,-7.3825503,-7.3825503)">
-    <text
-       x="11"
-       y="19"
-       textLength="53"
-       style="font-style:normal;font-weight:700;font-size:10px;font-family:Calibri;white-space:pre;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:0"
-       xml:space="preserve"
-       id="text3"
-       lengthAdjust="spacing">class dcataplt</text>
-  </g>
-  <g
-     style="fill:#e8fde3;fill-opacity:1;stroke:#9a8484;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1"
-     id="g5"
-     transform="matrix(1.3422819,0,0,1.3422819,-7.3825503,-7.3825503)">
-    <rect
-       x="409"
-       y="40"
-       width="122"
-       height="107"
-       rx="0.00"
-       shape-rendering="auto"
-       id="rect4" />
-  </g>
-  <g
-     style="fill:#595959;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:0"
-     id="g6"
-     transform="matrix(1.3422819,0,0,1.3422819,-7.3825503,-7.3825503)">
-    <text
-       x="439"
-       y="53"
-       textLength="61"
-       style="font-style:normal;font-size:10px;font-family:Calibri;white-space:pre;fill:#595959;fill-opacity:1;stroke:#000000;stroke-opacity:0"
-       xml:space="preserve"
-       id="text5"
-       lengthAdjust="spacing">«enumeration»</text>
-    <text
-       x="445"
-       y="66"
-       textLength="50"
-       style="font-style:normal;font-weight:700;font-size:10px;font-family:Calibri;white-space:pre;fill:#595959;fill-opacity:1;stroke:#000000;stroke-opacity:0"
-       xml:space="preserve"
-       id="text6"
-       lengthAdjust="spacing">:Importance</text>
-  </g>
-  <g
-     style="fill:#000000;fill-opacity:0;stroke:#9a8484;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1"
-     id="g7"
-     transform="matrix(1.3422819,0,0,1.3422819,-7.3825503,-7.3825503)">
-    <path
-       d="M 409,74 H 530"
-       shape-rendering="auto"
-       id="path6" />
-  </g>
-  <g
-     style="fill:#66413f;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:0"
-     id="g11"
-     transform="matrix(1.3422819,0,0,1.3422819,-7.3825503,-7.3825503)">
-    <text
-       x="457"
-       y="88"
-       textLength="26"
-       style="font-style:italic;font-size:10px;font-family:Calibri;white-space:pre;fill:#66413f;fill-opacity:1;stroke:#000000;stroke-opacity:0"
-       xml:space="preserve"
-       id="text7"
-       lengthAdjust="spacing">literals</text>
-    <text
-       x="414"
-       y="101"
-       textLength="67"
-       style="font-style:normal;font-size:10px;font-family:Calibri;white-space:pre;fill:#66413f;fill-opacity:1;stroke:#000000;stroke-opacity:0"
-       xml:space="preserve"
-       id="text8"
-       lengthAdjust="spacing">:highlyImportant</text>
-    <text
-       x="414"
-       y="114"
-       textLength="42"
-       style="font-style:normal;font-size:10px;font-family:Calibri;white-space:pre;fill:#66413f;fill-opacity:1;stroke:#000000;stroke-opacity:0"
-       xml:space="preserve"
-       id="text9"
-       lengthAdjust="spacing">:important</text>
-    <text
-       x="414"
-       y="127"
-       textLength="89"
-       style="font-style:normal;font-size:10px;font-family:Calibri;white-space:pre;fill:#66413f;fill-opacity:1;stroke:#000000;stroke-opacity:0"
-       xml:space="preserve"
-       id="text10"
-       lengthAdjust="spacing">:moderatelyImportant</text>
-    <text
-       x="414"
-       y="140"
-       textLength="71"
-       style="font-style:normal;font-size:10px;font-family:Calibri;white-space:pre;fill:#66413f;fill-opacity:1;stroke:#000000;stroke-opacity:0"
-       xml:space="preserve"
-       id="text11"
-       lengthAdjust="spacing">:slightlyImportant</text>
-  </g>
-  <g
-     style="fill:#f5f5f5;fill-opacity:1;stroke:#9a8484;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1"
-     id="g12"
-     transform="matrix(1.3422819,0,0,1.3422819,-7.3825503,-7.3825503)">
-    <rect
-       x="35"
-       y="214"
-       width="215"
-       height="102"
-       rx="0.00"
-       shape-rendering="auto"
-       id="rect11" />
-  </g>
-  <g
-     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:0"
-     id="g13"
-     transform="matrix(1.3422819,0,0,1.3422819,-7.3825503,-7.3825503)">
-    <text
-       x="102"
-       y="233"
-       textLength="81"
-       style="font-style:normal;font-weight:700;font-size:10px;font-family:Calibri;white-space:pre;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:0"
-       xml:space="preserve"
-       id="text12"
-       lengthAdjust="spacing">:InformationSystem</text>
-  </g>
-  <g
-     style="fill:#000000;fill-opacity:0;stroke:#9a8484;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1"
-     id="g14"
-     transform="matrix(1.3422819,0,0,1.3422819,-7.3825503,-7.3825503)">
-    <path
-       d="M 35,241 H 249"
-       shape-rendering="auto"
-       id="path13" />
-  </g>
-  <g
-     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:0"
-     id="g15"
-     transform="matrix(1.3422819,0,0,1.3422819,-7.3825503,-7.3825503)">
-    <text
-       x="47"
-       y="259"
-       textLength="54"
-       style="font-style:normal;font-weight:400;font-size:10px;font-family:Calibri;white-space:pre;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:0"
-       xml:space="preserve"
-       id="text14"
-       lengthAdjust="spacing">«mandatory»</text>
-  </g>
-  <g
-     style="fill:#66413f;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:0"
-     id="g16"
-     transform="matrix(1.3422819,0,0,1.3422819,-7.3825503,-7.3825503)">
-    <text
-       x="40"
-       y="272"
-       textLength="179"
-       style="font-style:normal;font-weight:400;font-size:10px;font-family:Calibri;white-space:pre;fill:#66413f;fill-opacity:1;stroke:#000000;stroke-opacity:0"
-       xml:space="preserve"
-       id="text15"
-       lengthAdjust="spacing">:importanceAssessment: rdfs:Resource [1..*]</text>
-  </g>
-  <g
-     style="fill:#e8fde3;fill-opacity:1;stroke:#9a8484;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1"
-     id="g17"
-     transform="matrix(1.3422819,0,0,1.3422819,-7.3825503,-7.3825503)">
-    <rect
-       x="383"
-       y="215"
-       width="174"
-       height="100"
-       rx="0.00"
-       shape-rendering="auto"
-       id="rect16" />
-  </g>
-  <g
-     style="fill:#595959;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:0"
-     id="g18"
-     transform="matrix(1.3422819,0,0,1.3422819,-7.3825503,-7.3825503)">
-    <text
-       x="439"
-       y="228"
-       textLength="61"
-       style="font-style:normal;font-size:10px;font-family:Calibri;white-space:pre;fill:#595959;fill-opacity:1;stroke:#000000;stroke-opacity:0"
-       xml:space="preserve"
-       id="text17"
-       lengthAdjust="spacing">«enumeration»</text>
-    <text
-       x="458"
-       y="241"
-       textLength="23"
-       style="font-style:normal;font-weight:700;font-size:10px;font-family:Calibri;white-space:pre;fill:#595959;fill-opacity:1;stroke:#000000;stroke-opacity:0"
-       xml:space="preserve"
-       id="text18"
-       lengthAdjust="spacing">:Type</text>
-  </g>
-  <g
-     style="fill:#000000;fill-opacity:0;stroke:#9a8484;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1"
-     id="g19"
-     transform="matrix(1.3422819,0,0,1.3422819,-7.3825503,-7.3825503)">
-    <path
-       d="M 383,249 H 556"
-       shape-rendering="auto"
-       id="path18" />
-  </g>
-  <g
-     style="fill:#66413f;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:0"
-     id="g22"
-     transform="matrix(1.3422819,0,0,1.3422819,-7.3825503,-7.3825503)">
-    <text
-       x="457"
-       y="263"
-       textLength="26"
-       style="font-style:italic;font-size:10px;font-family:Calibri;white-space:pre;fill:#66413f;fill-opacity:1;stroke:#000000;stroke-opacity:0"
-       xml:space="preserve"
-       id="text19"
-       lengthAdjust="spacing">literals</text>
-    <text
-       x="388"
-       y="276"
-       textLength="110"
-       style="font-style:normal;font-size:10px;font-family:Calibri;white-space:pre;fill:#66413f;fill-opacity:1;stroke:#000000;stroke-opacity:0"
-       xml:space="preserve"
-       id="text20"
-       lengthAdjust="spacing">:internalInformationSystem</text>
-    <text
-       x="388"
-       y="289"
-       textLength="100"
-       style="font-style:normal;font-size:10px;font-family:Calibri;white-space:pre;fill:#66413f;fill-opacity:1;stroke:#000000;stroke-opacity:0"
-       xml:space="preserve"
-       id="text21"
-       lengthAdjust="spacing">:stateInformationSystem</text>
-    <text
-       x="388"
-       y="302"
-       textLength="110"
-       style="font-style:normal;font-size:10px;font-family:Calibri;white-space:pre;fill:#66413f;fill-opacity:1;stroke:#000000;stroke-opacity:0"
-       xml:space="preserve"
-       id="text22"
-       lengthAdjust="spacing">:registerInformationSystem</text>
-  </g>
-  <g
-     style="fill:#f5f5f5;fill-opacity:1;stroke:#9a8484;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1"
-     id="g23"
-     transform="matrix(1.3422819,0,0,1.3422819,-7.3825503,-7.3825503)">
-    <rect
-       x="62"
-       y="52"
-       width="160"
-       height="82"
-       rx="0.00"
-       shape-rendering="auto"
-       id="rect22" />
-  </g>
-  <g
-     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:0"
-     id="g24"
-     transform="matrix(1.3422819,0,0,1.3422819,-7.3825503,-7.3825503)">
-    <text
-       x="117"
-       y="71"
-       textLength="50"
-       style="font-style:normal;font-weight:700;font-size:10px;font-family:Calibri;white-space:pre;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:0"
-       xml:space="preserve"
-       id="text23"
-       lengthAdjust="spacing">dcat:Catalog</text>
-  </g>
-  <g
-     style="fill:#000000;fill-opacity:0;stroke:#69738c;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-opacity:1"
-     stroke-dasharray="6, 3"
-     id="g25"
-     transform="matrix(1.3422819,0,0,1.3422819,-7.3825503,-7.3825503)">
-    <path
-       d="M 409,131 250,232 M 409,131"
-       shape-rendering="auto"
-       id="path24" />
-  </g>
-  <g
-     style="fill:#000000;fill-opacity:0;stroke:#69738c;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1"
-     id="g26"
-     transform="matrix(1.3422819,0,0,1.3422819,-7.3825503,-7.3825503)">
-    <path
-       d="m 399,143 10,-12 -15,4"
-       shape-rendering="auto"
-       id="path25" />
-  </g>
-  <g
-     style="fill:#000000;fill-opacity:0;stroke:#69738c;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-opacity:1"
-     stroke-dasharray="6, 3"
-     id="g27"
-     transform="matrix(1.3422819,0,0,1.3422819,-7.3825503,-7.3825503)">
-    <path
-       d="M 383,268 H 250 m 133,0"
-       shape-rendering="auto"
-       id="path26" />
-  </g>
-  <g
-     style="fill:#000000;fill-opacity:0;stroke:#69738c;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1"
-     id="g28"
-     transform="matrix(1.3422819,0,0,1.3422819,-7.3825503,-7.3825503)">
-    <path
-       d="m 368,273 15,-5 -15,-5"
-       shape-rendering="auto"
-       id="path27" />
-    <path
-       d="M 142,214 V 134"
-       shape-rendering="auto"
-       id="path28" />
-  </g>
-  <g
-     style="fill:#faf1ec;fill-opacity:1;stroke:#69738c;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1"
-     id="g29"
-     transform="matrix(1.3422819,0,0,1.3422819,-7.3825503,-7.3825503)">
-    <polygon
-       points="148,150 136,150 142,134 "
-       shape-rendering="auto"
-       style="fill-rule:evenodd"
-       id="polygon28" />
-  </g>
-  <g
-     style="fill:#595959;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:0"
-     id="g32"
-     transform="matrix(1.3422819,0,0,1.3422819,-7.3825503,-7.3825503)">
-    <text
-       x="308"
-       y="262"
-       textLength="21"
-       style="font-style:normal;font-size:10px;font-family:Calibri;white-space:pre;fill:#595959;fill-opacity:1;stroke:#000000;stroke-opacity:0"
-       xml:space="preserve"
-       id="text29"
-       lengthAdjust="spacing">:type</text>
-    <text
-       x="363"
-       y="283"
-       textLength="16"
-       style="font-style:normal;font-size:10px;font-family:Calibri;white-space:pre;fill:#595959;fill-opacity:1;stroke:#000000;stroke-opacity:0"
-       xml:space="preserve"
-       id="text30"
-       lengthAdjust="spacing">1..1</text>
-    <text
-       x="304"
-       y="177"
-       textLength="48"
-       style="font-style:normal;font-size:10px;font-family:Calibri;white-space:pre;fill:#595959;fill-opacity:1;stroke:#000000;stroke-opacity:0"
-       xml:space="preserve"
-       id="text31"
-       lengthAdjust="spacing">:importance</text>
-    <text
-       x="386"
-       y="151"
-       textLength="16"
-       style="font-style:normal;font-size:10px;font-family:Calibri;white-space:pre;fill:#595959;fill-opacity:1;stroke:#000000;stroke-opacity:0"
-       xml:space="preserve"
-       id="text32"
-       lengthAdjust="spacing">1..1</text>
-  </g>
-  <metadata
-     id="metadata32">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <cc:license
-           rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
-      </cc:Work>
-      <cc:License
-         rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
-        <cc:permits
-           rdf:resource="http://creativecommons.org/ns#Reproduction" />
-        <cc:permits
-           rdf:resource="http://creativecommons.org/ns#Distribution" />
-        <cc:requires
-           rdf:resource="http://creativecommons.org/ns#Notice" />
-        <cc:requires
-           rdf:resource="http://creativecommons.org/ns#Attribution" />
-        <cc:permits
-           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
-        <cc:requires
-           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
-      </cc:License>
-    </rdf:RDF>
-  </metadata>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16.06cm" height="15.69cm" viewBox="0 0 607 593">
+<title></title>
+<desc>Created with Enterprise Architect (Build: 1628) 2</desc>
+
+<g style="fill:#FFFFFF;fill-opacity:1.00;">
+	 <rect x="0" y="0" width="607" height="593" shape-rendering="auto"/>
+</g><g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter; fill:#000000;fill-opacity:0.00; stroke:#000000; stroke-opacity:1.00">
+  <path d="M 6 6 L 6 587 L 601 587 L 601 6 L 6 6" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter; fill:#FFFFFF;fill-opacity:1.00; stroke:#000000; stroke-opacity:1.00">
+  <polygon points="6 26 66 26 79 12 79 6 6 6 6 26" shape-rendering="auto"   style="fill-rule:evenodd;"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter; fill:#000000;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="11.00" y="19.00" textLength="53" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#000000;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 11.00 19.00)">class dcataplt</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#E8FDE3;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00">
+ <rect x="428" y="40" width="122" height="107" rx="0.00" shape-rendering="auto"  />
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="458.00" y="53.00" textLength="61" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 458.00 53.00)">«enumeration»</text>
+	<text x="464.00" y="66.00" textLength="50" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 464.00 66.00)">:Importance</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00">
+  <path d="M 428 74 L 549 74" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="476.00" y="88.00" textLength="26" style="font-family:Calibri; font-weight:0; font-style:italic; font-size:10px; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 476.00 88.00)">literals</text>
+	<text x="433.00" y="101.00" textLength="67" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 433.00 101.00)">:highlyImportant</text>
+	<text x="433.00" y="114.00" textLength="42" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 433.00 114.00)">:important</text>
+	<text x="433.00" y="127.00" textLength="89" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 433.00 127.00)">:moderatelyImportant</text>
+	<text x="433.00" y="140.00" textLength="71" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 433.00 140.00)">:slightlyImportant</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#F5F5F5;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00">
+ <rect x="35" y="210" width="236" height="102" rx="0.00" shape-rendering="auto"  />
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="112.00" y="229.00" textLength="81" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#000000;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 112.00 229.00)">:InformationSystem</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00">
+  <path d="M 35 237 L 270 237" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="40.00" y="251.00" textLength="185" style="font-family:Calibri; font-weight:400; font-style:normal; font-size:10px; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 40.00 251.00)">:relatesToDataService: dcat:DataService [0..*]</text>
+	<text x="40.00" y="264.00" textLength="226" style="font-family:Calibri; font-weight:400; font-style:normal; font-size:10px; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 40.00 264.00)">:relatesToInformationSystem: :InformationSystem [0..*]</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="47.00" y="281.00" textLength="54" style="font-family:Calibri; font-weight:400; font-style:normal; font-size:10px; fill:#000000;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 47.00 281.00)">«mandatory»</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="40.00" y="294.00" textLength="179" style="font-family:Calibri; font-weight:400; font-style:normal; font-size:10px; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 40.00 294.00)">:importanceAssessment: rdfs:Resource [1..*]</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#E8FDE3;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00">
+ <rect x="383" y="211" width="174" height="100" rx="0.00" shape-rendering="auto"  />
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="439.00" y="224.00" textLength="61" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 439.00 224.00)">«enumeration»</text>
+	<text x="458.00" y="237.00" textLength="23" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 458.00 237.00)">:Type</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00">
+  <path d="M 383 245 L 556 245" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="457.00" y="259.00" textLength="26" style="font-family:Calibri; font-weight:0; font-style:italic; font-size:10px; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 457.00 259.00)">literals</text>
+	<text x="388.00" y="272.00" textLength="110" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 388.00 272.00)">:internalInformationSystem</text>
+	<text x="388.00" y="285.00" textLength="100" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 388.00 285.00)">:stateInformationSystem</text>
+	<text x="388.00" y="298.00" textLength="110" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 388.00 298.00)">:registerInformationSystem</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#F5F5F5;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00">
+ <rect x="62" y="48" width="160" height="82" rx="0.00" shape-rendering="auto"  />
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="117.00" y="67.00" textLength="50" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#000000;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 117.00 67.00)">dcat:Catalog</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#E8FDE3;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00">
+ <rect x="410" y="348" width="147" height="212" rx="0.00" shape-rendering="auto"  />
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="453.00" y="361.00" textLength="61" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 453.00 361.00)">«enumeration»</text>
+	<text x="442.00" y="374.00" textLength="82" style="font-family:Calibri; font-weight:700; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 442.00 374.00)">:LegalResourceType</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00">
+  <path d="M 410 382 L 556 382" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="470.00" y="396.00" textLength="26" style="font-family:Calibri; font-weight:0; font-style:italic; font-size:10px; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 470.00 396.00)">literals</text>
+	<text x="415.00" y="409.00" textLength="35" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 415.00 409.00)">:legalAct</text>
+	<text x="415.00" y="422.00" textLength="68" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 415.00 422.00)">:presidentDecree</text>
+	<text x="415.00" y="435.00" textLength="56" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 415.00 435.00)">:constitutional</text>
+	<text x="415.00" y="448.00" textLength="79" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 415.00 448.00)">:parliamentDecision</text>
+	<text x="415.00" y="461.00" textLength="103" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 415.00 461.00)">:otherPaeliamentLegalAct</text>
+	<text x="415.00" y="474.00" textLength="104" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 415.00 474.00)">:lrInternationalAgreement</text>
+	<text x="415.00" y="487.00" textLength="85" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 415.00 487.00)">:governmentDecision</text>
+	<text x="415.00" y="500.00" textLength="78" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 415.00 500.00)">:normativeLegalAct</text>
+	<text x="415.00" y="513.00" textLength="115" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 415.00 513.00)">:parliamentaryBoardDecision</text>
+	<text x="415.00" y="526.00" textLength="86" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 415.00 526.00)">:lbNormativeLegalAct</text>
+	<text x="415.00" y="539.00" textLength="117" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 415.00 539.00)">:municipalNormativeLegalAct</text>
+	<text x="415.00" y="552.00" textLength="81" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 415.00 552.00)">:otherLegalResource</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:round; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00" stroke-dasharray="6,3">
+  <path d="M 428 129 L 271 222 M 428 129" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00">
+  <path d="M 418 141 L 428 129 L 413 132" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:round; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00" stroke-dasharray="6,3">
+  <path d="M 383 264 L 271 264 M 383 264" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00">
+  <path d="M 368 269 L 383 264 L 368 259" shape-rendering="auto"/>
+  <path d="M 149 210 L 144 130" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#FAF1EC;fill-opacity:1.00; stroke:#69738C; stroke-opacity:1.00">
+  <polygon points="151 146 139 146 144 130" shape-rendering="auto"   style="fill-rule:evenodd;"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="324.00" y="171.00" textLength="48" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 324.00 171.00)">:importance</text>
+	<text x="405.00" y="149.00" textLength="16" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 405.00 149.00)">1..1</text>
+	<text x="319.00" y="258.00" textLength="21" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 319.00 258.00)">:type</text>
+	<text x="363.00" y="279.00" textLength="16" style="font-family:Calibri; font-weight:0; font-style:normal; font-size:10px; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 363.00 279.00)">1..1</text>
+</g>
 </svg>
