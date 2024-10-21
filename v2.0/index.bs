@@ -11,8 +11,9 @@ Abstract: DCAT-AP-LT metaduomenų modelis.
 Complain About: accidental-2119 yes, missing-example-ids yes
 Markup Shorthands: markdown yes, css no
 Translation: en en/index.html
+Translation: Editor Redaktorius, This version Ši versija, Issue Tracking Klaidų sekimas, Translation Vertimas
 Boilerplate: copyright no, spec-metadata yes, abstract no, conformance no
-Metadata include: Editor off, This version off, Issue Tracking off, Status off
+<!-- Metadata include: Editor off, This version off, Issue Tracking off, Status off, Translation off -->
 
 !Naujausia paskelbta versija: <a href="/v2.0/">DCAT-AP-LT v2.0</a>
 !Naujausias redaktoriaus juodraštis: nėra
