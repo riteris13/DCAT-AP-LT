@@ -11,11 +11,13 @@ Abstract: DCAT-AP-LT metaduomenų modelis.
 Complain About: accidental-2119 yes, missing-example-ids yes
 Markup Shorthands: markdown yes, css no
 Translation: en en/index.html
+Translation: this-version ši-versija, issue-tracking klaidų-sekimas, editor redaktorius, translations vertimai
 Boilerplate: copyright no, spec-metadata yes, abstract no, conformance no
 
-!Latest published version: https://ivpk.github.io/DCAT-AP-LT/
-!This document is also available in these non-normative formats: <a href="https://ivpk.github.io/DCAT-AP-LT/DCAT-AP-LT.ttl">TTL</a>
-!This document is also available in these non-normative formats: https://ivpk.github.io/DCAT-AP-LT/DCAT-AP-LT_owl.xml
+!Naujausia paskelbta versija: <a href="/v2.0/">DCAT-AP-LT v2.0</a>
+!Naujausias redaktoriaus juodraštis: nėra
+!Šis dokumentas taip pat pateikiamas šiais nenormatyviais formatais: <a href="https://ivpk.github.io/DCAT-AP-LT/DCAT-AP-LT.ttl">Turtle</a>
+!Šis dokumentas taip pat pateikiamas šiais nenormatyviais formatais: <a href="https://ivpk.github.io/DCAT-AP-LT/DCAT-AP-LT_owl.xml">RDF/XML</a>
 
 </pre>
 

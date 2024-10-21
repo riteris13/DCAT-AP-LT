@@ -11,7 +11,13 @@ Abstract: DCAT-AP-LT metadata model.
 Complain About: accidental-2119 yes, missing-example-ids yes
 Markup Shorthands: markdown yes, css no
 Translation: lt ../index.html
-Boilerplate: copyright no, spec-metadata no, abstract no, conformance no
+Boilerplate: copyright no, spec-metadata yes, abstract no, conformance no
+
+!Latest published version: <a href="/v2.0/">DCAT-AP-LT v2.0</a>
+!Latest editors draft: no draft
+!This document is also available in these non-normative formats: <a href="https://ivpk.github.io/DCAT-AP-LT/DCAT-AP-LT.ttl">Turtle</a>
+!This document is also available in these non-normative formats: <a href="https://ivpk.github.io/DCAT-AP-LT/DCAT-AP-LT_owl.xml">RDF/XML</a>
+
 </pre>
 
 # Introduction # {#Introduction}
