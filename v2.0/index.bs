@@ -12,7 +12,7 @@ Complain About: accidental-2119 yes, missing-example-ids yes
 Markup Shorthands: markdown yes, css no
 Translation: en en/index.html
 Boilerplate: copyright no, spec-metadata yes, abstract no, conformance no
-Metadata include: editor no, this-version no, issue-tracking no, status no
+Metadata include: Editor off, This version off, Issue Tracking off, Status off
 
 !Naujausia paskelbta versija: <a href="/v2.0/">DCAT-AP-LT v2.0</a>
 !Naujausias redaktoriaus juodraštis: nėra
