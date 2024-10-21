@@ -14,7 +14,7 @@ Translation: en en/index.html
 Boilerplate: copyright no, spec-metadata yes, abstract no, conformance no
 
 !Latest published version: https://ivpk.github.io/DCAT-AP-LT/
-!This document is also available in these non-normative formats: https://ivpk.github.io/DCAT-AP-LT/DCAT-AP-LT.ttl
+!This document is also available in these non-normative formats: <a href="https://ivpk.github.io/DCAT-AP-LT/DCAT-AP-LT.ttl">TTL</a>
 !This document is also available in these non-normative formats: https://ivpk.github.io/DCAT-AP-LT/DCAT-AP-LT_owl.xml
 
 </pre>
