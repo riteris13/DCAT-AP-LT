@@ -12,6 +12,11 @@ Complain About: accidental-2119 yes, missing-example-ids yes
 Markup Shorthands: markdown yes, css no
 Translation: en en/index.html
 Boilerplate: copyright no, spec-metadata no, abstract no, conformance no
+
+!Latest published version: https://ivpk.github.io/DCAT-AP-LT/
+!This document is also available in these non-normative formats: [TTL](https://ivpk.github.io/DCAT-AP-LT/DCAT-AP-LT.ttl)
+!This document is also available in these non-normative formats: [XML](https://ivpk.github.io/DCAT-AP-LT/DCAT-AP-LT_owl.xml)
+
 </pre>
 
 # Sąvokos # {#Savokos}
@@ -454,7 +459,7 @@ Paskelbta DCAT-AP-LT 2.0.1 techninė specifikacija
 DCAT-AP-LT apima visas [BregDCAT-AP](#bib-breg) 2.1 naudojamas klases ir papildo jas Informacinės Sistemos klase išplečiančia dcat:Catalog klasę bei dvejais kontroliuojamais žodynais Informacinės sistemos tipui ir svarbai pažymėti taip, kaip apibrėžiama Valstybės informacinių išteklių valymo įstatyme.
 Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas DCAT-AP HVD klases ir papildomas savybes. Taip pat, didelės vertės duomenų rinkinių metaduomenims aprašyti naudojamas [DCAT-AP-LT HVD klases ir papildomas savybes](hvd.html).
 
-<img src="v2.0/uml.png" width="800px" height="454px">
+<img src="uml.png" width="800px" height="454px">
 
 <br>
 
