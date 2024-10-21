@@ -1,0 +1,797 @@
+
+@prefix dcataplt: <http://data.gov.lt/onto/DCATAPLT> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <http://joinup.ec.europa.eu/collection/access-base-registries/solution/abr-specification-registry-registries#> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix odrl: <http://www.w3.org/ns/odrl/2/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcatap: <http://data.europa.eu/r5r/> .
+@prefix breg: <http://data.europa.eu/breg/> .
+@prefix cpsv: <http://purl.org/vocab/cpsv#> .
+@prefix eli: <http://data.europa.eu/eli/ontology#> .
+@prefix cv: <http://data.europa.eu/m8g/> . 
+@prefix dqv: <http://www.w3.org/ns/dqv#> .
+@prefix oa: <http://www.w3.org/ns/oa#>.
+@prefix qb: <http://purl.org/linked-data/cube#>. 
+
+<>
+a owl:Ontology;
+#DCAT AP LT turtte formatu:
+owl:imports: <https://raw.githubusercontent.com/ivpk/DCAT-AP-LT/main/DCAT-AP-LT.ttl>;
+#legal resource types:
+owl:imports <https://op.europa.eu/o/opportal-service/euvoc-download-handler?cellarURI=http%3A%2F%2Fpublications.europa.eu%2Fresource%2Fdistribution%2Fdata-theme%2F20240612-0%2Frdf%2Fskos_core%2Fdata-theme-skos.rdf&fileName=data-theme-skos.rdf>;
+
+
+
+#data service types, negalime importuoti, nes jame prie ConceptScheme klasėje nėra dct:title
+#owl:imports <https://op.europa.eu/o/opportal-service/euvoc-download-handler?cellarURI=http%3A%2F%2Fpublications.europa.eu%2Fresource%2Fdistribution%2Fdata-service-type%2F20220715-0%2Frdf%2Fskos_core%2Fdata-service-type-skos.rdf&fileName=data-service-type-skos.rdf>;
+#language vocabulary, negalime importuoti, nes jame prie ConceptScheme klasėje nėra dct:title
+#owl:imports <https://op.europa.eu/o/opportal-service/euvoc-download-handler?cellarURI=http%3A%2F%2Fpublications.europa.eu%2Fresource%2Fdistribution%2Flanguage%2F20240612-0%2Frdf%2Fskos_core%2Flanguages-skos.rdf&fileName=languages-skos.rdf>
+# Licence reikšmėms galimas naudoti kontroliuojamas žodynas https://publications.europa.eu/resource/authority/licence
+.#owl:imports <https://raw.githubusercontent.com/ivpk/DCAT-AP-LT/main/owl.xml>;
+
+
+
+# 1. Adresų registro <Informacinė sistema> klasė:
+
+<InformationSystem/AR>
+  a dcataplt:InformationSystem, dcat:Catalog;
+  dcataplt:importance <http://data.gov.lt/onto/DCATAPLT/Importance/important> ;
+  dcataplt:type <http://data.gov.lt/onto/DCATAPLT/Type/registerInformationSystem> ; 
+  # dcataplt:ISImportanceAssessmentURL <https://www.ivpk.lt/xxxx/vertinimas> ; 
+  dct:description "Registro paskirtis – registruoti Lietuvos Respublikos teritorijos administracinių vienetų ir jų ribų įstatyme nustatytus, Adresų formavimo taisyklėse, patvirtintose Lietuvos Respublikos Vyriausybės 2002 m. gruodžio 23 d. nutarimu Nr. 2092 „Dėl Adresų formavimo taisyklių patvirtinimo“ (toliau – Adresų formavimo taisyklės), ir Nuostatuose nurodytus Registro objektus, taip pat rinkti, kaupti, apdoroti, sisteminti, saugoti ir teikti Registro duomenis ir dokumentus, atlikti kitus Registro duomenų tvarkymo veiksmus." ;
+  dct:identifier "4046";
+  dct:publisher <JuridinisAsmuo/RC>;
+  dct:creator <JuridinisAsmuo/LRTM>;
+  dct:title "Lietuvos Respublikos adresų registras";
+  dct:title "AR";
+  dcat:dataset <DuomenuRinkinys/Seniunijos>;
+  foaf:homepage <https://www.registrucentras.lt/adr/> ;
+  dct:language <http://publications.europa.eu/resource/authority/language/LIT> ;
+  dcat:theme  <http://publications.europa.eu/resource/authority/data-theme/REGI>;
+  # dct:hasPart
+  dct:rights <TeisiuDeklaracija/ADRNuostatai>;
+  # dcataplt:informationSystem
+  dcatap:applicableLegislation <TeisinisSaltinis/LRTAVI>;
+  dcat:service <DuomenuPaslauga/GetDatadaSeniunijos>;
+  dcat:keyword "Vienetai"@lt ;
+  dcat:keyword "Vietovės"@lt ;
+  dcat:keyword "Gatvės"@lt ;
+  dcat:keyword "kaimas"@lt ;
+  dcat:keyword "regioninė politika"@lt ;
+  dcat:keyword "savivaldybė"@lt ;
+  dcat:keyword "miestas"@lt ;
+  dcat:keyword "kaimiškoji gyvenvietė"@lt ;
+  dcat:keyword "teritorinis planavimas"@lt ;
+  dcat:keyword "administracinis teritorinis vienetas"@lt ;
+  dcat:keyword "apskritis"@lt ;
+  dcat:keyword "2846 statyba ir miestų planavimas"@lt ;
+  dcat:keyword "0436 vykdomoji valdžia ir valstybės tarnyba"@lt ;.
+
+
+# kalbu sarasas naudojamas linguistic system yra cia http://publications.europa.eu/resource/authority/language
+#(Aktualiausių registro nuostatų data)
+  #dct:modified "2013-06-06T00:00:00"^^xsd:dateTime;
+#(Pirmo išleidimo data)   
+  #dct:issued "2003-01-21T00:00:00"^^xsd:dateTime;
+  #dct:spatial <http://publications.europa.eu/resource/authority/country/LTU>;
+  #dcat:themeTaxonomy <http://publications.europa.eu/resource/authority/data-theme>;
+  #dcataplt:relatedInformationSystem <>;
+  #dcataplt:relatedDataService <>;
+
+# pasirenkama savybė  dct:hasPart, kurioje galima pažymėti sudedamąsias katalogo dalis, jeigu jų yra ;
+  #dct:isPartOf <https://ivpk.github.io/DCAT-AP-LT/Katalogas-VII> ;
+  #dcat:record <https://ivpk.github.io/DCAT-AP-LT/KatalogoIrasas/Adresu-registro-duomenys> ;
+
+
+
+# VII <Katalogas> klasė:
+
+#<https://ivpk.github.io/DCAT-AP-LT/Katalogas-VII>
+#  a dcat:Catalog ;
+#  dct:description "Valstybės informacinių išteklių katalogas." ;
+#  dct:identifier "4223" ;
+#  dct:publisher <https://ivpk.github.io/DCAT-AP-LT/Agentas-Informacines-Visuomenės-Pletros-Komitetas> ;
+#  dct:title "Valstybės informacinių išteklių katalogas" ; 
+#  dcat:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/AS_NEEDED> ;
+#  foaf:homepage <https://ivpk.lt/xxx> ;
+#  dct:language <http://publications.europa.eu/resource/authority/language/LIT> ; 
+#  dct:license <https://ivpk.github.io/DCAT-AP-LT/Licencijos-Dokumentas/VII_istatymas> ;
+#  dct:modified "2024-06-06T00:00:00"^^xsd:dateTime ;
+#  dct:issued "2024-06-06T00:00:00"^^xsd:dateTime ;
+#  dct:spatial <https://publications.europa.eu/resource/authority/country/LTU> ; 
+#  dcat:themeTaxonomy <http://publications.europa.eu/resource/authority/data-theme> ;
+#  dct:hasPart <https://ivpk.github.io/DCAT-AP-LT/InformacineSistema/AdresuRegistras>;
+#  dcat:record <https://ivpk.github.io/DCAT-AP-LT/KatalogoIrasas/Adresu-registro-duomenys>;
+#  dct:applicableLegislation <https://ivpk.github.io/DCAT-AP-LT/TeisinisSaltinis/VII_istatymas>; 
+#  .
+
+
+
+# 2. <Duomenų rinkinys> klasės pavyzdys:
+
+<DuomenuRinkinys/Seniunijos>
+  a dcat:Dataset, rdfs:Resource ;
+  dct:description "Administracinių-teritorinių vienetų - Seniūnijų tekstinių duomenų rinkinys iš Lietuvos Respublikos adresų registro. Duomenų geografinė imtis — visa šalies teritorija.";
+  dct:title "Seniūnijos" ;
+  dct:identifier "adresu_israsas_seniunijos" ;
+  dcat:distribution  <Pateiktis/ADR_Seniunijos>;
+  dcat:distribution  <Pateiktis/SeniunijosAPI>;
+  dcat:keyword "gyvenamosios vietos keitimas"@lt ;
+  dcat:keyword "administracinė reforma"@lt ;
+  dcat:keyword "gyvenamoji vieta"@lt ;
+  dcat:keyword "juridinis adresas"@lt ;
+  dcat:keyword "duomenų perdavimas"@lt ;
+  dcat:keyword "duomenų bazė"@lt ;
+  dcat:keyword "gyventojų registras"@lt ;
+  dcat:keyword "administracinis teritorinis vienetas"@lt ;
+  dcat:keyword "duomenų įrašymas"@lt ;
+  dcat:keyword "3226 ryšiai"@lt ;
+  dcat:keyword "2816 demografija ir gyventojai"@lt ;
+  dcat:keyword "1211 civilinė teisė"@lt ;
+  dcat:keyword "3236 informacijos technologija ir duomenų apdorojimas"@lt ;
+  dct:publisher  <JuridinisAsmuo/RC>;
+ # dct:spatial <https://publications.europa.eu/resource/authority/country/LTU> ;
+  dct:temporal <Laikotarpis/ADRIsteigimas>;
+  #[
+  #      a dct:PeriodOfTime ;
+  #      dcat:startDate "2003-01-21T00:00:00"^^xsd:dateTime
+  #      #dcat:endDate "2020-01-01T00:00:00"^^xsd:dateTime - veikla dar tesiama
+  #  ] ;
+  dcat:theme  <http://publications.europa.eu/resource/authority/data-theme/REGI> ;
+ # adms:identifier <https://ivpk.github.io/DCAT-AP-LT/Identifikatorius/AR> ;
+ # dcat:version "3" ;
+  dct:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+  dct:conformsTo <Standartas/LRVIIVI> ;
+  dct:creator <JuridinisAsmuo/LRTM> ;
+  foaf:page <https://www.registrucentras.lt/adr/> ;
+  dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/AS_NEEDED> ;
+  dcat:landingPage <https://www.registrucentras.lt/adr/> ;
+  dct:language <http://publications.europa.eu/resource/authority/language/LIT> ;
+  dct:provenance <DTDeklaracija/ADRNuost>;
+  prov:qualifiedAttribution <Priskyrimas/RC> ;
+  dcat:qualifiedRelation <Rysys/TuriPaslauga> ;
+ # dct:issued "12/31/2024T00:00:00"^^xsd:dateTime ;
+ # dcat:spatialResolutionInMeters "500000"^^xsd:decimal ;
+ # dcat:temporalResolution "P20Y"^^xsd:duration ;
+  dct:type <http://publications.europa.eu/resource/authority/data-theme/REGI> ;
+ # dct:modified "2013-06-06T00:00:00"^^xsd:dateTime ;
+  adms:versionNotes "Pradinis metaduomenų užpildymas" ;
+  prov:wasGeneratedBy <Veikla/ADRTvarkymas> ;
+  dcatap:applicableLegislation <Standartas/ADR_Nuostatai>;
+  dqv:hasQualityAnnotation <KokybesAnotacija/ADRKokybesAnot> ;
+  dqv:hasQualityMeasurement <KokybesMatavimas/ADRPilnumas>;
+  .
+
+
+# 3. <Pateiktis> klasės pavyzdžiai:
+
+<Pateiktis/ADR_Seniunijos>
+  a dcat:Distribution, rdfs:Resource ;
+  dcat:accessURL <https://www.registrucentras.lt/aduomenys/?byla=adr_seniunijos.csv> ;
+  # Availability reikšmių žodynas http://publications.europa.eu/resource/authority/planned-availability
+  dcatap:availability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE> ;
+  dct:title "'Seniūnijų išrašas iš Adresų registro" ;
+  dct:description "Seniunijų išrašas iš Addresų registro parsiusiuntimui CSV formatu. Pateikiami seniūnijas apibūdinantys duomenys. Geografinė imtis - visa šalies teritorija. " ;
+  #dcat:accessService <https://ivpk.github.io/DCAT-AP-LT/DuomenuPaslauga/AdresuRegistro>;
+  dct:license <LicencijosDokumentas/LRTGI>;
+  dcat:mediaType <https://www.w3.org/ns/iana/media-types/text/> ;
+  dct:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+  dcat:byteSize "25000"^^xsd:decimal ;
+  odrl:hasPolicy <Politika/Mokama> ;
+  dcat:downloadURL <https://www.registrucentras.lt/aduomenys/?byla=adr_seniunijos.csv>  ;
+  spdx:checksum <KontrolineSuma/ADRChecksum>;
+  dct:issued "2020-10-22T00:00:00"^^xsd:dateTime ;
+  # Pateikties pasutinio atnaujinimo data
+  dct:modified "2021-08-18T00:00:00"^^xsd:dateTime ;
+  dct:language <http://publications.europa.eu/resource/authority/language/LIT>;
+  # dcat:compressFormat <https://www.w3.org/ns/iana/media-types/application/zip> ;
+  # Pateikties išleidimo data
+  # dct:conformsTo <https://ivpk.github.io/DCAT-AP-LT/Standartas/ADR_Nuostatai> ;
+  # dcat:packageFormat <https://www.w3.org/ns/iana/media-types/application/zip> ;
+  foaf:page <https://www.registrucentras.lt/adr/> ;
+  dct:rights <TeisiuDeklaracija/ADRNuostatai> ;
+  #dcat:spatialResolutionInMeters "500000"^^xsd:decimal ;
+  adms:status <http://purl.org/adms/status/Completed> ;
+  #dcat:temporalResolution "P20Y"^^xsd:duration  ;
+  # Licence reikšmėms naudojamas kontroliuojamas žodynas https://publications.europa.eu/resource/authority/licence
+  # dct:license <http://publications.europa.eu/resource/authority/licence/FAIR>
+  .
+
+  <Pateiktis/SeniunijosAPI>
+  a dcat:Distribution, rdfs:Resource ;
+  dcat:accessURL <https://www.registrucentras.lt/adrws/rest/v1/data/changes> ;
+  # Availability reikšmių žodynas http://publications.europa.eu/resource/authority/planned-availability
+  dcatap:availability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE> ;
+  dct:title "Seniunijos API" ;
+  dct:description "Seniunijos API" ;
+  dcat:accessService <DuomenuPaslauga/GetDatadaSeniunijos>;
+  dct:license <LicencijosDokumentas/ADRTink>;
+  dcat:mediaType <https://www.w3.org/ns/iana/media-types/application> ;
+  dct:format <http://publications.europa.eu/resource/authority/file-type/xml-dtd> ;
+  #dcat:byteSize "25000"^^xsd:decimal ;
+  #odrl:hasPolicy <Politika/Mokama> ;
+  #dcat:downloadURL <https://www.registrucentras.lt/aduomenys/?byla=adr_seniunijos.csv>  ;
+  #spdx:checksum <KontrolineSuma/ADRChecksum>;
+  #dct:issued "2020-10-22T00:00:00"^^xsd:dateTime ;
+  #dct:modified "2021-08-18T00:00:00"^^xsd:dateTime ;
+  dct:language <http://publications.europa.eu/resource/authority/language/LIT>;
+  # dcat:compressFormat <https://www.w3.org/ns/iana/media-types/application/zip> ;
+  dct:conformsTo <Standartas/DSA> ;
+  dct:conformsTo <Standartas/SeniunijaDSA> ;
+  # dcat:packageFormat <https://www.w3.org/ns/iana/media-types/application/zip> ;
+  foaf:page <https://www.registrucentras.lt/adr/> ;
+  dct:rights <TeisiuDeklaracija/ADRNuostatai> ;
+  #dcat:spatialResolutionInMeters "500000"^^xsd:decimal ;
+  #adms:status <http://purl.org/adms/status/Completed> ;
+  #dcat:temporalResolution "P20Y"^^xsd:duration  ;
+  # Licence reikšmėms naudojamas kontroliuojamas žodynas https://publications.europa.eu/resource/authority/licence
+  # dct:license <http://publications.europa.eu/resource/authority/licence/FAIR>
+  .
+
+
+# 4. <Duomenų paslauga> klasės pavyzdys:
+
+<DuomenuPaslauga/GetDatadaSeniunijos>
+  a dcat:DataService, rdfs:Resource;
+  dct:identifier "Get Seniunijos" ;
+  dct:title "Adresų registro seniūnijos duomenų pasikeitimai";
+  dcat:endpointURL <https://www.registrucentras.lt/adrws/rest/v1/data/changes> ;
+  dcat:contactPoint <KontaktineInformacija/RCKontaktineInfo> ;
+  #dcat:endpointDescription <https://www.registrucentras.lt/adrws/rest/get> ;
+  dcat:endpointDescription <https://www.registrucentras.lt/adrws/rest/get> ;
+  dcat:keyword "Adresai"@lt;
+  dcat:keyword "Seniunijos"@lt;
+  dct:publisher <JuridinisAsmuo/RC>;
+  dct:servesDataset <DuomenuRinkinys/Seniunijos> ;
+  dcat:theme <http://publications.europa.eu/resource/authority/data-theme/REGI> ;
+  dct:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC>;
+  dct:conformsTo <Standartas/DSA> ;
+  dct:conformsTo <Standartas/SeniunijaDSA> ;
+  dct:description "Šia duomenų paslauga pagal užklausimą pateikiamas aktualus seniunijų sąrašas" ;
+  cpsv:follows <Taisykle/Mokama> ;
+  dcat:landingPage <https://www.registrucentras.lt/adr/> ;
+  dct:license <LicencijosDokumentas/ADRNuost> ;
+  foaf:page <https://www.registrucentras.lt/adr/>  ;
+  dct:type <http://publications.europa.eu/resource/authority/data-service-type/API> 
+  .
+
+
+
+
+# 5. <Juridinis asmuo> klasės pavyzdys:
+
+<JuridinisAsmuo/RC>
+  a cv:PublicOrganisation, foaf:Agent;
+  dct:title " Valstybės įmonė Registrų Centras" ;
+  foaf:name "Valstybės įmonė Registrų centras";
+  dct:identifier "124110246" ;
+  skos:prefLabel "Registrų centras" ;
+  dct:spatial <http://publications.europa.eu/resource/authority/country/LTU> ;
+  locn:address <Adresas/RCAdresas> ;
+  org:classification <http://purl.org/adms/publishertype/NationalAuthority> ;
+  foaf:homepage <https://www.registrucentras.lt/> .
+
+<JuridinisAsmuo/LRTM>
+  a cv:PublicOrganisation, foaf:Agent;
+  dct:title " Lietuvos Respublikos teisingumo ministerija";
+  foaf:name "Lietuvos Respublikos teisingumo ministerija";
+  dct:identifier "188604955" ;
+  skos:prefLabel "LRTM" ;
+  dct:spatial <http://publications.europa.eu/resource/authority/country/LTU> ;
+  #locn:address <Adresas/> ;
+  org:classification <http://purl.org/adms/publishertype/NationalAuthority> ;
+  #foaf:homepage;
+  .
+<JuridinisAsmuo/VSSA>
+  a cv:PublicOrganisation, foaf:Agent;
+  dct:title " Valstybės skaitmeninių sprendimų agentūra";
+  foaf:name "Valstybės skaitmeninių sprendimų agentūra";
+  dct:identifier "188772433" ;
+  skos:prefLabel "VSSA" ;
+  dct:spatial <http://publications.europa.eu/resource/authority/country/LTU> ;
+  #locn:address <Adresas/> ;
+  org:classification <http://purl.org/adms/publishertype/NationalAuthority> ;
+  #foaf:homepage;
+  .
+
+
+
+<https://ivpk.github.io/DCAT-AP-LT/Agentas-Registrų-Centras>
+  a foaf:Agent ;
+  foaf:name "Valstybės įmonė Registrų centras";
+  dct:identifier "124110246";
+# Naudojamas tipų žodynas adms publisher type raw.githubusercontent.com/SEMICeu/ADMS-AP/master/purl.org/ADMS_SKOS_v1.00.rdf
+  dct:type <http://purl.org/adms/publishertype/NationalAuthority>.
+
+<https://ivpk.github.io/DCAT-AP-LT/Agentas/Lietuvos_Respublikos_Teisingumo_Ministerija>
+  a foaf:Agent ;
+  foaf:name "Lietuvos Respublikos Teisingumo Ministerija" ;
+  dct:identifier "00023" ;
+# Naudojamas tipų žodynas adms publisher type raw.githubusercontent.com/SEMICeu/ADMS-AP/master/purl.org/ADMS_SKOS_v1.00.rdf
+  dct:type <http://purl.org/adms/publishertype/NationalAuthority>.
+
+
+
+
+# 6. <Informacinės sistemos paslauga> klasės pavyzdys:
+
+<ISPaslauga/ADRTvarkymas>
+  a cpsv:PublicService;
+  dct:title "Lietuvos Respublikos adresų registro tvarkymo paslauga" ;
+  dct:identifier "RC_001" ;
+  dct:description "Administracinių vienetų ir gyvenamųjų vietovių registravimo tikslas – registruoti gyvenamųjų vietovių pavadinimus ir jų ribas, apskaityti Lietuvos Respublikos Seimo įsteigtus teritorijos administracinius vienetus, jų ir jų centrų pavadinimus, teritorijų ribas, turėti informaciją apie teritorijos administracinius vienetus ir gyvenamąsias vietoves, kuria galėtų naudotis valstybinės valdžios ir valdymo bei vietos savivaldos institucijos, kiti juridiniai ir fiziniai asmenys." ;
+  cv:hasCompetentAuthority <JuridinisAsmuo/RC> ;
+  #dct:hasPart "-" ;
+  #dct:isPartOf "-" ;
+  foaf:homepage <https://www.registrucentras.lt/adr/p/> ;
+  cpsv:produces <DuomenuRinkinys/Seniunijos> ;
+  cpsv:produces <DuomenuPaslauga/GetDatadaSeniunijos>;
+  dct:spatial <https://publications.europa.eu/resource/authority/country/LTU>;
+  adms:status <http://purl.org/adms/status/Completed> ;
+  dct:type <http://publications.europa.eu/resource/authority/data-service-type/API> ;
+  skos:concept  <http://publications.europa.eu/resource/authority/data-theme/REGI>;
+  cpsv:follows <Taisykle/Mokama> ;
+  cv:hasContactPoint <KontaktineInformacija/RCKontaktineInfo> ;
+  #cv:hasLegalResource "{Techninė nuoroda}: [Teisinis šaltinis] -" 
+  .
+
+
+# 7. <Teisinis šaltinis> klasės pavyzdžiai:
+
+<TeisinisSaltinis/LRTAVI>
+  a eli:LegalResource;
+  dct:type <http://publications.europa.eu/resource/authority/resource-type/ACT> ;
+  dct:description "Lietuvos Respublikos Teritorijos Administracinių vienetų įstatymas" ;
+  #dct:identifier "" ;
+  rdfs:seeAlso <https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.5911/asr>.
+ 
+<TeisinisSaltinis/LRARNuostPatv>
+  a eli:LegalResource;
+  dct:type <http://publications.europa.eu/resource/authority/resource-type/ACT> ;
+  dct:description "NUTARIMAS DĖL LIETUVOS RESPUBLIKOS ADRESŲ REGISTRO NUOSTATŲ PATVIRTINIMO" ;
+  #dct:identifier "" ;
+  rdfs:seeAlso <https://www.e-tar.lt/portal/lt/legalAct/TAR.839B704AEA5E/nFvjaUZhyL>.
+
+<TeisinisSaltinis/LRVIIVI>
+  a eli:LegalResource;
+  dct:type <http://publications.europa.eu/resource/authority/resource-type/ACT> ;
+  dct:description "LIETUVOS RESPUBLIKOS VALSTYBĖS INFORMACINIŲ IŠTEKLIŲ VALDYMO ĮSTATYMAS" ;
+  #dct:identifier "" ;
+  rdfs:seeAlso <https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.415499>.
+
+
+# 8. <Licencijos dokumentas> klasės pavyzdžiai:
+
+<LicencijosDokumentas/ADRTink>
+  a dct:LicenseDocument ;
+  dct:type <http://publications.europa.eu/resource/authority/resource-type/ACT> ;
+  dct:description " Adresų registro informacinės sistemos priėmimo ir tinkamumo eksploatuoti aktas " ;
+  #dct:identifier "" .
+ # galima pateikti susijusi dokumenta su dct:relation ;
+.
+
+<LicencijosDokumentas/LRVIIVI>
+  a dct:LicenseDocument ;
+  dct:type <http://publications.europa.eu/resource/authority/resource-type/ACT> ;
+  dct:description "LIETUVOS RESPUBLIKOS VALSTYBĖS INFORMACINIŲ IŠTEKLIŲ VALDYMO ĮSTATYMAS" ;
+  #dct:identifier "" ;
+  dct:relation <https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.415499>.
+
+<LicencijosDokumentas/LRTGI>
+  a dct:LicenseDocument ;
+  dct:type <http://publications.europa.eu/resource/authority/resource-type/ACT> ;
+  dct:description "LIETUVOS RESPUBLIKOS TEISĖS GAUTI INFORMACIJĄ IR DUOMENŲ PAKARTOTINIO NAUDOJIMO ĮSTATYMAS" ;
+  #dct:identifier "" ;
+  dct:relation <https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.94745/asr>.
+
+<LicencijosDokumentas/ADRNuost>
+  a dct:LicenseDocument ;
+  dct:type <http://publications.europa.eu/resource/authority/resource-type/ACT> ;
+  dct:description "NUTARIMAS DĖL LIETUVOS RESPUBLIKOS ADRESŲ REGISTRO NUOSTATŲ PATVIRTINIMO" ;
+  #dct:identifier "" ;
+  dct:relation <https://www.e-tar.lt/portal/lt/legalAct/TAR.839B704AEA5E/nFvjaUZhyL>.
+
+
+# 9. <Teisių deklaracijos klasės pavyzdys:
+
+<TeisiuDeklaracija/ADRNuostatai>
+  a dct:RightsStatement ;
+  dct:type <http://publications.europa.eu/resource/authority/resource-type/ACT> ;
+  dct:description "NUTARIMAS DĖL LIETUVOS RESPUBLIKOS ADRESŲ REGISTRO NUOSTATŲ PATVIRTINIMO" ;
+  #dct:identifier "" ;
+  dct:relation <https://www.e-tar.lt/portal/lt/legalAct/TAR.839B704AEA5E/nFvjaUZhyL>.
+
+<TeisiuDeklaracija/LRTGI>
+  a dct:RightsStatement ;
+  dct:type <http://publications.europa.eu/resource/authority/resource-type/ACT> ;
+  dct:description "LIETUVOS RESPUBLIKOS TEISĖS GAUTI INFORMACIJĄ IR DUOMENŲ PAKARTOTINIO NAUDOJIMO ĮSTATYMAS" ;
+  #dct:identifier "" ;
+  dct:relation <https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.94745/asr>.
+
+
+# 10. <Politika> klasės pavyzdys:
+<Politika/Mokama>
+  a odrl:Policy;
+  dct:type <TeisinioSaltinioTipas/istatymas>;
+  dct:title "Mokamas duomenų teikimas";
+  odrl:uid "1";
+  odrl:obligation <Taisykle/Mokama> .
+
+# <Taisyklė> klasės pavyzdys:
+
+<Taisykle/Mokama>
+  a cpsv:Rule;
+  dct:type <TeisinioSaltinioTipas/Istatymas> ;
+  dct:title "Mokamas duomenų teikimas" ;
+  dct:description "Pagal įstatymą duomenys yra teikiami mokant mokestį už jų teikimą" ;
+  dct:identifier "1" ;
+  cpsv:implements <TeisinisSaltinis/LRVIIVI> ;
+  dct:language <http://publications.europa.eu/resource/authority/language/LIT>.
+
+
+# 11. <Standartas> klasės pavyzdys:
+
+<Standartas/ADRNuost>
+  a dct:Standard ;
+  dct:type <TeisinioSaltinioTipas/KitasTeisesAktas> ;
+   dct:description "NUTARIMAS DĖL LIETUVOS RESPUBLIKOS ADRESŲ REGISTRO NUOSTATŲ PATVIRTINIMO" ;
+  dct:relation <https://www.e-tar.lt/portal/lt/legalAct/TAR.839B704AEA5E/nFvjaUZhyL>.
+
+
+<Standartas/DSA>
+  a dct:Standard ;
+  dct:type <TeisinioSaltinioTipas/KitasTeisesAktas> ;
+  dct:description "DSA Specifikacija" ;
+  dct:relation <https://ivpk.github.io/dsa/>.
+
+
+<Standartas/LRVIIVI>
+  a dct:Standard ;
+  dct:type <TeisinioSaltinioTipas/Istatymas> ;
+  dct:description "LIETUVOS RESPUBLIKOS VALSTYBĖS INFORMACINIŲ IŠTEKLIŲ VALDYMO ĮSTATYMAS" ;
+  dct:relation <https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.415499>.
+
+
+<Standartas/SeniunijaDSA>
+  a dct:Standard ;
+  dct:type <TeisinioSaltinioTipas/KitasTeisesAktas> ;
+  dct:description "Seniunija DSA" ;
+  dct:relation <https://raw.githubusercontent.com/atviriduomenys/manifest/master/datasets/gov/rc/ar/seniunija.csv>.
+
+
+
+# 12. Duomenų tvarkytojo deklaracija klasės pavyzdys DCAT-AP-LT:
+
+<DTDeklaracija/ADRNuost>
+  a dct:ProvenanceStatement;
+  dct:description "NUTARIMAS DĖL LIETUVOS RESPUBLIKOS ADRESŲ REGISTRO NUOSTATŲ PATVIRTINIMO";
+  dct:relation <https://www.e-tar.lt/portal/lt/legalAct/TAR.839B704AEA5E/nFvjaUZhyL>.
+
+
+# 13. <Kokybės Anotacija> klasės pavyzdys:
+
+<KokybesAnotacija/ADRKokybesAnot>
+  a dqv:QualityAnnotation;
+  oa:hasTarget <DuomenuRinkinys/Seniunijos> ;   
+  oa:hasBody <https://www.registrucentras.lt/adr/>;
+  .
+
+# 14. <Kokybės Matavimas> klasės pavyzdys:
+
+<KokybesMatavimas/ADRPilnumas>
+  a dqv:QualityMeasurement ;
+  dqv:isMeasurementOf <Matavimas/DuomPilnumas>  ;   
+  qb:dataSet <MatavimuRinkinys/ADR> ;
+  dqv:computedOn <DuomenuRinkinys/Seniunijos> ;
+  dqv:value " 90% ";
+  .
+
+
+<KokybesMatavimas/ADRPilnumas2>
+ a dqv:QualityMeasurement ;
+ dqv:isMeasurementOf <Matavimas/DuomPilnumas>  ;   
+ qb:dataSet <MatavimuRinkinys/ADR> ;
+ dqv:computedOn <Pateiktis/ADR_Seniunijos> ;
+ dqv:value " 90% ";
+  .
+
+<MatavimuRinkinys/ADR>
+  a qb:DataSet.
+
+# 15. <Matavimas> klasės pavyzdys:
+
+<Matavimas/DuomPilnumas>
+  a qb:Observation;
+  dct:title "Duomenų pilnumas";
+  .
+
+# 16. <Privatus asmuo> klasės pavyzdys:
+
+<https://ivpk.github.io/DCAT-AP-LT/Agentas-Lietuvos-Respublikos-Teisingumo-Ministerija-Edita-Jauniskiene>
+  a foaf:Agent ;
+  dct:identifier " 188604955" ;
+  foaf:name "Edita Jauniškienė" ;
+# Naudojamas tipų žodynas adms publisher type raw.githubusercontent.com/SEMICeu/ADMS-AP/master/purl.org/ADMS_SKOS_v1.00.rdf
+  dct:type <http://purl.org/adms/publishertype/PrivateIndividual(s)>.
+
+
+ # 17. <Santykis> klasės pavyzdys:
+
+<Rysys/TuriPaslauga>
+  a dcat:Relationship;
+  dcat:hadRole [
+    a dcat:Role;
+    dct:title "Siejasi su duomenų paslauga"
+  ] ;
+  dct:relation <DuomenuPaslauga/GetDatadaSeniunijos> .
+
+
+ # 18. <Adresas> klasės pavyzdys:
+<Adresas/RCAdresas>
+  a locn:Address;
+  locn:fullAddress "Studentų g. 39, Vilnius, LT-08106";
+  locn:thoroughFare "Studentų g.";
+  locn:LocatorDesignator "39";
+  locn:postName "Vilnius";
+  locn:adminUnitL1 "Lietuva";
+  locn:postCode "LT-08106";
+.
+
+ # 19. <Kontaktas> klasės pavyzdys:
+
+<Kontaktas/RCKontaktai>
+  a vcard:Kind;
+  vcard:fn "Registrų centras";
+  dct:type <>;
+  vcard:hasEmail "Info@registrucentras.lt";
+  #vcard:hasTelephone;
+.
+
+ # 20. <Kontaktine Informacija> klasės pavyzdys:
+
+<KontaktineInformacija/RCKontaktineInfo>
+  a schema:ContactPoint;
+  schema:areaServed "Lietuva";
+  #schema:contactOption 
+  schema:contactType "Informacijos teikimas";
+  schema:email "Info@registrucentras.lt";
+  schema:hoursAvailable "8:00 - 17:00";
+  schema:ProductSupported "Teikiama informacija apie registrų centro duomenis";
+  schema:availableLanguages <http://publications.europa.eu/resource/authority/language/LIT>;
+  #vcard:hasTelephone;
+.
+
+
+# 21. <Laikotarpis> klasės pavyzdys:
+
+<Laikotarpis/ADRIsteigimas>
+  a dct:PeriodOfTime;
+  #dcat:endDate "2025-01-01" ;
+  dcat:startDate "2003-01-21T00:00:00";
+  .
+
+# 22. Kontrolinė suma> klasės pavyzdys:
+
+<KontrolineSuma/ADRChecksum>
+  a spdx:Checksum;
+  spdx:algorithm <http://spdx.org/rdf/terms#checksumAlgorithm_sha256> ;
+  spdx:checksumValue "f2ca1bb6c7e907d06dafe4687e579fce76b37e4e93b7605022da52e6ccc26fd2"^^xsd:hexBinary;
+  .
+
+
+# 23. <Veikla> klasės pavyzdys:
+
+<Veikla/ADRTvarkymas>
+  a prov:Activity;
+   dct:title "LR Adresų tvarkymas" .
+
+
+# 24. <Identifikatorius> klasė pavyzdys:
+
+<Identifikatorius/AR>
+  a adms:Identifier;
+  skos:notation "Adresų registras" .
+
+
+# <Išteklius> klasės pavyzdys:
+
+<https://ivpk.github.io/DCAT-AP-LT/IstekliusPavyzdys>
+  a rdfs:Resource.
+
+
+<https://www.registrucentras.lt/adr/>
+ a rdfs:Resource.
+
+
+# <Kategorija> klasės pavyzdys:
+
+<TeisinioSaltinioTipas/Istatymas>
+  a skos:Concept ;
+  skos:prefLabel "istatymas"
+.
+
+<TeisinioSaltinioTipas/KitasTeisesAktas>
+  a skos:Concept ;
+  skos:prefLabel "istatymas"
+.
+
+<http://purl.org/adms/publishertype/PrivateIndividual(s)>
+  a skos:Concept ;
+  skos:prefLabel "Privatus asmuo"
+.
+
+# <Teisių deklaracija> klasės pavyzdys:
+
+<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+  a dct:RightsStatement ;
+  #skos:prefLabel "-".
+.
+
+
+# <Kategorijų schema> klasės pavyzdys:
+
+<https://ivpk.github.io/DCAT-AP-LT/##Kategoriju-Schema-Pavyzdys>
+  a skos:ConceptScheme ;
+  dct:title "Kategorijų schemos pavyzdys" .
+
+
+
+
+
+
+
+# <Dažnis> klasės pavyzdys:
+
+<http://publications.europa.eu/resource/authority/frequency/AS_NEEDED>
+ a dct:Frequency.
+
+
+# <Priskyrimas> klasės pavyzdys
+<Priskyrimas/RC>
+  a prov:Attribution;
+  cv:hasCompetentAuthority <JuridinisAsmuo/RC>.
+
+
+# Medijos tipas klasės pavyzdžiai/deklaracijos:
+
+<https://ivpk.github.io/DCAT-AP-LT/#medijos-tipasPavyzdys>
+  a dct:MediaType.
+
+<http://publications.europa.eu/resource/authority/file-type/CSV>
+  a dct:MediaType, dct:MediaTypeOrExtent .
+
+<http://publications.europa.eu/resource/authority/file-type/CSV>
+  a dct:MediaType .
+
+<https://www.w3.org/ns/iana/media-types/application/zip>
+  a dct:MediaType .
+
+<https://www.w3.org/ns/iana/media-types/text/csv>
+  a dct:MediaType .
+
+<https://www.w3.org/ns/iana/media-types/text/>
+ a dct:MediaType .
+
+<https://www.w3.org/ns/iana/media-types/application>
+  a dct:MediaType .
+
+<http://publications.europa.eu/resource/authority/file-type/xml-dtd>
+ a dct:MediaTypeOrExtent .
+
+
+# Šie deklaravimai yra būtini norint užtikrinti 
+# kad BRegDCAT validatorius šiuo URL nesukelia klaidų pažeidimų::
+# https://www.itb.ec.europa.eu/shacl/bregdcat-ap/upload
+
+
+# <Dokumentas> klasės pavyzdžiai:
+
+<https://www.registrucentras.lt/>
+  a foaf:Document.
+
+<https://www.registrucentras.lt/adr/>
+  a foaf:Document .
+
+<https://www.registrucentras.lt/adr/p/>
+  a foaf:Document .
+
+<https://ivpk.lt/xxx> 
+  a foaf:Document .
+
+<https://registrai.lt/management/objects/view/63>
+ a foaf:Document .
+
+
+
+# <Lingvistinė sistema> klasės pavyzdys:
+
+ <http://publications.europa.eu/resource/authority/language/LIT>
+  a dct:LinguisticSystem.
+
+# <Vietovė> klasės pavyzdžiai :
+
+<https://publications.europa.eu/resource/authority/country/LTU>
+  a dct:Location.
+
+#Location klase galima apibrėžti vetovių ribas, kai vietovės nėra aprašytos/įtrauktos į kontroliuojamų vietovių sąrašus, kitu atveju vietovės atributuose naudojamas žinomas vietovės kodas / pavadinimas.
+<https://ivpk.github.io/DCAT-AP-LT/Vietove/LietuvosRespublika>
+  a dct:Location;
+  dcat:bbox "-" ;
+  dcat:centroid "-" ;
+  locn:geometry "-" .
+
+
+
+#Status vertėms naudojamas http://purl.org/adms/status/ žodynas
+<http://purl.org/adms/status/Completed>
+  a skos:Concept ;
+  skos:prefLabel "Sukurta";
+  skos:inScheme <http://purl.org/adms/status/> .
+
+<http://publications.europa.eu/resource/authority/data-theme>
+  a skos:ConceptScheme ;
+  dct:title "Duomenu temos".
+
+<http://purl.org/adms/status/>
+  a skos:ConceptScheme ;
+  dct:title "Statusas" .
+
+
+
+<http://publications.europa.eu/resource/authority/data-theme/GOVE>
+ a skos:Concept ;
+  skos:prefLabel "Valstybiniai duomenys" .
+
+
+<http://publications.europa.eu/resource/authority/data-theme/REGI>
+ a skos:Concept ;
+  skos:prefLabel "Regionininiai duomenys" .
+  
+
+<http://publications.europa.eu/resource/authority/resource-type/ACT> 
+  a eli:ResourceType, skos:Concept;
+  skos:prefLabel "Įstatymas" .
+
+<http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE>
+ a skos:Concept ;
+  skos:prefLabel "Prieinamas" .
+
+
+<http://purl.org/adms/publishertype/NationalAuthority>
+  a skos:Concept ;
+  skos:prefLabel "National authority" ;
+  skos:inScheme <http://purl.org/adms/publishertype/1.0> .
+
+
+<http://purl.org/adms/publishertype/1.0>
+  a skos:ConceptScheme ;
+  dct:title "Publisher Type" .
+
+
+<http://publications.europa.eu/resource/authority/data-service-type/API>
+  a skos:Concept ;
+  skos:prefLabel "API Paslauga" .
+
+<http://publications.europa.eu/resource/authority/country/LTU>
+  a dct:Location ; 
+  skos:inScheme <http://publications.europa.eu/resource/authority/country> .
+
+
+
