@@ -169,6 +169,14 @@ prov:Activity
   dc:identifier "dcataplt:type" ;
   rdfs:label "Information System - type"@en, "Informacinė Sistema - tipas"@lt .
 
+<http://data.gov.lt/DCAT-AP-LT/relatesToInformationSystem>
+  dc:identifier "dcataplt:type" ;
+  rdfs:label "Information System - relates to information system"@en, "Informacinė Sistema - susijusi informacinė sistema"@lt .
+
+<http://data.gov.lt/DCAT-AP-LT/relatesToDataService>
+  dc:identifier "dcataplt:type" ;
+  rdfs:label "Information System - relates to data service"@en, "Informacinė Sistema - susijusi duomenų paslauga"@lt .
+
 dc:description
   dc:identifier "dct:description" ;
   rdfs:label "Information System - description"@en, "Informacinė Sistema – aprašas"@lt, "Catalogue Record - description"@en, "Katalogo įrašas - aprašymas"@lt, "Data Service - description"@en, "Duomenų paslauga - aprašymas"@lt, "Dataset - description"@en, "Duomenų rinkinys - aprašymas"@lt, "Distribution - description"@en, "Platinimas - aprašymas"@lt, "Legal Resource - description"@en, "Teisinis išteklius - aprašymas"@lt, "Public Registry Service - description"@en, "Viešoji paslauga - aprašymas"@lt, "Registry Catalogue - description"@en, "Registro katalogas - aprašymas"@lt, "Rule - description"@en, "Taisyklė - aprašymas"@lt .
@@ -555,6 +563,20 @@ dcat:hadRole
   rdfs:comment "URL reference to information System importance assessment document."@en, "URL nuoroda į informacinės sistemos svarbos vertinimo dokumentą."@lt ;
   rdfs:range dcat:accessURL .
 
+<http://data.gov.lt/onto/DCATAPLT#relatesToInformationSystem>
+  a rdf:Property, owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://data.gov.lt/DCAT-AP-LT/relatesToInformationSystem> ;
+  rdfs:label "Related information system"@en, "Susijusi informacinė sistema"@lt ;
+  rdfs:comment "Related information system which provides data to this information system."@en, "Susijusi informacinė sistema kuri teikia duomenis šiai informacinei sistemai."@lt ;
+  rdfs:range <http://data.gov.lt/onto/DCATAPLT#InformationSystem> .
+
+<http://data.gov.lt/onto/DCATAPLT#relatesToDataService>
+  a rdf:Property, owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://data.gov.lt/DCAT-AP-LT/relatesToDataService> ;
+  rdfs:label "Related data service"@en, "Susijusi duomenų paslauga"@lt ;
+  rdfs:comment "Related data service which provides data to this information system."@en, "Susijusi duomenų paslauga kuri teikia duomenis šiai informacinei sistemai."@lt ;
+  rdfs:range dcat:DataService .
+
 <http://data.gov.lt/onto/DCATAPLT/Importance>
   a skos:ConceptScheme ;
   rdfs:label "List of importance levels"@en, "Galimų svarbos lygmenų sąrašas"@en ;
@@ -622,3 +644,82 @@ dcat:hadRole
   skos:inScheme <http://data.gov.lt/onto/DCATAPLT/Type> ;
   skos:prefLabel "Internal administration information sysem"@en, "Vidaus administravimo informacinė sistema"@lt ;
   skos:definition "Internal administration information systems, which process data managed by entities, required for internal administration functions or other functions of an auxiliary nature, which help the entity to implement the tasks established by legal acts."@en, "Vidaus administravimo informacinės sistemos, kuriose tvarkomi subjektų valdomi duomenys, reikalingi vidaus administravimo funkcijoms ar kitoms pagalbinio pobūdžio funkcijoms, kurios padeda įgyvendinti subjektui teisės aktuose nustatytus uždavinius."@lt .
+
+<http://data.gov.lt/onto/DCATAPLT/LegalActType>
+  a skos:ConceptScheme ;
+  rdfs:label "List of Lithuanian legal act types"@en, "Galimų Lietuvos teisės aktų tipų sąrašas"@en ;
+  dc:identifier "LegalActType" ;
+  dc:title "Lithuanian Legal Act Type" ;
+  skos:hasTopConcept <http://data.gov.lt/onto/DCATAPLT/LegalActType/KonstitucinisIstatymas>, <http://data.gov.lt/onto/DCATAPLT/LegalActType/Istatymas>, <http://data.gov.lt/onto/DCATAPLT/LegalActType/SeimoNutarimas>, <http://data.gov.lt/onto/DCATAPLT/LegalActType/KitasSeimoPriimtas>, <http://data.gov.lt/onto/DCATAPLT/LegalActType/LRTarptautineSutartis>, <http://data.gov.lt/onto/DCATAPLT/LegalActType/RespublikosPrezidentoDekretas>, <http://data.gov.lt/onto/DCATAPLT/LegalActType/VyriausybėsNutarimas>, <http://data.gov.lt/onto/DCATAPLT/LegalActType/NorminisTeisesAktas>, <http://data.gov.lt/onto/DCATAPLT/LegalActType/SeimoValdybosSprendimas>, <http://data.gov.lt/onto/DCATAPLT/LegalActType/LBNorminisTeisesAktas>, <http://data.gov.lt/onto/DCATAPLT/LegalActType/SavivaldybiuNorminisTeisesAktas>, <http://data.gov.lt/onto/DCATAPLT/LegalActType/KitasTeisėsAktas> .
+
+<http://data.gov.lt/onto/DCATAPLT/LegalActType/Constitutional>
+  a skos:Concept ;
+  dc:identifier "KonstitucinisIstatymas" ;
+  skos:inScheme <http://data.gov.lt/onto/DCATAPLT/LegalActType> ;
+  skos:prefLabel "Constitutional legal act"@en, "Konstitucinis įstatymas"@lt .
+
+<http://data.gov.lt/onto/DCATAPLT/LegalActType/LegalAct>
+  a skos:Concept ;
+  dc:identifier "Istatymas" ;
+  skos:inScheme <http://data.gov.lt/onto/DCATAPLT/LegalActType> ;
+  skos:prefLabel "Legal act"@en, "Įtatymas"@lt .
+
+<http://data.gov.lt/onto/DCATAPLT/LegalActType/ParliamentDecision>
+  a skos:Concept ;
+  dc:identifier "SeimoNutarimas" ;
+  skos:inScheme <http://data.gov.lt/onto/DCATAPLT/LegalActType> ;
+  skos:prefLabel "Parliament decision"@en, "Seimo nutarimas"@lt .
+
+<http://data.gov.lt/onto/DCATAPLT/LegalActType/OtherParliamentLegalAct>
+  a skos:Concept ;
+  dc:identifier "KitasSeimoPriimtas" ;
+  skos:inScheme <http://data.gov.lt/onto/DCATAPLT/LegalActType> ;
+  skos:prefLabel "Other Parliament decision"@en, "Kitas Seimo priimtas teisės aktas"@lt .
+
+<http://data.gov.lt/onto/DCATAPLT/LegalActType/LRInternationalAgreement>
+  a skos:Concept ;
+  dc:identifier "LRTarptautineSutartis" ;
+  skos:inScheme <http://data.gov.lt/onto/DCATAPLT/LegalActType> ;
+  skos:prefLabel "LR International agreement "@en, "Lietuvos Respublikos tarptautinės sutartis"@lt .
+
+<http://data.gov.lt/onto/DCATAPLT/LegalActType/PresidentDecree>
+  a skos:Concept ;
+  dc:identifier "RespublikosPrezidentoDekretas" ;
+  skos:inScheme <http://data.gov.lt/onto/DCATAPLT/LegalActType> ;
+  skos:prefLabel "LR President decree "@en, "Respublikos Prezidento dekretas ar potvarkis"@lt .
+
+<http://data.gov.lt/onto/DCATAPLT/LegalActType/GovernmentDecision>
+  a skos:Concept ;
+  dc:identifier "VyriausybėsNutarimas" ;
+  skos:inScheme <http://data.gov.lt/onto/DCATAPLT/LegalActType> ;
+  skos:prefLabel "Government decision"@en, "Vyriausybės nutarimas, sprendimas ar rezoliucija"@lt .
+
+<http://data.gov.lt/onto/DCATAPLT/LegalActType/NormativeLegalAct>
+  a skos:Concept ;
+  dc:identifier "NorminisTeisesAktas" ;
+  skos:inScheme <http://data.gov.lt/onto/DCATAPLT/LegalActType> ;
+  skos:prefLabel "Normative Legal Act "@en, "Ministrų, Vyriausybės įstaigų, kitų valstybės institucijų ir įstaigų vadovų ir kolegialių institucijų norminis teisės aktas"@lt .
+
+<http://data.gov.lt/onto/DCATAPLT/LegalActType/ParliamentaryBoardDecision>
+  a skos:Concept ;
+  dc:identifier "SeimoValdybosSprendimas" ;
+  skos:inScheme <http://data.gov.lt/onto/DCATAPLT/LegalActType> ;
+  skos:prefLabel "Parliamentary board decision "@en, "Seimo valdybos sprendimas"@lt .
+
+<http://data.gov.lt/onto/DCATAPLT/LegalActType/LBNormativeLegalAct>
+  a skos:Concept ;
+  dc:identifier "LBNorminisTeisesAktas" ;
+  skos:inScheme <http://data.gov.lt/onto/DCATAPLT/LegalActType> ;
+  skos:prefLabel "LB Normative legal act "@en, "Lietuvos banko norminis teisės aktas"@lt .
+
+<http://data.gov.lt/onto/DCATAPLT/LegalActType/MunicipalNormativeLegalAct>
+  a skos:Concept ;
+  dc:identifier "SavivaldybiuNorminisTeisesAktas" ;
+  skos:inScheme <http://data.gov.lt/onto/DCATAPLT/LegalActType> ;
+  skos:prefLabel "Municipal normative legal act "@en, "Savivaldybių institucijų norminis teisės aktas"@lt .
+
+<http://data.gov.lt/onto/DCATAPLT/LegalActType/OtherLegalAct>
+  a skos:Concept ;
+  dc:identifier "KitasTeisėsAktas" ;
+  skos:inScheme <http://data.gov.lt/onto/DCATAPLT/LegalActType> ;
+  skos:prefLabel "Other legal act "@en, "Kitas teisės aktas"@lt .
