@@ -212,7 +212,7 @@ DCAT-AP-LT includes all the classes listed in BREG-DCAT-AP 2.1 and supplements t
 Also, DCAT-AP-HVD classes and additional properties are used to describe the metadata of high-value datasets.
 
 
-<img src="../uml.png" width="986px" height="872px">
+<img src="../uml.png" width="888px" height="785px">
 
 
 
