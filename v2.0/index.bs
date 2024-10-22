@@ -20,8 +20,8 @@ Metadata include: Editor off, This version off, Issue Tracking off, Status off, 
 !Vertimas (nenorminis): <a href="en/index.html">en</a>
 !Naujausia paskelbta versija: <a href="/v2.0/">DCAT-AP-LT v2.0</a>
 !Naujausias redaktoriaus juodraštis: Nėra
-!Šis dokumentas taip pat pateikiamas šiais nenorminiais formatais: <a href="https://ivpk.github.io/DCAT-AP-LT/DCAT-AP-LT.ttl">Turtle</a>
-!Šis dokumentas taip pat pateikiamas šiais nenorminiais formatais: <a href="https://ivpk.github.io/DCAT-AP-LT/DCAT-AP-LT_owl.xml">RDF/XML</a>
+!Šis dokumentas taip pat pateikiamas šiais nenorminiais formatais: <a href="https://ivpk.github.io/DCAT-AP-LT/v2.0/DCAT-AP-LT.ttl">Turtle</a>
+!Šis dokumentas taip pat pateikiamas šiais nenorminiais formatais: <a href="https://ivpk.github.io/DCAT-AP-LT/v2.0/DCAT-AP-LT_owl.xml">RDF/XML</a>
 
 </pre>
 
