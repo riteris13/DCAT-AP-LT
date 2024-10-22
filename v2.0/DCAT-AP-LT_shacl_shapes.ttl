@@ -1,0 +1,1346 @@
+@prefix dcataplt: <https://data.gov.lt/onto/DCATAPLT#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <http://joinup.europa.eu/collection/access-base-registries/solution/abr-specification-registry-registries#> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix odrl: <http://www.w3.org/ns/odrl/2/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcatap: <http://data.europa.eu/r5r/> .
+@prefix breg: <http://data.europa.eu/breg/> .
+@prefix cpsv: <http://purl.org/vocab/cpsv#> .
+@prefix eli: <http://data.europa.eu/eli/ontology#> .
+@prefix cv: <http://data.europa.eu/m8g/> . 
+@prefix dqv: <http://www.w3.org/ns/dqv#> .
+@prefix oa: <http://www.w3.org/ns/oa#>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+
+<http://https://ivpk.github.io/DCAT-AP-LT/shacl>
+   # dcat:accessURL <>;
+   # dcat:downloadURL <> ;
+ 
+    dct:format <https://www.w3.org/TR/rdf12-turtle/> ;
+    dct:conformsTo <https://www.w3.org/TR/shacl> ;
+    dct:license <https://creativecommons.org/licenses/by/4.0> ;
+    dct:publisher <https://ivpk.lrv.lt/> ;
+    dct:relation <https://ivpk.github.io/DCAT-AP-LT/> ;
+    dct:description "This document specifies the constraints on properties and classes expressed by DCAT-AP-LT in SHACL."@en ;
+	dct:description "Šis dokumentas specifikuoja DCAT-AP-LT klasių ir savybių apribojimus / taisykles SHACL formatu."@lt ;
+    dct:title "DCAT-AP-LT apribojimai"@en ;
+    owl:versionInfo "2.1.0" ;
+    foaf:homepage <https://ivpk.github.io/DCAT-AP-LT/> ;
+    foaf:maker [
+        foaf:mbox <mailto:info@ivpk.lt> ;
+        foaf:name "DCAT-AP-LT project team" ;
+        foaf:page <https://ivpk.github.io/DCAT-AP-LT/>
+    ] .
+
+
+
+#-------------------------------------------------------------------------
+# The shapes in this file cover all classes in DCAT-AP-LT.
+#
+# 
+#-------------------------------------------------------------------------
+
+:Agent_Shape
+    a sh:NodeShape ;
+    sh:name "Agent"@en ;
+	sh:name "Agentas"@lt ;
+    sh:property [
+        sh:minCount 1 ;
+        sh:nodeKind sh:Literal ;
+        sh:path foaf:name ;
+        sh:severity sh:Violation;
+		sh:message "E001: Privalo būti pateikta bent viena savybės foaf:name reikšmė, reikšmės tipas privalo būti rdfs:Literal"@lt
+
+    ], [
+        sh:class skos:Concept ;
+        sh:maxCount 1 ;
+        sh:path dct:type ;
+        sh:severity sh:Violation;
+		sh:message "E002: Privalo būti pateikta bent viena savybės dct:type, reikšmės tipas privalo būti skos:Concept"@lt
+    ], [
+        sh:maxCount 1 ;
+        sh:nodeKind sh:Literal ;
+        sh:path dct:identifier ;
+        sh:severity sh:Violation;
+		sh:message "E003: Privalo būti pateikta ne daugiau nei viena savybės dct:identifier reikšmė, reikšmės tipas privalo būti rdfs:Literal"@lt
+    ] ;
+    sh:targetClass foaf:Agent .
+
+:CatalogRecord_Shape
+    a sh:NodeShape ;
+    sh:name "Catalogue Record"@en ;
+	sh:name "Katalogo Įrašas"@lt ;
+    sh:property [
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+        sh:node :DcatResource_Shape ;
+        sh:path foaf:primaryTopic ;
+        sh:severity sh:Violation;
+		sh:message "E004: Privalo būti pateikta viena savybės foaf:primaryTopic reikšmė, jos tipas dcat:Resource"@lt
+    ], [
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+        sh:path dct:modified ;
+        sh:severity sh:Violation ;
+        sh:shape :DateOrDateTimeDataType_Shape;
+		sh:message "E005: Privalo būti pateikta viena savybės dct:modified reikšmė, jos tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:class dct:Standard ;
+        sh:maxCount 1 ;
+        sh:path dct:conformsTo ;
+        sh:severity sh:Violation;
+		sh:message "E006: Privalo būti pateikta ne daugiau nei viena savybės dct:conformsTo, jos tipas privalo būti dct:Standard"@lt
+    ], [
+        sh:maxCount 1 ;
+        sh:node :DateOrDateTimeDataType_Shape ;
+        sh:path dct:issued ;
+        sh:severity sh:Violation;
+		sh:message "E007: Privalo būti pateikta ne daugiau nei viena savybės dct:issued reikšmė, jos tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:class skos:Concept ;
+        sh:maxCount 1 ;
+        sh:path adms:status ;
+        sh:severity sh:Violation;
+		sh:message "E008: Privalo būti pateikta ne daugiau nei viena savybės adms:status reikšmė, reikšmės tipas privalo būti skos:Concept"@lt
+    ], [
+        sh:class dct:LinguisticSystem ;
+        sh:path dct:language ;
+        sh:severity sh:Violation;
+		sh:message "E009: Savybės dct:language reikšmės tipas privalo būti dct:LinguisticSystem"@lt
+    ], [
+        sh:class dcat:CatalogRecord ;
+        sh:maxCount 1 ;
+        sh:path dct:source ;
+        sh:severity sh:Violation;
+		sh:message "E010: Privalo būti pateikta ne daugiau nei viena savybės dct:source reikšmė, reikšmės tipas privalo būti dcat:CatalogRecord"@lt
+    ], [
+        sh:nodeKind sh:Literal ;
+        sh:path dct:title ;
+        sh:severity sh:Violation;
+		sh:message "E011: Savybės dct:title reikšmės tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:nodeKind sh:Literal ;
+        sh:path dct:description ;
+        sh:severity sh:Violation;
+		sh:message "E012: Savybės dct:description reikšmės tipas privalo būti rdfs:Literal"@lt
+    ] ;
+    sh:targetClass dcat:CatalogRecord .
+
+:Checksum_Shape
+    a sh:NodeShape ;
+    sh:name "Checksum"@en ;
+	sh:name "Kontrolinė suma"@lt ;
+    sh:property [
+        sh:in (<http://spdx.org/rdf/terms#checksumAlgorithm_md2>
+               <http://spdx.org/rdf/terms#checksumAlgorithm_md4>
+               <http://spdx.org/rdf/terms#checksumAlgorithm_md5>
+               <http://spdx.org/rdf/terms#checksumAlgorithm_md6>
+               <http://spdx.org/rdf/terms#checksumAlgorithm_sha1>
+               <http://spdx.org/rdf/terms#checksumAlgorithm_sha224>
+               <http://spdx.org/rdf/terms#checksumAlgorithm_sha256>
+               <http://spdx.org/rdf/terms#checksumAlgorithm_sha384>
+               <http://spdx.org/rdf/terms#checksumAlgorithm_sha512>) ;       
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+        sh:path spdx:algorithm ;
+        sh:severity sh:Violation;
+		sh:message "E013: Privalo būti pateikta viena savybės algoritmas - spdx:algorithm reikšmė, jos tipas privalo būti vienas iš <http://spdx.org/rdf/terms#checksumAlgorithm_md2>,  <http://spdx.org/rdf/terms#checksumAlgorithm_md4>, <http://spdx.org/rdf/terms#checksumAlgorithm_md5>, <http://spdx.org/rdf/terms#checksumAlgorithm_md6>, <http://spdx.org/rdf/terms#checksumAlgorithm_sha1>, <http://spdx.org/rdf/terms#checksumAlgorithm_sha224>, <http://spdx.org/rdf/terms#checksumAlgorithm_sha256>, <http://spdx.org/rdf/terms#checksumAlgorithm_sha384>, <http://spdx.org/rdf/terms#checksumAlgorithm_sha512>"@lt
+    ], [
+        sh:datatype xsd:hexBinary ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+        sh:path spdx:checksumValue ;
+        sh:severity sh:Violation;
+		sh:message "E014: Privalo būti pateikta viena savybės dct:checksumValue reikšmė, jos tipas privalo būti xsd:hexBinary"@lt
+    ] ;
+    sh:targetClass spdx:Checksum .
+
+:DataService_Shape
+    a sh:NodeShape ;
+    sh:name "Data Service"@en ;
+	sh:name "Duomenų paslauga"@lt ;
+    sh:property [
+        sh:minCount 1 ;
+        sh:nodeKind sh:BlankNodeOrIRI ;
+        sh:path dcat:endpointURL ;
+        sh:severity sh:Violation;
+		sh:message "E015: Privalo būti pateikta bent viena savybės dcat:endpointURL reikšmė, reikšmės tipas privalo būti rdfs:Resource"@lt
+		
+    ], [
+        sh:minCount 1 ;
+        sh:nodeKind sh:Literal ;
+        sh:path dct:identifier ;
+        sh:severity sh:Violation;
+		sh:message "E016: Privalo būti pateikta bent viena savybės dct:identifier reikšmė, reikšmės tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:minCount 1 ;
+        sh:nodeKind sh:Literal ;
+        sh:path dct:title ;
+        sh:severity sh:Violation;
+		sh:message "E017: Privalo būti pateikta bent viena savybės dct:title reikšmė, reikšmės tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:nodeKind sh:BlankNodeOrIRI ;
+        sh:path dcat:endpointDescription ;
+        sh:severity sh:Violation;
+		sh:message "E018: Savybės dcat:endpointDescription  reikšmės tipas privalo būti rdfs:Resource"@lt
+    ], [
+        sh:class dcat:Dataset ;
+        sh:path dcat:servesDataset ;
+        sh:severity sh:Violation;
+		sh:message "E019: Savybės dcat:servesDataset reikšmės tipas privalo būti dcat:Dataset"@lt
+    ], [
+        sh:nodeKind sh:Literal ;
+        sh:path dct:description ;
+        sh:severity sh:Violation;
+		sh:message "E020: Savybės dct:description reikšmės tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:class dct:RightsStatement ;
+        sh:maxCount 1 ;
+        sh:path dct:accessRights ;
+        sh:severity sh:Violation;
+		sh:message "E021: Savybės dct:accessRights reikšmės tipas privalo būti dct:RightsStatement"@lt
+    ], [
+        sh:class dct:Standard ;
+        sh:path dct:conformsTo ;
+        sh:severity sh:Violation;
+		sh:message "E022: Savybės dct:conformsTo reikšmės tipas privalo būti dct:Standardl"@lt
+    ], [
+        sh:class cpsv:Rule ;
+        sh:path cpsv:follows ;
+        sh:severity sh:Violation;
+		sh:message "E023: Savybės dct:follows reikšmės tipas privalo būti cpsv:Rule"@lt
+    ], [
+        sh:class dct:LicenseDocument ;
+        sh:maxCount 1 ;
+        sh:path dct:licence ;
+        sh:severity sh:Violation;
+		sh:message "E024: Privalo būti pateikta daugiausia viena savybė dct:licence reikšmė, kurios tipas privalo būti dct:LicenseDocument"@lt
+		
+    ];
+    sh:targetClass dcat:DataService .
+
+:Dataset_Shape
+    a sh:NodeShape ;
+    sh:name "Dataset"@en ;
+	sh:name "Duomenų Rinkinys"@lt ;
+    sh:property [
+        sh:minCount 1 ;
+        sh:nodeKind sh:Literal ;
+        sh:path dct:description ;
+        sh:severity sh:Violation;
+		sh:message "E025: Savybės aprašas - dct:description reikšmės tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:minCount 1 ;
+        sh:nodeKind sh:Literal ;
+        sh:path dct:title ;
+        sh:severity sh:Violation;
+		sh:message "E026: Privalo būti pateikta bent viena savybės dct:title reikšmė, reikšmės tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:minCount 1 ;
+        sh:nodeKind sh:Literal ;
+        sh:path dct:identifier ;
+        sh:severity sh:Violation;
+		sh:message "E027: Privalo būti pateikta bent viena savybės dct:identifier reikšmė, reikšmės tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:class vcard:Kind ;
+        sh:path dcat:contactPoint ;
+        sh:severity sh:Violation;
+		sh:message "E028: Savybės dcat:contactPoint reikšmės tipas privalo būti vcard:Kind"@lt
+    ], [
+        sh:class dcat:Distribution ;
+        sh:path dcat:distribution ;
+        sh:severity sh:Violation;
+		sh:message "E029: Savybės dcat:distribution reikšmės tipas privalo būti dcat:Distribution"@lt
+    ], [
+        sh:nodeKind sh:Literal ;
+        sh:path dcat:keyword ;
+        sh:severity sh:Violation;
+		sh:message "E030: Savybės dcat:keyword reikšmės tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:class foaf:Agent ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+        sh:path dct:publisher ;
+        sh:severity sh:Violation;
+		sh:message "E031: Privalo būti pateikta viena savybės dct:publisher, jos tipas privalo būti foaf:Agent"@lt
+    ], [
+        sh:class dct:Location ;
+        sh:path dct:spatial ;
+        sh:severity sh:Violation;
+		sh:message "E032: Savybės erdvinė dct:spatial reikšmės tipas privalo būti dct:Location"@lt
+    ], [
+	    sh:class dct:PeriodOfTime ;
+        sh:path dct:temporal ;
+        sh:severity sh:Violation;
+		sh:message "E033: Savybės laiko dct:temporal reikšmės tipas privalo būti dct:PeriodOfTime"@lt
+    ], [
+        sh:class skos:Concept ;
+        sh:path dcat:theme ;
+        sh:severity sh:Violation;
+		sh:message "E034: Savybės dcat:theme reikšmės tipas privalo būti skos:Concept"@lt
+    ], [
+        sh:class dct:RightsStatement ;
+        sh:maxCount 1 ;
+        sh:path dct:accessRights ;
+        sh:severity sh:Violation;
+		sh:message "E035: Privalo būti pateikta ne daugiau nei viena savybės dct:accessRights, jos tipas privalo būti dct:RightsStatement"@lt
+    ], [
+        sh:class dct:Frequency ;
+        sh:maxCount 1 ;
+        sh:path dct:accrualPeriodicity ;
+        sh:severity sh:Violation;
+		sh:message "E036: Privalo būti pateikta ne daugiau nei viena savybės dct:accrualPeriodicity, jos tipas privalo būti dct:Frequency"@lt
+    ], [
+        sh:class dct:Standard ;
+        sh:path dct:conformsTo ;
+        sh:severity sh:Violation;
+		sh:message "E037: Savybės dct:conformsTo reikšmės tipas privalo būti dct:Standard"@lt
+    ], [
+        sh:class foaf:Agent ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+        sh:path dct:creator ;
+        sh:severity sh:Violation;
+		sh:message "E038: Privalo būti pateikta viena savybės dct:creator, jos tipas privalo būti foaf:Agent"@lt
+    ], [
+        sh:class cpsv:Rule ;
+        sh:path cpsv:follows ;
+        sh:severity sh:Violation;
+		sh:message "E039: Savybės cpsv:follows reikšmės tipas privalo būti cpsv:Rule"@lt
+    ], [
+        sh:class dcat:Dataset ;
+        sh:path dct:hasPart ;
+        sh:severity sh:Violation;
+		sh:message "E040: Savybės dct:hasPart reikšmės tipas privalo būti dcat:Dataset"@lt
+    ], [
+        sh:class dqv:QualityAnnotation ;
+        sh:path dqv:hasQualityAnnotation ;
+        sh:severity sh:Violation;
+		sh:message "E041: Savybės dqv:hasQualityAnnotation reikšmės tipas privalo būti dqv:QualityAnnotation"@lt
+    ], [
+        sh:class dqv:QualityMeasurement ;
+        sh:path dqv:hasQualityMeasurement ;
+        sh:severity sh:Violation;
+		sh:message "E042: Savybės dqv:hasQualityMeasurement reikšmės tipas privalo būti dqv:QualityMeasurement"@lt
+		
+    ], [
+        sh:class dcat:Dataset ;
+        sh:path dct:hasVersion ;
+        sh:severity sh:Violation;
+		sh:message "E043: Savybės dqv:hasVersion reikšmės tipas privalo būti dcat:Dataset"@lt
+    ], [
+        sh:class dcat:Dataset ;
+        sh:path dct:isPartOf ;
+        sh:severity sh:Violation;
+		sh:message "E044: Savybės dct:isPartOf reikšmės tipas privalo būti dcat:Dataset"@lt
+    ], [
+        sh:nodeKind sh:BlankNodeOrIRI ;
+        sh:path dct:isReferencedBy ;
+        sh:severity sh:Violation;
+		sh:message "E045: Savybės dct:isReferencedBy reikšmės tipas privalo būti dcat:Dataset"@lt
+    ], [
+        sh:class dcat:Dataset ;
+        sh:path dct:isReplacedBy ;
+        sh:severity sh:Violation;
+		sh:message "E046: Savybės dct:isReplacedBy reikšmės tipas privalo būti dcat:Dataset"@lt
+    ], [
+        sh:class dcat:Dataset ;
+        sh:path dct:isVersionOf ;
+        sh:severity sh:Violation;
+		sh:message "E047: Savybės dct:isVersionOf reikšmės tipas privalo būti dcat:Dataset"@lt
+    ], [
+        sh:class foaf:Document ;
+        sh:path dcat:landingPage ;
+        sh:severity sh:Violation;
+		sh:message "E048: Savybės dcat:landingPage reikšmės tipas privalo būti foaf:Document"@lt
+    ], [
+        sh:maxCount 1 ;
+        sh:path dct:issued ;
+        sh:severity sh:Violation ;
+        sh:shape :DateOrDateTimeDataType_Shape;
+		sh:message "E049: Privalo būti pateikta ne daugiau nei viena savybės dct:issued reikšmė, jos tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:class dct:LinguisticSystem ;
+        sh:path dct:language ;
+        sh:severity sh:Violation;
+		sh:message "E050: Savybės dct:language reikšmės tipas privalo būti dct:LinguisticSystem"@lt
+    ], [
+        sh:maxCount 1 ;
+        sh:path dct:modified ;
+        sh:severity sh:Violation ;
+        sh:shape :DateOrDateTimeDataType_Shape;
+		sh:message "E051: Privalo būti pateikta ne daugiau nei viena savybės pakeitimo/atnaujinimo data - dct:modified reikšmė, jos tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:class adms:Identifier ;
+        sh:path adms:identifier ;
+        sh:severity sh:Violation;
+		sh:message "E052: Savybės adms:identifier reikšmės tipas privalo būti adms:Identifier"@lt
+
+    ], [
+        sh:class foaf:Document ;
+        sh:path foaf:page ;
+        sh:severity sh:Violation;
+		sh:message "E053: Savybės pagrindinis foaf:page reikšmės tipas privalo būti foaf:Document"@lt
+    ], [
+        sh:class dct:ProvenanceStatement ;
+        sh:path dct:provenance ;
+        sh:severity sh:Violation;
+		sh:message "E054: Savybės dcat:dataset reikšmės tipas privalo būti dcat:Dataset"@lt
+    ], [
+        sh:class prov:Attribution ;
+        sh:path prov:qualifiedAttribution ;
+        sh:severity sh:Violation;
+		sh:message "E055: Savybės prov:qualifiedAttribution reikšmės tipas privalo būti prov:Attribution"@lt
+    ], [
+        sh:class dcat:Relationship ;
+        sh:path dcat:qualifiedRelation ;
+        sh:severity sh:Violation;
+		sh:message "E056: Savybės dcat:qualifiedRelation reikšmės tipas privalo būti dcat:Relationship"@lt
+    ], [
+        sh:nodeKind sh:BlankNodeOrIRI ;
+        sh:path dct:references ;
+        sh:severity sh:Violation;
+		sh:message "E057: Savybės dct:references reikšmės tipas privalo būti dcat:Resource"@lt
+    ], [
+        sh:nodeKind sh:BlankNodeOrIRI ;
+        sh:path dct:relation ;
+        sh:severity sh:Violation;
+		sh:message "E058: Savybės dct:relation reikšmės tipas privalo būti dcat:Resource"@lt
+    ], [
+        sh:class dcat:Dataset ;
+        sh:path dct:replaces ;
+        sh:severity sh:Violation;
+		sh:message "E059: Savybės dct:replaces reikšmės tipas privalo būti dcat:Resource"@lt
+    ], [
+        sh:class dcat:Dataset ;
+        sh:path dct:requires ;
+        sh:severity sh:Violation;
+		sh:message "E060: Savybės dct:requires reikšmės tipas privalo būti dcat:Dataset"@lt
+    ], [
+        sh:class dcat:Distribution ;
+        sh:path adms:sample ;
+        sh:severity sh:Violation;
+		sh:message "E061: Savybės adms:sample reikšmės tipas privalo būti dcat:Distribution"@lt
+    ], [
+        sh:class dcat:Dataset ;
+        sh:path dct:source ;
+        sh:severity sh:Violation;
+		sh:message "E062: Savybės dct:source reikšmės tipas privalo būti dcat:Datasetn"@lt
+    ], [
+        sh:datatype xsd:decimal ;
+        sh:path dcat:spatialResolutionInMeters ;
+        sh:severity sh:Violation;
+		sh:message "E063: Savybės dcat:spatialResolutionInMeters reikšmės tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:datatype xsd:duration ;
+        sh:path dcat:temporalResolution ;
+        sh:severity sh:Violation;
+		sh:message "E064: Savybės dcat:spatialResolutionInMeters reikšmės tipas privalo būti rdfs:Literal"@lt
+		
+    ], [
+        sh:class skos:Concept ;
+        sh:path dct:type ;
+        sh:severity sh:Violation;
+		sh:message "E065: Savybės dct:type reikšmės tipas privalo būti skos:Concept"@lt
+    ], [
+        sh:maxCount 1 ;
+        sh:nodeKind sh:Literal ;
+        sh:path owl:versionInfo ;
+        sh:severity sh:Violation;
+		sh:message "E066: Savybės owl:versionInfo reikšmės tipas privalo būti sh:Literal"@lt
+		
+    ], [
+        sh:nodeKind sh:Literal ;
+        sh:path adms:versionNotes ;
+        sh:severity sh:Violation;
+		sh:message "E067: Savybės adms:versionNotes reikšmės tipas privalo būti sh:Literal"@lt
+    ], [
+        sh:class prov:Activity ;
+        sh:path prov:wasGeneratedBy ;
+        sh:severity sh:Violation;
+		sh:message "E068: Savybės prov:wasGeneratedBy reikšmės tipas privalo būti prov:Activity"@lt
+    ] ;
+    sh:targetClass dcat:Dataset .
+
+:Distribution_Shape
+    a sh:NodeShape ;
+    sh:name "Distribution"@en ;
+	sh:name "Pateiktis"@lt ;
+    sh:property [
+        sh:minCount 1 ;
+        sh:nodeKind sh:BlankNodeOrIRI;
+        sh:path dcat:accessURL ;
+        sh:severity sh:Violation;
+		sh:message "E069: Savybės dcat:accessURL reikšmės tipas privalo būti dcat:Resource"@lt
+    ], [
+        sh:class skos:Concept ;
+        sh:maxCount 1 ;
+        sh:path dcatap:availability ;
+        sh:severity sh:Violation;
+		sh:message "E070: Savybės dcatap:availability reikšmės tipas privalo būti skos:Concept"@lt
+    ], [
+        sh:nodeKind sh:Literal ;
+        sh:path dct:description ;
+        sh:severity sh:Violation;
+		sh:message "E071: Savybės dct:description reikšmės tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:class dct:MediaTypeOrExtent ;
+        sh:maxCount 1 ;
+        sh:path dct:format ;
+        sh:severity sh:Violation;
+		sh:message "E072: Privalo būti pateikta ne daugiau nei viena savybės formatas - dct:format reikšmė, jos tipas privalo būti dct:MediaTypeOrExtent"@lt
+    ], [
+        sh:class dct:LicenseDocument ;
+        sh:maxCount 1 ;
+        sh:path dct:license ;
+        sh:severity sh:Violation;
+		sh:message "E073: Privalo būti pateikta ne daugiau nei viena savybės licencija - dct:license reikšmė, jos tipas privalo būti sh:class dct:LicenseDocument"@lt
+    ], [
+        sh:class dcat:DataService ;
+        sh:path dcat:accessService ;
+        sh:severity sh:Violation;
+		sh:message "E074: Prieigos paslauga - dcat:accessService reikšmės tipas privalo būti dcat:DataService"@lt
+    ], [
+        sh:datatype xsd:decimal ;
+        sh:maxCount 1 ;
+        sh:path dcat:byteSize ;
+        sh:severity sh:Violation;
+		sh:message "E075: Savybės dcat:accessService reikšmės tipas privalo būti dcat:DataService"@lt
+    ], [
+        sh:class spdx:Checksum ;
+        sh:maxCount 1 ;
+        sh:path spdx:checksum ;
+        sh:severity sh:Violation;
+		sh:message "E076: Savybės spdx:checksum reikšmės tipas privalo būti spdx:Checksum"@lt
+    ], [
+        sh:class dct:MediaType ;
+        sh:maxCount 1 ;
+        sh:path dcat:compressFormat ;
+        sh:severity sh:Violation;
+		sh:message "E077: Savybės dcat:compressFormat reikšmės tipas privalo būti dct:MediaType"@lt
+    ], [
+        sh:class dct:Standard ;
+        sh:path dct:conformsTo ;
+        sh:severity sh:Violation;
+		sh:message "E078: Savybės dct:conformsTo reikšmės tipas privalo būti dct:Standard"@lt
+    ], [
+        sh:nodeKind sh:BlankNodeOrIRI;
+        sh:path dcat:downloadURL ;
+        sh:severity sh:Violation;
+		sh:message "E079: Savybės dcat:downloadURL reikšmės tipas privalo būti dcat:Resource"@lt
+    ], [
+        sh:class odrl:Policy ;
+        sh:maxCount 1 ;
+        sh:path odrl:hasPolicy ;
+        sh:severity sh:Violation;
+		sh:message "E080: Savybės odrl:hasPolicy reikšmės tipas privalo būti odrl:Policy"@lt
+    ], [
+        sh:maxCount 1 ;
+        sh:node :DateOrDateTimeDataType_Shape ;
+        sh:path dct:issued ;
+        sh:severity sh:Violation;
+		sh:message "E081: Privalo būti pateikta ne daugiau nei viena savybės dct:issued reikšmė, jos tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:class dct:LinguisticSystem ;
+        sh:path dct:language ;
+        sh:severity sh:Violation;
+		sh:message "E082: Savybės dct:language reikšmės tipas privalo būti dct:LinguisticSystem"@lt
+    ], [
+        sh:class dct:MediaType ;
+        sh:maxCount 1 ;
+        sh:path dcat:mediaType ;
+        sh:severity sh:Violation;
+		sh:message "E083: Privalo būti pateikta ne daugiau nei viena savybės dcat:mediaType reikšmė, jos tipas privalo būti dct:MediaType"@lt
+    ], [
+        sh:maxCount 1 ;
+        sh:node :DateOrDateTimeDataType_Shape ;
+        sh:path dct:modified ;
+        sh:severity sh:Violation;
+		sh:message "E084: Privalo būti pateikta ne daugiau nei viena savybės dct:modified reikšmė, jos tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:class dct:MediaType ;
+        sh:maxCount 1 ;
+        sh:path dcat:packageFormat ;
+        sh:severity sh:Violation;
+		sh:message "E085: Privalo būti pateikta ne daugiau nei viena savybės dcat:packageFormat reikšmė, jos tipas privalo būti dct:MediaType"@lt
+    ], [
+        sh:class foaf:Document ;
+        sh:path foaf:page ;
+        sh:severity sh:Violation;
+		sh:message "E086: Savybės foaf:page reikšmės tipas privalo būti foaf:Document"@lt
+    ], [
+        sh:class dct:RightsStatement ;
+        sh:maxCount 1 ;
+        sh:path dct:rights ;
+        sh:severity sh:Violation;
+		sh:message "E087: Privalo būti pateikta ne daugiau nei viena savybės  dct:rights, jos tipas privalo būti dct:RightsStatement"@lt
+    ], [
+        sh:datatype xsd:decimal ;
+        sh:path dcat:spatialResolutionInMeters ;
+        sh:severity sh:Violation;
+		sh:message "E088: Savybės dcat:spatialResolutionInMeters reikšmės tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:class skos:Concept ;
+        sh:maxCount 1 ;
+        sh:path adms:status ;
+        sh:severity sh:Violation;
+		sh:message "E089: Privalo būti pateikta ne daugiau nei viena savybės adms:status reikšmė, jos tipas privalo būti skos:Concept"@lt
+    ], [
+        sh:datatype xsd:duration ;
+        sh:path dcat:temporalResolution ;
+        sh:severity sh:Violation;
+		sh:message "E090: Savybės dcat:temporalResolution reikšmės tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:nodeKind sh:Literal ;
+        sh:path dct:title ;
+        sh:severity sh:Violation;
+		sh:message "E091: Savybės dct:title reikšmės tipas privalo būti rdfs:Literal"@lt
+    ] ;
+    sh:targetClass dcat:Distribution .
+	
+:Relationship_Shape
+    a sh:NodeShape ;
+    sh:name "Relationship"@en ;
+	sh:name "Ryšys"@lt ;
+    sh:property [
+		sh:class dcat:Role ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:path dcat:hadRole ;
+        sh:severity sh:Violation;
+		<https://purl.eu/ns/shacl#message> "E092: Privalo būti pateikta bent viena dcat:hadRole reikšmė"@lt
+    ],
+	[
+	sh:class rdfs:Resource ;
+	sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:path dct:relation ;
+        sh:severity sh:Violation;
+		<https://purl.eu/ns/shacl#message> "E092: Privalo būti pateikta bent viena dcat:hadRole reikšmė"@en
+	]	;
+    sh:targetClass dcat:Relationship .
+
+:Identifier_Shape
+    a sh:NodeShape ;
+    sh:name "Identifier"@en ;
+	sh:name "Identifikatorius"@lt ;
+    sh:property [
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:path skos:notation ;
+        sh:severity sh:Violation;
+		<https://purl.eu/ns/shacl#message> "E093: Privalo būti pateikta bent viena identifikatoriaus reikšmė"@lt
+    ] ;
+    sh:targetClass adms:Identifier .
+
+:LegalResource_Shape
+    a sh:NodeShape ;
+    sh:name "Legal Resource"@en ;
+	sh:name "Teisinis šaltinis"@lt;
+    sh:property [
+        sh:minCount 1 ;
+        sh:class eli:ResourceType ;
+        sh:path dct:type ;
+        sh:severity sh:Violation;
+		sh:message "E094: Privalo būti pateikta bent viena savybės dct:type, reikšmės tipas privalo būti eli:ResourceType"@lt
+    ], [
+        sh:nodeKind sh:Literal ;
+        sh:path dct:description ;
+        sh:severity sh:Violation;
+		sh:message "E095: Savybės dct:description reikšmės tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:nodeKind sh:Literal ;
+        sh:path dct:identifier ;
+        sh:severity sh:Violation;
+		sh:message "E096: Savybės dct:identifier  reikšmės tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:nodeKind sh:BlankNodeOrIRI;
+        sh:path rdfs:seeAlso ;
+        sh:severity sh:Violation;
+		sh:message "E097: Savybės rdfs:seeAlso reikšmės tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:class eli:LegalResource;
+        sh:path dct:relation ;
+        sh:severity sh:Violation;
+		sh:message "E098: Savybės dct:relation reikšmės tipas privalo būti eli:LegalResource"@lt
+    ] ;
+    sh:targetClass eli:LegalResource .
+
+:LicenceDocument_Shape
+    a sh:NodeShape ;
+    sh:name "Licence Document"@en ;
+	sh:name "Licencijos dokumentas"@lt ;
+    sh:property [
+        sh:class skos:Concept;
+        sh:path dct:type;
+        sh:severity sh:Violation;
+		sh:message "E099: Savybės dct:type reikšmės tipas privalo būti skos:Concept"@lt
+    ] ;
+    sh:targetClass dct:LicenseDocument .
+
+:Location_Shape
+    a sh:NodeShape ;
+    sh:name "Location"@en ;
+	sh:name "Vietovė"@lt ;
+    sh:property [
+        sh:maxCount 1 ;
+        sh:nodeKind sh:Literal ;
+        sh:path dcat:bbox ;
+        sh:severity sh:Violation;
+		sh:message "E100: Privalo būti pateikta ne daugiau nei viena savybės dcat:bbox reikšmė, jos tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:maxCount 1 ;
+        sh:nodeKind sh:Literal ;
+        sh:path dcat:centroid ;
+        sh:severity sh:Violation;
+		sh:message "E101: Privalo būti pateikta ne daugiau nei viena savybės dcat:centroid reikšmė, jos tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:maxCount 1 ;
+        sh:nodeKind sh:Literal ;
+        sh:path locn:geometry ;
+        sh:severity sh:Violation;
+		sh:message "E102: Privalo būti pateikta ne daugiau nei viena savybės locn:geometry reikšmė, jos tipas privalo būti rdfs:Literal"@lt
+    ] ;
+    sh:targetClass dct:Location .
+
+:PeriodOfTime_Shape
+    a sh:NodeShape ;
+    sh:name "Period of Time"@en ;
+	sh:name "Laiko periodas"@lt ;
+    sh:property [
+        sh:maxCount 1 ;
+        sh:path dcat:endDate ;
+        sh:severity sh:Violation ;
+        sh:shape :DateOrDateTimeDataType_Shape;
+		sh:message "E103: Privalo būti pateikta ne daugiau nei viena savybės dcat:endDate reikšmė, kurios tipas rdfs:Literal "@lt
+    ], [
+        sh:class time:Instant ;
+        sh:maxCount 1 ;
+        sh:path time:hasBeginning ;
+        sh:severity sh:Violation;
+		sh:message "E104: Savybės time:hasBeginning reikšmės tipas privalo būti time:Instant"@lt
+		
+    ], [
+        sh:class time:Instant ;
+        sh:maxCount 1 ;
+        sh:path time:hasEnd ;
+        sh:severity sh:Violation;
+		sh:message "E105: Savybės time:hasEnd reikšmės tipas privalo būti time:Instant"@lt
+    ], [
+        sh:maxCount 1 ;
+        sh:path dcat:startDate ;
+        sh:severity sh:Violation ;
+        sh:message "E106: Privalo būti pateikta ne daugiau nei viena savybės dcat:startDate reikšmė, kurios tipas rdfs:Literal"@lt
+    ] ;
+    sh:targetClass dct:PeriodOfTime .
+
+:PublicOrganization_Shape
+    a sh:NodeShape ;
+    sh:name "Public Organisation"@en ;
+	sh:name "Viešoji institucija"@lt ;
+    sh:property [
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:nodeKind sh:Literal ;
+        sh:path dct:identifier ;
+        sh:severity sh:Violation;
+		sh:message "E107: Privalo būti pateikta viena savybės dct:identifier reikšmė, reikšmės tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:nodeKind sh:Literal ;
+        sh:path dct:title ;
+        sh:severity sh:Violation;
+		sh:message "E108: Privalo būti pateikta viena savybės dct:title reikšmė, reikšmės tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:nodeKind sh:Literal ;
+        sh:minCount 1 ;
+        sh:path skos:prefLabel ;
+        sh:severity sh:Violation;
+		sh:message "E109: Privalo būti pateikta bent viena savybės skos:prefLabel reikšmė, kurios tipas rdfs:Literal"@lt
+    ], [
+        sh:class dct:Location ;
+        sh:minCount 1 ;
+        sh:path dct:spatial ;
+        sh:severity sh:Violation;
+		sh:message "E110: Privalo būti pateikta bent viena savybės dct:spacial reikšmė, kurios tipas dct:Location"@lt
+    ], [
+        sh:class locn:Address ;
+        sh:path locn:address ;
+        sh:severity sh:Violation;
+		sh:message "E111: Savybės locn:address reikšmės tipas privalo būti locn:Address"@lt
+    ], [
+        sh:class skos:Concept ;
+        sh:path org:classification ;
+        sh:severity sh:Violation;
+		sh:message "E112: Savybės org:classification reikšmės tipas privalo būti skos:Concept"@lt
+    ], [
+        sh:class foaf:Document ;
+        sh:maxCount 1 ;
+        sh:path foaf:homepage ;
+        sh:severity sh:Violation;
+		sh:message "E113: Privalo būti pateikta ne daugiau nei viena savybės foaf:homepage reikšmė, jos tipas privalo būti foaf:Document"@lt
+    ] ;
+    sh:targetClass cv:PublicOrganisation .
+
+:PublicRegistryService_Shape
+    a sh:NodeShape ;
+    sh:name "Public Registry Service"@en ;
+	sh:name "Informacinės Sistemos Paslauga"@lt ;
+    sh:property [
+        sh:minCount 1 ;
+        sh:nodeKind sh:Literal ;
+        sh:path dct:description ;
+        sh:severity sh:Violation;
+		sh:message "E114: Savybės dct:description reikšmės tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:minCount 1 ;
+        sh:class cv:PublicOrganisation ;
+        sh:path cv:hasCompetentAuthority ;
+        sh:severity sh:Violation;
+		sh:message "E115: Savybės cv:hasCompetentAuthority reikšmės tipas privalo būti cv:PublicOrganisation, privalo būti pateikta mažiusiai viena šios avybės reikšmė"@lt
+    ], [
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:nodeKind sh:Literal ;
+        sh:path dct:identifier ;
+        sh:severity sh:Violation;
+		sh:message "E116: Privalo būti pateikta viena savybės dct:identifier reikšmė, reikšmės tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:minCount 1 ;
+        sh:nodeKind sh:Literal ;
+        sh:path dct:title ;
+        sh:severity sh:Violation;
+		sh:message "E117: Privalo būti pateikta bent viena savybės dct:title reikšmė, reikšmės tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:class cpsv:PublicService ;
+        sh:path dct:hasPart ;
+        sh:severity sh:Violation;
+		sh:message "E118: Savybės  dct:hasPart reikšmės tipas privalo būti cpsv:PublicService"@lt
+    ], [
+        sh:class foaf:Document ;
+        sh:maxCount 1 ;
+        sh:path foaf:homepage ;
+        sh:severity sh:Violation;
+		sh:message "E119: Privalo būti pateikta ne daugiau nei viena savybės foaf:homepage reikšmė, jos tipas privalo būti foaf:Document"@lt
+    ], [
+        sh:class cpsv:PublicService ;
+        sh:path dct:isPartOf ;
+        sh:severity sh:Violation;
+		sh:message "E120: Savybės dct:isPartOf reikšmės tipas privalo būti cpsv:PublicService"@lt
+		
+    ], [
+        sh:node :DcatResource_Shape ;
+        sh:path cpsv:produces ;
+        sh:severity sh:Violation;
+		sh:message "E121: Savybės cpsv:produces reikšmės tipas privalo būti rdfs:Resource"@lt
+    ], [
+        sh:class dct:Location ;
+        sh:path dct:spatial ;
+        sh:severity sh:Violation;
+		sh:message "E122: Savybės dct:spatial reikšmės tipas privalo būti dct:Location"@lt
+    ], [
+        sh:class skos:Concept ;
+        sh:maxCount 1 ;
+        sh:path adms:status ;
+        sh:severity sh:Violation;
+		sh:message "E123: Privalo būti pateikta ne daugiau nei viena savybės adms:status reikšmė, jos tipas privalo būti skos:Concept"@lt
+    ], [
+        sh:class skos:Concept ;
+        sh:path cv:thematicArea ;
+        sh:severity sh:Violation;
+		sh:message "E124: Savybės cv:thematicArea reikšmės tipas privalo būti skos:Concept"@lt
+    ], [
+        sh:class skos:Concept ;
+        sh:path dct:type ;
+        sh:severity sh:Violation;
+		sh:message "E125: Savybės dct:type reikšmės tipas privalo būti skos:Concept"@lt
+    ], [
+        sh:class cpsv:Rule ;
+        sh:path cpsv:follows ;
+        sh:severity sh:Violation;
+		sh:message "E126: Savybės cpsv:follows reikšmės tipas privalo būti cpsv:Rule"@lt
+    ], [
+        sh:class schema:ContactPoint ;
+        sh:path cv:hasContactPoint ;
+        sh:severity sh:Violation;
+		sh:message "E127: Savybės cv:hasContactPoint reikšmės tipas privalo būti schema:ContactPoint"@lt
+    ], [
+        sh:class eli:LegalResource ;
+        sh:path cv:hasLegalResouce ;
+        sh:severity sh:Violation;
+		sh:message "E128: Savybės cv:hasLegalResouce reikšmės tipas privalo būti eli:LegalResource"@lt
+    ] ;
+    sh:targetClass cpsv:PublicService .
+
+:Catalog_Shape
+    a sh:NodeShape ;
+    sh:name "Registry Catalogue"@en ;
+	sh:name "Katalogas"@lt ;
+    sh:property [
+        sh:nodeKind sh:Literal;
+		sh:minCount 1;
+        sh:path dct:description;
+        sh:severity sh:Violation;
+		sh:message "E129: Privalo būti pateikta bent viena savybės dct:description reikšmė, jos tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:nodeKind sh:Literal ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+        sh:path dct:identifier ;
+        sh:severity sh:Violation;
+		sh:message "E130: Privalo būti pateikta viena savybės dct:identifier reikšmė, reikšmės tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:class foaf:Agent;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+        sh:path dct:publisher ;
+        sh:severity sh:Violation;
+		sh:message "E131: Privalo būti pateikta viena savybės dct:publisher, jos tipas privalo būti foaf:Agent"@lt
+    ], [
+		sh:nodeKind sh:Literal ;
+        sh:minCount 1 ;
+        sh:path dct:title ;
+        sh:severity sh:Violation;
+		sh:message "E132: Privalo būti pateikta mažiausiai viena savybės dct:title reikšmė, reikšmės tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:class dct:Frequency ;
+        sh:maxCount 1 ;
+        sh:path dct:accrualPeriodicity ;
+        sh:severity sh:Violation;
+		sh:message "E133: Privalo būti pateikta ne daugiau nei viena savybės dct:accrualPeriodicity reikšmė, jos tipas privalo būti dct:Frequency"@lt
+    ], [
+        sh:class dcat:Dataset ;
+        sh:path dcat:dataset ;
+        sh:severity sh:Violation;
+		sh:message "E134: Savybės dcat:dataset reikšmės tipas privalo būti dcat:Dataset"@lt
+    ],  [
+        sh:class foaf:Document ;
+        sh:maxCount 1 ;
+        sh:path foaf:homepage ;
+        sh:severity sh:Violation;
+		sh:message "E135: Privalo būti pateikta ne daugiau nei viena savybės foaf:homepage reikšmė, jos tipas privalo būti foaf:Document"@lt
+	
+    ], [
+		sh:node :DateOrDateTimeDataType_Shape ;
+        sh:maxCount 1 ;
+        sh:path dct:issued ;
+        sh:severity sh:Violation;
+		sh:message "E136: Privalo būti pateikta ne daugiau nei viena savybės dct:issued reikšmė, jos tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:class dct:LinguisticSystem ;
+        sh:path dct:language ;
+        sh:severity sh:Violation;
+		sh:message "E137: Savybės kalba - dct:language reikšmės tipas privalo būti dct:LinguisticSystem"@lt
+    ], [
+        sh:class dct:LicenseDocument ;
+        sh:maxCount 1 ;
+        sh:path dct:license ;
+        sh:severity sh:Violation;
+		sh:message "E138: Privalo būti pateikta ne daugiau nei viena savybės dct:licence reikšmė, jos tipas privalo būti dct:LicenseDocument"@lt
+    ], [
+        sh:maxCount 1 ;
+        sh:node :DateOrDateTimeDataType_Shape ;
+        sh:path dct:modified ;
+        sh:severity sh:Violation;
+		sh:message "E139: Privalo būti pateikta ne daugiau nei viena savybės dct:modified reikšmė, jos tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:class dct:ProvenanceStatement ;
+        sh:path dct:provenance ;
+        sh:severity sh:Violation;
+		sh:message "E140: Savybės dct:provenance reikšmės tipas privalo būti dct:ProvenanceStatement"@lt
+    ], [
+        sh:class dct:Location ;
+        sh:path dct:spatial ;
+        sh:severity sh:Violation;
+		sh:message "E141: Savybės dct:spatial reikšmės tipas privalo būti dct:Location"@lt
+    ], [
+        sh:class skos:ConceptScheme ;
+        sh:path dcat:themeTaxonomy ;
+        sh:severity sh:Violation;
+		sh:message "E142: Savybės dcat:themeTaxonomy reikšmės tipas privalo būti skos:ConceptScheme"@lt
+    ], [
+        sh:class dcat:Catalog ;
+        sh:path dcat:catalog ;
+        sh:severity sh:Violation;
+		sh:message "E143: Savybės dcat:catalog reikšmės tipas privalo būti dcat:Catalog"@lt
+    ], [
+        sh:class foaf:Agent ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+        sh:path dct:creator ;
+        sh:severity sh:Violation;
+		sh:message "E144: Privalo būti pateikta viena savybės dct:creator, jos tipas privalo būti foaf:Agent"@lt
+    ], [
+        sh:class dcat:Catalog ;
+        sh:path dct:hasPart ;
+        sh:severity sh:Violation;
+		sh:message "E145: Savybės dct:hasPart reikšmės tipas privalo būti dcat:Catalog"@lt
+    ], [
+        sh:class dcat:Catalog ;
+        sh:maxCount 1 ;
+        sh:path dct:isPartOf ;
+        sh:severity sh:Violation;
+		sh:message "E146: Privalo būti pateikta ne daugiau nei viena savybės dct:isPartOf reikšmė, jos tipas privalo būti dcat:Catalog"@lt
+    ], [
+        sh:class dcat:CatalogRecord ;
+        sh:path dcat:record ;
+        sh:severity sh:Violation;
+		sh:message "E147: Savybės dct:hasPart reikšmės tipas privalo būti dcat:CatalogRecord"@lt
+    ], [
+        sh:class dct:RightsStatement ;
+        sh:maxCount 1 ;
+        sh:path dct:rights ;
+        sh:severity sh:Violation;
+		sh:message "E148: Privalo būti pateikta ne daugiau nei viena dct:rights, jos tipas privalo būti dct:RightsStatement"@lt
+    ], [
+        sh:class dcat:DataService ;
+        sh:path dcat:service ;
+        sh:severity sh:Violation;
+		sh:message "E149: Savybės dcat:service reikšmės tipas privalo būti dcat:DataService"@lt
+    ] ;
+    sh:targetClass dcat:Catalog .
+
+
+
+:InformationSystem_Shape
+    a sh:NodeShape ;
+    sh:name "Information System"@en ;
+	sh:name "Informacinė Sistema"@lt ;
+    sh:property [
+        sh:nodeKind sh:Literal;
+		sh:minCount 1;
+        sh:path dct:description;
+        sh:severity sh:Violation;
+		sh:message "E150: Privalo būti pateikta bent viena savybės dct:description reikšmė, jos tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:nodeKind sh:Literal ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+        sh:path dct:identifier ;
+        sh:severity sh:Violation;
+		sh:message "E151: Privalo būti pateikta viena savybės dct:identifier reikšmė, reikšmės tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:class foaf:Agent;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+        sh:path dct:publisher ;
+        sh:severity sh:Violation;
+		sh:message "E152: Privalo būti pateikta viena savybės dct:publisher, jos tipas privalo būti foaf:Agent"@lt
+    ], [
+		sh:nodeKind sh:Literal ;
+        sh:minCount 1 ;
+        sh:path dct:title ;
+        sh:severity sh:Violation;
+		sh:message "E153: Privalo būti pateikta mažiausiai viena savybės dct:title reikšmė, reikšmės tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:class dct:Frequency ;
+        sh:maxCount 1 ;
+        sh:path dct:accrualPeriodicity ;
+        sh:severity sh:Violation;
+		sh:message "E154: Privalo būti pateikta ne daugiau nei viena savybės dct:accrualPeriodicity reikšmė, jos tipas privalo būti dct:Frequency"@lt
+    ], [
+        sh:class dcat:Dataset ;
+        sh:path dcat:dataset ;
+        sh:severity sh:Violation;
+		sh:message "E155: Savybės dcat:dataset reikšmės tipas privalo būti dcat:Dataset"@lt
+    ],  [
+        sh:class foaf:Document ;
+        sh:maxCount 1 ;
+        sh:path foaf:homepage ;
+        sh:severity sh:Violation;
+		sh:message "E156: Privalo būti pateikta ne daugiau nei viena savybės foaf:homepage reikšmė, jos tipas privalo būti foaf:Document"@lt
+	
+    ], [
+		sh:node :DateOrDateTimeDataType_Shape ;
+        sh:maxCount 1 ;
+        sh:path dct:issued ;
+        sh:severity sh:Violation;
+		sh:message "E157: Privalo būti pateikta ne daugiau nei viena savybės dct:issued reikšmė, jos tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:class dct:LinguisticSystem ;
+        sh:path dct:language ;
+        sh:severity sh:Violation;
+		sh:message "E158: Savybės kalba - dct:language reikšmės tipas privalo būti dct:LinguisticSystem"@lt
+    ], [
+        sh:class dct:LicenseDocument ;
+        sh:maxCount 1 ;
+        sh:path dct:license ;
+        sh:severity sh:Violation;
+		sh:message "E159: Privalo būti pateikta ne daugiau nei viena savybės dct:licence reikšmė, jos tipas privalo būti dct:LicenseDocument"@lt
+    ], [
+        sh:maxCount 1 ;
+        sh:node :DateOrDateTimeDataType_Shape ;
+        sh:path dct:modified ;
+        sh:severity sh:Violation;
+		sh:message "E160: Privalo būti pateikta ne daugiau nei viena savybės dct:modified reikšmė, jos tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:class dct:ProvenanceStatement ;
+        sh:path dct:provenance ;
+        sh:severity sh:Violation;
+		sh:message "E161: Savybės dct:provenance reikšmės tipas privalo būti dct:ProvenanceStatement"@lt
+    ], [
+        sh:class dct:Location ;
+        sh:path dct:spatial ;
+        sh:severity sh:Violation;
+		sh:message "E162: Savybės dct:spatial reikšmės tipas privalo būti dct:Location"@lt
+    ], [
+        sh:class skos:ConceptScheme ;
+        sh:path dcat:themeTaxonomy ;
+        sh:severity sh:Violation;
+		sh:message "E163: Savybės dcat:themeTaxonomy reikšmės tipas privalo būti skos:ConceptScheme"@lt
+    ], [
+        sh:class dcat:Catalog ;
+        sh:path dcat:catalog ;
+        sh:severity sh:Violation;
+		sh:message "E164: Savybės dcat:catalog reikšmės tipas privalo būti dcat:Catalog"@lt
+    ], [
+        sh:class foaf:Agent ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+        sh:path dct:creator ;
+        sh:severity sh:Violation;
+		sh:message "E165: Privalo būti pateikta viena savybės dct:creator, jos tipas privalo būti foaf:Agent"@lt
+    ], [
+        sh:class dcat:Catalog ;
+        sh:path dct:hasPart ;
+        sh:severity sh:Violation;
+		sh:message "E166: Savybės dct:hasPart reikšmės tipas privalo būti dcat:Catalog"@lt
+    ], [
+        sh:class dcat:Catalog ;
+        sh:maxCount 1 ;
+        sh:path dct:isPartOf ;
+        sh:severity sh:Violation;
+		sh:message "E167: Privalo būti pateikta ne daugiau nei viena savybės dct:isPartOf reikšmė, jos tipas privalo būti dcat:Catalog"@lt
+    ], [
+        sh:class dcat:CatalogRecord ;
+        sh:path dcat:record ;
+        sh:severity sh:Violation;
+		sh:message "E168: Savybės dct:hasPart reikšmės tipas privalo būti dcat:CatalogRecord"@lt
+    ], [
+        sh:class dct:RightsStatement ;
+        sh:maxCount 1 ;
+        sh:path dct:rights ;
+        sh:severity sh:Violation;
+		sh:message "E169: Privalo būti pateikta ne daugiau nei viena dct:rights, jos tipas privalo būti dct:RightsStatement"@lt
+    ], [
+        sh:class dcat:DataService ;
+        sh:path dcat:service ;
+        sh:severity sh:Violation;
+		sh:message "E170: Savybės dcat:service reikšmės tipas privalo būti dcat:DataService"@lt
+    ],[
+        sh:class dcataplt:InformationSystem ;
+        sh:path dcataplt:relatesToInformationSystem ;
+        sh:severity sh:Violation;
+		sh:message "E332: Savybės dcataplt:relatesToInformationSystem reikšmės tipas privalo būti dcataplt:InformationSystem"@lt
+    ]  , [
+        sh:class dcat:DataService ;
+        sh:path dcataplt:relatesToDataService ;
+        sh:severity sh:Violation;
+		sh:message "E333: Savybės dcataplt:relatesToDataService reikšmės tipas privalo būti dcat:DataService"@lt
+    ] 
+    
+    
+    ;
+    sh:targetClass dcataplt:InformationSystem .
+
+
+
+:QualityAnnotation_Shape
+    a sh:NodeShape ;
+    sh:name "Quality Annotation"@en ;
+	sh:name "Kokybės anotacija"@lt ;
+    sh:property [
+        sh:class rdfs:Resource;
+        sh:maxCount 1 ;
+        sh:path oa:hasTarget ;
+        sh:severity sh:Violation;
+		sh:message "E171: Privalo būti pateikta daugiausiai viena savybės oa:hasTarget reikšmė, reikšmės tipas privalo būti rdfs:Resource"@lt
+    ], [
+        sh:maxCount 1 ;
+        sh:class rdfs:Resource ;
+        sh:path oa:hasBody ;
+        sh:severity sh:Violation;
+		sh:message "E172: Privalo būti pateikta daugiausiai viena savybės oa:hasBody reikšmė, reikšmės tipas privalo būti rdfs:Resource"@lt
+    ];
+    sh:targetClass dqv:QualityAnnotation .
+
+	
+:QualityMeasurement_Shape
+    a sh:NodeShape ;
+    sh:name "Quality Measurement"@en ;
+	sh:name "Kokybės matavimas"@lt ;
+    sh:property [
+        sh:class qb:Observation  ;
+        sh:maxCount 1 ;
+        sh:path dqv:isMeasurementOf ;
+        sh:severity sh:Violation;
+		sh:message "E173: Privalo būti pateikta daugiausiai viena savybės dqv:isMeasurementOf reikšmė, reikšmės tipas privalo būti qb:Observation"@lt
+    ], [
+        sh:maxCount 1 ;
+        sh:class qb:DataSet ;
+        sh:path qb:dataSet ;
+        sh:severity sh:Violation;
+		sh:message "E174: Privalo būti pateikta daugiausiai viena savybės qb:dataSet reikšmė, reikšmės tipas privalo būti qb:DataSet"@lt
+    ],[
+		sh:maxCount 1 ;
+        sh:class rdfs:Resource ;
+        sh:path dqv:computedOn ;
+        sh:severity sh:Violation;
+		sh:message "E175: Privalo būti pateikta daugiausiai viena savybės dqv:computedOn reikšmė, reikšmės tipas privalo būti rdfs:Resource"@lt
+		],
+        [
+		sh:maxCount 1 ;
+        sh:nodeKind sh:Literal ;
+        sh:path dqv:value ;
+        sh:severity sh:Violation;
+		sh:message "E176: Privalo būti pateikta daugiausiai viena savybės dqv:value reikšmė, reikšmės tipas privalo būti rdfs:Literal"@lt
+		];
+    sh:targetClass dqv:QualityMeasurement  .
+
+:Relationship_Shape
+    a sh:NodeShape ;
+    sh:name "Relationship"@en ;
+	sh:name "Santykis"@lt ;
+    sh:property [
+        sh:NodeShape :DcatResource_Shape;
+        sh:minCount 1 ;
+        sh:path dct:relation ;
+        sh:severity sh:Violation;
+		sh:message "E177: Privalo būti pateikta mažiausiai viena savybės dct:relation reikšmė, reikšmės tipas privalo būti rdfs:Resource"@lt
+    ], [
+        sh:minCount 1 ;
+        sh:class dcat:Role ;
+        sh:path dcat:hadRole ;
+        sh:severity sh:Violation;
+		sh:message "E178: Privalo būti pateikta mažiausiai viena savybės dcat:hadRole reikšmė, reikšmės tipas privalo būti dcat:Role"@lt
+    ] ;
+    sh:targetClass dcat:Relationship .
+
+:Rule_Shape
+    a sh:NodeShape ;
+    sh:name "Rule"@en ;
+	sh:name "Taisyklė"@lt ;
+    sh:property [
+        sh:minCount 1 ;
+        sh:nodeKind sh:Literal ;
+        sh:path dct:description ;
+        sh:severity sh:Violation;
+		sh:message "E179: Privalo būti pateikta mažiausiai viena savybės aprašas - dct:description reikšmė, jos tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:nodeKind sh:Literal ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+        sh:path dct:identifier ;
+        sh:severity sh:Violation;
+		sh:message "E180: Privalo būti pateikta viena identifikatoriaus reikšmė"@lt
+    ], [
+        sh:minCount 1 ;
+        sh:nodeKind sh:Literal ;
+        sh:path dct:title ;
+        sh:severity sh:Violation;
+		sh:message "E181: Privalo būti pateikta bent viena savybės dct:title reikšmė, reikšmės tipas privalo būti rdfs:Literal"@lt
+    ], [
+        sh:class eli:LegalResource ;
+        sh:path cpsv:implements ;
+        sh:severity sh:Violation;
+		sh:message "E182: Savybės cpsv:implements reikšmės tipas privalo būti eli:LegalResource"@lt
+    ], [
+        sh:class dct:LinguisticSystem ;
+        sh:path dct:language ;
+        sh:severity sh:Violation;
+		sh:message "E183: Savybės dct:language reikšmės tipas privalo būti dct:LinguisticSystem"@lt
+    ], [
+        sh:minCount 1 ;
+        sh:class skos:Concept ;
+        sh:path dct:type ;
+        sh:severity sh:Violation;
+		sh:message "E184: Privalo būti pateikta bent viena savybės dct:type reikšmė, reikšmės tipas privalo būti skos:Concept "@lt
+    ] ;
+    sh:targetClass cpsv:Rule .
+
+:CategoryScheme_Shape
+    a sh:NodeShape ;
+    sh:name "Category Scheme"@en ;
+	sh:name "Kategorijų schema"@lt ;
+    sh:property [
+        sh:minCount 1 ;
+        sh:nodeKind sh:Literal ;
+        sh:path dct:title ;
+        sh:severity sh:Violation;
+		sh:message "E185: Privalo būti pateikta bent viena savybės dct:title reikšmė, reikšmės tipas privalo būti rdfs:Literal"@lt
+    ] ;
+    sh:targetClass skos:ConceptScheme .
+
+:Category_Shape
+    a sh:NodeShape ;
+    sh:name "Category"@en ;
+	sh:name "Kategorija"@lt;
+    sh:property [
+        sh:minCount 1 ;
+        sh:nodeKind sh:Literal ;
+        sh:path skos:prefLabel ;
+        sh:severity sh:Violation;
+		sh:message "E186: Privalo būti pateikta bent viena savybės skos:prefLabel reikšmė, reikšmės tipas privalo būti rdfs:Literal"@lt
+    ] ;
+    sh:targetClass skos:Concept .
+
+:DateOrDateTimeDataType_Shape
+    a sh:NodeShape ;
+    rdfs:comment "Date time date disjunction shape checks that a datatype property receives a date or a dateTime literal" ;
+    rdfs:label "Date time date disjunction" @en;
+	rdfs:label "Laiko ir datos tipas" @lt;
+    sh:message "E187: The values must be data typed as either xsd:date or xsd:dateTime"   @en;
+	sh:message "E187: Vertė privalo būti xsd:date arba xsd:dateTime tipo"   @lt;
+    sh:or ([
+            sh:datatype xsd:date
+        ]
+        [
+            sh:datatype xsd:dateTime
+        ]
+    ) .
+
+:DcatResource_Shape
+    a sh:NodeShape ;
+    rdfs:comment "the union of Catalog, Dataset and DataService"@en ;
+	rdfs:comment "Katalogas, Duomenų rinkinys ir Duomenų paslauga"@lt ;
+    rdfs:label "dcat:Resource" ;
+    sh:message "E188: The node is either a Catalog, Dataset or a DataService"@en ; 
+	sh:message "E188: Ši reikšmė gali būti Katalogas, Duomenų rinkinys arba Duomenų paslauga"@lt ;
+    sh:or ([
+            sh:class dcat:Catalog
+        ]
+        [
+            sh:class dcat:Dataset
+        ]
+        [
+            sh:class dcat:DataService
+        ]
+    ) .
+
+
+
+
+
+
+
+
+
+

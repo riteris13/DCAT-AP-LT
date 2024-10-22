@@ -13,7 +13,7 @@ Markup Shorthands: markdown yes, css no
 Translation: lt ../index.html
 Boilerplate: copyright no, spec-metadata yes, abstract no, conformance no
 
-!Latest published version: <a href="/v2.0/">DCAT-AP-LT v2.0</a>
+!Latest published version: <a href="v2.0/">DCAT-AP-LT v2.0</a>
 !Latest editors draft: No draft
 !This document is also available in these non-normative formats: <a href="https://ivpk.github.io/DCAT-AP-LT/DCAT-AP-LT.ttl">Turtle</a>
 !This document is also available in these non-normative formats: <a href="https://ivpk.github.io/DCAT-AP-LT/DCAT-AP-LT_owl.xml">RDF/XML</a>
@@ -62,7 +62,7 @@ This specification is focused on the implementation of the provisions of the Sta
 
 # Status # {#Status}
 
-DCAT-AP-LT 0.1 
+Published DCAT-AP-LT 2.0.1 technical specification
 
 # Licence # {#Licence}
 
@@ -354,6 +354,118 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
         </table>
     </dd>
 </dl>
+
+## Teisinio šaltinio tipas (dcataplt:LegalActType) ## {##TeisinioSaltinioTipas}
+
+<dl>
+    <dt>Apibrėžimas</dt>
+    <dd>Teisinių šaltinių Lietuvos Respublikoje tipų sąrašas.</dd>
+    <dt>Galimų teisinių šaltinių tipų sąrašas</dt>
+    <dd>
+        <style>
+            .data-table.simple {
+                border-collapse: separate;
+                border-spacing: 20px 0;
+            }
+        </style>
+        <table class="data-table simple">
+            <tr >
+                <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:10%">Reikšmė</th>
+        <th class="data-table__header-title--sortable" style="width:10%">URI</th>
+                <th class="data-table__header-title--sortable" style="width:10%">Range</th>
+                <th class="data-table__header-title--sortable" style="width:50%">Reikšmės aprašymas</th>
+                <th class="data-table__header-title--sortable" style="width:5%">Perpanaudojimas</th>
+                <td>-</td>
+            </tr>
+<br></br>
+            <tr class="data-table__header">
+                <td>Constitutional law</td>
+        <td>dcataplt:constitutional</td>
+                <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
+                <td>Constitutional law</td>
+                <td>P</td>
+            </tr>
+            <tr class="data-table__header">
+                <td>Legal act</td>
+        <td>dcataplt:legalAct</td>
+                <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
+                <td>Legal act.</td>      
+                <td>P</td>
+            </tr>
+            <tr class="data-table__header">
+                <td>Parliament decision</td>
+        <td>dcataplt:parliamentDecision</td>
+                <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
+                <td>Parliament decision.</td>    
+                <td>P</td>
+            </tr>
+            <tr class="data-table__header">
+                <td>Other parliament legal act</td>
+        <td>dcataplt:otherParliamentLegalAct</td>
+                <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
+                <td>Other parliament legal act.</td>    
+                <td>P</td>
+            </tr>
+            <tr class="data-table__header">
+                <td>International agreement</td>
+        <td>dcataplt:lrInternationalAgreement</td>
+                <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
+                <td>Republic of Lithuania international agreement.</td>    
+                <td>P</td>
+            </tr>
+            <tr class="data-table__header">
+                <td>President decree</td>
+        <td>dcataplt:presidentDecree</td>
+                <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
+                <td>Decree of the President of the Republic of Lithuania.</td>    
+                <td>P</td>
+            </tr>
+            <tr class="data-table__header">
+                <td>Government decision</td>
+        <td>dcataplt:governmentDecision</td>
+                <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
+                <td>Government resolution, decision or resolution.</td>    
+                <td>P</td>
+            </tr>
+            <tr class="data-table__header">
+                <td>Normative legal act</td>
+        <td>dcataplt:normativeLegalAct</td>
+                <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
+                <td>Normative legal act of ministers, government bodies, heads of other state institutions and bodies and collegial institutions.</td>    
+                <td>P</td>
+            </tr>
+            <tr class="data-table__header">
+                <td>Parliamentary board decision</td>
+        <td>dcataplt:parliamentaryBoardDecision</td>
+                <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
+                <td>Parliamentary board decision.</td>    
+                <td>P</td>
+            </tr>
+            <tr class="data-table__header"></tr>
+                <td>Bank of Lithuania normative legal act</td>
+        <td>dcataplt:lbNormativeLegalAct</td>
+                <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
+                <td>Bank of Lithuania normative legal act.</td>    
+                <td>P</td>
+            </tr>
+            <tr class="data-table__header">
+                <td>Municipal normative legal act</td>
+        <td>dcataplt:municipalNormativeLegalAct</td>
+                <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
+                <td>Municipal normative legal act.</td>    
+                <td>P</td>
+            </tr>
+            <tr class="data-table__header"></tr>
+                <td>Other legal resource</td>
+        <td>dcataplt:otherLegalResource</td>
+                <td>[skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)</td>
+                <td>Other Legal Resource.</td>    
+                <td>P</td>
+            </tr>
+        </table>
+    </dd>
+</dl>
+
 
 
 # Used BregDCAT-AP classes # {#Breg}

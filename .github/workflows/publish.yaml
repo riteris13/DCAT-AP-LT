@@ -27,20 +27,33 @@ jobs:
           python-version: ${{ env.PYTHON_VERSION }}
 
       - name: Install Bikeshed
-        run: pip install bikeshed
+        run: pip install bikeshed --quiet
 
       - name: Build documentation
         run: |
-          bikeshed spec index.bs index.html
-          bikeshed spec hvd.bs hvd.html
-          mkdir en
-          bikeshed spec index_EN.bs en/index.html
-          bikeshed spec hvd_EN.bs en/hvd.html
+          mkdir docs
+          cp uml.png docs/
+          cp 'DCAT-AP-LT metaduomenų kūrimo eiga pagal IS gyvavimo ciklo stadijas v2.0.1.pdf' docs/
+          bikeshed spec index.bs docs/index.html
+          bikeshed spec hvd.bs docs/hvd.html
+          mkdir docs/en
+          bikeshed spec index_EN.bs docs/en/index.html
+          bikeshed spec hvd_EN.bs docs/en/hvd.html
+      - name: Build v2.0
+        run: |
+          mkdir docs/v2.0
+          cp v2.0/uml.png docs/v2.0/
+          cp v2.0/'DCAT-AP-LT metaduomenų kūrimo eiga pagal IS gyvavimo ciklo stadijas v2.0.1.pdf' docs/v2.0/
+          bikeshed spec v2.0/index.bs docs/v2.0/index.html
+          bikeshed spec v2.0/hvd.bs docs/v2.0/hvd.html
+          mkdir docs/v2.0/en
+          bikeshed spec v2.0/index_EN.bs docs/v2.0/en/index.html
+          bikeshed spec v2.0/hvd_EN.bs docs/v2.0/en/hvd.html
 
       - name: Upload UI artifacts
         uses: actions/upload-pages-artifact@v2
         with:
-          path: ./
+          path: ./docs
 
   deploy:
     needs: build
