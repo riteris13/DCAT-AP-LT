@@ -3,7 +3,7 @@ Title: DCAT-AP-LT - Version 2
 Shortname: DCAT-AP-LT
 Level: 1
 Status: iso/TS
-Date: 2024-10-18
+Date: 2024-10-22
 Repository: ivpk/DCAT-AP-LT
 URL: https://ivpk.github.io/DCAT-AP-LT/en/
 Editor: VSSA, https://vssa.lrv.lt/en/
