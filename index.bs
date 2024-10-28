@@ -2787,7 +2787,7 @@ Pastaba: Teisinių išteklių aprašymai ateityje numatomi būti pateikti pagal 
                 <th class="data-table__header-title--sortable" style="width:12%">URI</th>
             </tr>
             <tr class="data-table__header">
-                <td>Viešoji institucija (PublicOrganisation)</td>
+                <td>Viešoji organizacija (PublicOrganisation)</td>
                 <td>Viešoji institucija yra Agentas, kuris atsakingas už viešųjų paslaugų teikimą. Čia naudojama klasė iš Pagrindinio institucijų žodyno, taip pat pagrįsto W3C Organizacijų ontologija.</td>
                 <td> - </td>
                 <td>[cv:PublicOrganisation](http://data.europa.eu/m8g/PublicOrganisation)</td>
