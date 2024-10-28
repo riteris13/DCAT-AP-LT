@@ -14,11 +14,11 @@ Translation: en en/index.html
 Boilerplate: copyright no, spec-metadata yes, abstract no, conformance no
 Metadata include: Editor off, This version off, Issue Tracking off, Status off, Translations off
 
-!Ši versija: <a href="v2.0/">DCAT-AP-LT v2.0</a>
+!Ši versija: <a href="https://ivpk.github.io/DCAT-AP-LT/v2.0/">DCAT-AP-LT v2.0</a>
 !Klaidų sekimas: <a href="https://github.com/ivpk/DCAT-AP-LT/issues">GitHub</a>
 !Redaktorius: <a href="https://VSSA.lrv.lt/lt/">VSSA</a>
 !Vertimas (nenorminis): <a href="en/index.html">en</a>
-!Naujausia paskelbta versija: <a href="/v2.0/">DCAT-AP-LT v2.0</a>
+!Naujausia paskelbta versija: <a href="https://ivpk.github.io/DCAT-AP-LT/v2.0/">DCAT-AP-LT v2.0</a>
 !Naujausias redaktoriaus juodraštis: Nėra
 !Šis dokumentas taip pat pateikiamas šiais nenorminiais formatais: <a href="https://ivpk.github.io/DCAT-AP-LT/DCAT-AP-LT.ttl">Turtle</a>
 !Šis dokumentas taip pat pateikiamas šiais nenorminiais formatais: <a href="https://ivpk.github.io/DCAT-AP-LT/DCAT-AP-LT_owl.xml">RDF/XML</a>
