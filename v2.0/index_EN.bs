@@ -13,7 +13,7 @@ Markup Shorthands: markdown yes, css no
 Translation: lt ../index.html
 Boilerplate: copyright no, spec-metadata yes, abstract no, conformance no
 
-!Latest published version: <a href="v2.0/">DCAT-AP-LT v2.0</a>
+!Latest published version: <a href="https://ivpk.github.io/DCAT-AP-LT/v2.0/en">DCAT-AP-LT v2.0</a>
 !Latest editors draft: No draft
 !This document is also available in these non-normative formats: <a href="https://ivpk.github.io/DCAT-AP-LT/v2.0/DCAT-AP-LT.ttl">Turtle</a>
 !This document is also available in these non-normative formats: <a href="https://ivpk.github.io/DCAT-AP-LT/v2.0/DCAT-AP-LT_owl.xml">RDF/XML</a>
