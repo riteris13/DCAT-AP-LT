@@ -43,7 +43,7 @@ High-value datasets have specific technical and legal requirements. These data s
  <li>free access and retrieval;</li>
  <li>detailed metadata descriptions.</li>
 </ul>
-Considering these features and, accordingly, the resulting requirements, in the DCAT-AP-LT model there is a need to apply additional, modified or tightened metadata model rules for high-value data sets. These rules include properties that complement DCAT-AP classes or enforce stricter binding of existing properties and are defined in <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/">DCAT-AP - in HVD</a>'s appendix.
+Considering these features and, accordingly, the resulting requirements, in the DCAT-AP-LT model there is a need to apply additional, modified or tightened metadata model rules for high-value data sets. These rules include properties that complement DCAT-AP classes or enforce stricter binding of existing properties and are defined in <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/">DCAT-AP - in HVD</a>'s appendix. In Lithuania, the descriptions of high-value data sets "as is" in the DCAT-AP HVD 2.2.0 specification, with minor changes to the legal source citation, as ELI has not yet been adopted in Lithuania. In this appendix, the LegalResource resource is an ELI attribute named id_local. The local identifier is used as the URI of the legal resource published in the Register of Legal Acts.
 
 # Acknowledgments # {#Acknowledgments}
 
