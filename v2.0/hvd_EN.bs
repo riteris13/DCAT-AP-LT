@@ -198,7 +198,7 @@ Article 3.3 requires to provide API documentation in a Union or internationally 
       <td>1..*</td>
       <td>The legislation that mandates the creation or management of the Dataset.</td>
       <td>For HVD, the value MUST include ELI http://data.europa.eu/eli/reg_impl/2023/138/oj. Since a resource can be subject to multiple legislations, there is no limit to the maximum cardinality. In Lithuania, high-value datasets are described "as is" in the DCAT-AP HVD 2.2.0 specification, with minor changes to the legal source citation, as ELI has not yet been adopted in Lithuania.
-In this appendix, the LegalResource resource is the ELI attribute named [id_local](=http://data.europa.eu/eli/ontology#id_local). Local identificator used as in [Legal Acts Register](https://www.e-tar.lt/portal/) published legal resource URI..</td>
+In this appendix, the LegalResource resource is the ELI attribute named [id_local](=http://data.europa.eu/eli/ontology#id_local). Local identificator used as in [Legal Acts Register](https://www.e-tar.lt/portal/) published legal resource URI.</td>
       <td><a href="http://data.europa.eu/eli/ontology#LegalResource">E</a></td>
     </tr>
     <tr>
@@ -238,7 +238,90 @@ In this appendix, the LegalResource resource is the ELI attribute named [id_loca
   </dd>
 </dl>
 
+## Distribution ## {##Distribution}
 
+<dl>
+    <dt>Definition</dt>
+    <dd>A physical embodiment of the Dataset in a particular format.</dd>
+    <dt>Reference in DCAT</dt>
+    <dd><a href="https://w3c.github.io/dxwg/dcat/#Class:Distribution">Link</a></dd>
+    <dt>Usage note</dt>
+    <dd>Bulk downloads should be encoded as a Distribution.</dd>
+    <dt>Properties</dt>
+    <dd>For this entity the following properties are defined: <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Distribution.accessservice">access service,</a> 
+    <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Distribution.accessURL">access URL,</a>
+    <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Distribution.applicablelegislation">applicable legislation,</a>
+    <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Distribution.licence">licence,</a>
+    <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Distribution.linkedschemas">linked schemas,</a>
+    <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Distribution.rights">rights.</a>
+    </dd>
+    <dd>
+<table>
+  <thead>
+    <tr>
+      <th>Property</th>
+      <th>Interval</th>
+      <th>Cardinality</th>
+      <th>Definition</th>
+      <th>Usage note</th>
+      <th>Reusage</th>
+    </tr>
+  </thead>
+<br></br>
+  <tbody>
+    <tr>
+      <td>[prieigos paslauga](http://www.w3.org/ns/dcat#accessService)</td>
+      <td>[Data Service](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService)</td>
+      <td>0..*</td>
+      <td>	A data service that gives access to the distribution of the dataset.</td>
+      <td>-</td>
+      <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Distribution.accessservice">A</a></td>
+    </tr>
+    <tr>
+      <td>[access URL](http://www.w3.org/ns/dcat#accessURL)</td>
+      <td>[Resource](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Resource)</td>
+      <td>1..*</td>
+      <td>A URL that gives access to a Distribution of the Dataset.</td>
+      <td>The resource at the access URL contains information about how to get the Dataset. In accordance to the DCAT guidelines it is preferred to also set the downloadURL property if the URL is a reference to a downloadable resource.</td>
+      <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Distribution.accessURL">A</a></td>
+    </tr>
+    <tr>
+      <td>[applicable Legislation](http://data.europa.eu/r5r/applicableLegislation)</td>
+      <td>[Legal Resource](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#LegalResource)</td>
+      <td>1..*</td>
+      <td>The legislation that mandates the creation or management of the Distribution.</td>
+      <td>For HVD, the value MUST include ELI http://data.europa.eu/eli/reg_impl/2023/138/oj. Since a resource can be subject to multiple legislations, there is no limit to the maximum cardinality. In Lithuania, high-value datasets are described "as is" in the DCAT-AP HVD 2.2.0 specification, with minor changes to the legal source citation, as ELI has not yet been adopted in Lithuania.
+In this appendix, the LegalResource resource is the ELI attribute named [id_local](=http://data.europa.eu/eli/ontology#id_local). Local identificator used as in [Legal Acts Register](https://www.e-tar.lt/portal/) published legal resource URI.</td>
+      <td>E</td>
+    </tr>
+    <tr>
+      <td>[licence](http://purl.org/dc/terms/license)</td>
+      <td>[Licence Document](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#LicenceDocument)</td>
+      <td>0..1</td>
+      <td>A licence under which the Distribution is made available.</td>
+      <td>Article 3.3 specifies that the terms of use should be provided. According to the guidelines for legal Information in DCAT-AP HVD this is fullfilled by providing by preference a licence. As alternative rights can be used.</td>
+      <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Distribution.licence">A</a></td>
+    </tr>
+    <tr>
+      <td>[linked schema](http://purl.org/dc/terms/conformsTo)</td>
+      <td>[Standard](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Standard)</td>
+      <td>0..*</td>
+      <td>An established schema to which the described Distribution conforms.</td>
+      <td>The provided information should enable to the verification whether the detailed information requirements by the HVD is satisfied. For more usage suggestions see section on specific data requirements.</td>
+      <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Distribution.linkedschemas">A</a></td>
+    </tr>
+    <tr>
+      <td>[rights](http://purl.org/dc/terms/rights)</td>
+      <td>[Rights statement](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Rightsstatement)</td>
+      <td>0..*</td>
+      <td>A statement that specifies rights associated with the Distribution.</td>
+      <td>Article 4.3 specifies that High-value datasets should be made available for reuse. According to the guidelines for legal Information in DCAT-AP HVD this is fullfilled by providing by preference a licence. As alternative rights can be used.</td>
+      <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Distribution.rights">A</a></td>
+    </tr>
+  </tbody>
+</table>
+  </dd>
+</dl>
 
 
 # Acknowledgments # {#Acknowledgments}
