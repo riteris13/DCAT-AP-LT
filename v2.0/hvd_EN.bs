@@ -48,121 +48,15 @@ Considering these features and, accordingly, the resulting requirements, in the 
 
 # Classes and properties used in High value datasets (DCAT-AP HVD) # {#HVDClassesAndProperties}
 
-## Catalog  ## {##Catalog}
+
+## Data service ## {##DataService}
 
 <dl>
     <dt>Definition</dt>
-    <dd>Katalogas arba saugykla, kurioje yra aprašomi duomenų rinkiniai arba duomenų paslaugos.</dd>
-    <dt>DCAT reference</dt>
-    <dd><a href="https://w3c.github.io/dxwg/dcat/#Class:Catalog">Nuoroda</a></dd>
-    <dt>Savybės</dt>
-    <dd>Apibrėžiamos šios šio objekto ypatybės: <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Catalogue.dataset">duomenų rinkinys,</a> 
-    <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Catalogue.record">įrašas,</a>
-    <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Catalogue.service">paslauga.</a>
-    </dd>
-    <dd>
-<table>
-  <thead>
-    <tr>
-      <th>Property</th>
-      <th>Interval</th>
-      <th>Cardinality</th>
-      <th>Definition</th>
-      <th>Usage note</th>
-      <th>Reusage</th>
-    </tr>
-  </thead>
-<br></br>
-  <tbody>
-    <tr>
-      <td>[duomenų rinkinys](http://www.w3.org/ns/dcat#dataset)</td>
-      <td>[Dataset](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Dataset)</td>
-      <td>0..*</td>
-      <td>Duomenų rinkinys, kuris yra dalis katalogo.</td>
-      <td>Kadangi tuščių katalogų paprastai yra problemų požymis, šią savybę reikėtų derinti su kita savybe „service“, kad būtų įgyvendinta tuščio katalogo patikra.</td>
-      <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Catalogue.dataset">A</a></td>
-    </tr>
-    <tr>
-      <td>[įrašas](http://www.w3.org/ns/dcat#record)</td>
-      <td>[Catalogue Record](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#CatalogueRecord)</td>
-      <td>0..*</td>
-      <td>Katalogo įrašas, kuris yra dalis katalogo.</td>
-      <td></td>
-      <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Catalogue.record">A</a></td>
-    </tr>
-    <tr>
-      <td>[paslauga](http://www.w3.org/ns/dcat#service)</td>
-      <td>[Data Service](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService)</td>
-      <td>0..*</td>
-      <td>Svetainė arba galutinis taškas (duomenų paslauga), kuris yra išvardytas kataloge.</td>
-      <td>Kadangi tuščių katalogų paprastai yra problemų požymis, šią savybę reikėtų derinti su ankstesne savybe „dataset“, kad būtų įgyvendinta tuščio katalogo patikra.</td>
-      <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Catalogue.service">A</a></td>
-    </tr>
-  </tbody>
-</table>
-  </dd>
-</dl>
-
-
-## Katalogo įrašas ## {##KatalogoIrasas}
-
-<dl>
-    <dt>Apibrėžimas</dt>
-    <dd>Duomenų rinkinio įrašo kataloge aprašymas.</dd>
-    <dt>DCAT nuoroda</dt>
-    <dd><a href="https://w3c.github.io/dxwg/dcat/#Class:Catalog_Record">Nuoroda</a></dd>
-    <dt>Savybės</dt>
-    <dd>Apibrėžiamos šios šio objekto ypatybės: <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#CatalogueRecord.primarytopic">pagrindinė tema,</a>
-    </dd>
-    <dd>
-<table>
-  <thead>
-    <tr>
-      <th>Property</th>
-      <th>Interval</th>
-      <th>Cardinality</th>
-      <th>Definition</th>
-      <th>Usage note</th>
-      <th>Reusage</th>
-    </tr>
-  </thead>
-<br></br>
-  <tbody>
-    <tr>
-      <td>[pagrindinė tema](http://xmlns.com/foaf/0.1/primaryTopic)</td>
-      <td>[Catalogued Resource](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#CataloguedResource)</td>
-      <td>1</td>
-      <td>Nuoroda į aprašytąjį duomenų rinkinį, duomenų paslaugą arba katalogą.</td>
-      <td>Katalogo įrašas nurodys vieną subjektą kataloge. Tai gali būti arba duomenų rinkinys, arba duomenų paslauga. Siekiant užtikrinti neambicingą kardinalumo skaitymą, diapazonas nustatomas kaip Kataloguojamas išteklius. Tačiau šio diapazono tikslas nėra reikalauti eksplicitiškai naudoti klasę Kataloguotas įrašas. Kaip abstrakti klasė, turėtų būti naudojama antrinė klasė.</td>
-      <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#CatalogueRecord.primarytopic">A</a></td>
-    </tr>
-  </tbody>
-</table>
-  </dd>
-</dl>
-
-## Katalogo išteklius ## {##KatalogoIsteklius}
-<dl>
-    <dt>Apibrėžimas</dt>
-    <dd>Šaltinis, kurį paskelbė arba kuravo vienas agentas.</dd>
-    <dt>DCAT nuoroda</dt>
-    <dd><a href="https://w3c.github.io/dxwg/dcat/#Class:Resource">Nuoroda</a></dd>
-    <dt>Naudojimo pastaba</dt>
-    <dd>Ši klasė yra laikoma kaip abstrakti sąvoka.</dd>
-    <dt>Savybės</dt>
-    <dd>Ši specifikacija nenustato jokių papildomų reikalavimų šio objekto savybėms.</dd>
-    <dd>
-  </dd>
-</dl>
-
-## Duomenų paslauga ## {##DuomenuPaslauga}
-
-<dl>
-    <dt>Apibrėžimas</dt>
-    <dd>Operacijų rinkinys, suteikiantis prieigą prie vieno ar daugiau duomenų rinkinių arba duomenų apdorojimo funkcijų.</dd>
-    <dt>DCAT nuoroda</dt>
+    <dd>A collection of operations that provides access to one or more datasets or data processing functions.</dd>
+    <dt>Reference in DCAT</dt>
     <dd><a href="https://w3c.github.io/dxwg/dcat/#Class:Data_Service">Nuoroda</a></dd>
-    <dt>Šios klasės poklasė</dt>
+    <dt>Subclass of</dt>
     <dd><a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#CataloguedResource">Katalogo resursas</a></dd>
     <dt>Savybės</dt>
     <dd>Apibrėžiamos šios šio objekto ypatybės: <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.applicablelegislation">teisinis pagrindas,</a> 
@@ -270,11 +164,11 @@ Considering these features and, accordingly, the resulting requirements, in the 
 ## Duomenų rinkinys ## {##DuomenuRinkinys}
 
 <dl>
-    <dt>Apibrėžimas</dt>
+    <dt>Definition</dt>
     <dd>Konceptualus objektas, atitinkantis paskelbtą informaciją.</dd>
-    <dt>DCAT nuoroda</dt>
+    <dt>Reference in DCAT</dt>
     <dd><a href="https://w3c.github.io/dxwg/dcat/#Class:Dataset">Nuoroda</a></dd>
-    <dt>Šios klasės poklasė</dt>
+    <dt>Subclass of</dt>
     <dd><a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#CataloguedResource">Katalogo resursas</a></dd>
     <dt>Savybės</dt>
 <dd>Apibrėžiamos šios šio objekto ypatybės: <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.applicablelegislation">teisinis pagrindas,</a> 
