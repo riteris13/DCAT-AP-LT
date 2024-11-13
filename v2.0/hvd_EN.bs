@@ -166,17 +166,17 @@ Article 3.3 requires to provide API documentation in a Union or internationally 
 
 <dl>
     <dt>Definition</dt>
-    <dd>Konceptualus objektas, atitinkantis paskelbtą informaciją.</dd>
+    <dd>A conceptual entity that represents the information published.</dd>
     <dt>Reference in DCAT</dt>
-    <dd><a href="https://w3c.github.io/dxwg/dcat/#Class:Dataset">Nuoroda</a></dd>
+    <dd><a href="https://w3c.github.io/dxwg/dcat/#Class:Dataset">Link</a></dd>
     <dt>Subclass of</dt>
-    <dd><a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#CataloguedResource">Katalogo resursas</a></dd>
-    <dt>Savybės</dt>
-<dd>Apibrėžiamos šios šio objekto ypatybės: <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.applicablelegislation">teisinis pagrindas,</a> 
-    <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Dataset.conformsto">taikymo profilis,</a>
-    <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.contactpoint">kontaktas,</a>
-    <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Dataset.datasetdistribution">duomenų rinkinio pateikimas,</a>
-    <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.HVDcategory">didelės vertės duomenų rinkinio kategorija.</a>
+    <dd><a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#CataloguedResource">Catalogue Resource</a></dd>
+    <dt>Properties</dt>
+<dd>For this entity the following properties are defined: <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.applicablelegislation">applicable legislation,</a> 
+    <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Dataset.conformsto">comforms to,</a>
+    <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.contactpoint">contact point,</a>
+    <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Dataset.datasetdistribution">dataset distribution,</a>
+    <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#DataService.HVDcategory">HVD categogy.</a>
     </dd>
     <dd>
 <table>
@@ -193,19 +193,19 @@ Article 3.3 requires to provide API documentation in a Union or internationally 
 <br></br>
   <tbody>
     <tr>
-      <td>[teisinis pagrindas](http://data.europa.eu/r5r/applicableLegislation)</td>
+      <td>[applicable legislation](http://data.europa.eu/r5r/applicableLegislation)</td>
       <td>[Legal Resource](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#LegalResource)</td>
       <td>1..*</td>
-      <td>Teisės aktai, kurie įpareigoja kurti ar valdyti duomenų rinkinį.</td>
+      <td>The legislation that mandates the creation or management of the Dataset.</td>
       <td>For HVD, the value MUST include ELI http://data.europa.eu/eli/reg_impl/2023/138/oj. Since a resource can be subject to multiple legislations, there is no limit to the maximum cardinality. In Lithuania, high-value datasets are described "as is" in the DCAT-AP HVD 2.2.0 specification, with minor changes to the legal source citation, as ELI has not yet been adopted in Lithuania.
 In this appendix, the LegalResource resource is the ELI attribute named [id_local](=http://data.europa.eu/eli/ontology#id_local). Local identificator used as in [Legal Acts Register](https://www.e-tar.lt/portal/) published legal resource URI..</td>
       <td><a href="http://data.europa.eu/eli/ontology#LegalResource">E</a></td>
     </tr>
     <tr>
-      <td>[atitinka](http://purl.org/dc/terms/conformsTo)</td>
+      <td>[conforms to](http://purl.org/dc/terms/conformsTo)</td>
       <td>[Standard](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Standard)</td>
       <td>0..*</td>
-      <td>Įgyvendinimo taisyklė ar kita specifikacija.</td>
+      <td>An implementing rule or other specification.</td>
       <td>Pateikta informacija turėtų leisti patikrinti, ar yra tenkinami išsamūs HVD informacijos reikalavimai. Daugiau naudojimo pasiūlymų žr. skyriuje apie konkrečius duomenų reikalavimus.</td>
       <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_conforms_to">A</a></td>
     </tr>
@@ -213,23 +213,23 @@ In this appendix, the LegalResource resource is the ELI attribute named [id_loca
       <td>[contact point](http://www.w3.org/ns/dcat#contactPoint)</td>
       <td>[Kind](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Kind)</td>
       <td>0..*</td>
-      <td>Kontaktinė informacija, kurią galima naudoti siunčiant pastabas apie duomenų rinkinį.</td>
+      <td>Contact information that can be used for sending comments about the Dataset.</td>
       <td>-</td>
       <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_contact_point">A</a></td>
     </tr>
     <tr>
-      <td>[duomenų rinkinio pateiktis](http://www.w3.org/ns/dcat#distribution)</td>
+      <td>[distribution](http://www.w3.org/ns/dcat#distribution)</td>
       <td>[Distribution](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Distribution)</td>
       <td>1..*</td>
-      <td>Prieinama duomenų rinkinio pateiktis.</td>
-      <td>HVD IR yra esamų duomenų rinkinių kokybės gerinimas. Tikimasi, kad HVD duomenų rinkiniai yra viešai ir atvirai prieinami. Todėl tikimasi, kad pateiktis bus pateikta. (3.1 straipsnis)</td>
+      <td>An available Distribution for the Dataset.</td>
+      <td>The HVD IR is a quality improvement of existing datasets. The intention is that HVD datasets are publicly and open accessible. Therefore a Distribution is expected to be present. (Article 3.1)</td>
       <td><a href="https://w3c.github.io/dxwg/dcat/#Property:dataset_distribution">A</a></td>
     </tr>
     <tr>
-      <td>[didelės vertės duomenų rinkinio kategorija](http://data.europa.eu/r5r/hvdCategory)</td>
+      <td>[HVD Category](http://data.europa.eu/r5r/hvdCategory)</td>
       <td>[Concept](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Concept)</td>
       <td>1..*</td>
-      <td>HVD kategorija, kuriai priklauso šis duomenų rinkinys.</td>
+      <td>The HVD category to which this Dataset belongs.</td>
       <td>-</td>
       <td>P</td>
     </tr>
