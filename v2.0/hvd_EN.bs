@@ -48,12 +48,12 @@ Considering these features and, accordingly, the resulting requirements, in the 
 
 # Classes and properties used in High value datasets (DCAT-AP HVD) # {#HVDClassesAndProperties}
 
-## Katalogas  ## {##Katalogas}
+## Catalog  ## {##Catalog}
 
 <dl>
-    <dt>Apibrėžimas</dt>
+    <dt>Definition</dt>
     <dd>Katalogas arba saugykla, kurioje yra aprašomi duomenų rinkiniai arba duomenų paslaugos.</dd>
-    <dt>DCAT nuoroda</dt>
+    <dt>DCAT reference</dt>
     <dd><a href="https://w3c.github.io/dxwg/dcat/#Class:Catalog">Nuoroda</a></dd>
     <dt>Savybės</dt>
     <dd>Apibrėžiamos šios šio objekto ypatybės: <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Catalogue.dataset">duomenų rinkinys,</a> 
@@ -64,12 +64,12 @@ Considering these features and, accordingly, the resulting requirements, in the 
 <table>
   <thead>
     <tr>
-      <th>Savybė</th>
-      <th>Intervalas</th>
-      <th>Kard</th>
-      <th>Apibrėžimas</th>
-      <th>Naudojimas</th>
-      <th>Perpanaudojimas</th>
+      <th>Property</th>
+      <th>Interval</th>
+      <th>Cardinality</th>
+      <th>Definition</th>
+      <th>Usage note</th>
+      <th>Reusage</th>
     </tr>
   </thead>
 <br></br>
@@ -118,12 +118,12 @@ Considering these features and, accordingly, the resulting requirements, in the 
 <table>
   <thead>
     <tr>
-      <th>Savybė</th>
-      <th>Intervalas</th>
-      <th>Kard</th>
-      <th>Apibrėžimas</th>
-      <th>Naudojimas</th>
-      <th>Perpanaudojimas</th>
+      <th>Property</th>
+      <th>Interval</th>
+      <th>Cardinality</th>
+      <th>Definition</th>
+      <th>Usage note</th>
+      <th>Reusage</th>
     </tr>
   </thead>
 <br></br>
@@ -179,12 +179,12 @@ Considering these features and, accordingly, the resulting requirements, in the 
 <table>
   <thead>
     <tr>
-      <th>Savybė</th>
-      <th>Intervalas</th>
-      <th>Kard</th>
-      <th>Apibrėžimas</th>
-      <th>Naudojimas</th>
-      <th>Perpanaudojimas</th>
+      <th>Property</th>
+      <th>Interval</th>
+      <th>Cardinality</th>
+      <th>Definition</th>
+      <th>Usage note</th>
+      <th>Reusage</th>
     </tr>
   </thead>
 <br></br>
@@ -287,12 +287,12 @@ Considering these features and, accordingly, the resulting requirements, in the 
 <table>
   <thead>
     <tr>
-          <th>Savybė</th>
-      <th>Intervalas</th>
-      <th>Kard</th>
-      <th>Apibrėžimas</th>
-      <th>Naudojimas</th>
-      <th>Perpanaudojimas</th>
+      <th>Property</th>
+      <th>Interval</th>
+      <th>Cardinality</th>
+      <th>Definition</th>
+      <th>Usage note</th>
+      <th>Reusage</th>
     </tr>
   </thead>
 <br></br>
