@@ -84,7 +84,7 @@ Considering these features and, accordingly, the resulting requirements, in the 
 <br></br>
   <tbody>
     <tr>
-      <td>[teisinis pagrindas](http://data.europa.eu/r5r/applicableLegislation)</td>
+      <td>[applicable legislation](http://data.europa.eu/r5r/applicableLegislation)</td>
       <td>[Legal Resource](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#LegalResource)</td>
       <td>1..*</td>
       <td>The legislation that mandates the creation or management of the Data Service.</td>
@@ -93,67 +93,68 @@ In this appendix, the LegalResource resource is the ELI attribute named [id_loca
       <td><a href="http://data.europa.eu/eli/ontology#LegalResource">E</a></td>
     </tr>
     <tr>
-      <td>[kontaktas](http://www.w3.org/ns/dcat#contactPoint)</td>
+      <td>[contact point](http://www.w3.org/ns/dcat#contactPoint)</td>
       <td>[Kind](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Kind)</td>
       <td>1..*</td>
-      <td>Kontaktinė informacija, kurią galima naudoti siunčiant pastabas apie duomenų paslaugą.</td>
-      <td>3.4 straipsnis reikalauja paskirti kontaktinį tašką API.</td>
+      <td>Contact information that can be used for sending comments about the Data Service.</td>
+      <td>Article 3.4 requires the designation of a point of contact for an API.</td>
       <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_contact_point">A</a></td>
     </tr>
     <tr>
-      <td>[dokumentacija](http://xmlns.com/foaf/0.1/Page)</td>
+      <td>[documention](http://xmlns.com/foaf/0.1/Page)</td>
       <td>[Document](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Document)</td>
       <td>1..*</td>
-      <td>Puslapis, kuriame pateikiama papildoma informacija apie duomenų paslaugą.</td>
-      <td>Paslaugų kokybė apima plačią aspektų spektrą. HVD reglamentas nenustato jokių privalomų temų. Todėl paslaugų kokybės informacija laikoma bendrosios duomenų paslaugos dokumentacijos dalimi.</td>
+      <td>A page that provides additional information about the Data Service.</td>
+      <td>Quality of service covers a broad spectrum of aspects. The HVD regulation does not list any mandatory topic. Therefore quality of service information is considered part of the generic documentation of a Data Service.</td>
       <td>P</td>
     </tr>
     <tr>
-      <td>[prieigos taško aprašymas](http://www.w3.org/ns/dcat#endpointDescription)</td>
+      <td>[endpoint description](http://www.w3.org/ns/dcat#endpointDescription)</td>
       <td>[Resource](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Resource)</td>
       <td>0..*</td>
-      <td>Aprašymas paslaugų, prieinamų per galutinius taškus, įskaitant jų operacijas, parametrus ir t.t.</td>
-      <td>Savybė pateikia konkrečias faktinių galutinių taškų detales, o dct:conformsTo naudojama nurodyti bendrąjį standartą ar specifikaciją, kurią įgyvendina galutiniai taškai. 3.3 straipsnis reikalauja pateikti API dokumentaciją Sąjungos arba tarptautiniu mastu pripažintu atviru, žmogui skaitomu ir mašinai skaitomu formatu.</td>
+      <td>A description of the services available via the end-points, including their operations, parameters etc.</td>
+      <td>The property gives specific details of the actual endpoint instances, while dct:conformsTo is used to indicate the general standard or specification that the endpoints implement.
+Article 3.3 requires to provide API documentation in a Union or internationally recognised open, human-readable and machine-readable format.</td>
       <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:data_service_endpoint_description">A</a></td>
     </tr>
     <tr>
-      <td>[prieigos taško URL](http://www.w3.org/ns/dcat#endpointURL)</td>
+      <td>[endpoint URL](http://www.w3.org/ns/dcat#endpointURL)</td>
       <td>[Resource](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Resource)</td>
       <td>1..*</td>
-      <td>Pagrindinė paslaugos vieta arba pirminis galutinis taškas (IRI).</td>
-      <td>Galutinio taško URL TURĖTŲ būti pastovus. Tai reiškia, kad leidėjai turėtų daryti viską, kas įmanoma, kad išlaikytų reikšmę stabilia ir egzistuojančia.</td>
+      <td>The root location or primary endpoint of the service (an IRI).</td>
+      <td>The endpoint URL SHOULD be persistent. This means that publishers should do everything in their power to maintain the value stable and existing.</td>
       <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:data_service_endpoint_url">A</a></td>
     </tr>
     <tr>
-      <td>[didelės vertės duomenų rinkinio kategorija](http://data.europa.eu/r5r/hvdCategory)</td>
+      <td>[HVD category](http://data.europa.eu/r5r/hvdCategory)</td>
       <td>[Concept](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Concept)</td>
       <td>1..*</td>
-      <td>HVD kategorija, kuriai priklauso ši duomenų paslauga.</td>
+      <td>The HVD category to which this Data Service belongs.</td>
       <td>-</td>
       <td>P</td>
     </tr>
     <tr>
-      <td>[licencija](http://purl.org/dc/terms/license)</td>
+      <td>[licence](http://purl.org/dc/terms/license)</td>
       <td>[Licence Document](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#LicenceDocument)</td>
       <td>0..1</td>
-      <td>Licencija, pagal kurią teikiama duomenų paslauga.</td>
-      <td>3.3 straipsnis nurodo, kad turi būti pateiktos naudojimo sąlygos. Pagal DCAT-AP HVD teisinės informacijos gaires tai įgyvendinama pirmenybė teikiant licenciją. Kaip alternatyvą gali būti naudojamos teisės.</td>
+      <td>A licence under which the Data service is made available.</td>
+      <td>Article 3.3 specifies that the terms of use should be provided. According to the guidelines for legal Information in DCAT-AP HVD this is fullfilled by providing by preference a licence. As alternative rights can be used.</td>
       <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_license">A</a></td>
     </tr>
     <tr>
-      <td>[teisės](http://purl.org/dc/terms/rights)</td>
+      <td>[rights](http://purl.org/dc/terms/rights)</td>
       <td>[Rights statement](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Rightsstatement)</td>
       <td>0..*</td>
-      <td>Deklaracija, kuriame nurodomos su platinimu susijusios teisės.</td>
-      <td>3.3 straipsnis nurodo, kad turi būti pateiktos naudojimo sąlygos. Pagal DCAT-AP HVD teisinės informacijos gaires tai įgyvendinama pirmenybė teikiant licenciją. Kaip alternatyvą gali būti naudojamos teisės.</td>
+      <td>A statement that specifies rights associated with the Distribution.</td>
+      <td>Article 3.3 specifies that the terms of use should be provided. According to the guidelines for legal Information in DCAT-AP HVD this is fullfilled by providing by preference a licence. As alternative rights can be used.</td>
       <td><a href="https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_rights">A</a></td>
     </tr>
     <tr>
-      <td>[pateikia duomenų rinkinį](http://www.w3.org/ns/dcat#servesDataset)</td>
+      <td>[serves dataset](http://www.w3.org/ns/dcat#servesDataset)</td>
       <td>[Dataset](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#Dataset)</td>
       <td>1..*</td>
-      <td>Ši savybė nurodo duomenų rinkinį, kurį ši duomenų paslauga gali platinti.</td>
-      <td>API HVD kontekste nėra atskiras išteklius. Jis naudojamas atverti HVD duomenų rinkinius. Todėl kiekviena duomenų paslauga bent jau yra glaudžiai susijusi su duomenų rinkiniu.</td>
+      <td>This property refers to a collection of data that this data service can distribute.</td>
+      <td>An API in the context of HVD is not a standalone resource. It is used to open up HVD datasets. Therefore each Data Service is at least tightly connected with a Dataset.</td>
       <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#DataService.servesdataset">E</a></td>
     </tr>
   </tbody>
