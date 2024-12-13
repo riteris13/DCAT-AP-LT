@@ -265,7 +265,7 @@ This specification is intended to support these planned data spaces and provide 
 
 
 
-## Scope ## {##Scope}
+# Scope # {##Scope}
 
 This specification is focused on the implementation of the provisions of the State Information Resources Management Law on metadata managed in information systems.
 
