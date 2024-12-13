@@ -20,6 +20,216 @@ Boilerplate: copyright no, spec-metadata yes, abstract no, conformance no
 
 </pre>
 
+# Definitions # {#Definitions}
+
+<table>
+    <tr>
+        <th>Term</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>
+        <code>Basic register</code>
+        </td>
+        <td>
+        <code>These are legal, official, and reliable central information databases that store essential Master Data about citizens, businesses, vehicles, driver's licenses, buildings, and locations. This information constitutes the master data required for providing public services.</code>
+        </td>
+    </tr>
+    <tr>
+        <td>
+        <code>DCAT</code>
+        </td>
+        <td>
+        <code>This is an international metadata vocabulary designed to describe data sets and their sources. It is used for cataloging and searching data sets, as well as for data set integration and sharing. Online access: http://www.w3.org/ns/dcat#</code>
+        </td>
+    </tr>
+    <tr>
+        <td>
+        <code>DCAT-AP</code>
+        </td>
+        <td>
+        <code>This is a specification for metadata records intended to ensure the semantic interoperability of European data portals. It is based on W3C DCAT and supports standardized descriptions of data sets that allow for effective data exchange and reuse.</code>
+        </td>
+    </tr>
+    <tr>
+        <td>
+        <code>DCAT-AP HVD</code>
+        </td>
+        <td>
+        <code>This is a special extension of DCAT-AP designed to provide a more detailed description of the reliability, quality, and other evaluation indicators of high-value data sets. This extension facilitates easier and more targeted interpretation of data quality and reliability information and contributes to the open use and interactivity of high-value data.</code>
+        </td>
+    </tr>
+    <tr>
+        <td>
+        <code>Data</code>
+        </td>
+        <td>
+        <code>Digital representations of information, documents, and/or copies thereof, including audio, video, or audio-visual recordings, as well as personal data, suitable for storing, transmitting, interpreting, and processing with information technology tools.</code>
+        </td>
+    </tr>
+    <tr>
+        <td>
+        <code>Data maturity</code>
+        </td>
+        <td>
+        <code>Data maturity is a term describing an organization's ability to systematically collect, manage, and use data. It reflects how effectively the organization uses its data and how well it is prepared for new data analysis strategies and technologies.</code>
+        </td>
+    </tr>
+    <tr>
+        <td>
+        <code>Data quality</code>
+        </td>
+        <td>
+        <code>Data quality describes the accuracy, reliability, and consistency of data, as well as the ongoing updating of data. These are the data characteristics that determine the usefulness and reliability of data for decision-making.</code>
+        </td>
+    </tr>
+    <tr>
+        <td>
+        <code>Data service</code>
+        </td>
+        <td>
+        <code>This is a set of operations that provides access to one or more data sets or data processing functionalities.</code>
+        </td>
+    </tr>
+    <tr>
+        <td>
+        <code>Data portal</code>
+        </td>
+        <td>
+        <code>This is a web system that provides a data catalog with descriptions of data sets and offers services that allow for the discovery and reuse of data sets.</code>
+        </td>
+    </tr>
+    <tr>
+        <td>
+        <code>Data set</code>
+        </td>
+        <td>
+        <code>This is a collection of data published or curated in one source, which can be obtained or downloaded in one or several formats.</code>
+        </td>
+    </tr>
+    <tr>
+        <td>
+        <code>DSA</code>
+        </td>
+        <td>
+        <code>DSA is a specification that describes the structure of data used to represent the unified state information resources in Lithuania.</code>
+        </td>
+    </tr>
+    <tr>
+        <td>
+        <code>Information system</code>
+        </td>
+        <td>
+        <code>A software suite for digitizing the operational processes of a state or municipal institution or agency, another public administration entity, a public institution, or a state-owned enterprise, to process data and/or provide administrative or public services electronically.</code>
+        </td>
+    </tr>
+<tr>
+    <td>
+    <code>Information system lifecycle</code>
+    </td>
+    <td>
+    <code>The totality of state changes of an information system from its establishment to its termination of operation.</code>
+    </td>
+</tr>
+<tr>
+    <td>
+    <code>Information system administrator</code>
+    </td>
+    <td>
+    <code>A state or municipal institution or agency, another public administration entity, a public institution, or a state-owned enterprise that ensures the operation of the information system on behalf of the information system's controller, according to established procedures.</code>
+    </td>
+</tr>
+<tr>
+    <td>
+    <code>Information system controller</code>
+    </td>
+    <td>
+    <code>A state or municipal institution or agency, another public administration entity, a public institution, or a state-owned enterprise that determines the objectives and means of operation of the information system.</code>
+    </td>
+</tr>
+<tr>
+    <td>
+    <code>Controlled vocabulary</code>
+    </td>
+    <td>
+    <code>This is a collection of terms and their definitions managed and maintained by a vocabulary publisher, which helps to uniquely tag and efficiently access information. A controlled vocabulary helps avoid the use of synonyms, erroneous terms, or variations, which can cause difficulties in finding such information.</code>
+    </td>
+</tr>
+<tr>
+    <td>
+    <code>Metadata</code>
+    </td>
+    <td>
+    <code>Descriptive information that helps to understand the structure, logic, semantics, and interrelationships of the data or data sets, as well as to find, correctly interpret, and use the provided data or their collections.</code>
+    </td>
+</tr>
+<tr>
+    <td>
+    <code>ODRL</code>
+    </td>
+    <td>
+    <code>The Open Digital Rights Language (ODRL) is a policy expression language that provides a flexible and interoperable model of information, vocabulary, and encoding mechanisms for making statements about the use of content and services. The ODRL vocabulary and expressions define the terms used in ODRL strategies and how to encode them. Online access: http://www.w3.org/ns/odrl/2/</code>
+    </td>
+</tr>
+<tr>
+    <td>
+    <code>Ontology</code>
+    </td>
+    <td>
+    <code>This is a comprehensive structure or model of knowledge that identifies and defines concepts (conceptions) and their interrelations within a specific thematic or subject area.</code>
+    </td>
+</tr>
+<tr>
+    <td>
+    <code>Master data</code>
+    </td>
+    <td>
+    <code>These are essential data required for organizing state activities, such as residents, taxes, businesses, territorial division, state property, or legislation, not limited to just these. Master data is often grouped by registers and may include related reference data.</code>
+    </td>
+</tr>
+<tr>
+    <td>
+    <code>Core vocabularies</code>
+    </td>
+    <td>
+    <code>These are simplified, reusable, and developable models of knowledge about data that capture essential characteristics of data attributes in an unbiased and syntax-neutral manner.</code>
+    </td>
+</tr>
+<tr>
+    <td>
+    <code>Extension</code>
+    </td>
+    <td>
+    <code>An additional specification or functional element that expands the capabilities of a standard to meet a specific need or situation. Extensions are used to tailor the standard to meet the needs of specific communities or to address aspects not covered by the main standard.</code>
+    </td>
+</tr>
+<tr>
+    <td>
+    <code>Reference data</code>
+    </td>
+    <td>
+    <code>This is a portion of master data that includes pre-defined, standardized data values or classification schemes that can be reused by applications, systems, data warehouses, and reports, referencing back to the reference data.</code>
+    </td>
+</tr>
+<tr>
+    <td>
+    <code>Register</code>
+    </td>
+    <td>
+    <code>A collection of data that describes a registered object or objects maintained within an information system, which is subject to specific registration conditions.</code>
+    </td>
+</tr>
+<tr>
+    <td>
+    <code>Application profile</code>
+    </td>
+    <td>
+    <code>This is a specification of a higher-level standard (or specification) adapted to a specific context or subject area, detailing mandatory, recommended, and optional elements, providing guidelines for using controlled vocabularies/refined concepts and terms. It helps ensure consistent and appropriate usage in a particular application environment.</code>
+    </td
+</tr>
+</table>
+
+
 # Introduction # {#Introduction}
 
 <dl>
