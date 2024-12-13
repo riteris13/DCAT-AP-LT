@@ -68,7 +68,26 @@ Published DCAT-AP-LT 2.0.1 technical specification
 
 The material in this model is published under the CC-BY 4.0 license, unless otherwise noted.
 
-# Terminology # {#Terminology}
+# Core Vocabularies and Terminology used # {#VocabAndTerminology}
+
+## DCAT-AP-EN Core Vocabularies and Metadata Standards 
+
+Global metadata standards and those used by the EU are important because they ensure the consistency, compatibility and quality of data across systems and organisations. They make it easy for different institutions to exchange, analyze and integrate data, and also help maintain the structure and meaning of data in the long term. Standards promote the development of open data sets by allowing them to be understood in the same way among different developers/users, thus ensuring interoperability.
+Basic metadata dictionaries (en. Core Vocabulary) and metadata standards are used in Europe and the DCAT-AP-LT specification contains:
+<li>Dublin Core (DC) is one of the most widely used standards for describing various types of information resources, such as documents, images, audio recordings, it is widely used in digital libraries, data management, state information source management systems. First published in 1995, the latest version is 1.1 updated in January 2020.</li>
+<li>DCAT (Data Catalog Vocabulary) is an RDF (Resource Description Framework) specification that allows you to describe datasets and data directories on the Internet. It is published and maintained by the World Wide Web Consortium (W3C). First released in 2014, the latest version is 3 released in August 2024.</li>
+<li>DCAT-AP (DCAT Application Profile for data portals in Europe) is an application profile based on the DCAT standard adapted to European data portals. It sets out requirements and guidelines on how data sets should be described so that they are compatible and easy to use throughout the European Union. DCAT-AP ensures that data directories are structured and standardized, facilitating the integration and availability of datasets. First released in 2013, the latest version 3 was released in August 2024."</li>
+<li>FOAF (Friend of a Friend): used to describe individual people, organizations. DCAT-AP is used to describe the IS Controller, IS Processor, describing contact information.</li>
+<li>SKOS (Simple knowledge organization system): The specification is used to categorize metadata objects using controlled dictionaries that allow metadata to be marked with standardized topics/types, such as marking a standardized value of its type in a data service class.</li>
+<li>ISA: Used to provide standardized geolocation descriptions. </li>
+<li>ADMS (Asset Description Metadata Schema): Used to describe the management/lifecycle properties of a data resource by using metadata elements such as status (to describe the state of a resource's life cycle) and other related properties. </li>
+<li>PROV-O (Provenance Ontology): Helps to capture origin information about datasets, such as the history of data creation, modifications, and usage.</li>
+<li>VCard: used to provide contact information, especially useful for explaining in detail how to contact individuals or organizations related to a data set or directory, i.e. used to refer to contact persons / organizations who are responsible for the quality of the published directories / data sets / services.</li>
+<li>ORG (Organisation ontology): complements FOAF by providing more detailed descriptions of the organization's structures and roles, allowing you to identify not only the organization that publishes the data set, but also the specific departments involved.</li>
+<li>License Vocabulary: Used to specify under which licenses data sets are issued, helping users understand the terms of use and limitations associated with the use of data.</li>
+
+
+## Terminology # {#Terminology}
 
 <table>
     <tr>
