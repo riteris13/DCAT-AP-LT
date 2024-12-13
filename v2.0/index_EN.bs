@@ -297,7 +297,7 @@ Basic metadata dictionaries (en. Core Vocabulary) and metadata standards are use
 <li>License Vocabulary: Used to specify under which licenses data sets are issued, helping users understand the terms of use and limitations associated with the use of data.</li>
 
 
-## Terminology # {#Terminology}
+## Terminology ## {##Terminology}
 
 <table>
     <tr>
@@ -584,12 +584,12 @@ Also, DCAT-AP-HVD classes and additional properties are used to describe the met
     </dd>
 </dl>
 
-## Teisinio šaltinio tipas (dcataplt:LegalActType) ## {##TeisinioSaltinioTipas}
+## Legal Act Type (dcataplt:LegalActType)
 
 <dl>
-    <dt>Apibrėžimas</dt>
-    <dd>Teisinių šaltinių Lietuvos Respublikoje tipų sąrašas.</dd>
-    <dt>Galimų teisinių šaltinių tipų sąrašas</dt>
+    <dt>Definition</dt>
+    <dd>Legal acts type in the Republic of Lithuania.</dd>
+    <dt>Available legal act types</dt>
     <dd>
         <style>
             .data-table.simple {
