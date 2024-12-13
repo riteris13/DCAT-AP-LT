@@ -225,7 +225,7 @@ Boilerplate: copyright no, spec-metadata yes, abstract no, conformance no
     </td>
     <td>
     <code>This is a specification of a higher-level standard (or specification) adapted to a specific context or subject area, detailing mandatory, recommended, and optional elements, providing guidelines for using controlled vocabularies/refined concepts and terms. It helps ensure consistent and appropriate usage in a particular application environment.</code>
-    </td
+    </td>
 </tr>
 </table>
 
